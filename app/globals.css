@@ -13,6 +13,7 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --font-roboto: 'Roboto', sans-serif;
   }
 }
 
@@ -20,6 +21,12 @@ body {
   color: rgb(var(--foreground-end-rgb));
   background: linear-gradient(to bottom, transparent, rgb(var(--foreground-end-rgb)))
     rgb(var(--foreground-rgb));
+}
+
+.hash-span {
+  margin-top: -100px;
+  padding-bottom: 100px;
+  display: block;
 }
 
 @layer utilities {

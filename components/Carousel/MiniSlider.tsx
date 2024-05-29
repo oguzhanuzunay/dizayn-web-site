@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { FreeMode, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { sliderItems } from '@/constants/texts';
+import { sliderItems } from '@/constants';
 import { sliderParam } from '@/types';
 
 import 'swiper/css';

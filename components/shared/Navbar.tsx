@@ -1,5 +1,5 @@
 'use client';
-import { languageTexts } from '@/constants/texts';
+import { languageTexts } from '@/constants';
 import { useLanguageContext } from '@/context/language';
 import Logo from '@/public/dizayn-logo.png';
 import Image from 'next/image';

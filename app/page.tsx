@@ -1,11 +1,15 @@
 import Hero from '@/components/Carousel/HeroSlider';
-import MiniSlider from '@/components/Carousel/MiniSlider';
+import CountUpComp from '@/components/CountUpComp';
+import MapComponent from '@/components/MapComponent/MapComponent';
+import NewTechPipes from '@/components/NewTechPipes';
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <MiniSlider />
+      <NewTechPipes />
+      <CountUpComp />
+      <MapComponent />
     </main>
   );
 }

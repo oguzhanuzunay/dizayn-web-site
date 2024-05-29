@@ -1,10 +1,9 @@
 import Navbar from '@/components/shared/Navbar';
-import { languageTexts } from '@/constants/texts';
+import { languageTexts } from '@/constants';
+import { LanguageProvider } from '@/context/language';
 import { Metadata } from 'next';
 // eslint-disable-next-line camelcase
-import { LanguageProvider } from '@/context/language';
 import { Roboto, Space_Grotesk } from 'next/font/google';
-
 import React from 'react';
 import './globals.css';
 
