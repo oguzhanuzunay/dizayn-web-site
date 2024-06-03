@@ -1,4 +1,10 @@
-import { countUpParams, dealerListParams, languageParams, sliderParams } from '@/types';
+import {
+  certificateListParams,
+  countUpParams,
+  dealerListParams,
+  languageParams,
+  sliderParams,
+} from '@/types';
 
 const languageTexts: languageParams = {
   en: {
@@ -8,15 +14,32 @@ const languageTexts: languageParams = {
         'Pipe, Plastic Pipe, ElitePipe, PPR pipe, PPRC pipe, PPRC Pipe, PPRC Pipe Prices, PPRC Pipe Prices',
     },
     menuList: [
-      'Dealers',
-      'Calculations',
-      'Communication',
-      'Institutional',
-      'Our projects',
-      'Certificates',
-      'Products',
-      'R&D',
+      {
+        name: 'Products',
+        submenu: [
+          {
+            name: 'Infrastructure Products',
+            description: 'Big pipe, small pipe',
+            icons: '/icons/pipe.png',
+            link: 'products/infrastructure-products',
+          },
+          {
+            name: 'Superstructure Products',
+            description: 'Big pipe, small pipe',
+            icons: '/icons/water-pipe.png',
+            link: 'products/infrastructure-products',
+          },
+        ],
+      },
+      { name: 'Dealers' },
+      { name: 'Calculations' },
+      { name: 'Communication' },
+      { name: 'Institutional' },
+      { name: 'Our projects' },
+      { name: 'Certificates' },
+      { name: 'R&D' },
     ],
+    certificates: { title: 'Our Certificates', buttonText: 'View All Certificates' },
   },
   tr: {
     meta: {
@@ -25,15 +48,32 @@ const languageTexts: languageParams = {
         'Boru, Plastik Boru, ElitePipe, PPR boru, PPRC boru, PPRC Boru, PPRC Boru Fiyatları, PPRC Boru Fiyatları',
     },
     menuList: [
-      'Bayilerimiz',
-      'Hesaplamalar',
-      'Iletişim',
-      'Kurumsal',
-      'Projelerimiz',
-      'Sertifikalar',
-      'Ürünler',
-      'AR-GE',
+      {
+        name: 'Ürünler',
+        submenu: [
+          {
+            name: 'Alt Yapı Ürünleri',
+            description: 'Büyük boru, küçük boru',
+            icons: '/icons/pipe.png',
+            link: 'ürünler/alt-yapi-urunleri',
+          },
+          {
+            name: 'Üst Yapı Ürünleri',
+            description: 'Büyük boru, küçük boru',
+            icons: '/icons/water-pipe.png',
+            link: 'ürünler/ust-yapi-urunleri',
+          },
+        ],
+      },
+      { name: 'Bayilerimiz' },
+      { name: 'Hesaplamalar' },
+      { name: 'Iletişim' },
+      { name: 'Kurumsal' },
+      { name: 'Projelerimiz' },
+      { name: 'Sertifikalar' },
+      { name: 'AR-GE' },
     ],
+    certificates: { title: 'Sertifikalarımız', buttonText: 'Tüm Sertifikaları Görüntüle' },
   },
 };
 
@@ -41,7 +81,6 @@ const sliderItems: sliderParams = {
   en: [
     {
       title: 'ElitePipe',
-      alt: 'ElitePipe ',
       image: '/productImages/product-1.png',
       description:
         'ELITEPIPE is an innovative pipe system that is durable, flexible, easy to carry, and cost-saving.',
@@ -49,7 +88,6 @@ const sliderItems: sliderParams = {
     },
     {
       title: 'SterilePipe',
-      alt: 'SterilePipe',
       image: '/productImages/product-2.png',
       description:
         'SterilePipe is a pipe system that is resistant to high temperatures and is used in many areas.',
@@ -60,7 +98,6 @@ const sliderItems: sliderParams = {
   tr: [
     {
       title: 'ElitePipe',
-      alt: 'ElitePipe ',
       image: '/productImages/product-1.png',
       description:
         'ELITEPIPE, dayanıklı, esnek, kolay taşınan ve maliyet tasarrufu sağlayan yenilikçi bir boru sistemidir.',
@@ -68,7 +105,6 @@ const sliderItems: sliderParams = {
     },
     {
       title: 'SterilePipe',
-      alt: 'SterilePipe',
       image: '/productImages/product-2.png',
       description:
         'SterilePipe, yüksek sıcaklıklara dayanıklı bir boru sistemidir ve birçok alanda kullanılmaktadır.',
@@ -180,4 +216,37 @@ const dealerList: dealerListParams = [
   },
 ];
 
-export { countUpText, dealerList, languageTexts, sliderItems };
+const certificateList: certificateListParams = [
+  {
+    id: 1,
+    title: 'ISO 9001:2015',
+    image: '/certificates/iso-9001.png',
+  },
+  {
+    id: 2,
+    title: 'ISO 14001:2004',
+    image: '/certificates/iso-14001-2004.png',
+  },
+  {
+    id: 3,
+    title: 'TSE',
+    image: '/certificates/TSE.png',
+  },
+  {
+    id: 4,
+    title: 'ISO 50001',
+    image: '/certificates/iso-50001.png',
+  },
+  {
+    id: 5,
+    title: 'OHSAS 18001',
+    image: '/certificates/ohsas-18001.png',
+  },
+  {
+    id: 6,
+    title: 'ISO 10002',
+    image: '/certificates/iso-10002.png',
+  },
+];
+
+export { certificateList, countUpText, dealerList, languageTexts, sliderItems };

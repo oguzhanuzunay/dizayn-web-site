@@ -1,6 +1,7 @@
 'use client';
 import Image from 'next/image';
 // Import Swiper React components
+import { isMobileDevice } from '@/lib/utils';
 import { motion } from 'framer-motion';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -10,7 +11,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Carousel = () => {
   return (
-    <div className="flex w-full items-center justify-center">
+    <div className="top-0 flex w-full items-center justify-center">
       <Swiper
         className="h-screen w-full"
         pagination={{
@@ -26,7 +27,7 @@ const Carousel = () => {
             layout="fill"
             objectFit="cover"
             alt="random image"
-            src="/images/slider-1.jpg"
+            src={isMobileDevice() ? '/images/sterile-mobile.png' : '/images/sterile-desktop.png'}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -39,8 +40,8 @@ const Carousel = () => {
         </SwiperSlide>
       </Swiper>
 
-      <div className="absolute bottom-32 z-10 flex w-full items-center justify-center xs:bottom-10">
-        <a href="#mini-slider">
+      <div className="absolute bottom-12 z-10 flex w-full items-center justify-center xs:bottom-10">
+        <a href="#newTechPipe">
           <div className="flex h-[64px] w-[35px] items-start justify-center rounded-3xl border-4 p-2">
             <motion.div
               animate={{

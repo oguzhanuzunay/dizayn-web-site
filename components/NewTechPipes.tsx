@@ -8,10 +8,10 @@ const NewTechPipe = () => {
   const [language] = useLanguageContext();
 
   return (
-    <div className="bg-white py-5">
+    <div className="bg-white py-5" id='newTechPipe'>
       <div className="mb-3 flex flex-1 flex-col items-center justify-center ">
         <h1 className="text-center text-4xl font-bold text-gray-900 max-sm:text-2xl">
-          ⭐Yeni Nesil Borularımız⭐
+        🚀 Yeni Nesil Borularımız 🚀
         </h1>
         <p className="font-roboto text-gray-900">
           Yeni nesil, üstün teknolojili borularımız ile tanışın.

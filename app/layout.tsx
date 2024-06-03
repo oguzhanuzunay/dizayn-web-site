@@ -1,10 +1,11 @@
-import Navbar from '@/components/shared/Navbar';
 import { languageTexts } from '@/constants';
 import { LanguageProvider } from '@/context/language';
 import { Metadata } from 'next';
+import NavigationBar from '@/components/shared/NavigationBar';
 // eslint-disable-next-line camelcase
 import { Roboto, Space_Grotesk } from 'next/font/google';
 import React from 'react';
+import { Providers } from './Providers';
 import './globals.css';
 
 const roboto = Roboto({ weight: ['300', '500', '700', '900'], subsets: ['latin'] });
@@ -25,13 +26,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <LanguageProvider>
-      <html lang="tr">
+    <html lang="tr">
+      <LanguageProvider>
         <body className={(roboto.className, spaceGrotesk.className)}>
-          <Navbar />
-          {children}
+          <Providers>
+            <NavigationBar customStyle="fixed top-0" />
+            {children}
+          </Providers>
         </body>
-      </html>
-    </LanguageProvider>
+      </LanguageProvider>
+    </html>
   );
 }

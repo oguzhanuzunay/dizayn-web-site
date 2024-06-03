@@ -9,3 +9,6 @@ export const scrollToHash = (elementId: string) => {
   const element = document.getElementById(elementId);
   element?.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
 };
+
+export const isMobileDevice = () => /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+

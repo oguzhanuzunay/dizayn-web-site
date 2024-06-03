@@ -16,7 +16,7 @@ const Navbar = () => {
         className="flex h-12 w-24 cursor-pointer items-center justify-center text-sm font-bold text-gray-800 transition duration-300 ease-in-out hover:text-blue-600"
       >
         <Link
-          className="font-spaceGrotesk font-medium text-gray-300 transition duration-300 ease-in-out hover:text-blue-700"
+          className="font-medium text-gray-300 transition duration-300 ease-in-out hover:text-blue-700"
           href={`/${pageName.toLowerCase()}`}
         >
           {pageName}

@@ -1,6 +1,6 @@
-import { dealerListParams } from '@/types';
+import { dealerListParam } from "@/types";
 
-const DealerCard = ({ id, name, phone, address, email, mapsLink, cityId }: dealerListParams) => {
+const DealerCard = ({ id, name, phone, address, email, mapsLink, cityId }: dealerListParam) => {
   return (
     <div
       key={id}

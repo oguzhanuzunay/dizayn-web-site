@@ -28,21 +28,22 @@ const MapComponent = () => {
       if (dealer.cityId === selectedCity) {
         return (
           <DealerCard
-            key={dealerList.id}
+            key={dealer.id}
             {...dealer}
           />
         );
       }
+      return null; // Add a default return statement
     });
   };
 
   return (
-    <div className="">
+    <div>
       <h2 className="text-2xl">Map Component</h2>
       <TurkeyMap
         onClick={({ plateNumber, name }) => handleCityClick(plateNumber)}
-        showTooltip
         hoverable
+        showTooltip
         cityWrapper={renderCity}
       />
 

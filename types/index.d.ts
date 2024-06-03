@@ -5,14 +5,26 @@ export interface languageParams {
       description: string;
     };
 
-    menuList: string[];
+    menuList: {
+      name: string;
+      submenu?: {
+        name: string;
+        description: string;
+        icons?: string;
+        link: string;
+      }[];
+    }[];
+
+    certificates: {
+      title: string;
+      buttonText: string;
+    };
   };
 }
 
 export interface sliderParams {
   [key: string]: {
     title: string;
-    alt: string;
     image: string;
     description: string;
     link: string;
@@ -22,7 +34,6 @@ export interface sliderParams {
 
 export interface sliderParam {
   title: string;
-  alt: string;
   image: string;
   description: string;
   link: string;
@@ -50,3 +61,22 @@ export interface dealerListParam {
 }
 
 export interface dealerListParams extends Array<dealerListParam> {}
+
+export interface certificateListParam {
+  id?: number;
+  title: string;
+  image: string;
+}
+
+export interface miniSliderParams {
+  [key: string]: {
+    id?: number;
+    title: string;
+    image: string;
+    description?: string;
+    link?: string;
+    customCSS?: string;
+  }[];
+}
+
+export interface certificateListParams extends Array<certificateListParam> {}
