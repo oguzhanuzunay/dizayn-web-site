@@ -10,14 +10,15 @@ const Bayilerimiz = () => {
 
   return (
     <div>
-      <div className="mb-5 flex h-5 w-full items-center bg-gray-500 p-5">
+      <div className="mb-0 flex h-5 w-full items-center bg-gray-500 p-5">
         <h2 className="font-spaceGrotesk text-2xl font-semibold text-white">Bayilerimiz</h2>
       </div>
       <div>
         <MapComponent />
-        <div className="absolute bottom-10 right-1 z-10">
+        <div className="absolute bottom-5 right-1 z-10 ">
           <a href={dealers.subPageLink}>
             <Image
+            
               src={dealers.imgLink}
               alt={dealers.alt}
               width={150}

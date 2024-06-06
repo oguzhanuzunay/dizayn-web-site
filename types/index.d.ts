@@ -106,6 +106,14 @@ interface CityData {
   plateNumber: number;
 }
 
+export interface calculationCardParams {
+  title: string;
+  description: string;
+  img: string;
+}
+
+export interface calculationsCardDataParams extends Array<calculationCardParams> {}
+
 export type citiesDataParams = CityData[];
 
 export interface certificateListParams extends Array<certificateListParam> {}

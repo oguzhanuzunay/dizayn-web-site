@@ -1,4 +1,5 @@
 import {
+  calculationsCardParams,
   certificateListParams,
   countUpParams,
   dealerListParams,
@@ -294,4 +295,39 @@ const certificateList: certificateListParams = [
   },
 ];
 
-export { certificateList, countUpText, dealerList, languageTexts, sliderItems };
+const calculationsCardData: calculationsCardParams = [
+  {
+    title: 'Su Darbesi Hesabı',
+    description: 'Su darbesi hesabı yapmak için tıklayınız',
+    img: '/images/su-darbesi-hesabi.jpeg',
+  },
+  {
+    title: 'Kompansatör Hesabı ',
+    description: 'Kompansatör hesabı yapmak için tıklayınız',
+    img: '/images/kompansator-hesabi.jpeg',
+  },
+  {
+    title: 'Cazibeli Hat Hesabı',
+    description: 'Cazibeli hat hesabı yapmak için tıklayınız',
+    img: '/images/cazibeli-hat-hesabi.jpeg',
+  },
+  {
+    title: 'Basınç Kaybı Hesabı',
+    description: 'Basınç kaybı hesabı yapmak için tıklayınız',
+    img: '/images/basinc-kaybı-hesabi.jpeg',
+  },
+  {
+    title: 'Korige Boru Hesabı',
+    description: 'Korige Boru Hesabı yapmak için tıklayınız',
+    img: '/images/korige-boru-hesabi.jpeg',
+  },
+];
+
+export {
+  calculationsCardData,
+  certificateList,
+  countUpText,
+  dealerList,
+  languageTexts,
+  sliderItems,
+};
