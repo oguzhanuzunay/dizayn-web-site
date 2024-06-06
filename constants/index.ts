@@ -40,7 +40,30 @@ const languageTexts: languageParams = {
       { name: 'R&D' },
     ],
     certificates: { title: 'Our Certificates', buttonText: 'View All Certificates' },
+    pages: {
+      dealers: {
+        h1: 'franchisee',
+        text: 'Please click here to become our franchisee...',
+        imgLink: '/images/bayim_olurmusunK.jpg',
+        alt: '',
+        subPageLink: '/bayimiz-ol',
+      },
+      becomeDealer: {
+        companyName: 'Company Name*',
+        fullName: 'Full Name*',
+        phone: 'Phone',
+        eMail: 'E-mail*',
+        city: 'City*',
+        annualRevenue: 'Annual Revenue Estimate',
+        numberOfSubDealers: 'Number of Sub-Dealers:',
+        numberOfProjectsWorkedOn: 'Number of Projects Worked On*',
+        subject: 'Subject*',
+        explanation: 'Explanation*',
+        buttonText: 'Send',
+      },
+    },
   },
+
   tr: {
     meta: {
       title: 'Dizayn Grup - Boru Sistemleri ve PP-R Boru Fiyatları',
@@ -74,6 +97,28 @@ const languageTexts: languageParams = {
       { name: 'AR-GE' },
     ],
     certificates: { title: 'Sertifikalarımız', buttonText: 'Tüm Sertifikaları Görüntüle' },
+    pages: {
+      dealers: {
+        h1: 'Bayilerimiz',
+        text: 'Bayimiz olmak için lütfen tıklayınız...',
+        imgLink: '/images/bayim_olurmusunK.jpg',
+        alt: 'bayimiz ol',
+        subPageLink: '/bayimiz-ol',
+      },
+      becomeDealer: {
+        companyName: 'Firma Adı*',
+        fullName: 'Ad Soyad*',
+        phone: 'Tel',
+        eMail: 'E-mail*',
+        city: 'Şehir*',
+        annualRevenue: 'Yıllık Tahmini Cironuz',
+        numberOfSubDealers: 'Alt Bayi Sayınız:',
+        numberOfProjectsWorkedOn: 'Çalışılan Proje Sayısı',
+        subject: 'Konu',
+        explanation: 'Açıkla',
+        buttonText: 'Gönder',
+      },
+    },
   },
 };
 

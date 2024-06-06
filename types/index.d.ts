@@ -19,6 +19,29 @@ export interface languageParams {
       title: string;
       buttonText: string;
     };
+
+    pages: {
+      dealers: {
+        h1: string;
+        text: string;
+        imgLink: string;
+        subPageLink: string;
+        alt: string;
+      };
+      becomeDealer: {
+        companyName: string;
+        fullName: string;
+        phone: string;
+        eMail: string;
+        city: string;
+        annualRevenue: string;
+        numberOfSubDealers: string;
+        numberOfProjectsWorkedOn: string;
+        subject: string;
+        explanation: string;
+        buttonText: string;
+      };
+    };
   };
 }
 
@@ -78,5 +101,11 @@ export interface miniSliderParams {
     customCSS?: string;
   }[];
 }
+interface CityData {
+  cityName: string;
+  plateNumber: number;
+}
+
+export type citiesDataParams = CityData[];
 
 export interface certificateListParams extends Array<certificateListParam> {}

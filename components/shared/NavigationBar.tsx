@@ -1,10 +1,10 @@
 'use client';
 import { languageTexts } from '@/constants';
 import { useLanguageContext } from '@/context/language';
-
-import { ChevronDown } from '@/public/icons/icons';
+import { usePathname } from 'next/navigation';
 
 import dizaynLogo from '@/public/dizayn-logo.png';
+import { ChevronDown } from '@/public/icons/icons';
 import {
   Button,
   Dropdown,
@@ -23,14 +23,18 @@ import {
 import Image from 'next/image';
 import React, { useState } from 'react';
 
-const NavigationBar = ({ customStyle }: { customStyle: string }) => {
+const NavigationBar = () => {
+  const pathname = usePathname();
   const [language] = useLanguageContext();
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const icons = {
     chevron: (
       <ChevronDown
         fill="currentColor"
         size={16}
+        height={16}
+        width={16}
       />
     ),
   };
@@ -97,7 +101,7 @@ const NavigationBar = ({ customStyle }: { customStyle: string }) => {
 
   return (
     <Navbar
-      className={`bg-transparent ${customStyle}`}
+      className={`bg-transparent ${pathname === '/' ? 'fixed top-0' : 'static'}`}
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
       height={'50px'}

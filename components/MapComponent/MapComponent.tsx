@@ -39,7 +39,6 @@ const MapComponent = () => {
 
   return (
     <div>
-      <h2 className="text-2xl">Map Component</h2>
       <TurkeyMap
         onClick={({ plateNumber, name }) => handleCityClick(plateNumber)}
         hoverable

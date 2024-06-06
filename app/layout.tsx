@@ -1,7 +1,8 @@
+import NavigationBar from '@/components/shared/NavigationBar';
 import { languageTexts } from '@/constants';
 import { LanguageProvider } from '@/context/language';
+
 import { Metadata } from 'next';
-import NavigationBar from '@/components/shared/NavigationBar';
 // eslint-disable-next-line camelcase
 import { Roboto, Space_Grotesk } from 'next/font/google';
 import React from 'react';
@@ -30,7 +31,7 @@ export default function RootLayout({
       <LanguageProvider>
         <body className={(roboto.className, spaceGrotesk.className)}>
           <Providers>
-            <NavigationBar customStyle="fixed top-0" />
+            <NavigationBar />
             {children}
           </Providers>
         </body>
