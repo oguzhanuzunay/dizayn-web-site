@@ -145,7 +145,7 @@ const NavigationBar = () => {
       </NavbarContent>
 
       {/* Mobile Content */}
-      <NavbarMenu className="!bg-transparent">
+      <NavbarMenu className={`${pathname === '/' ? '!bg-transparent' : 'bg-white'}`}>
         {languageTexts[language].menuList.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link

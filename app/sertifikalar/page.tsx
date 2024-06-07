@@ -1,0 +1,51 @@
+'use client';
+import { countryList } from '@/constants';
+import { useLanguageContext } from '@/context/language';
+import { SectionWrapper } from '@/hoc';
+import { Card, CardBody, CardFooter, Image, Link } from '@nextui-org/react';
+
+const Certificates = () => {
+  const [language] = useLanguageContext();
+  const list = countryList[language];
+
+  return (
+    <div>
+      <div className="mb-0 flex h-5 w-full items-center bg-gray-500 p-5">
+        <h2 className="font-spaceGrotesk text-2xl font-semibold text-white">Sertifikalarımız</h2>
+      </div>
+      <div className="my-4 grid grid-cols-5 items-center justify-between gap-3 max-md:flex max-sm:flex-col">
+        {list.map((item, index) => (
+          <Link
+            href={`/sertifikalar/${item.code}`}
+            key={index}
+          >
+            <Card
+              shadow="sm"
+              isPressable
+              onPress={() => console.log('item pressed')}
+              className="flex size-[200px] flex-col items-center justify-between p-0 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:grayscale-0"
+            >
+              <CardBody className="overflow-visible p-0">
+                <Image
+                  shadow="sm"
+                  radius="lg"
+                  width="100%"
+                  alt={item.name}
+                  className="h-[140px] max-w-[200px] object-cover"
+                  src={`
+                https://flagcdn.com/${item.code}.svg
+               `}
+                />
+              </CardBody>
+              <CardFooter className="w-[200px] justify-between text-xs">
+                <b>{item.title}</b>
+              </CardFooter>
+            </Card>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default SectionWrapper(Certificates, 'Certificates');

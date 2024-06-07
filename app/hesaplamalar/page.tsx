@@ -1,5 +1,6 @@
 'use client';
 import { calculationsCardData } from '@/constants';
+import { useLanguageContext } from '@/context/language';
 import { SectionWrapper } from '@/hoc';
 import { calculationCardParams } from '@/types';
 import { Card, CardBody, CardHeader, Image } from '@nextui-org/react';
@@ -24,6 +25,9 @@ const CalculationCard = ({ title, description, img }: calculationCardParams) => 
 };
 
 const Hesaplamalar = () => {
+  const [language] = useLanguageContext();
+  const list = calculationsCardData[language];
+
   return (
     <div>
       <div className="mb-5 flex size-full flex-col items-start bg-gray-500 p-5">
@@ -35,8 +39,8 @@ const Hesaplamalar = () => {
         Doğru hesaplama yapabilmek için aşağıdaki seçeneklerden uygun seçeneği seçiniz.
       </h4>
 
-      <div className="my-5 grid grid-cols-5 items-center gap-5 justify-self-stretch max-lg:grid-cols-3 max-sm:grid-cols-2">
-        {calculationsCardData.map((item: calculationCardParams) => (
+      <div className="my-5 grid grid-cols-5 place-items-center items-center justify-center gap-5 justify-self-center max-lg:grid-cols-3 max-sm:grid-cols-1">
+        {list.map((item: calculationCardParams) => (
           <CalculationCard
             key={item.title}
             title={item.title}

@@ -112,8 +112,23 @@ export interface calculationCardParams {
   img: string;
 }
 
-export interface calculationsCardDataParams extends Array<calculationCardParams> {}
+export interface calculationsCardDataParams {
+  [key: string]: calculationCardParams[];
+}
 
 export type citiesDataParams = CityData[];
 
 export interface certificateListParams extends Array<certificateListParam> {}
+
+export interface countryListParams {
+  [key: string]: {
+    name: string;
+    code: string;
+    title: string;
+    allPDFs: {
+      name: string;
+      image: string;
+      link: string;
+    }[];
+  }[];
+}

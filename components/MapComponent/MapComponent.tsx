@@ -1,12 +1,16 @@
 'use client';
-import { dealerList } from '@/constants';
+import { dealerList, languageTexts } from '@/constants';
+import { useLanguageContext } from '@/context/language';
 import { scrollToHash } from '@/lib/utils';
+import Image from 'next/image';
 import { useState } from 'react';
 import TurkeyMap from 'turkey-map-react';
 import DealerCard from '../cards/DealerCard';
 import './MapComponent.css';
 
-const MapComponent = () => {
+const MapComponent = ({ show }: { show: boolean }) => {
+  const [language] = useLanguageContext();
+  const dealers = languageTexts[language].pages.dealers;
   const [selectedCity, setSelectedCity] = useState(0);
 
   const handleCityClick = (cityId: number) => {
@@ -39,12 +43,30 @@ const MapComponent = () => {
 
   return (
     <div>
-      <TurkeyMap
-        onClick={({ plateNumber, name }) => handleCityClick(plateNumber)}
-        hoverable
-        showTooltip
-        cityWrapper={renderCity}
-      />
+      <div className="relative">
+        <TurkeyMap
+          onClick={({ plateNumber, name }) => handleCityClick(plateNumber)}
+          hoverable
+          showTooltip
+          cityWrapper={renderCity}
+        />
+        <div
+          className={`absolute bottom-5 right-0 z-10 max-md:max-w-40 max-sm:max-w-24
+          ${show ? '' : 'hidden'}`}
+        >
+          <a href={dealers.subPageLink}>
+            <Image
+              src={dealers.imgLink}
+              alt={dealers.alt}
+              width={150}
+              height={150}
+            />
+            <p className={`font-roboto text-lg max-md:text-tiny ${show ? ' max-md:hidden' : ''}`}>
+              {dealers.text}
+            </p>
+          </a>
+        </div>
+      </div>
 
       {!!renderDealerList() && (
         <div

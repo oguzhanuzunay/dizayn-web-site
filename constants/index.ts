@@ -1,7 +1,8 @@
 import {
-  calculationsCardParams,
+  calculationsCardDataParams,
   certificateListParams,
   countUpParams,
+  countryListParams,
   dealerListParams,
   languageParams,
   sliderParams,
@@ -76,16 +77,16 @@ const languageTexts: languageParams = {
         name: 'Ürünler',
         submenu: [
           {
-            name: 'Alt Yapı Ürünleri',
-            description: 'Büyük boru, küçük boru',
-            icons: '/icons/pipe.png',
-            link: 'ürünler/alt-yapi-urunleri',
-          },
-          {
             name: 'Üst Yapı Ürünleri',
             description: 'Büyük boru, küçük boru',
             icons: '/icons/water-pipe.png',
             link: 'ürünler/ust-yapi-urunleri',
+          },
+          {
+            name: 'Alt Yapı Ürünleri',
+            description: 'Büyük boru, küçük boru',
+            icons: '/icons/pipe.png',
+            link: 'ürünler/alt-yapi-urunleri',
           },
         ],
       },
@@ -295,38 +296,201 @@ const certificateList: certificateListParams = [
   },
 ];
 
-const calculationsCardData: calculationsCardParams = [
-  {
-    title: 'Su Darbesi Hesabı',
-    description: 'Su darbesi hesabı yapmak için tıklayınız',
-    img: '/images/su-darbesi-hesabi.jpeg',
-  },
-  {
-    title: 'Kompansatör Hesabı ',
-    description: 'Kompansatör hesabı yapmak için tıklayınız',
-    img: '/images/kompansator-hesabi.jpeg',
-  },
-  {
-    title: 'Cazibeli Hat Hesabı',
-    description: 'Cazibeli hat hesabı yapmak için tıklayınız',
-    img: '/images/cazibeli-hat-hesabi.jpeg',
-  },
-  {
-    title: 'Basınç Kaybı Hesabı',
-    description: 'Basınç kaybı hesabı yapmak için tıklayınız',
-    img: '/images/basinc-kaybı-hesabi.jpeg',
-  },
-  {
-    title: 'Korige Boru Hesabı',
-    description: 'Korige Boru Hesabı yapmak için tıklayınız',
-    img: '/images/korige-boru-hesabi.jpeg',
-  },
-];
+const calculationsCardData: calculationsCardDataParams = {
+  en: [
+    {
+      title: 'Water Hammer Calculation',
+      description: 'Click to calculate water hammer',
+      img: '/images/su-darbesi-hesabi.jpeg',
+    },
+    {
+      title: 'Compensator Calculation',
+      description: 'Click to calculate compensator',
+      img: '/images/kompansator-hesabi.jpeg',
+    },
+    {
+      title: 'Gravity Line Calculation',
+      description: 'Click to calculate gravity line',
+      img: '/images/cazibeli-hat-hesabi.jpeg',
+    },
+    {
+      title: 'Pressure Loss Calculation',
+      description: 'Click to calculate pressure loss',
+      img: '/images/basinc-kaybı-hesabi.jpeg',
+    },
+    {
+      title: 'Korige Pipe Calculation',
+      description: 'Click to calculate korige pipe',
+      img: '/images/korige-boru-hesabi.jpeg',
+    },
+  ],
+
+  tr: [
+    {
+      title: 'Su Darbesi Hesabı',
+      description: 'Su darbesi hesabı yapmak için tıklayınız',
+      img: '/images/su-darbesi-hesabi.jpeg',
+    },
+    {
+      title: 'Kompansatör Hesabı ',
+      description: 'Kompansatör hesabı yapmak için tıklayınız',
+      img: '/images/kompansator-hesabi.jpeg',
+    },
+    {
+      title: 'Cazibeli Hat Hesabı',
+      description: 'Cazibeli hat hesabı yapmak için tıklayınız',
+      img: '/images/cazibeli-hat-hesabi.jpeg',
+    },
+    {
+      title: 'Basınç Kaybı Hesabı',
+      description: 'Basınç kaybı hesabı yapmak için tıklayınız',
+      img: '/images/basinc-kaybı-hesabi.jpeg',
+    },
+    {
+      title: 'Korige Boru Hesabı',
+      description: 'Korige Boru Hesabı yapmak için tıklayınız',
+      img: '/images/korige-boru-hesabi.jpeg',
+    },
+  ],
+};
+
+const countryList: countryListParams = {
+  en: [
+    {
+      name: 'Germany',
+      code: 'de',
+      title: 'Germany Certificates',
+      allPDFs: [
+        {
+          name: 'ELITE BORU TSE DENEY RAPORU (TS EN ISO 1167)',
+          img: '',
+          link: '/certificates/elite-boru-tse-deney-raporu-ts-en-iso-1167.pdf',
+        },
+      ],
+    },
+    {
+      name: 'Russia',
+      code: 'ru',
+      title: 'Russia Certificates',
+    },
+    {
+      name: 'Romania',
+      code: 'ro',
+      title: 'Romania Certificates',
+    },
+    {
+      name: 'Turkey',
+      code: 'tr',
+      title: 'Turkey TSE Certificates and Test Reports',
+    },
+    {
+      name: 'Belarus',
+      code: 'by',
+      title: 'Belarus Certificates',
+    },
+    {
+      name: 'Ukraine',
+      code: 'ua',
+      title: 'Ukraine Certificates',
+    },
+    {
+      name: 'Poland',
+      code: 'pl',
+      title: 'Poland Certificates',
+    },
+  ],
+  tr: [
+    {
+      name: 'Almanya',
+      code: 'de',
+      title: 'Almanya Sertifikaları',
+    },
+    {
+      name: 'Türkiye',
+      code: 'tr',
+      title: 'Türkiye TSE Sertifikaları ve Test Raporları',
+      allPDFs: [
+        {
+          name: 'ELITE BORU TSE DENEY RAPORU (TS EN ISO 1167)',
+          image: '/certificates/files/tr/imgs/elite-boru-tse-deney-raporu-ts-en-iso-1167.jpg',
+          link: '/certificates/files/tr/pdfs/elite-boru-tse-deney-raporu-ts-en-iso-1167.pdf',
+        },
+        {
+          name: 'ELITE BORU TSE DENEY RAPORU (TS EN ISO 1167)',
+          image: '/certificates/files/tr/imgs/elite-boru-tse-deney-raporu-ts-en-iso-1167.jpg',
+          link: '/certificates/files/tr/pdfs/elite-boru-tse-deney-raporu-ts-en-iso-1167.pdf',
+        },
+        {
+          name: 'ELITE BORU TSE DENEY RAPORU (TS EN ISO 1167)',
+          image: '/certificates/files/tr/imgs/elite-boru-tse-deney-raporu-ts-en-iso-1167.jpg',
+          link: '/certificates/files/tr/pdfs/elite-boru-tse-deney-raporu-ts-en-iso-1167.pdf',
+        },
+        {
+          name: 'ELITE BORU TSE DENEY RAPORU (TS EN ISO 1167)',
+          image: '/certificates/files/tr/imgs/elite-boru-tse-deney-raporu-ts-en-iso-1167.jpg',
+          link: '/certificates/files/tr/pdfs/elite-boru-tse-deney-raporu-ts-en-iso-1167.pdf',
+        },
+        {
+          name: 'ELITE BORU TSE DENEY RAPORU (TS EN ISO 1167)',
+          image: '/certificates/files/tr/imgs/elite-boru-tse-deney-raporu-ts-en-iso-1167.jpg',
+          link: '/certificates/files/tr/pdfs/elite-boru-tse-deney-raporu-ts-en-iso-1167.pdf',
+        },
+        {
+          name: 'ELITE BORU TSE DENEY RAPORU (TS EN ISO 1167)',
+          image: '/certificates/files/tr/imgs/elite-boru-tse-deney-raporu-ts-en-iso-1167.jpg',
+          link: '/certificates/files/tr/pdfs/elite-boru-tse-deney-raporu-ts-en-iso-1167.pdf',
+        },
+        {
+          name: 'ELITE BORU TSE DENEY RAPORU (TS EN ISO 1167)',
+          image: '/certificates/files/tr/imgs/elite-boru-tse-deney-raporu-ts-en-iso-1167.jpg',
+          link: '/certificates/files/tr/pdfs/elite-boru-tse-deney-raporu-ts-en-iso-1167.pdf',
+        },
+        {
+          name: 'ELITE BORU TSE DENEY RAPORU (TS EN ISO 1167)',
+          image: '/certificates/files/tr/imgs/elite-boru-tse-deney-raporu-ts-en-iso-1167.jpg',
+          link: '/certificates/files/tr/pdfs/elite-boru-tse-deney-raporu-ts-en-iso-1167.pdf',
+        },
+        {
+          name: 'ELITE BORU TSE DENEY RAPORU (TS EN ISO 1167)',
+          image: '/certificates/files/tr/imgs/elite-boru-tse-deney-raporu-ts-en-iso-1167.jpg',
+          link: '/certificates/files/tr/pdfs/elite-boru-tse-deney-raporu-ts-en-iso-1167.pdf',
+        },
+      ],
+    },
+    {
+      name: 'Romanya',
+      code: 'ro',
+      title: 'Romanya Sertifikaları',
+    },
+
+    {
+      name: 'Rusya',
+      code: 'ru',
+      title: 'Rusya Sertifikaları',
+    },
+    {
+      name: 'Beyaz Rusya',
+      code: 'by',
+      title: 'Beyaz Rusya Sertifikaları',
+    },
+    {
+      name: 'Ukrayna',
+      code: 'ua',
+      title: 'Ukrayna Sertifikaları',
+    },
+    {
+      name: 'Polonya',
+      code: 'pl',
+      title: 'Polonya Sertifikaları',
+    },
+  ],
+};
 
 export {
   calculationsCardData,
   certificateList,
   countUpText,
+  countryList,
   dealerList,
   languageTexts,
   sliderItems,
