@@ -68,11 +68,11 @@ const BayimizOl = () => {
         <h2 className="font-spaceGrotesk text-2xl font-semibold text-white">Bayimiz Ol</h2>
       </div>
 
-      <div>
+      <div className="py-5">
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
-            className="space-y-8"
+            className="space-y-8 max-sm:space-y-3"
           >
             <div className="flex flex-1 flex-row items-end justify-between gap-10">
               <FormField

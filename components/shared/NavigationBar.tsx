@@ -90,7 +90,7 @@ const NavigationBar = () => {
                     ) : null
                   }
                 >
-                  <Link href={`/${item.name.toLowerCase()}`}>{item.name}</Link>
+                  <Link href={item.link}>{item.name}</Link>
                 </DropdownItem>
               ))}
             </DropdownMenu>
@@ -160,7 +160,7 @@ const NavigationBar = () => {
                 <Link
                   key={`${subItem}-${subIndex}`}
                   className="w-full pl-4 text-gray-900"
-                  href={`/${subItem.name}`}
+                  href={`${subItem.link}`}
                   size="lg"
                 >
                   <Image

@@ -4,8 +4,11 @@ import { useLanguageContext } from '@/context/language';
 import { Button } from '@nextui-org/react';
 import Image from 'next/image';
 
+import { useRouter } from 'next/navigation';
+
 const Certificates = () => {
   const [language] = useLanguageContext();
+  const router = useRouter();
 
   return (
     <div className="flex size-full flex-col items-center justify-center gap-5 bg-gray-500 px-3 py-6 max-sm:flex-nowrap">
@@ -33,7 +36,10 @@ const Certificates = () => {
         ))}
       </div>
       <div>
-        <Button className="hover:text-blue-600">
+        <Button
+          className="hover:text-blue-600"
+          onClick={() => router.push('/sertifikalar')}
+        >
           {languageTexts[language].certificates.buttonText}
         </Button>
       </div>
