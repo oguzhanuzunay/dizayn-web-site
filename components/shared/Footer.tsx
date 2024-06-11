@@ -26,8 +26,8 @@ const Footer = () => {
 
         {/* highlighted part */}
         <div
-          className="flex h-full w-[4/5] flex-row  items-center justify-between gap-8 py-10 max-md:justify-center max-md:gap-6 max-md:pt-3 max-sm:gap-4
-        max-sm:pt-0"
+          className="flex h-full w-[4/5] flex-row  flex-wrap items-center justify-between gap-8 py-10 max-md:justify-center max-md:gap-6 max-md:pt-3
+        max-sm:gap-4 max-sm:pt-0"
         >
           {imageContent.map((item) => (
             <div
@@ -57,7 +57,7 @@ const Footer = () => {
 
       <div className=" h-full bg-slate-100 px-8 py-10  max-md:py-8 max-sm:py-6">
         {/* Social Media part */}
-        <div className="grid grid-cols-4 items-center justify-around gap-5 pb-5 max-sm:grid-cols-2 max-sm:justify-center max-sm:gap-1">
+        <div className="grid grid-cols-4 items-center justify-around gap-5 pb-5 max-sm:grid-cols-2 max-sm:justify-between max-sm:gap-1">
           {footerContent.socialMedia.map((item) => (
             <Link
               key={item.name}
