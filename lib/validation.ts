@@ -11,7 +11,7 @@ export const becomeOurDealerSchema = z.object({
     .string({ required_error: 'Lütfen adınızı ve soyadınızı giriniz.' })
     .min(5, 'Adınız ve soyadınız en az 5 karakter olmalıdır.')
     .max(50, 'Adınız ve soyadınız en fazla 50 karakter olmalıdır.'),
-  phone: z.array(z.string().min(1).max(15)).min(1).max(3),
+  phone: z.string({ required_error: 'Lütfen telefon numaranızı giriniz.' }).min(10).max(15),
   eMail: z.string({ required_error: 'Lütfen e-posta adresinizi giriniz.' }).email(),
   city: z.string({ required_error: 'Lütfen şehir seçiniz.' }).min(5).max(15),
   annualRevenue: z.number().min(1000).max(50000000),
