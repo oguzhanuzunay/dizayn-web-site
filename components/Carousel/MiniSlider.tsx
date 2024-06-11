@@ -19,7 +19,7 @@ const MiniCard = ({ item }: { item: sliderParam }) => (
     <div className="flex flex-col items-center justify-between">
       <Image
         src={item.image}
-        alt={item.alt}
+        alt={item.title}
         width={100}
         height={100}
       />

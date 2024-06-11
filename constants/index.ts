@@ -49,7 +49,7 @@ const languageTexts: languageParams = {
         imgLink: '/images/bayim_olurmusunK.jpg',
         alt: '',
         subPageLink: '/bayimiz-ol',
-      },
+      },z
       becomeDealer: {
         companyName: 'Company Name*',
         fullName: 'Full Name*',
