@@ -35,7 +35,7 @@ import { citiesData } from '@/database/allCities';
 
 const BayimizOl = () => {
   const [language] = useLanguageContext();
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  // const [isSubmitting, setIsSubmitting] = useState(false);
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState('');
   const formText = languageTexts[language].pages.becomeDealer;
