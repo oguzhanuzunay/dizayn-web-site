@@ -8,6 +8,7 @@ import { Roboto, Space_Grotesk } from 'next/font/google';
 import React from 'react';
 import { Providers } from './Providers';
 import './globals.css';
+import Footer from '@/components/shared/Footer';
 
 const roboto = Roboto({ weight: ['300', '500', '700', '900'], subsets: ['latin'] });
 const spaceGrotesk = Space_Grotesk({
@@ -33,6 +34,7 @@ export default function RootLayout({
           <Providers>
             <NavigationBar />
             {children}
+            <Footer />
           </Providers>
         </body>
       </LanguageProvider>

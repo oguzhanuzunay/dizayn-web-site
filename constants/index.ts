@@ -4,9 +4,9 @@ import {
   countUpParams,
   countryListParams,
   dealerListParams,
-  languageParams,
   sliderParams,
 } from '@/types';
+import { languageParams } from '@/types/languageParams';
 
 const languageTexts: languageParams = {
   en: {
@@ -64,6 +64,168 @@ const languageTexts: languageParams = {
         buttonText: 'Send',
       },
     },
+    footer: {
+      imageContent: [
+        {
+          title: 'Industry Leader',
+          image: '/icons/yerli-üretim.svg',
+          alt: 'Domestic Production',
+        },
+        {
+          title: '1st Class Raw Material',
+          image: '/icons/raw.png',
+          alt: 'ElitePipe',
+        },
+        {
+          title: 'High Technology',
+          image: '/icons/high-tech.png',
+          alt: 'SterilePipe',
+        },
+      ],
+
+      footerContent: {
+        companyInformation: [
+          {
+            title: 'Address',
+            text: 'Design Group: Atatürk Mahallesi Adnan Menderes Caddesi No:6 - 34522 / Kıraç Esenyurt  /  ISTANBUL  /  TURKEY',
+            image: '/icons/address.png',
+            alt: 'address',
+          },
+
+          {
+            title: 'Phone',
+            text: '0212 886 57 41',
+            image: '/icons/phone-call.png',
+            alt: 'phone',
+          },
+          {
+            title: 'Fax',
+            text: '0212 886 57 42',
+            image: '/icons/fax-machine.png',
+            alt: 'fax',
+          },
+          {
+            title: 'E-mail',
+            text: 'info@dizayngrup.com',
+            image: '/icons/email.png',
+            alt: 'email',
+          },
+        ],
+        socialMedia: [
+          {
+            name: 'Facebook',
+            link: 'https://www.facebook.com/dizayngroup',
+            image: '/icons/facebook.png',
+            alt: 'facebook',
+          },
+          {
+            name: 'Instagram',
+            link: 'https://www.instagram.com/dizayngrup',
+            image: '/icons/instagram.png',
+            alt: 'instagram',
+          },
+          {
+            name: 'Linkedin',
+            link: 'https://www.linkedin.com/company/dizayngrup',
+            image: '/icons/linkedin.png',
+            alt: 'linkedin',
+          },
+          {
+            name: 'Youtube',
+            link: 'https://www.youtube.com/@dizayngrup',
+            image: '/icons/youtube.png',
+            alt: 'youtube',
+          },
+        ],
+        links: [
+          {
+            title: 'Design Group',
+            content: [
+              {
+                title: 'Institutional',
+                link: '/kurumsal',
+              },
+              {
+                title: 'Mission and Vision',
+                link: '/misyon-vizyon',
+              },
+              {
+                title: 'Awards and Achievements',
+                link: '/oduller',
+                highlight: true,
+              },
+              {
+                title: 'Commitment',
+                link: '/taahhutname',
+              },
+            ],
+          },
+          {
+            title: 'Products',
+            content: [
+              {
+                title: 'ElitePipe',
+                link: '/elitepipe',
+              },
+              {
+                title: 'SterilePipe',
+                link: '/sterilepipe',
+              },
+              {
+                title: 'Superstructure Products',
+                link: '/products/superstructure-products',
+              },
+              {
+                title: 'Infrastructure Products',
+                link: '/products/infrastructure-products',
+              },
+            ],
+          },
+          {
+            title: 'Services',
+            content: [
+              {
+                title: 'Calculations',
+                link: '/hesaplamalar',
+              },
+              {
+                title: 'Dealers',
+                link: '/bayiler',
+              },
+              {
+                title: 'Our Projects',
+                link: '/projeler',
+              },
+              {
+                title: 'Certificates',
+                link: '/sertifikalar',
+              },
+            ],
+          },
+          {
+            title: 'Communication',
+            content: [
+              {
+                title: 'Communication',
+                link: '/iletisim',
+              },
+              {
+                title: 'Become a Dealer',
+                link: '/bayimiz-ol',
+              },
+              {
+                title: 'Career',
+                link: '/kariyer',
+              },
+              {
+                title: 'Human Resources',
+                link: '/insan-kaynaklari',
+              },
+            ],
+          },
+        ],
+      },
+    },
   },
 
   tr: {
@@ -119,6 +281,176 @@ const languageTexts: languageParams = {
         subject: 'Konu',
         explanation: 'Açıkla',
         buttonText: 'Gönder',
+      },
+    },
+    footer: {
+      imageContent: [
+        {
+          title: 'Sektör Lideri',
+          image: '/icons/yerli-üretim.svg',
+          alt: 'Yerli Üretim',
+        },
+        {
+          title: '1. Sınıf Hammadde',
+          image: '/icons/raw.png',
+          alt: 'ElitePipe',
+        },
+        {
+          title: 'Yüksek Teknoloji',
+          image: '/icons/high-tech.png',
+          alt: 'SterilePipe',
+        },
+      ],
+
+      footerContent: {
+        companyInformation: [
+          {
+            title: 'Adres',
+            text: 'Dizayn Grup : Atatürk Mahallesi Adnan Menderes Caddesi No:6 - 34522 / Kıraç Esenyurt  /  İSTANBUL  /  TÜRKİYE',
+            image: '/icons/address.png',
+            alt: 'address',
+          },
+
+          {
+            title: 'Telefon',
+            text: '0212 886 57 41',
+            image: '/icons/phone-call.png',
+            alt: 'phone',
+          },
+          {
+            title: 'Fax',
+            text: '0212 886 57 42',
+            image: '/icons/fax-machine.png',
+            alt: 'fax',
+          },
+          {
+            title: 'E-mail',
+            text: 'info@dizayngrup.com',
+            image: '/icons/email.png',
+            alt: 'email',
+          },
+        ],
+        socialMedia: [
+          {
+            name: 'Facebook',
+            link: 'https://www.facebook.com/dizayngroup',
+            image: '/icons/facebook.png',
+            alt: 'facebook',
+          },
+          {
+            name: 'Instagram',
+            link: 'https://www.instagram.com/dizayngrup',
+            image: '/icons/instagram.png',
+            alt: 'instagram',
+          },
+          {
+            name: 'Linkedin',
+            link: 'https://www.linkedin.com/company/dizayngrup',
+            image: '/icons/linkedin.png',
+            alt: 'linkedin',
+          },
+          {
+            name: 'Youtube',
+            link: 'https://www.youtube.com/@dizayngrup',
+            image: '/icons/youtube.png',
+            alt: 'youtube',
+          },
+        ],
+        links: [
+          {
+            title: 'Dizayn Grup',
+            image: '/icons/company.png',
+            alt: 'company icon',
+            content: [
+              {
+                title: 'Kurumsal',
+                link: '/kurumsal',
+              },
+              {
+                title: 'Misyon ve Vizyon',
+                link: '/misyon-vizyon',
+              },
+              {
+                title: 'Ödüller ve Başarılar',
+                link: '/oduller',
+                highlight: true,
+              },
+              {
+                title: 'Taahhütname',
+                link: '/taahhutname',
+              },
+            ],
+          },
+          {
+            title: 'Ürünler',
+            image: '/icons/product.png',
+            alt: 'product icon',
+            content: [
+              {
+                title: 'ElitePipe',
+                link: '/elitepipe',
+              },
+              {
+                title: 'SterilePipe',
+                link: '/sterilepipe',
+              },
+              {
+                title: 'Üst Yapı Ürünleri',
+                link: '/urunler/ust-yapi',
+              },
+              {
+                title: 'Alt Yapı Ürünleri',
+                link: '/urunler/alt-yapi',
+              },
+            ],
+          },
+          {
+            title: 'Hizmetler',
+            image: '/icons/service.png',
+            alt: 'service icon',
+            content: [
+              {
+                title: 'Hesaplamalar',
+                link: '/hesaplamalar',
+              },
+              {
+                title: 'Bayilerimiz',
+                link: '/bayiler',
+              },
+              {
+                title: 'Projelerimiz',
+                link: '/projeler',
+              },
+              {
+                title: 'Sertifikalar',
+                link: '/sertifikalar',
+              },
+            ],
+          },
+          {
+            title: 'İletişim',
+            image: '/icons/communication.png',
+            alt: 'communication icon',
+            content: [
+              {
+                title: 'İletişim',
+                link: '/iletisim',
+              },
+              {
+                title: 'Bayimiz Ol',
+                link: '/bayimiz-ol',
+              },
+              {
+                title: 'Kariyer',
+                link: '/kariyer',
+              },
+              {
+                title: 'İnsan Kaynakları',
+                link: '/insan-kaynaklari',
+              },
+            ],
+          },
+        ],
       },
     },
   },

@@ -42,6 +42,42 @@ export interface languageParams {
         buttonText: string;
       };
     };
+
+    footer: {
+      imageContent: {
+        title: string;
+        image: string;
+        alt: string;
+      }[];
+      footerContent: {
+        companyInformation: {
+          title: string;
+          text: string;
+          image: string;
+          alt: string;
+        }[];
+        socialMedia: {
+          name: string;
+          link: string;
+          image: string;
+          alt: string;
+        }[];
+        links: [
+          {
+            title: string;
+            image: string;
+            alt: string;
+            content: [
+              {
+                title: string;
+                link: string;
+                highlight?: boolean;
+              },
+            ];
+          },
+        ];
+      };
+    };
   };
 }
 
