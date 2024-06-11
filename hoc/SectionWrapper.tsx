@@ -1,32 +1,27 @@
-// /hoc/SectionWrapper.tsx
-
-import React from 'react';
 import { motion } from 'framer-motion';
+import { ComponentType } from 'react';
+import { staggerContainer } from '../utils/motion';
 import { styles } from './styles.js';
 
-interface SectionWrapperProps {
-  idName: string;
-}
-
-const SectionWrapper = <P extends object>(
-  Component: React.ComponentType<P>,
-  idName: string
-) => {
-  const HOC: React.FC<P & SectionWrapperProps> = (props) => {
+const SectionWrapper = (Component: ComponentType<any>, idName: string | undefined) =>
+  function HOC() {
     return (
       <motion.section
-        id={idName}
-        className={JSON.stringify(styles)}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
+        variants={staggerContainer()}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.25 }}
+        className={`${styles.padding} relative z-0 mx-auto max-w-7xl`}
       >
-        <Component {...props} />
+        <span
+          className="hash-span"
+          id={idName}
+        >
+          &nbsp;
+        </span>
+        <Component />
       </motion.section>
     );
   };
-
-  return HOC;
-};
 
 export default SectionWrapper;
