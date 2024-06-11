@@ -1,4 +1,4 @@
-const ShowDealers = ({ id }) => {
+const ShowDealers = ({ id }: { id: any }) => {
   return (
     <div>
       <h3 >Bölgeler</h3>
