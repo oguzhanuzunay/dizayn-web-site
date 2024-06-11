@@ -1,4 +1,5 @@
 import { clsx, type ClassValue } from 'clsx';
+import { isMobile } from 'react-device-detect';
 import { twMerge } from 'tailwind-merge';
 
 export function cn(...inputs: ClassValue[]) {
@@ -10,4 +11,4 @@ export const scrollToHash = (elementId: string) => {
   element?.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
 };
 
-export const isMobileDevice = () => /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+export const isMobileDevice = () => isMobile;

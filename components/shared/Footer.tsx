@@ -57,7 +57,7 @@ const Footer = () => {
 
       <div className=" h-full bg-slate-100 px-8 py-10  max-md:py-8 max-sm:py-6">
         {/* Social Media part */}
-        <div className="grid grid-cols-4 items-center justify-around gap-5 pb-5 max-sm:grid-cols-2 max-sm:justify-between max-sm:gap-1">
+        <div className="grid grid-cols-4 items-center justify-around gap-5 pb-5 max-sm:grid-cols-2 max-sm:justify-center max-sm:gap-1">
           {footerContent.socialMedia.map((item) => (
             <Link
               key={item.name}
@@ -97,7 +97,8 @@ const Footer = () => {
                 className="max-h-9 max-w-fit invert max-md:max-h-8 max-md:max-w-fit max-sm:max-h-7 max-sm:max-w-fit"
               />
               <div className={`flex flex-col`}>
-                <p className="text-sm font-bold text-gray-900">{item.title}</p>
+                <p className="text-sm font-bold text-gray-900">{item.title}
+                </p>
                 <p className="font-roboto text-tiny text-gray-800">{item.text}</p>
               </div>
             </div>
