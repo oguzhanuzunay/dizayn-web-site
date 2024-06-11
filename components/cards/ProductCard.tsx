@@ -14,7 +14,7 @@ const ProductCard = (props: { item: sliderParam }) => {
     >
       <h3 className="text-4xl font-bold text-gray-900 max-sm:text-2xl">{item.title}</h3>
       <Image
-        alt={item.alt}
+        alt={item.title}
         src={item.image}
         width={200}
         height={200}
