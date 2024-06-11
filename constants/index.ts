@@ -695,7 +695,7 @@ const countryList: countryListParams = {
       allPDFs: [
         {
           name: 'ELITE BORU TSE DENEY RAPORU (TS EN ISO 1167)',
-          img: '',
+          image: '',
           link: '/certificates/elite-boru-tse-deney-raporu-ts-en-iso-1167.pdf',
         },
       ],
@@ -704,31 +704,37 @@ const countryList: countryListParams = {
       name: 'Russia',
       code: 'ru',
       title: 'Russia Certificates',
+      allPDFs: [],
     },
     {
       name: 'Romania',
       code: 'ro',
       title: 'Romania Certificates',
+      allPDFs: [],
     },
     {
       name: 'Turkey',
       code: 'tr',
       title: 'Turkey TSE Certificates and Test Reports',
+      allPDFs: [],
     },
     {
       name: 'Belarus',
       code: 'by',
       title: 'Belarus Certificates',
+      allPDFs: [],
     },
     {
       name: 'Ukraine',
       code: 'ua',
       title: 'Ukraine Certificates',
+      allPDFs: [],
     },
     {
       name: 'Poland',
       code: 'pl',
       title: 'Poland Certificates',
+      allPDFs: [],
     },
   ],
   tr: [
@@ -736,6 +742,7 @@ const countryList: countryListParams = {
       name: 'Almanya',
       code: 'de',
       title: 'Almanya Sertifikaları',
+      allPDFs: [],
     },
     {
       name: 'Türkiye',
@@ -793,27 +800,32 @@ const countryList: countryListParams = {
       name: 'Romanya',
       code: 'ro',
       title: 'Romanya Sertifikaları',
+      allPDFs: [],
     },
 
     {
       name: 'Rusya',
       code: 'ru',
       title: 'Rusya Sertifikaları',
+      allPDFs: [],
     },
     {
       name: 'Beyaz Rusya',
       code: 'by',
       title: 'Beyaz Rusya Sertifikaları',
+      allPDFs: [],
     },
     {
       name: 'Ukrayna',
       code: 'ua',
       title: 'Ukrayna Sertifikaları',
+      allPDFs: [],
     },
     {
       name: 'Polonya',
       code: 'pl',
       title: 'Polonya Sertifikaları',
+      allPDFs: [],
     },
   ],
 };
