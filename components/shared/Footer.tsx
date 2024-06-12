@@ -32,7 +32,7 @@ const Footer = () => {
           {imageContent.map((item) => (
             <div
               key={item.title}
-              className="flex flex-row items-center justify-center gap-4 "
+              className="flex flex-row items-center justify-center gap-4 hover:opacity-70"
             >
               <Image
                 src={item.image}
@@ -57,14 +57,14 @@ const Footer = () => {
 
       <div className=" h-full bg-slate-100 px-8 py-10  max-md:py-8 max-sm:py-6">
         {/* Social Media part */}
-        <div className="grid grid-cols-4 items-center justify-around gap-5 pb-5 max-sm:grid-cols-2 max-sm:justify-center max-sm:gap-1">
+        <div className="grid grid-cols-4 items-center justify-around gap-5 pb-5 max-sm:grid-cols-2 max-sm:justify-between max-sm:gap-1">
           {footerContent.socialMedia.map((item) => (
             <Link
               key={item.name}
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex cursor-pointer flex-row items-center justify-start gap-2"
+              className="flex cursor-pointer flex-row items-center justify-start gap-2 hover:scale-105 hover:opacity-70"
             >
               <Image
                 src={item.image}
@@ -86,7 +86,7 @@ const Footer = () => {
             <div
               key={item.text}
               className={`flex flex-row items-center justify-start gap-3 ${
-                index === 0 ? 'col-span-2 max-md:col-span-3' : 'max-sm:col-span-1'
+                index === 0 ? 'col-span-2 max-md:col-span-3' : 'max-sm:col-span-3'
               }`}
             >
               <Image
@@ -97,8 +97,7 @@ const Footer = () => {
                 className="max-h-9 max-w-fit invert max-md:max-h-8 max-md:max-w-fit max-sm:max-h-7 max-sm:max-w-fit"
               />
               <div className={`flex flex-col`}>
-                <p className="text-sm font-bold text-gray-900">{item.title}
-                </p>
+                <p className="text-sm font-bold text-gray-900">{item.title}</p>
                 <p className="font-roboto text-tiny text-gray-800">{item.text}</p>
               </div>
             </div>
@@ -131,7 +130,7 @@ const Footer = () => {
                   <div
                     className={`${
                       link.highlight ? 'font-bold text-yellow-700' : 'text-gray-700'
-                    } font-roboto text-tiny`}
+                    } cursor-pointer font-roboto text-tiny transition-all duration-100 hover:underline`}
                   >
                     {link.title}
                   </div>

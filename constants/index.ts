@@ -473,6 +473,48 @@ const sliderItems: sliderParams = {
       link: '/sterilepipe',
       customCSS: 'scale-175;',
     },
+    {
+      title: 'ElitePipe',
+      image: '/productImages/product-1.png',
+      description:
+        'ELITEPIPE is an innovative pipe system that is durable, flexible, easy to carry, and cost-saving.',
+      link: '/elitepipe',
+    },
+    {
+      title: 'ElitePipe',
+      image: '/productImages/product-1.png',
+      description:
+        'ELITEPIPE is an innovative pipe system that is durable, flexible, easy to carry, and cost-saving.',
+      link: '/elitepipe',
+    },
+    {
+      title: 'ElitePipe',
+      image: '/productImages/product-1.png',
+      description:
+        'ELITEPIPE is an innovative pipe system that is durable, flexible, easy to carry, and cost-saving.',
+      link: '/elitepipe',
+    },
+    {
+      title: 'ElitePipe',
+      image: '/productImages/product-1.png',
+      description:
+        'ELITEPIPE is an innovative pipe system that is durable, flexible, easy to carry, and cost-saving.',
+      link: '/elitepipe',
+    },
+    {
+      title: 'ElitePipe',
+      image: '/productImages/product-1.png',
+      description:
+        'ELITEPIPE is an innovative pipe system that is durable, flexible, easy to carry, and cost-saving.',
+      link: '/elitepipe',
+    },
+    {
+      title: 'ElitePipe',
+      image: '/productImages/product-1.png',
+      description:
+        'ELITEPIPE is an innovative pipe system that is durable, flexible, easy to carry, and cost-saving.',
+      link: '/elitepipe',
+    },
   ],
   tr: [
     {
@@ -489,6 +531,50 @@ const sliderItems: sliderParams = {
         'SterilePipe, yüksek sıcaklıklara dayanıklı bir boru sistemidir ve birçok alanda kullanılmaktadır.',
       link: '/sterilepipe',
       customCSS: 'scale-175',
+    },
+    {
+      title: 'ElitePipe',
+      image: '/productImages/product-1.png',
+      description:
+        'ELITEPIPE, dayanıklı, esnek, kolay taşınan ve maliyet tasarrufu sağlayan yenilikçi bir boru sistemidir.',
+      link: '/elitepipe',
+    },
+    {
+      title: 'SterilePipe',
+      image: '/productImages/product-2.png',
+      description:
+        'SterilePipe, yüksek sıcaklıklara dayanıklı bir boru sistemidir ve birçok alanda kullanılmaktadır.',
+      link: '/sterilepipe',
+      customCSS: 'scale-175',
+    },
+    {
+      title: 'ElitePipe',
+      image: '/productImages/product-1.png',
+      description:
+        'ELITEPIPE, dayanıklı, esnek, kolay taşınan ve maliyet tasarrufu sağlayan yenilikçi bir boru sistemidir.',
+      link: '/elitepipe',
+    },
+    {
+      title: 'SterilePipe',
+      image: '/productImages/product-2.png',
+      description:
+        'SterilePipe, yüksek sıcaklıklara dayanıklı bir boru sistemidir ve birçok alanda kullanılmaktadır.',
+      link: '/sterilepipe',
+      customCSS: 'scale-175',
+    },
+    {
+      title: 'ElitePipe',
+      image: '/productImages/product-1.png',
+      description:
+        'ELITEPIPE is an innovative pipe system that is durable, flexible, easy to carry, and cost-saving.',
+      link: '/elitepipe',
+    },
+    {
+      title: 'ElitePipe',
+      image: '/productImages/product-1.png',
+      description:
+        'ELITEPIPE is an innovative pipe system that is durable, flexible, easy to carry, and cost-saving.',
+      link: '/elitepipe',
     },
   ],
 };

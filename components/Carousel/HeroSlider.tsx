@@ -1,8 +1,9 @@
 'use client';
+
 import Image from 'next/image';
 // Import Swiper React components
-import { isMobileDevice } from '@/lib/utils';
 import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -10,6 +11,12 @@ import { Keyboard, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Carousel = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    setIsMobile(window.innerWidth <= 768);
+  }, [window.innerWidth]);
+
   return (
     <div className="top-0 flex w-full items-center justify-center">
       <Swiper
@@ -27,7 +34,7 @@ const Carousel = () => {
             layout="fill"
             objectFit="cover"
             alt="random image"
-            src={isMobileDevice() ? '/images/sterile-mobile.png' : '/images/sterile-desktop.png'}
+            src={isMobile ? '/images/sterile-mobile.png' : '/images/sterile-desktop.png'}
           />
         </SwiperSlide>
         <SwiperSlide>

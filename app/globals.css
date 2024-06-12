@@ -33,3 +33,48 @@ body {
     text-wrap: balance;
   }
 }
+
+.grid-table {
+  @apply border-t-large border-l-medium border-dashed border-gray-300;
+}
+
+.grid-table:nth-child(4n + 1) {
+  @apply border-l-0;
+}
+
+.grid-table:nth-child(-n + 4) {
+  @apply border-t-0;
+}
+
+/* max-lg için */
+@screen lg {
+  .grid-item:nth-child(3n + 1) {
+    @apply border-l-0;
+  }
+
+  .grid-item:nth-child(-n + 3) {
+    @apply border-t-0;
+  }
+}
+
+/* max-md için */
+@screen md {
+  .grid-item:nth-child(2n + 1) {
+    @apply border-l-0;
+  }
+
+  .grid-item:nth-child(-n + 2) {
+    @apply border-t-0;
+  }
+}
+
+/* max-sm için */
+@screen sm {
+  .grid-item:nth-child(1) {
+    @apply border-l-0;
+  }
+
+  .grid-item {
+    @apply border-t-0;
+  }
+}
