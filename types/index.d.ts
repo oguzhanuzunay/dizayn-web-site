@@ -137,7 +137,6 @@ export interface dealerListParam {
   mapsLink?: string;
 }
 
-
 export interface dealerListParams extends Array<dealerListParam> {}
 
 export interface certificateListParam {
@@ -171,7 +170,6 @@ export interface calculationsCardDataParams {
   [key: string]: calculationCardParams[];
 }
 
-
 export type citiesDataParams = CityData[];
 
 export interface certificateListParams extends Array<certificateListParam> {}
@@ -187,4 +185,22 @@ export interface countryListParams {
       link: string;
     }[];
   }[];
+}
+export interface contactInfoParams {
+  id: number;
+  position: {
+    lat: number;
+    lng: number;
+  };
+  contact: {
+    title: string;
+    address: string;
+    phone: string;
+    email: string;
+    fax?: string;
+  };
+}
+
+export interface contactInfosParams {
+  [key: string]: contactInfoParams[];
 }

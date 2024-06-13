@@ -1,0 +1,21 @@
+.grid-template-normal {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "map contact contact contact";
+}
+
+.grid-template-reverse {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "contact contact contact map";
+}
+
+.grid-item.map {
+  grid-area: map;
+}
+
+.grid-item.contact {
+  grid-area: contact;
+}
