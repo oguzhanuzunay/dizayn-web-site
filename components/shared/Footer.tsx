@@ -11,9 +11,9 @@ const Footer = () => {
 
   return (
     <div className="flex flex-col">
-      <div className=" flex-1 flex-row flex-wrap items-end justify-around gap-5 bg-slate-200 px-5 max-md:gap-3 max-sm:gap-0">
+      <div className="flex flex-row items-end justify-around gap-5 bg-slate-200 px-5 max-lg:flex-wrap max-md:gap-3 max-sm:gap-0">
         {/* Logo part */}
-        <div className="flex justify-center py-8 max-sm:py-6">
+        <div className="flex justify-center py-8 max-sm:py-6 ">
           <Image
             src={'/dizayn-logo.png'}
             alt="Dizayn Logo"
@@ -25,10 +25,7 @@ const Footer = () => {
         </div>
 
         {/* highlighted part */}
-        <div
-          className="flex h-full w-[4/5] flex-row  flex-wrap items-center justify-between gap-8 py-10 max-md:justify-center max-md:gap-6 max-md:pt-3
-        max-sm:gap-4 max-sm:pt-0"
-        >
+        <div className="flex h-full flex-row items-center justify-between gap-8 py-10 max-lg:gap-4 max-lg:pt-2 max-md:flex-wrap max-md:justify-center max-md:gap-6 max-md:pt-1 max-sm:gap-4 max-sm:pb-2 max-sm:pt-0">
           {imageContent.map((item) => (
             <div
               key={item.title}

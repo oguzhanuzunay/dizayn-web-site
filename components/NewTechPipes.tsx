@@ -6,6 +6,7 @@ import { useLanguageContext } from '@/context/language';
 import { SectionWrapper } from '@/hoc';
 import ProductCard from './cards/ProductCard';
 
+
 const NewTechPipe = () => {
   const [language] = useLanguageContext();
 
@@ -26,13 +27,13 @@ const NewTechPipe = () => {
       <div
         className="grid grid-cols-4
        items-center justify-items-center gap-0 
-       max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:gap-1"
+       max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 "
       >
         {sliderItems[language].map(
           (item) =>
             item && (
               <div
-                className="grid-table flex size-full flex-col items-center justify-center gap-0 "
+                className="flex size-full flex-col items-center justify-center gap-0 border-2 border-dashed border-gray-200 p-4 "
                 key={item.title}
               >
                 <ProductCard item={item} />

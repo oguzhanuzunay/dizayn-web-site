@@ -13,7 +13,7 @@ const ProductCard = (props: { item: sliderParam }) => {
       <Link
         key={item.title}
         href={item.link}
-        className="flex h-full flex-col items-center justify-between gap-3 rounded-lg transition-all duration-300 hover:scale-105"
+        className=" flex h-full flex-col items-center justify-between gap-3 rounded-lg transition-all duration-300 hover:scale-105"
       >
         <h3 className="text-2xl font-bold text-gray-900 max-md:text-lg max-sm:text-medium">
           {item.title}

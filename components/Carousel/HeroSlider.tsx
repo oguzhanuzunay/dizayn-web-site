@@ -15,7 +15,7 @@ const Carousel = () => {
 
   useEffect(() => {
     setIsMobile(window.innerWidth <= 768);
-  }, [window.innerWidth]);
+  }, []);
 
   return (
     <div className="top-0 flex w-full items-center justify-center">
@@ -34,7 +34,7 @@ const Carousel = () => {
             layout="fill"
             objectFit="cover"
             alt="random image"
-            src={isMobile ? '/images/sterile-mobile.png' : '/images/sterile-desktop.png'}
+            src={isMobile ? '/images/elite-pipe-mobile.jpg' : '/images/elite-pipe-desktop.jpg'}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -42,7 +42,15 @@ const Carousel = () => {
             layout="fill"
             objectFit="cover"
             alt="random image"
-            src="/images/slider-2.jpg"
+            src={isMobile ? '/images/sterile_mobile.jpg' : '/images/sterilepipe_desktop.jpg'}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            layout="fill"
+            objectFit="cover"
+            alt="random image"
+            src={isMobile ? '/images/sterile_mobile.jpg' : '/images/elitepipe_new.jpg'}
           />
         </SwiperSlide>
       </Swiper>

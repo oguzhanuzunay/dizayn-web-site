@@ -43,7 +43,7 @@ const MapComponent = ({ show }: { show: boolean }) => {
 
   return (
     <div>
-      <div className="relative">
+      <div className="">
         <TurkeyMap
           onClick={({ plateNumber, name }) => handleCityClick(plateNumber)}
           hoverable

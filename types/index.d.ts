@@ -99,6 +99,24 @@ export interface sliderParam {
   customCSS?: string;
 }
 
+export interface superStructureProductsParams {
+  [key: string]: {
+    title: string;
+    image: string;
+    description: string;
+    link: string;
+  }[];
+}
+
+export interface infrastructureProductsParams {
+  [key: string]: {
+    title: string;
+    image: string;
+    description: string;
+    link: string;
+  }[];
+}
+
 export interface countUpParams {
   [key: string]: {
     counterName: string;
@@ -118,6 +136,7 @@ export interface dealerListParam {
   email: string;
   mapsLink?: string;
 }
+
 
 export interface dealerListParams extends Array<dealerListParam> {}
 
@@ -151,6 +170,7 @@ export interface calculationCardParams {
 export interface calculationsCardDataParams {
   [key: string]: calculationCardParams[];
 }
+
 
 export type citiesDataParams = CityData[];
 
