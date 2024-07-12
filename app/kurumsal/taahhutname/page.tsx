@@ -50,7 +50,7 @@ const Tahhutname = () => {
           <p>
             İnsanların idealleri olduğu kadar, kurumların da idealleri olmalıdır. Karşılığı sadece
             maddi beklentiler üzerine kurgulanmış bir sistemin kontrolden çıkması kaçınılmazdır.
-            Bugün, dünyanın içine düştüğü sıkıntı "ne pahasına olursa olsun, para kazanmak" hırsının
+            Bugün, dünyanın içine düştüğü sıkıntı &quot;ne pahasına olursa olsun, para kazanmak&quot; hırsının
             doğal sonucudur. “Şirketleri ayakta tutan kârdır. Öyleyse, kâr etmeye giden bütün yollar
             meşrudur” anlayışı, suçluyu da masumu da mahkûm etmiştir. Bu yaklaşımın kazananı olamaz.
           </p>
@@ -78,10 +78,10 @@ const Tahhutname = () => {
           </p>
 
           <p>
-            Sorumluluklarımızı biliyoruz. <b>Dünyanın Dizayn'a ihtiyacı var.</b>
+            Sorumluluklarımızı biliyoruz. <b>Dünyanın Dizayn&apos;a ihtiyacı var.</b>
           </p>
 
-          <p>İbrahim MİRMAHMUTOĞULLARI Yönetim Kurulu Başkanı</p>
+          <p>İbrahim MİRMAHMUTOĞULLARI Yönetim Kurulu Başkan&apos;ı</p>
         </div>
       </div>
     </div>
