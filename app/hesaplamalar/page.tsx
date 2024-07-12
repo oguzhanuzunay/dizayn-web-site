@@ -30,8 +30,8 @@ const Hesaplamalar = () => {
 
   return (
     <div>
-      <div className="mb-5 flex size-full flex-col items-start bg-gray-500 p-5">
-        <h2 className=" font-spaceGrotesk text-2xl font-bold text-white">
+      <div className="mb-5 flex size-full flex-col items-start rounded-lg  p-5">
+        <h2 className=" font-spaceGrotesk text-2xl font-bold text-black">
           Mühendislik Hesaplamaları
         </h2>
       </div>

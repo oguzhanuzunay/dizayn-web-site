@@ -4,14 +4,23 @@ import { LanguageProvider } from '@/context/language';
 
 import { Metadata } from 'next';
 // eslint-disable-next-line camelcase
-import { Roboto, Space_Grotesk } from 'next/font/google';
+import WhatsApp from '@/components/WhatsApp';
+import Footer from '@/components/shared/Footer';
+import { Red_Hat_Display, Roboto, Space_Grotesk, Quicksand } from 'next/font/google';
 import React from 'react';
 import { Providers } from './Providers';
 import './globals.css';
-import Footer from '@/components/shared/Footer';
 
 const roboto = Roboto({ weight: ['300', '500', '700', '900'], subsets: ['latin'] });
 const spaceGrotesk = Space_Grotesk({
+  weight: ['300', '400', '500', '700', '600'],
+  subsets: ['latin'],
+});
+const redHatDisplay = Red_Hat_Display({
+  weight: ['300', '400', '500', '700', '600'],
+  subsets: ['latin'],
+});
+const quicksand = Quicksand({
   weight: ['300', '400', '500', '700', '600'],
   subsets: ['latin'],
 });
@@ -30,10 +39,11 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <LanguageProvider>
-        <body className={(roboto.className, spaceGrotesk.className)}>
+        <body className={(roboto.className, spaceGrotesk.className, redHatDisplay.className, quicksand.className )}>
           <Providers>
             <NavigationBar />
             {children}
+            <WhatsApp />
             <Footer />
           </Providers>
         </body>

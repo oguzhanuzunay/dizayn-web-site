@@ -1,12 +1,12 @@
 'use client';
-import { countryList } from '@/constants';
+import { countryCertificate } from '@/constants';
 import { useLanguageContext } from '@/context/language';
 import { SectionWrapper } from '@/hoc';
 import { Card, CardBody, CardFooter, Image, Link } from '@nextui-org/react';
 
 const Certificates = () => {
   const [language] = useLanguageContext();
-  const list = countryList[language];
+  const list = countryCertificate[language];
 
   return (
     <div>
@@ -23,15 +23,22 @@ const Certificates = () => {
               shadow="sm"
               isPressable
               onPress={() => console.log('item pressed')}
-              className="flex size-[200px] flex-col items-center justify-between p-0 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:grayscale-0"
+              className={`flex size-[200px] flex-col items-center justify-between p-0 transition-all duration-300 hover:scale-105 hover:shadow-lg  `}
             >
               <CardBody className="overflow-visible p-0">
+                {item.certificates.length === 0 && (
+                  <div className="absolute left-0 top-0 z-20 flex size-full items-center justify-center ">
+                    <p className="rounded-xl bg-gray-800 p-1.5 text-xs font-semibold text-blue-200">
+                      Sertifikalar Güncelleniyor
+                    </p>
+                  </div>
+                )}
                 <Image
                   shadow="sm"
                   radius="lg"
                   width="100%"
                   alt={item.name}
-                  className="h-[140px] max-w-[200px] object-cover"
+                  className={`h-[140px] max-w-[200px] object-cover ${item.certificates.length === 0 ? 'grayscale ' : ''}`}
                   src={`
                 https://flagcdn.com/${item.code}.svg
                `}
