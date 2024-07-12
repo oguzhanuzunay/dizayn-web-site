@@ -31,7 +31,7 @@ const AltYapı = () => {
         <div />
 
         <div
-          className={`absolute left-0 top-0 z-0 h-full  gap-3 bg-showRoom-1 bg-contain opacity-45`}
+          className={`absolute left-0 top-0 z-0 h-full  gap-3 bg-contain opacity-45`}
         />
       </div>
 
@@ -49,7 +49,10 @@ const AltYapı = () => {
                 key={item.title}
               >
                 <ProductCard
-                  item={item}
+                  item={{
+                    ...item,
+                    customCSS: ''
+                  }}
                   isPLP={true}
                 />
               </div>
