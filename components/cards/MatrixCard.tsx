@@ -4,11 +4,8 @@ import Link from 'next/link';
 const MatrixCard = ({
   id,
   title,
-  image,
   highlights,
   link,
-  logo,
-  background,
   bgImage,
 }: {
   id: number;
@@ -17,7 +14,6 @@ const MatrixCard = ({
   highlights: { title: string; icon: string }[];
   link: string;
   logo: string;
-  background: string;
   bgImage: string;
 }) => {
   const dynamicClass: string =

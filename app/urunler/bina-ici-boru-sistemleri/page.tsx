@@ -33,10 +33,9 @@ const Products = () => {
               id={index}
               title={item.title}
               image={item.image}
-              background={item.background}
               highlights={item.highlights}
               logo={item.logo}
-              bgImage={item.banner.bgImage}
+              bgImage={item.banner.bgImage || ''}
             />
           ))}
 
@@ -45,7 +44,7 @@ const Products = () => {
 
       <div className="px-2 py-4">
         <p className="text-center font-sans text-lg">
-        Bina içi boru sistemlerinde Dizayn Grup'un üstün çözümleriyle projelerinizi bir adım öne taşıyın. Enerji verimliliği, hijyen ve uzun ömürlü kullanım sunar.
+        Bina içi boru sistemlerinde Dizayn Grup&apos;un üstün çözümleriyle projelerinizi bir adım öne taşıyın. Enerji verimliliği, hijyen ve uzun ömürlü kullanım sunar.
         </p>
       </div>
 
@@ -63,7 +62,10 @@ const Products = () => {
                 key={item.title}
               >
                 <ProductCard
-                  item={item}
+                  item={{
+                    ...item,
+                    customCSS: ''
+                  }}
                   isPLP={true}
                 />
               </div>
