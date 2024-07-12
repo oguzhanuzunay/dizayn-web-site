@@ -23,6 +23,10 @@ const config: Config = {
     },
 
     extend: {
+      width: {
+        'fit-content': 'fit-content',
+        'fit-available': '-webkit-fill-available',
+      },
       colors: {
         primary: {
           100: '##f0f4ff',
@@ -47,8 +51,10 @@ const config: Config = {
         'accent-blue': '#1DA1F2',
       },
       fontFamily: {
-        roboto: ['var(--font-roboto)'],
+        quicksand: ['var(--font-Quicksand)'],
+        roboto: ['var(--font-Red-Hat-Display)'],
         spaceGrotesk: ['var(--font-spaceGrotesk)'],
+        redHatDisplay: ['var(--font-Red-Hat-Display)'],
       },
       boxShadow: {
         'light-100':
