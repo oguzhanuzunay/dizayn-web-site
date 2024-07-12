@@ -5,13 +5,15 @@ import { FreeMode, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { sliderItems } from '@/constants';
-import { sliderParam } from '@/types';
 
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
-const MiniCard = ({ item }: { item: sliderParam }) => (
+const MiniCard = ({ item }: { item: {
+  title: string;
+  image: string;
+} }) => (
   <div
     className="flex size-36 flex-col items-center justify-between rounded-lg bg-white p-4 shadow-md"
     key={item.title}
