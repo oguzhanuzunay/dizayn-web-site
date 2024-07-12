@@ -1,9 +1,48 @@
 'use client';
 import Header from '@/components/Header';
-import { referenceList } from '@/constants';
 import { SectionWrapper } from '@/hoc';
 import Image from 'next/image';
 import Link from 'next/link';
+
+type referenceListParams = {
+  title: string;
+  image: string;
+  alt?: string;
+}[];
+
+
+const referenceList: referenceListParams = [
+  {
+    title: 'Antalya Hurma Atıksu Arıtma Tesisi',
+    image: '/references/antalya-hurma-atıksu-arıtma-tesisi.png',
+    alt: 'Antalya Hurma Atıksu Arıtma Tesisi',
+  },
+  {
+    title: 'Büyükçekmece Deniz Desarj Projesi',
+    image: '/references/buyukcekmece-deniz-desarj-projesi.jpg',
+    alt: 'Büyükçekmece Deniz Desarj Projesi',
+  },
+  {
+    title: 'Dubai Palmiye Adaları',
+    image: '/references/dubai palmiye adaları.png',
+    alt: 'Dubai Palmiye Adaları',
+  },
+  {
+    title: 'İstanbul Hava Limanı',
+    image: '/references/istanbul-hava-alani.png',
+    alt: 'İstanbul Hava Limanı',
+  },
+  {
+    title: 'Sicilya Adaları Kanalizasyon Projesi',
+    image: '/references/sicilya-adasi-kanalizasyon-projesi.jpg',
+    alt: 'Sicilya Adaları Kanalizasyon Projesi',
+  },
+  {
+    title: 'Hong Hong Adalar Projesi',
+    image: '/references/hong hong adalar projesi.png',
+    alt: 'Hong Hong Adalar Projesi',
+  },
+];
 
 const Projelerimiz = () => {
   return (
@@ -14,11 +53,11 @@ const Projelerimiz = () => {
         {referenceList.map((item, index) => (
           <div
             key={index}
-            className="flex w-80 h-60 flex-col items-center justify-start gap-1 rounded-xl bg-sky-600  pb-4 transition duration-500 ease-in-out hover:bg-sky-400 "
+            className="flex h-60 w-80 flex-col items-center justify-start gap-1 rounded-xl bg-sky-600  pb-4 transition duration-500 ease-in-out hover:bg-sky-400 "
           >
             <Image
               src={item.image}
-              alt={item.alt}
+              alt={item.alt ?? ''}
               width={450}
               height={450}
               className="mb-4 rounded-xl"

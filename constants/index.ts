@@ -5,7 +5,6 @@ import {
   countryCertificateParams,
   dealerListParams,
   matrixCardParams,
-  referenceListParams,
   sliderParams,
 } from '@/types';
 import { languageParams } from '@/types/languageParams';
@@ -1758,32 +1757,6 @@ const kurumsalLinks: {
   ],
 };
 
-const referenceList: referenceListParams = [
-  {
-    title: 'Antalya Hurma Atıksu Arıtma Tesisi',
-    image: '/references/antalya-hurma-atıksu-arıtma-tesisi.png',
-  },
-  {
-    title: 'Büyükçekmece Deniz Desarj Projesi',
-    image: '/references/buyukcekmece-deniz-desarj-projesi.jpg',
-  },
-  {
-    title: 'Dubai Palmiye Adaları',
-    image: '/references/dubai palmiye adaları.png',
-  },
-  {
-    title: 'İstanbul Hava Limanı',
-    image: '/references/istanbul-hava-alani.png',
-  },
-  {
-    title: 'Sicilya Adaları Kanalizasyon Projesi',
-    image: '/references/sicilya-adasi-kanalizasyon-projesi.jpg',
-  },
-  {
-    title: 'Hong Hong Adalar Projesi',
-    image: '/references/hong hong adalar projesi.png',
-  },
-];
 
 export {
   calculationsCardData,
@@ -1794,7 +1767,6 @@ export {
   kurumsalLinks,
   languageTexts,
   productList,
-  referenceList,
   showroomProduct,
   sliderItems,
 };

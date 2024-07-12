@@ -204,10 +204,3 @@ export interface faqsParams {
     bgColor?: string;
   }[];
 }
-
-export interface referenceListParams {
-  [key: string]: {
-    title: string;
-    image: string;
-  }[];
-}
