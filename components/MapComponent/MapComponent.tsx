@@ -37,7 +37,7 @@ const MapComponent = ({ show }: { show: boolean }) => {
           />
         );
       }
-      return null; // Add a default return statement
+      return null;
     });
   };
 
@@ -51,7 +51,7 @@ const MapComponent = ({ show }: { show: boolean }) => {
           cityWrapper={renderCity}
         />
         <div
-          className={`absolute bottom-5 right-0 z-10 max-md:max-w-40 max-sm:max-w-24
+          className={`absolute bottom-[50px] right-0 z-10 max-xl:max-w-36 max-lg:max-w-32 max-md:max-w-40 max-sm:max-w-24
           ${show ? '' : 'hidden'}`}
         >
           <a href={dealers.subPageLink}>
@@ -61,7 +61,7 @@ const MapComponent = ({ show }: { show: boolean }) => {
               width={150}
               height={150}
             />
-            <p className={`font-roboto text-lg max-md:text-tiny ${show ? ' max-md:hidden' : ''}`}>
+            <p className={`font-quicksand text-lg max-md:text-tiny ${show ? ' max-lg:hidden ' : ''}`}>
               {dealers.text}
             </p>
           </a>
@@ -71,7 +71,7 @@ const MapComponent = ({ show }: { show: boolean }) => {
       {!!renderDealerList() && (
         <div
           id="dealerLists"
-          className="flex flex-row items-center justify-around gap-5 p-5 max-sm:flex-col"
+          className="flex flex-row flex-wrap items-center justify-center gap-5 p-5 max-sm:flex-col"
         >
           {renderDealerList()}
         </div>

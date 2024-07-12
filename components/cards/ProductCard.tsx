@@ -1,38 +1,76 @@
 'use client';
-import { sliderParam } from '@/types';
 import { Image } from '@nextui-org/react';
 import Link from 'next/link';
 
-const ProductCard = (props: { item: sliderParam }) => {
-  const { item } = props;
+const ProductCard = ({
+  item: { title, description, link, logo, banner, customCSS },
+  isPLP,
+}: {
+  item: {
+    title: string;
+    description: string;
+    link: string;
+    logo: string;
+    banner: {
+      PLP: string | undefined;
+      vertical: string;
+    };
+    customCSS: string;
+  };
+  isPLP: boolean;
+}) => {
   return (
     <div
-      className="col-span-1 flex h-full w-56 flex-col items-center justify-between px-2 py-4  transition-all duration-300 "
-      key={item.title}
+      className="relative col-span-1 flex size-full flex-col items-center justify-between transition-all duration-300"
+      key={title}
     >
       <Link
-        key={item.title}
-        href={item.link}
-        className=" flex h-full flex-col items-center justify-between gap-3 rounded-lg transition-all duration-300 hover:scale-105"
+        key={title}
+        href={link}
+        className="flex h-fit flex-col items-center justify-between rounded-2xl border-2 border-gray-200 transition-all
+        duration-300 hover:scale-105 hover:border-blue-400  
+        "
       >
-        <h3 className="text-2xl font-bold text-gray-900 max-md:text-lg max-sm:text-medium">
-          {item.title}
-        </h3>
+        <div className="relative">
+          <Image
+            alt={title}
+            src={isPLP ? banner.PLP : banner.vertical}
+            width={240}
+            height={330}
+            className={`${customCSS || ''}`}
+          />
+          {!isPLP && (
+            <div
+              className="absolute inset-0 z-10 flex
+          flex-col
+          items-center justify-start rounded-lg"
+            >
+              <div
+                className=" flex
+            flex-col items-center justify-center py-4
+            text-center text-black"
+              >
+                <div className="mb-3 flex w-full flex-row items-center justify-center bg-white ">
+                  {logo !== '' ? (
+                    <Image
+                      src={logo}
+                      alt={`${title} logo`}
+                      width={100}
+                      height={100}
+                      className="w-fit"
+                    />
+                  ) : (
+                    <h3 className="text-lg font-bold">{title}</h3>
+                  )}
+                </div>
 
-        <Image
-          alt={item.title}
-          src={item.image}
-          width={200}
-          height={200}
-          className={`${item.customCSS}` || ''}
-        />
-
-        <p className="font-roboto text-sm text-teal-900 dark:text-neutral-400">
-          {item.description}
-        </p>
+                <p className="font-quicksand text-xs font-semibold text-gray-800">{description}</p>
+              </div>
+            </div>
+          )}
+        </div>
       </Link>
     </div>
   );
 };
-
 export default ProductCard;

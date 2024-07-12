@@ -9,13 +9,40 @@ const Footer = () => {
   const imageContent = languageTexts[language].footer.imageContent;
   const footerContent = languageTexts[language].footer.footerContent;
 
+  const socialMedia = [
+    {
+      name: 'Facebook',
+      link: 'https://www.facebook.com/dizayngroup',
+      image: '/icons/socialMedia/facebook.png',
+      alt: 'facebook',
+    },
+    {
+      name: 'Instagram',
+      link: 'https://www.instagram.com/dizayngrup',
+      image: '/icons/socialMedia/instagram.png',
+      alt: 'instagram',
+    },
+    {
+      name: 'Linkedin',
+      link: 'https://www.linkedin.com/company/dizayngrup',
+      image: '/icons/socialMedia/linkedin.png',
+      alt: 'linkedin',
+    },
+    {
+      name: 'Youtube',
+      link: 'https://www.youtube.com/@dizayngrup',
+      image: '/icons/socialMedia/youtube.png',
+      alt: 'youtube',
+    },
+  ];
+
   return (
     <div className="flex flex-col">
-      <div className="flex flex-row items-end justify-around gap-5 bg-slate-200 px-5 max-lg:flex-wrap max-md:gap-3 max-sm:gap-0">
+      <div className="flex flex-row items-end justify-around gap-5 bg-slate-800 px-5 max-lg:flex-wrap max-md:gap-3 max-sm:gap-0">
         {/* Logo part */}
         <div className="flex justify-center py-8 max-sm:py-6 ">
           <Image
-            src={'/dizayn-logo.png'}
+            src={'/dizayn_logo_white.png'}
             alt="Dizayn Logo"
             width={200}
             height={120}
@@ -36,13 +63,13 @@ const Footer = () => {
                 alt={item.alt}
                 width={100}
                 height={60}
-                className="max-h-[60px] max-w-fit invert max-md:max-h-10 max-md:max-w-fit"
+                className="max-h-[60px] max-w-fit max-md:max-h-10 max-md:max-w-fit"
               />
               <p
-                className="font-roboto
-              text-lg font-bold text-gray-800
-              max-md:font-roboto max-md:text-medium
-              max-sm:font-roboto max-sm:text-sm
+                className="font-quicksand
+              text-lg font-bold text-white
+              max-md:font-quicksand max-md:text-medium
+              max-sm:font-quicksand max-sm:text-sm
                             "
               >
                 {item.title}
@@ -52,10 +79,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className=" h-full bg-slate-100 px-8 py-10  max-md:py-8 max-sm:py-6">
+      <div className=" h-full bg-slate-900 px-8 py-10  max-md:py-8 max-sm:py-6">
         {/* Social Media part */}
         <div className="grid grid-cols-4 items-center justify-around gap-5 pb-5 max-sm:grid-cols-2 max-sm:justify-between max-sm:gap-1">
-          {footerContent.socialMedia.map((item) => (
+          {socialMedia.map((item) => (
             <Link
               key={item.name}
               href={item.link}
@@ -68,14 +95,14 @@ const Footer = () => {
                 alt={item.alt}
                 width={36}
                 height={36}
-                className="max-h-9 max-w-fit invert max-md:max-h-8 max-md:max-w-8 max-sm:max-h-7 max-sm:max-w-7 "
+                className="max-h-9 max-w-fit max-md:max-h-8 max-md:max-w-8 max-sm:max-h-7 max-sm:max-w-7 "
               />
-              <p className="text-gray-800">{item.name}</p>
+              <p className="text-gray-100">{item.name}</p>
             </Link>
           ))}
         </div>
 
-        {/* Address part */}
+        {/* Address part 
         <div
           className={`grid grid-cols-5 gap-2 border-b-1 border-black pb-3 max-md:grid-cols-3 max-sm:grid-cols-1`}
         >
@@ -95,12 +122,12 @@ const Footer = () => {
               />
               <div className={`flex flex-col`}>
                 <p className="text-sm font-bold text-gray-900">{item.title}</p>
-                <p className="font-roboto text-tiny text-gray-800">{item.text}</p>
+                <p className="font-quicksand text-tiny text-gray-800">{item.text}</p>
               </div>
             </div>
           ))}
         </div>
-
+*/}
         {/* Links part */}
         <div className="flex flex-row flex-wrap justify-between gap-8 pt-8 max-md:gap-6 max-md:pt-6 max-sm:gap-4 max-sm:pt-4">
           {footerContent.links.map((item) => (
@@ -114,9 +141,9 @@ const Footer = () => {
                   alt={item.alt}
                   width={24}
                   height={24}
-                  className="max-h-6 max-w-fit invert"
+                  className="max-h-6 max-w-fit "
                 />
-                <p className="text-lg font-bold text-gray-900">{item.title}</p>
+                <p className="text-lg font-bold text-white">{item.title}</p>
               </div>
 
               {item.content.map((link) => (
@@ -126,8 +153,8 @@ const Footer = () => {
                 >
                   <div
                     className={`${
-                      link.highlight ? 'font-bold text-yellow-700' : 'text-gray-700'
-                    } cursor-pointer font-roboto text-tiny transition-all duration-100 hover:underline`}
+                      link.highlight ? 'font-bold text-yellow-400' : 'text-gray-100'
+                    } cursor-pointer font-quicksand text-tiny transition-all duration-100 hover:underline`}
                   >
                     {link.title}
                   </div>

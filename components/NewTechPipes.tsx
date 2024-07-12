@@ -1,11 +1,10 @@
 'use client';
 import '@/app/globals.css';
 
-import { sliderItems } from '@/constants';
+import { productList } from '@/constants';
 import { useLanguageContext } from '@/context/language';
 import { SectionWrapper } from '@/hoc';
 import ProductCard from './cards/ProductCard';
-
 
 const NewTechPipe = () => {
   const [language] = useLanguageContext();
@@ -17,26 +16,27 @@ const NewTechPipe = () => {
     >
       <div className="mb-3 flex flex-1 flex-col items-center justify-center ">
         <h1 className="text-center text-4xl font-bold text-gray-900 max-sm:text-2xl ">
-          Üstün Teknoloji Ürünlerimiz.
+          Üstün Teknoloji Ürünlerimiz
         </h1>
-        <p className="font-roboto text-gray-900">
+        <p className="font-quicksand text-gray-900">
           Yeni nesil, üstün teknolojili borularımız ile tanışın.
         </p>
       </div>
 
       <div
         className="grid grid-cols-4
-       items-center justify-items-center gap-0 
-       max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 "
+       items-center justify-items-stretch gap-0 
+       max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
       >
-        {sliderItems[language].map(
+        {productList[language].superStructureProducts.map(
           (item) =>
-            item && (
+            item.banner && item.isNewTech && (
               <div
-                className="flex size-full flex-col items-center justify-center gap-0 border-2 border-dashed border-gray-200 p-4 "
+                className="m-4 mx-6  flex size-full flex-col
+                items-center justify-center gap-0"
                 key={item.title}
               >
-                <ProductCard item={item} />
+                <ProductCard item={{ ...item, customCSS: '' }} isPLP={false} />
               </div>
             ),
         )}

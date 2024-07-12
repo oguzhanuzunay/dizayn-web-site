@@ -1,5 +1,5 @@
 g[id='turkiye'] > g[data-is-dealer-city='false'] > path {
-  fill: gainsboro !important;
+  fill: #60a5fa !important;
 }
 
 g[id='turkiye'] > g[data-is-dealer-city='false'] > path:hover {
@@ -7,9 +7,9 @@ g[id='turkiye'] > g[data-is-dealer-city='false'] > path:hover {
 }
 
 g[id='turkiye'] > g[data-is-dealer-city='true'] > path {
-  fill: #6067fa !important;
+  fill: #60a5fa !important;
 }
 
 g[id='turkiye'] > g[data-is-dealer-city='true'] > path:hover {
-  fill: #60a5fa !important;
+  fill: #99b9df !important;
 }

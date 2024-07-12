@@ -101,7 +101,7 @@ const NavigationBar = () => {
 
   return (
     <Navbar
-      className={`bg-transparent ${pathname === '/' ? 'fixed top-0' : 'static'}`}
+      className={`bg-transparent pt-3 ${pathname === '/' ? 'fixed top-0' : 'static'}`}
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
       height={'50px'}
@@ -131,8 +131,8 @@ const NavigationBar = () => {
           <Image
             src={dizaynLogo}
             alt="logo"
-            width={85}
-            height={65}
+            width={150}
+            height={120}
           />
         </Link>
       </NavbarBrand>
