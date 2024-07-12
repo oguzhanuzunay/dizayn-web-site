@@ -81,52 +81,6 @@ export interface languageParams {
   };
 }
 
-export interface sliderParams {
-  [key: string]: {
-    title: string;
-    image: string;
-    description: string;
-    link: string;
-    customCSS?: string;
-  }[];
-}
-
-export interface sliderParam {
-  title: string;
-  image: string;
-  description: string;
-  link: string;
-  customCSS?: string;
-}
-
-export interface superStructureProductsParams {
-  [key: string]: {
-    title: string;
-    image: string;
-    description: string;
-    link: string;
-  }[];
-}
-
-export interface infrastructureProductsParams {
-  [key: string]: {
-    title: string;
-    image: string;
-    description: string;
-    link: string;
-  }[];
-}
-
-export interface countUpParams {
-  [key: string]: {
-    counterName: string;
-    counterNumber: number;
-    imageLink: string;
-    alt: string;
-    link: string;
-  }[];
-}
-
 export interface dealerListParam {
   id: number;
   cityId: number;
@@ -143,6 +97,16 @@ export interface certificateListParam {
   id?: number;
   title: string;
   image: string;
+}
+
+export interface sliderParams {
+  [key: string]: {
+    title: string;
+    image: string;
+    description: string;
+    link?: string;
+    customCSS?: string;
+  }[];
 }
 
 export interface miniSliderParams {
@@ -174,15 +138,18 @@ export type citiesDataParams = CityData[];
 
 export interface certificateListParams extends Array<certificateListParam> {}
 
-export interface countryListParams {
+export interface countryCertificateParams {
   [key: string]: {
     name: string;
     code: string;
     title: string;
-    allPDFs: {
-      name: string;
-      image: string;
-      link: string;
+    certificates: {
+      product: string;
+      allPDFs: {
+        name: string;
+        image: string;
+        link: string;
+      }[];
     }[];
   }[];
 }
@@ -201,6 +168,46 @@ export interface contactInfoParams {
   };
 }
 
+export interface productDetailParams {
+  index?: number;
+  title: string;
+  productDetail: string;
+  textColor?: string;
+  image?: string;
+  alt?: string;
+}
+
 export interface contactInfosParams {
   [key: string]: contactInfoParams[];
+}
+
+export interface matrixCardParams {
+  [key: string]: {
+    id: number;
+    title: string;
+    color: string;
+    description: string;
+    image: string;
+    link: string;
+    highlights: {
+      title: string;
+      icon: string;
+    }[];
+  }[];
+}
+
+export interface faqsParams {
+  [key: string]: {
+    question: string;
+    answer: string;
+    textColor?: string;
+    bgColor?: string;
+  }[];
+}
+
+export interface referenceListParams {
+  [key: string]: {
+    title: string;
+    image: string;
+  }[];
 }

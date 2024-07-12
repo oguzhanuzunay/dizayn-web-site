@@ -63,7 +63,7 @@ export interface languageParams {
           alt: string;
         }[];
         links: {
-          [x: string]: string | StaticImport;
+          [x: string]: string | any;
           title: string;
           content: {
             title: string;
