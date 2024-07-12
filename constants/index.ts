@@ -1,9 +1,7 @@
 import {
-  HeroSliderParams,
   calculationsCardDataParams,
   certificateListParams,
   contactInfosParams,
-  countUpParams,
   countryCertificateParams,
   dealerListParams,
   matrixCardParams,
@@ -257,7 +255,7 @@ const languageTexts: languageParams = {
             name: 'Altyapı Boru Sistemleri',
             description: 'Altyapı',
             icons: '/icons/pipe.png',
-            link: '/urunler/altyapi',
+            link: '/urunler/altyapi-boru-sistemleri',
           },
         ],
       },
@@ -409,7 +407,7 @@ const languageTexts: languageParams = {
               },
               {
                 title: 'Altyapı Boru Sistemleri',
-                link: '/urunler/alt-yapi',
+                link: '/urunler/altyapi-boru-sistemleri',
               },
             ],
           },
@@ -571,7 +569,6 @@ const sliderItems: sliderParams = {
     },
   ],
 };
-
 
 const dealerList: dealerListParams = [
   {
