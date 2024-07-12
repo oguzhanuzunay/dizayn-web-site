@@ -3,9 +3,9 @@ import { languageTexts } from '@/constants';
 import { LanguageProvider } from '@/context/language';
 
 import { Metadata } from 'next';
-// eslint-disable-next-line camelcase
 import WhatsApp from '@/components/WhatsApp';
 import Footer from '@/components/shared/Footer';
+// eslint-disable-next-line camelcase
 import { Red_Hat_Display, Roboto, Space_Grotesk, Quicksand } from 'next/font/google';
 import React from 'react';
 import { Providers } from './Providers';
