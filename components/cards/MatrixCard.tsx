@@ -14,7 +14,7 @@ const MatrixCard = ({
   highlights: { title: string; icon: string }[];
   link: string;
   logo: string;
-  bgImage: string;
+  bgImage?: string;
 }) => {
   const dynamicClass: string =
     id % 2 === 0
@@ -33,7 +33,7 @@ const MatrixCard = ({
       >
         {
           <Image
-            src={bgImage}
+            src={bgImage ?? ''}
             alt={title}
             width={1920}
             height={720}
