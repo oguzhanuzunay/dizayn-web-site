@@ -77,7 +77,7 @@ const Projelerimiz = () => {
           ))}
         </Swiper>
       </div>
-      ,
+
       <Link href="">
         <div className="mx-2 mb-4 flex items-center justify-center rounded-lg bg-red-600 p-2">
           <p className=" text-lg font-bold text-white">Tüm Referanslarımız</p>
