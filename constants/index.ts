@@ -44,7 +44,10 @@ const languageTexts: languageParams = {
       { name: 'Certificates' },
       { name: 'R&D' },
     ],
-    certificates: { title: 'Our Certificates', buttonText: 'View All Certificates' },
+    certificates: {
+      title: 'Our Certificates',
+      buttonText: 'View All Certificates',
+    },
     pages: {
       dealers: {
         h1: 'franchisee',
@@ -266,7 +269,10 @@ const languageTexts: languageParams = {
       { name: 'iletisim' },
       { name: 'AR-GE' },
     ],
-    certificates: { title: 'Sertifikalarımız', buttonText: 'Tüm Sertifikaları Görüntüle' },
+    certificates: {
+      title: 'Sertifikalarımız',
+      buttonText: 'Tüm Sertifikaları Görüntüle',
+    },
     pages: {
       dealers: {
         h1: 'Bayilerimiz',
@@ -374,16 +380,16 @@ const languageTexts: languageParams = {
               },
               {
                 title: 'Misyon ve Vizyon',
-                link: '/misyon-vizyon',
+                link: '/kurumsal/vizyon-ve-misyon',
               },
               {
                 title: 'Ödüller ve Başarılar',
-                link: '/oduller',
+                link: '/kurumsal/oduller-ve-basariler',
                 highlight: true,
               },
               {
                 title: 'Taahhütname',
-                link: '/taahhutname',
+                link: '/kurumsal/taahhutname',
               },
             ],
           },
@@ -394,11 +400,11 @@ const languageTexts: languageParams = {
             content: [
               {
                 title: 'ElitePipe',
-                link: '/elitepipe',
+                link: 'urunler/bina-ici-boru-sistemleri/elitepipe',
               },
               {
                 title: 'SterilePipe',
-                link: '/sterilepipe',
+                link: '/urunler/bina-ici-boru-sistemleri/sterilepipe',
               },
               {
                 title: 'Bina İçi  Boru Sistemleri',
@@ -421,11 +427,11 @@ const languageTexts: languageParams = {
               },
               {
                 title: 'Bayilerimiz',
-                link: '/bayiler',
+                link: '/bayilerimiz',
               },
               {
                 title: 'Projelerimiz',
-                link: '/projeler',
+                link: '/projelerimiz',
               },
               {
                 title: 'Sertifikalar',
@@ -525,35 +531,40 @@ const sliderItems: sliderParams = {
   tr: [
     {
       title: 'ElitePipe',
-      image: '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
+      image:
+        '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
       description:
         'ELITEPIPE, dayanıklı, esnek, kolay taşınan ve maliyet tasarrufu sağlayan yenilikçi bir boru sistemidir.',
       link: 'urunler/bina-ici-boru-sistemleri/elitepipe',
     },
     {
       title: 'Sterile Pipe',
-      image: '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
+      image:
+        '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
       description:
         'Sterile Pipe, hijyenik ve güvenli su taşıma çözümleri sunan yenilikçi bir boru sistemidir.',
       link: 'urunler/bina-ici-boru-sistemleri/sterile-pipe',
     },
     {
       title: 'Elastica',
-      image: '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
+      image:
+        '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
       description:
         'Elastica boruları, yüksek sıcaklık dayanımı ve uygulama kolaylığı ile öne çıkar. ',
       link: '/elitepipe',
     },
     {
       title: 'Soft Power',
-      image: '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
+      image:
+        '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
       description:
         'Soft Power, dayanıklı, esnek, kolay taşınan ve maliyet tasarrufu sağlayan yenilikçi bir boru sistemidir.',
       link: 'urunler/bina-ici-boru-sistemleri/soft-power',
     },
     {
       title: 'Nano Tech',
-      image: '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
+      image:
+        '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
       description:
         'Nano Tech, gelişmiş teknolojisi ile yüksek performans ve dayanıklılık sunan yenilikçi bir boru sistemidir.',
       link: 'urunler/bina-ici-boru-sistemleri/nano-tech',
@@ -561,7 +572,8 @@ const sliderItems: sliderParams = {
 
     {
       title: 'Triplex Atık Su Boruları',
-      image: '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
+      image:
+        '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
       description:
         'Triplex Atık Su Boruları, dayanıklı ve uzun ömürlü yapısı ile atık su taşımada güvenilir bir çözümdür.',
       link: 'urunler/bina-ici-boru-sistemleri/triplex-atik-su-borulari',
@@ -1494,7 +1506,8 @@ const countryCertificate: countryCertificateParams = {
           allPDFs: [
             {
               name: 'RTP BORU DENEY SERTİFİKASI',
-              image: '/certificates/files/tr/imgs/RE_RTP-VE-SOFT/RTP BORU DENEY SERTİFİKASI.jpg',
+              image:
+                '/certificates/files/tr/imgs/RE_RTP-VE-SOFT/RTP BORU DENEY SERTİFİKASI.jpg',
               link: '/certificates/files/tr/pdfs/RE_RTP-VE-SOFT/RTP BORU DENEY SERTİFİKASI.pdf',
             },
             {
@@ -1669,8 +1682,14 @@ const showroomProduct: matrixCardParams = {
       image: '/productImages/product-2.png',
       link: '/sterilepipe',
       highlights: [
-        { title: 'High Temperature Resistance', icon: '/icons/high-temperature.png' },
-        { title: 'Microorganism Resistance', icon: '/icons/sterilepipe - mikrop.png' },
+        {
+          title: 'High Temperature Resistance',
+          icon: '/icons/high-temperature.png',
+        },
+        {
+          title: 'Microorganism Resistance',
+          icon: '/icons/sterilepipe - mikrop.png',
+        },
       ],
     },
   ],
@@ -1756,7 +1775,6 @@ const kurumsalLinks: {
     },
   ],
 };
-
 
 export {
   calculationsCardData,
