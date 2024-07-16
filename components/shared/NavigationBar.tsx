@@ -120,6 +120,16 @@ const NavigationBar = () => {
         className="hidden gap-4 md:flex"
         justify="center"
       >
+        <NavbarItem key={'Katalog'}>
+          <Link
+            className="rounded-lg bg-blue-500 px-2 py-1 text-medium font-semibold text-white transition-all duration-300 ease-in-out "
+            target="_blank"
+            href="/dizayn-fiyat-listesi.pdf"
+          >
+            Ürün Kataloğu
+          </Link>
+        </NavbarItem>
+
         {listMenu(0, 3)}
       </NavbarContent>
 
@@ -146,6 +156,18 @@ const NavigationBar = () => {
 
       {/* Mobile Content */}
       <NavbarMenu className={`${pathname === '/' ? '!bg-transparent' : 'bg-white'}`}>
+        {/* Fiyat Listesi */}
+        <NavbarMenuItem>
+          <Link
+            className="mt-3 flex w-full items-center justify-center rounded-lg bg-blue-500 px-2 py-1 text-medium font-semibold text-white transition-all duration-300 ease-in-out hover:bg-blue-600"
+            href="/dizayn-fiyat-listesi.pdf"
+            target="blank"
+            size="lg"
+          >
+            Fiyat Listesi
+          </Link>
+        </NavbarMenuItem>
+
         {languageTexts[language].menuList.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
