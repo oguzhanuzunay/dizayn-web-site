@@ -1,8 +1,8 @@
-'use client';
-import { languageTexts } from '@/constants';
-import { useLanguageContext } from '@/context/language';
-import Image from 'next/image';
-import Link from 'next/link';
+"use client";
+import { languageTexts } from "@/constants";
+import { useLanguageContext } from "@/context/language";
+import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   const [language] = useLanguageContext();
@@ -11,28 +11,28 @@ const Footer = () => {
 
   const socialMedia = [
     {
-      name: 'Facebook',
-      link: 'https://www.facebook.com/dizayngroup',
-      image: '/icons/socialMedia/facebook.png',
-      alt: 'facebook',
+      name: "Facebook",
+      link: "https://www.facebook.com/dizayngroup",
+      image: "/icons/socialMedia/facebook.png",
+      alt: "facebook",
     },
     {
-      name: 'Instagram',
-      link: 'https://www.instagram.com/dizayngrup',
-      image: '/icons/socialMedia/instagram.png',
-      alt: 'instagram',
+      name: "Instagram",
+      link: "https://www.instagram.com/dizayngrup",
+      image: "/icons/socialMedia/instagram.png",
+      alt: "instagram",
     },
     {
-      name: 'Linkedin',
-      link: 'https://www.linkedin.com/company/dizayngrup',
-      image: '/icons/socialMedia/linkedin.png',
-      alt: 'linkedin',
+      name: "Linkedin",
+      link: "https://www.linkedin.com/company/dizayngrup",
+      image: "/icons/socialMedia/linkedin.png",
+      alt: "linkedin",
     },
     {
-      name: 'Youtube',
-      link: 'https://www.youtube.com/@dizayngrup',
-      image: '/icons/socialMedia/youtube.png',
-      alt: 'youtube',
+      name: "Youtube",
+      link: "https://www.youtube.com/@dizayngrup",
+      image: "/icons/socialMedia/youtube.png",
+      alt: "youtube",
     },
   ];
 
@@ -42,7 +42,7 @@ const Footer = () => {
         {/* Logo part */}
         <div className="flex justify-center py-8 max-sm:py-6 ">
           <Image
-            src={'/dizayn_logo_white.png'}
+            src={"/dizayn_logo_white.png"}
             alt="Dizayn Logo"
             width={200}
             height={120}
@@ -80,7 +80,7 @@ const Footer = () => {
       </div>
 
       <div className=" h-full bg-slate-900 px-8 py-10  max-md:py-8 max-sm:py-6">
-        {/* Social Media part */}
+        {/* Social Media bölümü */}
         <div className="grid grid-cols-4 items-center justify-around gap-5 pb-5 max-sm:grid-cols-2 max-sm:justify-between max-sm:gap-1">
           {socialMedia.map((item) => (
             <Link
@@ -131,10 +131,7 @@ const Footer = () => {
         {/* Links part */}
         <div className="flex flex-row flex-wrap justify-between gap-8 pt-8 max-md:gap-6 max-md:pt-6 max-sm:gap-4 max-sm:pt-4">
           {footerContent.links.map((item) => (
-            <div
-              key={item.title}
-              className="flex flex-col gap-1"
-            >
+            <div key={item.title} className="flex flex-col gap-1">
               <div className="flex flex-row gap-2 ">
                 <Image
                   src={item.image}
@@ -147,13 +144,12 @@ const Footer = () => {
               </div>
 
               {item.content.map((link) => (
-                <Link
-                  key={link.title}
-                  href={link.link}
-                >
+                <Link key={link.title} href={link.link}>
                   <div
                     className={`${
-                      link.highlight ? 'font-bold text-yellow-400' : 'text-gray-100'
+                      link.highlight
+                        ? "font-bold text-yellow-400"
+                        : "text-gray-100"
                     } cursor-pointer font-quicksand text-tiny transition-all duration-100 hover:underline`}
                   >
                     {link.title}
