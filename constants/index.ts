@@ -384,7 +384,7 @@ const languageTexts: languageParams = {
               },
               {
                 title: 'Ödüller ve Başarılar',
-                link: '/kurumsal/oduller-ve-basariler',
+                link: '/kurumsal/oduller-ve-basarilar',
                 highlight: true,
               },
               {
@@ -451,14 +451,6 @@ const languageTexts: languageParams = {
               {
                 title: 'Bayimiz Ol',
                 link: '/bayimiz-ol',
-              },
-              {
-                title: 'Kariyer',
-                link: '/kariyer',
-              },
-              {
-                title: 'İnsan Kaynakları',
-                link: '/insan-kaynaklari',
               },
             ],
           },
