@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 const Bayilerimiz = () => {
   return (
     <div>
-      <Header text="Bayilerimiz" />
+      <Header text='Bayilerimiz' />
       <div>
         <MapComponent show />
       </div>
