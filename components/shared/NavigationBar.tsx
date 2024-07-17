@@ -122,7 +122,7 @@ const NavigationBar = () => {
       >
         <NavbarItem key={'Katalog'}>
           <Link
-            className="rounded-lg bg-blue-500 px-2 py-1 text-medium font-semibold text-white transition-all duration-300 ease-in-out "
+            className="rounded-lg bg-blue-500 px-2 py-1 text-medium font-normal text-white transition-all duration-300 ease-in-out "
             target="_blank"
             href="/dizayn-fiyat-listesi.pdf"
           >
