@@ -1,5 +1,4 @@
 import {
-  calculationsCardDataParams,
   certificateListParams,
   contactInfosParams,
   countryCertificateParams,
@@ -8,7 +7,6 @@ import {
   sliderParams,
 } from '@/types';
 import { languageParams } from '@/types/languageParams';
-
 import { productList } from './productList';
 
 const languageTexts: languageParams = {
@@ -458,6 +456,7 @@ const languageTexts: languageParams = {
       },
     },
   },
+  
 };
 
 const sliderItems: sliderParams = {
@@ -1239,64 +1238,6 @@ const certificateList: certificateListParams = [
   },
 ];
 
-const calculationsCardData: calculationsCardDataParams = {
-  en: [
-    {
-      title: 'Water Hammer Calculation',
-      description: 'Click to calculate water hammer',
-      img: '/images/su-darbesi-hesabi.jpeg',
-    },
-    {
-      title: 'Compensator Calculation',
-      description: 'Click to calculate compensator',
-      img: '/images/kompansator-hesabi.jpeg',
-    },
-    {
-      title: 'Gravity Line Calculation',
-      description: 'Click to calculate gravity line',
-      img: '/images/cazibeli-hat-hesabi.jpeg',
-    },
-    {
-      title: 'Pressure Loss Calculation',
-      description: 'Click to calculate pressure loss',
-      img: '/images/basinc-kaybı-hesabi.jpeg',
-    },
-    {
-      title: 'Korige Pipe Calculation',
-      description: 'Click to calculate korige pipe',
-      img: '/images/korige-boru-hesabi.jpeg',
-    },
-  ],
-
-  tr: [
-    {
-      title: 'Su Darbesi Hesabı',
-      description: 'Su darbesi hesabı yapmak için tıklayınız',
-      img: '/images/su-darbesi-hesabi.jpeg',
-    },
-    {
-      title: 'Kompansatör Hesabı ',
-      description: 'Kompansatör hesabı yapmak için tıklayınız',
-      img: '/images/kompansator-hesabi.jpeg',
-    },
-    {
-      title: 'Cazibeli Hat Hesabı',
-      description: 'Cazibeli hat hesabı yapmak için tıklayınız',
-      img: '/images/cazibeli-hat-hesabi.jpeg',
-    },
-    {
-      title: 'Basınç Kaybı Hesabı',
-      description: 'Basınç kaybı hesabı yapmak için tıklayınız',
-      img: '/images/basinc-kaybı-hesabi.jpeg',
-    },
-    {
-      title: 'Korige Boru Hesabı',
-      description: 'Korige Boru Hesabı yapmak için tıklayınız',
-      img: '/images/korige-boru-hesabi.jpeg',
-    },
-  ],
-};
-
 const countryCertificate: countryCertificateParams = {
   en: [
     {
@@ -1769,7 +1710,6 @@ const kurumsalLinks: {
 };
 
 export {
-  calculationsCardData,
   certificateList,
   contactInfo,
   countryCertificate,
