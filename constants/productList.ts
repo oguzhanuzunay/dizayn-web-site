@@ -1218,7 +1218,8 @@ export const productList: productListParams = {
                 'NanoTech ve NanoTech Premium Boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question: 'NanoTech ve NanoTech Premium Boruların fiyat listesine nasıl ulaşabilirim?',
+              question:
+                'NanoTech ve NanoTech Premium Boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'NanoTech ve NanoTech Premium Boruların fiyat listesine ulaşmak sitemizdeki fiyat listesini inceleyebilirsiniz. Daha fazla bilgi için bizimle iletişime geçebilirsiniz.',
             },
@@ -1296,8 +1297,7 @@ export const productList: productListParams = {
               title: 'Sessiz Çalışma',
               icon: '/icons/soundproof.png',
               alt: 'Soundproof',
-              description:
-                'Düşük ses üretimi ile konforlu bir kullanım sağlar.',
+              description: 'Düşük ses üretimi ile konforlu bir kullanım sağlar.',
             },
             {
               title: 'Uzun Ömür',
@@ -1348,8 +1348,7 @@ export const productList: productListParams = {
             },
             {
               title: 'Triplex Atık Su Borusu Teknik <b>Özellikleri</b>',
-              description:
-                `Dizayn Triplex Extra Boruları, yüksek dayanıklılık ve sızdırmazlık özellikleri ile öne çıkar. İşte Triplex Extra Borularının teknik özellikleri:
+              description: `Dizayn Triplex Extra Boruları, yüksek dayanıklılık ve sızdırmazlık özellikleri ile öne çıkar. İşte Triplex Extra Borularının teknik özellikleri:
           <ul>
             <li><b>Çalışma Sıcaklığı</b>: Sürekli 95°C, anlık 120°C sıcaklık dayanımı.</li>
             <li><b>Çalışma Basıncı</b>: 11 bar basınç dayanımı.</li>
@@ -1408,7 +1407,8 @@ export const productList: productListParams = {
               title: 'Triplex Extra Boru <b>Fiyat Listesi</b>',
               description: `
                 Dizayn Grup Triplex Extra Boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Triplex Extra Borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Triplex Extra Boru avantajlarından yararlanmak ve 2024 Triplex Extra Boru Fiyat Listesine ulaşmak için bizimle iletişime geçiniz.
-              `,},
+              `,
+            },
           ],
 
           faqs: [
@@ -1892,7 +1892,7 @@ export const productList: productListParams = {
       {
         title: 'RTP Boru',
         description:
-          'RTP Boru, yüksek basınç dayanımı ve esneklik sağlayan gelişmiş bir boru sistemidir. Üstün mukavemet özellikleri ile endüstriyel ve altyapı projelerinde güvenle kullanılır.',
+          'RTP (Reinforced Thermoplastic Pipe) Borular yüksek basınç dayanımı ile her türlü su, gaz, petrol vb. taşınmasında kullanılmaktadır. Sahip olduğu güçlü kompozit yapısı ile çelik borular gibi yüksek basınçlara mukavemet gösterirken termoplastik hammaddesi ile de plastik boruların tüm avantajlarını kullanıcısına sunmaktadır.',
         featuredProduct: false,
         logo: '/productImages/alt yapı boruları/RTP BORU/logo.png',
         banner: {
@@ -1902,7 +1902,7 @@ export const productList: productListParams = {
           bgImage: '',
         },
         image: '/productImages/alt yapı boruları/RTP BORU/RTP BORU 1.png',
-        link: '/urunler/altyapi/rtp-boru',
+        link: '/urunler/altyapi-boru-sistemleri/rtp-boru',
         highlights: [
           { title: 'Yüksek Basınç Dayanımı', icon: '/icons/high-pressure.png' },
           { title: 'Esneklik', icon: '/icons/flexible.png' },
@@ -1911,57 +1911,63 @@ export const productList: productListParams = {
         productDetails: {
           title: 'RTP Boru',
           description:
-            'Dizayn RTP Boruları, yüksek basınç ve esneklik gerektiren uygulamalar için tasarlanmış üstün performanslı borulardır. Polietilen ve alüminyum katmanlarının kombinasyonu ile üretilen bu borular, mükemmel dayanıklılık ve uzun ömür sunar.',
+            'RTP Borular 3 katmanlı hibrid yapıya sahiptir. Borunun iç ve dış katmanı termoplastik iken, orta katman yüksek mukavemetli kompozit malzemeden oluşmaktadır. Termoplastik katmanlar proje gereksinimlerine göre HDPE, PP, PE-RT vb. gibi farklı malzemelerde tasarlanabilmektedir. Aynı şekilde orta katmanda yer alan sürekli elyaf takviye katmanı da cam elyaf, aramid, karbon elyaf vb. gibi proje gereksinimlerine göre farklılık gösterebilmektedir.',
           features: [
             {
-              title: 'Yüksek Mukavemet',
-              icon: '/icons/strength.png',
-              alt: 'Strength',
+              title: 'Yüksek Dayanıklılık',
+              icon: '/icons/durability.png',
+              alt: 'Durability',
               description:
-                'RTP boruları, yüksek mukavemet ve basınç dayanımı sağlayan özel yapısı ile endüstriyel uygulamalarda güvenle kullanılabilir.',
-            },
-            {
-              title: 'Esnek Yapı',
-              icon: '/icons/flexibility.png',
-              alt: 'Flexibility',
-              description:
-                'Esnek yapısı sayesinde RTP boruları, kolayca taşınabilir ve montajı yapılabilir. Bu özellik, zorlu saha koşullarında bile uygulama kolaylığı sağlar.',
-            },
-            {
-              title: 'Uzun Ömür',
-              icon: '/icons/lifespan.png',
-              alt: 'Lifespan',
-              description:
-                'RTP boruları, uzun ömürlü yapısı ile minimum bakım gerektirir ve yıllarca güvenle kullanılabilir.',
-            },
-            {
-              title: 'Korozyona Dayanıklı',
-              icon: '/icons/corrosion-resistant.png',
-              alt: 'Corrosion Resistant',
-              description:
-                'Polietilen ve alüminyum katmanlarının kombinasyonu, RTP borularını korozyona karşı dayanıklı hale getirir.',
+                'RTP Borular, çelik borular gibi yüksek basınçlara mukavemet gösterirken termoplastik hammaddesi ile de plastik boruların tüm avantajlarını sunar.',
             },
             {
               title: 'Kolay Montaj',
               icon: '/icons/easy-installation.png',
               alt: 'Easy Installation',
               description:
-                'RTP boruları, hafif ve esnek yapısı sayesinde hızlı ve kolay montaj imkanı sunar.',
+                'Esnek yapısı sayesinde kolayca montajlanabilir ve şekil alır, bu da işçilik maliyetlerini düşürür.',
+            },
+            {
+              title: 'Kimyasal Dayanıklılık',
+              icon: '/icons/chemical-resistant.png',
+              alt: 'Chemical Resistance',
+              description:
+                'RTP Borular, kimyasal maddelere karşı yüksek direnç gösterir ve korozyona karşı koruma sağlar.',
+            },
+            {
+              title: 'Geniş Uygulama Alanı',
+              icon: '/icons/application.png',
+              alt: 'Application',
+              description:
+                'RTP Borular, yüksek basınçlı su hatları, doğalgaz iletim ve dağıtım hatları, petrol iletim hatları, jeotermal su taşıma hatları ve offshore uygulamalar gibi birçok alanda kullanılabilir.',
+            },
+            {
+              title: 'Ekonomik ve Güvenilir',
+              icon: '/icons/economical.png',
+              alt: 'Economical',
+              description:
+                'RTP Borular, ekonomik fiyatı ve uzun ömürlü yapısıyla projelerinizde maliyet tasarrufu sağlar.',
+            },
+            {
+              title: 'Çevre Dostu',
+              icon: '/icons/eco-friendly.png',
+              alt: 'Eco-Friendly',
+              description: 'RTP Borular, geri dönüşüme uygunluğu ile çevre dostu bir üründür.',
             },
           ],
           images: [
             {
-              image: '/productImages/alt yapı boruları/RTP BORU/RTP BORU 1.png',
+              image: '/productImages/alt yapı boruları/RTP BORU/RTP 1.png',
               alt: 'RTP Boru',
               description: 'RTP Boru',
             },
             {
-              image: '/productImages/alt yapı boruları/RTP BORU/RTP BORU 2.png',
+              image: '/productImages/alt yapı boruları/RTP BORU/RTP 2.png',
               alt: 'RTP Boru',
               description: 'RTP Boru',
             },
             {
-              image: '/productImages/alt yapı boruları/RTP BORU/RTP BORU 3.png',
+              image: '/productImages/alt yapı boruları/RTP BORU/RTP 3.png',
               alt: 'RTP Boru',
               description: 'RTP Boru',
             },
@@ -1970,162 +1976,113 @@ export const productList: productListParams = {
             {
               title: '<b>RTP Boru</b> ve Ek Parçaları',
               description:
-                'Dizayn Grup RTP Boruları, üstün dayanıklılığı ve esnek yapısı ile endüstriyel ve altyapı projelerinde güvenle kullanılır. RTP Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image: '/productImages/alt yapı boruları/RTP PIPE/RTP BORU 1.png',
+                'RTP Boruları, yüksek basınç dayanımı ve üstün kompozit yapısı ile 90 mm - 1200 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. RTP Boruları, su, gaz, petrol gibi farklı akışkanların taşınmasında güvenilir çözümler sunar. RTP Boru <b>Fiyat Listesi</b> için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
+              image: '/productImages/altyapi/rtp-boru/rtp-boru.png',
               alt: 'RTP Boru',
             },
             {
               title: 'RTP Boru <b>Avantajları</b>',
               description:
-                'RTP boruları, yüksek basınç dayanımı, esneklik, uzun ömür ve korozyon direnci gibi birçok avantaj sunar. Kolay montaj edilebilir yapısı sayesinde projelerinizde zaman ve maliyet tasarrufu sağlar.',
+                'RTP Boruları, çelik borular gibi yüksek basınçlara mukavemet gösterirken termoplastik hammaddesi ile de plastik boruların tüm avantajlarını sunar. Bu özellikleri ile RTP Boruları, uzun ömürlü ve güvenilir performans sağlar.',
             },
             {
               title: 'RTP Boru <b>Nerelerde Kullanılır?</b>',
               description:
-                'RTP boruları, endüstriyel tesisler, altyapı projeleri, su dağıtım sistemleri ve diğer yüksek basınç gerektiren uygulamalarda kullanılır.',
+                'RTP Boruları, yüksek performansı ve kalitesi ile su, gaz, petrol taşımacılığı, jeotermal su taşıma hatları ve offshore uygulamalar gibi birçok alanda güvenle kullanılabilir. RTP Boruları, projelerinizde güvenilir ve uzun ömürlü çözümler sunar. RTP Boru <b>Fiyat Listesi</b> için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
             },
             {
               title: 'RTP Boru <b>Ağırlık Tablosu</b>',
               description:
-                'RTP borularının ağırlık tablosu, farklı çap ve basınç sınıflarına göre hesaplanmıştır. Detaylı ağırlık tablosu için ürün kataloğumuza göz atabilirsiniz.',
+                'RTP Boruları, farklı çap ve basınç sınıflarında çeşitli ağırlıklarla üretilmektedir. Ağırlık tablosu, boruların içi boş silindir hacmi ve borunun yoğunluğu çarpılarak hesaplanmaktadır. Boruların üretim aşamasında ısıl işlem gördüğü için genleşme özelliği dikkate alınarak tablo hazırlanmıştır. Bu tablo, RTP Borularının farklı çap ve basınç sınıflarında karşılaşılan ağırlık değerlerini göstermektedir. Detaylı bilgi ve diğer çaplar için firmamızla iletişime geçebilirsiniz.',
             },
             {
               title: 'RTP Boru Teknik <b>Özellikleri</b>',
               description:
-                'RTP boruları, yüksek basınç dayanımı, esneklik, korozyon direnci ve uzun ömür gibi teknik özelliklere sahiptir. Polietilen ve alüminyum katmanları ile üretilen bu borular, endüstriyel ve altyapı projelerinde güvenle kullanılabilir.',
+                'RTP Boruları, çelik borular gibi yüksek basınçlara mukavemet gösterirken termoplastik hammaddesi ile de plastik boruların tüm avantajlarını sunar. Üç katmanlı hibrid yapısı sayesinde, yüksek sıcaklık dayanımı, kimyasal direnç ve çevresel dayanıklılık sağlar. Teknik özellikler şunlardır:\n<ul><li><b>Çalışma Sıcaklığı</b>: Sürekli 60°C, anlık 80°C sıcaklık dayanımı.</li><li><b>Çalışma Basıncı</b>: 200 bar basınç dayanımı.</li><li><b>Malzeme</b>: Özel formüllü HDPE, PP, PE-RT gibi termoplastik malzemeler.</li><li><b>Montaj Kolaylığı</b>: Esnek yapısı sayesinde kolay montaj imkanı.</li><li><b>Dayanıklılık</b>: Yüksek sıcaklık ve basınç dayanımı, çevresel etkilere karşı üstün direnç.</li><li><b>Düşük Sürtünme Direnci</b>: Verimli tesisat performansı için düşük sürtünme direnci.</li></ul>',
             },
             {
-              title: 'RTP <b>Ek Parçaları</b>',
+              title: 'RTP Boru <b>Ek Parçaları</b>',
               description:
-                'RTP ek parçaları, yüksek kaliteli malzemelerden üretilmiş olup, boru sistemlerinizin güvenli ve dayanıklı bir şekilde birleştirilmesini sağlar. - RTP Ek Parçaları - RTP Eşit Te - RTP Redüksiyon - RTP Semer - RTP Dirsekler - RTP İnegal Te - RTP Manşon - RTP Körtapa - RTP Flanş Adaptörü',
+                'RTP Boruları için çeşitli ek parçalar mevcuttur. Bu ek parçalar, boruların montajını kolaylaştırır ve sistemlerin verimliliğini artırır. Ek parçalar, projelerinizin ihtiyaçlarına göre seçilebilir ve borularla uyumlu olarak kullanılabilir.',
             },
             {
               title: 'RTP Boru <b>Birleştirme Yöntemleri</b>',
               description:
-                'RTP boruları ve ek parçaları birbirlerine eritilerek veya mekanik ek parçalar ile bağlanırlar. Polietilen dışında diğer malzemelerden yapılan borulara dıştan sıkmalı ek parçalar, flanşlar veya amaca uygun yapılmış diğer geçiş adaptörleri ile bağlanabilirler. Bağlantı ek parçaları kullanılacak yerlere göre kolaylık sağlamaktadır. - Elektrofüzyon (EF) Kaynağı: Elektrik enerjisi ile boru ve ek parça uçları eritilerek birleştirilir. - Alın Kaynağı: Boru uçlarının yüksek sıcaklıkta eritilerek birleştirilmesi. - Kaplin ile Birleştirme: Mekanik kaplin kullanılarak boru uçlarının birleştirilmesi.',
+                'RTP Boruların birleştirilmesinde farklı tipte birleştirme yöntemleri tercih edilmektedir. Bu yöntemler şunlardır:\n<ul><li><b>EF (Elektrofüzyon) Birleştirme</b>: < 40 Bar</li><li><b>EF + Alın Kaynak Birleştirme</b>: < 80 Bar</li><li><b>Mekanik Birleştirme</b>: < 200 Bar</li></ul>',
             },
             {
-              title: 'RTP Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
+              title: 'RTP Boru Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
               description:
-                'Elektrofüzyon Kaynak yönteminde, kaynak işlemi füzyon ek parçanın iç kısmındaki ısıtma rezistansları ile gerçekleştirilir. RTP borular, elektrofüzyon ek parçalarının içine yerleştirilir ve kaynak makinesinin uçları ek parçanın üzerindeki soketlere bağlanarak elektrik akımı ile ısıtılır. Bu yöntemle, RTP borular güvenli ve sağlam bir şekilde birleştirilmiş olur. Elektrofüzyon Kaynak metodu ile 20 mm çaptan 1600 mm çapa kadar olan RTP borular kaynatılabilir.',
+                'Elektrofüzyon kaynak yöntemi, RTP Borularının birleştirilmesinde güvenilir ve sağlam bir yöntem sunar. Elektrofüzyon kaynak, boru ve ek parçaların iç kısmında bulunan rezistans tellerinin elektrik enerjisi ile ısıtılmasıyla gerçekleştirilir. Bu işlem, boru yüzeylerinin erimesini ve birleşmesini sağlar. Kolay montaj imkanı sunan elektrofüzyon ek parçaları, boru uçlarına yerleştirilir ve kaynak makinesi ile kolayca birleştirilir. Sağlam ve sızdırmaz bağlantı oluşturur, bu da tesisatın uzun ömürlü ve güvenilir olmasını sağlar.',
             },
             {
-              title: 'RTP Kaynak Yöntemi: <b>Alın Kaynak</b>',
+              title: 'RTP Boru Kaynak Yöntemi: <b>Alın Kaynak</b>',
               description:
-                'Alın Kaynak, RTP boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. Alın Kaynak makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, RTP boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 1600 mm çapa kadar olan RTP borular kaynatılabilir.',
+                'Alın Kaynak, RTP Boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. Alın Kaynak makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, RTP Boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 1200 mm çapa kadar olan RTP Borular kaynatılabilir.',
             },
             {
               title: 'RTP Boru <b>Fiyat Listesi</b>',
               description:
-                'Dizayn RTP boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. RTP borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. RTP boru avantajlarından yararlanmak ve 2024 RTP Boru Fiyat Listesine ulaşmak için bizimle iletişime geçiniz.',
+                'RTP Boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. RTP Borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. RTP Boru avantajlarından yararlanmak ve 2024 RTP Boru Fiyat Listesine ulaşmak için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
             },
           ],
           faqs: [
             {
-              question: 'RTP Boruları hangi malzemeden üretilir?',
+              question: 'RTP Borular hangi malzemeden üretilir?',
               answer:
-                'RTP Boruları, polietilen ve alüminyum katmanlarının kombinasyonu ile üretilmektedir. Bu malzemeler, boruların yüksek basınç dayanımı ve esneklik sağlamasına yardımcı olur.',
+                'RTP Boruları, yüksek kaliteli termoplastik malzemelerden ve kompozit malzemelerden üretilmektedir. İç ve dış katmanlar termoplastik malzemelerden, orta katman ise yüksek mukavemetli kompozit malzemelerden oluşur.',
             },
             {
-              question: 'RTP Borularının kullanım alanları nelerdir?',
+              question: 'RTP Boruların kullanım alanları nelerdir?',
               answer:
-                'RTP Boruları, endüstriyel tesisler, altyapı projeleri, su dağıtım sistemleri ve diğer yüksek basınç gerektiren uygulamalarda kullanılabilir.',
+                'RTP Boruları, yüksek basınçlı su hatları, doğalgaz iletim ve dağıtım hatları, petrol iletim hatları, jeotermal su taşıma hatları ve offshore uygulamalar gibi birçok alanda kullanılabilir.',
             },
             {
-              question: 'RTP Boruları hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'RTP Borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
-                "RTP Boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
+                "RTP Boruları, 90 mm'den 1200 mm'ye kadar çeşitli çaplarda ve PN10 - PN200 bar basınç aralığında üretilmektedir.",
             },
             {
-              question: 'RTP Borularının birleştirme yöntemleri nelerdir?',
+              question: 'RTP Boruların birleştirme yöntemleri nelerdir?',
               answer:
-                'RTP Boruları elektrofüzyon (EF) kaynağı, alın kaynağı ve kaplin ile birleştirme yöntemleri ile birleştirilebilir.',
+                'RTP Boruların birleştirilmesinde elektrofüzyon (EF) birleştirme, EF + alın kaynak birleştirme ve mekanik birleştirme yöntemleri kullanılabilir.',
             },
             {
               question: 'RTP Boruları kimyasallara karşı dayanıklı mı?',
               answer:
-                'Evet, RTP Boruları tuzlu su, korozif asitler, bazlar ve diğer kimyasallara karşı yüksek direnç sağlar.',
+                'Evet, RTP Boruları kimyasal maddelere karşı yüksek direnç sağlar ve korozyona karşı koruma sunar.',
             },
             {
-              question: 'RTP Borularının avantajları nelerdir?',
+              question: 'RTP Boruların avantajları nelerdir?',
               answer:
-                'RTP Boruları hafif, esnek ve dayanıklıdır. Paslanmaya karşı yüksek direnç gösterir ve uzun ömürlüdür. Ayrıca, taşıma ve kurulum sırasında minimum ağır ekipman gerektirir.',
+                'RTP Boruları yüksek basınç dayanımı, güçlü kompozit yapı, termoplastik avantajı, kolay montaj, geniş uygulama alanı, ekonomik ve güvenilir performans gibi avantajlara sahiptir.',
             },
             {
-              question: 'RTP Borularının ömrü ne kadar?',
+              question: 'RTP Boruların ömrü ne kadar?',
               answer:
                 'RTP Boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question: 'RTP Borularının fiyat listesine nasıl ulaşabilirim?',
+              question: 'RTP Boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
-                'RTP Borularının 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
+                'RTP Boruların 2024 Fiyat Listesi için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
             },
             {
-              question: 'RTP Borularının teknik özellikleri nelerdir?',
+              question: 'RTP Boruların teknik özellikleri nelerdir?',
               answer:
-                'RTP Boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için ürün kataloğumuza bakabilirsiniz.',
+                'RTP Boruları geniş çap aralığı, yüksek basınç dayanımı, yüksek sıcaklık dayanımı, kimyasal direnç ve çevresel dayanıklılık gibi teknik özelliklere sahiptir.',
             },
             {
-              question: 'RTP Borularını nasıl temin edebilirim?',
+              question: 'RTP Boruları nasıl temin edebilirim?',
               answer:
                 "RTP Borularını Dizayn Grup'un yetkili satıcılarından veya doğrudan bizimle iletişime geçerek temin edebilirsiniz.",
             },
           ],
-          fittings: [
-            {
-              title: 'RTP Eşit Te',
-              image: '/productImages/alt yapı boruları/RTP PIPE/RTP BORU 1.png',
-              alt: 'RTP Eşit Te',
-              category: 'Fittings',
-            },
-            {
-              title: 'RTP Redüksiyon',
-              image: '/productImages/alt yapı boruları/RTP PIPE/RTP BORU 2.png',
-              alt: 'RTP Redüksiyon',
-              category: 'Fittings',
-            },
-            {
-              title: 'RTP Semer',
-              image: '/productImages/alt yapı boruları/RTP PIPE/RTP BORU 3.png',
-              alt: 'RTP Semer',
-              category: 'Fittings',
-            },
-            {
-              title: 'RTP Dirsekler',
-              image: '/productImages/alt yapı boruları/RTP PIPE/RTP BORU 1.png',
-              alt: 'RTP Dirsekler',
-              category: 'Fittings',
-            },
-            {
-              title: 'RTP İnegal Te',
-              image: '/productImages/alt yapı boruları/RTP PIPE/RTP BORU 2.png',
-              alt: 'RTP İnegal Te',
-              category: 'Fittings',
-            },
-            {
-              title: 'RTP Manşon',
-              image: '/productImages/alt yapı boruları/RTP PIPE/RTP BORU 3.png',
-              alt: 'RTP Manşon',
-              category: 'Fittings',
-            },
-            {
-              title: 'RTP Körtapa',
-              image: '/productImages/alt yapı boruları/RTP PIPE/RTP BORU 1.png',
-              alt: 'RTP Körtapa',
-              category: 'Fittings',
-            },
-            {
-              title: 'RTP Flanş Adaptörü',
-              image: '/productImages/alt yapı boruları/RTP PIPE/RTP BORU 2.png',
-              alt: 'RTP Flanş Adaptörü',
-              category: 'Fittings',
-            },
-          ],
+          fittings: [],
         },
         background: '',
       },
-
+      // TODO: TELEKOM BORULARI
       {
         title: 'Telekom Boruları',
         description:
@@ -2373,7 +2330,7 @@ export const productList: productListParams = {
       {
         title: 'Dizayn Koruge Boru',
         description:
-          'Dizayn Koruge Boruları, kanalizasyon sistemlerinde yüksek dayanıklılık ve uzun ömür sunar.',
+          'Koruge Boru, poliolefin grubu hammaddelerden üretilen kanalizasyon borularıdır. Yüksek korozyon dayanımı, aşınma ve kimyasal direnci ile uzun ömürlü bir çözüm sunar.',
         featuredProduct: false,
         logo: '/productImages/alt yapı boruları/Koruge/logo.png',
         banner: {
@@ -2382,8 +2339,8 @@ export const productList: productListParams = {
           PLP: '/productImages/alt yapı boruları/Koruge/banner/PLP.png',
           bgImage: '',
         },
-        image: '/productImages/alt yapı boruları/Koruge/Koruge BORU.png',
-        link: '/urunler/altyapi/koruge-boru',
+        image: '/productImages/alt yapı boruları/Koruge/Koruge 01.jpg',
+        link: '/urunler/altyapi-boru-sistemleri/koruge-boru',
         highlights: [
           { title: 'Yüksek Dayanıklılık', icon: '/icons/durable.png' },
           { title: 'Uzun Ömür', icon: '/icons/long-lasting.png' },
@@ -2395,214 +2352,109 @@ export const productList: productListParams = {
             'Dizayn Koruge Boruları, Polipropilen ve Polietilen hammaddelerinden üretilmektedir. Bu borular, yüksek halka mukavemeti, korozyon direnci ve uzun ömrü ile öne çıkar. Deprem gibi yer sarsıntılarından etkilenmeyen esnek yapıları sayesinde, sızdırmazlık ve dayanıklılık sağlar. Hafif olması nedeniyle küçük çaplı boruların döşenmesinde iş makinesi ihtiyacını azaltır.',
           features: [
             {
-              title: 'Yüksek Basınç Dayanımı',
-              icon: '/icons/high-pressure.png',
-              alt: 'High Pressure Resistance',
+              title: 'Yüksek Mukavemet',
+              icon: '/icons/durability.png',
+              alt: 'durability',
               description:
-                'Dizayn Koruge Boruları, yüksek basınç altında dahi dayanıklılığını korur ve uzun yıllar boyunca sorunsuz bir şekilde kullanılabilir.',
+                'Koruge Boru, yüksek halka mukavemeti ve darbe dayanımı ile güvenilir bir çözümdür.',
             },
             {
-              title: 'Korozyona Dayanıklı',
-              icon: '/icons/corrosion-resistant.png',
-              alt: 'Corrosion Resistant',
+              title: 'Korozyon Dayanımı',
+              icon: '/icons/corrosion-resistance.png',
+              alt: 'Corrosion Resistance',
               description:
-                'Koruge borular, korozyona karşı yüksek direnç gösterir ve bu sayede içme suyu kalitesini korur.',
+                'Polietilen ve polipropilen yapısı sayesinde korozyona ve kimyasal maddelere karşı yüksek direnç gösterir.',
             },
             {
-              title: 'Esnek ve Hafif',
-              icon: '/icons/flexible.png',
-              alt: 'Flexible',
+              title: 'Depreme Dayanıklı',
+              icon: '/icons/earthquake-resistant.png',
+              alt: 'earthquake resistant',
               description:
-                'Dizayn Koruge Boruları, esnek ve hafif yapısıyla kolay kurulum imkanı sunar ve işçilik maliyetlerini düşürür.',
+                'Esnek yapısı sayesinde deprem gibi yer sarsıntılarından etkilenmez ve sızdırmaz.',
             },
             {
-              title: 'UV Dayanımı',
-              icon: '/icons/uv-resistant.png',
-              alt: 'UV Resistant',
+              title: 'Kolay Montaj',
+              icon: '/icons/easy-installation.png',
+              alt: 'Easy Installation',
               description:
-                'Koruge borular, UV ışınlarına karşı dayanıklıdır ve dış mekan uygulamalarında uzun ömürlü performans sağlar.',
+                'Hafif yapısı ve kolay montaj imkanı sayesinde işçilik maliyetlerini düşürür.',
             },
             {
-              title: 'Ekonomik Çözüm',
-              icon: '/icons/economic.png',
-              alt: 'Economic',
+              title: 'Çevre Dostu',
+              icon: '/icons/eco-friendly.png',
+              alt: 'Eco-Friendly',
               description:
-                'Yüksek kaliteli malzemeler ve modern üretim teknikleri sayesinde, Dizayn Koruge Boruları ekonomik ve güvenilir bir çözüm sunar.',
+                'Uzun ömürlü ve geri dönüştürülebilir malzemelerden üretilir, çevreye duyarlıdır.',
             },
           ],
           images: [
             {
-              image: '/productImages/altyapı/Koruge/Koruge BORU 2.png',
+              image: '/productImages/alt yapı boruları/Koruge/Koruge 01.jpg',
               alt: 'Dizayn Koruge Boru',
               description: 'Dizayn Koruge Boru',
             },
             {
-              image: '/productImages/altyapı/Koruge/Koruge BORU 3.png',
+              image: '/productImages/altyapi-boru-sistemleri/Koruge/Koruge 01.jpg',
               alt: 'Dizayn Koruge Boru',
               description: 'Dizayn Koruge Boru',
             },
             {
-              image: '/productImages/altyapı/Koruge/Koruge BORU 4.png',
+              image: '/productImages/altyapi-boru-sistemleri/Koruge/Koruge BORU 4.png',
               alt: 'Dizayn Koruge Boru',
               description: 'Dizayn Koruge Boru',
             },
           ],
           headers: [
             {
-              title: '<b>Dizayn Koruge Boru</b> ve Ek Parçaları',
+              title: '<b>Koruge Boru</b> ve Ek Parçaları',
               description:
-                'Dizayn Koruge Boruları, Polipropilen ve Polietilen hammaddelerinden üretilmektedir. Yüksek halka mukavemeti, korozyon direnci ve uzun ömrü ile öne çıkar. Deprem gibi yer sarsıntılarından etkilenmeyen esnek yapıları sayesinde, sızdırmazlık ve dayanıklılık sağlar. Hafif olması nedeniyle küçük çaplı boruların döşenmesinde iş makinesi ihtiyacını azaltır. Dizayn Koruge Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 1.png',
-              alt: 'Dizayn Koruge Boru',
+                'Dizayn Grup Koruge Boruları, Ø450 mm çapa kadar ekstrüde korige, Ø500 mm ve üzeri çaplarda ise sarmal korige olarak üretilmektedir. Polietilen ve polipropilen hammaddelerden üretilen bu borular, yüksek darbe dayanımı ve korozyon direnci ile uzun ömürlü çözümler sunar.',
+              image: '/productImages/alt yapı boruları/Koruge/korige6-1.jpg',
+              alt: 'Koruge Boru',
             },
             {
-              title: 'Dizayn Koruge Boru <b>Avantajları</b>',
+              title: 'Koruge Boru <b>Avantajları</b>',
               description:
-                'Dizayn Koruge Boruları, yüksek basınç dayanımı, korozyon direnci, uzun ömür ve esneklik gibi birçok avantaj sunar. Kolay montaj edilebilir yapısı sayesinde projelerinizde zaman ve maliyet tasarrufu sağlar.',
+                'Dizayn Korige Boruları, yüksek korozyon dayanımı, aşınma direnci ve esnek yapısı ile projelerinizde güvenle kullanabileceğiniz borulardır. Polietilen ve polipropilen hammaddeleri sayesinde uzun ömürlüdür ve çevre dostudur.',
             },
             {
-              title: 'Dizayn Koruge Boru <b>Nerelerde Kullanılır?</b>',
+              title: 'Koruge Boru <b>Nerelerde Kullanılır?</b>',
               description:
-                'Dizayn Koruge Boruları, kanalizasyon sistemleri, su drenaj sistemleri, atık su ve endüstriyel uygulamalarda güvenle kullanılabilir. Uzun ömürlü ve dayanıklı yapısıyla projelerinizde güvenilir çözümler sunar.',
+                'Koruge Borular, kanalizasyon sistemleri, yağmur suyu drenaj hatları, yeraltı su tahliye sistemleri gibi birçok alanda kullanılabilir. Yüksek darbe dayanımı ve esnek yapısı sayesinde her türlü zorlu koşulda güvenle kullanılabilir.',
             },
             {
-              title: 'Dizayn Koruge Boru <b>Ağırlık Tablosu</b>',
+              title: 'Koruge Boru <b>Birleştirme Yöntemleri</b>',
               description:
-                'Dizayn Koruge Borularının ağırlık hesaplaması, içi boş silindir hacmi ve borunun yoğunluğu çarpılarak yapılır. Koruge borular üretim aşamasında ısıl işlem gördüğü için genleşme özelliği gösterir. Bu nedenle, koruge borularının ölçü tablosu hazırlanırken tolerans değerleri dikkate alınmalıdır.',
-            },
-            {
-              title: 'Dizayn Koruge Boru Teknik <b>Özellikleri</b>',
-              description:
-                'Dizayn Koruge Boruları, iki farklı üretim yöntemi ile üretilmektedir: ekstrüderde kesintisiz tek proseste ve sarmal metod ile mandrel üzerinde. Polipropilen ve Polietilen hammaddelerinin kullanılmasıyla üretilen borular, yüksek halka mukavemeti ve korozyon direnci sunar. Projeye bağlı olarak istenilen halka mukavemet değerinde, optimum ağırlıkta üretilebilirler.',
-            },
-            {
-              title: 'Dizayn Koruge <b>Ek Parçaları</b>',
-              description:
-                'Dizayn Koruge ek parçaları üstün kalitede üretilip tek tek kontrol edilerek sevk edilmektedir. Uygulama kolaylığı ve ergonomik tasarıma sahip ek parçalarımız, yüksek kalite ve uygun fiyat ekseninde siz değerli müşterilerimizin hizmetindedir. Koruge ek parçaları, basınçlı su sistemleri ve diğer endüstriyel uygulamalarda güvenle kullanılabilir.\n\n- Koruge Ek Parçaları\n- Koruge Eşit Te\n- Koruge Redüksiyon\n- Koruge Semer\n- Koruge Dirsekler\n- Koruge İnegal Te\n- Koruge Manşon\n- Koruge Körtapa\n- Koruge Flanş Adaptörü\nBu ek parçaları, Koruge boru sistemlerinizin güvenli ve dayanıklı bir şekilde birleştirilmesini sağlar.',
-            },
-            {
-              title: 'Dizayn Koruge Boru <b>Birleştirme Yöntemleri</b>',
-              description:
-                'Dizayn Koruge Boruları ve ek parçaları birbirlerine eritilerek veya mekanik ek parçalar ile bağlanırlar. Polietilen dışında diğer malzemelerden yapılan borulara dıştan sıkmalı ek parçalar, flanşlar veya amaca uygun yapılmış diğer geçiş adaptörleri ile bağlanabilirler. Bağlantı ek parçaları kullanılacak yerlere göre kolaylık sağlamaktadır.\n\n<b>Birleştirme Yöntemleri</b>\n- Elektrofüzyon (EF) Kaynağı: Elektrik enerjisi ile boru ve ek parça uçları eritilerek birleştirilir.\n- Alın Kaynağı: Boru uçlarının yüksek sıcaklıkta eritilerek birleştirilmesi.\n- Kaplin ile Birleştirme: Mekanik kaplin kullanılarak boru uçlarının birleştirilmesi.',
-            },
-            {
-              title: 'Dizayn Koruge Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
-              description:
-                'Elektrofüzyon Kaynak yönteminde, kaynak işlemi füzyon ek parçanın iç kısmındaki ısıtma rezistansları ile gerçekleştirilir. Koruge Borular, elektrofüzyon ek parçalarının içine yerleştirilir ve kaynak makinesinin uçları ek parçanın üzerindeki soketlere bağlanarak elektrik akımı ile ısıtılır. Bu yöntemle, Koruge borular güvenli ve sağlam bir şekilde birleştirilmiş olur. Elektrofüzyon Kaynak metodu ile 20 mm çaptan 1600 mm çapa kadar olan Koruge borular kaynatılabilir.',
-            },
-            {
-              title: 'Dizayn Koruge Kaynak Yöntemi: <b>Alın Kaynak</b>',
-              description:
-                'Alın Kaynak, Koruge boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. Alın Kaynak makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, Koruge boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 1600 mm çapa kadar olan Koruge borular kaynatılabilir.',
-            },
-            {
-              title: 'Dizayn Koruge Boru <b>Fiyat Listesi</b>',
-              description:
-                'Dizayn Koruge boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Koruge borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Koruge boru avantajlarından yararlanmak ve 2024 Koruge Boru Fiyat Listesine ulaşmak için bizimle iletişime geçiniz. Koruge borularımız hakkında detaylı bilgi almak için 0212 886 57 41 numaralı hattımızı arayabilirsiniz.',
+                'Koruge Boruların birleştirilmesinde contalı sistemler, ekstrüzyon kaynağı ve elektrofüzyon kaynağı gibi yöntemler kullanılır. Bu yöntemler, boruların sızdırmaz ve dayanıklı bir şekilde birleştirilmesini sağlar.',
             },
           ],
           faqs: [
             {
-              question: 'Koruge Boruları hangi malzemeden üretilir?',
+              question: 'Koruge Boruların hammaddesi nedir?',
               answer:
-                'Koruge boruları, Polipropilen (PP) ve Polietilen (PE) hammaddelerinden üretilmektedir. Aynı et kalınlığında PP, daha yüksek halka mukavemeti sağlar.',
+                'Koruge Borular, polietilen (PE) ve polipropilen (PP) hammaddelerden üretilmektedir. PP, aynı et kalınlığında daha yüksek halka mukavemeti sağlar.',
             },
             {
-              question: 'Koruge Borularının kullanım alanları nelerdir?',
-              answer:
-                'Koruge boruları, kanalizasyon sistemleri, su drenaj sistemleri, atık su ve endüstriyel uygulamalar gibi çeşitli alanlarda kullanılabilir.',
+              question: 'Koruge Boruların iç yüzeyi neden sarı renktedir?',
+              answer: 'Rengin özel bir anlamı yoktur, sadece görünümü güzelleştirmektedir.',
             },
             {
-              question: 'Koruge Borularının avantajları nelerdir?',
+              question: 'Koruge Borular neden kaburgalı yapılmaktadır?',
               answer:
-                'Koruge boruları yüksek basınç dayanımı, korozyon direnci, uzun ömür ve esneklik gibi birçok avantaj sunar. Ayrıca, hafif yapıları sayesinde kolay kurulum imkanı sağlar.',
+                'Kaburgalı yapı, malzeme tasarrufu ve borunun ağırlığını azaltmak için tercih edilir. Ayrıca, bu yapı yüksek yük taşıma kapasitesi sağlar.',
             },
             {
-              question: 'Koruge Borularının teknik özellikleri nelerdir?',
+              question: 'Koruge Borular kaç katmandan oluşur?',
               answer:
-                'Koruge boruları iki katmanlı yapıya sahiptir. İçteki katman akışkanı taşırken, dıştaki katman kaburgalı yapıdadır. Bu yapı, boruların yüksek halka mukavemeti ve dayanıklılık sağlamasına yardımcı olur.',
+                'Koruge Borular, içte düz yüzeyli boru katmanı ve dışta kaburgalı katman olmak üzere iki katmandan oluşur. Sarmal borular ise projeye göre değişik profillerde ve çok katmanlı olarak imal edilebilir.',
             },
             {
-              question: 'Koruge Borularının ömrü ne kadar?',
+              question: 'Koruge Boruların birleştirme yöntemleri nelerdir?',
               answer:
-                'Koruge boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde en az 50 yıl servis ömrü sunar.',
-            },
-            {
-              question: 'Koruge Borularının fiyat listesine nasıl ulaşabilirim?',
-              answer:
-                'Koruge Borularının 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
-            },
-            {
-              question: 'Koruge Borularının kimyasallara dayanıklılığı nedir?',
-              answer:
-                'Koruge boruları kimyasallara karşı yüksek direnç gösterir ve korozyona uğramaz. Bu özellikleri sayesinde içme suyu ve kanalizasyon sistemlerinde güvenle kullanılabilir.',
-            },
-            {
-              question: 'Koruge Borularının montajı nasıl yapılır?',
-              answer:
-                'Koruge borularının montajı elektrofüzyon (EF) kaynağı, alın kaynağı ve mekanik kaplinler ile yapılabilir. Montaj işlemi sırasında boru yüzeyinin temiz olmasına dikkat edilmelidir.',
-            },
-            {
-              question: 'Koruge Boruları ne kadar esnektir?',
-              answer:
-                'Koruge boruları yüksek esnekliğe sahiptir ve arazi şekline uyum sağlayarak kolay kurulum imkanı sunar. Deprem ve yer sarsıntılarından etkilenmez.',
-            },
-            {
-              question: 'Koruge Borularının deprem dayanıklılığı nasıldır?',
-              answer:
-                'Koruge boruları elastik yapısı sayesinde depremden etkilenmez ve heyelan bölgelerinde uzamayı absorbe ederek dayanıklılık sağlar.',
+                'Koruge Borular, 450 mm çapa kadar contalı yöntem ile birleştirilir. Daha büyük çaplarda ise ekstrüzyon kaynağı ve elektrofüzyon kaynağı kullanılır.',
             },
           ],
-          fittings: [
-            {
-              title: 'Koruge Eşit Te',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 1.png',
-              alt: 'Koruge Eşit Te',
-              category: 'Fittings',
-            },
-            {
-              title: 'Koruge Redüksiyon',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 2.png',
-              alt: 'Koruge Redüksiyon',
-              category: 'Fittings',
-            },
-            {
-              title: 'Koruge Semer',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 3.png',
-              alt: 'Koruge Semer',
-              category: 'Fittings',
-            },
-            {
-              title: 'Koruge Dirsekler',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 1.png',
-              alt: 'Koruge Dirsekler',
-              category: 'Fittings',
-            },
-            {
-              title: 'Koruge İnegal Te',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 2.png',
-              alt: 'Koruge İnegal Te',
-              category: 'Fittings',
-            },
-            {
-              title: 'Koruge Manşon',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 3.png',
-              alt: 'Koruge Manşon',
-              category: 'Fittings',
-            },
-            {
-              title: 'Koruge Körtapa',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 1.png',
-              alt: 'Koruge Körtapa',
-              category: 'Fittings',
-            },
-            {
-              title: 'Koruge Flanş Adaptörü',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 2.png',
-              alt: 'Koruge Flanş Adaptörü',
-              category: 'Fittings',
-            },
-          ],
+          fittings: [],
         },
         background: '',
       },
@@ -2610,7 +2462,7 @@ export const productList: productListParams = {
       {
         title: 'Dizayn Korige Sarmal Boru',
         description:
-          'Dizayn Korige Sarmal Boruları, kanalizasyon sistemlerinde yüksek dayanıklılık ve uzun ömür sunar.',
+        'Korige Sarmal Boru, kanalizasyon sistemleri için yüksek mukavemetli polietilen ve polipropilen hammaddelerden üretilir. Uzun ömürlü ve esnek yapısıyla korozyona karşı yüksek dayanım sağlar.',
         featuredProduct: false,
         logo: '/productImages/alt yapı boruları/KorigeSarmal/logo.png',
         banner: {
@@ -2620,7 +2472,7 @@ export const productList: productListParams = {
           bgImage: '',
         },
         image: '/productImages/alt yapı boruları/KorigeSarmal/KorigeSarmal BORU.png',
-        link: '/urunler/altyapi/korige-sarmal-boru',
+        link: '/urunler/altyapi-boru-sistemleri/korige-sarmal-boru',
         highlights: [
           { title: 'Yüksek Dayanıklılık', icon: '/icons/durable.png' },
           { title: 'Uzun Ömür', icon: '/icons/long-lasting.png' },
@@ -2629,43 +2481,42 @@ export const productList: productListParams = {
         productDetails: {
           title: 'Dizayn Korige Sarmal Boru',
           description:
-            'Dizayn Korige Sarmal Boruları, Polipropilen ve Polietilen hammaddelerinden üretilmektedir. Bu borular, yüksek halka mukavemeti, korozyon direnci ve uzun ömrü ile öne çıkar. Deprem gibi yer sarsıntılarından etkilenmeyen esnek yapıları sayesinde, sızdırmazlık ve dayanıklılık sağlar. Hafif olması nedeniyle küçük çaplı boruların döşenmesinde iş makinesi ihtiyacını azaltır.',
+            'Korige Sarmal Boru, polietilen ve polipropilen hammaddelerden üretilir ve yüksek mukavemetli, korozyona dayanıklı bir yapıya sahiptir. 8.000 mm çapa kadar üretilebilir ve çeşitli birleştirme yöntemleri ile kullanımı kolaydır.',
           features: [
-            {
-              title: 'Yüksek Basınç Dayanımı',
-              icon: '/icons/high-pressure.png',
-              alt: 'High Pressure Resistance',
-              description:
-                'Dizayn Korige Sarmal Boruları, yüksek basınç altında dahi dayanıklılığını korur ve uzun yıllar boyunca sorunsuz bir şekilde kullanılabilir.',
-            },
-            {
-              title: 'Korozyona Dayanıklı',
-              icon: '/icons/corrosion-resistant.png',
-              alt: 'Corrosion Resistant',
-              description:
-                'Korige borular, korozyona karşı yüksek direnç gösterir ve bu sayede içme suyu kalitesini korur.',
-            },
-            {
-              title: 'Esnek ve Hafif',
-              icon: '/icons/flexible.png',
-              alt: 'Flexible',
-              description:
-                'Dizayn Korige Sarmal Boruları, esnek ve hafif yapısıyla kolay kurulum imkanı sunar ve işçilik maliyetlerini düşürür.',
-            },
-            {
-              title: 'UV Dayanımı',
-              icon: '/icons/uv-resistant.png',
-              alt: 'UV Resistant',
-              description:
-                'Korige borular, UV ışınlarına karşı dayanıklıdır ve dış mekan uygulamalarında uzun ömürlü performans sağlar.',
-            },
-            {
-              title: 'Ekonomik Çözüm',
-              icon: '/icons/economic.png',
-              alt: 'Economic',
-              description:
-                'Yüksek kaliteli malzemeler ve modern üretim teknikleri sayesinde, Dizayn Korige Sarmal Boruları ekonomik ve güvenilir bir çözüm sunar.',
-            },
+              {
+                title: 'Yüksek Mukavemet',
+                icon: '/icons/durability.png',
+                alt: 'durability',
+                description:
+                  'Korige Sarmal Boru, yüksek halka mukavemeti ve darbe dayanımı ile güvenilir bir çözümdür.',
+              },
+              {
+                title: 'Korozyon Dayanımı',
+                icon: '/icons/corrosion-resistance.png',
+                alt: 'Corrosion Resistance',
+                description:
+                  'Polietilen ve polipropilen yapısı sayesinde korozyona ve kimyasal maddelere karşı yüksek direnç gösterir.',
+              },
+              {
+                title: 'Esneklik',
+                icon: '/icons/flexible.png',
+                alt: 'flexible',
+                description:
+                  'Esnek yapısı sayesinde deprem gibi yer sarsıntılarından etkilenmez ve sızdırmaz.',
+              },
+              {
+                title: 'Kolay Montaj',
+                icon: '/icons/easy-installation.png',
+                alt: 'Easy Installation',
+                description: 'Hafif yapısı ve kolay montaj imkanı sayesinde işçilik maliyetlerini düşürür.',
+              },
+              {
+                title: 'Çevre Dostu',
+                icon: '/icons/eco-friendly.png',
+                alt: 'Eco-Friendly',
+                description:
+                  'Uzun ömürlü ve geri dönüştürülebilir malzemelerden üretilir, çevreye duyarlıdır.',
+              },
           ],
           images: [
             {
@@ -2686,108 +2537,49 @@ export const productList: productListParams = {
           ],
           headers: [
             {
-              title: '<b>Dizayn Korige Sarmal Boru</b> ve Ek Parçaları',
+              title: '<b>Korige Sarmal Boru</b> ve Ek Parçaları',
               description:
-                'Dizayn Korige Sarmal Boruları, Polipropilen ve Polietilen hammaddelerinden üretilmektedir. Yüksek halka mukavemeti, korozyon direnci ve uzun ömrü ile öne çıkar. Deprem gibi yer sarsıntılarından etkilenmeyen esnek yapıları sayesinde, sızdırmazlık ve dayanıklılık sağlar. Hafif olması nedeniyle küçük çaplı boruların döşenmesinde iş makinesi ihtiyacını azaltır. Dizayn Korige Sarmal Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image: '/productImages/altyapı/KorigeSarmal/KorigeSarmal BORU 1.png',
-              alt: 'Dizayn Korige Sarmal Boru',
+                'Dizayn Grup Korige Sarmal Boruları, 8.000 mm çapa kadar üretilebilen, polietilen ve polipropilen hammaddelerden üretilen yüksek mukavemetli borulardır. Farklı birleştirme yöntemleri ile kullanımı kolay ve güvenilirdir.',
+              image:
+                '/productImages/alt-yapi-boru-sistemleri/korige-sarmal-boru/korige-sarmal-boru-header.png',
+              alt: 'Korige Sarmal Boru',
             },
             {
-              title: 'Dizayn Korige Sarmal Boru <b>Avantajları</b>',
+              title: 'Korige Sarmal Boru <b>Avantajları</b>',
               description:
-                'Dizayn Korige Sarmal Boruları, yüksek basınç dayanımı, korozyon direnci, uzun ömür ve esneklik gibi birçok avantaj sunar. Kolay montaj edilebilir yapısı sayesinde projelerinizde zaman ve maliyet tasarrufu sağlar.',
+                'Dizayn Korige Sarmal Boruları, yüksek korozyon dayanımı, aşınma direnci ve esnek yapısı ile projelerinizde güvenle kullanabileceğiniz borulardır. Polietilen ve polipropilen hammaddeleri sayesinde uzun ömürlüdür ve çevre dostudur.',
             },
             {
-              title: 'Dizayn Korige Sarmal Boru <b>Nerelerde Kullanılır?</b>',
+              title: 'Korige Sarmal Boru <b>Nerelerde Kullanılır?</b>',
               description:
-                'Dizayn Korige Sarmal Boruları, kanalizasyon sistemleri, su drenaj sistemleri, atık su ve endüstriyel uygulamalarda güvenle kullanılabilir. Uzun ömürlü ve dayanıklı yapısıyla projelerinizde güvenilir çözümler sunar.',
+                'Korige Sarmal Borular, kanalizasyon sistemleri, yağmur suyu drenaj hatları, yeraltı su tahliye sistemleri gibi birçok alanda kullanılabilir. Yüksek darbe dayanımı ve esnek yapısı sayesinde her türlü zorlu koşulda güvenle kullanılabilir.',
             },
             {
-              title: 'Dizayn Korige Sarmal Boru <b>Ağırlık Tablosu</b>',
+              title: 'Korige Sarmal Boru <b>Birleştirme Yöntemleri</b>',
               description:
-                'Dizayn Korige Sarmal Borularının ağırlık hesaplaması, içi boş silindir hacmi ve borunun yoğunluğu çarpılarak yapılır. Korige borular üretim aşamasında ısıl işlem gördüğü için genleşme özelliği gösterir. Bu nedenle, korige borularının ölçü tablosu hazırlanırken tolerans değerleri dikkate alınmalıdır.',
-            },
-            {
-              title: 'Dizayn Korige Sarmal Boru Teknik <b>Özellikleri</b>',
-              description:
-                'Dizayn Korige Sarmal Boruları, iki farklı üretim yöntemi ile üretilmektedir: ekstrüderde kesintisiz tek proseste ve sarmal metod ile mandrel üzerinde. Polipropilen ve Polietilen hammaddelerinin kullanılmasıyla üretilen borular, yüksek halka mukavemeti ve korozyon direnci sunar. Projeye bağlı olarak istenilen halka mukavemet değerinde, optimum ağırlıkta üretilebilirler.',
-            },
-            {
-              title: 'Dizayn Korige Sarmal <b>Ek Parçaları</b>',
-              description:
-                'Dizayn Korige Sarmal ek parçaları üstün kalitede üretilip tek tek kontrol edilerek sevk edilmektedir. Uygulama kolaylığı ve ergonomik tasarıma sahip ek parçalarımız, yüksek kalite ve uygun fiyat ekseninde siz değerli müşterilerimizin hizmetindedir. Korige Sarmal ek parçaları, basınçlı su sistemleri ve diğer endüstriyel uygulamalarda güvenle kullanılabilir.\n\n- Korige Sarmal Ek Parçaları\n- Korige Sarmal Eşit Te\n- Korige Sarmal Redüksiyon\n- Korige Sarmal Semer\n- Korige Sarmal Dirsekler\n- Korige Sarmal İnegal Te\n- Korige Sarmal Manşon\n- Korige Sarmal Körtapa\n- Korige Sarmal Flanş Adaptörü\nBu ek parçaları, Korige Sarmal boru sistemlerinizin güvenli ve dayanıklı bir şekilde birleştirilmesini sağlar.',
-            },
-            {
-              title: 'Dizayn Korige Sarmal Boru <b>Birleştirme Yöntemleri</b>',
-              description:
-                'Dizayn Korige Sarmal Boruları ve ek parçaları birbirlerine eritilerek veya mekanik ek parçalar ile bağlanırlar. Polietilen dışında diğer malzemelerden yapılan borulara dıştan sıkmalı ek parçalar, flanşlar veya amaca uygun yapılmış diğer geçiş adaptörleri ile bağlanabilirler. Bağlantı ek parçaları kullanılacak yerlere göre kolaylık sağlamaktadır.\n\n<b>Birleştirme Yöntemleri</b>\n- Elektrofüzyon (EF) Kaynağı: Elektrik enerjisi ile boru ve ek parça uçları eritilerek birleştirilir.\n- Alın Kaynağı: Boru uçlarının yüksek sıcaklıkta eritilerek birleştirilmesi.\n- Kaplin ile Birleştirme: Mekanik kaplin kullanılarak boru uçlarının birleştirilmesi.',
-            },
-            {
-              title: 'Dizayn Korige Sarmal Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
-              description:
-                'Elektrofüzyon Kaynak yönteminde, kaynak işlemi füzyon ek parçanın iç kısmındaki ısıtma rezistansları ile gerçekleştirilir. Korige Sarmal Borular, elektrofüzyon ek parçalarının içine yerleştirilir ve kaynak makinesinin uçları ek parçanın üzerindeki soketlere bağlanarak elektrik akımı ile ısıtılır. Bu yöntemle, Korige Sarmal borular güvenli ve sağlam bir şekilde birleştirilmiş olur. Elektrofüzyon Kaynak metodu ile 20 mm çaptan 1600 mm çapa kadar olan Korige Sarmal borular kaynatılabilir.',
-            },
-            {
-              title: 'Dizayn Korige Sarmal Kaynak Yöntemi: <b>Alın Kaynak</b>',
-              description:
-                'Alın Kaynak, Korige Sarmal boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. Alın Kaynak makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, Korige Sarmal boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 1600 mm çapa kadar olan Korige Sarmal borular kaynatılabilir.',
-            },
-            {
-              title: 'Dizayn Korige Sarmal Boru <b>Fiyat Listesi</b>',
-              description:
-                'Dizayn Korige Sarmal boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Korige Sarmal borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Korige Sarmal boru avantajlarından yararlanmak ve 2024 Korige Sarmal Boru Fiyat Listesine ulaşmak için bizimle iletişime geçiniz. Korige Sarmal borularımız hakkında detaylı bilgi almak için 0212 886 57 41 numaralı hattımızı arayabilirsiniz.',
+                'Korige Sarmal Boruların birleştirilmesinde contalı sistemler, ekstrüzyon kaynağı ve elektrofüzyon kaynağı gibi yöntemler kullanılır. Bu yöntemler, boruların sızdırmaz ve dayanıklı bir şekilde birleştirilmesini sağlar.',
             },
           ],
           faqs: [
             {
-              question: 'Korige Sarmal Borular hangi malzemeden üretilir?',
+              question: 'Korige Sarmal Boruların hammaddesi nedir?',
               answer:
-                'Korige Sarmal boruları, Polipropilen (PP) ve Polietilen (PE) hammaddelerinden üretilmektedir. Aynı et kalınlığında PP, daha yüksek halka mukavemeti sağlar.',
+                'Korige Sarmal Borular, polietilen (PE) ve polipropilen (PP) hammaddelerden üretilmektedir. PP, aynı et kalınlığında daha yüksek halka mukavemeti sağlar.',
             },
             {
-              question: 'Korige Sarmal Boruların kullanım alanları nelerdir?',
+              question: 'Korige Sarmal Borular neden kaburgalı yapılmaktadır?',
               answer:
-                'Korige Sarmal boruları, kanalizasyon sistemleri, su drenaj sistemleri, atık su ve endüstriyel uygulamalar gibi çeşitli alanlarda kullanılabilir.',
+                'Kaburgalı yapı, malzeme tasarrufu ve borunun ağırlığını azaltmak için tercih edilir. Ayrıca, bu yapı yüksek yük taşıma kapasitesi sağlar.',
             },
             {
-              question: 'Korige Sarmal Boruların avantajları nelerdir?',
+              question: 'Korige Sarmal Borular kaç katmandan oluşur?',
               answer:
-                'Korige Sarmal boruları yüksek basınç dayanımı, korozyon direnci, uzun ömür ve esneklik gibi birçok avantaj sunar. Ayrıca, hafif yapıları sayesinde kolay kurulum imkanı sağlar.',
+                'Korige Sarmal Borular, içte düz yüzeyli boru katmanı ve dışta kaburgalı katman olmak üzere iki katmandan oluşur. Sarmal borular ise projeye göre değişik profillerde ve çok katmanlı olarak imal edilebilir.',
             },
             {
-              question: 'Korige Sarmal Boruların teknik özellikleri nelerdir?',
+              question: 'Korige Sarmal Boruların birleştirme yöntemleri nelerdir?',
               answer:
-                'Korige Sarmal boruları iki katmanlı yapıya sahiptir. İçteki katman akışkanı taşırken, dıştaki katman kaburgalı yapıdadır. Bu yapı, boruların yüksek halka mukavemeti ve dayanıklılık sağlamasına yardımcı olur.',
-            },
-            {
-              question: 'Korige Sarmal Boruların ömrü ne kadar?',
-              answer:
-                'Korige Sarmal boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde en az 50 yıl servis ömrü sunar.',
-            },
-            {
-              question: 'Korige Sarmal Boruların fiyat listesine nasıl ulaşabilirim?',
-              answer:
-                'Korige Sarmal Boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
-            },
-            {
-              question: 'Korige Sarmal Boruların kimyasallara dayanıklılığı nedir?',
-              answer:
-                'Korige Sarmal boruları kimyasallara karşı yüksek direnç gösterir ve korozyona uğramaz. Bu özellikleri sayesinde içme suyu ve kanalizasyon sistemlerinde güvenle kullanılabilir.',
-            },
-            {
-              question: 'Korige Sarmal Boruların montajı nasıl yapılır?',
-              answer:
-                'Korige Sarmal borularının montajı elektrofüzyon (EF) kaynağı, alın kaynağı ve mekanik kaplinler ile yapılabilir. Montaj işlemi sırasında boru yüzeyinin temiz olmasına dikkat edilmelidir.',
-            },
-            {
-              question: 'Korige Sarmal Boruları ne kadar esnektir?',
-              answer:
-                'Korige Sarmal boruları yüksek esnekliğe sahiptir ve arazi şekline uyum sağlayarak kolay kurulum imkanı sunar. Deprem ve yer sarsıntılarından etkilenmez.',
-            },
-            {
-              question: 'Korige Sarmal Boruların deprem dayanıklılığı nasıldır?',
-              answer:
-                'Korige Sarmal boruları elastik yapısı sayesinde depremden etkilenmez ve heyelan bölgelerinde uzamayı absorbe ederek dayanıklılık sağlar.',
+                'Korige Sarmal Borular, ekstrüzyon kaynağı, contalı yöntem ve elektrofüzyon kaynağı gibi yöntemlerle birleştirilir.',
             },
           ],
           fittings: [],
