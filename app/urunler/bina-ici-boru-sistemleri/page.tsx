@@ -5,9 +5,16 @@ import ProductCard from '@/components/cards/ProductCard';
 import { productList } from '@/constants';
 import { useLanguageContext } from '@/context/language';
 import { SectionWrapper } from '@/hoc';
+import { useEffect, useState } from 'react';
 
 const Products = () => {
   const [language] = useLanguageContext();
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    setIsMobile(window.innerWidth <= 768);
+    console.log(isMobile);
+  }, [isMobile]);
 
   return (
     <div>
@@ -36,6 +43,8 @@ const Products = () => {
               highlights={item.highlights}
               logo={item.logo}
               bgImage={item.banner.bgImage || ''}
+              mobileBgImage={item.banner.mobileBgImage || ''}
+              isMobile={isMobile}
             />
           ))}
 
@@ -44,14 +53,15 @@ const Products = () => {
 
       <div className="px-2 py-4">
         <p className="text-center font-sans text-lg">
-        Bina içi boru sistemlerinde Dizayn Grup&apos;un üstün çözümleriyle projelerinizi bir adım öne taşıyın. Enerji verimliliği, hijyen ve uzun ömürlü kullanım sunar.
+          Bina içi boru sistemlerinde Dizayn Grup&apos;un üstün çözümleriyle projelerinizi bir adım
+          öne taşıyın. Enerji verimliliği, hijyen ve uzun ömürlü kullanım sunar.
         </p>
       </div>
 
       <div
         className="my-5 grid
        grid-cols-5 items-center justify-items-center 
-       gap-0 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+       gap-1 max-lg:grid-cols-3 max-md:grid-cols-2 max-md:gap-2 max-sm:grid-cols-1 max-sm:gap-6"
       >
         {productList[language].superStructureProducts.map(
           (item) =>
@@ -64,7 +74,7 @@ const Products = () => {
                 <ProductCard
                   item={{
                     ...item,
-                    customCSS: ''
+                    customCSS: '',
                   }}
                   isPLP={true}
                 />

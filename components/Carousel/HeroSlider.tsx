@@ -75,7 +75,7 @@ const heroSlider: HeroSliderParams = {
       desktopImage: '/sliderImages/desktop/elastica.jpg',
       mobileImage: '/sliderImages/mobile/elastica.jpg',
       alt: 'ElitePipe Hero Image',
-      link: '/urunler/bina-ici-boru-sistemleri/elastica',
+      link: '/urunler/bina-ici-boru-sistemleri/elastica-boru',
     },
     {
       desktopImage: '/sliderImages/desktop/projelerimiz.jpg',
@@ -84,10 +84,10 @@ const heroSlider: HeroSliderParams = {
       link: '/projelerimiz',
     },
     {
-      desktopImage: '/sliderImages/desktop/nanotek-premium.jpg',
-      mobileImage: '/sliderImages/mobile/nanotek-premium.jpg',
+      desktopImage: '/sliderImages/desktop/nanotek.jpg',
+      mobileImage: '/sliderImages/mobile/nanotek.jpg',
       alt: 'SterilePipe',
-      link: '/urunler/bina-ici-boru-sistemleri/nanotek-premium',
+      link: '/urunler/bina-ici-boru-sistemleri/nanotek-pipe',
     },
     {
       desktopImage: '/sliderImages/desktop/koruge.jpg',
