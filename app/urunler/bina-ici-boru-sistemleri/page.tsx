@@ -5,11 +5,9 @@ import ProductCard from '@/components/cards/ProductCard';
 import { productList } from '@/constants';
 import { useLanguageContext } from '@/context/language';
 import { SectionWrapper } from '@/hoc';
-import { useEffect, useState } from 'react';
 
 const Products = () => {
   const [language] = useLanguageContext();
-
 
   return (
     <div>
