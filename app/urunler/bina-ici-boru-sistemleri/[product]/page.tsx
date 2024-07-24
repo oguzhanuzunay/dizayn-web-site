@@ -35,7 +35,7 @@ const Page = ({ params }: { params: { product: string } }) => {
         </Breadcrumbs>
       </div>
 
-      <div className="flex w-full flex-row items-center justify-center rounded-3xl border-0 px-10 py-3">
+      <div className="flex w-full flex-row items-center justify-center rounded-3xl border-0 px-10 py-3 max-md:px-2">
         <Image
           src={product.banner.horizontal}
           alt={productDetail.title}
@@ -46,12 +46,13 @@ const Page = ({ params }: { params: { product: string } }) => {
       </div>
       <div />
 
-      <div className="flex h-full flex-row items-center justify-center gap-5">
+      <div className="mx-2 flex h-full flex-row items-center justify-center gap-5 p-3 max-md:flex-col">
         <Image
           src={productDetail.images[0].image}
           alt={productDetail.images[0].alt}
           width={300}
           height={400}
+          className="w-1/2"
         />
 
         <div className="flex h-full flex-col items-start justify-start ">
@@ -73,7 +74,7 @@ const Page = ({ params }: { params: { product: string } }) => {
         ))}
       </div>
 
-      <div className="m-3 flex flex-col items-start justify-center rounded-lg p-3">
+      <div className="m-3 flex flex-col items-start justify-center rounded-lg p-3 ">
         {productDetail?.headers.map((item, index) => (
           <ProductDetailCard
             key={index}

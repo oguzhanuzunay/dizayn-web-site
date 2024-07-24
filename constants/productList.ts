@@ -9,6 +9,7 @@ interface productParams {
     vertical: string;
     horizontal: string;
     bgImage?: string;
+    mobileBgImage?: string;
     PLP: string;
   };
   link: string;
@@ -66,12 +67,11 @@ export const productList: productListParams = {
         logo: '/productImages/üst yapı borular/elite-pipe-ve-ek/logo.png',
         isNewTech: true,
         banner: {
-          vertical:
-            '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/vertical.jpg',
-          horizontal:
-            '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/horizontal.png',
-          bgImage:
-            '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/bg-image.png',
+          vertical: '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/vertical.jpg',
+          horizontal: '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/horizontal.png',
+          bgImage: '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/bg-image.png',
+          mobileBgImage:
+            '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/mobile-bg-image.png',
           PLP: 'productImages/üst yapı borular/elite-pipe-ve-ek/banner/PLP.png',
         },
         image:
@@ -441,12 +441,11 @@ export const productList: productListParams = {
         logo: '/productImages/üst yapı borular/sterile-pipe/logo.png',
         isNewTech: true,
         banner: {
-          vertical:
-            '/productImages/üst yapı borular/sterile-pipe/banner/vertical.jpg',
-          horizontal:
-            '/productImages/üst yapı borular/sterile-pipe/banner/horizontal.png',
-          bgImage:
-            '/productImages/üst yapı borular/sterile-pipe/banner/bg-image.png',
+          vertical: '/productImages/üst yapı borular/sterile-pipe/banner/vertical.jpg',
+          horizontal: '/productImages/üst yapı borular/sterile-pipe/banner/horizontal.png',
+          bgImage: '/productImages/üst yapı borular/sterile-pipe/banner/bg-image.png',
+          mobileBgImage: '/productImages/üst yapı borular/sterile-pipe/banner/mobile-bg-image.png',
+
           PLP: '/productImages/üst yapı borular/sterile-pipe/banner/PLP.png',
         },
         image:
@@ -1975,7 +1974,8 @@ export const productList: productListParams = {
         description:
           'RTP (Reinforced Thermoplastic Pipe) Borular yüksek basınç dayanımı ile her türlü su, gaz, petrol vb. taşınmasında kullanılmaktadır. Sahip olduğu güçlü kompozit yapısı ile çelik borular gibi yüksek basınçlara mukavemet gösterirken termoplastik hammaddesi ile de plastik boruların tüm avantajlarını kullanıcısına sunmaktadır.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/RTP BORU/logo.png',
+        isNewTech: true,
+        logo: '',
         banner: {
           vertical:
             '/productImages/alt yapı boruları/RTP BORU/banner/vertical.jpg',
@@ -2171,7 +2171,8 @@ export const productList: productListParams = {
         description:
           'Telekom Boruları, yüksek dayanıklılık ve esneklik sunarak, telekomünikasyon altyapısında güvenli ve verimli bir çözüm sağlar.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/TELEKOM/logo.png',
+        isNewTech: true,
+        logo: '',
         banner: {
           vertical:
             '/productImages/alt yapı boruları/TELEKOM/banner/vertical.jpg',
@@ -2419,7 +2420,7 @@ export const productList: productListParams = {
         description:
           'Koruge Boru, poliolefin grubu hammaddelerden üretilen kanalizasyon borularıdır. Yüksek korozyon dayanımı, aşınma ve kimyasal direnci ile uzun ömürlü bir çözüm sunar.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/Koruge/logo.png',
+        logo: '',
         banner: {
           vertical:
             '/productImages/alt yapı boruları/Koruge/banner/vertical.jpg',
@@ -2551,9 +2552,9 @@ export const productList: productListParams = {
       {
         title: 'Dizayn Korige Sarmal Boru',
         description:
-        'Korige Sarmal Boru, kanalizasyon sistemleri için yüksek mukavemetli polietilen ve polipropilen hammaddelerden üretilir. Uzun ömürlü ve esnek yapısıyla korozyona karşı yüksek dayanım sağlar.',
+          'Korige Sarmal Boru, kanalizasyon sistemleri için yüksek mukavemetli polietilen ve polipropilen hammaddelerden üretilir. Uzun ömürlü ve esnek yapısıyla korozyona karşı yüksek dayanım sağlar.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/KorigeSarmal/logo.png',
+        logo: '',
         banner: {
           vertical:
             '/productImages/alt yapı boruları/KorigeSarmal/banner/vertical.jpg',
@@ -2574,40 +2575,41 @@ export const productList: productListParams = {
           description:
             'Korige Sarmal Boru, polietilen ve polipropilen hammaddelerden üretilir ve yüksek mukavemetli, korozyona dayanıklı bir yapıya sahiptir. 8.000 mm çapa kadar üretilebilir ve çeşitli birleştirme yöntemleri ile kullanımı kolaydır.',
           features: [
-              {
-                title: 'Yüksek Mukavemet',
-                icon: '/icons/durability.png',
-                alt: 'durability',
-                description:
-                  'Korige Sarmal Boru, yüksek halka mukavemeti ve darbe dayanımı ile güvenilir bir çözümdür.',
-              },
-              {
-                title: 'Korozyon Dayanımı',
-                icon: '/icons/corrosion-resistance.png',
-                alt: 'Corrosion Resistance',
-                description:
-                  'Polietilen ve polipropilen yapısı sayesinde korozyona ve kimyasal maddelere karşı yüksek direnç gösterir.',
-              },
-              {
-                title: 'Esneklik',
-                icon: '/icons/flexible.png',
-                alt: 'flexible',
-                description:
-                  'Esnek yapısı sayesinde deprem gibi yer sarsıntılarından etkilenmez ve sızdırmaz.',
-              },
-              {
-                title: 'Kolay Montaj',
-                icon: '/icons/easy-installation.png',
-                alt: 'Easy Installation',
-                description: 'Hafif yapısı ve kolay montaj imkanı sayesinde işçilik maliyetlerini düşürür.',
-              },
-              {
-                title: 'Çevre Dostu',
-                icon: '/icons/eco-friendly.png',
-                alt: 'Eco-Friendly',
-                description:
-                  'Uzun ömürlü ve geri dönüştürülebilir malzemelerden üretilir, çevreye duyarlıdır.',
-              },
+            {
+              title: 'Yüksek Mukavemet',
+              icon: '/icons/durability.png',
+              alt: 'durability',
+              description:
+                'Korige Sarmal Boru, yüksek halka mukavemeti ve darbe dayanımı ile güvenilir bir çözümdür.',
+            },
+            {
+              title: 'Korozyon Dayanımı',
+              icon: '/icons/corrosion-resistance.png',
+              alt: 'Corrosion Resistance',
+              description:
+                'Polietilen ve polipropilen yapısı sayesinde korozyona ve kimyasal maddelere karşı yüksek direnç gösterir.',
+            },
+            {
+              title: 'Esneklik',
+              icon: '/icons/flexible.png',
+              alt: 'flexible',
+              description:
+                'Esnek yapısı sayesinde deprem gibi yer sarsıntılarından etkilenmez ve sızdırmaz.',
+            },
+            {
+              title: 'Kolay Montaj',
+              icon: '/icons/easy-installation.png',
+              alt: 'Easy Installation',
+              description:
+                'Hafif yapısı ve kolay montaj imkanı sayesinde işçilik maliyetlerini düşürür.',
+            },
+            {
+              title: 'Çevre Dostu',
+              icon: '/icons/eco-friendly.png',
+              alt: 'Eco-Friendly',
+              description:
+                'Uzun ömürlü ve geri dönüştürülebilir malzemelerden üretilir, çevreye duyarlıdır.',
+            },
           ],
           images: [
             {
@@ -2686,7 +2688,7 @@ export const productList: productListParams = {
         description:
           'Dizayn PE 80 Doğalgaz Boruları, doğalgaz hatlarında yüksek basınç dayanımı ve esneklik sunar.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/PE 80/logo.png',
+        logo: '',
         banner: {
           vertical:
             '/productImages/alt yapı boruları/PE 80/banner/vertical.jpg',
@@ -2929,7 +2931,7 @@ export const productList: productListParams = {
         description:
           'Dizayn Jeotermal Boruları, sıcak ve soğuk akışkanların ısı transferini engelleyen kompozit borulardır.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/Jeotermal/logo.png',
+        logo: '',
         banner: {
           vertical:
             '/productImages/alt yapı boruları/Jeotermal/banner/vertical.jpg',
@@ -3163,7 +3165,7 @@ export const productList: productListParams = {
         description:
           'Dizayn Deniz Deşarj Boruları, deniz, göl ve nehirlerde atık suyun güvenli ve verimli bir şekilde tahliyesi için tasarlanmıştır.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/Deniz Desarj/logo.png',
+        logo: '',
         banner: {
           vertical:
             '/productImages/alt yapı boruları/Deniz Desarj/banner/vertical.jpg',
@@ -3424,7 +3426,7 @@ export const productList: productListParams = {
         description:
           'Dizayn Kimyasal Tanklar, korozif yapıdaki kimyasalların güvenli ve verimli bir şekilde depolanması için tasarlanmıştır.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/kimyasal-tanklar/logo.png',
+        logo: '',
         banner: {
           vertical:
             '/productImages/alt yapı boruları/kimyasal-tanklar/banner/vertical.jpg',
@@ -3664,135 +3666,6 @@ export const productList: productListParams = {
               category: 'Fittings',
             },
           ],
-        },
-        background: '',
-      },
-      {
-        title: 'RTP Borular',
-        description:
-          'Dizayn RTP (Reinforced Thermoplastic Pipe) Borular yüksek basınç dayanımı ile her türlü su, gaz, petrol vb. taşınmasında kullanılmaktadır. Sahip olduğu güçlü kompozit yapısı ile çelik borular gibi yüksek basınçlara mukavemet gösterirken termoplastik hammaddesi ile de plastik boruların tüm avantajlarını kullanıcısına sunmaktadır.',
-        featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/RTP BORU/logo.png',
-        banner: {
-          vertical:
-            '/productImages/alt yapı boruları/RTP BORU/banner/vertical.jpg',
-          horizontal:
-            '/productImages/alt yapı boruları/RTP BORU/banner/horizontal.png',
-          PLP: '/productImages/alt yapı boruları/RTP BORU/banner/PLP.png',
-          bgImage: '',
-        },
-        image: '/productImages/alt yapı boruları/RTP BORU/rtp.png',
-        link: '/urunler/altyapi-boru-sistemleri/rtp',
-        highlights: [
-          { title: 'Yüksek Basınç Dayanımı', icon: '/icons/high-pressure.png' },
-          { title: 'Kompozit Yapı', icon: '/icons/composite.png' },
-          {
-            title: 'Termoplastik Avantajlar',
-            icon: '/icons/thermoplastic.png',
-          },
-        ],
-        productDetails: {
-          title: 'RTP Borular',
-          description:
-            'Dizayn RTP (Takviyeli Termoplastik Boru) Borular 3 katmanlı hibrid yapıya sahiptir. Borunun iç ve dış katmanı termoplastik iken, orta katman yüksek mukavemetli kompozit malzemeden oluşmaktadır. Termoplastik katmanlar proje gereksinimlerine göre HDPE, PP, PE-RT vb. gibi farklı malzemelerde tasarlanabilmektedir. Aynı şekilde orta katmanda yer alan sürekli elyaf takviye katmanı da cam elyaf, aramid, karbon elyaf vb. gibi proje gereksinimlerine göre farklılık gösterebilmektedir.',
-          features: [
-            {
-              title: 'Yüksek Basınç Dayanımı',
-              icon: '/icons/high-pressure.png',
-              alt: 'High Pressure',
-              description:
-                'Dizayn RTP Borular, çelik borular gibi yüksek basınçlara mukavemet gösterirken termoplastik hammaddesi ile plastik boruların tüm avantajlarını sunar.',
-            },
-            {
-              title: 'Kompozit Yapı',
-              icon: '/icons/composite.png',
-              alt: 'Composite Structure',
-              description:
-                '3 katmanlı hibrid yapısı sayesinde yüksek mukavemetli kompozit malzeme ile güçlendirilmiştir.',
-            },
-            {
-              title: 'Termoplastik Avantajlar',
-              icon: '/icons/thermoplastic.png',
-              alt: 'Thermoplastic Advantages',
-              description:
-                'Termoplastik katmanlar sayesinde yüksek kimyasal dayanım ve esneklik sağlar.',
-            },
-          ],
-          images: [
-            {
-              image: '/productImages/rtp/rtp-1.png',
-              alt: 'Dizayn RTP Boru',
-              description: 'Dizayn RTP Boru',
-            },
-            {
-              image: '/productImages/rtp/rtp-2.png',
-              alt: 'Dizayn RTP Boru',
-              description: 'Dizayn RTP Boru',
-            },
-            {
-              image: '/productImages/rtp/rtp-3.png',
-              alt: 'Dizayn RTP Boru',
-              description: 'Dizayn RTP Boru',
-            },
-          ],
-          headers: [
-            {
-              title: '<b>Dizayn RTP Borular</b> ve Ek Parçaları',
-              description:
-                'Dizayn RTP Borular, su, gaz, petrol ve diğer sıvıların taşınmasında kullanılır. Yüksek basınç dayanımı ve termoplastik avantajları sayesinde güvenilir çözümler sunar. Dizayn RTP Borular <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image: '/productImages/rtp/rtp-1.png',
-              alt: 'Dizayn RTP Borular',
-            },
-            {
-              title: 'Dizayn RTP Borular <b>Avantajları</b>',
-              description:
-                'Dizayn RTP Borular, yüksek basınç dayanımı, kompozit yapı ve termoplastik avantajları ile öne çıkar. Bu özellikleri sayesinde çeşitli uygulama alanlarında güvenle kullanılabilir.',
-            },
-            {
-              title: 'Dizayn RTP Borular <b>Nerelerde Kullanılır?</b>',
-              description:
-                'Dizayn RTP Borular, yüksek basınçlı su hatları, doğalgaz iletim ve dağıtım hatları, petrol iletim hatları, jeotermal su taşıma hatları ve offshore uygulamalarda kullanılabilir.',
-            },
-            {
-              title: 'Dizayn RTP Borular <b>Üretim Standartları</b>',
-              description:
-                'Dizayn RTP Boruların üretiminde API 15 S, DNVGL–RP-F119, ASTM F2896, ISO TS 18226, TSE K 166 ve DIN EN 12201 standartları kullanılmaktadır.',
-            },
-            {
-              title: 'Dizayn RTP Borular <b>Teknik Özellikleri</b>',
-              description:
-                'Dizayn RTP Borular Ø90 – 1200 mm aralığında ve PN10 – PN200 bar basınç sınıfında üretilmektedir. Siyah renkte üretilen bu borular, yüksek basınç dayanımı ve termoplastik avantajları ile ön plana çıkar.',
-            },
-          ],
-          faqs: [
-            {
-              question:
-                'Dizayn RTP Borular hangi basınç sınıflarında üretilmektedir?',
-              answer:
-                'Dizayn RTP Borular PN10 – PN200 bar basınç aralığında üretilmektedir.',
-            },
-            {
-              question: 'Dizayn RTP Boruların üretim aralığı nedir?',
-              answer:
-                'Dizayn RTP Borular Ø90 – 1200 mm aralığında üretilmektedir.',
-            },
-            {
-              question: 'Dizayn RTP Borular hangi renklerde üretilmektedir?',
-              answer: 'Dizayn RTP Borular siyah renkte üretilmektedir.',
-            },
-            {
-              question:
-                'Dizayn RTP Borular hangi kullanım alanlarında tercih edilmektedir?',
-              answer:
-                'Dizayn RTP Borular yüksek basınçlı su hatları, doğalgaz iletim ve dağıtım hatları, petrol iletim hatları, jeotermal su taşıma hatları ve offshore uygulamalarda kullanılmaktadır.',
-            },
-            {
-              question: 'Dizayn RTP Boruların birleştirme yöntemleri nelerdir?',
-              answer:
-                'Dizayn RTP Boruların birleştirilmesinde EF (Elektrofüzyon) Birleştirme (< 40 Bar), EF + Alın Kaynak Birleştirme (< 80 Bar) ve Mekanik Birleştirme (< 200 Bar) yöntemleri kullanılmaktadır.',
-            },
-          ],
-          fittings: [],
         },
         background: '',
       },
@@ -4481,12 +4354,12 @@ export const productList: productListParams = {
       },
 
       {
-        title: 'NanoTech Atık Su Borusu',
+        title: 'NanoTek Atık Su Borusu',
         description:
-          'NanoTech Atık Su Borusu, yüksek sıcaklıklara dayanıklı bir boru sistemidir ve birçok alanda kullanılmaktadır.',
+          'NanoTek Atık Su Borusu, yüksek sıcaklıklara dayanıklı bir boru sistemidir ve birçok alanda kullanılmaktadır.',
         image:
           '/productImages/üst yapı borular/ATIK SU NANOTEK BORU VE EK PARÇALAR/NANOTEK ATIK SU BORU GRUP.png',
-        link: '/urunler/bina-ici-boru-sistemleri//nanotech-boru',
+        link: '/urunler/bina-ici-boru-sistemleri//nanotek-boru',
         highlights: [
           { title: 'Darbeye Dayanıklı', icon: '/icons/durable.png' },
           { title: 'Esnek', icon: '/icons/flexible.png' },

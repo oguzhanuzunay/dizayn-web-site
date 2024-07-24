@@ -1,10 +1,17 @@
 import { productDetailParams } from '@/types';
 import Image from 'next/image';
 
-const ProductDetailCard = ({ title, productDetail, image, alt, index,textColor }: productDetailParams) => {
+const ProductDetailCard = ({
+  title,
+  productDetail,
+  image,
+  alt,
+  index,
+  textColor,
+}: productDetailParams) => {
   return (
     <div
-      className={`m-6 flex flex-row items-center justify-start gap-5
+      className={`m-6 flex flex-row items-center justify-start gap-5 max-md:flex-col
         ${index && index % 2 === 0 ? '' : 'flex-row-reverse'}`}
     >
       {image && alt ? (
@@ -13,6 +20,7 @@ const ProductDetailCard = ({ title, productDetail, image, alt, index,textColor }
           alt={alt as string}
           width={300}
           height={300}
+          className='w-1/2'
         />
       ) : null}
 

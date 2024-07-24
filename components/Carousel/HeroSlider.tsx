@@ -84,10 +84,10 @@ const heroSlider: HeroSliderParams = {
       link: '/projelerimiz',
     },
     {
-      desktopImage: '/sliderImages/desktop/nanotek-premium.jpg',
-      mobileImage: '/sliderImages/mobile/nanotek-premium.jpg',
+      desktopImage: '/sliderImages/desktop/nanotek.jpg',
+      mobileImage: '/sliderImages/mobile/nanotek.jpg',
       alt: 'SterilePipe',
-      link: '/urunler/bina-ici-boru-sistemleri/nanotech-pipe',
+      link: '/urunler/bina-ici-boru-sistemleri/nanotek-pipe'
     },
     {
       desktopImage: '/sliderImages/desktop/koruge.jpg',
