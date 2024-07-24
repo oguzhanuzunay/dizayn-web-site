@@ -75,7 +75,7 @@ const heroSlider: HeroSliderParams = {
       desktopImage: '/sliderImages/desktop/elastica.jpg',
       mobileImage: '/sliderImages/mobile/elastica.jpg',
       alt: 'ElitePipe Hero Image',
-      link: '/urunler/bina-ici-boru-sistemleri/elastica',
+      link: '/urunler/bina-ici-boru-sistemleri/elastica-boru',
     },
     {
       desktopImage: '/sliderImages/desktop/projelerimiz.jpg',
@@ -87,13 +87,13 @@ const heroSlider: HeroSliderParams = {
       desktopImage: '/sliderImages/desktop/nanotek-premium.jpg',
       mobileImage: '/sliderImages/mobile/nanotek-premium.jpg',
       alt: 'SterilePipe',
-      link: '/urunler/bina-ici-boru-sistemleri/nanotek-premium',
+      link: '/urunler/bina-ici-boru-sistemleri/nanotech-pipe',
     },
     {
       desktopImage: '/sliderImages/desktop/koruge.jpg',
       mobileImage: '/sliderImages/mobile/koruge.jpg',
       alt: 'Koruge',
-      link: '/urunler/altyapi-boru-sistemleri/koruge',
+      link: '/urunler/altyapi-boru-sistemleri/koruge-boru',
     },
   ],
 };
@@ -110,15 +110,14 @@ const Carousel = () => {
 
   const [language] = useLanguageContext();
 
-
   return (
-    <div className="top-0 flex w-full items-center justify-center">
+    <div className='top-0 flex w-full items-center justify-center'>
       <Swiper
         loop={true}
         autoplay={{
           delay: 4000,
         }}
-        className="h-screen w-full"
+        className='h-screen w-full'
         pagination={{
           dynamicBullets: true,
           clickable: true,
@@ -137,9 +136,9 @@ const Carousel = () => {
             }}
           >
             <Image
-              layout="fill"
-              objectFit="cover"
-              loading="lazy"
+              layout='fill'
+              objectFit='cover'
+              loading='lazy'
               alt={slide.alt}
               src={isMobile ? slide.mobileImage : slide.desktopImage}
             />
@@ -147,9 +146,9 @@ const Carousel = () => {
         ))}
       </Swiper>
 
-      <div className="absolute bottom-12 z-10 flex w-full items-center justify-center xs:bottom-10">
-        <a href="#newTechPipe">
-          <div className="flex h-[64px] w-[35px] items-start justify-center rounded-3xl border-4 p-2">
+      <div className='absolute bottom-12 z-10 flex w-full items-center justify-center xs:bottom-10'>
+        <a href='#newTechPipe'>
+          <div className='flex h-[64px] w-[35px] items-start justify-center rounded-3xl border-4 p-2'>
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -159,7 +158,7 @@ const Carousel = () => {
                 repeat: Infinity,
                 repeatType: 'loop',
               }}
-              className="mb-1 size-3 rounded-full bg-slate-50 "
+              className='mb-1 size-3 rounded-full bg-slate-50 '
             ></motion.div>
           </div>
         </a>
