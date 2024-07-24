@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
 const MatrixCard = ({
   id,
@@ -8,7 +9,6 @@ const MatrixCard = ({
   link,
   bgImage,
   mobileBgImage,
-  isMobile,
 }: {
   id: number;
   title: string;
@@ -18,12 +18,18 @@ const MatrixCard = ({
   logo: string;
   bgImage?: string;
   mobileBgImage?: string;
-  isMobile: boolean;
 }) => {
   const dynamicClass: string =
     id % 2 === 0
       ? 'bg-gradient-to-l max-md:bg-gradient-to-b'
       : 'bg-gradient-to-r max-md:bg-gradient-to-b';
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    setIsMobile(window.innerWidth <= 768);
+    console.log(isMobile);
+  }, [isMobile]);
 
   return (
     <Link
@@ -76,7 +82,7 @@ const MatrixCard = ({
                 height={64}
                 className="max-sm:w-12"
               />
-              <p className="max-sm:text-xs text-center text-tiny font-semibold text-black">
+              <p className="text-center text-tiny font-semibold text-black max-sm:text-xs">
                 {highlight.title}
               </p>
             </div>

@@ -9,12 +9,7 @@ import { useEffect, useState } from 'react';
 
 const Products = () => {
   const [language] = useLanguageContext();
-  const [isMobile, setIsMobile] = useState(false);
 
-  useEffect(() => {
-    setIsMobile(window.innerWidth <= 768);
-    console.log(isMobile);
-  }, [isMobile]);
 
   return (
     <div>
@@ -44,7 +39,6 @@ const Products = () => {
               logo={item.logo}
               bgImage={item.banner.bgImage || ''}
               mobileBgImage={item.banner.mobileBgImage || ''}
-              isMobile={isMobile}
             />
           ))}
 
