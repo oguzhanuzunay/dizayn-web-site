@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "constants/texts.ts", "components/shared/Navbar.tsx", "public/icons/icons.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "constants/texts.ts", "components/shared/Navbar.tsx", "public/icons/icons.jsx", "constants/deneme.js"],
   "exclude": ["node_modules"]
 }
