@@ -917,7 +917,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
               icon: '/icons/eco-friendly.png',
               alt: 'Eco-Friendly',
               description:
-                'Elastica Boru, geri dönüşüme uygunluğu ile çevre dostu bir üründür.',
+                'Elastica Boru, geri dönüşüme uygunluğu ile çevre dostu bir üründür.'
             },
           ],
           images: [
@@ -1726,7 +1726,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           vertical:
             '/productImages/üst yapı borular/soft-power-ek/banner/vertical.jpg',
           horizontal:
-            '/productImages/üst yapı borular/soft-power-ek/banner/horizontal.jpg',
+            '/productImages/üst yapı borular/soft-power-ek/banner/horizontal.png',
           PLP: '/productImages/üst yapı borular/soft-power-ek/banner/PLP.png',
           bgImage: '',
         },
@@ -1811,6 +1811,8 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
+              image:
+                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -1926,6 +1928,10 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         featuredProduct: false,
         logo: '/productImages/alt yapı boruları/RTP BORU/logo.png',
         banner: {
+          vertical:
+            '/productImages/alt yapı boruları/RTP BORU/banner/vertical.jpg',
+          horizontal:
+            '/productImages/alt yapı boruları/RTP BORU/banner/horizontal.png',
           vertical:
             '/productImages/alt yapı boruları/RTP BORU/banner/vertical.jpg',
           horizontal:
@@ -2168,7 +2174,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           vertical:
             '/productImages/alt yapı boruları/TELEKOM/banner/vertical.jpg',
           horizontal:
-            '/productImages/alt yapı boruları/TELEKOM/banner/horizontal.jpg',
+            '/productImages/alt yapı boruları/TELEKOM/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/TELEKOM/banner/PLP.png',
           bgImage: '',
         },
@@ -2186,7 +2192,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           features: [
             {
               title: 'Güçlü ve Dayanıklı',
-              icon: '/icons/durable.png',
+              icon: '/icons/strong.png',
               alt: 'Strong and Durable',
               description:
                 'Telekom Boruları, zorlu çevre koşullarına dayanıklı olup, uzun yıllar sorunsuz hizmet sunar.',
@@ -2229,8 +2235,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/alt yapı boruları/TELEKOM/TELEKOM BORU 2.png',
+              image: '/productImages/telekom/TELEKOM/TELEKOM BORU 1.png',
               alt: 'Telekom Boruları',
               description: 'Telekom Boruları',
             },
@@ -2419,6 +2424,10 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
             '/productImages/alt yapı boruları/Koruge/banner/vertical.jpg',
           horizontal:
             '/productImages/alt yapı boruları/Koruge/banner/horizontal.jpg',
+          vertical:
+            '/productImages/alt yapı boruları/Koruge/banner/vertical.jpg',
+          horizontal:
+            '/productImages/alt yapı boruları/Koruge/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/Koruge/banner/PLP.png',
           bgImage: '',
         },
@@ -2499,36 +2508,19 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Dizayn Koruge Boruları, yüksek basınç dayanımı, korozyon direnci, uzun ömür ve esneklik gibi birçok avantaj sunar. Kolay montaj edilebilir yapısı sayesinde projelerinizde zaman ve maliyet tasarrufu sağlar.',
             },
             {
-              title: 'Dizayn Koruge Boru <b>Nerelerde Kullanılır?</b>',
-              description: 'Dizayn Koruge Boruları, kanalizasyon sistemleri, su drenaj sistemleri, atık su ve endüstriyel uygulamalarda güvenle kullanılabilir. Uzun ömürlü ve dayanıklı yapısıyla projelerinizde güvenilir çözümler sunar.',
+              title: 'Koruge Boru <b>Avantajları</b>',
+              description:
+                'Dizayn Korige Boruları, yüksek korozyon dayanımı, aşınma direnci ve esnek yapısı ile projelerinizde güvenle kullanabileceğiniz borulardır. Polietilen ve polipropilen hammaddeleri sayesinde uzun ömürlüdür ve çevre dostudur.',
             },
             {
-              title: 'Dizayn Koruge Boru <b>Ağırlık Tablosu</b>',
-              description: 'Dizayn Koruge Borularının ağırlık hesaplaması, içi boş silindir hacmi ve borunun yoğunluğu çarpılarak yapılır. Koruge borular üretim aşamasında ısıl işlem gördüğü için genleşme özelliği gösterir. Bu nedenle, koruge borularının ölçü tablosu hazırlanırken tolerans değerleri dikkate alınmalıdır.',
+              title: 'Koruge Boru <b>Nerelerde Kullanılır?</b>',
+              description:
+                'Koruge Borular, kanalizasyon sistemleri, yağmur suyu drenaj hatları, yeraltı su tahliye sistemleri gibi birçok alanda kullanılabilir. Yüksek darbe dayanımı ve esnek yapısı sayesinde her türlü zorlu koşulda güvenle kullanılabilir.',
             },
             {
-              title: 'Dizayn Koruge Boru Teknik <b>Özellikleri</b>',
-              description: 'Dizayn Koruge Boruları, iki farklı üretim yöntemi ile üretilmektedir: ekstrüderde kesintisiz tek proseste ve sarmal metod ile mandrel üzerinde. Polipropilen ve Polietilen hammaddelerinin kullanılmasıyla üretilen borular, yüksek halka mukavemeti ve korozyon direnci sunar. Projeye bağlı olarak istenilen halka mukavemet değerinde, optimum ağırlıkta üretilebilirler.',
-            },
-            {
-              title: 'Dizayn Koruge <b>Ek Parçaları</b>',
-              description: 'Dizayn Koruge ek parçaları üstün kalitede üretilip tek tek kontrol edilerek sevk edilmektedir. Uygulama kolaylığı ve ergonomik tasarıma sahip ek parçalarımız, yüksek kalite ve uygun fiyat ekseninde siz değerli müşterilerimizin hizmetindedir. Koruge ek parçaları, basınçlı su sistemleri ve diğer endüstriyel uygulamalarda güvenle kullanılabilir.\n\n- Koruge Ek Parçaları\n- Koruge Eşit Te\n- Koruge Redüksiyon\n- Koruge Semer\n- Koruge Dirsekler\n- Koruge İnegal Te\n- Koruge Manşon\n- Koruge Körtapa\n- Koruge Flanş Adaptörü\nBu ek parçaları, Koruge boru sistemlerinizin güvenli ve dayanıklı bir şekilde birleştirilmesini sağlar.',
-            },
-            {
-              title: 'Dizayn Koruge Boru <b>Birleştirme Yöntemleri</b>',
-              description: 'Dizayn Koruge Boruları ve ek parçaları birbirlerine eritilerek veya mekanik ek parçalar ile bağlanırlar. Polietilen dışında diğer malzemelerden yapılan borulara dıştan sıkmalı ek parçalar, flanşlar veya amaca uygun yapılmış diğer geçiş adaptörleri ile bağlanabilirler. Bağlantı ek parçaları kullanılacak yerlere göre kolaylık sağlamaktadır.\n\n<b>Birleştirme Yöntemleri</b>\n- Elektrofüzyon (EF) Kaynağı: Elektrik enerjisi ile boru ve ek parça uçları eritilerek birleştirilir.\n- Alın Kaynağı: Boru uçlarının yüksek sıcaklıkta eritilerek birleştirilmesi.\n- Kaplin ile Birleştirme: Mekanik kaplin kullanılarak boru uçlarının birleştirilmesi.',
-            },
-            {
-              title: 'Dizayn Koruge Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
-              description: 'Elektrofüzyon Kaynak yönteminde, kaynak işlemi füzyon ek parçanın iç kısmındaki ısıtma rezistansları ile gerçekleştirilir. Koruge Borular, elektrofüzyon ek parçalarının içine yerleştirilir ve kaynak makinesinin uçları ek parçanın üzerindeki soketlere bağlanarak elektrik akımı ile ısıtılır. Bu yöntemle, Koruge borular güvenli ve sağlam bir şekilde birleştirilmiş olur. Elektrofüzyon Kaynak metodu ile 20 mm çaptan 1600 mm çapa kadar olan Koruge borular kaynatılabilir.',
-            },
-            {
-              title: 'Dizayn Koruge Kaynak Yöntemi: <b>Alın Kaynak</b>',
-              description: 'Alın Kaynak, Koruge boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. Alın Kaynak makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, Koruge boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 1600 mm çapa kadar olan Koruge borular kaynatılabilir.',
-            },
-            {
-              title: 'Dizayn Koruge Boru <b>Fiyat Listesi</b>',
-              description: 'Dizayn Koruge boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Koruge borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Koruge boru avantajlarından yararlanmak ve 2024 Koruge Boru Fiyat Listesine ulaşmak için bizimle iletişime geçiniz. Koruge borularımız hakkında detaylı bilgi almak için 0212 886 57 41 numaralı hattımızı arayabilirsiniz.',
+              title: 'Koruge Boru <b>Birleştirme Yöntemleri</b>',
+              description:
+                'Koruge Boruların birleştirilmesinde contalı sistemler, ekstrüzyon kaynağı ve elektrofüzyon kaynağı gibi yöntemler kullanılır. Bu yöntemler, boruların sızdırmaz ve dayanıklı bir şekilde birleştirilmesini sağlar.',
             },
           ],
           faqs: [
@@ -2648,7 +2640,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           vertical:
             '/productImages/alt yapı boruları/KorigeSarmal/banner/vertical.jpg',
           horizontal:
-            '/productImages/alt yapı boruları/KorigeSarmal/banner/horizontal.jpg',
+            '/productImages/alt yapı boruları/KorigeSarmal/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/KorigeSarmal/banner/PLP.png',
           bgImage: '',
         },
@@ -2704,7 +2696,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           images: [
             {
               image:
-                '/productImages/alt yapı boruları/KorigeSarmal/KorigeSarmal BORU 2.png',
+                '/productImages/altyapı/KorigeSarmal/KorigeSarmal BORU 2.png',
               alt: 'Dizayn Korige Sarmal Boru',
               description: 'Dizayn Korige Sarmal Boru',
             },
@@ -2847,7 +2839,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           vertical:
             '/productImages/alt yapı boruları/PE 80/banner/vertical.jpg',
           horizontal:
-            '/productImages/alt yapı boruları/PE 80/banner/horizontal.jpg',
+            '/productImages/alt yapı boruları/PE 80/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/PE 80/banner/PLP.png',
           bgImage: '',
         },
@@ -3090,7 +3082,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           vertical:
             '/productImages/alt yapı boruları/Jeotermal/banner/vertical.jpg',
           horizontal:
-            '/productImages/alt yapı boruları/Jeotermal/banner/horizontal.jpg',
+            '/productImages/alt yapı boruları/Jeotermal/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/Jeotermal/banner/PLP.png',
           bgImage: '',
         },
@@ -3323,7 +3315,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           vertical:
             '/productImages/alt yapı boruları/Deniz Desarj/banner/vertical.jpg',
           horizontal:
-            '/productImages/alt yapı boruları/Deniz Desarj/banner/horizontal.jpg',
+            '/productImages/alt yapı boruları/Deniz Desarj/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/Deniz Desarj/banner/PLP.png',
           bgImage: '',
         },
@@ -3379,7 +3371,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           images: [
             {
               image:
-                '/productImages/alt yapı boruları/Deniz Desarj/Deniz Desarj BORU 2.jpg',
+                '/productImages/altyapı/Deniz Desarj/Deniz Desarj BORU 2.png',
               alt: 'Dizayn Deniz Deşarj Boru',
               description: 'Dizayn Deniz Deşarj Boru',
             },
@@ -3402,7 +3394,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               description:
                 'Dizayn Deniz Deşarj Boruları, deniz, göl ve nehirlerde atık suyun güvenli ve verimli bir şekilde tahliyesi için tasarlanmıştır. Korozyona karşı yüksek direnç ve uzun ömür sunar. Dizayn Deniz Deşarj Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
               image:
-                '/productImages/alt yapı boruları/Deniz Desarj/Deniz Desarj BORU 1.jpg',
+                '/productImages/altyapı/Deniz Desarj/Deniz Desarj BORU 1.png',
               alt: 'Dizayn Deniz Deşarj Boruları',
             },
             {
@@ -3584,7 +3576,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           vertical:
             '/productImages/alt yapı boruları/kimyasal-tanklar/banner/vertical.jpg',
           horizontal:
-            '/productImages/alt yapı boruları/kimyasal-tanklar/banner/horizontal.jpg',
+            '/productImages/alt yapı boruları/kimyasal-tanklar/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/PLP.png',
           bgImage: '',
         },
