@@ -1290,9 +1290,9 @@ const calculationsCardData: calculationsCardDataParams = {
       img: '/images/basinc-kaybı-hesabi.jpeg',
     },
     {
-      title: 'Koruge Boru Hesabı',
-      description: 'Koruge Boru Hesabı yapmak için tıklayınız',
-      img: '/images/koruge-boru-hesabi.jpeg',
+      title: 'Korige Boru Hesabı',
+      description: 'Korige Boru Hesabı yapmak için tıklayınız',
+      img: '/images/korige-boru-hesabi.jpeg',
     },
   ],
 };
