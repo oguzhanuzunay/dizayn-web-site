@@ -2634,7 +2634,6 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               category: 'Fittings',
             },
           ],
-          fittings: []
         },
         background: '',
       },
