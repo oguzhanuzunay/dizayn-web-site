@@ -1946,6 +1946,10 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
             '/productImages/alt yapı boruları/RTP BORU/banner/vertical.jpg',
           horizontal:
             '/productImages/alt yapı boruları/RTP BORU/banner/horizontal.png',
+          vertical:
+            '/productImages/alt yapı boruları/RTP BORU/banner/vertical.jpg',
+          horizontal:
+            '/productImages/alt yapı boruları/RTP BORU/banner/horizontal.jpg',
           PLP: '/productImages/alt yapı boruları/RTP BORU/banner/PLP.png',
           bgImage: '',
         },
@@ -2429,6 +2433,10 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         featuredProduct: false,
         logo: '/productImages/alt yapı boruları/Koruge/logo.png',
         banner: {
+          vertical:
+            '/productImages/alt yapı boruları/Koruge/banner/vertical.jpg',
+          horizontal:
+            '/productImages/alt yapı boruları/Koruge/banner/horizontal.jpg',
           vertical:
             '/productImages/alt yapı boruları/Koruge/banner/vertical.jpg',
           horizontal:
