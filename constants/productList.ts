@@ -913,25 +913,11 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
                 'Elastica Boru, ekonomik fiyatı ve uzun ömürlü yapısıyla projelerinizde maliyet tasarrufu sağlar.',
             },
             {
-
-              title: 'Uzun Ömürlü',
-              icon: '/icons/long-lasting.png',
-              alt: 'Long-lasting',
-              description: 'Yüksek sıcaklık ve basınç dayanımıyla uzun ömürlüdür.',
-            },
-            {
-              title: 'Düşük Sürtünme Direnci',
-              icon: '/icons/low-friction.png',
-              alt: 'Low Friction Resistance',
-              description: 'Düşük sürtünme direnci sayesinde tesisatın verimli çalışmasını sağlar.',
-            },
-            {
-              title: 'Oksijen Bariyerli Model',
-              icon: '/icons/oxygen-barrier.png',
-              alt: 'Oxygen Barrier Model',
+              title: 'Çevre Dostu',
+              icon: '/icons/eco-friendly.png',
+              alt: 'Eco-Friendly',
               description:
-                'Özel formüllü Oksijen bariyerli modeliyle tesisatta korozyonu %100 önler.',
-
+                'Elastica Boru, geri dönüşüme uygunluğu ile çevre dostu bir üründür.'
             },
           ],
           images: [
@@ -2269,7 +2255,8 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Telekom Boruları</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Telekom Boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Telekom Boruları, telekomünikasyon altyapısı, kablo kanalları ve yer altı boru sistemleri için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Telekom Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image: '/productImages/telekom/TELEKOM/TELEKOM BORU 1.png',
+              image:
+                '/productImages/alt yapı boruları/TELEKOM/TELEKOM BORU 1.png',
               alt: 'Telekom Boruları',
             },
             {
@@ -2457,39 +2444,39 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
             'Dizayn Koruge Boruları, Polipropilen ve Polietilen hammaddelerinden üretilmektedir. Bu borular, yüksek halka mukavemeti, korozyon direnci ve uzun ömrü ile öne çıkar. Deprem gibi yer sarsıntılarından etkilenmeyen esnek yapıları sayesinde, sızdırmazlık ve dayanıklılık sağlar. Hafif olması nedeniyle küçük çaplı boruların döşenmesinde iş makinesi ihtiyacını azaltır.',
           features: [
             {
-              title: 'Yüksek Mukavemet',
-              icon: '/icons/durability.png',
-              alt: 'durability',
+              title: 'Yüksek Basınç Dayanımı',
+              icon: '/icons/high-pressure.png',
+              alt: 'High Pressure Resistance',
               description:
-                'Koruge Boru, yüksek halka mukavemeti ve darbe dayanımı ile güvenilir bir çözümdür.',
+                'Dizayn Koruge Boruları, yüksek basınç altında dahi dayanıklılığını korur ve uzun yıllar boyunca sorunsuz bir şekilde kullanılabilir.',
             },
             {
-              title: 'Korozyon Dayanımı',
-              icon: '/icons/corrosion-resistance.png',
-              alt: 'Corrosion Resistance',
+              title: 'Korozyona Dayanıklı',
+              icon: '/icons/corrosion.png',
+              alt: 'Corrosion Resistant',
               description:
-                'Polietilen ve polipropilen yapısı sayesinde korozyona ve kimyasal maddelere karşı yüksek direnç gösterir.',
+                'Koruge borular, korozyona karşı yüksek direnç gösterir ve bu sayede içme suyu kalitesini korur.',
             },
             {
-              title: 'Depreme Dayanıklı',
-              icon: '/icons/earthquake-resistant.png',
-              alt: 'earthquake resistant',
+              title: 'Esnek ve Hafif',
+              icon: '/icons/flexible.png',
+              alt: 'Flexible',
               description:
-                'Esnek yapısı sayesinde deprem gibi yer sarsıntılarından etkilenmez ve sızdırmaz.',
+                'Dizayn Koruge Boruları, esnek ve hafif yapısıyla kolay kurulum imkanı sunar ve işçilik maliyetlerini düşürür.',
             },
             {
-              title: 'Kolay Montaj',
-              icon: '/icons/easy-installation.png',
-              alt: 'Easy Installation',
+              title: 'UV Dayanımı',
+              icon: '/icons/uv-resistant.png',
+              alt: 'UV Resistant',
               description:
-                'Hafif yapısı ve kolay montaj imkanı sayesinde işçilik maliyetlerini düşürür.',
+                'Koruge borular, UV ışınlarına karşı dayanıklıdır ve dış mekan uygulamalarında uzun ömürlü performans sağlar.',
             },
             {
-              title: 'Çevre Dostu',
-              icon: '/icons/eco-friendly.png',
-              alt: 'Eco-Friendly',
+              title: 'Ekonomik Çözüm',
+              icon: '/icons/economical.png',
+              alt: 'Economic',
               description:
-                'Uzun ömürlü ve geri dönüştürülebilir malzemelerden üretilir, çevreye duyarlıdır.',
+                'Yüksek kaliteli malzemeler ve modern üretim teknikleri sayesinde, Dizayn Koruge Boruları ekonomik ve güvenilir bir çözüm sunar.',
             },
           ],
           images: [
@@ -2511,11 +2498,14 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           headers: [
             {
-              title: '<b>Koruge Boru</b> ve Ek Parçaları',
+              title: '<b>Dizayn Koruge Boru</b> ve Ek Parçaları',
+              description: 'Dizayn Koruge Boruları, Polipropilen ve Polietilen hammaddelerinden üretilmektedir. Yüksek halka mukavemeti, korozyon direnci ve uzun ömrü ile öne çıkar. Deprem gibi yer sarsıntılarından etkilenmeyen esnek yapıları sayesinde, sızdırmazlık ve dayanıklılık sağlar. Hafif olması nedeniyle küçük çaplı boruların döşenmesinde iş makinesi ihtiyacını azaltır. Dizayn Koruge Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
+              alt: 'Dizayn Koruge Boru',
+            },
+            {
+              title: 'Dizayn Koruge Boru <b>Avantajları</b>',
               description:
-                'Dizayn Grup Koruge Boruları, Ø450 mm çapa kadar ekstrüde korige, Ø500 mm ve üzeri çaplarda ise sarmal korige olarak üretilmektedir. Polietilen ve polipropilen hammaddelerden üretilen bu borular, yüksek darbe dayanımı ve korozyon direnci ile uzun ömürlü çözümler sunar.',
-              image: '/productImages/alt yapı boruları/Koruge/korige6-1.jpg',
-              alt: 'Koruge Boru',
+                'Dizayn Koruge Boruları, yüksek basınç dayanımı, korozyon direnci, uzun ömür ve esneklik gibi birçok avantaj sunar. Kolay montaj edilebilir yapısı sayesinde projelerinizde zaman ve maliyet tasarrufu sağlar.',
             },
             {
               title: 'Koruge Boru <b>Avantajları</b>',
@@ -2535,31 +2525,107 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           faqs: [
             {
-              question: 'Koruge Boruların hammaddesi nedir?',
+              question: 'Koruge Boruları hangi malzemeden üretilir?',
               answer:
-                'Koruge Borular, polietilen (PE) ve polipropilen (PP) hammaddelerden üretilmektedir. PP, aynı et kalınlığında daha yüksek halka mukavemeti sağlar.',
+                'Koruge boruları, Polipropilen (PP) ve Polietilen (PE) hammaddelerinden üretilmektedir. Aynı et kalınlığında PP, daha yüksek halka mukavemeti sağlar.',
             },
             {
-              question: 'Koruge Boruların iç yüzeyi neden sarı renktedir?',
-              answer: 'Rengin özel bir anlamı yoktur, sadece görünümü güzelleştirmektedir.',
+              question: 'Koruge Borularının kullanım alanları nelerdir?',
+              answer:
+                'Koruge boruları, kanalizasyon sistemleri, su drenaj sistemleri, atık su ve endüstriyel uygulamalar gibi çeşitli alanlarda kullanılabilir.',
             },
             {
-              question: 'Koruge Borular neden kaburgalı yapılmaktadır?',
+              question: 'Koruge Borularının avantajları nelerdir?',
               answer:
-                'Kaburgalı yapı, malzeme tasarrufu ve borunun ağırlığını azaltmak için tercih edilir. Ayrıca, bu yapı yüksek yük taşıma kapasitesi sağlar.',
+                'Koruge boruları yüksek basınç dayanımı, korozyon direnci, uzun ömür ve esneklik gibi birçok avantaj sunar. Ayrıca, hafif yapıları sayesinde kolay kurulum imkanı sağlar.',
             },
             {
-              question: 'Koruge Borular kaç katmandan oluşur?',
+              question: 'Koruge Borularının teknik özellikleri nelerdir?',
               answer:
-                'Koruge Borular, içte düz yüzeyli boru katmanı ve dışta kaburgalı katman olmak üzere iki katmandan oluşur. Sarmal borular ise projeye göre değişik profillerde ve çok katmanlı olarak imal edilebilir.',
+                'Koruge boruları iki katmanlı yapıya sahiptir. İçteki katman akışkanı taşırken, dıştaki katman kaburgalı yapıdadır. Bu yapı, boruların yüksek halka mukavemeti ve dayanıklılık sağlamasına yardımcı olur.',
             },
             {
-              question: 'Koruge Boruların birleştirme yöntemleri nelerdir?',
+              question: 'Koruge Borularının ömrü ne kadar?',
               answer:
-                'Koruge Borular, 450 mm çapa kadar contalı yöntem ile birleştirilir. Daha büyük çaplarda ise ekstrüzyon kaynağı ve elektrofüzyon kaynağı kullanılır.',
+                'Koruge boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde en az 50 yıl servis ömrü sunar.',
+            },
+            {
+              question:
+                'Koruge Borularının fiyat listesine nasıl ulaşabilirim?',
+              answer:
+                'Koruge Borularının 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
+            },
+            {
+              question: 'Koruge Borularının kimyasallara dayanıklılığı nedir?',
+              answer:
+                'Koruge boruları kimyasallara karşı yüksek direnç gösterir ve korozyona uğramaz. Bu özellikleri sayesinde içme suyu ve kanalizasyon sistemlerinde güvenle kullanılabilir.',
+            },
+            {
+              question: 'Koruge Borularının montajı nasıl yapılır?',
+              answer:
+                'Koruge borularının montajı elektrofüzyon (EF) kaynağı, alın kaynağı ve mekanik kaplinler ile yapılabilir. Montaj işlemi sırasında boru yüzeyinin temiz olmasına dikkat edilmelidir.',
+            },
+            {
+              question: 'Koruge Boruları ne kadar esnektir?',
+              answer:
+                'Koruge boruları yüksek esnekliğe sahiptir ve arazi şekline uyum sağlayarak kolay kurulum imkanı sunar. Deprem ve yer sarsıntılarından etkilenmez.',
+            },
+            {
+              question: 'Koruge Borularının deprem dayanıklılığı nasıldır?',
+              answer:
+                'Koruge boruları elastik yapısı sayesinde depremden etkilenmez ve heyelan bölgelerinde uzamayı absorbe ederek dayanıklılık sağlar.',
             },
           ],
-          fittings: []
+          fittings: [
+            {
+              title: 'Koruge Eşit Te',
+              image: '/productImages/altyapı/Koruge/Koruge BORU 1.png',
+              alt: 'Koruge Eşit Te',
+              category: 'Fittings',
+            },
+            {
+              title: 'Koruge Redüksiyon',
+              image: '/productImages/altyapı/Koruge/Koruge BORU 2.png',
+              alt: 'Koruge Redüksiyon',
+              category: 'Fittings',
+            },
+            {
+              title: 'Koruge Semer',
+              image: '/productImages/altyapı/Koruge/Koruge BORU 3.png',
+              alt: 'Koruge Semer',
+              category: 'Fittings',
+            },
+            {
+              title: 'Koruge Dirsekler',
+              image: '/productImages/altyapı/Koruge/Koruge BORU 1.png',
+              alt: 'Koruge Dirsekler',
+              category: 'Fittings',
+            },
+            {
+              title: 'Koruge İnegal Te',
+              image: '/productImages/altyapı/Koruge/Koruge BORU 2.png',
+              alt: 'Koruge İnegal Te',
+              category: 'Fittings',
+            },
+            {
+              title: 'Koruge Manşon',
+              image: '/productImages/altyapı/Koruge/Koruge BORU 3.png',
+              alt: 'Koruge Manşon',
+              category: 'Fittings',
+            },
+            {
+              title: 'Koruge Körtapa',
+              image: '/productImages/altyapı/Koruge/Koruge BORU 1.png',
+              alt: 'Koruge Körtapa',
+              category: 'Fittings',
+            },
+            {
+              title: 'Koruge Flanş Adaptörü',
+              image: '/productImages/altyapı/Koruge/Koruge BORU 2.png',
+              alt: 'Koruge Flanş Adaptörü',
+              category: 'Fittings',
+            },
+          ],
         },
         background: '',
       },
