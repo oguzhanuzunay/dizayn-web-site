@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
 
 const MatrixCard = ({
   id,
@@ -8,7 +7,6 @@ const MatrixCard = ({
   highlights,
   link,
   bgImage,
-  mobileBgImage,
 }: {
   id: number;
   title: string;
@@ -17,19 +15,11 @@ const MatrixCard = ({
   link: string;
   logo: string;
   bgImage?: string;
-  mobileBgImage?: string;
 }) => {
   const dynamicClass: string =
     id % 2 === 0
       ? 'bg-gradient-to-l max-md:bg-gradient-to-b'
       : 'bg-gradient-to-r max-md:bg-gradient-to-b';
-
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    setIsMobile(window.innerWidth <= 768);
-    console.log(isMobile);
-  }, [isMobile]);
 
   return (
     <Link
@@ -38,12 +28,12 @@ const MatrixCard = ({
     >
       <div
         className={`flex w-fit flex-col items-center justify-end 
-      ${dynamicClass} h-80 w-full rounded-lg border-2 border-gray-200 bg-transparent shadow-lg transition-all duration-1000 hover:scale-95 hover:shadow-xl 
+      ${dynamicClass} h-64 w-full rounded-lg border-2 border-gray-200 bg-transparent shadow-lg transition-all duration-1000 hover:scale-95 hover:shadow-xl 
       `}
       >
         {
           <Image
-            src={(isMobile ? mobileBgImage : bgImage) ?? ''}
+            src={bgImage ?? ''}
             alt={title}
             width={1920}
             height={720}
@@ -80,11 +70,8 @@ const MatrixCard = ({
                 alt={highlight.title}
                 width={64}
                 height={64}
-                className="max-sm:w-12"
               />
-              <p className="text-center text-tiny font-semibold text-black max-sm:text-xs">
-                {highlight.title}
-              </p>
+              <p className="text-center text-tiny font-semibold text-black">{highlight.title}</p>
             </div>
           ))}
           <div />

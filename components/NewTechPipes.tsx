@@ -8,10 +8,6 @@ import ProductCard from './cards/ProductCard';
 
 const NewTechPipe = () => {
   const [language] = useLanguageContext();
-  const combinedProductList = [
-    ...productList[language].superStructureProducts,
-    ...productList[language].infrastructureProducts,
-  ]
 
   return (
     <div
@@ -32,7 +28,7 @@ const NewTechPipe = () => {
        items-center justify-items-stretch gap-0 
        max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
       >
-        {combinedProductList.map(
+        {productList[language].superStructureProducts.map(
           (item) =>
             item.banner && item.isNewTech && (
               <div

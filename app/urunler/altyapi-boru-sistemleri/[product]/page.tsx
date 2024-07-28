@@ -38,7 +38,6 @@ const Page = ({ params }: { params: { product: string } }) => {
       </div>
 
       <div className="flex w-full flex-row items-center justify-center rounded-3xl border-0 px-10 py-3">
-
         <Image
           src={product.banner.horizontal}
           alt={productDetail.title}
