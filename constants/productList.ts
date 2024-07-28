@@ -1740,7 +1740,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           vertical:
             '/productImages/üst yapı borular/soft-power-ek/banner/vertical.jpg',
           horizontal:
-            '/productImages/üst yapı borular/soft-power-ek/banner/horizontal.jpg',
+            '/productImages/üst yapı borular/soft-power-ek/banner/horizontal.png',
           PLP: '/productImages/üst yapı borular/soft-power-ek/banner/PLP.png',
           bgImage: '',
         },
@@ -2245,8 +2245,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/alt yapı boruları/TELEKOM/TELEKOM BORU 2.png',
+              image: '/productImages/telekom/TELEKOM/TELEKOM BORU 1.png',
               alt: 'Telekom Boruları',
               description: 'Telekom Boruları',
             },
@@ -2433,7 +2432,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           vertical:
             '/productImages/alt yapı boruları/Koruge/banner/vertical.jpg',
           horizontal:
-            '/productImages/alt yapı boruları/Koruge/banner/horizontal.jpg',
+            '/productImages/alt yapı boruları/Koruge/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/Koruge/banner/PLP.png',
           bgImage: '',
         },
@@ -2766,7 +2765,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           vertical:
             '/productImages/alt yapı boruları/PE 80/banner/vertical.jpg',
           horizontal:
-            '/productImages/alt yapı boruları/PE 80/banner/horizontal.jpg',
+            '/productImages/alt yapı boruları/PE 80/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/PE 80/banner/PLP.png',
           bgImage: '',
         },
@@ -3009,7 +3008,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           vertical:
             '/productImages/alt yapı boruları/Jeotermal/banner/vertical.jpg',
           horizontal:
-            '/productImages/alt yapı boruları/Jeotermal/banner/horizontal.jpg',
+            '/productImages/alt yapı boruları/Jeotermal/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/Jeotermal/banner/PLP.png',
           bgImage: '',
         },
@@ -3503,7 +3502,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           vertical:
             '/productImages/alt yapı boruları/kimyasal-tanklar/banner/vertical.jpg',
           horizontal:
-            '/productImages/alt yapı boruları/kimyasal-tanklar/banner/horizontal.jpg',
+            '/productImages/alt yapı boruları/kimyasal-tanklar/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/PLP.png',
           bgImage: '',
         },
