@@ -18,6 +18,26 @@ type referenceListParams = {
 
 const referenceList: referenceListParams = [
   {
+    title: 'İstanbul Hava Limanı',
+    image: '/references/istanbul-hava-alani.png',
+    alt: 'İstanbul Hava Limanı',
+  },
+  {
+    title: 'Hong Hong Adalar Projesi',
+    image: '/references/hong hong adalar projesi.png',
+    alt: 'Hong Hong Adalar Projesi',
+  },
+  {
+    title: 'Dubai Palmiye Adaları',
+    image: '/references/dubai palmiye adaları.png',
+    alt: 'Dubai Palmiye Adaları',
+  },
+  {
+    title: 'Sicilya Adaları Kanalizasyon Projesi',
+    image: '/references/sicilya-adasi-kanalizasyon-projesi.jpg',
+    alt: 'Sicilya Adaları Kanalizasyon Projesi',
+  },
+  {
     title: 'Antalya Hurma Atıksu Arıtma Tesisi',
     image: '/references/antalya-hurma-atıksu-arıtma-tesisi.png',
     alt: 'Antalya Hurma Atıksu Arıtma Tesisi',
@@ -28,24 +48,49 @@ const referenceList: referenceListParams = [
     alt: 'Büyükçekmece Deniz Desarj Projesi',
   },
   {
-    title: 'Dubai Palmiye Adaları',
-    image: '/references/dubai palmiye adaları.png',
-    alt: 'Dubai Palmiye Adaları',
+    title: 'Hollanda Bechtel Enka Elektrik Santrali Projesi',
+    image: '/references/hollanda-bechtel-enka-elektrik-santrali-projesi.jpg',
+    alt: 'hollanda-bechtel-enka-elektrik-santrali-projesi',
   },
   {
-    title: 'İstanbul Hava Limanı',
-    image: '/references/istanbul-hava-alani.png',
-    alt: 'İstanbul Hava Limanı',
+    title: 'Jakarta Selatan Endonezya Projesi',
+    image: '/references/jakarta-selatan-endonezya-projesi.jpg',
+    alt: 'jakarta-selatan-endonezya-projesi',
   },
   {
-    title: 'Sicilya Adaları Kanalizasyon Projesi',
+    title: 'Porto Arabia Pearl Island Projesi',
+    image: '/references/porto-arabia-pearl-island-projesi.jpg',
+    alt: 'jakarta-selatan-endonezya-projesi',
+  },
+  {
+    title: 'Rize Hidroelektrik Santral Projesi',
+    image: '/references/rize-hidroelektrik-santral-projesi.jpg',
+    alt: 'rize-hidroelektrik-santral-projesi',
+  },
+  {
+    title: 'Salihli Sehir Isıtma Projesi',
+    image: '/references/salihli-sehir-isitma-projesi.jpg',
+    alt: 'salihli-sehir-isitma-projesi',
+  },
+  {
+    title: 'Sicilya Adasi Kanalizasyon Projesi',
     image: '/references/sicilya-adasi-kanalizasyon-projesi.jpg',
-    alt: 'Sicilya Adaları Kanalizasyon Projesi',
+    alt: 'sicilya-adasi-kanalizasyon-projesi',
   },
   {
-    title: 'Hong Hong Adalar Projesi',
-    image: '/references/hong hong adalar projesi.png',
-    alt: 'Hong Hong Adalar Projesi',
+    title: 'Sinop Erfelek Hidroelektrik Santral Projesi',
+    image: '/references/sinop-erfelek-hidroelektrik-santral-projesi.jpg',
+    alt: 'sinop-erfelek-hidroelektrik-santral-projesi',
+  },
+  {
+    title: 'Southgate Endonezya Projesi',
+    image: '/references/southgate-endonezya-projesi.jpg',
+    alt: 'southgate-endonezya-projesi',
+  },
+  {
+    title: 'Tanjung Barat Endonezya Projesi',
+    image: '/references/tanjung-barat-endonezya-projesi.jpg',
+    alt: 'tanjung-barat-endonezya-projesi',
   },
 ];
 
@@ -78,7 +123,7 @@ const Projelerimiz = () => {
         </Swiper>
       </div>
 
-      <Link href="">
+      <Link href="/referanslar.pdf" target='_blank'>
         <div className="mx-2 mb-4 flex items-center justify-center rounded-lg bg-red-600 p-2">
           <p className=" text-lg font-bold text-white">Tüm Referanslarımız</p>
         </div>

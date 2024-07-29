@@ -447,10 +447,6 @@ const languageTexts: languageParams = {
                 title: 'İletişim',
                 link: '/iletisim',
               },
-              {
-                title: 'Bayimiz Ol',
-                link: '/bayimiz-ol',
-              },
             ],
           },
         ],

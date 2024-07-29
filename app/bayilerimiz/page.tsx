@@ -7,7 +7,7 @@ const Bayilerimiz = () => {
     <div>
       <Header text='Bayilerimiz' />
       <div>
-        <MapComponent show />
+        <MapComponent show={false} />
       </div>
     </div>
   );

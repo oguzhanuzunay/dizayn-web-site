@@ -3,7 +3,6 @@ import { languageTexts } from '@/constants';
 import { LanguageProvider } from '@/context/language';
 
 import { Metadata } from 'next';
-import WhatsApp from '@/components/WhatsApp';
 import Footer from '@/components/shared/Footer';
 // eslint-disable-next-line camelcase
 import { Red_Hat_Display, Roboto, Space_Grotesk, Quicksand } from 'next/font/google';
@@ -43,7 +42,6 @@ export default function RootLayout({
           <Providers>
             <NavigationBar />
             {children}
-            <WhatsApp />
             <Footer />
           </Providers>
         </body>

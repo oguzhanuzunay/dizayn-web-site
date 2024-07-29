@@ -14,8 +14,8 @@ const Contact = () => {
       <Header text="İletişim" />
 
       <div
-        className="flex flex-col items-center
-        justify-center gap-4
+        className="flex flex-col
+        items-center justify-center
         "
       >
         {contactInfo[language].map((item: contactInfoParams, index) => (

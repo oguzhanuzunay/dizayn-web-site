@@ -4,11 +4,12 @@ import './styles.css';
 
 const LocationCard = (locationInfo: contactInfoParams) => {
   const { position, contact, id } = { ...locationInfo };
+  const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY ?? '';
 
   return (
-    <div className={`flex w-full max-sm:!flex-col  ${id % 2 === 0 ? 'flex-row-reverse' : ''}`}>
-      <div className="flex w-full items-center justify-center gap-0 border-2 border-dashed border-gray-200 max-sm:h-[300px]">
-        <APIProvider apiKey={'AIzaSyDfbzhTTYtd7LU3xuiD-XKoe1P1Ib-I80c'}>
+    <div className={`mb-4 flex w-full max-sm:!flex-col ${id % 2 === 0 ? 'flex-row-reverse' : ''}`}>
+      <div className="flex w-full items-center justify-center gap-0 border-2 border-dashed border-gray-200 max-sm:h-[300px] ">
+        <APIProvider apiKey={apiKey}>
           <Map
             defaultCenter={position}
             defaultZoom={10}
