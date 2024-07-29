@@ -1,5 +1,4 @@
 import {
-  calculationsCardDataParams,
   certificateListParams,
   contactInfosParams,
   countryCertificateParams,
@@ -523,40 +522,35 @@ const sliderItems: sliderParams = {
   tr: [
     {
       title: 'ElitePipe',
-      image:
-        '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
+      image: '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
       description:
         'ELITEPIPE, dayanıklı, esnek, kolay taşınan ve maliyet tasarrufu sağlayan yenilikçi bir boru sistemidir.',
       link: 'urunler/bina-ici-boru-sistemleri/elitepipe',
     },
     {
       title: 'Sterile Pipe',
-      image:
-        '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
+      image: '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
       description:
         'Sterile Pipe, hijyenik ve güvenli su taşıma çözümleri sunan yenilikçi bir boru sistemidir.',
       link: 'urunler/bina-ici-boru-sistemleri/sterile-pipe',
     },
     {
       title: 'Elastica',
-      image:
-        '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
+      image: '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
       description:
         'Elastica boruları, yüksek sıcaklık dayanımı ve uygulama kolaylığı ile öne çıkar. ',
       link: '/elitepipe',
     },
     {
       title: 'Soft Power',
-      image:
-        '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
+      image: '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
       description:
         'Soft Power, dayanıklı, esnek, kolay taşınan ve maliyet tasarrufu sağlayan yenilikçi bir boru sistemidir.',
       link: 'urunler/bina-ici-boru-sistemleri/soft-power',
     },
     {
       title: 'Nano Tech',
-      image:
-        '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
+      image: '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
       description:
         'Nano Tech, gelişmiş teknolojisi ile yüksek performans ve dayanıklılık sunan yenilikçi bir boru sistemidir.',
       link: 'urunler/bina-ici-boru-sistemleri/nano-tech',
@@ -564,8 +558,7 @@ const sliderItems: sliderParams = {
 
     {
       title: 'Triplex Atık Su Boruları',
-      image:
-        '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
+      image: '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
       description:
         'Triplex Atık Su Boruları, dayanıklı ve uzun ömürlü yapısı ile atık su taşımada güvenilir bir çözümdür.',
       link: 'urunler/bina-ici-boru-sistemleri/triplex-atik-su-borulari',
@@ -1239,64 +1232,6 @@ const certificateList: certificateListParams = [
   },
 ];
 
-const calculationsCardData: calculationsCardDataParams = {
-  en: [
-    {
-      title: 'Water Hammer Calculation',
-      description: 'Click to calculate water hammer',
-      img: '/images/su-darbesi-hesabi.jpeg',
-    },
-    {
-      title: 'Compensator Calculation',
-      description: 'Click to calculate compensator',
-      img: '/images/kompansator-hesabi.jpeg',
-    },
-    {
-      title: 'Gravity Line Calculation',
-      description: 'Click to calculate gravity line',
-      img: '/images/cazibeli-hat-hesabi.jpeg',
-    },
-    {
-      title: 'Pressure Loss Calculation',
-      description: 'Click to calculate pressure loss',
-      img: '/images/basinc-kaybı-hesabi.jpeg',
-    },
-    {
-      title: 'Korige Pipe Calculation',
-      description: 'Click to calculate korige pipe',
-      img: '/images/korige-boru-hesabi.jpeg',
-    },
-  ],
-
-  tr: [
-    {
-      title: 'Su Darbesi Hesabı',
-      description: 'Su darbesi hesabı yapmak için tıklayınız',
-      img: '/images/su-darbesi-hesabi.jpeg',
-    },
-    {
-      title: 'Kompansatör Hesabı ',
-      description: 'Kompansatör hesabı yapmak için tıklayınız',
-      img: '/images/kompansator-hesabi.jpeg',
-    },
-    {
-      title: 'Cazibeli Hat Hesabı',
-      description: 'Cazibeli hat hesabı yapmak için tıklayınız',
-      img: '/images/cazibeli-hat-hesabi.jpeg',
-    },
-    {
-      title: 'Basınç Kaybı Hesabı',
-      description: 'Basınç kaybı hesabı yapmak için tıklayınız',
-      img: '/images/basinc-kaybı-hesabi.jpeg',
-    },
-    {
-      title: 'Korige Boru Hesabı',
-      description: 'Korige Boru Hesabı yapmak için tıklayınız',
-      img: '/images/korige-boru-hesabi.jpeg',
-    },
-  ],
-};
-
 const countryCertificate: countryCertificateParams = {
   en: [
     {
@@ -1498,8 +1433,7 @@ const countryCertificate: countryCertificateParams = {
           allPDFs: [
             {
               name: 'RTP BORU DENEY SERTİFİKASI',
-              image:
-                '/certificates/files/tr/imgs/RE_RTP-VE-SOFT/RTP BORU DENEY SERTİFİKASI.jpg',
+              image: '/certificates/files/tr/imgs/RE_RTP-VE-SOFT/RTP BORU DENEY SERTİFİKASI.jpg',
               link: '/certificates/files/tr/pdfs/RE_RTP-VE-SOFT/RTP BORU DENEY SERTİFİKASI.pdf',
             },
             {
@@ -1511,37 +1445,37 @@ const countryCertificate: countryCertificateParams = {
           ],
         },
         {
-          product: 'Sarmal ve Korige',
+          product: 'Sarmal ve Koruge',
           allPDFs: [
             {
               name: 'DIN 16961 SARMAL BELGELENDİRME',
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-korige/DIN 16961 SARMAL BELGELENDİRME.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-korige/DIN 16961 SARMAL BELGELENDİRME.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-Koruge/DIN 16961 SARMAL BELGELENDİRME.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/DIN 16961 SARMAL BELGELENDİRME.pdf',
             },
             {
               name: 'ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093',
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-korige/ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-korige/ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-Koruge/ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093_00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093.pdf',
             },
             {
               name: 'İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG_',
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-korige/İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG__00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-korige/İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG_.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-Koruge/İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG__00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG_.pdf',
             },
             {
               name: 'TS 12132 SARMAL BORU TSE  SERTİFİKASI',
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-korige/TS 12132 SARMAL BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-korige/TS 12132 SARMAL BORU TSE  SERTİFİKASI.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-Koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI_00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI.pdf',
             },
             {
               name: 'TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI',
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-korige/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-korige/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-Koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI_00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI.pdf',
             },
           ],
         },
@@ -1769,7 +1703,6 @@ const kurumsalLinks: {
 };
 
 export {
-  calculationsCardData,
   certificateList,
   contactInfo,
   countryCertificate,

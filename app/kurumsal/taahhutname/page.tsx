@@ -15,8 +15,8 @@ const Tahhutname = () => {
     <div>
       <Header text="Tarihçe" />
 
-      <div className="flex w-full items-start justify-center max-md:flex-col">
-        <div className="flex w-1/2 flex-col items-center justify-start max-md:w-full">
+      <div className="flex w-full items-start justify-center py-3 max-md:flex-col">
+        <div className="flex w-1/2 flex-col items-center justify-start  max-md:w-full ">
           <div className="m-1 flex flex-row flex-wrap gap-3 p-3">
             {kurumsalLinks[language]
               .filter(
@@ -50,9 +50,10 @@ const Tahhutname = () => {
           <p>
             İnsanların idealleri olduğu kadar, kurumların da idealleri olmalıdır. Karşılığı sadece
             maddi beklentiler üzerine kurgulanmış bir sistemin kontrolden çıkması kaçınılmazdır.
-            Bugün, dünyanın içine düştüğü sıkıntı &quot;ne pahasına olursa olsun, para kazanmak&quot; hırsının
-            doğal sonucudur. “Şirketleri ayakta tutan kârdır. Öyleyse, kâr etmeye giden bütün yollar
-            meşrudur” anlayışı, suçluyu da masumu da mahkûm etmiştir. Bu yaklaşımın kazananı olamaz.
+            Bugün, dünyanın içine düştüğü sıkıntı &quot;ne pahasına olursa olsun, para
+            kazanmak&quot; hırsının doğal sonucudur. “Şirketleri ayakta tutan kârdır. Öyleyse, kâr
+            etmeye giden bütün yollar meşrudur” anlayışı, suçluyu da masumu da mahkûm etmiştir. Bu
+            yaklaşımın kazananı olamaz.
           </p>
 
           <p>

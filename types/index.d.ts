@@ -124,15 +124,6 @@ interface CityData {
   plateNumber: number;
 }
 
-export interface calculationCardParams {
-  title: string;
-  description: string;
-  img: string;
-}
-
-export interface calculationsCardDataParams {
-  [key: string]: calculationCardParams[];
-}
 
 export type citiesDataParams = CityData[];
 

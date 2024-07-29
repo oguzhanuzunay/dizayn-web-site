@@ -1,9 +1,17 @@
 'use client';
-import { calculationsCardData } from '@/constants';
 import { useLanguageContext } from '@/context/language';
 import { SectionWrapper } from '@/hoc';
-import { calculationCardParams } from '@/types';
 import { Card, CardBody, CardHeader, Image } from '@nextui-org/react';
+
+export interface calculationCardParams {
+  title: string;
+  description: string;
+  img: string;
+}
+
+export interface calculationsCardDataParams {
+  [key: string]: calculationCardParams[];
+}
 
 const CalculationCard = ({ title, description, img }: calculationCardParams) => {
   return (
@@ -22,6 +30,64 @@ const CalculationCard = ({ title, description, img }: calculationCardParams) => 
       </CardBody>
     </Card>
   );
+};
+
+const calculationsCardData: calculationsCardDataParams = {
+  en: [
+    {
+      title: 'Water Hammer Calculation',
+      description: 'Click to calculate water hammer',
+      img: '/images/su-darbesi-hesabi.jpeg',
+    },
+    {
+      title: 'Compensator Calculation',
+      description: 'Click to calculate compensator',
+      img: '/images/kompansator-hesabi.jpeg',
+    },
+    {
+      title: 'Gravity Line Calculation',
+      description: 'Click to calculate gravity line',
+      img: '/images/cazibeli-hat-hesabi.jpeg',
+    },
+    {
+      title: 'Pressure Loss Calculation',
+      description: 'Click to calculate pressure loss',
+      img: '/images/basinc-kaybı-hesabi.jpeg',
+    },
+    {
+      title: 'Koruge Pipe Calculation',
+      description: 'Click to calculate Koruge pipe',
+      img: '/images/Koruge-boru-hesabi.jpeg',
+    },
+  ],
+
+  tr: [
+    {
+      title: 'Su Darbesi Hesabı',
+      description: 'Su darbesi hesabı yapmak için tıklayınız',
+      img: '/images/su-darbesi-hesabi.jpeg',
+    },
+    {
+      title: 'Kompansatör Hesabı ',
+      description: 'Kompansatör hesabı yapmak için tıklayınız',
+      img: '/images/kompansator-hesabi.jpeg',
+    },
+    {
+      title: 'Cazibeli Hat Hesabı',
+      description: 'Cazibeli hat hesabı yapmak için tıklayınız',
+      img: '/images/cazibeli-hat-hesabi.jpeg',
+    },
+    {
+      title: 'Basınç Kaybı Hesabı',
+      description: 'Basınç kaybı hesabı yapmak için tıklayınız',
+      img: '/images/basinc-kaybı-hesabi.jpeg',
+    },
+    {
+      title: 'Koruge Boru Hesabı',
+      description: 'Koruge Boru Hesabı yapmak için tıklayınız',
+      img: '/images/Koruge-boru-hesabi.jpeg',
+    },
+  ],
 };
 
 const Hesaplamalar = () => {

@@ -66,16 +66,12 @@ export const productList: productListParams = {
         logo: '/productImages/üst yapı borular/elite-pipe-ve-ek/logo.png',
         isNewTech: true,
         banner: {
-          vertical:
-            '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/vertical.jpg',
-          horizontal:
-            '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/horizontal.png',
-          bgImage:
-            '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/bg-image.png',
+          vertical: '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/vertical.jpg',
+          horizontal: '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/horizontal.png',
+          bgImage: '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/bg-image.png',
           PLP: 'productImages/üst yapı borular/elite-pipe-ve-ek/banner/PLP.png',
         },
-        image:
-          '/productImages/üst yapı borular/elite-pipe-ve-ek/elitePipeBanner.png',
+        image: '/productImages/üst yapı borular/elite-pipe-ve-ek/elitePipeBanner.png',
         background: 'bg-background-1',
         link: '/urunler/bina-ici-boru-sistemleri/elitepipe',
         highlights: [
@@ -108,8 +104,7 @@ export const productList: productListParams = {
               title: 'Kangal Halinde Sevkiyat Kolaylığı',
               icon: '/icons/worker-pushing-a-cart.png',
               alt: 'Easy Installation',
-              description:
-                'Küçük araçlarla taşınabilir, tek kişiyle kolayca taşınabilir.',
+              description: 'Küçük araçlarla taşınabilir, tek kişiyle kolayca taşınabilir.',
             },
             {
               title: 'Eksi 40 Derecede Dahi Kırılma Direnci',
@@ -129,15 +124,13 @@ export const productList: productListParams = {
               title: 'Çatlama Direnci Yüksek',
               icon: '/icons/seal.png',
               alt: 'Crack Resistance',
-              description:
-                'Yüzey aktif maddelere karşı mükemmel direnç gösterir.',
+              description: 'Yüzey aktif maddelere karşı mükemmel direnç gösterir.',
             },
             {
               title: 'PPR Gibi Kaynak Yapılır',
               icon: '/icons/welding.png',
               alt: 'welding',
-              description:
-                'Soket füzyon kaynağı yapılma özelliği PPR borular seviyesindedir.',
+              description: 'Soket füzyon kaynağı yapılma özelliği PPR borular seviyesindedir.',
             },
             {
               title: 'Daha Az Ek Parça İhtiyacı',
@@ -150,15 +143,13 @@ export const productList: productListParams = {
               title: 'Fireleri Önler',
               icon: '/icons/coil.png',
               alt: 'coil',
-              description:
-                'Kangal halinde sevk edilmesi, boru firelerini sıfıra indirir.',
+              description: 'Kangal halinde sevk edilmesi, boru firelerini sıfıra indirir.',
             },
             {
               title: 'Döşendikten Sonra Oluşan Riskleri Ortadan Kaldırır',
               icon: '/icons/plastering.png',
               alt: 'plastering',
-              description:
-                'Sıva sırasında oluşabilecek darbelere karşı daha dayanıklıdır.',
+              description: 'Sıva sırasında oluşabilecek darbelere karşı daha dayanıklıdır.',
             },
             {
               title: 'Kullanım Alanları',
@@ -190,8 +181,7 @@ export const productList: productListParams = {
               description: 'ElitePipe',
             },
             {
-              image:
-                '/productImages/üst yapı borular/elite-pipe-ve-ek/ELİTE PİPE BORU GRUP.png',
+              image: '/productImages/üst yapı borular/elite-pipe-ve-ek/ELİTE PİPE BORU GRUP.png',
               alt: 'ElitePipe',
               description: 'ElitePipe',
             },
@@ -307,8 +297,7 @@ export const productList: productListParams = {
   <p>ElitePipe boruları, geniş kullanım alanları ve üstün performans özellikleri ile tesisat projelerinizde güvenilir bir tercihtir. Daha fazla bilgi ve detay için, ürün kataloğumuzu inceleyebilirsiniz.</p>`,
             },
             {
-              question:
-                'ElitePipe borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'ElitePipe borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer: `<p>ElitePipe borular, çeşitli çap ve basınç sınıflarında sunulmaktadır. Bu çeşitlilik, farklı tesisat ihtiyaçlarına uygun çözümler sunar:</p>
   <ul>
     <li><b>Çap Aralığı</b>: Ø 16mm'den Ø 63mm'ye kadar geniş bir çap aralığı mevcuttur.</li>
@@ -363,8 +352,7 @@ export const productList: productListParams = {
         `,
             },
             {
-              question:
-                'ElitePipe boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'ElitePipe boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'ElitePipe boruların 2024 Fiyat Listesi için ürün katalogumuzu inceleyebilirsiniz.',
             },
@@ -395,37 +383,32 @@ export const productList: productListParams = {
           fittings: [
             {
               title: 'Soft Power Eşit Te',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'Soft Power Eşit Te',
               category: 'Fittings',
             },
             {
               title: 'Soft Power Redüksiyon',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'Soft Power Redüksiyon',
               category: 'Fittings',
             },
 
             {
               title: 'Soft Power Dirsekler',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'Soft Power Dirsekler',
               category: 'Fittings',
             },
             {
               title: 'Soft Power İnegal Te',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'Soft Power İnegal Te',
               category: 'Fittings',
             },
             {
               title: 'Soft Power Manşon',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'Soft Power Manşon',
               category: 'Fittings',
             },
@@ -441,16 +424,12 @@ export const productList: productListParams = {
         logo: '/productImages/üst yapı borular/sterile-pipe/logo.png',
         isNewTech: true,
         banner: {
-          vertical:
-            '/productImages/üst yapı borular/sterile-pipe/banner/vertical.jpg',
-          horizontal:
-            '/productImages/üst yapı borular/sterile-pipe/banner/horizontal.png',
-          bgImage:
-            '/productImages/üst yapı borular/sterile-pipe/banner/bg-image.png',
+          vertical: '/productImages/üst yapı borular/sterile-pipe/banner/vertical.jpg',
+          horizontal: '/productImages/üst yapı borular/sterile-pipe/banner/horizontal.png',
+          bgImage: '/productImages/üst yapı borular/sterile-pipe/banner/bg-image.png',
           PLP: '/productImages/üst yapı borular/sterile-pipe/banner/PLP.png',
         },
-        image:
-          '/productImages/üst yapı borular/sterile-pipe/sterilePipeBanner.png',
+        image: '/productImages/üst yapı borular/sterile-pipe/sterilePipeBanner.png',
         background: 'bg-background-2',
         link: '/urunler/bina-ici-boru-sistemleri/sterilepipe',
         highlights: [
@@ -495,19 +474,17 @@ export const productList: productListParams = {
 
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/sterile-pipe/sterile-pipe.png',
+              image: '/productImages/üst yapı borular/sterile-pipe/sterile-pipe.png',
               alt: 'Sterile Pipe',
               description: 'Sterile Pipe',
             },
             {
-              image:
-                '/productImages/üst yapı borular/sterile-pipe/sterile-pipe-2.png',
+              image: '/productImages/üst yapı borular/sterile-pipe/sterile-pipe-2.png',
               alt: 'Sterile Pipe',
               description: 'Sterile Pipe',
             },
             {
-              image: '/productImages/sterile-pipe/sterile-pipe-3.png',
+              image: '/productImages/üst yapı borular/sterile-pipe/sterile-pipe-3.png',
               alt: 'Sterile Pipe',
               description: 'Sterile Pipe',
             },
@@ -518,7 +495,7 @@ export const productList: productListParams = {
               title: '<b>Sterile Pipe</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Sterile Pipe boruları, performansı ve yüksek kalitesi ile 20 mm - 32 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Sterile Pipe boruları, su şebekeleri, sıcak ve soğuk su hatları, kimyasal sanayi hatları gibi birçok alanda ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Sterile Pipe <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image: '/productImages/sterile-pipe/sterile-pipe.png',
+              image: '/productImages/üst yapı borular/sterile-pipe/sterile-pipe-2.png',
               alt: 'Sterile Pipe',
             },
             {
@@ -580,20 +557,17 @@ export const productList: productListParams = {
                 'Sterile Pipe boruları, su şebekeleri, sıcak ve soğuk su hatları, kimyasal sanayi hatları, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Sterile Pipe borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Sterile Pipe borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Sterile Pipe boruları, 16 mm'den 63 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
             {
-              question:
-                'Sterile Pipe boruların birleştirme yöntemleri nelerdir?',
+              question: 'Sterile Pipe boruların birleştirme yöntemleri nelerdir?',
               answer:
                 'Sterile Pipe boruları elektrofüzyon (EF) kaynağı, alın kaynağı ve kaplin ile birleştirme yöntemleri ile birleştirilebilir.',
             },
             {
-              question:
-                'Sterile Pipe boruları kimyasallara karşı dayanıklı mı?',
+              question: 'Sterile Pipe boruları kimyasallara karşı dayanıklı mı?',
               answer:
                 'Evet, Sterile Pipe boruları tuzlu su, korozif asitler, bazlar ve diğer kimyasallara karşı yüksek direnç sağlar.',
             },
@@ -608,8 +582,7 @@ export const productList: productListParams = {
                 'Sterile Pipe boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Sterile Pipe boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Sterile Pipe boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Sterile Pipe boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -636,15 +609,12 @@ export const productList: productListParams = {
         logo: '/productImages/üst yapı borular/soft-power-ek/logo.png',
         isNewTech: true,
         banner: {
-          vertical:
-            '/productImages/üst yapı borular/soft-power-ek/banner/vertical.jpg',
-          horizontal:
-            '/productImages/üst yapı borular/soft-power-ek/banner/horizontal.png',
+          vertical: '/productImages/üst yapı borular/soft-power-ek/banner/vertical.jpg',
+          horizontal: '/productImages/üst yapı borular/soft-power-ek/banner/horizontal.png',
           PLP: '/productImages/üst yapı borular/soft-power-ek/banner/PLP.png',
           bgImage: '',
         },
-        image:
-          '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+        image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
         link: '/urunler/bina-ici-boru-sistemleri/softpower-boru',
         highlights: [
           { title: 'Darbeye Dayanıklı', icon: '/icons/durable.png' },
@@ -701,20 +671,17 @@ export const productList: productListParams = {
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -724,8 +691,7 @@ export const productList: productListParams = {
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -796,8 +762,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
                 'Soft Power Borular, içme suyu tesisatlarında, içme suyu hatlarında, tarımsal sulama sistemlerinde, sera sulama sistemlerinde, park ve bahçe peyzaj sulama sistemlerinde ve diğer uygun içme suyu uygulamalarında kullanılır.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 'Soft Power Borular, çeşitli çap ve basınç sınıflarında mevcuttur. Ürünler, projeye özel olarak farklı çap ve basınç sınıflarında üretilebilir.',
             },
@@ -822,8 +787,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
                 'Soft Power Borular, 20°C’de 50 yıl boyunca tasarlanan basınç değerinde güvenle kullanılabilir. 50 yıllık ömür dayanımı, 80°C’de 1000 saatlik basınç testi ile ölçülmüştür.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power Boruların detaylı fiyat listesi ve projeye özel fiyat teklifleri için Dizayn Grup ile iletişime geçebilirsiniz.',
             },
@@ -851,15 +815,12 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         logo: '/productImages/üst yapı borular/mobil-boru-ve-ek/logo.png',
         isNewTech: true,
         banner: {
-          vertical:
-            '/productImages/üst yapı borular/mobil-boru-ve-ek/banner/vertical.jpg',
-          horizontal:
-            '/productImages/üst yapı borular/mobil-boru-ve-ek/banner/horizontal.png',
+          vertical: '/productImages/üst yapı borular/mobil-boru-ve-ek/banner/vertical.jpg',
+          horizontal: '/productImages/üst yapı borular/mobil-boru-ve-ek/banner/horizontal.png',
           PLP: '/productImages/üst yapı borular/mobil-boru-ve-ek/banner/PLP.png',
           bgImage: '',
         },
-        image:
-          '/productImages//üst yapı borular/mobil-boru-ve-ek/KILIFLI ELASTICA BORU.png',
+        image: '/productImages//üst yapı borular/mobil-boru-ve-ek/KILIFLI ELASTICA BORU.png',
         link: '/urunler/bina-ici-boru-sistemleri/elastica-boru',
         highlights: [
           {
@@ -916,26 +877,22 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
               title: 'Çevre Dostu',
               icon: '/icons/eco-friendly.png',
               alt: 'Eco-Friendly',
-              description:
-                'Elastica Boru, geri dönüşüme uygunluğu ile çevre dostu bir üründür.'
+              description: 'Elastica Boru, geri dönüşüme uygunluğu ile çevre dostu bir üründür.',
             },
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/mobil-boru-ve-ek/KILIFLI ELASTICA BORU.png',
+              image: '/productImages/üst yapı borular/mobil-boru-ve-ek/KILIFLI ELASTICA BORU.png',
               alt: 'Elastica Boru',
               description: 'Elastica Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/mobil-boru-ve-ek/PE X ELASTICA.png',
+              image: '/productImages/üst yapı borular/mobil-boru-ve-ek/PE X ELASTICA.png',
               alt: 'Elastica Boru',
               description: 'Elastica Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/mobil-boru-ve-ek/mobil-boru-ve-ek-3.png',
+              image: '/productImages/üst yapı borular/mobil-boru-ve-ek/mobil-boru-ve-ek-3.png',
               alt: 'Elastica Boru',
               description: 'Elastica Boru',
             },
@@ -945,8 +902,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
               title: '<b>Elastica Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Elastica Boruları, performansı ve yüksek kalitesi ile 16 mm - 110 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Elastica Boruları, yerden ısıtma, radyatör ısıtma sistemleri ve endüstriyel uygulamalar gibi birçok alanda ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Elastica Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/mobil-boru-ve-ek/mobil-boru-ve-ek.png',
+              image: '/productImages/üst yapı borular/mobil-boru-ve-ek/pe-x-elastica.png',
               alt: 'Elastica Boru',
             },
             {
@@ -1013,8 +969,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
     <p>Bu birleştirme yöntemleri, Dizayn ElasticA Borularının çeşitli uygulamalarda güvenli ve uzun ömürlü kullanılmasını sağlar. Tesisatınızın ihtiyacına göre en uygun birleştirme yöntemini seçerek maksimum verimlilik elde edebilirsiniz.</p>`,
             },
             {
-              title:
-                'Elastica Boru Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
+              title: 'Elastica Boru Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
               description:
                 '<b>Elektrofüzyon kaynak</b> yöntemi, Dizayn ElasticA Borularının birleştirilmesinde güvenilir ve sağlam bir yöntem sunar. Elektrofüzyon kaynak, boru ve ek parçaların iç kısmında bulunan rezistans tellerinin elektrik enerjisi ile ısıtılmasıyla gerçekleştirilir. Bu işlem, boru yüzeylerinin erimesini ve birleşmesini sağlar. <b>Kolay montaj</b> imkanı sunan elektrofüzyon ek parçaları, boru uçlarına yerleştirilir ve kaynak makinesi ile kolayca birleştirilir. Sağlam ve sızdırmaz bağlantı oluşturur, bu da tesisatın uzun ömürlü ve güvenilir olmasını sağlar. Elektrofüzyon ile birleştirilmiş borular, <b>yüksek basınç ve deprem</b> gibi dış etkilere karşı dayanıklıdır. Bu, özellikle kritik altyapı projelerinde önemli bir avantaj sağlar. Elektrofüzyon kaynak yöntemi, Dizayn ElasticA Borularının kullanımında yüksek güvenlik ve verimlilik sunar ve özellikle uzun ömür ve güvenilirlik gerektiren projelerde tercih edilir.',
             },
@@ -1041,8 +996,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Elastica Boruları, yerden ısıtma sistemleri, sıcak ve soğuk su hatları, kimyasal sanayi hatları, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Elastica Borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Elastica Borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Elastica Boruları, 16 mm'den 110 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -1067,8 +1021,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Elastica Boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Elastica Boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Elastica Boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Elastica Boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -1105,7 +1058,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         },
         image:
           '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/üst yapı borular/atık-su-nanotek-boru-ve-ek.png',
-        link: '/urunler/bina-ici-boru-sistemleri/nanotech-pipe',
+        link: '/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium',
         highlights: [
           { title: 'Ses Yalıtımı', icon: '/icons/soundproof.png' },
           { title: 'Yüksek Dayanıklılık', icon: '/icons/durability.png' },
@@ -1141,8 +1094,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: 'Depreme Dayanıklı',
               icon: '/icons/earthquake-resistant.png',
               alt: 'Earthquake Resistant',
-              description:
-                'Depremin neden olduğu salınım hareketine karşı dayanıklıdır.',
+              description: 'Depremin neden olduğu salınım hareketine karşı dayanıklıdır.',
             },
             {
               title: 'Kimyasal Dayanıklılık',
@@ -1185,7 +1137,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               description:
                 'Dizayn Grup NanoTech Atık Su Boruları, performansı ve yüksek kalitesi ile 50 mm - 200 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. NanoTech Atık Su Boruları, bina içi ve dışı atık su tahliyesi için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. NanoTech Atık Su Boruları <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
               image:
-                '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/üst yapı borular/atık-su-nanotek-boru-ve-ek.png',
+                '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/NANOTEK S SİFON DİRSEKLİ 45.png',
               alt: 'NanoTech Atık Su Borusu',
             },
             {
@@ -1219,14 +1171,12 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Dizayn Grup NanoTech Atık Su Boruları ve ek parçaları birbirlerine eritilerek veya mekanik ek parçalar ile bağlanırlar. Polipropilen dışında diğer malzemelerden yapılan borulara dıştan sıkmalı ek parçalar, flanşlar veya amaca uygun yapılmış diğer geçiş adaptörleri ile bağlanabilirler. Bağlantı ek parçaları kullanılacak yerlere göre kolaylık sağlamaktadır.\n\n<b>Birleştirme Yöntemleri</b>\n- Elektrofüzyon (EF) Kaynağı: Elektrik enerjisi ile boru ve ek parça uçları eritilerek birleştirilir.\n- Alın Kaynağı: Boru uçlarının yüksek sıcaklıkta eritilerek birleştirilmesi.\n- Kaplin ile Birleştirme: Mekanik kaplin kullanılarak boru uçlarının birleştirilmesi.',
             },
             {
-              title:
-                'NanoTech Atık Su Borusu Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
+              title: 'NanoTech Atık Su Borusu Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
               description:
                 '<b>Elektrofüzyon Kaynak</b> yönteminde, kaynak işlemi füzyon ek parçanın iç kısmındaki ısıtma rezistansları ile gerçekleştirilir. NanoTech Atık Su Boruları, elektrofüzyon ek parçalarının içine yerleştirilir ve kaynak makinesinin uçları ek parçanın üzerindeki soketlere bağlanarak elektrik akımı ile ısıtılır.\n\nBu yöntemle, NanoTech Atık Su Boruları güvenli ve sağlam bir şekilde birleştirilmiş olur. <b>Elektrofüzyon Kaynak</b> metodu ile 50 mm çaptan 200 mm çapa kadar olan NanoTech Atık Su Boruları kaynatılabilir.',
             },
             {
-              title:
-                'NanoTech Atık Su Borusu Kaynak Yöntemi: <b>Alın Kaynak</b>',
+              title: 'NanoTech Atık Su Borusu Kaynak Yöntemi: <b>Alın Kaynak</b>',
               description:
                 '<b>Alın Kaynak</b>, NanoTech Atık Su Borusu ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. <b>Alın Kaynak</b> makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, NanoTech Atık Su Boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 200 mm çapa kadar olan NanoTech Atık Su Boruları kaynatılabilir.',
             },
@@ -1244,26 +1194,22 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'NanoTech Atık Su Boruları, yüksek kaliteli polipropilen malzemeden üretilmektedir. %100 saf ve orijinal hammadde kullanılarak üretilir.',
             },
             {
-              question:
-                'NanoTech Atık Su Borularının kullanım alanları nelerdir?',
+              question: 'NanoTech Atık Su Borularının kullanım alanları nelerdir?',
               answer:
                 'NanoTech Atık Su Boruları, bina içi ve dışı atık su tahliyesi, yağmur suyu drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'NanoTech Atık Su Boruları hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'NanoTech Atık Su Boruları hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "NanoTech Atık Su Boruları, 50 mm'den 200 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
             {
-              question:
-                'NanoTech Atık Su Borularının birleştirme yöntemleri nelerdir?',
+              question: 'NanoTech Atık Su Borularının birleştirme yöntemleri nelerdir?',
               answer:
                 'NanoTech Atık Su Boruları elektrofüzyon (EF) kaynağı, alın kaynağı ve kaplin ile birleştirme yöntemleri ile birleştirilebilir.',
             },
             {
-              question:
-                'NanoTech Atık Su Boruları kimyasallara karşı dayanıklı mı?',
+              question: 'NanoTech Atık Su Boruları kimyasallara karşı dayanıklı mı?',
               answer:
                 'Evet, NanoTech Atık Su Boruları tuzlu su, korozif asitler, bazlar ve diğer kimyasallara karşı yüksek direnç sağlar.',
             },
@@ -1278,14 +1224,12 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'NanoTech Atık Su Boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'NanoTech Atık Su Borularının fiyat listesine nasıl ulaşabilirim?',
+              question: 'NanoTech Atık Su Borularının fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'NanoTech Atık Su Borularının 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
             {
-              question:
-                'NanoTech Atık Su Borularının teknik özellikleri nelerdir?',
+              question: 'NanoTech Atık Su Borularının teknik özellikleri nelerdir?',
               answer:
                 'NanoTech Atık Su Boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için ürün kataloğumuza bakabilirsiniz.',
             },
@@ -1339,8 +1283,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: 'Yüksek Sızdırmazlık',
               icon: '/icons/seal.png',
               alt: 'Seal',
-              description:
-                'Çift dudaklı conta ve tespit çemberi sayesinde sızdırmazlık sağlar.',
+              description: 'Çift dudaklı conta ve tespit çemberi sayesinde sızdırmazlık sağlar.',
             },
             {
               title: 'Kolay Montaj',
@@ -1366,8 +1309,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: 'Uzun Ömür',
               icon: '/icons/long-lasting.png',
               alt: 'Long Lasting',
-              description:
-                '50 yıl garantili ömre sahiptir, korozyona uğramaz ve paslanmaz.',
+              description: '50 yıl garantili ömre sahiptir, korozyona uğramaz ve paslanmaz.',
             },
           ],
           images: [
@@ -1431,14 +1373,12 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Dizayn Grup Triplex Atık Su Boruları ve ek parçaları birbirlerine eritilerek veya mekanik ek parçalar ile bağlanırlar. Poliolefin dışında diğer malzemelerden yapılan borulara dıştan sıkmalı ek parçalar, flanşlar veya amaca uygun yapılmış diğer geçiş adaptörleri ile bağlanabilirler. Bağlantı ek parçaları kullanılacak yerlere göre kolaylık sağlamaktadır.\n\n<b>Birleştirme Yöntemleri</b>\n- Elektrofüzyon (EF) Kaynağı: Elektrik enerjisi ile boru ve ek parça uçları eritilerek birleştirilir.\n- Alın Kaynağı: Boru uçlarının yüksek sıcaklıkta eritilerek birleştirilmesi.\n- Kaplin ile Birleştirme: Mekanik kaplin kullanılarak boru uçlarının birleştirilmesi.',
             },
             {
-              title:
-                'Triplex Atık Su Borusu Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
+              title: 'Triplex Atık Su Borusu Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
               description:
                 '<b>Elektrofüzyon Kaynak</b> yönteminde, kaynak işlemi füzyon ek parçanın iç kısmındaki ısıtma rezistansları ile gerçekleştirilir. Triplex Atık Su Boruları, elektrofüzyon ek parçalarının içine yerleştirilir ve kaynak makinesinin uçları ek parçanın üzerindeki soketlere bağlanarak elektrik akımı ile ısıtılır.\n\nBu yöntemle, Triplex Atık Su Boruları güvenli ve sağlam bir şekilde birleştirilmiş olur. <b>Elektrofüzyon Kaynak</b> metodu ile 50 mm çaptan 200 mm çapa kadar olan Triplex Atık Su Boruları kaynatılabilir.',
             },
             {
-              title:
-                'Triplex Atık Su Borusu Kaynak Yöntemi: <b>Alın Kaynak</b>',
+              title: 'Triplex Atık Su Borusu Kaynak Yöntemi: <b>Alın Kaynak</b>',
               description:
                 '<b>Alın Kaynak</b>, Triplex Atık Su Borusu ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. <b>Alın Kaynak</b> makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, Triplex Atık Su Boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 200 mm çapa kadar olan Triplex Atık Su Boruları kaynatılabilir.',
             },
@@ -1456,26 +1396,22 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 "Triplex Atık Su Boruları, poliolefin grubu hammaddeden üretilmektedir. Bu malzeme, PVC'den daha üstün özelliklere sahiptir ve kırılma, sızdırma gibi sorunları önler.",
             },
             {
-              question:
-                'Triplex Atık Su Borularının kullanım alanları nelerdir?',
+              question: 'Triplex Atık Su Borularının kullanım alanları nelerdir?',
               answer:
                 'Triplex Atık Su Boruları, bina içi ve dışı atık su tahliyesi, yağmur suyu drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Triplex Atık Su Boruları hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Triplex Atık Su Boruları hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Triplex Atık Su Boruları, 50 mm'den 200 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
             {
-              question:
-                'Triplex Atık Su Borularının birleştirme yöntemleri nelerdir?',
+              question: 'Triplex Atık Su Borularının birleştirme yöntemleri nelerdir?',
               answer:
                 'Triplex Atık Su Boruları elektrofüzyon (EF) kaynağı, alın kaynağı ve kaplin ile birleştirme yöntemleri ile birleştirilebilir.',
             },
             {
-              question:
-                'Triplex Atık Su Boruları kimyasallara karşı dayanıklı mı?',
+              question: 'Triplex Atık Su Boruları kimyasallara karşı dayanıklı mı?',
               answer:
                 'Evet, Triplex Atık Su Boruları tuzlu su, korozif asitler, bazlar ve diğer kimyasallara karşı yüksek direnç sağlar.',
             },
@@ -1490,14 +1426,12 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Triplex Atık Su Boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Triplex Atık Su Borularının fiyat listesine nasıl ulaşabilirim?',
+              question: 'Triplex Atık Su Borularının fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Triplex Atık Su Borularının 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
             {
-              question:
-                'Triplex Atık Su Borularının teknik özellikleri nelerdir?',
+              question: 'Triplex Atık Su Borularının teknik özellikleri nelerdir?',
               answer:
                 'Triplex Atık Su Boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için ürün kataloğumuza bakabilirsiniz.',
             },
@@ -1520,15 +1454,12 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         logo: '',
         isNewTech: false,
         banner: {
-          vertical:
-            '/productImages/üst yapı borular/ppr-boru-ve-ek/banner/vertical.jpg',
-          horizontal:
-            '/productImages/üst yapı borular/ppr-boru-ve-ek/banner/horizontal.png',
+          vertical: '/productImages/üst yapı borular/ppr-boru-ve-ek/banner/vertical.jpg',
+          horizontal: '/productImages/üst yapı borular/ppr-boru-ve-ek/banner/horizontal.png',
           PLP: '/productImages/üst yapı borular/ppr-boru-ve-ek/banner/PLP.png',
           bgImage: '',
         },
-        image:
-          '/productImages/üst yapı borular/ppr-boru-ve-ek/üst yapı borular/ppr-boru-ve-ek.png',
+        image: '/productImages/üst yapı borular/ppr-boru-ve-ek/üst yapı borular/ppr-boru-ve-ek.png',
         link: '/urunler/bina-ici-boru-sistemleri/ppr-boru',
         highlights: [
           { title: 'Yüksek Dayanım', icon: '/icons/high-durability.png' },
@@ -1544,15 +1475,13 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: 'Yüksek Dayanım',
               icon: '/icons/durability.png',
               alt: 'High Durability',
-              description:
-                '20 °C’de PN25 bara dayanım gösterir ve 95 °C’de kullanılabilir.',
+              description: '20 °C’de PN25 bara dayanım gösterir ve 95 °C’de kullanılabilir.',
             },
             {
               title: 'Kolay Kaynak',
               icon: '/icons/welding.png',
               alt: 'Easy Welding',
-              description:
-                'Kolay kaynak edilebilir ve kısa sürede döşenebilir.',
+              description: 'Kolay kaynak edilebilir ve kısa sürede döşenebilir.',
             },
             {
               title: 'Uzun Ömür',
@@ -1564,15 +1493,13 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: 'Korozyona Dayanıklı',
               icon: '/icons/corrosion.png',
               alt: 'Corrosion Resistant',
-              description:
-                'Korozyon olmaz ve mineraller ile reaksiyona girip çapı daralmaz.',
+              description: 'Korozyon olmaz ve mineraller ile reaksiyona girip çapı daralmaz.',
             },
             {
               title: 'Hafif ve Taşınabilir',
               icon: '/icons/lightweight.png',
               alt: 'Lightweight',
-              description:
-                "Metalin 8'de 1 ağırlığında olup, işçiyi yormadan taşınabilir.",
+              description: "Metalin 8'de 1 ağırlığında olup, işçiyi yormadan taşınabilir.",
             },
             {
               title: 'Paslanmaz',
@@ -1668,8 +1595,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'PPR Boruları, sıcak ve soğuk su tesisatları, içme suyu sistemleri, kimyasal sanayi hatları ve endüstriyel uygulamalarda kullanılabilir.',
             },
             {
-              question:
-                'PPR Boruları hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'PPR Boruları hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "PPR Boruları, 20 mm'den 125 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -1723,15 +1649,12 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         featuredProduct: false,
         logo: '/productImages/üst yapı borular/soft-power-ek/logo.png',
         banner: {
-          vertical:
-            '/productImages/üst yapı borular/soft-power-ek/banner/vertical.jpg',
-          horizontal:
-            '/productImages/üst yapı borular/soft-power-ek/banner/horizontal.png',
+          vertical: '/productImages/üst yapı borular/soft-power-ek/banner/vertical.jpg',
+          horizontal: '/productImages/üst yapı borular/soft-power-ek/banner/horizontal.png',
           PLP: '/productImages/üst yapı borular/soft-power-ek/banner/PLP.png',
           bgImage: '',
         },
-        image:
-          '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+        image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
         link: '/urunler/bina-ici-boru-sistemleri/softpower-boru',
         highlights: [
           { title: 'Darbeye Dayanıklı', icon: '/icons/durable.png' },
@@ -1788,20 +1711,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -1811,8 +1731,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -1874,8 +1793,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -1900,8 +1818,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -1924,15 +1841,13 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
       {
         title: 'RTP Boru',
         description:
-          'RTP Boru, yüksek basınç dayanımı ve esneklik sağlayan gelişmiş bir boru sistemidir. Üstün mukavemet özellikleri ile endüstriyel ve altyapı projelerinde güvenle kullanılır.',
+          'RTP (Reinforced Thermoplastic Pipe) Borular yüksek basınç dayanımı ile her türlü su, gaz, petrol vb. taşınmasında kullanılmaktadır. Sahip olduğu güçlü kompozit yapısı ile çelik borular gibi yüksek basınçlara mukavemet gösterirken termoplastik hammaddesi ile de plastik boruların tüm avantajlarını kullanıcısına sunmaktadır.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/RTP BORU/logo.png',
+        logo: '',
+        isNewTech: true,
         banner: {
-          vertical:
-            '/productImages/alt yapı boruları/RTP BORU/banner/vertical.jpg',
-          horizontal:
-            '/productImages/alt yapı boruları/RTP BORU/banner/horizontal.png',
-
+          vertical: '/productImages/alt yapı boruları/RTP BORU/banner/vertical.jpg',
+          horizontal: '/productImages/alt yapı boruları/RTP BORU/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/RTP BORU/banner/PLP.png',
           bgImage: '',
         },
@@ -1946,42 +1861,48 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         productDetails: {
           title: 'RTP Boru',
           description:
-            'Dizayn RTP Boruları, yüksek basınç ve esneklik gerektiren uygulamalar için tasarlanmış üstün performanslı borulardır. Polietilen ve alüminyum katmanlarının kombinasyonu ile üretilen bu borular, mükemmel dayanıklılık ve uzun ömür sunar.',
+            'RTP Borular 3 katmanlı hibrid yapıya sahiptir. Borunun iç ve dış katmanı termoplastik iken, orta katman yüksek mukavemetli kompozit malzemeden oluşmaktadır. Termoplastik katmanlar proje gereksinimlerine göre HDPE, PP, PE-RT vb. gibi farklı malzemelerde tasarlanabilmektedir. Aynı şekilde orta katmanda yer alan sürekli elyaf takviye katmanı da cam elyaf, aramid, karbon elyaf vb. gibi proje gereksinimlerine göre farklılık gösterebilmektedir.',
           features: [
             {
-              title: 'Yüksek Mukavemet',
+              title: 'Yüksek Dayanıklılık',
               icon: '/icons/durability.png',
-              alt: 'Strength',
+              alt: 'Durability',
               description:
-                'RTP boruları, yüksek mukavemet ve basınç dayanımı sağlayan özel yapısı ile endüstriyel uygulamalarda güvenle kullanılabilir.',
-            },
-            {
-              title: 'Esnek Yapı',
-              icon: '/icons/flexible.png',
-              alt: 'Flexibility',
-              description:
-                'Esnek yapısı sayesinde RTP boruları, kolayca taşınabilir ve montajı yapılabilir. Bu özellik, zorlu saha koşullarında bile uygulama kolaylığı sağlar.',
-            },
-            {
-              title: 'Uzun Ömür',
-              icon: '/icons/long-lasting.png',
-              alt: 'Lifespan',
-              description:
-                'RTP boruları, uzun ömürlü yapısı ile minimum bakım gerektirir ve yıllarca güvenle kullanılabilir.',
-            },
-            {
-              title: 'Korozyona Dayanıklı',
-              icon: '/icons/corrosion.png',
-              alt: 'Corrosion Resistant',
-              description:
-                'Polietilen ve alüminyum katmanlarının kombinasyonu, RTP borularını korozyona karşı dayanıklı hale getirir.',
+                'RTP Borular, çelik borular gibi yüksek basınçlara mukavemet gösterirken termoplastik hammaddesi ile de plastik boruların tüm avantajlarını sunar.',
             },
             {
               title: 'Kolay Montaj',
               icon: '/icons/easy-installation.png',
               alt: 'Easy Installation',
               description:
-                'RTP boruları, hafif ve esnek yapısı sayesinde hızlı ve kolay montaj imkanı sunar.',
+                'Esnek yapısı sayesinde kolayca montajlanabilir ve şekil alır, bu da işçilik maliyetlerini düşürür.',
+            },
+            {
+              title: 'Kimyasal Dayanıklılık',
+              icon: '/icons/chemical-resistant.png',
+              alt: 'Chemical Resistance',
+              description:
+                'RTP Borular, kimyasal maddelere karşı yüksek direnç gösterir ve korozyona karşı koruma sağlar.',
+            },
+            {
+              title: 'Geniş Uygulama Alanı',
+              icon: '/icons/application.png',
+              alt: 'Application',
+              description:
+                'RTP Borular, yüksek basınçlı su hatları, doğalgaz iletim ve dağıtım hatları, petrol iletim hatları, jeotermal su taşıma hatları ve offshore uygulamalar gibi birçok alanda kullanılabilir.',
+            },
+            {
+              title: 'Ekonomik ve Güvenilir',
+              icon: '/icons/economical.png',
+              alt: 'Economical',
+              description:
+                'RTP Borular, ekonomik fiyatı ve uzun ömürlü yapısıyla projelerinizde maliyet tasarrufu sağlar.',
+            },
+            {
+              title: 'Çevre Dostu',
+              icon: '/icons/eco-friendly.png',
+              alt: 'Eco-Friendly',
+              description: 'RTP Borular, geri dönüşüme uygunluğu ile çevre dostu bir üründür.',
             },
           ],
           images: [
@@ -2005,53 +1926,54 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
             {
               title: '<b>RTP Boru</b> ve Ek Parçaları',
               description:
-                'Dizayn Grup RTP Boruları, üstün dayanıklılığı ve esnek yapısı ile endüstriyel ve altyapı projelerinde güvenle kullanılır. RTP Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
+                'RTP Boruları, yüksek basınç dayanımı ve üstün kompozit yapısı ile 90 mm - 1200 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. RTP Boruları, su, gaz, petrol gibi farklı akışkanların taşınmasında güvenilir çözümler sunar. RTP Boru <b>Fiyat Listesi</b> için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
+              image: '/productImages/altyapi/rtp-boru/rtp-boru.png',
               alt: 'RTP Boru',
             },
             {
               title: 'RTP Boru <b>Avantajları</b>',
               description:
-                'RTP boruları, yüksek basınç dayanımı, esneklik, uzun ömür ve korozyon direnci gibi birçok avantaj sunar. Kolay montaj edilebilir yapısı sayesinde projelerinizde zaman ve maliyet tasarrufu sağlar.',
+                'RTP Boruları, çelik borular gibi yüksek basınçlara mukavemet gösterirken termoplastik hammaddesi ile de plastik boruların tüm avantajlarını sunar. Bu özellikleri ile RTP Boruları, uzun ömürlü ve güvenilir performans sağlar.',
             },
             {
               title: 'RTP Boru <b>Nerelerde Kullanılır?</b>',
               description:
-                'RTP boruları, endüstriyel tesisler, altyapı projeleri, su dağıtım sistemleri ve diğer yüksek basınç gerektiren uygulamalarda kullanılır.',
+                'RTP Boruları, yüksek performansı ve kalitesi ile su, gaz, petrol taşımacılığı, jeotermal su taşıma hatları ve offshore uygulamalar gibi birçok alanda güvenle kullanılabilir. RTP Boruları, projelerinizde güvenilir ve uzun ömürlü çözümler sunar. RTP Boru <b>Fiyat Listesi</b> için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
             },
             {
               title: 'RTP Boru <b>Ağırlık Tablosu</b>',
               description:
-                'RTP borularının ağırlık tablosu, farklı çap ve basınç sınıflarına göre hesaplanmıştır. Detaylı ağırlık tablosu için ürün kataloğumuza göz atabilirsiniz.',
+                'RTP Boruları, farklı çap ve basınç sınıflarında çeşitli ağırlıklarla üretilmektedir. Ağırlık tablosu, boruların içi boş silindir hacmi ve borunun yoğunluğu çarpılarak hesaplanmaktadır. Boruların üretim aşamasında ısıl işlem gördüğü için genleşme özelliği dikkate alınarak tablo hazırlanmıştır. Bu tablo, RTP Borularının farklı çap ve basınç sınıflarında karşılaşılan ağırlık değerlerini göstermektedir. Detaylı bilgi ve diğer çaplar için firmamızla iletişime geçebilirsiniz.',
             },
             {
               title: 'RTP Boru Teknik <b>Özellikleri</b>',
               description:
-                'RTP boruları, yüksek basınç dayanımı, esneklik, korozyon direnci ve uzun ömür gibi teknik özelliklere sahiptir. Polietilen ve alüminyum katmanları ile üretilen bu borular, endüstriyel ve altyapı projelerinde güvenle kullanılabilir.',
+                'RTP Boruları, çelik borular gibi yüksek basınçlara mukavemet gösterirken termoplastik hammaddesi ile de plastik boruların tüm avantajlarını sunar. Üç katmanlı hibrid yapısı sayesinde, yüksek sıcaklık dayanımı, kimyasal direnç ve çevresel dayanıklılık sağlar. Teknik özellikler şunlardır:\n<ul><li><b>Çalışma Sıcaklığı</b>: Sürekli 60°C, anlık 80°C sıcaklık dayanımı.</li><li><b>Çalışma Basıncı</b>: 200 bar basınç dayanımı.</li><li><b>Malzeme</b>: Özel formüllü HDPE, PP, PE-RT gibi termoplastik malzemeler.</li><li><b>Montaj Kolaylığı</b>: Esnek yapısı sayesinde kolay montaj imkanı.</li><li><b>Dayanıklılık</b>: Yüksek sıcaklık ve basınç dayanımı, çevresel etkilere karşı üstün direnç.</li><li><b>Düşük Sürtünme Direnci</b>: Verimli tesisat performansı için düşük sürtünme direnci.</li></ul>',
             },
             {
-              title: 'RTP <b>Ek Parçaları</b>',
+              title: 'RTP Boru <b>Ek Parçaları</b>',
               description:
-                'RTP ek parçaları, yüksek kaliteli malzemelerden üretilmiş olup, boru sistemlerinizin güvenli ve dayanıklı bir şekilde birleştirilmesini sağlar. - RTP Ek Parçaları - RTP Eşit Te - RTP Redüksiyon - RTP Semer - RTP Dirsekler - RTP İnegal Te - RTP Manşon - RTP Körtapa - RTP Flanş Adaptörü',
+                'RTP Boruları için çeşitli ek parçalar mevcuttur. Bu ek parçalar, boruların montajını kolaylaştırır ve sistemlerin verimliliğini artırır. Ek parçalar, projelerinizin ihtiyaçlarına göre seçilebilir ve borularla uyumlu olarak kullanılabilir.',
             },
             {
               title: 'RTP Boru <b>Birleştirme Yöntemleri</b>',
               description:
-                'RTP boruları ve ek parçaları birbirlerine eritilerek veya mekanik ek parçalar ile bağlanırlar. Polietilen dışında diğer malzemelerden yapılan borulara dıştan sıkmalı ek parçalar, flanşlar veya amaca uygun yapılmış diğer geçiş adaptörleri ile bağlanabilirler. Bağlantı ek parçaları kullanılacak yerlere göre kolaylık sağlamaktadır. - Elektrofüzyon (EF) Kaynağı: Elektrik enerjisi ile boru ve ek parça uçları eritilerek birleştirilir. - Alın Kaynağı: Boru uçlarının yüksek sıcaklıkta eritilerek birleştirilmesi. - Kaplin ile Birleştirme: Mekanik kaplin kullanılarak boru uçlarının birleştirilmesi.',
+                'RTP Boruların birleştirilmesinde farklı tipte birleştirme yöntemleri tercih edilmektedir. Bu yöntemler şunlardır:\n<ul><li><b>EF (Elektrofüzyon) Birleştirme</b>: < 40 Bar</li><li><b>EF + Alın Kaynak Birleştirme</b>: < 80 Bar</li><li><b>Mekanik Birleştirme</b>: < 200 Bar</li></ul>',
             },
             {
-              title: 'RTP Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
+              title: 'RTP Boru Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
               description:
-                'Elektrofüzyon Kaynak yönteminde, kaynak işlemi füzyon ek parçanın iç kısmındaki ısıtma rezistansları ile gerçekleştirilir. RTP borular, elektrofüzyon ek parçalarının içine yerleştirilir ve kaynak makinesinin uçları ek parçanın üzerindeki soketlere bağlanarak elektrik akımı ile ısıtılır. Bu yöntemle, RTP borular güvenli ve sağlam bir şekilde birleştirilmiş olur. Elektrofüzyon Kaynak metodu ile 20 mm çaptan 1600 mm çapa kadar olan RTP borular kaynatılabilir.',
+                'Elektrofüzyon kaynak yöntemi, RTP Borularının birleştirilmesinde güvenilir ve sağlam bir yöntem sunar. Elektrofüzyon kaynak, boru ve ek parçaların iç kısmında bulunan rezistans tellerinin elektrik enerjisi ile ısıtılmasıyla gerçekleştirilir. Bu işlem, boru yüzeylerinin erimesini ve birleşmesini sağlar. Kolay montaj imkanı sunan elektrofüzyon ek parçaları, boru uçlarına yerleştirilir ve kaynak makinesi ile kolayca birleştirilir. Sağlam ve sızdırmaz bağlantı oluşturur, bu da tesisatın uzun ömürlü ve güvenilir olmasını sağlar.',
             },
             {
-              title: 'RTP Kaynak Yöntemi: <b>Alın Kaynak</b>',
+              title: 'RTP Boru Kaynak Yöntemi: <b>Alın Kaynak</b>',
               description:
-                'Alın Kaynak, RTP boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. Alın Kaynak makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, RTP boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 1600 mm çapa kadar olan RTP borular kaynatılabilir.',
+                'Alın Kaynak, RTP Boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. Alın Kaynak makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, RTP Boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 1200 mm çapa kadar olan RTP Borular kaynatılabilir.',
             },
             {
               title: 'RTP Boru <b>Fiyat Listesi</b>',
               description:
-                'Dizayn RTP boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. RTP borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. RTP boru avantajlarından yararlanmak ve 2024 RTP Boru Fiyat Listesine ulaşmak için bizimle iletişime geçiniz.',
+                'RTP Boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. RTP Borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. RTP Boru avantajlarından yararlanmak ve 2024 RTP Boru Fiyat Listesine ulaşmak için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
             },
           ],
           faqs: [
@@ -2066,8 +1988,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'RTP Boruları, endüstriyel tesisler, altyapı projeleri, su dağıtım sistemleri ve diğer yüksek basınç gerektiren uygulamalarda kullanılabilir.',
             },
             {
-              question:
-                'RTP Boruları hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'RTP Boruları hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "RTP Boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -2164,14 +2085,13 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
       {
         title: 'Telekom Boruları',
         description:
-          'Telekom Boruları, yüksek dayanıklılık ve esneklik sunarak, telekomünikasyon altyapısında güvenli ve verimli bir çözüm sağlar.',
+          'Kablo Muhafaza Boruları, hızla gelişen haberleşme ve data iletimi borulama sistemlerinde kullanılır. Talebe ve şartnameye uygun olarak, tekli ile üçlü arasında farklı seçeneklerle sunulur. Göz çoklayıcı ve tamamlayıcı elemanları olan ek parçalar ile bir sistem bütünü sunmaktadır.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/TELEKOM/logo.png',
+        logo: '',
+        isNewTech: true,
         banner: {
-          vertical:
-            '/productImages/alt yapı boruları/TELEKOM/banner/vertical.jpg',
-          horizontal:
-            '/productImages/alt yapı boruları/TELEKOM/banner/horizontal.png',
+          vertical: '/productImages/alt yapı boruları/TELEKOM/banner/vertical.jpg',
+          horizontal: '/productImages/alt yapı boruları/TELEKOM/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/TELEKOM/banner/PLP.png',
           bgImage: '',
         },
@@ -2185,11 +2105,11 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         productDetails: {
           title: 'Telekom Boruları',
           description:
-            'Dizayn Grup Telekom Boruları, telekomünikasyon altyapısında güvenilirlik ve performans sağlayan birinci sınıf çözümlerdir. Bu borular, üstün kaliteli malzemelerden üretilmiş olup, uzun ömürlü ve dayanıklıdır.',
+            'Telekom Boruları, polietilen ve polipropilen hammaddelerden üretilen, yüksek dayanıklılık ve uzun ömür sunan kablo muhafaza borularıdır. Renk seçenekleri arasında turuncu, siyah ve mavi bulunmaktadır. Çap ve basınç sınıflarına göre farklı seçeneklerle üretilmektedir.',
           features: [
             {
               title: 'Güçlü ve Dayanıklı',
-              icon: '/icons/strong.png',
+              icon: '/icons/durable.png',
               alt: 'Strong and Durable',
               description:
                 'Telekom Boruları, zorlu çevre koşullarına dayanıklı olup, uzun yıllar sorunsuz hizmet sunar.',
@@ -2232,128 +2152,115 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image: '/productImages/telekom/TELEKOM/TELEKOM BORU 1.png',
+              image: '/productImages/alt yapı boruları/TELEKOM/telekom-boru.png',
               alt: 'Telekom Boruları',
               description: 'Telekom Boruları',
             },
             {
-              image: '/productImages/telekom/TELEKOM/TELEKOM BORU 2.png',
+              image: '/productImages/alt yapı boruları/TELEKOM/TELEKOM BORU 2.png',
               alt: 'Telekom Boruları',
               description: 'Telekom Boruları',
             },
             {
-              image: '/productImages/telekom/TELEKOM/TELEKOM BORU 3.png',
+              image: '/productImages/alt yapı boruları/TELEKOM/TELEKOM BORU 3.png',
               alt: 'Telekom Boruları',
               description: 'Telekom Boruları',
             },
           ],
           headers: [
             {
-              title: '<b>Telekom Boruları</b> ve Ek Parçaları',
+              title: '<b>Telekom Boru</b> ve Ek Parçaları',
               description:
-                'Dizayn Grup Telekom Boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Telekom Boruları, telekomünikasyon altyapısı, kablo kanalları ve yer altı boru sistemleri için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Telekom Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/alt yapı boruları/TELEKOM/TELEKOM BORU 1.png',
-              alt: 'Telekom Boruları',
+                'Telekom Boruları, yüksek dayanıklılık ve uzun ömür sunan, çeşitli çap ve renk seçenekleriyle üretilen kablo muhafaza borularıdır. Telekom Boru <b>Fiyat Listesi</b> için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz. Bu borular, polietilen ve polipropilen hammaddelerden üretilmiştir ve her türlü çevresel koşullara dayanıklıdır.',
+              image: '/productImages/alt yapı boruları/TELEKOM/telekom-boru-1.png',
+              alt: 'Telekom Boru',
             },
             {
-              title: 'Telekom Boruları <b>Avantajları</b>',
+              title: 'Telekom Boru <b>Avantajları</b>',
               description:
-                'Dizayn Grup Telekom Boruları, pürüzsüz iç ve dış yüzeyi ile hafif, esnek ve sağlam bir yapıya sahiptir. Taşıma ve kurulum sırasında minimum ağır ekipman gerektirir ve tüm saha koşullarında, zorlu çevre koşullarında bile kolayca uygulanabilir. Telekom Boruları, paslanmaya karşı yüksek direnç gösterir ve kimyasallara karşı mükemmel dayanıklılık sağlar. Bu <b>özellikleri</b> ile Telekom Boruları, uzun ömürlü ve güvenilir performans sağlar.',
+                'Telekom Boruları, yüksek dayanıklılık, esneklik, kimyasal dayanıklılık ve uzun ömür gibi birçok avantaja sahiptir. Bu özellikleri ile projelerinizde güvenilir ve uzun ömürlü çözümler sunar. Ayrıca, hafif yapıları sayesinde taşıma ve montaj kolaylığı sağlar.',
             },
             {
-              title: 'Telekom Boruları <b>Nerelerde Kullanılır?</b>',
+              title: 'Telekom Boru <b>Nerelerde Kullanılır?</b>',
               description:
-                'Dizayn Grup Telekom Boruları, üstün performansı ve kalitesi ile prestijli projelerde tercih edilen bir üründür. Telekomünikasyon altyapısı, kablo kanalları, yer altı boru sistemleri, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde güvenle kullanılabilir. Telekom Boruları, projelerinizde güvenilir ve uzun ömürlü çözümler sunar. Telekom Boruları <b>Fiyat Listesi</b> için bizimle iletişime geçiniz.',
+                'Telekom Boruları, yüksek performansı ve kalitesi ile haberleşme ve data iletimi borulama sistemlerinde, özellikle kablo muhafazası için kullanılmaktadır. Yer altı ve yer üstü uygulamalarında güvenle kullanılabilir.',
             },
             {
-              title: 'Telekom Boruları <b>Ağırlık Tablosu</b>',
+              title: 'Telekom Boru Teknik <b>Özellikleri</b>',
               description:
-                'Dizayn Grup Telekom Borularının ağırlık hesaplaması, içi boş silindir hacmi ve borunun yoğunluğu çarpılarak yapılır. Telekom Boruları üretim aşamasında ısıl işlem gördüğü için genleşme özelliği gösterir. Bu nedenle, Telekom Borularının ölçü tablosu hazırlanırken tolerans değerleri dikkate alınmalıdır.\n\n<b>Ağırlık Tablosu</b> Örneği\n20 mm: 0.10 kg/m\n25 mm: 0.15 kg/m\n32 mm: 0.20 kg/m\n40 mm: 0.25 kg/m\n50 mm: 0.35 kg/m\n63 mm: 0.45 kg/m',
+                'Telekom Boruları, yüksek dayanıklılık, esneklik, kimyasal dayanıklılık ve uzun ömür gibi teknik özelliklere sahiptir. Detaylı bilgi için ürün kataloğumuzu inceleyebilirsiniz. Bu borular, çeşitli çap ve basınç sınıflarında üretilmektedir ve her türlü zorlu koşulda üstün performans sunar.',
             },
             {
-              title: 'Telekom Boruları Teknik <b>Özellikleri</b>',
+              title: 'Telekom Boru <b>Ek Parçaları</b>',
               description:
-                'Dizayn Grup olarak kalite laboratuvarlarımızda sürekli gelişmeleri izleyip araştırmalar yapmaktayız. Telekom Borularımız, 20 mm - 1600 mm çap aralığında ve yüksek teknoloji ile üretilmektedir. Polietilenin <b>özellikleri</b> sayesinde, basınçlı su sistemlerinde kullanıma en uygun alternatiflerden biridir. Yeraltı ve yerüstü basınçlı su şebeke hatları, deniz deşarj projeleri ve endüstriyel uygulamalar gibi birçok alanda kullanılmaktadır.\n\nTelekom Boruları, sert beton borulara göre daha kolay işlenir, monte edilir ve maliyet tasarrufu sağlar. Yapısal olarak darbelere ve soğuk hava koşullarına dayanacak şekilde tasarlanmıştır. Deniz uygulamalarında uzun boylarda borular kıyıda monte edilip daha sonra yerine oturtulabilir.',
+                'Telekom Boruları için çeşitli ek parçalar mevcuttur. Bu ek parçalar, boruların montajını kolaylaştırır ve sistemlerin verimliliğini artırır. Ek parçalar, projelerinizin ihtiyaçlarına göre seçilebilir ve borularla uyumlu olarak kullanılabilir.',
             },
             {
-              title: 'Telekom <b>Ek Parçaları</b>',
+              title: 'Telekom Boru <b>Birleştirme Yöntemleri</b>',
               description:
-                'Dizayn Grup Telekom Boru <b>ek parçaları</b> üstün kalitede üretilip tek tek kontrol edilerek sevk edilmektedir. Uygulama kolaylığı ve ergonomik tasarıma sahip ek parçalarımız, yüksek kalite ve uygun fiyat ekseninde siz değerli müşterilerimizin hizmetindedir. Telekom Boru <b>ek parçaları</b>, basınçlı su sistemleri ve diğer endüstriyel uygulamalarda güvenle kullanılabilir.\n\n- Telekom Boru <b>ek parçaları</b>\n- Telekom Eşit Te\n- Telekom Redüksiyon\n- Telekom Semer\n- Telekom Dirsekler\n- Telekom İnegal Te\n- Telekom Manşon\n- Telekom Körtapa\n- Telekom Flanş Adaptörü\nBu <b>ek parçaları</b>, Telekom boru sistemlerinizin güvenli ve dayanıklı bir şekilde birleştirilmesini sağlar.',
+                'Telekom Borularının birleştirilmesinde contalı sistemler ve elektrofüzyon kaynak yöntemleri kullanılmaktadır. Bu yöntemler, boruların sızdırmaz ve güvenli bir şekilde birleştirilmesini sağlar. Proje gereksinimlerine göre en uygun birleştirme yöntemi seçilmelidir.',
             },
             {
-              title: 'Telekom Boruları <b>Birleştirme Yöntemleri</b>',
+              title: 'Telekom Boru Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
               description:
-                'Dizayn Grup Telekom Boruları ve ek parçaları birbirlerine eritilerek veya mekanik ek parçalar ile bağlanırlar. Polietilen dışında diğer malzemelerden yapılan borulara dıştan sıkmalı ek parçalar, flanşlar veya amaca uygun yapılmış diğer geçiş adaptörleri ile bağlanabilirler. Bağlantı ek parçaları kullanılacak yerlere göre kolaylık sağlamaktadır.\n\n<b>Birleştirme Yöntemleri</b>\n- Elektrofüzyon (EF) Kaynağı: Elektrik enerjisi ile boru ve ek parça uçları eritilerek birleştirilir.\n- Alın Kaynağı: Boru uçlarının yüksek sıcaklıkta eritilerek birleştirilmesi.\n- Kaplin ile Birleştirme: Mekanik kaplin kullanılarak boru uçlarının birleştirilmesi.',
+                'Elektrofüzyon kaynak yöntemi, Telekom Borularının birleştirilmesinde güvenilir ve sağlam bir yöntem sunar. Elektrofüzyon kaynak, boru ve ek parçaların iç kısmında bulunan rezistans tellerinin elektrik enerjisi ile ısıtılmasıyla gerçekleştirilir. Kolay montaj imkanı sunan elektrofüzyon ek parçaları, boru uçlarına yerleştirilir ve kaynak makinesi ile kolayca birleştirilir. Sağlam ve sızdırmaz bağlantı oluşturur, bu da tesisatın uzun ömürlü ve güvenilir olmasını sağlar.',
             },
             {
-              title: 'Telekom Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
+              title: 'Telekom Boru <b>Fiyat Listesi</b>',
               description:
-                'Elektrofüzyon Kaynak yönteminde, kaynak işlemi füzyon ek parçanın iç kısmındaki ısıtma rezistansları ile gerçekleştirilir. Telekom Boruları, elektrofüzyon ek parçalarının içine yerleştirilir ve kaynak makinesinin uçları ek parçanın üzerindeki soketlere bağlanarak elektrik akımı ile ısıtılır. Bu yöntemle, Telekom Boruları güvenli ve sağlam bir şekilde birleştirilmiş olur. Elektrofüzyon Kaynak metodu ile 20 mm çaptan 1600 mm çapa kadar olan Telekom Boruları kaynatılabilir.',
-            },
-            {
-              title: 'Telekom Kaynak Yöntemi: <b>Alın Kaynak</b>',
-              description:
-                'Alın Kaynak, Telekom boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. Alın Kaynak makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, Telekom Boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 1600 mm çapa kadar olan Telekom Boruları kaynatılabilir.',
-            },
-            {
-              title: 'Telekom Boruları <b>Fiyat Listesi</b>',
-              description:
-                'Dizayn Grup Telekom Boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Telekom Boruları, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Telekom boru avantajlarından yararlanmak ve 2024 Telekom Boru Fiyat Listesine ulaşmak için bizimle iletişime geçiniz.\n\nTelekom Borularımız hakkında detaylı bilgi almak için 0212 886 57 41 numaralı hattımızı arayabilirsiniz.',
+                'Telekom Boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Telekom Borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Telekom Boru avantajlarından yararlanmak ve 2024 Telekom Boru Fiyat Listesine ulaşmak için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
             },
           ],
           faqs: [
             {
-              question: 'Telekom Boruları hangi malzemeden üretilir?',
+              question: 'Telekom Borularının hammaddesi nedir?',
               answer:
-                'Telekom Boruları, yüksek kaliteli polietilen malzemeden üretilmektedir. Bu malzeme, boruların uzun ömürlü ve dayanıklı olmasını sağlar.',
+                'Telekom Boruları, yüksek kaliteli polietilen (PE) ve polipropilen (PP) hammaddelerden üretilmektedir. Bu hammaddeler, borulara yüksek dayanıklılık ve uzun ömür sağlar.',
             },
             {
-              question: 'Telekom Borularının kullanım alanları nelerdir?',
+              question: 'Telekom Boruların kullanım alanları nelerdir?',
               answer:
-                'Telekom Boruları, telekomünikasyon altyapısı, kablo kanalları, yer altı boru sistemleri, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
+                'Telekom Boruları, haberleşme ve data iletimi borulama sistemlerinde, özellikle kablo muhafazası için kullanılmaktadır. Yer altı ve yer üstü uygulamalarında, veri iletişim hatları ve fiber optik kablo korumasında güvenle kullanılabilir.',
             },
             {
-              question:
-                'Telekom Boruları hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Telekom Boruların avantajları nelerdir?',
               answer:
-                "Telekom Boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
+                'Telekom Boruları, yüksek dayanıklılık, esneklik, kimyasal dayanıklılık ve uzun ömür gibi birçok avantaja sahiptir. Esnek yapısı sayesinde zeminin sismik hareketlerinden etkilenmez ve kimyasal maddelere karşı yüksek direnç gösterir.',
             },
             {
-              question: 'Telekom Borularının birleştirme yöntemleri nelerdir?',
+              question: 'Telekom Boruların ömrü ne kadar?',
               answer:
-                'Telekom Boruları elektrofüzyon (EF) kaynağı, alın kaynağı ve kaplin ile birleştirme yöntemleri ile birleştirilebilir.',
+                'Telekom Boruları, asgari 50 yıl süre ile ilk günkü gibi çalışma ömrüne sahiptir. Yüksek kaliteli hammaddeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
+            },
+            {
+              question: 'Telekom Boruların birleştirme yöntemleri nelerdir?',
+              answer:
+                'Telekom Borularının birleştirilmesinde contalı sistemler ve elektrofüzyon kaynak yöntemleri kullanılmaktadır. Contalı sistemler hızlı ve kolay montaj imkanı sunarken, elektrofüzyon kaynak yöntemleri sağlam ve sızdırmaz bağlantılar sağlar.',
             },
             {
               question: 'Telekom Boruları kimyasallara karşı dayanıklı mı?',
               answer:
-                'Evet, Telekom Boruları tuzlu su, korozif asitler, bazlar ve diğer kimyasallara karşı yüksek direnç sağlar.',
+                'Evet, Telekom Boruları kimyasal maddelere karşı yüksek direnç sağlar. Polietilen hammaddesi, boruların kimyasallara karşı dayanıklılığını artırır ve korozyona karşı koruma sağlar.',
             },
             {
-              question: 'Telekom Borularının avantajları nelerdir?',
+              question: 'Telekom Boruları nasıl temin edebilirim?',
               answer:
-                'Telekom Boruları hafif, esnek ve dayanıklıdır. Paslanmaya karşı yüksek direnç gösterir ve uzun ömürlüdür. Ayrıca, taşıma ve kurulum sırasında minimum ağır ekipman gerektirir.',
+                "Telekom Borularını Dizayn Grup'un yetkili satıcılarından veya doğrudan bizimle iletişime geçerek temin edebilirsiniz. Ürünlerimiz hakkında daha fazla bilgi ve sipariş için internet sitemizi ziyaret edebilirsiniz.",
             },
             {
-              question: 'Telekom Borularının ömrü ne kadar?',
+              question: 'Telekom Boruların teknik özellikleri nelerdir?',
               answer:
-                'Telekom Boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
+                'Telekom Boruları, yüksek dayanıklılık, esneklik, kimyasal dayanıklılık ve uzun ömür gibi teknik özelliklere sahiptir. Çeşitli çap ve basınç sınıflarında üretilir ve her türlü zorlu koşulda üstün performans sunar.',
             },
             {
-              question:
-                'Telekom Borularının fiyat listesine nasıl ulaşabilirim?',
+              question: 'Telekom Boruların montajı nasıl yapılır?',
               answer:
-                'Telekom Borularının 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
+                'Telekom Borularının montajı, contalı sistemler ve elektrofüzyon kaynak yöntemleri ile yapılır. Her iki yöntem de boruların sızdırmaz ve güvenli bir şekilde birleştirilmesini sağlar. Montaj sırasında boruların ve ek parçaların temiz ve kuru olduğundan emin olunmalıdır.',
             },
             {
-              question: 'Telekom Borularının teknik özellikleri nelerdir?',
+              question: 'Telekom Boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
-                'Telekom Boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için ürün kataloğumuza bakabilirsiniz.',
-            },
-            {
-              question: 'Telekom Borularını nasıl temin edebilirim?',
-              answer:
-                "Telekom Borularını Dizayn Grup'un yetkili satıcılarından veya doğrudan bizimle iletişime geçerek temin edebilirsiniz.",
+                'Telekom Boruların 2024 Fiyat Listesi için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz. Detaylı bilgi ve diğer çaplar için firmamızla iletişime geçebilirsiniz.',
             },
           ],
           fittings: [
@@ -2411,16 +2318,14 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
       },
 
       {
-        title: 'Dizayn Koruge Boru',
+        title: 'Koruge Boru',
         description:
-          'Dizayn Koruge Boruları, kanalizasyon sistemlerinde yüksek dayanıklılık ve uzun ömür sunar.',
+          'Koruge Boruları, kanalizasyon sistemlerinde yüksek dayanıklılık ve uzun ömür sunar.',
         featuredProduct: false,
         logo: '/productImages/alt yapı boruları/Koruge/logo.png',
         banner: {
-          vertical:
-            '/productImages/alt yapı boruları/Koruge/banner/vertical.jpg',
-          horizontal:
-            '/productImages/alt yapı boruları/Koruge/banner/horizontal.jpg',
+          vertical: '/productImages/alt yapı boruları/Koruge/banner/vertical.jpg',
+          horizontal: '/productImages/alt yapı boruları/Koruge/banner/horizontal.jpg',
           PLP: '/productImages/alt yapı boruları/Koruge/banner/PLP.png',
           bgImage: '',
         },
@@ -2434,42 +2339,42 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         productDetails: {
           title: 'Dizayn Koruge Boru',
           description:
-            'Dizayn Koruge Boruları, Polipropilen ve Polietilen hammaddelerinden üretilmektedir. Bu borular, yüksek halka mukavemeti, korozyon direnci ve uzun ömrü ile öne çıkar. Deprem gibi yer sarsıntılarından etkilenmeyen esnek yapıları sayesinde, sızdırmazlık ve dayanıklılık sağlar. Hafif olması nedeniyle küçük çaplı boruların döşenmesinde iş makinesi ihtiyacını azaltır.',
+            'Koruge Borular, iki farklı üretim yöntemi ile üretilmektedir: Ekstrüde ve sarmal metod. Bu boruların iç ve dış katmanı polietilen ve polipropilen malzemeden oluşmaktadır. İç katman akışkanı taşıyan düz bir yapıya sahipken, dış katman kaburgalı yapısıyla mukavemeti artırmaktadır.',
           features: [
             {
-              title: 'Yüksek Basınç Dayanımı',
-              icon: '/icons/high-pressure.png',
-              alt: 'High Pressure Resistance',
-              description:
-                'Dizayn Koruge Boruları, yüksek basınç altında dahi dayanıklılığını korur ve uzun yıllar boyunca sorunsuz bir şekilde kullanılabilir.',
-            },
-            {
-              title: 'Korozyona Dayanıklı',
+              title: 'Yüksek Korozyon Dayanımı',
               icon: '/icons/corrosion.png',
-              alt: 'Corrosion Resistant',
+              alt: 'Corrosion Resistance',
               description:
-                'Koruge borular, korozyona karşı yüksek direnç gösterir ve bu sayede içme suyu kalitesini korur.',
+                'Koruge Borular, korozyona karşı yüksek dayanıklılık gösterir, bu sayede uzun ömürlü kullanım sunar.',
             },
             {
-              title: 'Esnek ve Hafif',
-              icon: '/icons/flexible.png',
-              alt: 'Flexible',
+              title: 'Kimyasal Dayanıklılık',
+              icon: '/icons/chemical-resistant.png',
+              alt: 'Chemical Resistance',
               description:
-                'Dizayn Koruge Boruları, esnek ve hafif yapısıyla kolay kurulum imkanı sunar ve işçilik maliyetlerini düşürür.',
+                'Koruge Borular, çeşitli kimyasallara karşı dirençli olup, aşınma ve kimyasal etkilerden etkilenmez.',
             },
             {
-              title: 'UV Dayanımı',
-              icon: '/icons/uv-resistant.png',
-              alt: 'UV Resistant',
+              title: 'Hafif ve Esnek Yapı',
+              icon: '/icons/lightweight.png',
+              alt: 'Lightweight',
               description:
-                'Koruge borular, UV ışınlarına karşı dayanıklıdır ve dış mekan uygulamalarında uzun ömürlü performans sağlar.',
+                'Hafif ve esnek yapısıyla Koruge Borular, kolayca taşınabilir ve monte edilebilir.',
             },
             {
-              title: 'Ekonomik Çözüm',
-              icon: '/icons/economical.png',
-              alt: 'Economic',
+              title: 'Sızdırmazlık Garantisi',
+              icon: '/icons/seal.png',
+              alt: 'Leak Proof',
               description:
-                'Yüksek kaliteli malzemeler ve modern üretim teknikleri sayesinde, Dizayn Koruge Boruları ekonomik ve güvenilir bir çözüm sunar.',
+                'Koruge Borular, sızdırmaz yapısıyla yer altı sularının ve toprağın kirlenmesini önler.',
+            },
+            {
+              title: 'Yüksek Halka Mukavemeti',
+              icon: '/icons/high-ring-stiffness.png',
+              alt: 'High Ring Stiffness',
+              description:
+                'Yüksek halka mukavemeti sayesinde, ağır yükler altında bile şekil değiştirmez ve dayanıklılığını korur.',
             },
           ],
           images: [
@@ -2479,142 +2384,136 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               description: 'Dizayn Koruge Boru',
             },
             {
-              image: '/productImages/altyapı/Koruge/Koruge BORU 3.png',
+              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 3.png',
               alt: 'Dizayn Koruge Boru',
               description: 'Dizayn Koruge Boru',
             },
             {
-              image: '/productImages/altyapı/Koruge/Koruge BORU 4.png',
+              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 4.png',
               alt: 'Dizayn Koruge Boru',
               description: 'Dizayn Koruge Boru',
             },
           ],
           headers: [
             {
-              title: '<b>Dizayn Koruge Boru</b> ve Ek Parçaları',
-              description: 'Dizayn Koruge Boruları, Polipropilen ve Polietilen hammaddelerinden üretilmektedir. Yüksek halka mukavemeti, korozyon direnci ve uzun ömrü ile öne çıkar. Deprem gibi yer sarsıntılarından etkilenmeyen esnek yapıları sayesinde, sızdırmazlık ve dayanıklılık sağlar. Hafif olması nedeniyle küçük çaplı boruların döşenmesinde iş makinesi ihtiyacını azaltır. Dizayn Koruge Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              alt: 'Dizayn Koruge Boru',
-            },
-            {
-              title: 'Dizayn Koruge Boru <b>Avantajları</b>',
+              title: '<b>Koruge Boru</b> ve Ek Parçaları',
               description:
-                'Dizayn Koruge Boruları, yüksek basınç dayanımı, korozyon direnci, uzun ömür ve esneklik gibi birçok avantaj sunar. Kolay montaj edilebilir yapısı sayesinde projelerinizde zaman ve maliyet tasarrufu sağlar.',
+                'Koruge Boruları, yüksek dayanıklılık ve uzun ömür özellikleri ile 450 mm çapa kadar olan ekstrüde borular ve 500 mm üzeri sarmal borular olarak üretilmektedir. Kanalizasyon, yağmur suyu ve drenaj sistemlerinde güvenilir çözümler sunar. Detaylı bilgi ve fiyat listesi için internet sitemizi ziyaret edebilirsiniz.',
             },
             {
               title: 'Koruge Boru <b>Avantajları</b>',
               description:
-                'Dizayn Korige Boruları, yüksek korozyon dayanımı, aşınma direnci ve esnek yapısı ile projelerinizde güvenle kullanabileceğiniz borulardır. Polietilen ve polipropilen hammaddeleri sayesinde uzun ömürlüdür ve çevre dostudur.',
+                'Koruge Borular, yüksek korozyon dayanımı, kimyasal direnç, hafiflik ve esneklik gibi özellikleri ile öne çıkar. Bu borular, uzun ömürlü kullanım sunar ve çeşitli uygulama alanlarında güvenle kullanılabilir.',
             },
             {
-              title: 'Koruge Boru <b>Nerelerde Kullanılır?</b>',
+              title: 'Koruge Boru <b>Kullanım Alanları</b>',
               description:
-                'Koruge Borular, kanalizasyon sistemleri, yağmur suyu drenaj hatları, yeraltı su tahliye sistemleri gibi birçok alanda kullanılabilir. Yüksek darbe dayanımı ve esnek yapısı sayesinde her türlü zorlu koşulda güvenle kullanılabilir.',
+                'Koruge Borular, kanalizasyon, yağmur suyu ve drenaj sistemlerinde, endüstriyel atık su hatlarında, tarımsal sulama sistemlerinde ve altyapı projelerinde yaygın olarak kullanılmaktadır.',
             },
             {
-              title: 'Koruge Boru <b>Birleştirme Yöntemleri</b>',
+              title: 'Koruge Boru <b>Teknik Özellikler</b>',
               description:
-                'Koruge Boruların birleştirilmesinde contalı sistemler, ekstrüzyon kaynağı ve elektrofüzyon kaynağı gibi yöntemler kullanılır. Bu yöntemler, boruların sızdırmaz ve dayanıklı bir şekilde birleştirilmesini sağlar.',
+                'Koruge Borular, iki katmanlı yapısı ile yüksek mukavemet ve dayanıklılık sağlar. Ekstrüde borular Ø450 mm çapa kadar, sarmal borular ise Ø500 mm ve üzeri çaplarda üretilmektedir. Her iki tip boru da yüksek halka mukavemetine sahiptir ve çeşitli kimyasallara karşı dirençlidir.',
             },
           ],
           faqs: [
             {
-              question: 'Koruge Boruları hangi malzemeden üretilir?',
+              question: 'Koruge Borular hangi malzemeden üretilir?',
               answer:
-                'Koruge boruları, Polipropilen (PP) ve Polietilen (PE) hammaddelerinden üretilmektedir. Aynı et kalınlığında PP, daha yüksek halka mukavemeti sağlar.',
+                'Koruge Borular, Polietilen (PE) ve Polipropilen (PP) malzemelerinden üretilmektedir. Aynı et kalınlığında PP, daha yüksek halka mukavemeti sağlar.',
             },
             {
-              question: 'Koruge Borularının kullanım alanları nelerdir?',
+              question: 'Koruge Boruların kullanım alanları nelerdir?',
               answer:
-                'Koruge boruları, kanalizasyon sistemleri, su drenaj sistemleri, atık su ve endüstriyel uygulamalar gibi çeşitli alanlarda kullanılabilir.',
+                'Koruge Borular, kanalizasyon sistemleri, yağmur suyu ve drenaj hatları, endüstriyel atık su hatları ve tarımsal sulama sistemlerinde kullanılmaktadır.',
             },
             {
-              question: 'Koruge Borularının avantajları nelerdir?',
+              question: 'Koruge Boruların ömrü ne kadardır?',
               answer:
-                'Koruge boruları yüksek basınç dayanımı, korozyon direnci, uzun ömür ve esneklik gibi birçok avantaj sunar. Ayrıca, hafif yapıları sayesinde kolay kurulum imkanı sağlar.',
+                'Koruge Borular, korozyon ve kimyasal dayanımı ile 50 yıl ömür garantisi sunmaktadır.',
             },
             {
-              question: 'Koruge Borularının teknik özellikleri nelerdir?',
+              question: 'Koruge Borular nasıl birleştirilir?',
               answer:
-                'Koruge boruları iki katmanlı yapıya sahiptir. İçteki katman akışkanı taşırken, dıştaki katman kaburgalı yapıdadır. Bu yapı, boruların yüksek halka mukavemeti ve dayanıklılık sağlamasına yardımcı olur.',
+                'Koruge Borular, fitingler ile birleştirilmektedir. Ekstrüde borular enjeksiyon fitingleri ile, sarmal borular ise muflu ve spigot uçları ile birleştirilir. Elektrofüzyon yöntemi de kullanılabilir.',
             },
             {
-              question: 'Koruge Borularının ömrü ne kadar?',
+              question: 'Koruge Boruların avantajları nelerdir?',
               answer:
-                'Koruge boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde en az 50 yıl servis ömrü sunar.',
+                'Koruge Borular, yüksek dayanıklılık, kimyasal direnç, hafiflik, esneklik ve kolay montaj gibi avantajlara sahiptir. Ayrıca, çevresel etkilere karşı dirençli ve uzun ömürlüdür.',
             },
             {
-              question:
-                'Koruge Borularının fiyat listesine nasıl ulaşabilirim?',
+              question: 'Koruge Borular hangi standartlara uygundur?',
               answer:
-                'Koruge Borularının 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
+                'Koruge Borular, TS EN 13476, TS 12132, DIN 16961, EN155 standartlarına uygun olarak üretilmektedir.',
             },
             {
-              question: 'Koruge Borularının kimyasallara dayanıklılığı nedir?',
+              question: 'Koruge Boruların rengi nedir?',
               answer:
-                'Koruge boruları kimyasallara karşı yüksek direnç gösterir ve korozyona uğramaz. Bu özellikleri sayesinde içme suyu ve kanalizasyon sistemlerinde güvenle kullanılabilir.',
+                'Koruge Borular genellikle siyah renkte üretilmektedir. İç katman ise projeye göre farklı renklerde olabilir.',
             },
             {
-              question: 'Koruge Borularının montajı nasıl yapılır?',
+              question: 'Koruge Boruların basınç dayanımı nedir?',
               answer:
-                'Koruge borularının montajı elektrofüzyon (EF) kaynağı, alın kaynağı ve mekanik kaplinler ile yapılabilir. Montaj işlemi sırasında boru yüzeyinin temiz olmasına dikkat edilmelidir.',
+                'Koruge Borular, normalde 0,5 bar basınç altında kullanılırken, elektrofüzyon yöntemi ile birleştirildiğinde 4 bar basınca kadar dayanıklıdır.',
             },
             {
-              question: 'Koruge Boruları ne kadar esnektir?',
+              question: 'Koruge Boruların çap aralığı nedir?',
               answer:
-                'Koruge boruları yüksek esnekliğe sahiptir ve arazi şekline uyum sağlayarak kolay kurulum imkanı sunar. Deprem ve yer sarsıntılarından etkilenmez.',
+                'Koruge Borular, Ø50 mm ile Ø8000 mm arasında değişen çaplarda üretilebilmektedir.',
             },
             {
-              question: 'Koruge Borularının deprem dayanıklılığı nasıldır?',
+              question: 'Koruge Borular nasıl temin edilebilir?',
               answer:
-                'Koruge boruları elastik yapısı sayesinde depremden etkilenmez ve heyelan bölgelerinde uzamayı absorbe ederek dayanıklılık sağlar.',
+                "Koruge Borular, Dizayn Grup'un yetkili satıcılarından veya doğrudan firmamız ile iletişime geçilerek temin edilebilir.",
             },
           ],
           fittings: [
             {
               title: 'Koruge Eşit Te',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 1.png',
+              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 1.png',
               alt: 'Koruge Eşit Te',
               category: 'Fittings',
             },
             {
               title: 'Koruge Redüksiyon',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 2.png',
+              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 2.png',
               alt: 'Koruge Redüksiyon',
               category: 'Fittings',
             },
             {
               title: 'Koruge Semer',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 3.png',
+              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 3.png',
               alt: 'Koruge Semer',
               category: 'Fittings',
             },
             {
               title: 'Koruge Dirsekler',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 1.png',
+              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 1.png',
               alt: 'Koruge Dirsekler',
               category: 'Fittings',
             },
             {
               title: 'Koruge İnegal Te',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 2.png',
+              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 2.png',
               alt: 'Koruge İnegal Te',
               category: 'Fittings',
             },
             {
               title: 'Koruge Manşon',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 3.png',
+              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 3.png',
               alt: 'Koruge Manşon',
               category: 'Fittings',
             },
             {
               title: 'Koruge Körtapa',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 1.png',
+              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 1.png',
               alt: 'Koruge Körtapa',
               category: 'Fittings',
             },
             {
               title: 'Koruge Flanş Adaptörü',
-              image: '/productImages/altyapı/Koruge/Koruge BORU 2.png',
+              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 2.png',
               alt: 'Koruge Flanş Adaptörü',
               category: 'Fittings',
             },
@@ -2624,197 +2523,160 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
       },
 
       {
-        title: 'Dizayn Korige Sarmal Boru',
+        title: 'Dizayn Koruge Sarmal Boru',
         description:
-          'Dizayn Korige Sarmal Boruları, kanalizasyon sistemlerinde yüksek dayanıklılık ve uzun ömür sunar.',
+          'Korige sarmal borular, iç ve dış katmanlardan oluşan çift katmanlı bir yapıya sahiptir. İç katman akışkanı taşıyan düz satıhlı borudur. Dış katman ise kaburgalı yapıdadır. Polietilen ve Polipropilen hammaddelerinden üretilmektedir.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/KorigeSarmal/logo.png',
+        logo: '/productImages/alt yapı boruları/KorugeSarmal/logo.png',
         banner: {
-          vertical:
-            '/productImages/alt yapı boruları/KorigeSarmal/banner/vertical.jpg',
-          horizontal:
-            '/productImages/alt yapı boruları/KorigeSarmal/banner/horizontal.png',
-          PLP: '/productImages/alt yapı boruları/KorigeSarmal/banner/PLP.png',
+          vertical: '/productImages/alt yapı boruları/KorugeSarmal/banner/vertical.jpg',
+          horizontal: '/productImages/alt yapı boruları/KorugeSarmal/banner/horizontal.png',
+          PLP: '/productImages/alt yapı boruları/KorugeSarmal/banner/PLP.png',
           bgImage: '',
         },
-        image:
-          '/productImages/alt yapı boruları/KorigeSarmal/KorigeSarmal BORU.png',
-        link: '/urunler/altyapi-boru-sistemleri/korige-sarmal-boru',
+        image: '/productImages/alt yapı boruları/KorugeSarmal/koruge-sarmal-2.png',
+        link: '/urunler/altyapi-boru-sistemleri/koruge-sarmal-boru',
         highlights: [
           { title: 'Yüksek Dayanıklılık', icon: '/icons/durable.png' },
           { title: 'Uzun Ömür', icon: '/icons/long-lasting.png' },
           { title: 'Kolay Kurulum', icon: '/icons/easy-installation.png' },
         ],
         productDetails: {
-          title: 'Dizayn Korige Sarmal Boru',
+          title: 'Koruge Sarmal Boru',
           description:
-            'Dizayn Korige Sarmal Boruları, Polipropilen ve Polietilen hammaddelerinden üretilmektedir. Bu borular, yüksek halka mukavemeti, korozyon direnci ve uzun ömrü ile öne çıkar. Deprem gibi yer sarsıntılarından etkilenmeyen esnek yapıları sayesinde, sızdırmazlık ve dayanıklılık sağlar. Hafif olması nedeniyle küçük çaplı boruların döşenmesinde iş makinesi ihtiyacını azaltır.',
+            'Kanalizasyon boruları Poliolefin grubu içerisindeki Polipropilen ve Polietilen hammaddelerinden üretilen bir üründür. Ø450 mm çapa kadar üretilen ekstrüdekorige boru polietilen ve polipropilen hammaddeden üretilebilirken, sarmal korige borular polietilenden üretilmektedir. Aynı et kalınlığında halka mukavemet değeri polipropilende daha yüksek çıktığından daha fazla tercih edilmektedir. Sarmal yöntemle ise Ø500 mm çap ve üzerindeki borular üretilmektedir. Dizayn Grup 8.000 mm çapa kadar korige sarmal boru üretme teknolojisine sahiptir.',
           features: [
             {
-              title: 'Yüksek Basınç Dayanımı',
-              icon: '/icons/high-pressure.png',
-              alt: 'High Pressure Resistance',
+              title: 'Yüksek Dayanıklılık',
+              icon: '/icons/durability.png',
+              alt: 'Durability',
               description:
-                'Dizayn Korige Sarmal Boruları, yüksek basınç altında dahi dayanıklılığını korur ve uzun yıllar boyunca sorunsuz bir şekilde kullanılabilir.',
+                'Korige sarmal borular, polietilen ve polipropilen olması nedeniyle yüksek korozyon dayanımına sahiptir.',
             },
             {
-              title: 'Korozyona Dayanıklı',
-              icon: '/icons/corrosion.png',
-              alt: 'Corrosion Resistant',
-              description:
-                'Korige borular, korozyona karşı yüksek direnç gösterir ve bu sayede içme suyu kalitesini korur.',
+              title: 'Kolay Montaj',
+              icon: '/icons/easy-installation.png',
+              alt: 'Easy Installation',
+              description: 'Hafif yapısı sayesinde kolay montajlanabilir ve taşınabilir.',
             },
             {
-              title: 'Esnek ve Hafif',
-              icon: '/icons/flexible.png',
-              alt: 'Flexible',
+              title: 'Kimyasal Dayanıklılık',
+              icon: '/icons/chemical-resistant.png',
+              alt: 'Chemical Resistance',
               description:
-                'Dizayn Korige Sarmal Boruları, esnek ve hafif yapısıyla kolay kurulum imkanı sunar ve işçilik maliyetlerini düşürür.',
+                'Korige sarmal borular, kimyasal maddelere karşı yüksek direnç gösterir ve korozyona karşı koruma sağlar.',
             },
             {
-              title: 'UV Dayanımı',
-              icon: '/icons/uv-resistant.png',
-              alt: 'UV Resistant',
+              title: 'Geniş Uygulama Alanı',
+              icon: '/icons/application.png',
+              alt: 'Application',
               description:
-                'Korige borular, UV ışınlarına karşı dayanıklıdır ve dış mekan uygulamalarında uzun ömürlü performans sağlar.',
+                'Korige sarmal borular, kanalizasyon, yağmursuyu, drenaj ve daha birçok altyapı uygulamalarında kullanılabilir.',
             },
             {
-              title: 'Ekonomik Çözüm',
+              title: 'Ekonomik ve Güvenilir',
               icon: '/icons/economical.png',
-              alt: 'Economic',
+              alt: 'Economical',
               description:
-                'Yüksek kaliteli malzemeler ve modern üretim teknikleri sayesinde, Dizayn Korige Sarmal Boruları ekonomik ve güvenilir bir çözüm sunar.',
+                'Korige sarmal borular, ekonomik fiyatı ve uzun ömürlü yapısıyla projelerinizde maliyet tasarrufu sağlar.',
+            },
+            {
+              title: 'Çevre Dostu',
+              icon: '/icons/eco-friendly.png',
+              alt: 'Eco-Friendly',
+              description:
+                'Korige sarmal borular, geri dönüşüme uygunluğu ile çevre dostu bir üründür.',
             },
           ],
           images: [
             {
-              image:
-                '/productImages/altyapı/KorigeSarmal/KorigeSarmal BORU 2.png',
-              alt: 'Dizayn Korige Sarmal Boru',
-              description: 'Dizayn Korige Sarmal Boru',
+              image: '/productImages/alt yapı boruları/KorugeSarmal/koruge-sarmal-2.png',
+              alt: 'Dizayn Koruge Sarmal Boru',
+              description: 'Dizayn Koruge Sarmal Boru',
             },
             {
-              image:
-                '/productImages/altyapı/KorigeSarmal/KorigeSarmal BORU 3.png',
-              alt: 'Dizayn Korige Sarmal Boru',
-              description: 'Dizayn Korige Sarmal Boru',
+              image: '/productImages/alt yapı boruları/KorugeSarmal/KorugeSarmal BORU 3.png',
+              alt: 'Dizayn Koruge Sarmal Boru',
+              description: 'Dizayn Koruge Sarmal Boru',
             },
             {
-              image:
-                '/productImages/altyapı/KorigeSarmal/KorigeSarmal BORU 4.png',
-              alt: 'Dizayn Korige Sarmal Boru',
-              description: 'Dizayn Korige Sarmal Boru',
+              image: '/productImages/alt yapı boruları/KorugeSarmal/KorugeSarmal BORU 4.png',
+              alt: 'Dizayn Koruge Sarmal Boru',
+              description: 'Dizayn Koruge Sarmal Boru',
             },
           ],
           headers: [
             {
-              title: '<b>Dizayn Korige Sarmal Boru</b> ve Ek Parçaları',
+              title: '<b>Korige Sarmal Boru</b> ve Ek Parçaları',
               description:
-                'Dizayn Korige Sarmal Boruları, Polipropilen ve Polietilen hammaddelerinden üretilmektedir. Yüksek halka mukavemeti, korozyon direnci ve uzun ömrü ile öne çıkar. Deprem gibi yer sarsıntılarından etkilenmeyen esnek yapıları sayesinde, sızdırmazlık ve dayanıklılık sağlar. Hafif olması nedeniyle küçük çaplı boruların döşenmesinde iş makinesi ihtiyacını azaltır. Dizayn Korige Sarmal Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/alt yapı boruları/S-RTP BORU/SRTP BORU PROFİLLİ 6.png',
-              alt: 'Dizayn Korige Sarmal Boru',
+                'Korige sarmal borular, yüksek korozyon dayanımı ve uzun ömürlü yapısıyla altyapı projelerinde güvenle kullanılmaktadır. Ø450 mm çapa kadar üretilen ekstrüde korige borular fitingler ile birleştirilirken, Ø500 mm ve üzeri çaptaki sarmal korige borular muflu ve spigot uçludur. Farklı çap ve basınç sınıflarında üretilen korige sarmal borular, geniş bir kullanım alanına sahiptir.',
             },
             {
-              title: 'Dizayn Korige Sarmal Boru <b>Avantajları</b>',
+              title: 'Korige Sarmal Boru <b>Avantajları</b>',
               description:
-                'Dizayn Korige Sarmal Boruları, yüksek basınç dayanımı, korozyon direnci, uzun ömür ve esneklik gibi birçok avantaj sunar. Kolay montaj edilebilir yapısı sayesinde projelerinizde zaman ve maliyet tasarrufu sağlar.',
+                'Korige sarmal borular, yüksek korozyon dayanımı, kimyasal direnci ve uzun ömürlü yapısıyla altyapı projelerinde güvenilir bir çözüm sunar. Esnek yapısı sayesinde yer hareketlerinden etkilenmez ve kolay montaj imkanı sağlar. Hafif yapısı ile nakliye ve işçilik maliyetlerini düşürür.',
             },
             {
-              title: 'Dizayn Korige Sarmal Boru <b>Nerelerde Kullanılır?</b>',
+              title: 'Korige Sarmal Boru <b>Kullanım Alanları</b>',
               description:
-                'Dizayn Korige Sarmal Boruları, kanalizasyon sistemleri, su drenaj sistemleri, atık su ve endüstriyel uygulamalarda güvenle kullanılabilir. Uzun ömürlü ve dayanıklı yapısıyla projelerinizde güvenilir çözümler sunar.',
+                'Korige sarmal borular, kanalizasyon, yağmursuyu, drenaj, atıksu ve endüstriyel uygulamalar gibi birçok altyapı projesinde kullanılabilir. Farklı çap ve basınç sınıflarında üretilen korige sarmal borular, projelerinizde güvenle kullanılabilecek esnek ve dayanıklı bir çözümdür.',
             },
             {
-              title: 'Dizayn Korige Sarmal Boru <b>Ağırlık Tablosu</b>',
+              title: 'Korige Sarmal Boru <b>Teknik Özellikler</b>',
               description:
-                'Dizayn Korige Sarmal Borularının ağırlık hesaplaması, içi boş silindir hacmi ve borunun yoğunluğu çarpılarak yapılır. Korige borular üretim aşamasında ısıl işlem gördüğü için genleşme özelliği gösterir. Bu nedenle, korige borularının ölçü tablosu hazırlanırken tolerans değerleri dikkate alınmalıdır.',
+                'Korige sarmal borular, çift katmanlı yapısı sayesinde yüksek mukavemet ve esneklik sunar. Termoplastik malzemeden üretilen iç ve dış katmanları, kimyasal ve mekanik etkilere karşı dayanıklıdır. Teknik özellikler şunlardır: \n<ul><li><b>Çap Aralığı:</b> 450 mm - 8000 mm</li><li><b>Halka Mukavemeti:</b> Yüksek</li><li><b>Malzeme:</b> Polietilen (PE) ve Polipropilen (PP)</li><li><b>Montaj Kolaylığı:</b> Contalı, elektrofüzyon ve ekstrüder kaynak yöntemleri</li><li><b>Dayanıklılık:</b> Yüksek kimyasal ve mekanik dayanım</li></ul>',
             },
             {
-              title: 'Dizayn Korige Sarmal Boru Teknik <b>Özellikleri</b>',
+              title: 'Korige Sarmal Boru <b>Birleştirme Yöntemleri</b>',
               description:
-                'Dizayn Korige Sarmal Boruları, iki farklı üretim yöntemi ile üretilmektedir: ekstrüderde kesintisiz tek proseste ve sarmal metod ile mandrel üzerinde. Polipropilen ve Polietilen hammaddelerinin kullanılmasıyla üretilen borular, yüksek halka mukavemeti ve korozyon direnci sunar. Projeye bağlı olarak istenilen halka mukavemet değerinde, optimum ağırlıkta üretilebilirler.',
+                'Korige sarmal boruların birleştirilmesinde farklı yöntemler kullanılmaktadır: \n<ul><li><b>Contalı Birleştirme:</b> Ø450 mm çapa kadar olan borularda kullanılır</li><li><b>Ekstrüder Kaynak:</b> Yüksek mukavemet ve sızdırmazlık sağlar</li><li><b>Elektrofüzyon Kaynak:</b> 4 bar basınca kadar dayanıklıdır ve yüksek sızdırmazlık sağlar</li></ul>',
             },
             {
-              title: 'Dizayn Korige Sarmal <b>Ek Parçaları</b>',
+              title: 'Korige Sarmal Boru <b>Fiyat Listesi</b>',
               description:
-                'Dizayn Korige Sarmal ek parçaları üstün kalitede üretilip tek tek kontrol edilerek sevk edilmektedir. Uygulama kolaylığı ve ergonomik tasarıma sahip ek parçalarımız, yüksek kalite ve uygun fiyat ekseninde siz değerli müşterilerimizin hizmetindedir. Korige Sarmal ek parçaları, basınçlı su sistemleri ve diğer endüstriyel uygulamalarda güvenle kullanılabilir.\n\n- Korige Sarmal Ek Parçaları\n- Korige Sarmal Eşit Te\n- Korige Sarmal Redüksiyon\n- Korige Sarmal Semer\n- Korige Sarmal Dirsekler\n- Korige Sarmal İnegal Te\n- Korige Sarmal Manşon\n- Korige Sarmal Körtapa\n- Korige Sarmal Flanş Adaptörü\nBu ek parçaları, Korige Sarmal boru sistemlerinizin güvenli ve dayanıklı bir şekilde birleştirilmesini sağlar.',
-            },
-            {
-              title: 'Dizayn Korige Sarmal Boru <b>Birleştirme Yöntemleri</b>',
-              description:
-                'Dizayn Korige Sarmal Boruları ve ek parçaları birbirlerine eritilerek veya mekanik ek parçalar ile bağlanırlar. Polietilen dışında diğer malzemelerden yapılan borulara dıştan sıkmalı ek parçalar, flanşlar veya amaca uygun yapılmış diğer geçiş adaptörleri ile bağlanabilirler. Bağlantı ek parçaları kullanılacak yerlere göre kolaylık sağlamaktadır.\n\n<b>Birleştirme Yöntemleri</b>\n- Elektrofüzyon (EF) Kaynağı: Elektrik enerjisi ile boru ve ek parça uçları eritilerek birleştirilir.\n- Alın Kaynağı: Boru uçlarının yüksek sıcaklıkta eritilerek birleştirilmesi.\n- Kaplin ile Birleştirme: Mekanik kaplin kullanılarak boru uçlarının birleştirilmesi.',
-            },
-            {
-              title:
-                'Dizayn Korige Sarmal Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
-              description:
-                'Elektrofüzyon Kaynak yönteminde, kaynak işlemi füzyon ek parçanın iç kısmındaki ısıtma rezistansları ile gerçekleştirilir. Korige Sarmal Borular, elektrofüzyon ek parçalarının içine yerleştirilir ve kaynak makinesinin uçları ek parçanın üzerindeki soketlere bağlanarak elektrik akımı ile ısıtılır. Bu yöntemle, Korige Sarmal borular güvenli ve sağlam bir şekilde birleştirilmiş olur. Elektrofüzyon Kaynak metodu ile 20 mm çaptan 1600 mm çapa kadar olan Korige Sarmal borular kaynatılabilir.',
-            },
-            {
-              title: 'Dizayn Korige Sarmal Kaynak Yöntemi: <b>Alın Kaynak</b>',
-              description:
-                'Alın Kaynak, Korige Sarmal boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. Alın Kaynak makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, Korige Sarmal boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 1600 mm çapa kadar olan Korige Sarmal borular kaynatılabilir.',
-            },
-            {
-              title: 'Dizayn Korige Sarmal Boru <b>Fiyat Listesi</b>',
-              description:
-                'Dizayn Korige Sarmal boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Korige Sarmal borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Korige Sarmal boru avantajlarından yararlanmak ve 2024 Korige Sarmal Boru Fiyat Listesine ulaşmak için bizimle iletişime geçiniz. Korige Sarmal borularımız hakkında detaylı bilgi almak için 0212 886 57 41 numaralı hattımızı arayabilirsiniz.',
+                'Korige sarmal borular, yüksek kalitesi ve uygun fiyatı ile projelerinizde maliyet avantajı sağlar. Farklı çap ve basınç sınıflarında üretilen borular için fiyat listesine ulaşmak ve detaylı bilgi almak için internet sitemizi ziyaret edebilirsiniz.',
             },
           ],
           faqs: [
             {
-              question: 'Korige Sarmal Borular hangi malzemeden üretilir?',
+              question: 'Korige sarmal boruların hammaddesi nedir?',
               answer:
-                'Korige Sarmal boruları, Polipropilen (PP) ve Polietilen (PE) hammaddelerinden üretilmektedir. Aynı et kalınlığında PP, daha yüksek halka mukavemeti sağlar.',
+                'Korige sarmal borular, polietilen (PE) ve polipropilen (PP) hammaddelerinden üretilmektedir. Bu malzemeler, yüksek korozyon dayanımı ve uzun ömür sunar.',
             },
             {
-              question: 'Korige Sarmal Boruların kullanım alanları nelerdir?',
+              question: 'Korige sarmal boruların avantajları nelerdir?',
               answer:
-                'Korige Sarmal boruları, kanalizasyon sistemleri, su drenaj sistemleri, atık su ve endüstriyel uygulamalar gibi çeşitli alanlarda kullanılabilir.',
+                'Korige sarmal borular, yüksek korozyon dayanımı, kimyasal direnç, uzun ömürlü yapısı ve esnekliği sayesinde altyapı projelerinde güvenilir bir çözüm sunar. Hafif yapısı ile kolay montaj ve nakliye imkanı sağlar.',
             },
             {
-              question: 'Korige Sarmal Boruların avantajları nelerdir?',
+              question: 'Korige sarmal boruların kullanım alanları nelerdir?',
               answer:
-                'Korige Sarmal boruları yüksek basınç dayanımı, korozyon direnci, uzun ömür ve esneklik gibi birçok avantaj sunar. Ayrıca, hafif yapıları sayesinde kolay kurulum imkanı sağlar.',
+                'Korige sarmal borular, kanalizasyon, yağmursuyu, drenaj, atıksu ve endüstriyel uygulamalar gibi birçok altyapı projesinde kullanılabilir.',
             },
             {
-              question: 'Korige Sarmal Boruların teknik özellikleri nelerdir?',
+              question: 'Korige sarmal borular nasıl birleştirilir?',
               answer:
-                'Korige Sarmal boruları iki katmanlı yapıya sahiptir. İçteki katman akışkanı taşırken, dıştaki katman kaburgalı yapıdadır. Bu yapı, boruların yüksek halka mukavemeti ve dayanıklılık sağlamasına yardımcı olur.',
+                'Korige sarmal borular, Ø450 mm çapa kadar contalı yöntem ile birleştirilir. Daha büyük çaplar için ekstrüder kaynak ve elektrofüzyon kaynak yöntemleri kullanılır.',
             },
             {
-              question: 'Korige Sarmal Boruların ömrü ne kadar?',
+              question: 'Korige sarmal boruların ömrü ne kadardır?',
               answer:
-                'Korige Sarmal boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde en az 50 yıl servis ömrü sunar.',
+                'Korige sarmal borular, 50 yıl ömür garantisi ile satılmaktadır ve dış etkilere karşı 100 yıl kullanılabilir.',
             },
             {
-              question:
-                'Korige Sarmal Boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Korige sarmal boruların teknik özellikleri nelerdir?',
               answer:
-                'Korige Sarmal Boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
+                'Korige sarmal borular, çift katmanlı yapısı sayesinde yüksek mukavemet ve esneklik sunar. Teknik özellikler arasında yüksek kimyasal ve mekanik dayanım, kolay montaj ve düşük ağırlık bulunur.',
             },
             {
-              question:
-                'Korige Sarmal Boruların kimyasallara dayanıklılığı nedir?',
+              question: 'Korige sarmal boruların üretim çap aralığı nedir?',
               answer:
-                'Korige Sarmal boruları kimyasallara karşı yüksek direnç gösterir ve korozyona uğramaz. Bu özellikleri sayesinde içme suyu ve kanalizasyon sistemlerinde güvenle kullanılabilir.',
+                "Korige sarmal borular, 450 mm'den 8000 mm'ye kadar çeşitli çaplarda üretilmektedir.",
             },
             {
-              question: 'Korige Sarmal Boruların montajı nasıl yapılır?',
+              question: 'Korige sarmal borular çevre dostu mudur?',
               answer:
-                'Korige Sarmal borularının montajı elektrofüzyon (EF) kaynağı, alın kaynağı ve mekanik kaplinler ile yapılabilir. Montaj işlemi sırasında boru yüzeyinin temiz olmasına dikkat edilmelidir.',
-            },
-            {
-              question: 'Korige Sarmal Boruları ne kadar esnektir?',
-              answer:
-                'Korige Sarmal boruları yüksek esnekliğe sahiptir ve arazi şekline uyum sağlayarak kolay kurulum imkanı sunar. Deprem ve yer sarsıntılarından etkilenmez.',
-            },
-            {
-              question:
-                'Korige Sarmal Boruların deprem dayanıklılığı nasıldır?',
-              answer:
-                'Korige Sarmal boruları elastik yapısı sayesinde depremden etkilenmez ve heyelan bölgelerinde uzamayı absorbe ederek dayanıklılık sağlar.',
+                'Evet, korige sarmal borular geri dönüşüme uygunluğu ile çevre dostu bir üründür.',
             },
           ],
           fittings: [],
@@ -2825,14 +2687,12 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
       {
         title: 'Dizayn PE 80 Doğalgaz Boru',
         description:
-          'Dizayn PE 80 Doğalgaz Boruları, doğalgaz hatlarında yüksek basınç dayanımı ve esneklik sunar.',
+          'Dizayn PE 80 Doğalgaz Boru ve Ek Parçaları, doğalgaz hatlarında güvenilir ve dayanıklı çözümler sunar. Polietilen malzeme kullanımı sayesinde hafif, esnek ve darbelere dayanıklı olan bu borular, doğalgaz hatlarında güvenle kullanılabilir.',
         featuredProduct: false,
         logo: '/productImages/alt yapı boruları/PE 80/logo.png',
         banner: {
-          vertical:
-            '/productImages/alt yapı boruları/PE 80/banner/vertical.jpg',
-          horizontal:
-            '/productImages/alt yapı boruları/PE 80/banner/horizontal.png',
+          vertical: '/productImages/alt yapı boruları/PE 80/banner/vertical.jpg',
+          horizontal: '/productImages/alt yapı boruları/PE 80/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/PE 80/banner/PLP.png',
           bgImage: '',
         },
@@ -2846,7 +2706,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         productDetails: {
           title: 'Dizayn PE 80 Doğalgaz Boru',
           description:
-            'Dizayn PE 80 Doğalgaz Boruları, doğalgaz hatlarında kullanılmak üzere tasarlanmıştır ve 4 bar basınca kadar dayanıklıdır. Esnek yapısı ve yüksek darbe dayanımı sayesinde güvenli ve uzun ömürlü çözümler sunar. Deprem gibi yer sarsıntılarından etkilenmez ve patlama riski yoktur.',
+            'Dizayn PE 80 doğalgaz boruları, yüksek kaliteli PE80 malzemesi kullanılarak üretilmiştir. Bu borular, yüksek basınç dayanımı ve esnek yapısı ile doğalgaz hatlarında güvenle kullanılabilir. PE80 doğalgaz boruları, hafif ve dayanıklı yapısı ile döşeme ve montaj kolaylığı sağlar.',
           features: [
             {
               title: 'Elastik Yapı',
@@ -2873,8 +2733,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: 'Uzun Ömür',
               icon: '/icons/long-lasting.png',
               alt: 'Long-lasting',
-              description:
-                'Dizayn PE 80 Doğalgaz Boruları, en az 50 yıl servis ömrü sunar.',
+              description: 'Dizayn PE 80 Doğalgaz Boruları, en az 50 yıl servis ömrü sunar.',
             },
             {
               title: 'Elektrofüzyon Kaynak',
@@ -2905,110 +2764,101 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
             {
               title: '<b>Dizayn PE 80 Doğalgaz Boru</b> ve Ek Parçaları',
               description:
-                'Dizayn PE 80 Doğalgaz Boruları, doğalgaz hatlarında yüksek basınç dayanımı ve esneklik sunar. 4 bar basınca kadar dayanıklıdır ve deprem gibi doğal afetlerden etkilenmez. Esnek yapısı ve yüksek darbe dayanımı ile güvenli ve uzun ömürlü çözümler sunar. Dizayn PE 80 Doğalgaz Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
+                'Dizayn PE 80 doğalgaz boruları, doğalgaz hatlarında güvenilir ve dayanıklı çözümler sunar. PE80 malzeme kullanımı sayesinde yüksek basınç dayanımı, esneklik ve uzun ömürlü kullanım sağlar. Detaylı bilgi ve fiyat listesi için internet sitemizi ziyaret edebilirsiniz.',
               image: '/productImages/alt yapı boruları/PE 80/PE 80 BORU 1.jpg',
               alt: 'Dizayn PE 80 Doğalgaz Boru',
             },
             {
               title: 'Dizayn PE 80 Doğalgaz Boru <b>Avantajları</b>',
               description:
-                'Dizayn PE 80 Doğalgaz Boruları, elastik yapısı, kimyasal dayanımı, hafifliği ve uzun ömrü ile doğalgaz hatlarında güvenle kullanılabilir. Elektrofüzyon kaynağı ile birleştirilerek doğalgaz kaçağı riski minimuma indirilir.',
+                'Dizayn PE 80 doğalgaz boruları, yüksek basınç dayanımı, esneklik ve kimyasal direnç gibi özellikleri ile doğalgaz hatlarında güvenli ve uzun ömürlü çözümler sunar. PE80 malzeme kullanımı sayesinde bu borular, çeşitli uygulamalarda kullanılabilir.',
             },
             {
               title: 'Dizayn PE 80 Doğalgaz Boru <b>Nerelerde Kullanılır?</b>',
               description:
-                'Dizayn PE 80 Doğalgaz Boruları, doğalgaz hatları, su hatları ve endüstriyel uygulamalarda kullanılabilir. Esnek yapısı sayesinde deprem ve yer sarsıntılarından etkilenmez.',
+                'Dizayn PE 80 doğalgaz boruları, doğalgaz hatlarında, bina içi doğalgaz sistemlerinde ve diğer doğalgaz iletim hatlarında güvenle kullanılabilir. Bu borular, yüksek performansı ve dayanıklılığı ile geniş bir uygulama yelpazesi sunar.',
             },
             {
               title: 'Dizayn PE 80 Doğalgaz Boru <b>Ağırlık Tablosu</b>',
               description:
-                'Dizayn PE 80 Doğalgaz Borularının ağırlık hesaplaması, içi boş silindir hacmi ve borunun yoğunluğu çarpılarak yapılır. Bu boruların ağırlık tablosu hazırlanırken tolerans değerleri dikkate alınmalıdır.',
+                'Dizayn PE 80 doğalgaz boruları, farklı çap ve basınç sınıflarında çeşitli ağırlıklarla üretilmektedir. Ağırlık tablosu, boruların içi boş silindir hacmi ve borunun yoğunluğu çarpılarak hesaplanmaktadır. Boruların üretim aşamasında ısıl işlem gördüğü için genleşme özelliği dikkate alınarak tablo hazırlanmıştır. Detaylı bilgi ve diğer çaplar için firmamızla iletişime geçebilirsiniz.',
             },
             {
               title: 'Dizayn PE 80 Doğalgaz Boru Teknik <b>Özellikleri</b>',
               description:
-                'Dizayn PE 80 Doğalgaz Boruları, ekstrüder hattı denilen makineler grubunda üretilmektedir. Boru üretim aralığı Ø25-500 mm’dir. Elektrofüzyon fitingleri enjeksiyon makinelerinde kalıp ile şekillendirilerek üretilmektedir. Bu borular, 4 bar basınca kadar dayanıklı olup, kimyasallara karşı yüksek direnç gösterir ve korozyon olmaz.',
+                'Dizayn PE 80 doğalgaz boruları, yüksek basınç dayanımı, esneklik ve kimyasal direnç gibi özellikleri ile doğalgaz hatlarında güvenli ve uzun ömürlü çözümler sunar. Teknik özellikler şunlardır:\n<ul><li><b>Çalışma Sıcaklığı</b>: Sürekli 60°C, anlık 80°C sıcaklık dayanımı.</li><li><b>Çalışma Basıncı</b>: 4 bar basınç dayanımı.</li><li><b>Malzeme</b>: Özel formüllü PE80 malzeme.</li><li><b>Montaj Kolaylığı</b>: Esnek yapısı sayesinde kolay montaj imkanı.</li><li><b>Dayanıklılık</b>: Yüksek sıcaklık ve basınç dayanımı, çevresel etkilere karşı üstün direnç.</li><li><b>Düşük Sürtünme Direnci</b>: Verimli tesisat performansı için düşük sürtünme direnci.</li></ul>',
             },
             {
-              title: 'Dizayn PE 80 Doğalgaz <b>Ek Parçaları</b>',
+              title: 'Dizayn PE 80 Doğalgaz Boru <b>Ek Parçaları</b>',
               description:
-                'Dizayn PE 80 Doğalgaz ek parçaları üstün kalitede üretilip tek tek kontrol edilerek sevk edilmektedir. Uygulama kolaylığı ve ergonomik tasarıma sahip ek parçalarımız, yüksek kalite ve uygun fiyat ekseninde siz değerli müşterilerimizin hizmetindedir. PE 80 ek parçaları, doğalgaz sistemleri ve diğer endüstriyel uygulamalarda güvenle kullanılabilir.\n\n- PE 80 Ek Parçaları\n- PE 80 Eşit Te\n- PE 80 Redüksiyon\n- PE 80 Semer\n- PE 80 Dirsekler\n- PE 80 İnegal Te\n- PE 80 Manşon\n- PE 80 Körtapa\n- PE 80 Flanş Adaptörü\nBu ek parçaları, PE 80 boru sistemlerinizin güvenli ve dayanıklı bir şekilde birleştirilmesini sağlar.',
+                'Dizayn PE 80 doğalgaz boruları için çeşitli ek parçalar mevcuttur. Bu ek parçalar, boruların montajını kolaylaştırır ve sistemlerin verimliliğini artırır. Ek parçalar, projelerinizin ihtiyaçlarına göre seçilebilir ve borularla uyumlu olarak kullanılabilir.',
             },
             {
               title: 'Dizayn PE 80 Doğalgaz Boru <b>Birleştirme Yöntemleri</b>',
               description:
-                'Dizayn PE 80 Doğalgaz Boruları ve ek parçaları birbirlerine eritilerek veya mekanik ek parçalar ile bağlanırlar. Polietilen dışında diğer malzemelerden yapılan borulara dıştan sıkmalı ek parçalar, flanşlar veya amaca uygun yapılmış diğer geçiş adaptörleri ile bağlanabilirler. Bağlantı ek parçaları kullanılacak yerlere göre kolaylık sağlamaktadır.\n\n<b>Birleştirme Yöntemleri</b>\n- Elektrofüzyon (EF) Kaynağı: Elektrik enerjisi ile boru ve ek parça uçları eritilerek birleştirilir.\n- Alın Kaynağı: Boru uçlarının yüksek sıcaklıkta eritilerek birleştirilmesi.\n- Kaplin ile Birleştirme: Mekanik kaplin kullanılarak boru uçlarının birleştirilmesi.',
+                'Dizayn PE 80 doğalgaz borularının birleştirilmesinde farklı tipte birleştirme yöntemleri tercih edilmektedir. Bu yöntemler şunlardır:\n<ul><li><b>Elektrofüzyon Birleştirme</b>: Bu yöntem, doğalgaz borularının güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Elektrofüzyon fitingleri, boruların uçlarına yerleştirilir ve kaynak makinesi ile kolayca birleştirilir. Sağlam ve sızdırmaz bağlantı oluşturur.</li></ul>',
             },
             {
-              title:
-                'Dizayn PE 80 Doğalgaz Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
+              title: 'Dizayn PE 80 Doğalgaz Boru <b>Kaynak Yöntemi: Elektrofüzyon</b>',
               description:
-                'Elektrofüzyon Kaynak yönteminde, kaynak işlemi füzyon ek parçanın iç kısmındaki ısıtma rezistansları ile gerçekleştirilir. PE 80 Borular, elektrofüzyon ek parçalarının içine yerleştirilir ve kaynak makinesinin uçları ek parçanın üzerindeki soketlere bağlanarak elektrik akımı ile ısıtılır. Bu yöntemle, PE 80 borular güvenli ve sağlam bir şekilde birleştirilmiş olur. Elektrofüzyon Kaynak metodu ile 20 mm çaptan 1600 mm çapa kadar olan PE 80 borular kaynatılabilir.',
-            },
-            {
-              title: 'Dizayn PE 80 Doğalgaz Kaynak Yöntemi: <b>Alın Kaynak</b>',
-              description:
-                'Alın Kaynak, PE 80 boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. Alın Kaynak makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, PE 80 boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 1600 mm çapa kadar olan PE 80 borular kaynatılabilir.',
+                'Elektrofüzyon kaynak yöntemi, Dizayn PE 80 doğalgaz borularının birleştirilmesinde kullanılan güvenilir ve sağlam bir yöntemdir. Elektrofüzyon kaynak, boru ve ek parçaların iç kısmında bulunan rezistans tellerinin elektrik enerjisi ile ısıtılmasıyla gerçekleştirilir. Bu işlem, boru yüzeylerinin erimesini ve birleşmesini sağlar. Kolay montaj imkanı sunan elektrofüzyon ek parçaları, boru uçlarına yerleştirilir ve kaynak makinesi ile kolayca birleştirilir. Sağlam ve sızdırmaz bağlantı oluşturur.',
             },
             {
               title: 'Dizayn PE 80 Doğalgaz Boru <b>Fiyat Listesi</b>',
               description:
-                'Dizayn PE 80 Doğalgaz boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. PE 80 borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. PE 80 boru avantajlarından yararlanmak ve 2024 PE 80 Boru Fiyat Listesine ulaşmak için bizimle iletişime geçiniz. PE 80 borularımız hakkında detaylı bilgi almak için 0212 886 57 41 numaralı hattımızı arayabilirsiniz.',
+                'Dizayn PE 80 doğalgaz boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Dizayn PE 80 doğalgaz boruları, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Dizayn PE 80 doğalgaz boru avantajlarından yararlanmak ve 2024 Dizayn PE 80 Doğalgaz Boru Fiyat Listesine ulaşmak için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
             },
           ],
           faqs: [
             {
-              question:
-                'PE80 Doğalgaz boruları hangi basınçtaki hatlarda kullanılabilir?',
+              question: 'Dizayn PE 80 doğalgaz boruları hangi basınçtaki hatlarda kullanılabilir?',
               answer:
-                'PE80 Doğalgaz boruları 4 barlık tali hatlarda kullanılmaktadır. Ana hatlar için 20 barlık çelik borular kullanılır. Bina içi hatlarda yangın riskini önlemek için çelik borular tercih edilir.',
+                'Dizayn PE 80 doğalgaz boruları, doğalgaz hatlarının 4 bar basınçlı kısımlarında güvenle kullanılabilir. Bu borular, yüksek basınç dayanımı ve esnek yapısı ile doğalgaz hatlarında güvenli ve uzun ömürlü çözümler sunar.',
             },
             {
-              question: 'PE80 Doğalgaz boruları neden sarı renklidir?',
+              question: 'Neden sarı renklidir?',
               answer:
-                'Standartlar doğalgaz borularının sarı renkli veya sarı şeritli olmasını şart koşar. Bu renk, doğalgaz hatlarının içme suyu hatlarından ayrılmasını sağlar.',
+                'Doğalgaz borularının sarı renkli olması, standartlar gereği zorunludur. Sarı renk, doğalgaz hatlarının içme suyu hatlarından kolayca ayırt edilmesini sağlar.',
             },
             {
-              question:
-                'Bu borulardan artanlar içme suyunda kullanılabilir mi?',
+              question: 'PE 80 doğalgaz boruları su hatlarında kullanılabilir mi?',
               answer:
-                'Evet, doğalgazda 4 bar olan basınç dayanımı, suda 10 bara karşılık gelmektedir. Emniyet katsayısının farklı olmasından dolayı bu mümkündür.',
+                'Evet, PE 80 doğalgaz boruları su hatlarında da kullanılabilir. Bu borular, su hatlarında 10 bar basınca kadar dayanıklıdır ve içme suyu hatlarında güvenle kullanılabilir.',
             },
             {
-              question: 'Doğalgaz borularının birleştirme yöntemleri nelerdir?',
+              question: 'PE 80 doğalgaz boruları nasıl birleştirilir?',
               answer:
-                'Doğalgaz boruları sadece elektrofüzyon fitingleri ile birleştirilir. Bu yöntem, kaynak bölgesinin genişliği ve emniyet açısından tercih edilir.',
+                'PE 80 doğalgaz boruları, elektrofüzyon fitingleri ile birleştirilir. Elektrofüzyon kaynak yöntemi, boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar.',
             },
             {
-              question: 'PE80 Doğalgaz borularının ömrü ne kadardır?',
-              answer: 'PE80 Doğalgaz boruları en az 50 yıl servis ömrü sunar.',
+              question: 'PE 80 doğalgaz borularının avantajları nelerdir?',
+              answer:
+                'PE 80 doğalgaz boruları, yüksek basınç dayanımı, esneklik, kimyasal direnç, hafiflik ve kolay montaj gibi avantajlara sahiptir. Bu özellikleri ile doğalgaz hatlarında güvenli ve uzun ömürlü çözümler sunar.',
             },
             {
-              question:
-                'PE80 Doğalgaz boruları kimyasallara karşı dayanıklı mıdır?',
+              question: 'PE 80 doğalgaz borularının servis ömrü ne kadardır?',
               answer:
-                'Evet, PE80 Doğalgaz boruları kimyasallara karşı yüksek direnç gösterir ve korozyon olmaz.',
+                'PE 80 doğalgaz borularının servis ömrü 50 yıldır. Yüksek kaliteli malzemeler ve üretim teknikleri sayesinde bu borular, uzun ömürlü ve güvenli çözümler sunar.',
             },
             {
-              question:
-                'PE80 Doğalgaz boruları hangi sıcaklıklarda kullanılabilir?',
+              question: 'PE 80 doğalgaz borularının fiyat listesine nasıl ulaşabilirim?',
               answer:
-                "PE80 Doğalgaz boruları -40°C'ye kadar elastik özelliklerini korur.",
+                'PE 80 doğalgaz borularının 2024 Fiyat Listesi için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
             },
             {
-              question: 'PE80 Doğalgaz boruları depreme karşı dayanıklı mıdır?',
+              question: 'PE 80 doğalgaz boruları kimyasallara karşı dayanıklı mıdır?',
               answer:
-                'Evet, PE80 Doğalgaz boruları elastik yapısı sayesinde deprem gibi doğal afetlerde zarar görmez ve patlama riski yoktur.',
+                'Evet, PE 80 doğalgaz boruları kimyasal maddelere karşı yüksek direnç sağlar ve korozyona karşı koruma sunar.',
             },
             {
-              question: 'PE80 Doğalgaz boruları hafif midir?',
+              question: 'PE 80 doğalgaz borularının teknik özellikleri nelerdir?',
               answer:
-                'Evet, PE80 Doğalgaz boruları yoğunluğu 0,940 gr/cm³ olduğundan çelikten 8 kat daha hafiftir.',
+                'PE 80 doğalgaz boruları, yüksek basınç dayanımı, esneklik, kimyasal direnç ve uzun ömür gibi teknik özelliklere sahiptir. Detaylı teknik özellikler için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
             },
             {
-              question: 'PE80 Doğalgaz boruları nasıl birleştirilir?',
+              question: 'PE 80 doğalgaz boruları nasıl temin edebilirim?',
               answer:
-                'PE80 Doğalgaz boruları elektrofüzyon kaynağı ile birleştirilir. Bu yöntem, doğalgaz kaçağı riskini minimuma indirir.',
+                "PE 80 doğalgaz borularını Dizayn Grup'un yetkili satıcılarından veya doğrudan bizimle iletişime geçerek temin edebilirsiniz.",
             },
           ],
           fittings: [
@@ -3072,10 +2922,8 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         featuredProduct: false,
         logo: '/productImages/alt yapı boruları/Jeotermal/logo.png',
         banner: {
-          vertical:
-            '/productImages/alt yapı boruları/Jeotermal/banner/vertical.jpg',
-          horizontal:
-            '/productImages/alt yapı boruları/Jeotermal/banner/horizontal.png',
+          vertical: '/productImages/alt yapı boruları/Jeotermal/banner/vertical.jpg',
+          horizontal: '/productImages/alt yapı boruları/Jeotermal/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/Jeotermal/banner/PLP.png',
           bgImage: '',
         },
@@ -3092,42 +2940,42 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         productDetails: {
           title: 'Dizayn Jeotermal Boru',
           description:
-            'Dizayn Jeotermal Boruları, sıcak ve soğuk akışkanların ısı transferini engelleyen üç katmanlı kompozit borulardır. İç taşıyıcı boru, yalıtım malzemesi olarak Poliüretan (PUR) katmanı ve koruyucu kılıf olarak Polietilen (PE) borudan oluşur. 70 °C sıcaklık ve altında PolipropilenRandom (PPr), 140 °C ve altında ise Çelik boru kullanılır. Bu borular, korozyona karşı yüksek dayanım ve uzun ömür sunar.',
+            'Sıcak veya soğuk akışkanın ısı transferini engelleyecek özellikte imal edilmiş borulardır. Boru değişik malzeme katmanlarından oluştuğu için kompozit boru sınıfına girmektedir. Jeotermal borular üç katmanlıdır. İçteki taşıyıcı boru, arada yalıtım malzemesi olarak Poliüretan katman (PUR) ve koruyucu kılıf olarak en dışta Polietilen (PE) borudan oluşmaktadır. Taşıyıcı boru malzemesi kullanım sıcaklıklarına göre farklı olabilmektedir. PolipropilenRandom (PPr) boru 70 °C sıcaklık ve altında, 140 °C ve altında ise Çelik boru kullanılmaktadır. Sunmuş olduğu teknik ve maliyet avantajları sayesinde Camyünü izolasyonlu boruların dezavantajlarını ortadan kaldırmıştır.',
           features: [
             {
-              title: 'Korozyona Dayanıklı',
+              title: 'Korozyona Karşı Yüksek Dayanım',
               icon: '/icons/corrosion.png',
-              alt: 'Corrosion Resistant',
+              alt: 'Corrosion Resistance',
               description:
-                'Dizayn Jeotermal Boruları, polietilen kılıfı sayesinde korozyona karşı yüksek direnç gösterir.',
-            },
-            {
-              title: 'Yüksek Isı Dayanımı',
-              icon: '/icons/high-temperature.png',
-              alt: 'High Temperature Resistance',
-              description:
-                'Bu borular, 140 °C sıcaklığındaki akışkanları taşıyabilir ve yüksek sıcaklık dayanımı sağlar.',
+                'Polietilen kılıf boru sayesinde yüksek korozyon direnci sağlar ve nemli ortamlarda uzun ömürlüdür.',
             },
             {
               title: 'Uzun Ömür',
-              icon: '/icons/long-lasting.png',
-              alt: 'Long-lasting',
+              icon: '/icons/durable.png',
+              alt: 'Durability',
               description:
-                'Jeotermal boruların dış etkilere karşı izolasyon ömrü en az 30 yıldır.',
+                'Jeotermal borular, dış etkilere karşı izolasyon ömrü en az 30 yıl olan yüksek kaliteli poliüretan kullanılarak üretilir.',
             },
             {
-              title: 'Esnek ve Hafif',
-              icon: '/icons/flexible.png',
-              alt: 'Flexible',
+              title: 'Yüksek Isı Dayanımı',
+              icon: '/icons/heat-proof.png',
+              alt: 'Heat Resistance',
               description:
-                'Hafif yapısı ve esnekliği sayesinde kolay kurulum ve düşük işçilik maliyeti sağlar.',
+                "140°C'ye kadar sıcaklıklarda kullanılabilen taşıyıcı borular, çeşitli yüksek sıcaklık uygulamaları için idealdir.",
             },
             {
-              title: 'Yüksek Yalıtım Performansı',
-              icon: '/icons/insulation.png',
-              alt: 'Insulation',
+              title: 'Düşük Isı İletkenliği',
+              icon: '/icons/low-temperature.png',
+              alt: 'Low Thermal Conductivity',
               description:
-                'Poliüretan (PUR) katmanı, mükemmel ısı yalıtımı sağlar ve ısı transferini engeller.',
+                'PUR yalıtım malzemesi, düşük ısı iletkenliği ile yüksek enerji verimliliği sağlar.',
+            },
+            {
+              title: 'Deprem Dayanıklılığı',
+              icon: '/icons/earthquake-resistant.png',
+              alt: 'Earthquake Resistance',
+              description:
+                'Esnek yapısı sayesinde jeotermal borular, deprem gibi yer hareketlerinden etkilenmez ve güvenli bir performans sunar.',
             },
           ],
           images: [
@@ -3137,159 +2985,130 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               description: 'Dizayn Jeotermal Boru',
             },
             {
-              image: '/productImages/altyapı/Jeotermal/Jeotermal BORU 3.png',
+              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 3.png',
               alt: 'Dizayn Jeotermal Boru',
               description: 'Dizayn Jeotermal Boru',
             },
             {
-              image: '/productImages/altyapı/Jeotermal/Jeotermal BORU 4.png',
+              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 4.png',
               alt: 'Dizayn Jeotermal Boru',
               description: 'Dizayn Jeotermal Boru',
             },
           ],
           headers: [
             {
-              title: '<b>Dizayn Jeotermal Boru</b> ve Ek Parçaları',
+              title: '<b>Jeotermal Boru</b> ve Ek Parçaları',
               description:
-                'Dizayn Jeotermal Boruları, sıcak ve soğuk akışkanların ısı transferini engelleyen kompozit borulardır. Üç katmanlı yapısı sayesinde yüksek yalıtım performansı ve korozyon dayanımı sağlar. Dizayn Jeotermal Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              alt: 'Dizayn Jeotermal Boru',
+                'Jeotermal borular, üç katmanlı kompozit yapısı ile yüksek ısı dayanımı ve uzun ömür sunar. 140°C sıcaklığa kadar kullanılabilen bu borular, bölgesel ısıtma ve jeotermal enerji uygulamalarında ideal çözümler sunar.',
             },
             {
-              title: 'Dizayn Jeotermal Boru <b>Avantajları</b>',
+              title: 'Jeotermal Boru <b>Avantajları</b>',
               description:
-                'Dizayn Jeotermal Boruları, yüksek sıcaklık dayanımı, korozyon direnci ve uzun ömrü ile öne çıkar. Poliüretan (PUR) yalıtım katmanı sayesinde mükemmel ısı yalıtımı sağlar ve dış etkilere karşı dayanıklıdır.',
+                'Jeotermal borular, yüksek korozyon dayanımı, düşük ısı iletkenliği ve yüksek sıcaklık dayanımı gibi özellikleri ile uzun ömürlü ve güvenilir performans sağlar.',
             },
             {
-              title: 'Dizayn Jeotermal Boru <b>Nerelerde Kullanılır?</b>',
+              title: 'Jeotermal Boru <b>Nerelerde Kullanılır?</b>',
               description:
-                'Dizayn Jeotermal Boruları, jeotermal enerji uygulamaları, bölgesel ısıtma sistemleri, soğutma ve endüstriyel uygulamalarda kullanılır. Yüksek sıcaklık dayanımı ve esnek yapısı ile projelerinizde güvenilir çözümler sunar.',
+                'Jeotermal borular, bölgesel ısıtma, jeotermal enerji uygulamaları ve kojenerasyon sistemlerinde güvenle kullanılabilir.',
             },
             {
-              title: 'Dizayn Jeotermal Boru <b>Ağırlık Tablosu</b>',
+              title: 'Jeotermal Boru <b>Teknik Özellikleri</b>',
               description:
-                'Dizayn Jeotermal Borularının ağırlık hesaplaması, içi boş silindir hacmi ve borunun yoğunluğu çarpılarak yapılır. Üç katmanlı yapısı sayesinde ağırlık ve yalıtım performansı dengelenmiştir.',
+                "Jeotermal borular, üç katmanlı kompozit yapısı ile yüksek dayanıklılık ve düşük ısı iletkenliği sağlar. Teknik özellikler şunlardır:\n<ul><li><b>Çalışma Sıcaklığı</b>: 140°C'ye kadar sıcaklık dayanımı.</li><li><b>Yalıtım Malzemesi</b>: Poliüretan (PUR).</li><li><b>Kılıf Malzemesi</b>: Polietilen (PE).</li></ul>",
             },
             {
-              title: 'Dizayn Jeotermal Boru Teknik <b>Özellikleri</b>',
+              title: 'Jeotermal Boru <b>Montaj ve Uygulama</b>',
               description:
-                "Dizayn Jeotermal Boruları, üç katmanlı kompozit yapısı ile yüksek ısı yalıtımı ve korozyon direnci sağlar. İç taşıyıcı boru PPr veya çelikten yapılırken, yalıtım malzemesi olarak poliüretan (PUR) ve koruyucu kılıf olarak polietilen (PE) kullanılır. 140 °C'ye kadar sıcaklık dayanımı sunar.",
+                'Jeotermal boruların montajında dikkat edilmesi gereken noktalar ve uygulama yöntemleri. Doğru montaj teknikleri ile boruların performansını maksimum seviyede tutabilirsiniz.',
             },
             {
-              title: 'Dizayn Jeotermal <b>Ek Parçaları</b>',
+              title: 'Jeotermal Boru <b>Fiyat Listesi</b>',
               description:
-                'Dizayn Jeotermal ek parçaları üstün kalitede üretilip tek tek kontrol edilerek sevk edilmektedir. Uygulama kolaylığı ve ergonomik tasarıma sahip ek parçalarımız, yüksek kalite ve uygun fiyat ekseninde siz değerli müşterilerimizin hizmetindedir. Jeotermal ek parçaları, jeotermal enerji ve bölgesel ısıtma sistemlerinde güvenle kullanılabilir.\n\n- Jeotermal Ek Parçaları\n- Jeotermal Eşit Te\n- Jeotermal Redüksiyon\n- Jeotermal Semer\n- Jeotermal Dirsekler\n- Jeotermal İnegal Te\n- Jeotermal Manşon\n- Jeotermal Körtapa\n- Jeotermal Flanş Adaptörü\nBu ek parçaları, jeotermal boru sistemlerinizin güvenli ve dayanıklı bir şekilde birleştirilmesini sağlar.',
-            },
-            {
-              title: 'Dizayn Jeotermal Boru <b>Birleştirme Yöntemleri</b>',
-              description:
-                'Dizayn Jeotermal Boruları ve ek parçaları, eritme veya mekanik ek parçalar ile bağlanır. Polietilen dışında diğer malzemelerden yapılan borulara dıştan sıkmalı ek parçalar, flanşlar veya amaca uygun yapılmış diğer geçiş adaptörleri ile bağlanabilir. Bağlantı ek parçaları kullanılacak yerlere göre kolaylık sağlamaktadır.\n\n<b>Birleştirme Yöntemleri</b>\n- Elektrofüzyon (EF) Kaynağı: Elektrik enerjisi ile boru ve ek parça uçları eritilerek birleştirilir.\n- Alın Kaynağı: Boru uçlarının yüksek sıcaklıkta eritilerek birleştirilmesi.\n- Kaplin ile Birleştirme: Mekanik kaplin kullanılarak boru uçlarının birleştirilmesi.',
-            },
-            {
-              title:
-                'Dizayn Jeotermal Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
-              description:
-                'Elektrofüzyon Kaynak yönteminde, kaynak işlemi füzyon ek parçanın iç kısmındaki ısıtma rezistansları ile gerçekleştirilir. Jeotermal Borular, elektrofüzyon ek parçalarının içine yerleştirilir ve kaynak makinesinin uçları ek parçanın üzerindeki soketlere bağlanarak elektrik akımı ile ısıtılır. Bu yöntemle, Jeotermal borular güvenli ve sağlam bir şekilde birleştirilmiş olur. Elektrofüzyon Kaynak metodu ile 20 mm çaptan 1600 mm çapa kadar olan Jeotermal borular kaynatılabilir.',
-            },
-            {
-              title: 'Dizayn Jeotermal Kaynak Yöntemi: <b>Alın Kaynak</b>',
-              description:
-                'Alın Kaynak, Jeotermal boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. Alın Kaynak makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, Jeotermal boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 1600 mm çapa kadar olan Jeotermal borular kaynatılabilir.',
-            },
-            {
-              title: 'Dizayn Jeotermal Boru <b>Fiyat Listesi</b>',
-              description:
-                'Dizayn Jeotermal boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Jeotermal borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Jeotermal boru avantajlarından yararlanmak ve 2024 Jeotermal Boru Fiyat Listesine ulaşmak için bizimle iletişime geçiniz. Jeotermal borularımız hakkında detaylı bilgi almak için 0212 886 57 41 numaralı hattımızı arayabilirsiniz.',
+                'Jeotermal boruların 2024 Fiyat Listesi için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz. Geniş çap seçenekleri ve uygun fiyatları ile projelerinizde ekonomik çözümler sunar.',
             },
           ],
           faqs: [
             {
-              question:
-                'Dizayn Jeotermal boruları kaç santigrat derece sıcaklıktaki akışkanlara kadar kullanılabilir?',
+              question: 'Jeotermal borular hangi sıcaklıklarda kullanılabilir?',
               answer:
-                "Dizayn Jeotermal boruları 140 °C'ye kadar sıcaklıktaki akışkanları taşıyabilir.",
+                "Jeotermal borular, 140°C'ye kadar olan sıcaklıklarda güvenle kullanılabilir.",
             },
             {
-              question:
-                'Dizayn Jeotermal boruları 140 °C üzerindeki sıcaklıklarda kullanılabilir mi?',
+              question: '140°C üzerindeki sıcaklıklarda jeotermal borular kullanılabilir mi?',
               answer:
-                'Evet, 140 °C üzerindeki sıcaklıklarda taş yünü-PUR kombinasyonu ile kullanılabilir.',
+                'Evet, 140°C üzerindeki sıcaklıklar için tasyünü-PUR kombinasyonu ile kullanılabilmektedir.',
             },
             {
-              question:
-                'Dizayn Jeotermal boruları buhar taşımada kullanılabilir mi?',
-              answer:
-                'Evet, içi çelik olan Dizayn Jeotermal boruları buhar taşımada kullanılabilir.',
+              question: 'Jeotermal borular buhar taşımada kullanılabilir mi?',
+              answer: 'Evet, içi çelik olan jeotermal borular buhar taşımada kullanılabilir.',
             },
             {
-              question:
-                'Dizayn Jeotermal boruları soğuksu hatlarında kullanılabilir mi?',
+              question: 'Jeotermal borular soğuksu hatlarında kullanılabilir mi?',
               answer:
-                'Evet, ön izolasyonlu borular soğuksu hatlarında ısı transferini engelleyerek kullanılabilir.',
+                "Evet, ön izolasyonlu borular soğuksu hatlarında da kullanılabilir. Chiller'lerde soğutulmuş akışkan da ısınmadan taşınabilir.",
             },
             {
-              question:
-                'Dizayn Jeotermal borularında kompansatör kullanılır mı?',
+              question: 'Jeotermal borularda kompansatör kullanılır mı?',
               answer:
-                'Ön izolasyonlu döşeme tekniği sayesinde içteki boru uzaması absorbe edildiğinden kompansatörlere ihtiyaç kalmaz.',
+                'Ön izolasyonlu döşeme tekniği uygulandığında, toprak sürtünme kuvvetleri sayesinde kompansatörlere ihtiyaç kalmaz.',
             },
             {
               question: 'Korona işlemi nedir? Olmasa olmaz mı?',
               answer:
-                'Korona işlemi, poliüretan ile polietilen arasında kimyasal bağ kurmayı sağlar. Bu işlem yapılmadığında mutlaka kompansatör kullanılmalıdır.',
+                "Korona işlemi, PUR'un hem çelik hem de PE ile kimyasal reaksiyona girerek bağ yapmasını sağlar. Korona yapılmadığı takdirde kompansatör kullanılması gerekmektedir.",
             },
             {
-              question:
-                'Dizayn Jeotermal boruları için galeri açmaya gerek var mıdır?',
+              question: 'Galeri açmaya gerek var mıdır?',
               answer:
-                'Bu borular direkt toprağa gömüldüğünden galeri açmaya gerek yoktur. Açıldığında uzama dikkate alınmalıdır.',
+                'Jeotermal borular direkt toprağa gömüldüğünden galeri açmaya gerek yoktur. Açılması durumunda uzama dikkate alınmalıdır.',
             },
           ],
           fittings: [
             {
               title: 'Jeotermal Eşit Te',
-              image: '/productImages/altyapı/Jeotermal/Jeotermal BORU 2.png',
+              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 2.png',
               alt: 'Jeotermal Eşit Te',
               category: 'Fittings',
             },
             {
               title: 'Jeotermal Redüksiyon',
-              image: '/productImages/altyapı/Jeotermal/Jeotermal BORU 3.png',
+              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 3.png',
               alt: 'Jeotermal Redüksiyon',
               category: 'Fittings',
             },
             {
               title: 'Jeotermal Semer',
-              image: '/productImages/altyapı/Jeotermal/Jeotermal BORU 4.png',
+              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 4.png',
               alt: 'Jeotermal Semer',
               category: 'Fittings',
             },
             {
               title: 'Jeotermal Dirsekler',
-              image: '/productImages/altyapı/Jeotermal/Jeotermal BORU 2.png',
+              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 2.png',
               alt: 'Jeotermal Dirsekler',
               category: 'Fittings',
             },
             {
               title: 'Jeotermal İnegal Te',
-              image: '/productImages/altyapı/Jeotermal/Jeotermal BORU 3.png',
+              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 3.png',
               alt: 'Jeotermal İnegal Te',
               category: 'Fittings',
             },
             {
               title: 'Jeotermal Manşon',
-              image: '/productImages/altyapı/Jeotermal/Jeotermal BORU 4.png',
+              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 4.png',
               alt: 'Jeotermal Manşon',
               category: 'Fittings',
             },
             {
               title: 'Jeotermal Körtapa',
-              image: '/productImages/altyapı/Jeotermal/Jeotermal BORU 2.png',
+              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 2.png',
               alt: 'Jeotermal Körtapa',
               category: 'Fittings',
             },
             {
               title: 'Jeotermal Flanş Adaptörü',
-              image: '/productImages/altyapı/Jeotermal/Jeotermal BORU 3.png',
+              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 3.png',
               alt: 'Jeotermal Flanş Adaptörü',
               category: 'Fittings',
             },
@@ -3305,15 +3124,12 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         featuredProduct: false,
         logo: '/productImages/alt yapı boruları/Deniz Desarj/logo.png',
         banner: {
-          vertical:
-            '/productImages/alt yapı boruları/Deniz Desarj/banner/vertical.jpg',
-          horizontal:
-            '/productImages/alt yapı boruları/Deniz Desarj/banner/horizontal.png',
+          vertical: '/productImages/alt yapı boruları/Deniz Desarj/banner/vertical.jpg',
+          horizontal: '/productImages/alt yapı boruları/Deniz Desarj/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/Deniz Desarj/banner/PLP.png',
           bgImage: '',
         },
-        image:
-          '/productImages/alt yapı boruları/Deniz Desarj/Deniz Desarj BORU.png',
+        image: '/productImages/alt yapı boruları/Deniz Desarj/Deniz Desarj BORU.png',
         link: '/urunler/altyapi-boru-sistemleri/deniz-desarj-boru',
         highlights: [
           { title: 'Yüksek Dayanıklılık', icon: '/icons/durable.png' },
@@ -3326,232 +3142,142 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
             'Dizayn Deniz Deşarj Boruları, deniz, göl ve nehirlerde atık suyun güvenli ve verimli bir şekilde tahliyesi için tasarlanmıştır. Bu borular, korozyona ve aşınmaya karşı yüksek dayanıklılık sunar ve çeşitli su geçişleri projelerinde güvenle kullanılabilir. Esnek yapısı sayesinde borular, zorlu çevre koşullarına ve yer hareketlerine karşı dirençlidir.',
           features: [
             {
-              title: 'Yüksek Dayanıklılık',
-              icon: '/icons/durable.png',
-              alt: 'Durable',
+              title: 'Kimyasal Dayanıklılık',
+              icon: '/icons/chemical-resistant.png',
+              alt: 'Chemical Resistance',
               description:
-                'Dizayn Deniz Deşarj Boruları, yüksek dayanıklılığı ile uzun ömürlü çözümler sunar. Çevresel etkilerden ve mekanik hasarlardan korunmak için özel olarak tasarlanmıştır.',
-            },
-            {
-              title: 'Korozyon Direnci',
-              icon: '/icons/corrosion.png',
-              alt: 'Corrosion Resistant',
-              description:
-                'Bu borular, korozyona karşı yüksek direnç gösterir ve deniz suyu gibi aşındırıcı ortamlarda güvenle kullanılabilir.',
-            },
-            {
-              title: 'Esnek ve Hafif',
-              icon: '/icons/flexible.png',
-              alt: 'Flexible',
-              description:
-                'Hafif ve esnek yapısı sayesinde kolay taşıma ve kurulum imkanı sunar, işçilik maliyetlerini düşürür.',
+                'Deniz Deşarj Boruları, polietilenin yüksek kimyasal dayanımı sayesinde deniz tuzuna ve diğer kimyasallara karşı uzun süreli koruma sağlar.',
             },
             {
               title: 'Uzun Ömür',
-              icon: '/icons/long-lasting.png',
-              alt: 'Long-lasting',
+              icon: '/icons/long-lifetime.png',
+              alt: 'Long Lifetime',
               description:
-                'Dizayn Deniz Deşarj Boruları, en az 50 yıl hizmet ömrü sunar ve uzun süreli projelerde güvenle kullanılabilir.',
+                'Bu borular, minimum 50 yıl servis ömrü ile uzun süreli ve güvenilir kullanım sunar.',
             },
             {
-              title: 'Yüksek Yalıtım Performansı',
-              icon: '/icons/insulation.png',
-              alt: 'Insulation',
+              title: 'Hidrolik Pürüzsüzlük',
+              icon: '/icons/hydraulic-smooth.png',
+              alt: 'Hydraulic Smoothness',
               description:
-                'Mükemmel yalıtım özellikleri sayesinde ısı transferini minimize eder ve enerji verimliliğini artırır.',
+                'Hidrolik pürüzsüz yapısı sayesinde akışkanların daha yüksek debilerle taşınmasını sağlar ve proje maliyetlerini düşürür.',
             },
           ],
           images: [
             {
-              image:
-                '/productImages/altyapı/Deniz Desarj/Deniz Desarj BORU 2.png',
+              image: '/productImages/alt yapı boruları/Deniz Desarj/Deniz Desarj BORU 2.png',
               alt: 'Dizayn Deniz Deşarj Boru',
               description: 'Dizayn Deniz Deşarj Boru',
             },
             {
-              image:
-                '/productImages/altyapı/Deniz Desarj/Deniz Desarj BORU 3.png',
+              image: '/productImages/alt yapı boruları/Deniz Desarj/Deniz Desarj BORU 3.png',
               alt: 'Dizayn Deniz Deşarj Boru',
               description: 'Dizayn Deniz Deşarj Boru',
             },
             {
-              image:
-                '/productImages/altyapı/Deniz Desarj/Deniz Desarj BORU 4.png',
+              image: '/productImages/alt yapı boruları/Deniz Desarj/Deniz Desarj BORU 4.png',
               alt: 'Dizayn Deniz Deşarj Boru',
               description: 'Dizayn Deniz Deşarj Boru',
             },
           ],
+
           headers: [
             {
-              title: '<b>Dizayn Deniz Deşarj Boruları</b> ve Ek Parçaları',
+              title: '<b>Dizayn Deniz Deşarj Boruları</b> ve Avantajları',
               description:
-                'Dizayn Deniz Deşarj Boruları, deniz, göl ve nehirlerde atık suyun güvenli ve verimli bir şekilde tahliyesi için tasarlanmıştır. Korozyona karşı yüksek direnç ve uzun ömür sunar. Dizayn Deniz Deşarj Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/altyapı/Deniz Desarj/Deniz Desarj BORU 1.png',
+                'Dizayn Deniz Deşarj Boruları, denizlerde atık suyun çevreye zarar vermeden güvenli bir şekilde tahliyesi için kullanılan yüksek mukavemetli borulardır. Polietilen hammaddesinden üretilen bu borular, deniz tuzuna karşı dirençli olup, en az 50 yıl servis ömrü sunar. Hidrolik pürüzsüzlüğü sayesinde akışkanların daha yüksek debilerle taşınmasını sağlar ve tıkanma riskini azaltır.',
               alt: 'Dizayn Deniz Deşarj Boruları',
             },
             {
-              title: 'Dizayn Deniz Deşarj Boruları <b>Avantajları</b>',
+              title: 'Dizayn Deniz Deşarj Boruları <b>Üretim Özellikleri</b>',
               description:
-                'Dizayn Deniz Deşarj Boruları, yüksek dayanıklılık, korozyon direnci ve esnekliği ile öne çıkar. Bu özellikleri sayesinde deniz, göl ve nehirlerde uzun süreli ve güvenli çözümler sunar.',
+                'Deniz Deşarj Boruları, büyük silindirler üzerinde mandrel yöntemiyle üretilir. Ekstrüder makinesinde polietilen şeritler çekilerek mandrel üzerine sarılır ve boru formu verilir. Bu borular, alın kaynaklı, ekstrüder kaynaklı ve elektrofüzyon kaynaklı birleştirmeye uygun olarak farklı formlarda üretilir. Üretim sürecinde kullanılan ileri teknoloji ve kaliteli hammaddeler, boruların yüksek performans ve dayanıklılığını garanti eder.',
             },
             {
-              title:
-                'Dizayn Deniz Deşarj Boruları <b>Nerelerde Kullanılır?</b>',
+              title: 'Dizayn Deniz Deşarj Boruları <b>Kimyasal Dayanıklılık</b>',
               description:
-                'Dizayn Deniz Deşarj Boruları, deniz, göl ve nehirlerde atık suyun tahliyesi için kullanılır. Bu borular, deniz geçişleri ve su altı projelerinde güvenle kullanılabilir.',
+                'Deniz Deşarj Boruları, polietilen hammaddesi sayesinde deniz tuzuna ve çeşitli kimyasallara karşı yüksek dayanıklılık gösterir. Bu özellik, boruların uzun ömürlü olmasını ve çevre şartlarına karşı dirençli kalmasını sağlar. Kimyasal dayanıklılığı sayesinde borular, deniz suyu, tuzlu su ve diğer agresif maddelerle temas ettiğinde bile performansını korur.',
             },
             {
-              title: 'Dizayn Deniz Deşarj Boruları <b>Ağırlık Tablosu</b>',
+              title: 'Dizayn Deniz Deşarj Boruları <b>Uzun Ömür ve Dayanıklılık</b>',
               description:
-                'Dizayn Deniz Deşarj Borularının ağırlık hesaplaması, içi boş silindir hacmi ve borunun yoğunluğu çarpılarak yapılır. Bu boruların ağırlık tablosu hazırlanırken tolerans değerleri dikkate alınmalıdır.',
+                'Deniz Deşarj Boruları, minimum 50 yıl servis ömrü sunar. Polietilenin doğal dayanıklılığı ve kimyasal direnci, boruların uzun süre boyunca güvenilir bir şekilde hizmet vermesini sağlar. Bu uzun ömür, boruların bakım ve değiştirme maliyetlerini azaltarak ekonomik avantaj sağlar.',
             },
             {
-              title: 'Dizayn Deniz Deşarj Boruları Teknik <b>Özellikleri</b>',
+              title: 'Dizayn Deniz Deşarj Boruları <b>Hidrolik Pürüzsüzlük</b>',
               description:
-                'Dizayn Deniz Deşarj Boruları, polietilen malzemeden üretilir ve yüksek korozyon direnci sunar. Bu borular, çeşitli çap ve uzunluklarda üretilebilir ve su altı projeleri için idealdir. Yüksek esneklikleri sayesinde deniz geçişlerinde ve zorlu çevre koşullarında güvenle kullanılabilir.',
+                'Deniz Deşarj Boruları, hidrolik pürüzsüz yapısı sayesinde akışkanların daha yüksek debilerle taşınmasını sağlar. Bu özellik, boru iç yüzeyinde minimum sürtünme ve enerji kaybı oluşturarak akışkanların daha verimli bir şekilde taşınmasını mümkün kılar. Hidrolik pürüzsüzlük, boruların tıkanma riskini azaltır ve uzun süreli verimli kullanım sunar.',
             },
             {
-              title: 'Dizayn Deniz Deşarj <b>Ek Parçaları</b>',
+              title: 'Dizayn Deniz Deşarj Boruları <b>Kolay Uygulama ve Döşeme</b>',
               description:
-                'Dizayn Deniz Deşarj ek parçaları üstün kalitede üretilip tek tek kontrol edilerek sevk edilmektedir. Uygulama kolaylığı ve ergonomik tasarıma sahip ek parçalarımız, yüksek kalite ve uygun fiyat ekseninde siz değerli müşterilerimizin hizmetindedir. Deniz deşarj ek parçaları, deniz ve göl projelerinde güvenle kullanılabilir.\n\n- Deniz Deşarj Ek Parçaları\n- Deniz Deşarj Eşit Te\n- Deniz Deşarj Redüksiyon\n- Deniz Deşarj Semer\n- Deniz Deşarj Dirsekler\n- Deniz Deşarj İnegal Te\n- Deniz Deşarj Manşon\n- Deniz Deşarj Körtapa\n- Deniz Deşarj Flanş Adaptörü\nBu ek parçaları, deniz deşarj boru sistemlerinizin güvenli ve dayanıklı bir şekilde birleştirilmesini sağlar.',
+                'Deniz Deşarj Boruları, hafif yapısı ve esnekliği sayesinde kolayca döşenebilir. Borular, deniz altına yerleştirilirken düşük yoğunluğu sayesinde su üzerinde yüzebilir ve kolayca yönlendirilebilir. Beton ağırlıklar kullanılarak deniz dibine sabitlenir. Bu sayede, boruların döşeme işlemi hızlı ve etkili bir şekilde gerçekleştirilebilir.',
             },
             {
-              title:
-                'Dizayn Deniz Deşarj Boruları <b>Birleştirme Yöntemleri</b>',
+              title: 'Dizayn Deniz Deşarj Boruları <b>Çevresel Koruma ve Sürdürülebilirlik</b>',
               description:
-                'Dizayn Deniz Deşarj Boruları ve ek parçaları, eritme veya mekanik ek parçalar ile bağlanır. Polietilen dışında diğer malzemelerden yapılan borulara dıştan sıkmalı ek parçalar, flanşlar veya amaca uygun yapılmış diğer geçiş adaptörleri ile bağlanabilir. Bağlantı ek parçaları kullanılacak yerlere göre kolaylık sağlamaktadır.\n\n<b>Birleştirme Yöntemleri</b>\n- Elektrofüzyon (EF) Kaynağı: Elektrik enerjisi ile boru ve ek parça uçları eritilerek birleştirilir.\n- Alın Kaynağı: Boru uçlarının yüksek sıcaklıkta eritilerek birleştirilmesi.\n- Kaplin ile Birleştirme: Mekanik kaplin kullanılarak boru uçlarının birleştirilmesi.',
+                'Deniz Deşarj Boruları, çevre dostu bir çözüm sunar. Ön arıtma uygulanmış kanalizasyon sularını deniz akıntısına taşıyarak suyun doğal olarak temizlenmesini sağlar. Bu yöntem, deniz ekosistemine zarar vermeden atık suyun güvenli bir şekilde bertaraf edilmesini mümkün kılar. Ayrıca, boruların uzun ömürlü ve dayanıklı yapısı, çevresel ayak izini azaltır.',
             },
             {
-              title:
-                'Dizayn Deniz Deşarj Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
+              title: 'Dizayn Deniz Deşarj Boruları <b>Deprem ve Yer Hareketlerine Dayanıklılık</b>',
               description:
-                'Elektrofüzyon Kaynak yönteminde, kaynak işlemi füzyon ek parçanın iç kısmındaki ısıtma rezistansları ile gerçekleştirilir. Deniz Deşarj Boruları, elektrofüzyon ek parçalarının içine yerleştirilir ve kaynak makinesinin uçları ek parçanın üzerindeki soketlere bağlanarak elektrik akımı ile ısıtılır. Bu yöntemle, Deniz Deşarj boruları güvenli ve sağlam bir şekilde birleştirilmiş olur. Elektrofüzyon Kaynak metodu ile 20 mm çaptan 1600 mm çapa kadar olan Deniz Deşarj borular kaynatılabilir.',
-            },
-            {
-              title: 'Dizayn Deniz Deşarj Kaynak Yöntemi: <b>Alın Kaynak</b>',
-              description:
-                'Alın Kaynak, Deniz Deşarj boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. Alın Kaynak makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, Deniz Deşarj boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 1600 mm çapa kadar olan Deniz Deşarj borular kaynatılabilir.',
-            },
-            {
-              title: 'Dizayn Deniz Deşarj Boruları <b>Fiyat Listesi</b>',
-              description:
-                'Dizayn Deniz Deşarj boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Deniz Deşarj borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Deniz Deşarj boru avantajlarından yararlanmak ve 2024 Deniz Deşarj Boru Fiyat Listesine ulaşmak için bizimle iletişime geçiniz. Deniz Deşarj borularımız hakkında detaylı bilgi almak için 0212 886 57 41 numaralı hattımızı arayabilirsiniz.',
+                'Deniz Deşarj Boruları, polietilenin esnek yapısı sayesinde deprem ve yer hareketlerine karşı yüksek dayanıklılık gösterir. Borular, yer hareketleri sırasında esneyerek kırılma ve hasar riskini minimize eder. Bu özellik, boruların uzun süre boyunca güvenli ve kesintisiz bir şekilde hizmet vermesini sağlar.',
             },
           ],
           faqs: [
             {
-              question:
-                'Dizayn Deniz Deşarj Boruları kaç santigrat derece sıcaklıktaki akışkanlara kadar kullanılabilir?',
-              answer:
-                'Dizayn Deniz Deşarj Boruları, yüksek sıcaklık dayanımı sunar ve deniz suyunda güvenle kullanılabilir.',
+              question: 'Deniz Deşarj Borularının hammaddesi nedir?',
+              answer: 'Deniz Deşarj Boruları, polietilen (PE) hammaddesinden üretilmektedir.',
             },
             {
-              question:
-                'Dizayn Deniz Deşarj Boruları korozyona dayanıklı mıdır?',
-              answer:
-                'Evet, Dizayn Deniz Deşarj Boruları, korozyona karşı yüksek direnç gösterir ve deniz suyu gibi aşındırıcı ortamlarda güvenle kullanılabilir.',
+              question: 'Deniz Deşarj Boruları ne kadar servis ömrü sunar?',
+              answer: 'Deniz Deşarj Boruları, 0,5 bar basınç altında minimum 50 yıl servis ömrü sunar.',
             },
             {
-              question:
-                'Dizayn Deniz Deşarj Boruları hangi alanlarda kullanılır?',
+              question: 'Deniz Deşarj Borularının kimyasal dayanıklılığı nasıldır?',
               answer:
-                'Dizayn Deniz Deşarj Boruları, deniz, göl ve nehirlerde atık suyun tahliyesi için kullanılır. Su altı projeleri ve deniz geçişleri için idealdir.',
+                'Deniz Deşarj Boruları, polietilenin yüksek kimyasal dayanımı sayesinde deniz tuzuna ve diğer kimyasallara karşı dirençlidir.',
             },
             {
-              question: 'Dizayn Deniz Deşarj Boruları esnek midir?',
+              question: 'Deniz Deşarj Boruları nasıl döşenir?',
               answer:
-                'Evet, Dizayn Deniz Deşarj Boruları esnek yapısı sayesinde zorlu çevre koşullarına ve yer hareketlerine karşı dayanıklıdır.',
+                'Deniz Deşarj Boruları, deniz altına döşenirken düşük yoğunluğu sayesinde su üzerinde yüzebilir. Beton ağırlıklar kullanılarak deniz dibine sabitlenir ve flanşlar ile birleştirilir.',
             },
             {
-              question: 'Dizayn Deniz Deşarj Boruları nasıl birleştirilir?',
+              question: 'Deniz Deşarj Boruları deprem ve yer hareketlerine dayanıklı mıdır?',
               answer:
-                'Dizayn Deniz Deşarj Boruları elektrofüzyon, alın kaynağı ve mekanik kaplinler ile birleştirilir.',
-            },
-            {
-              question: 'Dizayn Deniz Deşarj Boruları ne kadar dayanıklıdır?',
-              answer:
-                'Dizayn Deniz Deşarj Boruları, en az 50 yıl hizmet ömrü sunar ve uzun süreli projelerde güvenle kullanılabilir.',
-            },
-            {
-              question: 'Dizayn Deniz Deşarj Boruları hafif midir?',
-              answer:
-                'Evet, Dizayn Deniz Deşarj Boruları hafif yapısı sayesinde kolay taşıma ve kurulum imkanı sunar.',
-            },
-            {
-              question:
-                'Dizayn Deniz Deşarj Boruları aşınmaya dayanıklı mıdır?',
-              answer:
-                'Evet, Dizayn Deniz Deşarj Boruları yüksek aşınma dayanımı sunar ve uzun ömürlüdür.',
-            },
-            {
-              question:
-                'Dizayn Deniz Deşarj Boruları için kompansatör kullanılır mı?',
-              answer:
-                'Dizayn Deniz Deşarj Boruları esnek yapısı sayesinde genellikle kompansatör kullanımı gerektirmez.',
-            },
-            {
-              question:
-                'Dizayn Deniz Deşarj Boruları uluslararası standartlara uygun mudur?',
-              answer:
-                'Evet, Dizayn Deniz Deşarj Boruları uluslararası standartlara uygun olarak üretilmektedir ve sertifikalara sahiptir.',
+                'Evet, Deniz Deşarj Boruları polietilenin esnek yapısı sayesinde deprem ve yer hareketlerine karşı yüksek dayanıklılık gösterir.',
             },
           ],
           fittings: [
             {
               title: 'Deniz Deşarj Eşit Te',
-              image:
-                '/productImages/altyapı/Deniz Desarj/Deniz Desarj BORU 2.png',
+              image: '/productImages/alt yapı boruları/Deniz Desarj/Deniz Desarj BORU 2.png',
               alt: 'Deniz Deşarj Eşit Te',
               category: 'Fittings',
             },
             {
               title: 'Deniz Deşarj Redüksiyon',
-              image:
-                '/productImages/altyapı/Deniz Desarj/Deniz Desarj BORU 3.png',
+              image: '/productImages/alt yapı boruları/Deniz Desarj/Deniz Desarj BORU 3.png',
               alt: 'Deniz Deşarj Redüksiyon',
               category: 'Fittings',
             },
             {
               title: 'Deniz Deşarj Semer',
-              image:
-                '/productImages/altyapı/Deniz Desarj/Deniz Desarj BORU 4.png',
+              image: '/productImages/alt yapı boruları/Deniz Desarj/Deniz Desarj BORU 4.png',
               alt: 'Deniz Deşarj Semer',
               category: 'Fittings',
             },
             {
               title: 'Deniz Deşarj Dirsekler',
-              image:
-                '/productImages/altyapı/Deniz Desarj/Deniz Desarj BORU 2.png',
+              image: '/productImages/alt yapı boruları/Deniz Desarj/Deniz Desarj BORU 2.png',
               alt: 'Deniz Deşarj Dirsekler',
               category: 'Fittings',
             },
             {
               title: 'Deniz Deşarj İnegal Te',
-              image:
-                '/productImages/altyapı/Deniz Desarj/Deniz Desarj BORU 3.png',
+              image: '/productImages/alt yapı boruları/Deniz Desarj/Deniz Desarj BORU 3.png',
               alt: 'Deniz Deşarj İnegal Te',
-              category: 'Fittings',
-            },
-            {
-              title: 'Deniz Deşarj Manşon',
-              image:
-                '/productImages/altyapı/Deniz Desarj/Deniz Desarj BORU 4.png',
-              alt: 'Deniz Deşarj Manşon',
-              category: 'Fittings',
-            },
-            {
-              title: 'Deniz Deşarj Körtapa',
-              image:
-                '/productImages/altyapı/Deniz Desarj/Deniz Desarj BORU 2.png',
-              alt: 'Deniz Deşarj Körtapa',
-              category: 'Fittings',
-            },
-            {
-              title: 'Deniz Deşarj Flanş Adaptörü',
-              image:
-                '/productImages/altyapı/Deniz Desarj/Deniz Desarj BORU 3.png',
-              alt: 'Deniz Deşarj Flanş Adaptörü',
               category: 'Fittings',
             },
           ],
@@ -3566,15 +3292,12 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         featuredProduct: false,
         logo: '/productImages/alt yapı boruları/kimyasal-tanklar/logo.png',
         banner: {
-          vertical:
-            '/productImages/alt yapı boruları/kimyasal-tanklar/banner/vertical.jpg',
-          horizontal:
-            '/productImages/alt yapı boruları/kimyasal-tanklar/banner/horizontal.png',
+          vertical: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/vertical.jpg',
+          horizontal: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/horizontal.png',
           PLP: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/PLP.png',
           bgImage: '',
         },
-        image:
-          '/productImages/alt yapı boruları/kimyasal-tanklar/kimyasal-tanklar.png',
+        image: '/productImages/alt yapı boruları/kimyasal-tanklar/kimyasal-tanklar.png',
         link: '/urunler/altyapi-boru-sistemleri/kimyasal-tanklar',
         highlights: [
           {
@@ -3627,8 +3350,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/alt yapı boruları/kimyasal-tanklar/tank.png',
+              image: '/productImages/alt yapı boruları/kimyasal-tanklar/tank.png',
               alt: 'Dizayn Kimyasal Tank',
               description: 'Dizayn Kimyasal Tank',
             },
@@ -3681,14 +3403,12 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Dizayn Kimyasal Tanklar ve ek parçaları, eritme veya mekanik ek parçalar ile bağlanır. Polietilen dışında diğer malzemelerden yapılan tanklara dıştan sıkmalı ek parçalar, flanşlar veya amaca uygun yapılmış diğer geçiş adaptörleri ile bağlanabilir. Bağlantı ek parçaları kullanılacak yerlere göre kolaylık sağlamaktadır.\n\n<b>Birleştirme Yöntemleri</b>\n- Elektrofüzyon (EF) Kaynağı: Elektrik enerjisi ile tank ve ek parça uçları eritilerek birleştirilir.\n- Alın Kaynağı: Tank uçlarının yüksek sıcaklıkta eritilerek birleştirilmesi.\n- Kaplin ile Birleştirme: Mekanik kaplin kullanılarak tank uçlarının birleştirilmesi.',
             },
             {
-              title:
-                'Dizayn Kimyasal Tanklar Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
+              title: 'Dizayn Kimyasal Tanklar Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
               description:
                 'Elektrofüzyon Kaynak yönteminde, kaynak işlemi füzyon ek parçanın iç kısmındaki ısıtma rezistansları ile gerçekleştirilir. Kimyasal Tanklar, elektrofüzyon ek parçalarının içine yerleştirilir ve kaynak makinesinin uçları ek parçanın üzerindeki soketlere bağlanarak elektrik akımı ile ısıtılır. Bu yöntemle, Kimyasal Tanklar güvenli ve sağlam bir şekilde birleştirilmiş olur. Elektrofüzyon Kaynak metodu ile 20 mm çaptan 3600 mm çapa kadar olan Kimyasal Tanklar kaynatılabilir.',
             },
             {
-              title:
-                'Dizayn Kimyasal Tanklar Kaynak Yöntemi: <b>Alın Kaynak</b>',
+              title: 'Dizayn Kimyasal Tanklar Kaynak Yöntemi: <b>Alın Kaynak</b>',
               description:
                 "Alın Kaynak, Kimyasal Tanklar ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. Alın Kaynak makinesi kullanılarak, kaynatılacak olan tankların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, Kimyasal Tanklar'ın güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 3600 mm çapa kadar olan Kimyasal Tanklar kaynatılabilir.",
             },
@@ -3700,8 +3420,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           faqs: [
             {
-              question:
-                'Dizayn Kimyasal Tanklar hangi sıcaklıktaki akışkanlara kadar kullanılabilir?',
+              question: 'Dizayn Kimyasal Tanklar hangi sıcaklıktaki akışkanlara kadar kullanılabilir?',
               answer:
                 'Dizayn Kimyasal Tanklar, kimyasalın türüne ve kullanım koşullarına bağlı olarak yüksek sıcaklıklarda kullanılabilir.',
             },
@@ -3711,8 +3430,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Evet, Dizayn Kimyasal Tanklar, polietilen malzemesi sayesinde korozyona karşı yüksek direnç gösterir.',
             },
             {
-              question:
-                'Dizayn Kimyasal Tanklar hangi kimyasalları depolamak için uygundur?',
+              question: 'Dizayn Kimyasal Tanklar hangi kimyasalları depolamak için uygundur?',
               answer:
                 'Dizayn Kimyasal Tanklar, asit, baz ve tuz gibi korozif maddeleri güvenle depolamak için uygundur. Kimyasal dayanım tablosu, kullanılabilirlik derecelerini göstermektedir.',
             },
@@ -3742,14 +3460,12 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Evet, Dizayn Kimyasal Tanklar çevreci özelliklere sahiptir ve geri dönüştürülebilir.',
             },
             {
-              question:
-                'Dizayn Kimyasal Tanklar için kompansatör kullanılır mı?',
+              question: 'Dizayn Kimyasal Tanklar için kompansatör kullanılır mı?',
               answer:
                 'Dizayn Kimyasal Tanklar esnek yapısı sayesinde genellikle kompansatör kullanımı gerektirmez.',
             },
             {
-              question:
-                'Dizayn Kimyasal Tanklar uluslararası standartlara uygun mudur?',
+              question: 'Dizayn Kimyasal Tanklar uluslararası standartlara uygun mudur?',
               answer:
                 'Evet, Dizayn Kimyasal Tanklar uluslararası standartlara uygun olarak üretilmektedir ve sertifikalara sahiptir.',
             },
@@ -3817,8 +3533,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         description:
           'ELITEPIPE, dayanıklı, esnek, kolay taşınan ve maliyet tasarrufu sağlayan yenilikçi bir boru sistemidir.',
         featuredProduct: true,
-        image:
-          '/productImages/üst yapı borular/ELİTE PİPE COMPOZİT BORU GRUP.png',
+        image: '/productImages/üst yapı borular/ELİTE PİPE COMPOZİT BORU GRUP.png',
         link: '/urunler/bina-ici-boru-sistemleri/elitepipe',
         highlights: [
           { title: 'Darbeye Dayanıklı', icon: '/icons/durable.png' },
@@ -3869,20 +3584,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -3892,8 +3604,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -3980,8 +3691,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -4006,8 +3716,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -4097,20 +3806,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -4120,8 +3826,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -4208,8 +3913,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -4234,8 +3938,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -4267,8 +3970,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         description:
           'SoftPower Boru, dayanıklı, esnek, kolay taşınan ve maliyet tasarrufu sağlayan yenilikçi bir boru sistemidir.',
         featuredProduct: false,
-        image:
-          '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+        image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
         link: '/urunler/bina-ici-boru-sistemleri/softpower-boru',
         highlights: [
           { title: 'Darbeye Dayanıklı', icon: '/icons/durable.png' },
@@ -4326,20 +4028,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -4349,8 +4048,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -4437,8 +4135,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -4463,8 +4160,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -4554,20 +4250,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -4577,8 +4270,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -4665,8 +4357,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -4691,8 +4382,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -4782,20 +4472,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -4805,8 +4492,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -4893,8 +4579,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -4919,8 +4604,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -5010,20 +4694,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -5033,8 +4714,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -5121,8 +4801,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -5147,8 +4826,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -5233,20 +4911,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -5256,8 +4931,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -5344,8 +5018,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -5370,8 +5043,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -5454,20 +5126,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -5477,8 +5146,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -5565,8 +5233,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -5591,8 +5258,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -5673,20 +5339,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -5696,8 +5359,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -5784,8 +5446,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -5810,8 +5471,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -5893,20 +5553,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -5916,8 +5573,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -6004,8 +5660,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -6030,8 +5685,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -6059,7 +5713,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
       },
 
       {
-        title: 'Dizayn Korige',
+        title: 'Dizayn Koruge',
         description:
           'RTP Boru, dayanıklı, esnek, kolay taşınan ve maliyet tasarrufu sağlayan yenilikçi bir boru sistemidir.',
         image: '/productImages/üst yapı borular/SterilePipe/Untitled 3 v15.png',
@@ -6070,7 +5724,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           { title: 'Maliyet Tasarrufu', icon: '/icons/save-time.png' },
         ],
         productDetails: {
-          title: 'Dizayn Korige Boru ve Ek Parçaları',
+          title: 'Dizayn Koruge Boru ve Ek Parçaları',
           description:
             'ELITEPIPE, dayanıklı, esnek, kolay taşınan ve maliyet tasarrufu sağlayan yenilikçi bir boru sistemidir.',
           features: [
@@ -6112,20 +5766,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -6135,8 +5786,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -6223,8 +5873,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -6249,8 +5898,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -6278,7 +5926,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
       },
 
       {
-        title: 'Dizayn Korige Sarmal Borular',
+        title: 'Dizayn Koruge Sarmal Borular',
         description:
           'RTP Boru, dayanıklı, esnek, kolay taşınan ve maliyet tasarrufu sağlayan yenilikçi bir boru sistemidir.',
         image: '/productImages/üst yapı borular/SterilePipe/Untitled 3 v15.png',
@@ -6290,7 +5938,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
         ],
 
         productDetails: {
-          title: 'Dizayn Korige Boru ve Ek Parçaları',
+          title: 'Dizayn Koruge Boru ve Ek Parçaları',
           description:
             'ELITEPIPE, dayanıklı, esnek, kolay taşınan ve maliyet tasarrufu sağlayan yenilikçi bir boru sistemidir.',
           features: [
@@ -6332,20 +5980,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -6355,8 +6000,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -6443,8 +6087,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -6469,8 +6112,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -6552,20 +6194,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -6575,8 +6214,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -6663,8 +6301,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -6689,8 +6326,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -6772,20 +6408,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -6795,8 +6428,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -6883,8 +6515,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -6909,8 +6540,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -6992,20 +6622,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -7015,8 +6642,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -7103,8 +6729,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -7129,8 +6754,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
@@ -7212,20 +6836,17 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           images: [
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
             {
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
               alt: 'SoftPower Boru',
               description: 'SoftPower Boru',
             },
@@ -7235,8 +6856,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b> 0212 886 57 41 </b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
               alt: 'SoftPower Boru',
             },
             {
@@ -7323,8 +6943,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, su şebekeleri, tarımsal sulama sistemleri, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question:
-                'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
                 "Soft Power boruları, 20 mm'den 1600 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
@@ -7349,8 +6968,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
                 'Soft Power boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question:
-                'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
                 'Soft Power boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },

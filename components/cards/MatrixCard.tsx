@@ -37,7 +37,7 @@ const MatrixCard = ({
             alt={title}
             width={1920}
             height={720}
-            className=" size-full rounded-xl object-cover"
+            className=" size-full rounded-xl object-contain"
           />
         }
         {/* logo ? (

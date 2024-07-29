@@ -16,7 +16,7 @@ const VizyonVeMisyon = () => {
     <div>
       <Header text="Vizyonumuz ve Misyonumuz" />
 
-      <div className="flex w-full items-start justify-center max-md:flex-col">
+      <div className="flex w-full items-start justify-center py-3 max-md:flex-col ">
         <div className="flex w-1/2 flex-col items-center justify-start max-md:w-full">
           <div className="m-1 flex flex-row flex-wrap gap-3 p-3">
             {kurumsalLinks[language]
@@ -62,12 +62,13 @@ const VizyonVeMisyon = () => {
           <p className="font-semibold">Yeni Ürün Geliştirme Stratejilerimiz</p>
 
           <div>
-            - Herkesin ürettiği ya da üretebileceği ürünlerden uzak durmak. 
-            - Kalite ve fiyat açısından rekabet edilebilir ürünler üretmek. 
-            - Rakiplerin şimdiye kadar düşünemediği değer oluşturan farklılıkları, düşünebilmek. 
-            - Olabildiğince ürünlere odaklanmak. - Üzerinde çalıştığımız her konuda bir tamlık duygusuna ulaşmayı başarmak. 
-            - Asla ulusal ve uluslararası bir rakibin ürününü taklit etmemek. 
-            - Geliştirilen tüm ürünlerde ayrıcalıklar oluşturmak ve oluşan ayrıcalıkları, patentlerle kanuni koruma altına almayı başarmak.
+            - Herkesin ürettiği ya da üretebileceği ürünlerden uzak durmak. - Kalite ve fiyat
+            açısından rekabet edilebilir ürünler üretmek. - Rakiplerin şimdiye kadar düşünemediği
+            değer oluşturan farklılıkları, düşünebilmek. - Olabildiğince ürünlere odaklanmak. -
+            Üzerinde çalıştığımız her konuda bir tamlık duygusuna ulaşmayı başarmak. - Asla ulusal
+            ve uluslararası bir rakibin ürününü taklit etmemek. - Geliştirilen tüm ürünlerde
+            ayrıcalıklar oluşturmak ve oluşan ayrıcalıkları, patentlerle kanuni koruma altına almayı
+            başarmak.
           </div>
         </div>
       </div>

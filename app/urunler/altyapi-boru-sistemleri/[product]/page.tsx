@@ -48,7 +48,7 @@ const Page = ({ params }: { params: { product: string } }) => {
       </div>
       <div />
 
-      <div className="flex h-full flex-row items-center justify-center gap-5">
+      <div className="flex h-full flex-row items-center justify-center gap-5 py-2 max-sm:flex-col max-sm:px-12">
         <Image
           src={productDetail.images[0].image}
           alt={productDetail.images[0].alt}

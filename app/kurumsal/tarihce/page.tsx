@@ -15,7 +15,7 @@ const Tarihce = () => {
     <div>
       <Header text="Tarihçe" />
 
-      <div className="flex w-full items-start justify-center max-md:flex-col">
+      <div className="flex w-full items-start justify-center py-3 max-md:flex-col ">
         <div className="flex w-1/2 flex-col items-center justify-start max-md:w-full">
           <div className="m-1 flex flex-row flex-wrap gap-3 p-3">
             {kurumsalLinks[language]

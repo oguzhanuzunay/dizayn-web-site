@@ -75,7 +75,7 @@ const heroSlider: HeroSliderParams = {
       desktopImage: '/sliderImages/desktop/elastica.jpg',
       mobileImage: '/sliderImages/mobile/elastica.jpg',
       alt: 'ElitePipe Hero Image',
-      link: '/urunler/bina-ici-boru-sistemleri/elastica',
+      link: '/urunler/bina-ici-boru-sistemleri/elastica-boru',
     },
     {
       desktopImage: '/sliderImages/desktop/projelerimiz.jpg',
@@ -86,14 +86,14 @@ const heroSlider: HeroSliderParams = {
     {
       desktopImage: '/sliderImages/desktop/nanotek-premium.jpg',
       mobileImage: '/sliderImages/mobile/nanotek-premium.jpg',
-      alt: 'SterilePipe',
-      link: '/urunler/bina-ici-boru-sistemleri/nanotek-premium',
+      alt: 'nanotek',
+      link: '/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium',
     },
     {
       desktopImage: '/sliderImages/desktop/koruge.jpg',
       mobileImage: '/sliderImages/mobile/koruge.jpg',
       alt: 'Koruge',
-      link: '/urunler/altyapi-boru-sistemleri/koruge',
+      link: '/urunler/altyapi-boru-sistemleri/koruge-boru',
     },
   ],
 };
@@ -109,7 +109,6 @@ const Carousel = () => {
   }, [isMobile]);
 
   const [language] = useLanguageContext();
-
 
   return (
     <div className="top-0 flex w-full items-center justify-center">

@@ -1,10 +1,18 @@
 import { productDetailParams } from '@/types';
 import Image from 'next/image';
 
-const ProductDetailCard = ({ title, productDetail, image, alt, index,textColor }: productDetailParams) => {
+const ProductDetailCard = ({
+  title,
+  productDetail,
+  image,
+  alt,
+  index,
+  textColor,
+}: productDetailParams) => {
   return (
     <div
       className={`m-6 flex flex-row items-center justify-start gap-5
+        max-sm:flex-col
         ${index && index % 2 === 0 ? '' : 'flex-row-reverse'}`}
     >
       {image && alt ? (
