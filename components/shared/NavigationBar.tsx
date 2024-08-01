@@ -26,7 +26,6 @@ import React, { useState } from 'react';
 const NavigationBar = () => {
   const pathname = usePathname();
   const [language] = useLanguageContext();
-
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const icons = {
     chevron: (
@@ -35,9 +34,9 @@ const NavigationBar = () => {
         size={16}
         height={16}
         width={16}
-      />
-    ),
-  };
+        />
+      ),
+    };
 
   const listMenu = (firstIndex: number, lastIndex: number): React.ReactNode =>
     languageTexts[language].menuList.slice(firstIndex, lastIndex).map((page: any) => {

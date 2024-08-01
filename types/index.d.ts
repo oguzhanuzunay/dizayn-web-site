@@ -124,7 +124,6 @@ interface CityData {
   plateNumber: number;
 }
 
-
 export type citiesDataParams = CityData[];
 
 export interface certificateListParams extends Array<certificateListParam> {}
@@ -144,6 +143,7 @@ export interface countryCertificateParams {
     }[];
   }[];
 }
+
 export interface contactInfoParams {
   id: number;
   position: {

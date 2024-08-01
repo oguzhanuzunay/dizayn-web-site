@@ -8,7 +8,9 @@ import {
 } from '@/types';
 import { languageParams } from '@/types/languageParams';
 
+
 import { productList } from './productList';
+
 
 const languageTexts: languageParams = {
   en: {
@@ -69,7 +71,6 @@ const languageTexts: languageParams = {
         buttonText: 'Send',
       },
     },
-
     footer: {
       imageContent: [
         {
@@ -551,7 +552,6 @@ const sliderItems: sliderParams = {
         'Nano Tech, gelişmiş teknolojisi ile yüksek performans ve dayanıklılık sunan yenilikçi bir boru sistemidir.',
       link: 'urunler/bina-ici-boru-sistemleri/nano-tech',
     },
-
     {
       title: 'Triplex Atık Su Boruları',
       image: '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',

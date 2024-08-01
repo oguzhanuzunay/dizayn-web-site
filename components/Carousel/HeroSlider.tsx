@@ -21,6 +21,7 @@ interface HeroSliderParams {
     link?: string;
   }[];
 }
+
 const heroSlider: HeroSliderParams = {
   en: [
     {
