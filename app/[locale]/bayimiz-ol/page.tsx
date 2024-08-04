@@ -32,6 +32,7 @@ import {
 } from '@/components/ui/command';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { citiesData } from '@/database/allCities';
+import { useTranslations } from 'next-intl';
 
 const BayimizOl = () => {
   const [language] = useLanguageContext();
@@ -61,6 +62,8 @@ const BayimizOl = () => {
     // ✅ This will be type-safe and validated.
     console.log(values);
   }
+
+
 
   return (
     <div>

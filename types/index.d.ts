@@ -128,22 +128,6 @@ export type citiesDataParams = CityData[];
 
 export interface certificateListParams extends Array<certificateListParam> {}
 
-export interface countryCertificateParams {
-  [key: string]: {
-    name: string;
-    code: string;
-    title: string;
-    certificates: {
-      product: string;
-      allPDFs: {
-        name: string;
-        image: string;
-        link: string;
-      }[];
-    }[];
-  }[];
-}
-
 export interface contactInfoParams {
   id: number;
   position: {

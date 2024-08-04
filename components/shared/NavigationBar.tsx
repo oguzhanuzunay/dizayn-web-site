@@ -20,6 +20,7 @@ import {
   NavbarMenuItem,
   NavbarMenuToggle,
 } from '@nextui-org/react';
+import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
 import React, { useState } from 'react';
 
@@ -27,6 +28,8 @@ const NavigationBar = () => {
   const pathname = usePathname();
   const [language] = useLanguageContext();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const t = useTranslations('NavigationBar');
+  const locale = useLocale();
   const icons = {
     chevron: (
       <ChevronDown
@@ -34,17 +37,43 @@ const NavigationBar = () => {
         size={16}
         height={16}
         width={16}
-        />
-      ),
-    };
+      />
+    ),
+  };
+
+  const menuList = [
+    {
+      name: t('menuList.products.name'),
+      submenu: [
+        {
+          name: t('menuList.products.subMenu.indoor.name'),
+          description: t('menuList.products.subMenu.indoor.description'),
+          icons: '/icons/water-pipe.png',
+        },
+        {
+          name: t('menuList.indoor.name'),
+          description: t('menuList.indoor.description'),
+          icons: '/icons/pipe.png',
+          link: '/urunler/altyapi-boru-sistemleri',
+        },
+      ],
+    },
+    { name: t('menuList.dealers') },
+    { name: t('menuList.calculations') },
+    { name: t('menuList.institutional') },
+    { name: t('menuList.ourProject') },
+    { name: t('menuList.certificates') },
+    { name: t('menuList.contact') },
+    { name: t('menuList.arge') },
+  ];
 
   const listMenu = (firstIndex: number, lastIndex: number): React.ReactNode =>
-    languageTexts[language].menuList.slice(firstIndex, lastIndex).map((page: any) => {
+    menuList.slice(firstIndex, lastIndex).map((page: any) => {
       if (!page.submenu) {
         return (
           <NavbarItem key={page}>
             <Link
-              href={`/${page.name.toLowerCase()}`}
+              href={`/${locale}/${page.name.toLowerCase()}`}
               className="font-spaceGrotesk text-medium text-gray-900 transition-all duration-300 ease-in-out hover:text-accent-blue"
             >
               {page.name}

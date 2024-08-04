@@ -1,5 +1,107 @@
 {
   "HomePage": {
     "title": "Hello world!"
+  },
+  "Bayilerimiz": {
+    "header": "Our Dealers"
+  },
+  "NavigationBar": {
+    "menuList": {
+      "products": {
+        "name": "Our Products",
+        "subMenu": {
+          "indoor": {
+            "name": "Indoor Piping Systems",
+            "description": "Superstructure Systems"
+          }
+        }
+      },
+      "indoor": {
+        "name": "Infrastructure Piping Systems",
+        "description": "Infrastructure"
+      },
+      "dealers": "Our Dealers",
+      "calculations": "Calculations",
+      "institutional": "Institutional",
+      "ourProject": "Our Projects",
+      "certificates": "Certificates",
+      "contact": "Contact",
+      "arge": "R&D"
+    }
+  },
+  "Certificates": {
+    "germany": {
+      "name": "Germany",
+      "title": "Germany Certificates"
+    },
+    "turkey": {
+      "name": "Türkiye",
+      "title": "Türkiye TSE Certificates and Test Reports",
+      "elitePipe": {
+        "0": {
+          "name": "PEX PIPE TSE HYGIENE TEST REPORT"
+        },
+        "certificate-1": "PEX PIPE TSE HYGIENE TEST REPORT",
+        "certificate-2": "TS 10762-2 PEX-B EN ISO 15875-2 PEX-A PIPE TSE CERTIFICATE",
+        "certificate-3": "TS 10762-2 PEX-B EN ISO 15875-2 PEX-A PIPE TSE CERTIFICATE (ENG)"
+      },
+      "ima": {
+        "title": "IMA Test Reports",
+        "certificate-1": "IMA Test Report V241-20-1 HDPE100 PIPE",
+        "certificate-2": "IMA Test Report V241-20-2 PE80 DIGITAL GAS PIPE",
+        "certificate-3": "IMA Test Report V241-20-3 PPR PIPE",
+        "certificate-4": "IMA Test Report V241-20-4 PPR FITTINGS"
+      },
+      "watewater-pipe": {
+        "title": "Wastewater Pipe and Fitting Certificates",
+        "certificate-1": "WASTEWATER NANOTEK SILENCE TEST REPORT FRAUNHOFER",
+        "certificate-2": "WASTEWATER TRIPLEX SILENCE TEST REPORT FRAUNHOFER",
+        "certificate-3": "Triplextra Fireproof Certificate",
+        "certificate-4": "TS EN 1451-1 WASTEWATER PIPE AND FITTINGS TSE CERTIFICATE",
+        "certificate-5": "Fireproof Pipe Silence Certificate English"
+      },
+      "domestic": {
+        "title": "Domestic Goods",
+        "certificate-1": "Locally Made Bel.PPRC Metal Fittings"
+      },
+      "ppr": {
+        "title": "PPR Hard",
+        "certificate-1": "PPR PIPE AND FITTINGS TSE HYGIENE TEST REPORT",
+        "certificate-2": "TS 13715 GLASS FIBER REINFORCED COMPOSITE PIPE",
+        "certificate-3": "TS EN ISO 15874-2 PPR PIPE TSE CERTIFICATE (English)",
+        "certificate-4": "TS EN ISO 15874-2 PPR PIPE TSE CERTIFICATE (Turkish)",
+        "certificate-5": "TS EN ISO 15874-3 PPR FIT. \nTSE CERTIFICATE (English)",
+        "certificate-6": "TS EN ISO 15874-3 PPR FIT. \nTSE CERTIFICATE (turkish)"
+      },
+      "rtp-soft": {
+        "title": "RTP AND SOFT",
+        "certificate-1": "RTP PIPE TEST CERTIFICATE",
+        "certificate-2": "SOFT POWER PIPE TEST CERTIFICATE"
+      },
+      "spiral-corrugated": {
+        "title": "Spiral and Corrugated",
+        "certificate-1": "DIN 16961 SPIRAL CERTIFICATION",
+        "certificate-2": "ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093",
+        "certificate-3": "ISRAEL QUALITY INSTITUTE SPIRAL WOUND PIPE CERTIFICATE -112093-ENG_",
+        "certificate-4": "TS 12132 COILED PIPE TSE CERTIFICATE"
+      }
+    },
+    "romania": {
+      "name": "Romania",
+      "title": "Romania Certificates"
+    },
+    "russia": {
+      "name": "Russia",
+      "title": "Rusya Sertifikaları"
+    },
+    "belarus": {
+      "name": "Belarus",
+      "title": "Belarus Certificates"
+    },
+    "poland": {
+      "name": "Poland",
+      "title": "Polish Certificates"
+    },
+    "noCertificate": "Certificates Updating."
   }
 }

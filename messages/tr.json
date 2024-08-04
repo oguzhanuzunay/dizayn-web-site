@@ -1,5 +1,112 @@
 {
   "HomePage": {
-    "title": "Hello world!"
+    "title": "Hoş geldin Dünya"
+  },
+  "Bayilerimiz": {
+    "header": "Bayilerimiz"
+  },
+  "NavigationBar": {
+    "menuList": {
+      "products": {
+        "name": "Ürünler",
+        "subMenu": {
+          "indoor": {
+            "name": "Bina İçi Boru Sistemleri",
+            "description": "Üst Yapı Sistemleri"
+          }
+        }
+      },
+      "indoor": {
+        "name": "Altyapı Boru Sistemleri",
+        "description": "Altyapı"
+      },
+      "dealers": "Bayilerimiz",
+      "calculations": "Hesaplamalar",
+      "institutional": "Kurumsal",
+      "ourProject": "Projelerimiz",
+      "certificates": "Sertifikalar",
+      "contact": "iletisim",
+      "arge": "AR-GE"
+    }
+  },
+  "Certificates": {
+    "germany": {
+      "name": "Almanya",
+      "title": "Almanya Sertifikaları"
+    },
+    "turkey": {
+      "name": "Türkiye",
+      "title": "Türkiye TSE Sertifikaları ve Test Raporları",
+      "elitePipe": {
+        "0": {
+          "name": "PEX BORU TSE  HIJYEN TEST RAPORU"
+        },
+        "certificate-1": "PEX BORU TSE  HIJYEN TEST RAPORU",
+        "certificate-2": "TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI",
+        "certificate-3": "TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ENG)"
+      },
+      "ima": {
+        "title": "IMA Test Raporları",
+        "certificate-1": "IMA Test Report V241-20-1  HDPE100 BORU",
+        "certificate-2": "IMA Test Report V241-20-2 PE80 D.GAZ BORU",
+        "certificate-3": "IMA Test Report V241-20-3 PPR BORU",
+        "certificate-4": "IMA Test Report V241-20-4 PPR FITTINGS"
+      },
+      "watewater-pipe": {
+        "title": "Atıksu Boru ve Ekleme Parça Sertifikaları",
+        "certificate-1": "ATIKSU NANOTEK SESSİZLİK TEST RAPOR FRAUNHOFER",
+        "certificate-2": "ATIKSU TRIPLEX SESSİZLİK TEST RAPORU FRAUNHOFER",
+        "certificate-3": "Triplextra Yanmazlık Belgesi",
+        "certificate-4": "TS EN 1451-1 ATIKSU BORU VE EK PARÇALARI TSE  SERTİFİKASI",
+        "certificate-5": "Yanmaz Boru Sessizlik Belgesi İngilizce"
+      },
+      "domestic": {
+        "title": "Yerli Malı",
+        "certificate-1": "Yerli Malı Bel.PPRC Metalli Fittings"
+      },
+      "ppr": {
+        "title": "PPR Sert",
+        "certificate-1": "PPR BORU VE FITTINGS TSE HIJYEN TEST RAPORU",
+        "certificate-2": "TS 13715 CAM ELYAF TAKVİYELİ KOMPOZİT BORU",
+        "certificate-3": "TS EN ISO 15874-2 PPR BORU TSE  SERTİFİKASI(ingilizce)",
+        "certificate-4": "TS EN ISO 15874-2 PPR BORU TSE SERTİFİKASI(türkçe)",
+        "certificate-5": "TS EN ISO 15874-3 PPR FIT. TSE  SERTİFİKASI(ingilizce)",
+        "certificate-6": "TS EN ISO 15874-3 PPR FIT. TSE  SERTİFİKASI(turkçe)"
+      },
+      "rtp-soft": {
+        "title": "RTP VE SOFT",
+        "certificate-1": "RTP BORU DENEY SERTİFİKASI",
+        "certificate-2": "SOFT POWER PIPE DENEY SERTİFİKASI"
+      },
+      "spiral-corrugated": {
+        "title": "Sarmal ve Koruge",
+        "certificate-1": "DIN 16961 SARMAL BELGELENDİRME",
+        "certificate-2": "ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093",
+        "certificate-3": "İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG_",
+        "certificate-4": "TS 12132 SARMAL BORU TSE  SERTİFİKASI",
+        "certificate-5": "TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI"
+      }
+    },
+    "romania": {
+      "name": "Romanya",
+      "title": "Romanya Sertifikaları"
+    },
+    "russia": {
+      "name": "Rusya",
+      "title": "Rusya Sertifikaları"
+    },
+    "belarus": {
+      "name": "Beyaz Rusya",
+      "title": "Beyaz Rusya Sertifikaları"
+    },
+    "ukraine": {
+      "name": "Ukrayna",
+      "title": "Ukrayna Sertifikaları"
+    },
+    "poland": {
+      "name": "Polonya",
+      "title": "Polonya Sertifikaları"
+    },
+    "noCertificate": "Sertifikalar Güncelleniyor."
   }
 }
