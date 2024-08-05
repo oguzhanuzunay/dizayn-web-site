@@ -15,8 +15,6 @@ import {
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { languageTexts } from '@/constants';
-import { useLanguageContext } from '@/context/language';
 import { SectionWrapper } from '@/hoc';
 import { cn } from '@/lib/utils';
 import { becomeOurDealerSchema } from '@/lib/validation';
@@ -32,14 +30,41 @@ import {
 } from '@/components/ui/command';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { citiesData } from '@/database/allCities';
-import { useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl'
+
+interface BayimizOlProps {
+  companyName: string;
+  fullName: string;
+  phone: string;
+  eMail: string;
+  city: string;
+  annualRevenue: string;
+  numberOfSubDealers: string;
+  numberOfProjectsWorkedOn: string;
+  subject: string;
+  explanation: string;
+  buttonText: string;
+}
+
+const formText:BayimizOlProps = {
+  companyName: 'Firma Adı*',
+  fullName: 'Ad Soyad*',
+  phone: 'Tel',
+  eMail: 'E-mail*',
+  city: 'Şehir*',
+  annualRevenue: 'Yıllık Tahmini Cironuz',
+  numberOfSubDealers: 'Alt Bayi Sayınız:',
+  numberOfProjectsWorkedOn: 'Çalışılan Proje Sayısı',
+  subject: 'Konu',
+  explanation: 'Açıkla',
+  buttonText: 'Gönder',
+};
 
 const BayimizOl = () => {
-  const [language] = useLanguageContext();
+  const t = useTranslations('BayimizOl');
   // const [isSubmitting, setIsSubmitting] = useState(false);
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState('');
-  const formText = languageTexts[language].pages.becomeDealer;
 
   const form = useForm<z.infer<typeof becomeOurDealerSchema>>({
     resolver: zodResolver(becomeOurDealerSchema),
@@ -63,12 +88,10 @@ const BayimizOl = () => {
     console.log(values);
   }
 
-
-
   return (
     <div>
       <div className="mb-5 flex h-5 w-full items-center bg-gray-500 p-5">
-        <h2 className="font-spaceGrotesk text-2xl font-semibold text-white">Bayimiz Ol</h2>
+        <h2 className="font-spaceGrotesk text-2xl font-semibold text-white">{t('title')}</h2>
       </div>
 
       <div className="py-5">
@@ -169,7 +192,7 @@ const BayimizOl = () => {
                               {...field}
                             />
                             <CommandList>
-                              <CommandEmpty>Şehir bulunamadı.</CommandEmpty>
+                              <CommandEmpty>{t('notFound')}</CommandEmpty>
                               <CommandGroup>
                                 {citiesData.map((city) => (
                                   <CommandItem
@@ -265,7 +288,7 @@ const BayimizOl = () => {
                   <FormLabel>{formText.explanation}</FormLabel>
                   <FormControl>
                     <Textarea
-                      placeholder="açıklama kısmını buraya giriniz."
+                      placeholder={t('messagePlaceholder')}
                       id="message-2"
                       {...field}
                     />

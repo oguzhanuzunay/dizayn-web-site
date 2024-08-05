@@ -103,5 +103,93 @@
       "title": "Polish Certificates"
     },
     "noCertificate": "Certificates Updating."
+  },
+  "BayimizOl": {
+    "title": "Become Our Dealer",
+    "notFound": "City not found.",
+    "messagePlaceholder": "Enter the description section here."
+  },
+  "contactInfo": {
+    "istanbul": {
+      "title": "Istanbul Office",
+      "address": "Atatürk Mahallesi Adnan Menderes Caddesi No: 6 Kıraç/Esenyurt/İstanbul Address Code: 34522"
+    },
+    "tekirdag": {
+      "title": "Çorlu Factory",
+      "address": "Velimeşe Mahallesi Hacı Şeremet Caddesi No: 6/1 Ergene/Tekirdağ Address Code: 2623043037"
+    }
+  },
+  "Iletisim": {
+    "header": "Communication",
+    "contactInfo": {
+      "istanbul": {
+        "title": "Istanbul Office",
+        "address": "Atatürk Mahallesi Adnan Menderes Caddesi No: 6 Kıraç/Esenyurt/İstanbul Address Code: 34522"
+      },
+      "tekirdag": {
+        "title": "Çorlu Factory",
+        "address": "Velimeşe Mahallesi Hacı Şeremet Caddesi No: 6/1 Ergene/Tekirdağ Address Code: 2623043037"
+      }
+    }
+  },
+  "Projelerimiz": {
+    "antalyahurmaatiksuaritmatesisleri": {
+      "title": "Antalya Hurma Wastewater Treatment Plant",
+      "alt": "Antalya Hurma Wastewater Treatment Plant"
+    },
+    "hollandaBechtelEnkaElektrikSantraliProjesi": {
+      "alt": "",
+      "title": ""
+    },
+    "buyukcekmeceDenizDesarjProjesi": {
+      "title": "Büyükçekmece Sea Outfall Project",
+      "alt": "Büyükçekmece Sea Outfall Project"
+    },
+    "HollandaBechtelEnkaElektrikSantraliProjesi": {
+      "title": "Netherlands Bechtel Enka Power Plant Project",
+      "alt": "Netherlands Bechtel Enka Power Plant Project"
+    },
+    "JakartaSelatanEndonezyaProjesi": {
+      "title": "Jakarta Selatan Indonesia Project",
+      "alt": "Jakarta Selatan Indonesia Project"
+    },
+    "PortoArabiaPearlIslandProjesi": {
+      "title": "Porto Arabia Pearl Island Project",
+      "alt": "Porto Arabia Pearl Island Project"
+    },
+    "RizeHidroelektrikSantralProjesi": {
+      "title": "Rize Hydroelectric Power Plant Project",
+      "alt": "Rize Hydroelectric Power Plant Project"
+    },
+    "SalihliSehirIsitmaProjesi": {
+      "title": "Salihli City Heating Project",
+      "alt": "Salihli City Heating Project"
+    },
+    "SicilyaAdasiKanalizasyonProjesi": {
+      "title": "Sicily Island Sewage Project",
+      "alt": "Sicily Island Sewage Project"
+    },
+    "SinopErfelekHidroelektrikSantralProjesi": {
+      "alt": "sinop-erfelek-hydroelectric-power-plant-project"
+    },
+    "SouthgateEndonezyaProjesi": {
+      "title": "Southgate Indonesia Project",
+      "alt": "southgate-indonesia-project"
+    },
+    "TanjungBaratEndonezyaProjesi": {
+      "title": "Tanjung Barat Indonesia Project",
+      "alt": "tanjung-barat-indonesia-project"
+    },
+    "Header": "Our projects",
+    "allReferances": "All Our References"
+  },
+  "LocationCard": {
+    "contactInfo": "Our Contact Information",
+    "Address": "Address:",
+    "phone": "Telephone",
+    "mail": "Email"
+  },
+  "DealerCard": {
+    "seeOnMap": "See on Map"
   }
 }

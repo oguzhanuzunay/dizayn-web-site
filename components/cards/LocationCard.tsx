@@ -1,10 +1,23 @@
-import { contactInfoParams } from '@/types';
+import { useTranslations } from 'next-intl';
 import { APIProvider, Map, Marker } from '@vis.gl/react-google-maps';
 import './styles.css';
+
+type contactInfoParams = {
+  id: number;
+  position: { lat: number; lng: number };
+  contact: {
+    title: string;
+    address: string;
+    phone: string;
+    fax: string;
+    email: string;
+  };
+};
 
 const LocationCard = (locationInfo: contactInfoParams) => {
   const { position, contact, id } = { ...locationInfo };
   const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY ?? '';
+  const t = useTranslations('LocationCard');
 
   return (
     <div className={`mb-4 flex w-full max-sm:!flex-col ${id % 2 === 0 ? 'flex-row-reverse' : ''}`}>
@@ -28,24 +41,24 @@ const LocationCard = (locationInfo: contactInfoParams) => {
               {contact.title}
             </h2>
             <p className="font-spaceGrotesk text-base font-normal text-gray-900">
-              İletişim bilgilerimiz
+              {t('contactInfo')}
             </p>
           </div>
           <div className="flex flex-col items-baseline justify-center gap-0">
             <div className="flex flex-col items-baseline justify-center gap-0">
-              <h3 className="font-spaceGrotesk text-lg font-semibold text-gray-900">Adres: </h3>
+              <h3 className="font-spaceGrotesk text-lg font-semibold text-gray-900">{t('Address')}</h3>
               <p className="font-spaceGrotesk text-base font-normal text-gray-900">
                 {contact.address}
               </p>
             </div>
             <div className="flex flex-col items-baseline justify-center gap-0">
-              <h3 className="font-spaceGrotesk text-lg font-semibold text-gray-900">Telefon</h3>
+              <h3 className="font-spaceGrotesk text-lg font-semibold text-gray-900">{t('phone')}</h3>
               <p className="font-spaceGrotesk text-base font-normal text-gray-900">
                 {contact.phone}
               </p>
             </div>
             <div className="flex flex-col items-baseline justify-center gap-0">
-              <h3 className="font-spaceGrotesk text-lg font-semibold text-gray-900">E-Posta</h3>
+              <h3 className="font-spaceGrotesk text-lg font-semibold text-gray-900">{t('mail')}</h3>
               <p className="font-spaceGrotesk text-base font-normal text-gray-900">
                 {contact.email}
               </p>

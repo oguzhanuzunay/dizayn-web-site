@@ -108,5 +108,99 @@
       "title": "Polonya Sertifikaları"
     },
     "noCertificate": "Sertifikalar Güncelleniyor."
+  },
+  "BayimizOl": {
+    "title": "Bayimiz Ol",
+    "notFound": "Şehir bulunamadı.",
+    "messagePlaceholder": "açıklama kısmını buraya giriniz."
+  },
+  "Iletisim": {
+    "header": "İletişim",
+    "contactInfo": {
+      "istanbul": {
+        "title": "İstanbul Ofis",
+        "address": "Atatürk Mahallesi Adnan Menderes Caddesi         No : 6 Kıraç/Esenyurt/İstanbul         Adres Kodu : 34522"
+      },
+      "tekirdag": {
+        "title": "Çorlu Fabrika",
+        "address": "Velimeşe Mahallesi Hacı Şeremet Caddesi                   No : 6/1 Ergene/Tekirdağ                   Adres Kodu : 2623043037"
+      }
+    }
+  },
+  "Projelerimiz": {
+    "istanbulHavaAlani": {
+      "title": "İstanbul Hava Limanı",
+      "alt": "İstanbul Hava Limanı"
+    },
+    "hongKongAdalarProjesi": {
+      "title": "Hong Hong Adalar Projesi"
+    },
+    "dubaiPalmiyeAdalari": {
+      "title": "Dubai Palmiye Adaları",
+      "alt": "Dubai Palmiye Adaları"
+    },
+    "sicilyaAdasiKanalizasyonProjesi": {
+      "title": "Sicilya Adaları Kanalizasyon Projesi",
+      "alt": "Sicilya Adaları Kanalizasyon Projesi"
+    },
+    "antalyaHurmaAtıksuArıtmaTesisleri": {
+      "title": "Antalya Hurma Atıksu Arıtma Tesisleri",
+      "alt": "Antalya Hurma Atıksu Arıtma Tesisleri"
+    },
+    "antalyahurmaatiksuaritmatesisleri": {
+      "title": "Antalya Hurma Atıksu Arıtma Tesisi",
+      "alt": "Antalya Hurma Atıksu Arıtma Tesisi"
+    },
+    "buyukcekmeceDenizDesarjProjesi": {
+      "title": "Büyükçekmece Deniz Deşarj Projesi",
+      "alt": "Büyükçekmece Deniz Deşarj Projesi"
+    },
+    "HollandaBechtelEnkaElektrikSantraliProjesi": {
+      "title": "Hollanda Bechtel Enka Elektrik Santrali Projesi",
+      "alt": "Hollanda Bechtel Enka Elektrik Santrali Projesi"
+    },
+    "JakartaSelatanEndonezyaProjesi": {
+      "title": "Jakarta Selatan Endonezya Projesi",
+      "alt": "Jakarta Selatan Endonezya Projesi"
+    },
+    "PortoArabiaPearlIslandProjesi": {
+      "title": "Porto Arabia Pearl Island Projesi",
+      "alt": "Porto Arabia Pearl Island Projesi"
+    },
+    "RizeHidroelektrikSantralProjesi": {
+      "title": "Rize Hidroelektrik Santral Projesi",
+      "alt": "Rize Hidroelektrik Santral Projesi"
+    },
+    "SalihliSehirIsitmaProjesi": {
+      "title": "Salihli Şehir Isıtma Projesi",
+      "alt": "Salihli Şehir Isıtma Projesi"
+    },
+    "SicilyaAdasiKanalizasyonProjesi": {
+      "title": "Sicilya Adası Kanalizasyon Projesi",
+      "alt": "Sicilya Adası Kanalizasyon Projesi"
+    },
+    "SinopErfelekHidroelektrikSantralProjesi": {
+      "title": "Sinop Erfelek Hidroelektrik Santral Projesi",
+      "alt": "sinop-erfelek-hidroelektrik-santral-projesi"
+    },
+    "SouthgateEndonezyaProjesi": {
+      "title": "Southgate Endonezya Projesi",
+      "alt": "southgate-endonezya-projesi"
+    },
+    "TanjungBaratEndonezyaProjesi": {
+      "title": "Tanjung Barat Endonezya Projesi",
+      "alt": "tanjung-barat-endonezya-projesi"
+    },
+    "Header": "Projelerimiz",
+    "allReferances": "Tüm Referanslarımız"
+  },
+  "DealerCard": {
+    "seeOnMap": "Haritada Gör"
+  },
+  "LocationCard": {
+    "contactInfo": "İletişim bilgilerimiz",
+    "Address": "Adres: ",
+    "phone": "Telefon",
+    "mail": "E-Posta"
   }
 }

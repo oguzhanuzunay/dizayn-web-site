@@ -6,6 +6,7 @@ import Link from 'next/link';
 
 import { EffectCards } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import {useTranslations} from 'next-intl';
 
 import 'swiper/css';
 import 'swiper/css/effect-cards';
@@ -16,88 +17,90 @@ type referenceListParams = {
   alt?: string;
 }[];
 
-const referenceList: referenceListParams = [
-  {
-    title: 'İstanbul Hava Limanı',
-    image: '/references/istanbul-hava-alani.png',
-    alt: 'İstanbul Hava Limanı',
-  },
-  {
-    title: 'Hong Hong Adalar Projesi',
-    image: '/references/hong hong adalar projesi.png',
-    alt: 'Hong Hong Adalar Projesi',
-  },
-  {
-    title: 'Dubai Palmiye Adaları',
-    image: '/references/dubai palmiye adaları.png',
-    alt: 'Dubai Palmiye Adaları',
-  },
-  {
-    title: 'Sicilya Adaları Kanalizasyon Projesi',
-    image: '/references/sicilya-adasi-kanalizasyon-projesi.jpg',
-    alt: 'Sicilya Adaları Kanalizasyon Projesi',
-  },
-  {
-    title: 'Antalya Hurma Atıksu Arıtma Tesisi',
-    image: '/references/antalya-hurma-atıksu-arıtma-tesisi.png',
-    alt: 'Antalya Hurma Atıksu Arıtma Tesisi',
-  },
-  {
-    title: 'Büyükçekmece Deniz Desarj Projesi',
-    image: '/references/buyukcekmece-deniz-desarj-projesi.jpg',
-    alt: 'Büyükçekmece Deniz Desarj Projesi',
-  },
-  {
-    title: 'Hollanda Bechtel Enka Elektrik Santrali Projesi',
-    image: '/references/hollanda-bechtel-enka-elektrik-santrali-projesi.jpg',
-    alt: 'hollanda-bechtel-enka-elektrik-santrali-projesi',
-  },
-  {
-    title: 'Jakarta Selatan Endonezya Projesi',
-    image: '/references/jakarta-selatan-endonezya-projesi.jpg',
-    alt: 'jakarta-selatan-endonezya-projesi',
-  },
-  {
-    title: 'Porto Arabia Pearl Island Projesi',
-    image: '/references/porto-arabia-pearl-island-projesi.jpg',
-    alt: 'jakarta-selatan-endonezya-projesi',
-  },
-  {
-    title: 'Rize Hidroelektrik Santral Projesi',
-    image: '/references/rize-hidroelektrik-santral-projesi.jpg',
-    alt: 'rize-hidroelektrik-santral-projesi',
-  },
-  {
-    title: 'Salihli Sehir Isıtma Projesi',
-    image: '/references/salihli-sehir-isitma-projesi.jpg',
-    alt: 'salihli-sehir-isitma-projesi',
-  },
-  {
-    title: 'Sicilya Adasi Kanalizasyon Projesi',
-    image: '/references/sicilya-adasi-kanalizasyon-projesi.jpg',
-    alt: 'sicilya-adasi-kanalizasyon-projesi',
-  },
-  {
-    title: 'Sinop Erfelek Hidroelektrik Santral Projesi',
-    image: '/references/sinop-erfelek-hidroelektrik-santral-projesi.jpg',
-    alt: 'sinop-erfelek-hidroelektrik-santral-projesi',
-  },
-  {
-    title: 'Southgate Endonezya Projesi',
-    image: '/references/southgate-endonezya-projesi.jpg',
-    alt: 'southgate-endonezya-projesi',
-  },
-  {
-    title: 'Tanjung Barat Endonezya Projesi',
-    image: '/references/tanjung-barat-endonezya-projesi.jpg',
-    alt: 'tanjung-barat-endonezya-projesi',
-  },
-];
-
 const Projelerimiz = () => {
+  const t = useTranslations('Projelerimiz');
+  
+  const referenceList: referenceListParams = [
+    {
+      title: t('istanbulHavaAlani.title'),
+      image: '/references/istanbul-hava-alani.png',
+      alt: t('istanbulHavaAlani.alt'),
+    },
+    {
+      title: t('hongKongAdalarProjesi.title'),
+      image: '/references/hong hong adalar projesi.png',
+      alt: 'Hong Hong Adalar Projesi',
+    },
+    {
+      title: t('dubaiPalmiyeAdalari.title'),
+      image: '/references/dubai palmiye adaları.png',
+      alt: t('dubaiPalmiyeAdalari.alt'),
+    },
+    {
+      title: t('sicilyaAdasiKanalizasyonProjesi.title'),
+      image: '/references/sicilya-adasi-kanalizasyon-projesi.jpg',
+      alt: t('sicilyaAdasiKanalizasyonProjesi.alt'),
+    },
+    {
+      title: t('antalyahurmaatiksuaritmatesisleri.title'),
+      image: '/references/antalya-hurma-atıksu-arıtma-tesisi.png',
+      alt: t('antalyahurmaatiksuaritmatesisleri.alt'),
+    },
+    {
+      title: t('buyukcekmeceDenizDesarjProjesi.title'),
+      image: '/references/buyukcekmece-deniz-desarj-projesi.jpg',
+      alt: t('buyukcekmeceDenizDesarjProjesi.alt'),
+    },
+    {
+      title: t('HollandaBechtelEnkaElektrikSantraliProjesi.title'),
+      image: '/references/hollanda-bechtel-enka-elektrik-santrali-projesi.jpg',
+      alt: t('HollandaBechtelEnkaElektrikSantraliProjesi.alt'),
+    },
+    {
+      title: t('JakartaSelatanEndonezyaProjesi.title') ,
+      image: '/references/jakarta-selatan-endonezya-projesi.jpg',
+      alt: t('JakartaSelatanEndonezyaProjesi.alt'),
+    },
+    {
+      title: t('PortoArabiaPearlIslandProjesi.title'),
+      image: '/references/porto-arabia-pearl-island-projesi.jpg',
+      alt: t('PortoArabiaPearlIslandProjesi.alt'),
+    },
+    {
+      title: t('RizeHidroelektrikSantralProjesi.title'),
+      image: '/references/rize-hidroelektrik-santral-projesi.jpg',
+      alt: t('RizeHidroelektrikSantralProjesi.alt'),
+    },
+    {
+      title: t('SalihliSehirIsitmaProjesi.title'),
+      image: '/references/salihli-sehir-isitma-projesi.jpg',
+      alt: t('SalihliSehirIsitmaProjesi.alt'),
+    },
+    {
+      title: t('SicilyaAdasiKanalizasyonProjesi.title'),
+      image: '/references/sicilya-adasi-kanalizasyon-projesi.jpg',
+      alt: t('SicilyaAdasiKanalizasyonProjesi.alt'),
+    },
+    {
+      title: t('SinopErfelekHidroelektrikSantralProjesi.title'),
+      image: '/references/sinop-erfelek-hidroelektrik-santral-projesi.jpg',
+      alt: t('SinopErfelekHidroelektrikSantralProjesi.alt'),
+    },
+    {
+      title: t('SouthgateEndonezyaProjesi.title'),
+      image: '/references/southgate-endonezya-projesi.jpg',
+      alt: t('SouthgateEndonezyaProjesi.alt'),
+    },
+    {
+      title: t('TanjungBaratEndonezyaProjesi.title'),
+      image: '/references/tanjung-barat-endonezya-projesi.jpg',
+      alt: t('TanjungBaratEndonezyaProjesi.alt'),
+    },
+  ];
+
   return (
     <div>
-      <Header text="Projelerimiz" />
+      <Header text={t('Header')} />
       <div className="mx-2 my-3 flex items-center justify-center">
         <Swiper
           effect={'cards'}
@@ -125,7 +128,7 @@ const Projelerimiz = () => {
 
       <Link href="/referanslar.pdf" target='_blank'>
         <div className="mx-2 mb-4 flex items-center justify-center rounded-lg bg-red-600 p-2">
-          <p className=" text-lg font-bold text-white">Tüm Referanslarımız</p>
+          <p className=" text-lg font-bold text-white">{t('allReferances')}</p>
         </div>
       </Link>
     </div>

@@ -1,7 +1,5 @@
 import {
   certificateListParams,
-  contactInfosParams,
-  countryCertificateParams,
   dealerListParams,
   matrixCardParams,
   sliderParams,
@@ -56,19 +54,6 @@ const languageTexts: languageParams = {
         imgLink: '/images/bayim_olurmusunK.jpg',
         alt: '',
         subPageLink: '/bayimiz-ol',
-      },
-      becomeDealer: {
-        companyName: 'Company Name*',
-        fullName: 'Full Name*',
-        phone: 'Phone',
-        eMail: 'E-mail*',
-        city: 'City*',
-        annualRevenue: 'Annual Revenue Estimate',
-        numberOfSubDealers: 'Number of Sub-Dealers:',
-        numberOfProjectsWorkedOn: 'Number of Projects Worked On*',
-        subject: 'Subject*',
-        explanation: 'Explanation*',
-        buttonText: 'Send',
       },
     },
     footer: {
@@ -280,19 +265,6 @@ const languageTexts: languageParams = {
         imgLink: '/images/bayim_olurmusunK.jpg',
         alt: 'bayimiz ol',
         subPageLink: '/bayimiz-ol',
-      },
-      becomeDealer: {
-        companyName: 'Firma Adı*',
-        fullName: 'Ad Soyad*',
-        phone: 'Tel',
-        eMail: 'E-mail*',
-        city: 'Şehir*',
-        annualRevenue: 'Yıllık Tahmini Cironuz',
-        numberOfSubDealers: 'Alt Bayi Sayınız:',
-        numberOfProjectsWorkedOn: 'Çalışılan Proje Sayısı',
-        subject: 'Konu',
-        explanation: 'Açıkla',
-        buttonText: 'Gönder',
       },
     },
     footer: {
@@ -1228,77 +1200,6 @@ const certificateList: certificateListParams = [
   },
 ];
 
-
-
-const contactInfo: contactInfosParams = {
-  en: [
-    {
-      id: 1,
-      position: { lat: 41.015137, lng: 28.671112 },
-      contact: {
-        title: 'Çorlu Factory',
-        address: `Velimeşe Mahallesi Hacı Şeremet Caddesi
-              No : 6/1 Ergene/Tekirdağ
-              Adress Code : 2623043037`,
-        phone: '+90 (282) 676 46 40',
-        fax: '+90 (282) 676 46 45',
-        email: 'info@dizayngrup.com',
-      },
-    },
-    {
-      id: 2,
-      position: { lat: 41.015137, lng: 28.671112 },
-      contact: {
-        title: 'Istanbul Office',
-        address: `Atatürk Mahallesi Adnan Menderes Caddesi
-              No : 6 Kıraç/Esenyurt/İstanbul
-              Adress Code : 34522`,
-        phone: '+90 (212) 886 57 41',
-        fax: '+90 (212) 886 57 42',
-        email: 'info@dizayngrup.com',
-      },
-    },
-    {
-      id: 3,
-      position: { lat: 55.8293362, lng: 52.0819124 },
-      contact: {
-        title: 'Russia Factory',
-        address: `Russian Federation, 423600, Republic of Tatarstan, Elabuga region, Elabuga city, “Alabuga” SEZ (Special Economic Zone) area, Sk. Sh-2, block 5/12 Block 3E`,
-        phone: '+7 (855) 575 29 08/09',
-        email: 'info@dizaynrussia.com',
-      },
-    },
-  ],
-  tr: [
-    {
-      id: 1,
-      position: { lat: 41.015137, lng: 28.671112 },
-      contact: {
-        title: 'İstanbul Ofis',
-        address: `Atatürk Mahallesi Adnan Menderes Caddesi
-        No : 6 Kıraç/Esenyurt/İstanbul
-        Adres Kodu : 34522`,
-        phone: '+90 (212) 886 57 41',
-        fax: '+90 (0212) 886 51 93',
-        email: 'info@dizayngrup.com',
-      },
-    },
-    {
-      id: 2,
-      position: { lat: 41.193067, lng: 27.858991 },
-      contact: {
-        title: 'Çorlu Fabrika',
-        address: `Velimeşe Mahallesi Hacı Şeremet Caddesi
-                  No : 6/1 Ergene/Tekirdağ
-                  Adres Kodu : 2623043037`,
-        phone: '+90 (282) 676 46 40',
-        fax: '+90 (282) 676 46 45',
-        email: 'info@dizayngrup.com',
-      },
-    },
-  ],
-};
-
 const showroomProduct: matrixCardParams = {
   en: [
     {
@@ -1420,8 +1321,6 @@ const kurumsalLinks: {
 
 export {
   certificateList,
-  contactInfo,
-  countryCertificate,
   dealerList,
   kurumsalLinks,
   languageTexts,

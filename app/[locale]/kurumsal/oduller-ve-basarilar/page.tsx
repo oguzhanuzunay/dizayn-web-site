@@ -1,17 +1,45 @@
 'use client';
 import Header from '@/components/Header';
 import LinkedButton from '@/components/LinkedButton';
-import { kurumsalLinks } from '@/constants';
-import { useLanguageContext } from '@/context/language';
 import { SectionWrapper } from '@/hoc';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
+import { useTranslations } from 'next-intl';
 
 const OdullerVeBasarılar = () => {
   const pathname = usePathname();
-  const [language] = useLanguageContext();
+  const t = useTranslations('oduller-ve-basarilar');
+  interface kurumsalLinksParam { 
+    title: string;
+    link: string;
+  }[];
+
+  const kurumsalLinks:kurumsalLinksParam =  [
+    {
+      title: 'Kurumsal',
+      link: '/kurumsal',
+    },
+    {
+      title: 'Tarihçe',
+      link: '/kurumsal/tarihce',
+    },
+    {
+      title: 'Vizyon ve Misyon',
+      link: '/kurumsal/vizyon-ve-misyon',
+    },
+    {
+      title: 'Taahhütname',
+      link: '/kurumsal/taahhutname',
+    },
+    {
+      title: 'Ödüller ve Başarılar',
+      link: '/kurumsal/oduller-ve-basarilar',
+    },
+  ];
 
   return (
+    
+
     <div>
       <Header text="Tarihçe" />
 

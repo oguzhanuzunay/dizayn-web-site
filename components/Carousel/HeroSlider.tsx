@@ -101,7 +101,6 @@ const heroSlider: HeroSliderParams = {
 
 const Carousel = () => {
   const router = useRouter();
-
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {

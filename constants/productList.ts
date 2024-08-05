@@ -55,6 +55,7 @@ interface productListParams {
     infrastructureProducts: productParams[];
   };
 }
+
 export const productList: productListParams = {
   tr: {
     superStructureProducts: [

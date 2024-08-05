@@ -1,7 +1,10 @@
 import { dealerListParam } from '@/types';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 const DealerCard = ({ id, name, phone, address, email, mapsLink, cityId }: dealerListParam) => {
+  const t = useTranslations('DealerCard');
+
   return (
     <div
       key={id}
@@ -29,7 +32,7 @@ const DealerCard = ({ id, name, phone, address, email, mapsLink, cityId }: deale
           className="text-blue-500"
           rel="noreferrer"
         >
-          Haritada Gör
+          {t('seeOnMap')}
         </a>
       )}
     </div>
