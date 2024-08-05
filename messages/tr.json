@@ -202,5 +202,11 @@
     "Address": "Adres: ",
     "phone": "Telefon",
     "mail": "E-Posta"
+  },
+  "ProductList": {
+    "elitePipe": {
+      "title": "Elite Pipe",
+      "description": "ElitePipe, yüksek sıcaklık ve basınç dayanımı ile güvenli ve uzun ömürlü bir boru sistemidir. PPR, PEX ve PERT boruların avantajlarını bir araya getirerek, üstün performans ve dayanıklılık sağlar."
+    }
   }
 }

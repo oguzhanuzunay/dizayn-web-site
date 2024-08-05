@@ -191,5 +191,15 @@
   },
   "DealerCard": {
     "seeOnMap": "See on Map"
+  },
+  "products": {
+    "elitePipe": {
+      "title": "Elite Pipe"
+    }
+  },
+  "ProductList": {
+    "elitePipe": {
+      "title": "Elite Pipe"
+    }
   }
 }
