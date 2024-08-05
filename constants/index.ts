@@ -265,7 +265,7 @@ const languageTexts: languageParams = {
       { name: 'Kurumsal' },
       { name: 'Projelerimiz' },
       { name: 'Sertifikalar' },
-      { name: 'iletisim' },
+      { name: 'Iletisim' },
       { name: 'AR-GE' },
     ],
     certificates: {
