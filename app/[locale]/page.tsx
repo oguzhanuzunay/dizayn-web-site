@@ -4,7 +4,6 @@ import MapComponent from '@/components/MapComponent/MapComponent';
 import NewTechPipes from '@/components/NewTechPipes';
 
 export default function Home() {
-
   return (
     <main>
       <Hero />

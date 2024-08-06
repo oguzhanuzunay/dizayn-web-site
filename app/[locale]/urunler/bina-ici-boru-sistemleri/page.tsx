@@ -4,7 +4,7 @@ import ProductCard from '@/components/cards/ProductCard';
 import { useTranslations } from 'next-intl';
 
 const Products = () => {
-  const t = useTranslations('SuperStructureProducts');
+  const t = useTranslations('Products.SuperStructureProducts');
 
   const superStructureProducts = [
     {

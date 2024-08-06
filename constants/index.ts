@@ -1,5 +1,4 @@
 import {
-  certificateListParams,
   dealerListParams,
   matrixCardParams,
   sliderParams,
@@ -43,10 +42,6 @@ const languageTexts: languageParams = {
       { name: 'Certificates' },
       { name: 'R&D' },
     ],
-    certificates: {
-      title: 'Our Certificates',
-      buttonText: 'View All Certificates',
-    },
     pages: {
       dealers: {
         h1: 'franchisee',
@@ -254,10 +249,6 @@ const languageTexts: languageParams = {
       { name: 'iletisim' },
       { name: 'AR-GE' },
     ],
-    certificates: {
-      title: 'Sertifikalarımız',
-      buttonText: 'Tüm Sertifikaları Görüntüle',
-    },
     pages: {
       dealers: {
         h1: 'Bayilerimiz',
@@ -1167,38 +1158,6 @@ const dealerList: dealerListParams = [
   },
 ];
 
-const certificateList: certificateListParams = [
-  {
-    id: 1,
-    title: 'ISO 9001:2015',
-    image: '/certificates/iso-9001.png',
-  },
-  {
-    id: 2,
-    title: 'ISO 14001:2004',
-    image: '/certificates/iso-14001-2004.png',
-  },
-  {
-    id: 3,
-    title: 'TSE',
-    image: '/certificates/TSE.png',
-  },
-  {
-    id: 4,
-    title: 'ISO 50001',
-    image: '/certificates/iso-50001.png',
-  },
-  {
-    id: 5,
-    title: 'OHSAS 18001',
-    image: '/certificates/ohsas-18001.png',
-  },
-  {
-    id: 6,
-    title: 'ISO 10002',
-    image: '/certificates/iso-10002.png',
-  },
-];
 
 const showroomProduct: matrixCardParams = {
   en: [
@@ -1320,7 +1279,6 @@ const kurumsalLinks: {
 };
 
 export {
-  certificateList,
   dealerList,
   kurumsalLinks,
   languageTexts,

@@ -1,6 +1,5 @@
 'use client';
 import { languageTexts } from '@/constants';
-import { useLanguageContext } from '@/context/language';
 import { usePathname } from 'next/navigation';
 
 import dizaynLogo from '@/public/dizayn-logo.png';
@@ -26,7 +25,6 @@ import React, { useState } from 'react';
 
 const NavigationBar = () => {
   const pathname = usePathname();
-  const [language] = useLanguageContext();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const t = useTranslations('NavigationBar');
   const locale = useLocale();
@@ -49,12 +47,13 @@ const NavigationBar = () => {
           name: t('menuList.products.subMenu.indoor.name'),
           description: t('menuList.products.subMenu.indoor.description'),
           icons: '/icons/water-pipe.png',
+          link: t('menuList.products.subMenu.indoor.link'),
         },
         {
           name: t('menuList.indoor.name'),
           description: t('menuList.indoor.description'),
           icons: '/icons/pipe.png',
-          link: '/urunler/altyapi-boru-sistemleri',
+          link: t('menuList.indoor.link'),  
         },
       ],
     },
@@ -73,7 +72,7 @@ const NavigationBar = () => {
         return (
           <NavbarItem key={page}>
             <Link
-              href={`/${locale}/${page.name.toLowerCase()}`}
+              href={`/${locale}/${page.name.toLowerCase().replace(' ', '-')}`}
               className="font-spaceGrotesk text-medium text-gray-900 transition-all duration-300 ease-in-out hover:text-accent-blue"
             >
               {page.name}
@@ -179,7 +178,7 @@ const NavigationBar = () => {
         className="hidden gap-4 md:flex"
         justify="end"
       >
-        {listMenu(3, languageTexts[language].menuList.length - 1)}
+        {languageTexts[locale]?.menuList && listMenu(3, languageTexts[locale].menuList.length - 1)}
       </NavbarContent>
 
       {/* Mobile Content */}
@@ -196,7 +195,7 @@ const NavigationBar = () => {
           </Link>
         </NavbarMenuItem>
 
-        {languageTexts[language].menuList.map((item, index) => (
+        {languageTexts[locale]?.menuList?.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
               className="w-full text-gray-900"

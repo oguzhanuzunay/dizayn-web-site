@@ -1,14 +1,33 @@
-
+'use client';
 import Header from '@/components/Header';
 import LinkedButton from '@/components/LinkedButton';
-import { kurumsalLinks } from '@/constants';
-import { useLanguageContext } from '@/context/language';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 const Kurumsal = () => {
   const pathname = usePathname();
-  const [language] = useLanguageContext();
+  const kurumsalLinks = [
+    {
+      title: 'Kurumsal',
+      link: '/kurumsal',
+    },
+    {
+      title: 'Tarihçe',
+      link: '/kurumsal/tarihce',
+    },
+    {
+      title: 'Vizyon ve Misyon',
+      link: '/kurumsal/vizyon-ve-misyon',
+    },
+    {
+      title: 'Taahhütname',
+      link: '/kurumsal/taahhutname',
+    },
+    {
+      title: 'Ödüller ve Başarılar',
+      link: '/kurumsal/oduller-ve-basarilar',
+    },
+  ];
 
   return (
     <div className="relative z-0 mx-auto max-w-7xl px-6 sm:px-16">
@@ -18,7 +37,7 @@ const Kurumsal = () => {
         <div className="flex w-full items-start justify-center max-md:flex-col">
           <div className="flex w-1/2 flex-col items-center justify-start max-md:w-full">
             <div className="m-1 flex flex-row flex-wrap gap-3 p-3">
-              {kurumsalLinks[language]
+              {kurumsalLinks
                 .filter(
                   (page) =>
                     page.link.toLowerCase().split('/')[

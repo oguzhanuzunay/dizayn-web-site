@@ -1,36 +1,75 @@
+import { Pathnames } from "next-intl/navigation";
+
 export const locales = ['tr', 'en'] as const;
- 
+
 // The `pathnames` object holds pairs of internal and
 // external paths. Based on the locale, the external
 // paths are rewritten to the shared, internal ones.
 export const pathnames = {
-  // If all locales use the same pathname, a single
-  // external path can be used for all locales
   '/': '/',
- 
-  // If locales use different paths, you can
-  // specify each external path per locale
-  '/about': {
-    tr: '/hakkımızda',
-    en: '/about',
+
+  '/bayilerimiz': {
+    en: '/our-dealers',
+    tr: '/bayilerimiz',
   },
- 
-  // Dynamic params are supported via square brackets
-  '/news/[articleSlug]-[articleId]': {
-    en: '/news/[articleSlug]-[articleId]',
-    de: '/neuigkeiten/[articleSlug]-[articleId]'
+  '/bayimiz-ol': {
+    en: '/become-a-dealer',
+    tr: '/bayimiz-ol',
   },
- 
-  // Static pathnames that overlap with dynamic segments
-  // will be prioritized over the dynamic segment
-  '/news/just-in': {
-    en: '/news/just-in',
-    de: '/neuigkeiten/aktuell'
+  '/hesaplamalar': {
+    en: '/calculations',
+    tr: '/hesaplamalar',
   },
- 
-  // Also (optional) catch-all segments are supported
-  '/categories/[...slug]': {
-    en: '/categories/[...slug]',
-    de: '/kategorien/[...slug]'
-  }
+  '/iletisim': {
+    en: '/contact',
+    tr: '/iletisim',
+  },
+  '/urunler': {
+    en: '/products',
+    tr: '/urunler',
+  },
+  '/sertifikalar': {
+    en: '/certificates',
+    tr: '/sertifikalar',
+  },
+  '/kurumsal': {
+    en: '/institutional',
+    tr: '/kurumsal',
+  },
+  '/kurumsal/vizyon-misyon': {
+    en: '/corporate/vision-mission',
+    tr: '/kurumsal/vizyon-misyon',
+  },
+  '/kurumsal/oduller-ve-basarilar': {
+    en: '/corporate/awards-and-successes',
+    tr: '/kurumsal/oduller-ve-basarilar',
+  },
+  '/kurumsal/tarihce': {
+    en: '/corporate/history',
+    tr: '/kurumsal/tarihce',
+  },
+  '/kurumsal/tahhutname': {
+    en: '/corporate/commitment',
+    tr: '/kurumsal/tahhutname',
+  },
+  '/projelerimiz': {
+    en: '/projects',
+    tr: '/projelerimiz',
+  },
+  '/urunler/altyapi-boru-sistemleri': {
+    en: '/products/infrastructure-pipe-systems',
+    tr: '/urunler/altyapi-boru-sistemleri',
+  },
+  '/urunler/altyapi-boru-sistemleri/[product]': {
+    en: '/products/infrastructure-pipe-systems/[product]',
+    tr: '/urunler/altyapi-boru-sistemleri/[product]',
+  },
+  '/urunler/bina-ici-boru-sistemleri': {
+    en: '/products/indoor-pipe-systems',
+    tr: '/urunler/bina-ici-boru-sistemleri',
+  },
+  '/urunler/bina-ici-boru-sistemleri/[product]': {
+    en: '/products/indoor-pipe-systems/[product]',
+    tr: '/urunler/bina-ici-boru-sistemleri/[product]',
+  },
 } satisfies Pathnames<typeof locales>;

@@ -93,11 +93,6 @@ export interface dealerListParam {
 
 export interface dealerListParams extends Array<dealerListParam> {}
 
-export interface certificateListParam {
-  id?: number;
-  title: string;
-  image: string;
-}
 
 export interface sliderParams {
   [key: string]: {
@@ -126,7 +121,6 @@ interface CityData {
 
 export type citiesDataParams = CityData[];
 
-export interface certificateListParams extends Array<certificateListParam> {}
 
 export interface productDetailParams {
   index?: number;

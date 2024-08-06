@@ -15,11 +15,6 @@ export interface languageParams {
       }[];
     }[];
 
-    certificates: {
-      title: string;
-      buttonText: string;
-    };
-
     pages: {
       dealers: {
         h1: string;

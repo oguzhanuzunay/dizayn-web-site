@@ -25,7 +25,7 @@ interface productParams {
 }
 
 const AltYapı = () => {
-  const t = useTranslations('InfrastructureProducts');
+  const t = useTranslations('Products.InfrastructureProducts');
 
   const infrastructureProducts: productParams[] = [
     {

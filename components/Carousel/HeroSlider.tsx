@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { useLanguageContext } from '@/context/language';
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/navigation';
-import { useEffect, useState } from 'react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -100,14 +99,9 @@ const heroSlider: HeroSliderParams = {
 
 const Carousel = () => {
   const router = useRouter();
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    setIsMobile(window.innerWidth <= 768);
-    console.log(isMobile);
-  }, [isMobile]);
 
   const [language] = useLanguageContext();
+  const isMobile = window.matchMedia('(max-width: 600px)').matches;
 
   return (
     <div className="top-0 flex w-full items-center justify-center">

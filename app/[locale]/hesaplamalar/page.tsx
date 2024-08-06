@@ -1,14 +1,10 @@
-import { useLanguageContext } from '@/context/language';
 import { Card, CardBody, CardHeader, Image } from '@nextui-org/react';
+import { useTranslations } from 'next-intl';
 
 export interface calculationCardParams {
   title: string;
   description: string;
   img: string;
-}
-
-export interface calculationsCardDataParams {
-  [key: string]: calculationCardParams[];
 }
 
 const CalculationCard = ({ title, description, img }: calculationCardParams) => {
@@ -30,77 +26,46 @@ const CalculationCard = ({ title, description, img }: calculationCardParams) => 
   );
 };
 
-const calculationsCardData: calculationsCardDataParams = {
-  en: [
-    {
-      title: 'Water Hammer Calculation',
-      description: 'Click to calculate water hammer',
-      img: '/images/su-darbesi-hesabi.jpeg',
-    },
-    {
-      title: 'Compensator Calculation',
-      description: 'Click to calculate compensator',
-      img: '/images/kompansator-hesabi.jpeg',
-    },
-    {
-      title: 'Gravity Line Calculation',
-      description: 'Click to calculate gravity line',
-      img: '/images/cazibeli-hat-hesabi.jpeg',
-    },
-    {
-      title: 'Pressure Loss Calculation',
-      description: 'Click to calculate pressure loss',
-      img: '/images/basinc-kaybı-hesabi.jpeg',
-    },
-    {
-      title: 'Koruge Pipe Calculation',
-      description: 'Click to calculate Koruge pipe',
-      img: '/images/Koruge-boru-hesabi.jpeg',
-    },
-  ],
-
-  tr: [
-    {
-      title: 'Su Darbesi Hesabı',
-      description: 'Su darbesi hesabı yapmak için tıklayınız',
-      img: '/images/su-darbesi-hesabi.jpeg',
-    },
-    {
-      title: 'Kompansatör Hesabı ',
-      description: 'Kompansatör hesabı yapmak için tıklayınız',
-      img: '/images/kompansator-hesabi.jpeg',
-    },
-    {
-      title: 'Cazibeli Hat Hesabı',
-      description: 'Cazibeli hat hesabı yapmak için tıklayınız',
-      img: '/images/cazibeli-hat-hesabi.jpeg',
-    },
-    {
-      title: 'Basınç Kaybı Hesabı',
-      description: 'Basınç kaybı hesabı yapmak için tıklayınız',
-      img: '/images/basinc-kaybı-hesabi.jpeg',
-    },
-    {
-      title: 'Koruge Boru Hesabı',
-      description: 'Koruge Boru Hesabı yapmak için tıklayınız',
-      img: '/images/Koruge-boru-hesabi.jpeg',
-    },
-  ],
-};
-
 const Hesaplamalar = () => {
-  const [language] = useLanguageContext();
-  const list = calculationsCardData[language];
+  const t = useTranslations('Hesaplamalar');
+
+  const list: calculationCardParams[] = [
+    {
+      title: t('waterHammerCalculation'),
+      description: t('waterHammerCalculationDescription'),
+      img: '/images/su-darbesi-hesabi.jpeg',
+    },
+    {
+      title:t('compensatorCalculation'),
+      description:t('compensatorCalculationDescription'),
+      img: '/images/kompansator-hesabi.jpeg',
+    },
+    {
+      title: t('charmingHatCalculation'),
+      description: t('charmingHatCalculationDescription'),
+      img: '/images/cazibeli-hat-hesabi.jpeg',
+    },
+    {
+      title: t('pressureLossCalculation'),
+      description: t('pressureLossCalculationDescription'),
+      img: '/images/basinc-kaybı-hesabi.jpeg',
+    },
+    {
+      title: t('corrugatedPipeCalculation'),
+      description: t('corrugatedPipeCalculationDescription'),
+      img: '/images/Koruge-boru-hesabi.jpeg',
+    },
+  ];
 
   return (
     <div>
       <div className="mb-5 flex size-full flex-col items-start rounded-lg  p-5">
         <h2 className=" font-spaceGrotesk text-2xl font-bold text-black">
-          Mühendislik Hesaplamaları
+          {t('title')}
         </h2>
       </div>
       <h4 className="ml-5 mt-5 font-spaceGrotesk text-lg font-semibold text-gray-700 ">
-        Doğru hesaplama yapabilmek için aşağıdaki seçeneklerden uygun seçeneği seçiniz.
+        {t('description')}
       </h4>
 
       <div className="my-5 grid grid-cols-5 place-items-center items-center justify-center gap-5 justify-self-center max-lg:grid-cols-3 max-sm:grid-cols-1">

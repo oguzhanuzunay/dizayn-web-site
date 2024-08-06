@@ -1,15 +1,16 @@
 import '@/app/globals.css';
 
 import { productList } from '@/constants';
-import { useLanguageContext } from '@/context/language';
+import { useLocale } from 'next-intl';
 import ProductCard from './cards/ProductCard';
 
 const NewTechPipe = () => {
-  const [language] = useLanguageContext();
+  const language = useLocale();
   const combinedProducts = [
-    ...productList[language].superStructureProducts,
-    ...productList[language].infrastructureProducts,
+    ...(productList[language]?.superStructureProducts ?? []),
+    ...(productList[language]?.infrastructureProducts ?? []),
   ];
+
 
   return (
     <div
