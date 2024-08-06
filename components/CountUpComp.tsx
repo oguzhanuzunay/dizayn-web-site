@@ -1,4 +1,3 @@
-'use client';
 import { useLanguageContext } from '@/context/language';
 import Image from 'next/image';
 import CountUp, { useCountUp } from 'react-countup';

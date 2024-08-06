@@ -1,5 +1,4 @@
 'use client';
-
 import Image from 'next/image';
 // Import Swiper React components
 import { useLanguageContext } from '@/context/language';
@@ -124,6 +123,23 @@ const Carousel = () => {
         }}
         navigation={true}
         keyboard={true}
+        breakpoints={{
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+          // when window width is >= 1200px
+          1200: {
+            slidesPerView: 1,
+            spaceBetween: 50,
+          },
+        }}
         modules={[Pagination, Navigation, Keyboard, Autoplay]}
       >
         {heroSlider[language].map((slide) => (

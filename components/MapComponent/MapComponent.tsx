@@ -61,7 +61,9 @@ const MapComponent = ({ show }: { show: boolean }) => {
               width={150}
               height={150}
             />
-            <p className={`font-quicksand text-lg max-md:text-tiny ${show ? ' max-lg:hidden ' : ''}`}>
+            <p
+              className={`font-quicksand text-lg max-md:text-tiny ${show ? ' max-lg:hidden ' : ''}`}
+            >
               {dealers.text}
             </p>
           </a>

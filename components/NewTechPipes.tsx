@@ -1,17 +1,15 @@
-'use client';
 import '@/app/globals.css';
 
 import { productList } from '@/constants';
 import { useLanguageContext } from '@/context/language';
-import { SectionWrapper } from '@/hoc';
 import ProductCard from './cards/ProductCard';
 
 const NewTechPipe = () => {
   const [language] = useLanguageContext();
   const combinedProducts = [
     ...productList[language].superStructureProducts,
-    ...productList[language].infrastructureProducts
-];
+    ...productList[language].infrastructureProducts,
+  ];
 
   return (
     <div
@@ -34,13 +32,17 @@ const NewTechPipe = () => {
       >
         {combinedProducts.map(
           (item) =>
-            item.banner && item.isNewTech && (
+            item.banner &&
+            item.isNewTech && (
               <div
                 className="m-4 mx-6  flex size-full flex-col
                 items-center justify-center gap-0"
                 key={item.title}
               >
-                <ProductCard item={{ ...item, customCSS: '' }} isPLP={false} />
+                <ProductCard
+                  item={{ ...item, customCSS: '' }}
+                  isPLP={false}
+                />
               </div>
             ),
         )}
@@ -49,4 +51,4 @@ const NewTechPipe = () => {
   );
 };
 
-export default SectionWrapper(NewTechPipe, 'NewTechPipe');
+export default NewTechPipe;

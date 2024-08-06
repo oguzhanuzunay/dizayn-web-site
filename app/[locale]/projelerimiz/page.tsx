@@ -1,12 +1,10 @@
-'use client';
 import Header from '@/components/Header';
-import { SectionWrapper } from '@/hoc';
 import Image from 'next/image';
 import Link from 'next/link';
 
 import { EffectCards } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {useTranslations} from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 import 'swiper/css';
 import 'swiper/css/effect-cards';
@@ -19,7 +17,7 @@ type referenceListParams = {
 
 const Projelerimiz = () => {
   const t = useTranslations('Projelerimiz');
-  
+
   const referenceList: referenceListParams = [
     {
       title: t('istanbulHavaAlani.title'),
@@ -57,7 +55,7 @@ const Projelerimiz = () => {
       alt: t('HollandaBechtelEnkaElektrikSantraliProjesi.alt'),
     },
     {
-      title: t('JakartaSelatanEndonezyaProjesi.title') ,
+      title: t('JakartaSelatanEndonezyaProjesi.title'),
       image: '/references/jakarta-selatan-endonezya-projesi.jpg',
       alt: t('JakartaSelatanEndonezyaProjesi.alt'),
     },
@@ -126,7 +124,10 @@ const Projelerimiz = () => {
         </Swiper>
       </div>
 
-      <Link href="/referanslar.pdf" target='_blank'>
+      <Link
+        href="/referanslar.pdf"
+        target="_blank"
+      >
         <div className="mx-2 mb-4 flex items-center justify-center rounded-lg bg-red-600 p-2">
           <p className=" text-lg font-bold text-white">{t('allReferances')}</p>
         </div>
@@ -135,4 +136,4 @@ const Projelerimiz = () => {
   );
 };
 
-export default SectionWrapper(Projelerimiz, 'Projelerimiz');
+export default Projelerimiz;

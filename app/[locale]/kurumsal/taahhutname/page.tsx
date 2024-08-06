@@ -1,9 +1,7 @@
-'use client';
 import Header from '@/components/Header';
 import LinkedButton from '@/components/LinkedButton';
 import { kurumsalLinks } from '@/constants';
 import { useLanguageContext } from '@/context/language';
-import { SectionWrapper } from '@/hoc';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
@@ -88,4 +86,4 @@ const Tahhutname = () => {
     </div>
   );
 };
-export default SectionWrapper(Tahhutname, 'Tahhutname');
+export default Tahhutname;

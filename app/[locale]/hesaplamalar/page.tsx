@@ -1,6 +1,4 @@
-'use client';
 import { useLanguageContext } from '@/context/language';
-import { SectionWrapper } from '@/hoc';
 import { Card, CardBody, CardHeader, Image } from '@nextui-org/react';
 
 export interface calculationCardParams {
@@ -15,7 +13,7 @@ export interface calculationsCardDataParams {
 
 const CalculationCard = ({ title, description, img }: calculationCardParams) => {
   return (
-    <Card className="w-fit py-4  transition-all duration-300 hover:scale-105 hover:shadow-lg hover:grayscale-0">
+    <Card className="relative z-0  mx-auto w-fit max-w-7xl px-6 py-4 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:grayscale-0 sm:px-16">
       <CardHeader className="flex-col items-start px-4 pb-0 pt-2">
         <h4 className="text-large font-bold">{title}</h4>
         <small className="text-default-500">{description}</small>
@@ -119,4 +117,4 @@ const Hesaplamalar = () => {
   );
 };
 
-export default SectionWrapper(Hesaplamalar, 'Hesaplamalar');
+export default Hesaplamalar;

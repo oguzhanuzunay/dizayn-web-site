@@ -27,7 +27,8 @@
       "certificates": "Sertifikalar",
       "contact": "iletisim",
       "arge": "AR-GE"
-    }
+    },
+    "priceList": "Fiyat Listesi"
   },
   "Certificates": {
     "germany": {
@@ -143,10 +144,6 @@
       "title": "Sicilya Adaları Kanalizasyon Projesi",
       "alt": "Sicilya Adaları Kanalizasyon Projesi"
     },
-    "antalyaHurmaAtıksuArıtmaTesisleri": {
-      "title": "Antalya Hurma Atıksu Arıtma Tesisleri",
-      "alt": "Antalya Hurma Atıksu Arıtma Tesisleri"
-    },
     "antalyahurmaatiksuaritmatesisleri": {
       "title": "Antalya Hurma Atıksu Arıtma Tesisi",
       "alt": "Antalya Hurma Atıksu Arıtma Tesisi"
@@ -203,10 +200,157 @@
     "phone": "Telefon",
     "mail": "E-Posta"
   },
-  "ProductList": {
+  "SuperStructureProducts": {
     "elitePipe": {
       "title": "Elite Pipe",
-      "description": "ElitePipe, yüksek sıcaklık ve basınç dayanımı ile güvenli ve uzun ömürlü bir boru sistemidir. PPR, PEX ve PERT boruların avantajlarını bir araya getirerek, üstün performans ve dayanıklılık sağlar."
+      "description": "ElitePipe, yüksek sıcaklık ve basınç dayanımı ile güvenli ve uzun ömürlü bir boru sistemidir. PPR, PEX ve PERT boruların avantajlarını bir araya getirerek, üstün performans ve dayanıklılık sağlar.",
+      "highlights": {
+        "highPressure": "Yüksek Sıcaklıkta Yüksek Basınç Dayanımı",
+        "kangal": "Kangal Halinde Sevkiyat Kolaylığı",
+        "durable": "Eksi 40 Derecede Dahi Kırılma Direnci"
+      }
+    },
+    "sterilePipe": {
+      "title": "Sterile Pipe",
+      "description": "Sterile Pipe, bakteri, küf, mantar ve diğer mikrobiyal canlıları yok ederek içerisinden geçen suyu %99,9'a kadar sterilize eden yenilikçi bir boru sistemidir.",
+      "highlights": {
+        "antimicrobial": "Antimikrobiyal Özellik",
+        "longLasting": "Uzun Ömür",
+        "drinkWater": "Sağlıklı Su"
+      }
+    },
+    "softPowerPipe": {
+      "title": "SoftPower Boru",
+      "description": "SoftPower Boru, yüksek oksidasyon dayanımı, esneklik ve kolay montaj imkanı sunan, PE63 hammaddesinden üretilmiş dayanıklı ve uzun ömürlü bir boru sistemidir.",
+      "highlights": {
+        "durable": "Darbeye Dayanıklı",
+        "flexible": "Esnek",
+        "saveTime": "Maliyet Tasarrufu"
+      }
+    },
+    "elasticaPipe": {
+      "title": "Elastica Boru",
+      "description": "Elastica Boru, yüksek sıcaklık ve basınca dayanıklılığı, esnek yapısı ve montaj kolaylığı ile öne çıkan yenilikçi bir boru sistemidir. Hem yerden ısıtma sistemlerinde hem de radyatörlü tesisatlarda güvenle kullanılabilir.",
+      "highlights": {
+        "highTemperature": "Yüksek Sıcaklık ve Basınç Dayanımı",
+        "flexible": "Esneklik ve Dayanıklılık",
+        "easyInstall": "Kolay Montaj"
+      }
+    },
+    "nanotechPipe": {
+      "title": "NanoTech Atık Su Borusu",
+      "description": "NanoTech Atık Su Borusu, ses yalıtımı sağlayan, yüksek dayanıklılığa sahip ve uzun ömürlü bir boru sistemidir. Bina içi ve dışı atık su tahliyesi için ideal bir çözümdür.",
+      "highlights": {
+        "longLasting": "Uzun Ömür",
+        "soundProof": "Ses Yalıtımı",
+        "durable": "Kırılmaz Yapı"
+      }
+    },
+    "triplexPipe": {
+      "title": "Triplex Atık Su Boruları",
+      "description": "Triplex Atık Su Boruları, bina içi ve dışı kullanılmış suyun tahliyesi için döşenen, yüksek dayanıklılığa sahip ve uzun ömürlü bir boru sistemidir.",
+      "highlights": {
+        "durable": "Kırılmaz Yapı",
+        "seal": "Yüksek Sızdırmazlık",
+        "easyInstall": "Kolay Montaj"
+      }
+    },
+    "pprPipe": {
+      "title": "PPR Boru",
+      "description": "PPR Boru ve ek parçaları, düşük eriyik akış indisli, yüksek moleküler ağırlıklı ve yüksek esnekliğe sahip Polipropilen Random Kopolimer hammaddesinden üretilmektedir.",
+      "highlights": {
+        "highDurability": "Yüksek Dayanım",
+        "easyWelding": "Kolay Kaynak",
+        "longLasting": "Uzun Ömür"
+      }
+    },
+    "header": "BİNA İÇİ BORU SİSTEMLERİ",
+    "description": " Dizayn Grup olarak, 37 yıllık tecrübemiz ve Ar-Ge çalışmalarımızla geliştirdiğimiz üstün           kaliteli boru sistemleriyle dayanıklı ve uzun ömürlü çözümler sunuyoruz. Enerji           verimliliği, çevre dostu ve hijyenik özellikleriyle ürünlerimiz, güvenilir ve           sürdürülebilir projeler için idealdir.",
+    "description2": "Bina içi boru sistemlerinde Dizayn Grup&apos;un üstün çözümleriyle projelerinizi bir adım öne taşıyın. Enerji verimliliği, hijyen ve uzun ömürlü kullanım sunar."
+  },
+  "InfrastructureProducts": {
+    "softPowerPipe": {
+      "title": "SoftPower Boru",
+      "description": "SoftPower Boru, yüksek oksidasyon dayanımı, esneklik ve kolay montaj imkanı sunan, PE63 hammaddesinden üretilmiş dayanıklı ve uzun ömürlü bir boru sistemidir.",
+      "highlights": {
+        "durable": "Darbeye Dayanıklı",
+        "flexible": "Esnek",
+        "saveTime": "Maliyet Tasarrufu"
+      }
+    },
+    "rtpPipe": {
+      "title": "RTP Boru",
+      "description": "RTP (Reinforced Thermoplastic Pipe) Borular yüksek basınç dayanımı ile her türlü su, gaz, petrol vb. taşınmasında kullanılmaktadır. Sahip olduğu güçlü kompozit yapısı ile çelik borular gibi yüksek basınçlara mukavemet gösterirken termoplastik hammaddesi ile de plastik boruların tüm avantajlarını kullanıcısına sunmaktadır.",
+      "highlights": {
+        "highPressure": "Yüksek Basınç Dayanımı",
+        "flexible": "Esneklik",
+        "longLasting": "Uzun Ömür"
+      }
+    },
+    "telecomPipe": {
+      "title": "Telekom Boruları",
+      "description": "Kablo Muhafaza Boruları, hızla gelişen haberleşme ve data iletimi borulama sistemlerinde kullanılır. Talebe ve şartnameye uygun olarak, tekli ile üçlü arasında farklı seçeneklerle sunulur. Göz çoklayıcı ve tamamlayıcı elemanları olan ek parçalar ile bir sistem bütünü sunmaktadır.",
+      "highlights": {
+        "durable": "Yüksek Dayanıklılık",
+        "easyInstall": "Kolay Kurulum"
+      }
+    },
+    "korugePipe": {
+      "title": "Koruge Boru",
+      "description": "Koruge Boruları, kanalizasyon sistemlerinde yüksek dayanıklılık ve uzun ömür sunar.",
+      "highlights": {
+        "durable": "Yüksek Dayanıklılık",
+        "longLasting": "Uzun Ömür",
+        "easyInstall": "Kolay Kurulum"
+      }
+    },
+    "korugeSpiralPipe": {
+      "title": "Dizayn Koruge Sarmal Boru",
+      "description": "Korige sarmal borular, iç ve dış katmanlardan oluşan çift katmanlı bir yapıya sahiptir. İç katman akışkanı taşıyan düz satıhlı borudur. Dış katman ise kaburgalı yapıdadır. Polietilen ve Polipropilen hammaddelerinden üretilmektedir.",
+      "highlights": {
+        "durable": "Yüksek Dayanıklılık",
+        "longLasting": "Uzun Ömür",
+        "easyInstallation": "Kolay Kurulum"
+      }
+    },
+    "pe80Pipe": {
+      "title": "Dizayn PE 80 Doğalgaz Boru",
+      "description": "Dizayn PE 80 Doğalgaz Boru ve Ek Parçaları, doğalgaz hatlarında güvenilir ve dayanıklı çözümler sunar. Polietilen malzeme kullanımı sayesinde hafif, esnek ve darbelere dayanıklı olan bu borular, doğalgaz hatlarında güvenle kullanılabilir.",
+      "highlights": {
+        "highPressure": "Yüksek Basınç Dayanımı",
+        "flexible": "Esnek",
+        "chemicalResistant": "Kimyasal Dayanım"
+      }
+    },
+    "jeotermalPipe": {
+      "title": "Dizayn Jeotermal Boru",
+      "description": "Dizayn Jeotermal Boruları, sıcak ve soğuk akışkanların ısı transferini engelleyen kompozit borulardır.",
+      "highlights": {
+        "highPressure": "Yüksek Isı Dayanımı",
+        "longLasting": "Yüksek Isı Dayanımı",
+        "corrosionResistant": "Korozyona Dayanıklı"
+      }
+    },
+    "denizDesarjPipe": {
+      "title": "Dizayn Deniz Deşarj Boruları",
+      "description": "Dizayn Deniz Deşarj Boruları, deniz, göl ve nehirlerde atık suyun güvenli ve verimli bir şekilde tahliyesi için tasarlanmıştır.",
+      "highlights": {
+        "durable": "Yüksek Dayanıklılık",
+        "corrosion": "Korozyon Direnci",
+        "longLasting": "Uzun Ömür"
+      }
+    },
+    "chemicalTank": {
+      "title": "Dizayn Kimyasal Tanklar",
+      "description": "Dizayn Kimyasal Tanklar, korozif kimyasalların güvenli ve verimli bir şekilde depolanması için tasarlanmıştır.",
+      "highlights": {
+        "lightWeight": "Hafif ve Dayanıklı",
+        "recyclable": "Geri Dönüşümlü"
+      }
     }
+  },
+  "oduller-ve-basarilar": {
+    "kurumsal": "Kurumsal",
+    "tarihce": "Tarihçe"
   }
 }

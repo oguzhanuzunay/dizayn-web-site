@@ -1,7 +1,5 @@
-'use client';
 import Header from '@/components/Header';
 import LocationCard from '@/components/cards/LocationCard';
-import { SectionWrapper } from '@/hoc';
 import { useTranslations } from 'next-intl';
 
 type contactInfoParams = {
@@ -45,7 +43,7 @@ const Contact = () => {
   ];
 
   return (
-    <div>
+    <div className={'relative z-0 mx-auto max-w-7xl px-6 sm:px-16'}>
       <Header text={t('header')} />
 
       <div

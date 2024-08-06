@@ -192,7 +192,7 @@ const NavigationBar = () => {
             target="blank"
             size="lg"
           >
-            Fiyat Listesi
+            {t('priceList')}
           </Link>
         </NavbarMenuItem>
 

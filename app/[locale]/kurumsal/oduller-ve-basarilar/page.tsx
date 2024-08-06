@@ -1,7 +1,5 @@
-'use client';
 import Header from '@/components/Header';
 import LinkedButton from '@/components/LinkedButton';
-import { SectionWrapper } from '@/hoc';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
@@ -12,15 +10,15 @@ const OdullerVeBasarılar = () => {
   interface kurumsalLinksParam { 
     title: string;
     link: string;
-  }[];
+  };
 
-  const kurumsalLinks:kurumsalLinksParam =  [
+  const kurumsalLinks : kurumsalLinksParam [] =  [
     {
-      title: 'Kurumsal',
+      title: t('kurumsal'),
       link: '/kurumsal',
     },
     {
-      title: 'Tarihçe',
+      title: t('tarihce'),
       link: '/kurumsal/tarihce',
     },
     {
@@ -38,15 +36,13 @@ const OdullerVeBasarılar = () => {
   ];
 
   return (
-    
-
-    <div>
+    <div className='relative z-0 mx-auto max-w-7xl px-6 sm:px-16'>
       <Header text="Tarihçe" />
 
       <div className="flex w-full items-start justify-center py-3 max-md:flex-col ">
         <div className="flex w-1/2 flex-col items-center justify-start max-md:w-full ">
           <div className="m-1 flex flex-row flex-wrap gap-3 p-3">
-            {kurumsalLinks[language]
+            {kurumsalLinks
               .filter(
                 (page) =>
                   page.link.toLowerCase().split('/')[
@@ -104,4 +100,4 @@ const OdullerVeBasarılar = () => {
   );
 };
 
-export default SectionWrapper(OdullerVeBasarılar, 'OdullerVeBasarılar');
+export default OdullerVeBasarılar

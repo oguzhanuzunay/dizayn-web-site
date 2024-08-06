@@ -1,4 +1,3 @@
-'use client';
 import { useLanguageContext } from '@/context/language';
 import Image from 'next/image';
 import { FreeMode, Pagination } from 'swiper/modules';

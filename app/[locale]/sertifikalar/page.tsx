@@ -1,5 +1,3 @@
-'use client';
-import { SectionWrapper } from '@/hoc';
 import { Card, CardBody, CardFooter, Image, Link } from '@nextui-org/react';
 import { useTranslations } from 'next-intl';
 

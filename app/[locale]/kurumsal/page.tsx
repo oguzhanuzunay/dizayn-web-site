@@ -1,10 +1,8 @@
-'use client';
 
 import Header from '@/components/Header';
 import LinkedButton from '@/components/LinkedButton';
 import { kurumsalLinks } from '@/constants';
 import { useLanguageContext } from '@/context/language';
-import { SectionWrapper } from '@/hoc';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
@@ -13,7 +11,7 @@ const Kurumsal = () => {
   const [language] = useLanguageContext();
 
   return (
-    <div>
+    <div className="relative z-0 mx-auto max-w-7xl px-6 sm:px-16">
       <Header text="Kurumsal" />
 
       <div className="my-3 flex flex-col items-center justify-between gap-3 px-4 py-2">
@@ -108,4 +106,4 @@ const Kurumsal = () => {
   );
 };
 
-export default SectionWrapper(Kurumsal, 'Kurumsal');
+export default Kurumsal;

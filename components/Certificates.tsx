@@ -1,4 +1,3 @@
-'use client';
 import { certificateList, languageTexts } from '@/constants';
 import { useLanguageContext } from '@/context/language';
 import { Button } from '@nextui-org/react';

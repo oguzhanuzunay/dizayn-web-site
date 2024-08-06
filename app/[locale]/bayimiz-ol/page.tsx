@@ -1,4 +1,3 @@
-'use client';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
@@ -15,7 +14,6 @@ import {
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { SectionWrapper } from '@/hoc';
 import { cn } from '@/lib/utils';
 import { becomeOurDealerSchema } from '@/lib/validation';
 import { CaretSortIcon, CheckIcon } from '@radix-ui/react-icons';
@@ -30,7 +28,8 @@ import {
 } from '@/components/ui/command';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { citiesData } from '@/database/allCities';
-import { useTranslations } from 'next-intl'
+import { useTranslations } from 'next-intl';
+import { styles } from '@/hoc/styles';
 
 interface BayimizOlProps {
   companyName: string;
@@ -46,7 +45,7 @@ interface BayimizOlProps {
   buttonText: string;
 }
 
-const formText:BayimizOlProps = {
+const formText: BayimizOlProps = {
   companyName: 'Firma Adı*',
   fullName: 'Ad Soyad*',
   phone: 'Tel',
@@ -89,7 +88,7 @@ const BayimizOl = () => {
   }
 
   return (
-    <div>
+    <div className={`${styles.paddingX} relative z-0 mx-auto max-w-7xl`}>
       <div className="mb-5 flex h-5 w-full items-center bg-gray-500 p-5">
         <h2 className="font-spaceGrotesk text-2xl font-semibold text-white">{t('title')}</h2>
       </div>
@@ -310,4 +309,4 @@ const BayimizOl = () => {
   );
 };
 
-export default SectionWrapper(BayimizOl, 'BayimizOl');
+export default BayimizOl;

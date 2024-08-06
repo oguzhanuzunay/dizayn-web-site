@@ -1,30 +1,198 @@
-'use client';
 import Header from '@/components/Header';
 import MatrixCard from '@/components/cards/MatrixCard';
 import ProductCard from '@/components/cards/ProductCard';
-import { productList } from '@/constants';
-import { useLanguageContext } from '@/context/language';
-import { SectionWrapper } from '@/hoc';
+import { useTranslations } from 'next-intl';
 
 const Products = () => {
-  const [language] = useLanguageContext();
+  const t = useTranslations('SuperStructureProducts');
+
+  const superStructureProducts = [
+    {
+      title: t('elitePipe.title'),
+      description: t('elitePipe.description'),
+      featuredProduct: true,
+      logo: '/productImages/üst yapı borular/elite-pipe-ve-ek/logo.png',
+      isNewTech: true,
+      banner: {
+        vertical: '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/vertical.jpg',
+        horizontal: '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/horizontal.png',
+        bgImage: '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/bg-image.png',
+        PLP: 'productImages/üst yapı borular/elite-pipe-ve-ek/banner/PLP.png',
+      },
+      image: '/productImages/üst yapı borular/elite-pipe-ve-ek/elitePipeBanner.png',
+      background: 'bg-background-1',
+      link: '/urunler/bina-ici-boru-sistemleri/elitepipe',
+      highlights: [
+        {
+          title: t('elitePipe.highlights.highPressure'),
+          icon: '/icons/high-pressure.png',
+        },
+        {
+          title: t('elitePipe.highlights.kangal'),
+          icon: '/icons/worker-pushing-a-cart.png',
+        },
+        {
+          title: t('elitePipe.highlights.durable'),
+          icon: '/icons/durable.png',
+        },
+      ],
+    },
+
+    {
+      title: t('sterilePipe.title'),
+      description: t('sterilePipe.description'),
+      featuredProduct: true,
+      logo: '/productImages/üst yapı borular/sterile-pipe/logo.png',
+      isNewTech: true,
+      banner: {
+        vertical: '/productImages/üst yapı borular/sterile-pipe/banner/vertical.jpg',
+        horizontal: '/productImages/üst yapı borular/sterile-pipe/banner/horizontal.png',
+        bgImage: '/productImages/üst yapı borular/sterile-pipe/banner/bg-image.png',
+        PLP: '/productImages/üst yapı borular/sterile-pipe/banner/PLP.png',
+      },
+      image: '/productImages/üst yapı borular/sterile-pipe/sterilePipeBanner.png',
+      background: 'bg-background-2',
+      link: '/urunler/bina-ici-boru-sistemleri/sterilepipe',
+      highlights: [
+        { title: t('sterilePipe.highlights.antimicrobial'), icon: '/icons/antimicrobial.png' },
+        { title: t('sterilePipe.highlights.longLasting'), icon: '/icons/long-lasting.png' },
+        { title: t('sterilePipe.highlights.drinkWater'), icon: '/icons/drink-water.png' },
+      ],
+    },
+
+    {
+      title: t('softPowerPipe.title'),
+      description: t('softPowerPipe.description'),
+      featuredProduct: false,
+      logo: '/productImages/üst yapı borular/soft-power-ek/logo.png',
+      isNewTech: true,
+      banner: {
+        vertical: '/productImages/üst yapı borular/soft-power-ek/banner/vertical.jpg',
+        horizontal: '/productImages/üst yapı borular/soft-power-ek/banner/horizontal.png',
+        PLP: '/productImages/üst yapı borular/soft-power-ek/banner/PLP.png',
+        bgImage: '',
+      },
+      image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+      link: '/urunler/bina-ici-boru-sistemleri/softpower-boru',
+      highlights: [
+        { title: t('softPowerPipe.highlights.durable'), icon: '/icons/durable.png' },
+        { title: t('softPowerPipe.highlights.flexible'), icon: '/icons/flexible.png' },
+        { title: t('softPowerPipe.highlights.saveTime'), icon: '/icons/save-time.png' },
+      ],
+      background: '',
+    },
+
+    {
+      title: t('elasticaPipe.title'),
+      description: t('elasticaPipe.description'),
+      featuredProduct: false,
+      logo: '/productImages/üst yapı borular/mobil-boru-ve-ek/logo.png',
+      isNewTech: true,
+      banner: {
+        vertical: '/productImages/üst yapı borular/mobil-boru-ve-ek/banner/vertical.jpg',
+        horizontal: '/productImages/üst yapı borular/mobil-boru-ve-ek/banner/horizontal.png',
+        PLP: '/productImages/üst yapı borular/mobil-boru-ve-ek/banner/PLP.png',
+        bgImage: '',
+      },
+      image: '/productImages//üst yapı borular/mobil-boru-ve-ek/KILIFLI ELASTICA BORU.png',
+      link: '/urunler/bina-ici-boru-sistemleri/elastica-boru',
+      highlights: [
+        {
+          title: t('elasticaPipe.highlights.highTemperature'),
+          icon: '/icons/high-temperature.png',
+        },
+        {
+          title: t('elasticaPipe.highlights.flexible'),
+          icon: '/icons/flexible-durable.png',
+        },
+        { title: t('elasticaPipe.highlights.easyInstall'), icon: '/icons/easy-installation.png' },
+      ],
+      background: '',
+    },
+
+    {
+      title: t('nanotechPipe.title'),
+      description: t('nanotechPipe.description'),
+      featuredProduct: false,
+      logo: '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/logo.png',
+      isNewTech: true,
+      banner: {
+        vertical: '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/banner/vertical.jpg',
+        horizontal:
+          '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/banner/horizontal.png',
+        PLP: '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/banner/PLP.png',
+        bgImage: '',
+      },
+      image:
+        '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/üst yapı borular/atık-su-nanotek-boru-ve-ek.png',
+      link: '/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium',
+      highlights: [
+        { title: t('nanotechPipe.highlights.soundProof'), icon: '/icons/soundproof.png' },
+        { title: t('nanotechPipe.highlights.durable'), icon: '/icons/durability.png' },
+        { title: t('nanotechPipe.highlights.longLasting'), icon: '/icons/long-lasting.png' },
+      ],
+      background: '',
+    },
+
+    {
+      title: t('triplexPipe.title'),
+      description: t('triplexPipe.description'),
+      featuredProduct: false,
+      logo: '/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/logo.png',
+      isNewTech: true,
+      banner: {
+        vertical:
+          '/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/banner/vertical.jpg',
+        horizontal:
+          '/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/banner/horizontal.png',
+        PLP: '/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/banner/PLP.png',
+        bgImage: '',
+      },
+      image:
+        '/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/TRİPLEX ATIK SU BORUSU.png',
+      link: '/urunler/bina-ici-boru-sistemleri/triplex-pipe',
+      highlights: [
+        { title: t('triplexPipe.highlights.durable'), icon: '/icons/durable.png' },
+        { title: t('triplexPipe.highlights.seal'), icon: '/icons/seal.png' },
+        { title: t('triplexPipe.highlights.easyInstall'), icon: '/icons/easy-installation.png' },
+      ],
+      background: '',
+    },
+
+    {
+      title: t('pprPipe.title'),
+      description: t('pprPipe.description'),
+      featuredProduct: false,
+      logo: '',
+      isNewTech: false,
+      banner: {
+        vertical: '/productImages/üst yapı borular/ppr-boru-ve-ek/banner/vertical.jpg',
+        horizontal: '/productImages/üst yapı borular/ppr-boru-ve-ek/banner/horizontal.png',
+        PLP: '/productImages/üst yapı borular/ppr-boru-ve-ek/banner/PLP.png',
+        bgImage: '',
+      },
+      image: '/productImages/üst yapı borular/ppr-boru-ve-ek/üst yapı borular/ppr-boru-ve-ek.png',
+      link: '/urunler/bina-ici-boru-sistemleri/ppr-boru',
+      highlights: [
+        { title: t('pprPipe.highlights.highDurability'), icon: '/icons/high-durability.png' },
+        { title: t('pprPipe.highlights.easyWelding'), icon: '/icons/easy-welding.png' },
+        { title: t('pprPipe.highlights.longLasting'), icon: '/icons/long-lasting.png' },
+      ],
+      background: '',
+    },
+  ];
 
   return (
     <div>
-      <Header text="BİNA İÇİ BORU SİSTEMLERİ" />
+      <Header text={t('header')} />
 
       <div className="px-2 py-4">
-        <p className="text-center font-sans text-lg">
-          Dizayn Grup olarak, 37 yıllık tecrübemiz ve Ar-Ge çalışmalarımızla geliştirdiğimiz üstün
-          kaliteli boru sistemleriyle dayanıklı ve uzun ömürlü çözümler sunuyoruz. Enerji
-          verimliliği, çevre dostu ve hijyenik özellikleriyle ürünlerimiz, güvenilir ve
-          sürdürülebilir projeler için idealdir.
-        </p>
+        <p className="text-center font-sans text-lg">{t('description')}</p>
       </div>
 
       <div className="relative my-3 flex w-full flex-row px-2 max-md:flex-col">
         <div className="absolute left-0 top-0 z-0 size-full gap-3 bg-contain opacity-45" />
-        {productList[language].superStructureProducts
+        {superStructureProducts
           .filter((item) => item.featuredProduct === true)
           .map((item, index) => (
             <MatrixCard
@@ -43,9 +211,7 @@ const Products = () => {
       </div>
 
       <div className="px-2 py-4">
-        <p className="text-center font-sans text-lg">
-        Bina içi boru sistemlerinde Dizayn Grup&apos;un üstün çözümleriyle projelerinizi bir adım öne taşıyın. Enerji verimliliği, hijyen ve uzun ömürlü kullanım sunar.
-        </p>
+        <p className="text-center font-sans text-lg">{t('description2')}</p>
       </div>
 
       <div
@@ -53,7 +219,7 @@ const Products = () => {
        grid-cols-5 items-center justify-items-center 
        gap-0 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
       >
-        {productList[language].superStructureProducts.map(
+        {superStructureProducts.map(
           (item) =>
             item &&
             !item.featuredProduct === true && (
@@ -64,7 +230,7 @@ const Products = () => {
                 <ProductCard
                   item={{
                     ...item,
-                    customCSS: ''
+                    customCSS: '',
                   }}
                   isPLP={true}
                 />
@@ -76,4 +242,4 @@ const Products = () => {
   );
 };
 
-export default SectionWrapper(Products, 'urunler');
+export default Products;

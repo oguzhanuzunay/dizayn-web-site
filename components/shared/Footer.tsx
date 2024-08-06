@@ -1,11 +1,110 @@
-'use client';
-import { languageTexts } from '@/constants';
-import { useLanguageContext } from '@/context/language';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
+interface footerContentParams {
+  socialMedia: {
+    name: string;
+    link: string;
+    image: string;
+    alt: string;
+  }[];
+  links: {
+    [x: string]: string | any;
+    title: string;
+    content: {
+      title: string;
+      link: string;
+      highlight?: boolean;
+    }[];
+  }[];
+}
 
 const Footer = () => {
-  const [language] = useLanguageContext();
+  const t = useTranslations('Footer');
+
+  const links = [
+    {
+      title: 'Dizayn Grup',
+      image: '/icons/company.png',
+      alt: 'company icon',
+      content: [
+        {
+          title: 'Kurumsal',
+          link: '/kurumsal',
+        },
+        {
+          title: 'Misyon ve Vizyon',
+          link: '/kurumsal/vizyon-ve-misyon',
+        },
+        {
+          title: 'Ödüller ve Başarılar',
+          link: '/kurumsal/oduller-ve-basarilar',
+          highlight: true,
+        },
+        {
+          title: 'Taahhütname',
+          link: '/kurumsal/taahhutname',
+        },
+      ],
+    },
+    {
+      title: 'Ürünler',
+      image: '/icons/product.png',
+      alt: 'product icon',
+      content: [
+        {
+          title: 'ElitePipe',
+          link: 'urunler/bina-ici-boru-sistemleri/elitepipe',
+        },
+        {
+          title: 'SterilePipe',
+          link: '/urunler/bina-ici-boru-sistemleri/sterilepipe',
+        },
+        {
+          title: 'Bina İçi  Boru Sistemleri',
+          link: '/urunler/bina-ici-boru-sistemleri',
+        },
+        {
+          title: 'Altyapı Boru Sistemleri',
+          link: '/urunler/altyapi-boru-sistemleri',
+        },
+      ],
+    },
+    {
+      title: 'Hizmetler',
+      image: '/icons/service.png',
+      alt: 'service icon',
+      content: [
+        {
+          title: 'Hesaplamalar',
+          link: '/hesaplamalar',
+        },
+        {
+          title: 'Bayilerimiz',
+          link: '/bayilerimiz',
+        },
+        {
+          title: 'Projelerimiz',
+          link: '/projelerimiz',
+        },
+        {
+          title: 'Sertifikalar',
+          link: '/sertifikalar',
+        },
+      ],
+    },
+    {
+      title: 'İletişim',
+      image: '/icons/communication.png',
+      alt: 'communication icon',
+      content: [
+        {
+          title: 'İletişim',
+          link: '/iletisim',
+        },
+      ],
+    },
+  ];
 
   const imageContent = [
     {
@@ -24,9 +123,6 @@ const Footer = () => {
       alt: 'SterilePipe',
     },
   ];
-
-  const footerContent = languageTexts[language].footer.footerContent;
-
   const socialMedia = [
     {
       name: 'Facebook',
@@ -120,35 +216,9 @@ const Footer = () => {
           ))}
         </div>
 
-        {/* Address part 
-        <div
-          className={`grid grid-cols-5 gap-2 border-b-1 border-black pb-3 max-md:grid-cols-3 max-sm:grid-cols-1`}
-        >
-          {footerContent.companyInformation.map((item, index) => (
-            <div
-              key={item.text}
-              className={`flex flex-row items-center justify-start gap-3 ${
-                index === 0 ? 'col-span-2 max-md:col-span-3' : 'max-sm:col-span-3'
-              }`}
-            >
-              <Image
-                src={item.image}
-                alt={item.alt}
-                width={100}
-                height={60}
-                className="max-h-9 max-w-fit invert max-md:max-h-8 max-md:max-w-fit max-sm:max-h-7 max-sm:max-w-fit"
-              />
-              <div className={`flex flex-col`}>
-                <p className="text-sm font-bold text-gray-900">{item.title}</p>
-                <p className="font-quicksand text-tiny text-gray-800">{item.text}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-*/}
         {/* Links part */}
         <div className="flex flex-row flex-wrap justify-between gap-8 pt-8 max-md:gap-6 max-md:pt-6 max-sm:gap-4 max-sm:pt-4">
-          {footerContent.links.map((item) => (
+          {links.map((item) => (
             <div
               key={item.title}
               className="flex flex-col gap-1"

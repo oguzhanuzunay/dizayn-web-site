@@ -27,7 +27,8 @@
       "certificates": "Certificates",
       "contact": "Contact",
       "arge": "R&D"
-    }
+    },
+    "priceList": "Price list"
   },
   "Certificates": {
     "germany": {
@@ -83,7 +84,8 @@
         "certificate-1": "DIN 16961 SPIRAL CERTIFICATION",
         "certificate-2": "ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093",
         "certificate-3": "ISRAEL QUALITY INSTITUTE SPIRAL WOUND PIPE CERTIFICATE -112093-ENG_",
-        "certificate-4": "TS 12132 COILED PIPE TSE CERTIFICATE"
+        "certificate-4": "TS 12132 COILED PIPE TSE CERTIFICATE",
+        "certificate-5": "TS EN 13476-3 CORRUGATED PIPE TSE CERTIFICATE"
       }
     },
     "romania": {
@@ -92,11 +94,15 @@
     },
     "russia": {
       "name": "Russia",
-      "title": "Rusya Sertifikaları"
+      "title": "Russia Certificates"
     },
     "belarus": {
       "name": "Belarus",
       "title": "Belarus Certificates"
+    },
+    "ukraine": {
+      "name": "Ukraine",
+      "title": "Ukrainian Certificates"
     },
     "poland": {
       "name": "Poland",
@@ -108,16 +114,6 @@
     "title": "Become Our Dealer",
     "notFound": "City not found.",
     "messagePlaceholder": "Enter the description section here."
-  },
-  "contactInfo": {
-    "istanbul": {
-      "title": "Istanbul Office",
-      "address": "Atatürk Mahallesi Adnan Menderes Caddesi No: 6 Kıraç/Esenyurt/İstanbul Address Code: 34522"
-    },
-    "tekirdag": {
-      "title": "Çorlu Factory",
-      "address": "Velimeşe Mahallesi Hacı Şeremet Caddesi No: 6/1 Ergene/Tekirdağ Address Code: 2623043037"
-    }
   },
   "Iletisim": {
     "header": "Communication",
@@ -133,13 +129,25 @@
     }
   },
   "Projelerimiz": {
+    "istanbulHavaAlani": {
+      "title": "Istanbul Airport",
+      "alt": "Istanbul Airport"
+    },
+    "hongKongAdalarProjesi": {
+      "title": "Hong Kong Islands Project",
+      "alt": "Hong Kong Islands Project"
+    },
+    "dubaiPalmiyeAdalari": {
+      "title": "Dubai Palm Islands",
+      "alt": "Dubai Palm Islands"
+    },
+    "sicilyaAdasiKanalizasyonProjesi": {
+      "title": "Sicily Islands Sewage Project",
+      "alt": "Sicily Islands Sewage Project"
+    },
     "antalyahurmaatiksuaritmatesisleri": {
       "title": "Antalya Hurma Wastewater Treatment Plant",
       "alt": "Antalya Hurma Wastewater Treatment Plant"
-    },
-    "hollandaBechtelEnkaElektrikSantraliProjesi": {
-      "alt": "",
-      "title": ""
     },
     "buyukcekmeceDenizDesarjProjesi": {
       "title": "Büyükçekmece Sea Outfall Project",
@@ -166,11 +174,12 @@
       "alt": "Salihli City Heating Project"
     },
     "SicilyaAdasiKanalizasyonProjesi": {
-      "title": "Sicily Island Sewage Project",
-      "alt": "Sicily Island Sewage Project"
+      "title": "Sicily Islands Sewage Project",
+      "alt": "Sicily Islands Sewage Project"
     },
     "SinopErfelekHidroelektrikSantralProjesi": {
-      "alt": "sinop-erfelek-hydroelectric-power-plant-project"
+      "alt": "sinop-erfelek-hydroelectric-power-plant-project",
+      "title": "Sinop Erfelek Hydroelectric Power Plant Project"
     },
     "SouthgateEndonezyaProjesi": {
       "title": "Southgate Indonesia Project",
@@ -183,23 +192,166 @@
     "Header": "Our projects",
     "allReferances": "All Our References"
   },
+  "DealerCard": {
+    "seeOnMap": "See on Map"
+  },
   "LocationCard": {
     "contactInfo": "Our Contact Information",
     "Address": "Address:",
     "phone": "Telephone",
     "mail": "Email"
   },
-  "DealerCard": {
-    "seeOnMap": "See on Map"
-  },
-  "products": {
+  "SuperStructureProducts": {
+    "header": "INDOOR PIPING SYSTEMS",
+    "description": "As Dizayn Group, we offer durable and long-lasting solutions with superior quality pipe systems developed with our 37 years of experience and R&D studies. \nWith their energy efficiency, environmentally friendly and hygienic features, our products are ideal for reliable and sustainable projects.",
+    "description2": "Take your projects a step further with Dizayn Group's superior solutions in indoor pipe systems. It offers energy efficiency, hygiene, and long-lasting use.",
     "elitePipe": {
-      "title": "Elite Pipe"
+      "title": "Elite Pipe",
+      "description": "ElitePipe is a safe and long-lasting pipe system with high temperature and pressure resistance. \nBy combining the advantages of PPR, PEX and PERT pipes, it provides superior performance and durability.",
+      "highlights": {
+        "highPressure": "High Compressive Strength at High Temperature",
+        "kangal": "Ease of Shipment in Kangal Form",
+        "durable": "Break Resistance Even at Minus 40 Degrees"
+      }
+    },
+    "sterilePipe": {
+      "title": "Sterile Pipe",
+      "description": "Sterile Pipe is an innovative pipe system that sterilizes up to 99.9% of the water passing through it by destroying bacteria, mold, fungi and other microbial creatures.",
+      "highlights": {
+        "antimicrobial": "Antimicrobial Feature",
+        "longLasting": "Long life",
+        "drinkWater": "Healthy Water"
+      }
+    },
+    "softPowerPipe": {
+      "title": "SoftPower Pipe",
+      "description": "SoftPower Pipe is a durable and long-lasting pipe system made of PE63 raw material, offering high oxidation resistance, flexibility and easy installation.",
+      "highlights": {
+        "durable": "Shockproof",
+        "flexible": "Flexible",
+        "saveTime": "Cost Savings"
+      }
+    },
+    "elasticaPipe": {
+      "title": "Elastica Pipe",
+      "description": "Elastica Pipe is an innovative pipe system that stands out with its resistance to high temperature and pressure, flexible structure and ease of installation. \nIt can be used safely in both underfloor heating systems and radiator installations.",
+      "highlights": {
+        "highTemperature": "High Temperature and Pressure Resistance",
+        "flexible": "Flexibility and Durability",
+        "easyInstall": "Easy assembling"
+      }
+    },
+    "nanotechPipe": {
+      "title": "NanoTech Waste Water Pipe",
+      "description": "NanoTech Waste Water Pipe is a sound-insulating, highly durable and long-lasting pipe system. \nIt is an ideal solution for indoor and outdoor wastewater discharge.",
+      "highlights": {
+        "soundProof": "Sound insulation",
+        "durable": "Unbreakable Structure",
+        "longLasting": "Long life"
+      }
+    },
+    "triplexPipe": {
+      "title": "Triplex Waste Water Pipes",
+      "description": "Triplex Waste Water Pipes are a high-durability and long-lasting pipe system laid for the discharge of used water inside and outside the building.",
+      "highlights": {
+        "durable": "Unbreakable Structure",
+        "seal": "High Tightness",
+        "easyInstall": "Easy assembling"
+      }
+    },
+    "pprPipe": {
+      "title": "PPR Pipe",
+      "description": "PPR Pipe and fittings are produced from Polypropylene Random Copolymer raw material, which has low melt flow index, high molecular weight and high flexibility.",
+      "highlights": {
+        "highDurability": "High Strength",
+        "easyWelding": "Easy Source",
+        "longLasting": "Long life"
+      }
     }
   },
-  "ProductList": {
-    "elitePipe": {
-      "title": "Elite Pipe"
+  "InfrastructureProducts": {
+    "telecomPipe": {
+      "highlights": {
+        "durable": "High Durability",
+        "easyInstall": "Easy setup"
+      },
+      "title": "Telecom Pipes",
+      "description": "Cable Casing Pipes are used in rapidly developing communication and data transmission piping systems. \nIt is offered with different options, from single to triple, in accordance with the demand and specification. \nIt offers a whole system with additional parts that are eye multipliers and complementary elements."
+    },
+    "korugePipe": {
+      "title": "Corrugated Pipe",
+      "description": "Corrugated Pipes offer high durability and long life in sewer systems.",
+      "highlights": {
+        "durable": "High Durability",
+        "longLasting": "Long life",
+        "easyInstall": "Easy setup"
+      }
+    },
+    "korugeSpiralPipe": {
+      "title": "Dizayn Corrugated Spiral Pipe",
+      "description": "Corrugated spiral pipes have a double-layer structure consisting of inner and outer layers. \nThe inner layer is a flat surface pipe that carries the fluid. \nThe outer layer has a ribbed structure. \nIt is produced from Polyethylene and Polypropylene raw materials.",
+      "highlights": {
+        "longLasting": "Long life",
+        "easyInstallation": "Easy setup",
+        "durable": "High Durability"
+      }
+    },
+    "pe80Pipe": {
+      "title": "Dizayn PE 80 Natural Gas Pipe",
+      "description": "Dizayn PE 80 Natural Gas Pipes and Fittings offer reliable and durable solutions in natural gas lines. \nThese pipes, which are light, flexible and impact resistant thanks to the use of polyethylene material, can be used safely in natural gas lines.",
+      "highlights": {
+        "highPressure": "High Compressive Strength",
+        "flexible": "Flexible",
+        "chemicalResistant": "Chemical Resistance"
+      }
+    },
+    "jeotermalPipe": {
+      "title": "Dizayn Geothermal Pipe",
+      "highlights": {
+        "highPressure": "High Heat Resistance",
+        "longLasting": "High Heat Resistance",
+        "corrosionResistant": "Corrosion Resistant"
+      },
+      "description": "Dizayn Geothermal Pipes are composite pipes that prevent the heat transfer of hot and cold fluids."
+    },
+    "denizDesarjPipe": {
+      "title": "Dizayn Marine Discharge Pipes",
+      "description": "Dizayn Marine Discharge Pipes are designed for the safe and efficient discharge of wastewater in seas, lakes and rivers.",
+      "highlights": {
+        "durable": "High Durability",
+        "corrosion": "Corrosion Resistance",
+        "longLasting": "Long life"
+      }
+    },
+    "chemicalTank": {
+      "title": "Design Chemical Tanks",
+      "description": "Dizayn Chemical Tanks are designed for the safe and efficient storage of corrosive chemicals.",
+      "highlights": {
+        "lightWeight": "Lightweight and Durable",
+        "recyclable": "Recycled"
+      }
+    },
+    "softPowerPipe": {
+      "title": "SoftPower Pipe",
+      "description": "SoftPower Pipe is a durable and long-lasting pipe system made of PE63 raw material, offering high oxidation resistance, flexibility and easy installation.",
+      "highlights": {
+        "durable": "Shockproof",
+        "flexible": "Flexible",
+        "saveTime": "Cost Savings"
+      }
+    },
+    "rtpPipe": {
+      "title": "RTP Pipe",
+      "description": "RTP (Reinforced Thermoplastic Pipe) Pipes are suitable for all kinds of water, gas, oil, etc. with high pressure resistance. \nis used for transportation. \nWhile it resists high pressures like steel pipes with its strong composite structure, it offers all the advantages of plastic pipes to its users with its thermoplastic raw material.",
+      "highlights": {
+        "highPressure": "High Compressive Strength",
+        "flexible": "Flexibility",
+        "longLasting": "Long life"
+      }
     }
+  },
+  "oduller-ve-basarilar": {
+    "kurumsal": "Institutional",
+    "tarihce": "history"
   }
 }

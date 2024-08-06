@@ -1,4 +1,3 @@
-'use client';
 import Header from '@/components/Header';
 import MapComponent from '@/components/MapComponent/MapComponent';
 import { useTranslations } from 'next-intl';

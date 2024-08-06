@@ -1,10 +1,7 @@
-'use client';
-
 import Header from '@/components/Header';
 import LinkedButton from '@/components/LinkedButton';
 import { kurumsalLinks } from '@/constants';
 import { useLanguageContext } from '@/context/language';
-import { SectionWrapper } from '@/hoc';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
@@ -13,7 +10,7 @@ const VizyonVeMisyon = () => {
   const [language] = useLanguageContext();
 
   return (
-    <div>
+    <div className="relative z-0 mx-auto max-w-7xl px-6 sm:px-16">
       <Header text="Vizyonumuz ve Misyonumuz" />
 
       <div className="flex w-full items-start justify-center py-3 max-md:flex-col ">
@@ -76,4 +73,4 @@ const VizyonVeMisyon = () => {
   );
 };
 
-export default SectionWrapper(VizyonVeMisyon, 'VizyonVeMisyon');
+export default VizyonVeMisyon;

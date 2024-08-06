@@ -1,4 +1,3 @@
-'use client';
 import { countryCertificate } from '@/constants';
 import { useLanguageContext } from '@/context/language';
 import { BreadcrumbItem, Breadcrumbs } from '@nextui-org/react';

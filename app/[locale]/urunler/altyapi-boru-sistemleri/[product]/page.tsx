@@ -1,4 +1,3 @@
-'use client';
 import FAQs from '@/components/FAQs';
 import Header from '@/components/Header';
 import ProductDetailCard from '@/components/ProductDetail/ProductDetailCard';
