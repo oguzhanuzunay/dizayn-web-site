@@ -15,13 +15,13 @@ const Products = () => {
       isNewTech: true,
       banner: {
         vertical: '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/vertical.jpg',
-        horizontal: '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/horizontal.png',
-        bgImage: '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/bg-image.png',
-        PLP: 'productImages/üst yapı borular/elite-pipe-ve-ek/banner/PLP.png',
+        horizontal: t('elitePipe.banner.horizontal'),
+        bgImage: t('elitePipe.banner.bgImage'),
+        PLP: t('elitePipe.banner.PLP'),
       },
       image: '/productImages/üst yapı borular/elite-pipe-ve-ek/elitePipeBanner.png',
       background: 'bg-background-1',
-      link: '/urunler/bina-ici-boru-sistemleri/elitepipe',
+      link: t('elitePipe.link'),
       highlights: [
         {
           title: t('elitePipe.highlights.highPressure'),
@@ -46,13 +46,13 @@ const Products = () => {
       isNewTech: true,
       banner: {
         vertical: '/productImages/üst yapı borular/sterile-pipe/banner/vertical.jpg',
-        horizontal: '/productImages/üst yapı borular/sterile-pipe/banner/horizontal.png',
-        bgImage: '/productImages/üst yapı borular/sterile-pipe/banner/bg-image.png',
-        PLP: '/productImages/üst yapı borular/sterile-pipe/banner/PLP.png',
+        horizontal: t('sterilePipe.banner.horizontal'),
+        bgImage: '/productImages/üst yapı borular/sterile-pipe/banner/tr/bg-image.png',
+        PLP: t('sterilePipe.banner.PLP'),
       },
       image: '/productImages/üst yapı borular/sterile-pipe/sterilePipeBanner.png',
       background: 'bg-background-2',
-      link: '/urunler/bina-ici-boru-sistemleri/sterilepipe',
+      link: t('sterilePipe.link'),
       highlights: [
         { title: t('sterilePipe.highlights.antimicrobial'), icon: '/icons/antimicrobial.png' },
         { title: t('sterilePipe.highlights.longLasting'), icon: '/icons/long-lasting.png' },
@@ -68,12 +68,12 @@ const Products = () => {
       isNewTech: true,
       banner: {
         vertical: '/productImages/üst yapı borular/soft-power-ek/banner/vertical.jpg',
-        horizontal: '/productImages/üst yapı borular/soft-power-ek/banner/horizontal.png',
-        PLP: '/productImages/üst yapı borular/soft-power-ek/banner/PLP.png',
+        horizontal: t('softPowerPipe.banner.horizontal'),
+        PLP: '/productImages/üst yapı borular/soft-power-ek/banner/tr/PLP.png',
         bgImage: '',
       },
       image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
-      link: '/urunler/bina-ici-boru-sistemleri/softpower-boru',
+      link: t('softPowerPipe.link'),
       highlights: [
         { title: t('softPowerPipe.highlights.durable'), icon: '/icons/durable.png' },
         { title: t('softPowerPipe.highlights.flexible'), icon: '/icons/flexible.png' },
@@ -90,12 +90,12 @@ const Products = () => {
       isNewTech: true,
       banner: {
         vertical: '/productImages/üst yapı borular/mobil-boru-ve-ek/banner/vertical.jpg',
-        horizontal: '/productImages/üst yapı borular/mobil-boru-ve-ek/banner/horizontal.png',
-        PLP: '/productImages/üst yapı borular/mobil-boru-ve-ek/banner/PLP.png',
+        horizontal: t('elasticaPipe.banner.horizontal'),
+        PLP: t('elasticaPipe.banner.PLP'),
         bgImage: '',
       },
       image: '/productImages//üst yapı borular/mobil-boru-ve-ek/KILIFLI ELASTICA BORU.png',
-      link: '/urunler/bina-ici-boru-sistemleri/elastica-boru',
+      link: t('elasticaPipe.link'),
       highlights: [
         {
           title: t('elasticaPipe.highlights.highTemperature'),
@@ -119,13 +119,13 @@ const Products = () => {
       banner: {
         vertical: '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/banner/vertical.jpg',
         horizontal:
-          '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/banner/horizontal.png',
-        PLP: '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/banner/PLP.png',
+          t('nanotechPipe.banner.horizontal'),
+        PLP: t('nanotechPipe.banner.PLP'),
         bgImage: '',
       },
       image:
         '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/üst yapı borular/atık-su-nanotek-boru-ve-ek.png',
-      link: '/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium',
+      link: t('nanotechPipe.link'),
       highlights: [
         { title: t('nanotechPipe.highlights.soundProof'), icon: '/icons/soundproof.png' },
         { title: t('nanotechPipe.highlights.durable'), icon: '/icons/durability.png' },
@@ -144,13 +144,13 @@ const Products = () => {
         vertical:
           '/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/banner/vertical.jpg',
         horizontal:
-          '/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/banner/horizontal.png',
-        PLP: '/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/banner/PLP.png',
+          t('triplexPipe.banner.horizontal'),
+        PLP: t('triplexPipe.banner.PLP'),
         bgImage: '',
       },
       image:
         '/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/TRİPLEX ATIK SU BORUSU.png',
-      link: '/urunler/bina-ici-boru-sistemleri/triplex-pipe',
+      link: t('triplexPipe.link'),
       highlights: [
         { title: t('triplexPipe.highlights.durable'), icon: '/icons/durable.png' },
         { title: t('triplexPipe.highlights.seal'), icon: '/icons/seal.png' },
@@ -167,12 +167,12 @@ const Products = () => {
       isNewTech: false,
       banner: {
         vertical: '/productImages/üst yapı borular/ppr-boru-ve-ek/banner/vertical.jpg',
-        horizontal: '/productImages/üst yapı borular/ppr-boru-ve-ek/banner/horizontal.png',
-        PLP: '/productImages/üst yapı borular/ppr-boru-ve-ek/banner/PLP.png',
+        horizontal: t('pprPipe.banner.horizontal'),
+        PLP: t('pprPipe.banner.PLP'),
         bgImage: '',
       },
       image: '/productImages/üst yapı borular/ppr-boru-ve-ek/üst yapı borular/ppr-boru-ve-ek.png',
-      link: '/urunler/bina-ici-boru-sistemleri/ppr-boru',
+      link: t('pprPipe.link'),
       highlights: [
         { title: t('pprPipe.highlights.highDurability'), icon: '/icons/high-durability.png' },
         { title: t('pprPipe.highlights.easyWelding'), icon: '/icons/easy-welding.png' },

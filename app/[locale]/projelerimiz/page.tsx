@@ -1,3 +1,4 @@
+'use client';
 import Header from '@/components/Header';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -9,16 +10,16 @@ import { useTranslations } from 'next-intl';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 
-type referenceListParams = {
+interface referenceListParams {
   title: string;
   image: string;
   alt?: string;
-}[];
+}
 
 const Projelerimiz = () => {
   const t = useTranslations('Projelerimiz');
 
-  const referenceList: referenceListParams = [
+  const referenceList: referenceListParams[] = [
     {
       title: t('istanbulHavaAlani.title'),
       image: '/references/istanbul-hava-alani.png',

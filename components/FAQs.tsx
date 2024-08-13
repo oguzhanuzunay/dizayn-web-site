@@ -1,11 +1,22 @@
-import { faqsParams } from '@/types';
 import { Accordion, AccordionItem } from '@nextui-org/accordion';
+import { useTranslations } from 'next-intl';
 
-const FAQs = ({ faqs, textColor, bgColor }: faqsParams) => {
+interface faqsParams {
+  [key: string]: {
+    question: string;
+    answer: string;
+    textColor?: string;
+    bgColor?: string;
+  }[];
+}
+
+const FAQs = ({ faqs = [], textColor, bgColor }: faqsParams) => {
+  const t = useTranslations('FAQs');
+
   return (
     <div className={`m-3 rounded-lg p-6 ${textColor} ${bgColor}`}>
       <h3>
-        <b className="text-2xl">Sıkça Sorulan Sorular</b>
+        <b className="text-2xl">{t('header')}</b>
       </h3>
       {faqs.map((faq, index) => {
         return (

@@ -1,22 +1,50 @@
+'use client';
 import Header from '@/components/Header';
 import LinkedButton from '@/components/LinkedButton';
-import { kurumsalLinks } from '@/constants';
-import { useLanguageContext } from '@/context/language';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 const Tarihce = () => {
   const pathname = usePathname();
-  const [language] = useLanguageContext();
+
+  const t = useTranslations('Kurumsal');
+  interface kurumsalLinksParam {
+    title: string;
+    link: string;
+  }
+
+  const kurumsalLinks: kurumsalLinksParam[] = [
+    {
+      title: t('kurumsal.title'),
+      link: t('kurumsal.link'),
+    },
+    {
+      title: t('tarihce.title'),
+      link: t('tarihce.link'),
+    },
+    {
+      title: t('vizyon-ve-misyon.title'),
+      link: t('vizyon-ve-misyon.link'),
+    },
+    {
+      title: t('taahhutname.title'),
+      link: t('taahhutname.link'),
+    },
+    {
+      title: t('oduller-ve-basarilar.title'),
+      link: t('oduller-ve-basarilar.link'),
+    },
+  ];
 
   return (
     <div className="relative z-0 mx-auto max-w-7xl px-6 sm:px-16">
-      <Header text="Tarihçe" />
+      <Header text={t('tarihce.title')} />
 
       <div className="flex w-full items-start justify-center py-3 max-md:flex-col ">
         <div className="flex w-1/2 flex-col items-center justify-start max-md:w-full">
           <div className="m-1 flex flex-row flex-wrap gap-3 p-3">
-            {kurumsalLinks[language]
+            {kurumsalLinks
               .filter(
                 (page) =>
                   page.link.toLowerCase().split('/')[
@@ -42,32 +70,12 @@ const Tarihce = () => {
         </div>
 
         <div className="ml-4 flex w-1/2 flex-col items-start justify-center gap-3 max-md:ml-0 max-md:w-full max-md:pt-3">
-          <h3 className="text-large font-semibold">37 YILDIR KITALARA ULAŞAN KALİTE</h3>
-          <p>
-            1987 yılında araştırma-geliştirme faaliyetleri yapmak üzere kurulan Dizayn Grup, 1991
-            yılında ilk AR-GE çıktısı olan molekül yapısı özel dizayn edilmiş PPR boru ve ek
-            parçaları üreterek bugünkü yapılanması için ilk adımlarını attı. Zaman içerisinde boru
-            ve elemanları üretim ve satışı ile özdeşleştiği için Dizayn markası boru markası olarak
-            konumlandı ve AR-GE şirketimiz Mir AR-GE ismi ile bağımsız bir yapıya kavuşturuldu.
-            Dizayn Grup, Mir AR-GE şirketimiz ve diğer iştiraklerimiz ile birlikte 2010 yılı itibari
-            ile Mir Holding çatısı altında toplandı.
-          </p>
+          <h3 className="text-large font-semibold">{t('tarihce.content.0')}</h3>
+          <p>{t('tarihce.content.1')}</p>
 
-          <p>
-            37 yılda Türkiye’ye de ilkleri üreten, dünya rekorlarını alt üst eden, endüstriye
-            dönüştürdüğü onlarca patenti ile sektörünün teknolojide öncü firması haline gelen Dizayn
-            Grup, deneyimi ve yüksek üretim gücü ile 85’in üzerinde ülkeye ihracat yapıp bir dünya
-            markası haline geldi. 2015 yılında Rusya’da açtığı fabrika ve 2016 yılında Avrupa’da
-            hayata geçirdiği yatırımı ile adını taşıdığı önemli pazarların yerel markası olması
-            yolunda kilometre taşlarını koydu.
-          </p>
+          <p>{t('tarihce.content.2')}</p>
 
-          <p>
-            Türkiye’nin kalkınması ve paydaşlarının refahı için sürekli gelişimi kendine şiar edinen
-            Dizayn Grup, 37 yılı birlikte “dizayn” ettiği tüm paydaşlarına şükranlarını sunuyor ve
-            gelecek yılları yine birlikte “dizayn” etmek adına tüm dünyaya sunduğu faydaları
-            artıracak adımları atmaya devam ediyor.
-          </p>
+          <p>{t('tarihce.content.3')}</p>
         </div>
       </div>
     </div>

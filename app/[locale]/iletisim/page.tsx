@@ -1,3 +1,4 @@
+'use client';
 import Header from '@/components/Header';
 import LocationCard from '@/components/cards/LocationCard';
 import { useTranslations } from 'next-intl';
@@ -63,4 +64,4 @@ const Contact = () => {
     </div>
   );
 };
-export default SectionWrapper(Contact, 'Contact');
+export default Contact;

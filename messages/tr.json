@@ -30,7 +30,8 @@
       "contact": "iletisim",
       "arge": "AR-GE"
     },
-    "priceList": "Fiyat Listesi"
+    "priceList": "Fiyat Listesi",
+    "priceCatalog": " Ürün Kataloğu"
   },
   "Certificates": {
     "germany": {
@@ -112,7 +113,8 @@
     },
     "noCertificate": "Sertifikalar Güncelleniyor.",
     "title": "Sertifikalarımız",
-    "buttonText": "Tüm Sertifikaları Görüntüle"
+    "buttonText": "Tüm Sertifikaları Görüntüle",
+    "header": "Sertifikalarımız"
   },
   "BayimizOl": {
     "title": "Bayimiz Ol",
@@ -216,7 +218,13 @@
           "highPressure": "Yüksek Sıcaklıkta Yüksek Basınç Dayanımı",
           "kangal": "Kangal Halinde Sevkiyat Kolaylığı",
           "durable": "Eksi 40 Derecede Dahi Kırılma Direnci"
-        }
+        },
+        "banner": {
+          "horizontal": "/productImages/üst yapı borular/elite-pipe-ve-ek/banner/tr/horizontal.png",
+          "PLP": "productImages/üst yapı borular/elite-pipe-ve-ek/banner/tr/PLP.png",
+          "bgImage": "/productImages/üst yapı borular/elite-pipe-ve-ek/banner/tr/bg-image.png"
+        },
+        "link": "/tr/urunler/bina-ici-boru-sistemleri/elitepipe"
       },
       "sterilePipe": {
         "title": "Sterile Pipe",
@@ -225,7 +233,12 @@
           "antimicrobial": "Antimikrobiyal Özellik",
           "longLasting": "Uzun Ömür",
           "drinkWater": "Sağlıklı Su"
-        }
+        },
+        "banner": {
+          "PLP": "/productImages/üst yapı borular/sterile-pipe/banner/tr/PLP.png",
+          "horizontal": "/productImages/üst yapı borular/sterile-pipe/banner/tr/horizontal.png"
+        },
+        "link": "/tr/urunler/bina-ici-boru-sistemleri/sterilepipe"
       },
       "softPowerPipe": {
         "title": "SoftPower Boru",
@@ -234,7 +247,11 @@
           "durable": "Darbeye Dayanıklı",
           "flexible": "Esnek",
           "saveTime": "Maliyet Tasarrufu"
-        }
+        },
+        "banner": {
+          "horizontal": "/productImages/üst yapı borular/soft-power-ek/banner/tr/horizontal.png"
+        },
+        "link": "/tr/urunler/bina-ici-boru-sistemleri/softpower-boru"
       },
       "elasticaPipe": {
         "title": "Elastica Boru",
@@ -243,7 +260,12 @@
           "highTemperature": "Yüksek Sıcaklık ve Basınç Dayanımı",
           "flexible": "Esneklik ve Dayanıklılık",
           "easyInstall": "Kolay Montaj"
-        }
+        },
+        "banner": {
+          "horizontal": "/productImages/üst yapı borular/mobil-boru-ve-ek/banner/tr/horizontal.png",
+          "PLP": "/productImages/üst yapı borular/mobil-boru-ve-ek/banner/tr/PLP.png"
+        },
+        "link": "/tr/urunler/bina-ici-boru-sistemleri/elastica-boru"
       },
       "nanotechPipe": {
         "title": "NanoTech Atık Su Borusu",
@@ -252,7 +274,12 @@
           "longLasting": "Uzun Ömür",
           "soundProof": "Ses Yalıtımı",
           "durable": "Kırılmaz Yapı"
-        }
+        },
+        "banner": {
+          "horizontal": "/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/banner/tr/horizontal.png",
+          "PLP": "/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/banner/tr/PLP.png"
+        },
+        "link": "/tr/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium"
       },
       "triplexPipe": {
         "title": "Triplex Atık Su Boruları",
@@ -261,7 +288,12 @@
           "durable": "Kırılmaz Yapı",
           "seal": "Yüksek Sızdırmazlık",
           "easyInstall": "Kolay Montaj"
-        }
+        },
+        "banner": {
+          "horizontal": "/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/banner/tr/horizontal.png",
+          "PLP": "/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/banner/tr/PLP.png"
+        },
+        "link": "/tr/urunler/bina-ici-boru-sistemleri/triplex-pipe"
       },
       "pprPipe": {
         "title": "PPR Boru",
@@ -270,8 +302,14 @@
           "highDurability": "Yüksek Dayanım",
           "easyWelding": "Kolay Kaynak",
           "longLasting": "Uzun Ömür"
-        }
-      }
+        },
+        "banner": {
+          "horizontal": "/productImages/üst yapı borular/ppr-boru-ve-ek/banner/tr/horizontal.png",
+          "PLP": "/productImages/üst yapı borular/ppr-boru-ve-ek/banner/tr/PLP.png"
+        },
+        "link": "/tr/urunler/bina-ici-boru-sistemleri/ppr-boru"
+      },
+      "home": "Anasayfa"
     },
     "InfrastructureProducts": {
       "softPowerPipe": {
@@ -281,7 +319,11 @@
           "durable": "Darbeye Dayanıklı",
           "flexible": "Esnek",
           "saveTime": "Maliyet Tasarrufu"
-        }
+        },
+        "banner": {
+          "vertical": "/productImages/üst yapı borular/soft-power-ek/banner/tr/vertical.jpg"
+        },
+        "link": "/tr/urunler/bina-ici-boru-sistemleri/softpower-boru"
       },
       "rtpPipe": {
         "title": "RTP Boru",
@@ -290,7 +332,8 @@
           "highPressure": "Yüksek Basınç Dayanımı",
           "flexible": "Esneklik",
           "longLasting": "Uzun Ömür"
-        }
+        },
+        "link": "/tr/urunler/altyapi-boru-sistemleri/rtp-boru"
       },
       "telecomPipe": {
         "title": "Telekom Boruları",
@@ -298,7 +341,8 @@
         "highlights": {
           "durable": "Yüksek Dayanıklılık",
           "easyInstall": "Kolay Kurulum"
-        }
+        },
+        "link": "/tr/urunler/altyapi-boru-sistemleri/telekom-boru"
       },
       "korugePipe": {
         "title": "Koruge Boru",
@@ -307,7 +351,8 @@
           "durable": "Yüksek Dayanıklılık",
           "longLasting": "Uzun Ömür",
           "easyInstall": "Kolay Kurulum"
-        }
+        },
+        "link": "/tr/urunler/altyapi-boru-sistemleri/koruge-boru"
       },
       "korugeSpiralPipe": {
         "title": "Dizayn Koruge Sarmal Boru",
@@ -316,7 +361,8 @@
           "durable": "Yüksek Dayanıklılık",
           "longLasting": "Uzun Ömür",
           "easyInstallation": "Kolay Kurulum"
-        }
+        },
+        "link": "/tr/urunler/altyapi-boru-sistemleri/koruge-sarmal-boru"
       },
       "pe80Pipe": {
         "title": "Dizayn PE 80 Doğalgaz Boru",
@@ -325,7 +371,8 @@
           "highPressure": "Yüksek Basınç Dayanımı",
           "flexible": "Esnek",
           "chemicalResistant": "Kimyasal Dayanım"
-        }
+        },
+        "link": "/tr/urunler/altyapi-boru-sistemleri/pe-80-dogalgaz-boru"
       },
       "jeotermalPipe": {
         "title": "Dizayn Jeotermal Boru",
@@ -343,16 +390,20 @@
           "durable": "Yüksek Dayanıklılık",
           "corrosion": "Korozyon Direnci",
           "longLasting": "Uzun Ömür"
-        }
+        },
+        "link": "/tr/urunler/altyapi-boru-sistemleri/deniz-desarj-boru"
       },
       "chemicalTank": {
         "title": "Dizayn Kimyasal Tanklar",
         "description": "Dizayn Kimyasal Tanklar, korozif kimyasalların güvenli ve verimli bir şekilde depolanması için tasarlanmıştır.",
         "highlights": {
           "lightWeight": "Hafif ve Dayanıklı",
-          "recyclable": "Geri Dönüşümlü"
-        }
-      }
+          "recyclable": "Geri Dönüşümlü",
+          "chemicalResistant": "Yüksek Kimyasal Dayanım"
+        },
+        "link": "/tr/urunler/altyapi-boru-sistemleri/kimyasal-tanklar"
+      },
+      "header": "Altyapı Boru Sistemleri"
     },
     "title": "Üstün Teknoloji Ürünlerimiz",
     "description": "Yeni nesil, üstün teknolojili borularımız ile tanışın."
@@ -380,5 +431,136 @@
     "corrugatedPipeCalculationDescription": "Koruge Boru Hesabı yapmak için tıklayınız",
     "title": "Mühendislik Hesaplamaları",
     "description": "Doğru hesaplama yapabilmek için aşağıdaki seçeneklerden uygun seçeneği seçiniz."
+  },
+  "Footer": {
+    "link": {
+      "company": {
+        "title": "Dizayn Grup",
+        "aboutUs": "Hakkımızda",
+        "ourProject": "Projelerimiz",
+        "certificates": "Sertifikalar",
+        "contact": "İletişim",
+        "arge": "AR-GE",
+        "about": "Kurumsal",
+        "visionMission": "Misyon ve Vizyon",
+        "awards": "Ödüller ve Başarılar",
+        "qualityPolicy": "Taahhütname"
+      },
+      "products": {
+        "title": "Ürünler",
+        "indoorPipeSystems": "Bina İçi  Boru Sistemleri",
+        "outdoorPipeSystems": "Altyapı Boru Sistemleri"
+      },
+      "services": {
+        "title": "Hizmetler",
+        "calculations": "Hesaplamalar",
+        "dealers": "Bayilerimiz",
+        "projects": "Projelerimiz",
+        "certificates": "Sertifikalar"
+      },
+      "communication": {
+        "title": "İletişim",
+        "contact": "İletişim"
+      }
+    },
+    "imageContent": {
+      "domesticProduction": "Sektör Lideri",
+      "highTechnology": "1. Sınıf Hammadde",
+      "highQuality": "Yüksek Teknoloji"
+    }
+  },
+  "NewTechPipe": {
+    "description": "Yeni nesil, üstün teknolojili borularımız ile tanışın."
+  },
+  "FAQs": {
+    "header": "Sıkça Sorulan Sorular"
+  },
+  "HeroSlider": {
+    "sliderImages": {
+      "elitepipe": {
+        "desktop": "/sliderImages/desktop/tr/elite-pipe.jpg",
+        "mobile": "/sliderImages/mobile/tr/elite-pipe.jpg",
+        "alt": "ElitePipe"
+      },
+      "sterilepipe": {
+        "desktop": "/sliderImages/desktop/tr/sterilepipe.jpg",
+        "mobile": "/sliderImages/mobile/tr/sterilepipe.jpg"
+      },
+      "nanotek": {
+        "desktop": "/sliderImages/desktop/tr/alt-yapı.jpg",
+        "mobile": "/sliderImages/mobile/tr/alt-yapı.jpg",
+        "alt": "Altyapı Boru Sistemleri"
+      },
+      "elastica": {
+        "desktop": "/sliderImages/desktop/tr/elastica.jpg"
+      }
+    }
+  },
+  "Kurumsal": {
+    "kurumsal": {
+      "title": "Kurumsal",
+      "content": {
+        "0": "Mir Holding 37 yıl önce kurulmuştur. İlk kurulan şirketimizin felsefesi ARGE               (araştırma-geliştirme) üzerine şekillendirilmiştir. İlk ARGE çıktımız “boru konusunda”               olmuştur ve buradan Dizayn Grup doğmuştur. İlk endüstriyel şirketimiz olan Dizayn Grup               bugün itibariyle, 20 mm’den 8 m çapa kadar ve 0,5 Bar basınçtan, 200 Bar basınca kadar               türlü sektörler için boru üretmektedir.",
+        "1": "Mir Holding &apos;boru, tarım, enerji, yapı, savunma sanayi alanlarında&apos; faaliyet               gösteren 15 şirketi bünyesinde barındırmaktadır.",
+        "2": "Türkiye, Almanya, Azerbaycan, Rusya Federasyonu’nda fabrikaları vardır.               Almanya&apos;da kurulan yeni tesisin açılış törenine Sayın Angela Merkel katılmıştır.",
+        "3": "Ayrıca Mir Holding İstanbul Üniversitesi Teknoparkının ortağı ve Yönetim Kurulu               Üyesidir.",
+        "4": "Mir Holding",
+        "5": "- Sadece Ar-Ge alanında 50&apos;den fazla doktora derecesine sahip Ar-Ge mühendisi, 25               profesör, toplamda 150 araştırmacıyı istihdam etmektedir. Üretime dönüşen patent               sayısı açısından Türkiye&apos;de lider konumdadır.",
+        "6": "%70'i üretime dönüştürülen 100'den fazla patente sahiptir.",
+        "7": "- Türkiye'nin en büyük özel araştırma laboratuvarına sahiptir.",
+        "8": " Savunma sanayinin en büyük bütçeli (10.2 milyon USD) projeyi (çelikten on kat daha               güçlü, beş kat hafif malzemeyi) başarıyla gerçekleştirmiştir. Amerika ve               Kanada'dan sonra dünya çapında bu teknolojiye sahip 3. şirkettir.",
+        "9": "Avrupa Birliğinin en büyük bütçeli (49 milyon Euro’luk) ARGE projesini (akıllı ve               yeşil şehir) başarıyla tamamlamış ve endüstriye dönüştürmüştür.",
+        "10": "Eskişehir’de 2 milyar USD büyüklüğünde SERAKENT projesi yatırımı hızla               ilerlemektedir."
+      },
+      "link": "/tr/kurumsal"
+    },
+    "tarihce": {
+      "title": "Tarihçe",
+      "content": {
+        "0": "37 YILDIR KITALARA ULAŞAN KALİTE",
+        "1": " 1987 yılında araştırma-geliştirme faaliyetleri yapmak üzere kurulan Dizayn Grup, 1991             yılında ilk AR-GE çıktısı olan molekül yapısı özel dizayn edilmiş PPR boru ve ek             parçaları üreterek bugünkü yapılanması için ilk adımlarını attı. Zaman içerisinde boru             ve elemanları üretim ve satışı ile özdeşleştiği için Dizayn markası boru markası olarak             konumlandı ve AR-GE şirketimiz Mir AR-GE ismi ile bağımsız bir yapıya kavuşturuldu.             Dizayn Grup, Mir AR-GE şirketimiz ve diğer iştiraklerimiz ile birlikte 2010 yılı itibari             ile Mir Holding çatısı altında toplandı.",
+        "2": " 37 yılda Türkiye’ye de ilkleri üreten, dünya rekorlarını alt üst eden, endüstriye             dönüştürdüğü onlarca patenti ile sektörünün teknolojide öncü firması haline gelen Dizayn             Grup, deneyimi ve yüksek üretim gücü ile 85’in üzerinde ülkeye ihracat yapıp bir dünya             markası haline geldi. 2015 yılında Rusya’da açtığı fabrika ve 2016 yılında Avrupa’da             hayata geçirdiği yatırımı ile adını taşıdığı önemli pazarların yerel markası olması             yolunda kilometre taşlarını koydu.",
+        "3": "   Türkiye’nin kalkınması ve paydaşlarının refahı için sürekli gelişimi kendine şiar edinen             Dizayn Grup, 37 yılı birlikte “dizayn” ettiği tüm paydaşlarına şükranlarını sunuyor ve             gelecek yılları yine birlikte “dizayn” etmek adına tüm dünyaya sunduğu faydaları             artıracak adımları atmaya devam ediyor."
+      },
+      "link": "/tr/kurumsal/tarihce"
+    },
+    "vizyon-ve-misyon": {
+      "title": "Vizyon ve Misyon",
+      "content": {
+        "0": "Akışkanların taşınmasında farklılık oluşturacak yeni teknolojiler üreterek bir dünya             markası olmak.",
+        "1": "Akışkanların en optimal yöntem ile taşınabilmesi için; doğru teknolojiyle, soruna özel             proje, ürün ve sistem geliştirerek güvenilir, verimli bir şirket olabilmeyi başarmak.",
+        "2": "Yeni Ürün Geliştirme Stratejilerimiz",
+        "3": "Herkesin ürettiği ya da üretebileceği ürünlerden uzak durmak. - Kalite ve fiyat             açısından rekabet edilebilir ürünler üretmek. - Rakiplerin şimdiye kadar düşünemediği             değer oluşturan farklılıkları, düşünebilmek. - Olabildiğince ürünlere odaklanmak. -             Üzerinde çalıştığımız her konuda bir tamlık duygusuna ulaşmayı başarmak. - Asla ulusal             ve uluslararası bir rakibin ürününü taklit etmemek. - Geliştirilen tüm ürünlerde             ayrıcalıklar oluşturmak ve oluşan ayrıcalıkları, patentlerle kanuni koruma altına almayı             başarmak."
+      },
+      "link": "/tr/kurumsal/vizyon-ve-misyon"
+    },
+    "taahhutname": {
+      "title": "Taahhütname",
+      "content": {
+        "0": "DEĞER DÖNGÜMÜZ",
+        "1": "İnsanların idealleri olduğu kadar, kurumların da idealleri olmalıdır. Karşılığı sadece             maddi beklentiler üzerine kurgulanmış bir sistemin kontrolden çıkması kaçınılmazdır.             Bugün, dünyanın içine düştüğü sıkıntı &quot;ne pahasına olursa olsun, para             kazanmak&quot; hırsının doğal sonucudur. “Şirketleri ayakta tutan kârdır. Öyleyse, kâr             etmeye giden bütün yollar meşrudur” anlayışı, suçluyu da masumu da mahkûm etmiştir. Bu             yaklaşımın kazananı olamaz.",
+        "2": "Bireylerin ahlaklı olması gerektiği kadar, kurumlar da ürünler de ahlaklı olmalıdır.",
+        "3": "Üretirken çevreye duyarlılığı, kendi atığının sahibi olma sorumluluğu, istihdam ettiği             kişilerin varlığı ile motive olması, ihracat yaparken ülkesine kazandırdıklarının             heyecanını duyması, en önemlisi de ürettiği ürünün insanlığın temel ihtiyaçlarına çözüm             olacağı duygusu ile huzur duyması ve nihayet kazancının kendi büyümesini engellemeyecek             kadar makul bir kısmını ülkesinde ya da dünyanın herhangi bir yerinde yaşayan insanların             ya da o insanlara hayat veren doğanın bir derdinin dermanı olarak kullanması, kurumun ve             kurumun ürettiği ürünün ahlaklı olduğunun tarifini teşkil eder.",
+        "4": "Bize göre bireyler de ahlaklı olmalı, ürünler de ahlaklı olmalı, kurumlar da ahlaklı             olmalıdır. Yaşamını bu felsefe üzerine oturtmuş hiçbir özel ya da tüzel kişilik dünyaya             sorun üreten olamaz. En mutlu aile, en iyi vatandaş, en başarılı yönetici ve varlığı ile             etrafını aydınlatan bireyler sadece ve sadece bu tür bir yaklaşımı içine sindirmiş             insanlardan sadır olabilir.",
+        "5": "Sorumluluklarımızı biliyoruz. Dünyanın Dizayn'a ihtiyacı var.",
+        "6": "İbrahim MİRMAHMUTOĞULLARI Yönetim Kurulu Başkan'ı"
+      },
+      "link": "/tr/kurumsal/taahhutname"
+    },
+    "oduller-ve-basarilar": {
+      "title": "Ödüller ve Başarılar",
+      "content": {
+        "0": "37 YILDIR KITALARA ULAŞAN KALİTE",
+        "1": "1987 yılında araştırma-geliştirme faaliyetleri yapmak üzere kurulan Dizayn Grup, 1991             yılında ilk AR-GE çıktısı olan molekül yapısı özel dizayn edilmiş PPR boru ve ek             parçaları üreterek bugünkü yapılanması için ilk adımlarını attı. Zaman içerisinde boru             ve elemanları üretim ve satışı ile özdeşleştiği için Dizayn markası boru markası olarak             konumlandı ve AR-GE şirketimiz Mir AR-GE ismi ile bağımsız bir yapıya kavuşturuldu.             Dizayn Grup, Mir AR-GE şirketimiz ve diğer iştiraklerimiz ile birlikte 2010 yılı itibari             ile Mir Holding çatısı altında toplandı.",
+        "2": "37 yılda Türkiye’ye de ilkleri üreten, dünya rekorlarını alt üst eden, endüstriye             dönüştürdüğü onlarca patenti ile sektörünün teknolojide öncü firması haline gelen Dizayn             Grup, deneyimi ve yüksek üretim gücü ile 85’in üzerinde ülkeye ihracat yapıp bir dünya             markası haline geldi. 2015 yılında Rusya’da açtığı fabrika ve 2016 yılında Avrupa’da             hayata geçirdiği yatırımı ile adını taşıdığı önemli pazarların yerel markası olması             yolunda kilometre taşlarını koydu.",
+        "3": "Türkiye’nin kalkınması ve paydaşlarının refahı için sürekli gelişimi kendine şiar edinen             Dizayn Grup, 37 yılı birlikte “dizayn” ettiği tüm paydaşlarına şükranlarını sunuyor ve             gelecek yılları yine birlikte “dizayn” etmek adına tüm dünyaya sunduğu faydaları             artıracak adımları atmaya devam ediyor."
+      },
+      "link": "/tr/kurumsal/oduller-ve-basarilar"
+    },
+    "vision": "Vizyonumuz",
+    "mission": "Misyonumuz"
+  },
+  "Breadcrumb": {
+    "products": "Ürünler"
   }
 }

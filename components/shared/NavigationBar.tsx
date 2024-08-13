@@ -53,7 +53,7 @@ const NavigationBar = () => {
           name: t('menuList.indoor.name'),
           description: t('menuList.indoor.description'),
           icons: '/icons/pipe.png',
-          link: t('menuList.indoor.link'),  
+          link: t('menuList.indoor.link'),
         },
       ],
     },
@@ -153,7 +153,7 @@ const NavigationBar = () => {
             target="_blank"
             href="/dizayn-fiyat-listesi.pdf"
           >
-            Ürün Kataloğu
+            {t('priceCatalog')}
           </Link>
         </NavbarItem>
 

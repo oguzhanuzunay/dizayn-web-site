@@ -1,3 +1,4 @@
+'use client'
 import { Card, CardBody, CardFooter, Image, Link } from '@nextui-org/react';
 import { useTranslations } from 'next-intl';
 
@@ -261,7 +262,7 @@ const Certificates = () => {
   return (
     <div>
       <div className="mb-0 flex h-5 w-full items-center bg-gray-500 p-5">
-        <h2 className="font-spaceGrotesk text-2xl font-semibold text-white">Sertifikalarımız</h2>
+        <h2 className="font-spaceGrotesk text-2xl font-semibold text-white">{t('header')}</h2>
       </div>
       <div className="my-4 grid grid-cols-5 items-center justify-between gap-3 max-md:flex max-sm:flex-col">
         {Array.isArray(countryCertificate) &&
@@ -306,4 +307,4 @@ const Certificates = () => {
   );
 };
 
-export default SectionWrapper(Certificates, 'Certificates');
+export default Certificates

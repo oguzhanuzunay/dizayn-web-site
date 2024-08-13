@@ -1,7 +1,7 @@
 'use client';
 import { dealerList, languageTexts } from '@/constants';
-import { useLanguageContext } from '@/context/language';
 import { scrollToHash } from '@/lib/utils';
+import { useLocale } from 'next-intl';
 import Image from 'next/image';
 import { useState } from 'react';
 import TurkeyMap from 'turkey-map-react';
@@ -9,8 +9,8 @@ import DealerCard from '../cards/DealerCard';
 import './MapComponent.css';
 
 const MapComponent = ({ show }: { show: boolean }) => {
-  const [language] = useLanguageContext();
-  const dealers = languageTexts[language].pages.dealers;
+  const language = useLocale();
+  const dealers = languageTexts[language]?.pages.dealers ?? {};
   const [selectedCity, setSelectedCity] = useState(0);
 
   const handleCityClick = (cityId: number) => {

@@ -34,13 +34,13 @@ const AltYapı = () => {
       featuredProduct: false,
       logo: '/productImages/üst yapı borular/soft-power-ek/logo.png',
       banner: {
-        vertical: '/productImages/üst yapı borular/soft-power-ek/banner/vertical.jpg',
-        horizontal: '/productImages/üst yapı borular/soft-power-ek/banner/horizontal.png',
-        PLP: '/productImages/üst yapı borular/soft-power-ek/banner/PLP.png',
+        vertical: t('softPowerPipe.banner.vertical'),
+        horizontal: '/productImages/üst yapı borular/soft-power-ek/banner/tr/horizontal.png',
+        PLP: '/productImages/üst yapı borular/soft-power-ek/banner/tr/PLP.png',
         bgImage: '',
       },
       image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
-      link: '/urunler/bina-ici-boru-sistemleri/softpower-boru',
+      link: t('softPowerPipe.link'),
       highlights: [
         { title: t('softPowerPipe.highlights.durable'), icon: '/icons/durable.png' },
         { title: t('softPowerPipe.highlights.flexible'), icon: '/icons/flexible.png' },
@@ -57,12 +57,12 @@ const AltYapı = () => {
       isNewTech: true,
       banner: {
         vertical: '/productImages/alt yapı boruları/RTP BORU/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/RTP BORU/banner/horizontal.png',
-        PLP: '/productImages/alt yapı boruları/RTP BORU/banner/PLP.png',
+        horizontal: '/productImages/alt yapı boruları/RTP BORU/banner/tr/horizontal.png',
+        PLP: '/productImages/alt yapı boruları/RTP BORU/banner/tr/PLP.png',
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/RTP BORU/RTP1.png',
-      link: '/urunler/altyapi-boru-sistemleri/rtp-boru',
+      link: t('rtpPipe.link'),
       highlights: [
         { title: t('rtpPipe.highlights.highPressure'), icon: '/icons/high-pressure.png' },
         { title: t('rtpPipe.highlights.flexible'), icon: '/icons/flexible.png' },
@@ -79,12 +79,12 @@ const AltYapı = () => {
       isNewTech: true,
       banner: {
         vertical: '/productImages/alt yapı boruları/TELEKOM/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/TELEKOM/banner/horizontal.png',
-        PLP: '/productImages/alt yapı boruları/TELEKOM/banner/PLP.png',
+        horizontal: '/productImages/alt yapı boruları/TELEKOM/banner/tr/horizontal.png',
+        PLP: '/productImages/alt yapı boruları/TELEKOM/banner/tr/PLP.png',
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/TELEKOM/TELEKOM BORU 1.png',
-      link: '/urunler/altyapi-boru-sistemleri/telekom-boru',
+      link: t('telecomPipe.link'),
       highlights: [
         { title: t('telecomPipe.highlights.durable'), icon: '/icons/durable.png' },
         { title: 'Esnek', icon: '/icons/flexible.png' },
@@ -100,12 +100,12 @@ const AltYapı = () => {
       logo: '/productImages/alt yapı boruları/Koruge/logo.png',
       banner: {
         vertical: '/productImages/alt yapı boruları/Koruge/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/Koruge/banner/horizontal.jpg',
-        PLP: '/productImages/alt yapı boruları/Koruge/banner/PLP.png',
+        horizontal: '/productImages/alt yapı boruları/Koruge/banner/tr/horizontal.jpg',
+        PLP: '/productImages/alt yapı boruları/Koruge/banner/tr/PLP.png',
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/Koruge/Koruge BORU.png',
-      link: '/urunler/altyapi-boru-sistemleri/koruge-boru',
+      link: t('korugePipe.link'),
       highlights: [
         { title: t('korugePipe.highlights.durable'), icon: '/icons/durable.png' },
         { title: t('korugePipe.highlights.longLasting'), icon: '/icons/long-lasting.png' },
@@ -121,12 +121,12 @@ const AltYapı = () => {
       logo: '/productImages/alt yapı boruları/KorugeSarmal/logo.png',
       banner: {
         vertical: '/productImages/alt yapı boruları/KorugeSarmal/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/KorugeSarmal/banner/horizontal.png',
-        PLP: '/productImages/alt yapı boruları/KorugeSarmal/banner/PLP.png',
+        horizontal: '/productImages/alt yapı boruları/KorugeSarmal/banner/tr/horizontal.png',
+        PLP: '/productImages/alt yapı boruları/KorugeSarmal/banner/tr/PLP.png',
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/KorugeSarmal/koruge-sarmal-2.png',
-      link: '/urunler/altyapi-boru-sistemleri/koruge-sarmal-boru',
+      link: t('korugeSpiralPipe.link'),
       highlights: [
         { title: t('korugeSpiralPipe.highlights.durable'), icon: '/icons/durable.png' },
         { title: t('korugeSpiralPipe.highlights.longLasting'), icon: '/icons/long-lasting.png' },
@@ -145,12 +145,12 @@ const AltYapı = () => {
       logo: '/productImages/alt yapı boruları/PE 80/logo.png',
       banner: {
         vertical: '/productImages/alt yapı boruları/PE 80/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/PE 80/banner/horizontal.png',
-        PLP: '/productImages/alt yapı boruları/PE 80/banner/PLP.png',
+        horizontal: '/productImages/alt yapı boruları/PE 80/banner/tr/horizontal.png',
+        PLP: '/productImages/alt yapı boruları/PE 80/banner/tr/PLP.png',
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/PE 80/PE 80 BORU.png',
-      link: '/urunler/altyapi-boru-sistemleri/pe-80-dogalgaz-boru',
+      link: t('pe80Pipe.link'),
       highlights: [
         { title: t('pe80Pipe.highlights.highPressure'), icon: '/icons/high-pressure.png' },
         { title: t('pe80Pipe.highlights.flexible'), icon: '/icons/flexible.png' },
@@ -169,8 +169,8 @@ const AltYapı = () => {
       logo: '/productImages/alt yapı boruları/Jeotermal/logo.png',
       banner: {
         vertical: '/productImages/alt yapı boruları/Jeotermal/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/Jeotermal/banner/horizontal.png',
-        PLP: '/productImages/alt yapı boruları/Jeotermal/banner/PLP.png',
+        horizontal: '/productImages/alt yapı boruları/Jeotermal/banner/tr/horizontal.png',
+        PLP: '/productImages/alt yapı boruları/Jeotermal/banner/tr/PLP.png',
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU.png',
@@ -193,12 +193,12 @@ const AltYapı = () => {
       logo: '/productImages/alt yapı boruları/Deniz Desarj/logo.png',
       banner: {
         vertical: '/productImages/alt yapı boruları/Deniz Desarj/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/Deniz Desarj/banner/horizontal.png',
-        PLP: '/productImages/alt yapı boruları/Deniz Desarj/banner/PLP.png',
+        horizontal: '/productImages/alt yapı boruları/Deniz Desarj/banner/tr/horizontal.png',
+        PLP: '/productImages/alt yapı boruları/Deniz Desarj/banner/tr/PLP.png',
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/Deniz Desarj/Deniz Desarj BORU.png',
-      link: '/urunler/altyapi-boru-sistemleri/deniz-desarj-boru',
+      link: t('denizDesarjPipe.link'),
       highlights: [
         { title: t('denizDesarjPipe.highlights.durable'), icon: '/icons/durable.png' },
         { title: t('denizDesarjPipe.highlights.corrosion'), icon: '/icons/corrosion.png' },
@@ -214,15 +214,15 @@ const AltYapı = () => {
       logo: '/productImages/alt yapı boruları/kimyasal-tanklar/logo.png',
       banner: {
         vertical: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/horizontal.png',
-        PLP: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/PLP.png',
+        horizontal: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/tr/horizontal.png',
+        PLP: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/tr/PLP.png',
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/kimyasal-tanklar/kimyasal-tanklar.png',
-      link: '/urunler/altyapi-boru-sistemleri/kimyasal-tanklar',
+      link: t('chemicalTank.link'),
       highlights: [
         {
-          title: 'Yüksek Kimyasal Dayanım',
+          title: t('chemicalTank.highlights.chemicalResistant'),
           icon: '/icons/chemical-resistant.png',
         },
         { title: t('chemicalTank.highlights.lightWeight'), icon: '/icons/lightweight.png' },
@@ -234,7 +234,7 @@ const AltYapı = () => {
 
   return (
     <div>
-      <Header text="Altyapı Boru Sistemleri" />
+      <Header text={t('header')} />
 
       <div className="relative my-3 flex w-full flex-row px-2 max-md:flex-col ">
         <div className="absolute left-0 top-0 z-0 size-full gap-3 bg-contain opacity-45" />

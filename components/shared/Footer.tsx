@@ -1,54 +1,61 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
-interface footerContentParams {
-  socialMedia: {
-    name: string;
-    link: string;
-    image: string;
-    alt: string;
-  }[];
-  links: {
-    [x: string]: string | any;
+
+interface socialMediaParams {
+  name: string;
+  link: string;
+  image: string;
+  alt: string;
+}
+
+interface linksParams {
+  title: string;
+  image: string;
+  alt: string;
+  content: {
     title: string;
-    content: {
-      title: string;
-      link: string;
-      highlight?: boolean;
-    }[];
+    link: string;
+    highlight?: boolean;
   }[];
+}
+
+interface imageContentParams {
+  title: string;
+  image: string;
+  alt: string;
 }
 
 const Footer = () => {
   const t = useTranslations('Footer');
 
-  const links = [
+  const links: linksParams[] = [
     {
-      title: 'Dizayn Grup',
+      title: t('link.company.title'),
       image: '/icons/company.png',
       alt: 'company icon',
       content: [
         {
-          title: 'Kurumsal',
+          title: t('link.company.about'),
           link: '/kurumsal',
         },
         {
-          title: 'Misyon ve Vizyon',
+          title: t('link.company.visionMission'),
           link: '/kurumsal/vizyon-ve-misyon',
         },
         {
-          title: 'Ödüller ve Başarılar',
+          title: t('link.company.awards'),
           link: '/kurumsal/oduller-ve-basarilar',
           highlight: true,
         },
         {
-          title: 'Taahhütname',
+          title: t('link.company.qualityPolicy'),
           link: '/kurumsal/taahhutname',
         },
       ],
     },
     {
-      title: 'Ürünler',
+      title: t('link.products.title'),
       image: '/icons/product.png',
       alt: 'product icon',
       content: [
@@ -61,69 +68,70 @@ const Footer = () => {
           link: '/urunler/bina-ici-boru-sistemleri/sterilepipe',
         },
         {
-          title: 'Bina İçi  Boru Sistemleri',
+          title: t('link.products.indoorPipeSystems'),
           link: '/urunler/bina-ici-boru-sistemleri',
         },
         {
-          title: 'Altyapı Boru Sistemleri',
+          title: t('link.products.outdoorPipeSystems'),
           link: '/urunler/altyapi-boru-sistemleri',
         },
       ],
     },
     {
-      title: 'Hizmetler',
+      title: t('link.services.title'),
       image: '/icons/service.png',
       alt: 'service icon',
       content: [
         {
-          title: 'Hesaplamalar',
+          title: t('link.services.calculations'),
           link: '/hesaplamalar',
         },
         {
-          title: 'Bayilerimiz',
+          title: t('link.services.dealers'),
           link: '/bayilerimiz',
         },
         {
-          title: 'Projelerimiz',
+          title: t('link.services.projects'),
           link: '/projelerimiz',
         },
         {
-          title: 'Sertifikalar',
+          title: t('link.services.certificates'),
           link: '/sertifikalar',
         },
       ],
     },
     {
-      title: 'İletişim',
+      title: t('link.communication.title'),
       image: '/icons/communication.png',
       alt: 'communication icon',
       content: [
         {
-          title: 'İletişim',
+          title: t('link.communication.contact'),
           link: '/iletisim',
         },
       ],
     },
   ];
 
-  const imageContent = [
+  const imageContent: imageContentParams[] = [
     {
-      title: 'Sektör Lideri',
+      title: t('imageContent.domesticProduction'),
       image: '/icons/market-positioning.png',
-      alt: 'Yerli Üretim',
+      alt: t('imageContent.domesticProduction').toString().toLowerCase().replace(' ', '-'),
     },
     {
-      title: '1. Sınıf Hammadde',
+      title: t('imageContent.highTechnology'),
       image: '/icons/raw.png',
-      alt: 'ElitePipe',
+      alt: t('imageContent.highTechnology').toString().toLowerCase().replace(' ', '-'),
     },
     {
-      title: 'Yüksek Teknoloji',
+      title: t('imageContent.highQuality'),
       image: '/icons/high-tech.png',
-      alt: 'SterilePipe',
+      alt: t('imageContent.highQuality').toString().toLowerCase().replace(' ', '-'),
     },
   ];
-  const socialMedia = [
+
+  const socialMedia: socialMediaParams[] = [
     {
       name: 'Facebook',
       link: 'https://www.facebook.com/dizayngroup',

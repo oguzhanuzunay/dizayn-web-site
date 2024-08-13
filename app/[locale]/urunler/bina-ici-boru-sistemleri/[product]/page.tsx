@@ -6,16 +6,18 @@ import { productList } from '@/constants';
 import { useLanguageContext } from '@/context/language';
 import { BreadcrumbItem, Breadcrumbs } from '@nextui-org/react';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 const Page = ({ params }: { params: { product: string } }) => {
   const [language] = useLanguageContext();
+  const t = useTranslations('Breadcrumb');
 
-  const product = productList[language].superStructureProducts.find(
+  const product = productList[language]?.superStructureProducts.find(
     (item) => item.link.split('/')[item.link.split('/').length - 1] === params.product,
   );
 
   if (product === undefined) {
-    return <div>Ürün bulunamadı.</div>;
+    return <div>{}</div>;
   }
 
   const productDetail = product?.productDetails;
@@ -26,8 +28,8 @@ const Page = ({ params }: { params: { product: string } }) => {
 
       <div className="ml-5 mt-3">
         <Breadcrumbs>
-          <BreadcrumbItem href="/">Anasayfa</BreadcrumbItem>
-          <BreadcrumbItem href="/urunler/bina-ici-boru-sistemleri">Ürünler</BreadcrumbItem>
+          <BreadcrumbItem href="/">{t('home')}</BreadcrumbItem>
+          <BreadcrumbItem href="/urunler/bina-ici-boru-sistemleri">{t('products')}</BreadcrumbItem>
           <BreadcrumbItem href={`/urunler/${params.product}`}>
             {params.product.replace('-', ' ').toUpperCase()}
           </BreadcrumbItem>
@@ -47,8 +49,8 @@ const Page = ({ params }: { params: { product: string } }) => {
 
       <div className="flex h-full flex-row items-center justify-center gap-5 py-2 max-sm:flex-col max-sm:px-12">
         <Image
-          src={productDetail.images[0].image}
-          alt={productDetail.images[0].alt}
+          src={productDetail.images[0]?.image ?? ''}
+          alt={productDetail.images[0]?.alt ?? ''}
           width={300}
           height={400}
         />

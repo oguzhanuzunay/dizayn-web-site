@@ -30,7 +30,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "constants/texts.ts",
+    "components/constants/texts.ts",
     "components/shared/Navbar.tsx",
     "public/icons/icons.jsx",
     "global.d.ts"

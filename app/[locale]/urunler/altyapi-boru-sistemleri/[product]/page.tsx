@@ -3,14 +3,14 @@ import Header from '@/components/Header';
 import ProductDetailCard from '@/components/ProductDetail/ProductDetailCard';
 import FeaturesCard from '@/components/cards/FeaturesCard';
 import { productList } from '@/constants';
-import { useLanguageContext } from '@/context/language';
 import { BreadcrumbItem, Breadcrumbs } from '@nextui-org/react';
+import { useLocale } from 'next-intl';
 import Image from 'next/image';
 
 const Page = ({ params }: { params: { product: string } }) => {
-  const [language] = useLanguageContext();
+  const language = useLocale();
 
-  const product = productList[language].infrastructureProducts.find(
+  const product = productList[language]?.infrastructureProducts.find(
     (item) => item.link.split('/')[item.link.split('/').length - 1] === params.product,
   );
 
@@ -49,8 +49,8 @@ const Page = ({ params }: { params: { product: string } }) => {
 
       <div className="flex h-full flex-row items-center justify-center gap-5 py-2 max-sm:flex-col max-sm:px-12">
         <Image
-          src={productDetail.images[0].image}
-          alt={productDetail.images[0].alt}
+          src={productDetail.images[0]?.image ?? ''}
+          alt={productDetail.images[0]?.alt ?? ''}
           width={300}
           height={400}
         />

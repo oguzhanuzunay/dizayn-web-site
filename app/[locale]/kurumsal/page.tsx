@@ -1,37 +1,44 @@
 'use client';
 import Header from '@/components/Header';
 import LinkedButton from '@/components/LinkedButton';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
+interface kurumsalLinksParam {
+  title: string;
+  link: string;
+}
+
 const Kurumsal = () => {
   const pathname = usePathname();
-  const kurumsalLinks = [
+  const t = useTranslations('Kurumsal');
+  const kurumsalLinks:kurumsalLinksParam[] = [
     {
-      title: 'Kurumsal',
-      link: '/kurumsal',
+      title: t('kurumsal.title'),
+      link: t('kurumsal.link'),
     },
     {
-      title: 'Tarihçe',
-      link: '/kurumsal/tarihce',
+      title: t('tarihce.title'),
+      link: 'kurumsal/tarihce',
     },
     {
-      title: 'Vizyon ve Misyon',
-      link: '/kurumsal/vizyon-ve-misyon',
+      title: t('vizyon-ve-misyon.title'),
+      link: 'kurumsal/vizyon-ve-misyon',
     },
     {
-      title: 'Taahhütname',
+      title: t('taahhutname.title'),
       link: '/kurumsal/taahhutname',
     },
     {
-      title: 'Ödüller ve Başarılar',
+      title: t('oduller-ve-basarilar.title'),
       link: '/kurumsal/oduller-ve-basarilar',
     },
   ];
 
   return (
     <div className="relative z-0 mx-auto max-w-7xl px-6 sm:px-16">
-      <Header text="Kurumsal" />
+      <Header text={t('kurumsal.title')} />
 
       <div className="my-3 flex flex-col items-center justify-between gap-3 px-4 py-2">
         <div className="flex w-full items-start justify-center max-md:flex-col">
@@ -63,61 +70,29 @@ const Kurumsal = () => {
           </div>
 
           <div className="ml-4 flex w-1/2 flex-col items-start justify-center gap-3 max-md:ml-0 max-md:w-full max-md:pt-3">
-            <h3 className="text-lg font-semibold text-gray-900">YÖNETİM KURULU BAŞKANI MESAJI</h3>
-            <p className="font-quicksand">
-              Mir Holding 37 yıl önce kurulmuştur. İlk kurulan şirketimizin felsefesi ARGE
-              (araştırma-geliştirme) üzerine şekillendirilmiştir. İlk ARGE çıktımız “boru konusunda”
-              olmuştur ve buradan Dizayn Grup doğmuştur. İlk endüstriyel şirketimiz olan Dizayn Grup
-              bugün itibariyle, 20 mm’den 8 m çapa kadar ve 0,5 Bar basınçtan, 200 Bar basınca kadar
-              türlü sektörler için boru üretmektedir.
-            </p>
+            <h3 className="text-lg font-semibold text-gray-900">{t('kurumsal.title')}</h3>
+            <p className="font-quicksand">{t('kurumsal.content.0')}</p>
 
-            <p>
-              Mir Holding &apos;boru, tarım, enerji, yapı, savunma sanayi alanlarında&apos; faaliyet
-              gösteren 15 şirketi bünyesinde barındırmaktadır.
-            </p>
+            <p>{t.rich('kurumsal.content.1')}</p>
 
-            <p>
-              Türkiye, Almanya, Azerbaycan, Rusya Federasyonu’nda fabrikaları vardır.
-              Almanya&apos;da kurulan yeni tesisin açılış törenine Sayın Angela Merkel katılmıştır.
-            </p>
+            <p>{t.rich('kurumsal.content.2')}</p>
 
-            <p>
-              Ayrıca Mir Holding İstanbul Üniversitesi Teknoparkının ortağı ve Yönetim Kurulu
-              Üyesidir.
-            </p>
+            <p>{t.rich('kurumsal.content.3')}</p>
 
-            <p>Mir Holding;</p>
-            <p>
-              - Sadece Ar-Ge alanında 50&apos;den fazla doktora derecesine sahip Ar-Ge mühendisi, 25
-              profesör, toplamda 150 araştırmacıyı istihdam etmektedir. Üretime dönüşen patent
-              sayısı açısından Türkiye&apos;de lider konumdadır.
-            </p>
+            <p>{t.rich('kurumsal.content.4')}</p>
+            <p>{t.rich('kurumsal.content.5')}</p>
 
-            <p>- %70&apos;i üretime dönüştürülen 100&apos;den fazla patente sahiptir.</p>
+            <p>{t.rich('kurumsal.content.6')}</p>
 
-            <p>- Türkiye&apos;nin en büyük özel araştırma laboratuvarına sahiptir.</p>
+            <p>{t.rich('kurumsal.content.7')}</p>
 
-            <p>
-              - Savunma sanayinin en büyük bütçeli (10.2 milyon USD) projeyi (çelikten on kat daha
-              güçlü, beş kat hafif malzemeyi) başarıyla gerçekleştirmiştir. Amerika ve
-              Kanada&apos;dan sonra dünya çapında bu teknolojiye sahip 3. şirkettir.
-            </p>
-            <p>
-              - Avrupa Birliğinin en büyük bütçeli (49 milyon Euro’luk) ARGE projesini (akıllı ve
-              yeşil şehir) başarıyla tamamlamış ve endüstriye dönüştürmüştür.
-            </p>
+            <p>- {t.rich('kurumsal.content.8')}</p>
+            <p>- {t.rich('kurumsal.content.9')}</p>
 
-            <p>
-              - Eskişehir’de 2 milyar USD büyüklüğünde SERAKENT projesi yatırımı hızla
-              ilerlemektedir.
-            </p>
+            <p>- t({t.rich('kurumsal.content.10')})</p>
 
-            <p>
-              Tüm paydaşlarımızla birlikte bu başarıya ulaştık. Onlara derin teşekkürlerimi
-              sunuyorum.
-            </p>
-            <p>İbrahim Mirmahmutoğulları Mir Holding Yönetim Kurulu Başkanı</p>
+            <p>{t.rich('kurumsal.content.11')}</p>
+            <p>{t.rich('kurumsal.content.12')}</p>
           </div>
         </div>
       </div>

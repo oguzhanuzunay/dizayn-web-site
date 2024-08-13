@@ -1,4 +1,4 @@
-import { Pathnames } from "next-intl/navigation";
+import { Pathnames } from 'next-intl/navigation';
 
 export const locales = ['tr', 'en'] as const;
 
@@ -36,24 +36,24 @@ export const pathnames = {
     en: '/institutional',
     tr: '/kurumsal',
   },
-  '/kurumsal/vizyon-misyon': {
-    en: '/corporate/vision-mission',
-    tr: '/kurumsal/vizyon-misyon',
+  '/kurumsal/vizyon-ve-misyon': {
+    en: '/institutional/vision-and-mission',
+    tr: '/kurumsal/vizyon-ve-misyon',
   },
   '/kurumsal/oduller-ve-basarilar': {
-    en: '/corporate/awards-and-successes',
+    en: '/institutional/awards-and-achievements',
     tr: '/kurumsal/oduller-ve-basarilar',
   },
   '/kurumsal/tarihce': {
-    en: '/corporate/history',
+    en: '/institutional/history',
     tr: '/kurumsal/tarihce',
   },
-  '/kurumsal/tahhutname': {
-    en: '/corporate/commitment',
-    tr: '/kurumsal/tahhutname',
+  '/kurumsal/taahhutname': {
+    en: '/institutional/commitment',
+    tr: '/kurumsal/taahhutname',
   },
   '/projelerimiz': {
-    en: '/projects',
+    en: '/our-projects',
     tr: '/projelerimiz',
   },
   '/urunler/altyapi-boru-sistemleri': {

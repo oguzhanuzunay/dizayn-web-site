@@ -1,14 +1,14 @@
 'use client';
 import Image from 'next/image';
 // Import Swiper React components
-import { useLanguageContext } from '@/context/language';
 import { motion } from 'framer-motion';
-import { useRouter } from 'next/navigation';
+import { useLocale } from 'next-intl';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Autoplay, Keyboard, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Link from 'next/link';
 
 interface HeroSliderParams {
   [key: string]: {
@@ -23,85 +23,98 @@ interface HeroSliderParams {
 const heroSlider: HeroSliderParams = {
   en: [
     {
-      desktopImage: '/sliderImages/1.jpg',
-      mobileImage: '/sliderImages/mobile/1.jpg',
+      desktopImage: '/sliderImages/desktop/en/elite-pipe.jpg',
+      mobileImage: '/sliderImages/mobile/en/eliteelite-pipe.jpg',
       alt: 'ElitePipe',
-      title: 'ElitePipe',
-      link: '/product/elitepipe',
+      link: '/en/urunler/bina-ici-boru-sistemleri/elitepipe',
     },
     {
-      desktopImage: '/sliderImages/2.jpg',
-      mobileImage: '/sliderImages/2.jpg',
-      alt: 'SterilePipe',
-      title: 'SterilePipe',
-      link: '/product/sterilepipe',
+      desktopImage: '/sliderImages/desktop/en/sterilepipe.jpg',
+      mobileImage: '/sliderImages/mobile/en/sterilepipe.jpg',
+      alt: 'Sterile Pipe',
+      link: '/en/urunler/bina-ici-boru-sistemleri/sterilepipe',
     },
     {
-      desktopImage: '/sliderImages/3.jpg',
-      mobileImage: '/sliderImages/3.jpg',
-      alt: 'SterilePipe',
-      title: 'SterilePipe',
-      link: '/product/sterilepipe',
+      desktopImage: '/sliderImages/desktop/en/alt-yapı.jpg',
+      mobileImage: '/sliderImages/mobile/en/alt-yapı.jpg',
+      alt: 'Altyapı Boru Sistemleri',
+      link: '/en/urunler/altyapi-boru-sistemleri',
     },
     {
-      desktopImage: '/sliderImages/4.jpg',
-      mobileImage: '/sliderImages/4.jpg',
-      alt: 'SterilePipe',
-      title: 'SterilePipe',
-      link: '/product/sterilepipe',
+      desktopImage: '/sliderImages/desktop/en/elastica.jpg',
+      mobileImage: '/sliderImages/mobile/en/elastica.jpg',
+      alt: 'ElitePipe Hero Image',
+      link: '/en/urunler/bina-ici-boru-sistemleri/elastica-boru',
+    },
+    {
+      desktopImage: '/sliderImages/desktop/en/projelerimiz.jpg',
+      mobileImage: '/sliderImages/mobile/en/projelerimiz.jpg',
+      alt: 'projelerimiz',
+      link: '/en/projelerimiz',
+    },
+    {
+      desktopImage: '/sliderImages/desktop/en/nanotek-premium.jpg',
+      mobileImage: '/sliderImages/mobile/en/nanotek-premium.jpg',
+      alt: 'nanotek',
+      link: '/en/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium',
+    },
+    {
+      desktopImage: '/sliderImages/desktop/en/koruge.jpg',
+      mobileImage: '/sliderImages/mobile/en/koruge.jpg',
+      alt: 'Koruge',
+      link: '/en/urunler/altyapi-boru-sistemleri/koruge-boru',
     },
   ],
   tr: [
     {
-      desktopImage: '/sliderImages/desktop/elite-pipe.jpg',
-      mobileImage: '/sliderImages/mobile/elite-pipe.jpg',
+      desktopImage: '/sliderImages/desktop/tr/elite-pipe.jpg',
+      mobileImage: '/sliderImages/mobile/tr/eliteelite-pipe.jpg',
       alt: 'ElitePipe',
-      link: '/urunler/bina-ici-boru-sistemleri/elitepipe',
+      link: '/en/urunler/bina-ici-boru-sistemleri/elitepipe',
     },
     {
-      desktopImage: '/sliderImages/desktop/sterilepipe.jpg',
-      mobileImage: '/sliderImages/mobile/sterilepipe.jpg',
+      desktopImage: '/sliderImages/desktop/tr/sterilepipe.jpg',
+      mobileImage: '/sliderImages/mobile/tr/sterilepipe.jpg',
       alt: 'Sterile Pipe',
-      link: '/urunler/bina-ici-boru-sistemleri/sterilepipe',
+      link: '/en/urunler/bina-ici-boru-sistemleri/sterilepipe',
     },
     {
-      desktopImage: '/sliderImages/desktop/alt-yapı.jpg',
-      mobileImage: '/sliderImages/mobile/alt-yapı.jpg',
+      desktopImage: '/sliderImages/desktop/tr/alt-yapı.jpg',
+      mobileImage: '/sliderImages/mobile/tr/alt-yapı.jpg',
       alt: 'Altyapı Boru Sistemleri',
-      link: '/urunler/altyapi-boru-sistemleri',
+      link: '/en/urunler/altyapi-boru-sistemleri',
     },
     {
-      desktopImage: '/sliderImages/desktop/elastica.jpg',
-      mobileImage: '/sliderImages/mobile/elastica.jpg',
+      desktopImage: '/sliderImages/desktop/tr/elastica.jpg',
+      mobileImage: '/sliderImages/mobile/tr/elastica.jpg',
       alt: 'ElitePipe Hero Image',
-      link: '/urunler/bina-ici-boru-sistemleri/elastica-boru',
+      link: '/en/urunler/bina-ici-boru-sistemleri/elastica-boru',
     },
     {
-      desktopImage: '/sliderImages/desktop/projelerimiz.jpg',
-      mobileImage: '/sliderImages/mobile/projelerimiz.jpg',
+      desktopImage: '/sliderImages/desktop/tr/projelerimiz.jpg',
+      mobileImage: '/sliderImages/mobile/tr/projelerimiz.jpg',
       alt: 'projelerimiz',
-      link: '/projelerimiz',
+      link: '/en/projelerimiz',
     },
     {
-      desktopImage: '/sliderImages/desktop/nanotek-premium.jpg',
-      mobileImage: '/sliderImages/mobile/nanotek-premium.jpg',
+      desktopImage: '/sliderImages/desktop/tr/nanotek-premium.jpg',
+      mobileImage: '/sliderImages/mobile/tr/nanotek-premium.jpg',
       alt: 'nanotek',
-      link: '/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium',
+      link: '/en/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium',
     },
     {
-      desktopImage: '/sliderImages/desktop/koruge.jpg',
-      mobileImage: '/sliderImages/mobile/koruge.jpg',
+      desktopImage: '/sliderImages/desktop/tr/koruge.jpg',
+      mobileImage: '/sliderImages/mobile/tr/koruge.jpg',
       alt: 'Koruge',
-      link: '/urunler/altyapi-boru-sistemleri/koruge-boru',
+      link: '/en/urunler/altyapi-boru-sistemleri/koruge-boru',
     },
   ],
 };
 
 const Carousel = () => {
-  const router = useRouter();
-
-  const [language] = useLanguageContext();
   const isMobile = window.matchMedia('(max-width: 600px)').matches;
+
+  const language = useLocale() ?? ('en' as keyof HeroSliderParams);
 
   return (
     <div className="top-0 flex w-full items-center justify-center">
@@ -136,23 +149,19 @@ const Carousel = () => {
         }}
         modules={[Pagination, Navigation, Keyboard, Autoplay]}
       >
-        {heroSlider[language].map((slide) => (
-          <SwiperSlide
-            key={slide.link || ''}
-            onClick={() => {
-              if (slide.link) {
-                router.push(slide.link);
-              }
-            }}
-          >
-            <Image
-              layout="fill"
-              objectFit="cover"
-              loading="lazy"
-              alt={slide.alt}
-              src={isMobile ? slide.mobileImage : slide.desktopImage}
-            />
+        {heroSlider[language]?.map((slide) => (
+          <SwiperSlide key={slide.link || ''}>
+            <Link href={slide.link || ''}>
+              <Image
+                layout="fill"
+                objectFit="cover"
+                loading="lazy"
+                alt={slide.alt}
+                src={isMobile ? slide.mobileImage : slide.desktopImage}
+              />
+            </Link>
           </SwiperSlide>
+          
         ))}
       </Swiper>
 

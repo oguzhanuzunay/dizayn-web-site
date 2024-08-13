@@ -30,7 +30,7 @@ const WhatsApp = () => {
           className="pr-1"
         />
         <p>
-          <span className="text-sm text-white">Bizimle iltişime geç</span>
+          <span className="text-sm text-white"></span>
         </p>
       </div>
     </>

@@ -5,9 +5,7 @@ import {
 } from '@/types';
 import { languageParams } from '@/types/languageParams';
 
-
 import { productList } from './productList';
-
 
 const languageTexts: languageParams = {
   en: {
@@ -1157,7 +1155,6 @@ const dealerList: dealerListParams = [
     mapsLink: '',
   },
 ];
-
 
 const showroomProduct: matrixCardParams = {
   en: [

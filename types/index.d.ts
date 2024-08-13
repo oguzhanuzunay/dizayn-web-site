@@ -145,12 +145,3 @@ export interface matrixCardParams {
     }[];
   }[];
 }
-
-export interface faqsParams {
-  [key: string]: {
-    question: string;
-    answer: string;
-    textColor?: string;
-    bgColor?: string;
-  }[];
-}
