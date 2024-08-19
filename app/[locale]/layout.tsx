@@ -1,6 +1,5 @@
 import NavigationBar from '@/components/shared/NavigationBar';
 import { languageTexts } from '@/constants';
-import { LanguageProvider } from '@/context/language';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 
@@ -9,7 +8,6 @@ import { Metadata } from 'next';
 // eslint-disable-next-line camelcase
 import { Quicksand, Red_Hat_Display, Roboto, Space_Grotesk } from 'next/font/google';
 import React from 'react';
-import { Providers } from './Providers';
 import './globals.css';
 
 const roboto = Roboto({ weight: ['300', '500', '700', '900'], subsets: ['latin'] });
@@ -45,24 +43,15 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <NextIntlClientProvider messages={messages}>
-        <LanguageProvider>
-          <Providers>
-            <body
-              className={
-                (roboto.className,
-                spaceGrotesk.className,
-                redHatDisplay.className,
-                quicksand.className)
-              }
-            >
-              <NavigationBar />
-              {children}
-              <Footer />
-            </body>
-          </Providers>
-        </LanguageProvider>
-      </NextIntlClientProvider>
+      <body
+        className={`${roboto.className} ${spaceGrotesk.className} ${redHatDisplay.className} ${quicksand.className}`}
+      >
+        <NextIntlClientProvider messages={messages}>
+          <NavigationBar />
+          {children}
+          <Footer />
+        </NextIntlClientProvider>
+      </body>
     </html>
   );
 }

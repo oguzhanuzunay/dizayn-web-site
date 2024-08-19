@@ -561,6 +561,12 @@
     "mission": "Misyonumuz"
   },
   "Breadcrumb": {
-    "products": "Ürünler"
+    "products": "Ürünler",
+    "home": "Ana Sayfa",
+    "productLink": "/tr/urunler/bina-ici-boru-sistemleri",
+    "productsLink": "/tr/urunler/",
+    "productNotFound": "Ürün bulunamadı.",
+    "superStructureProductLink": "/tr/urunler/bina-ici-boru-sistemleri",
+    "infrastructureProductLink": "/tr/urunler/bina-ici-boru-sistemleri"
   }
 }

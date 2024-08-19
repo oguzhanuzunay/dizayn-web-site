@@ -438,7 +438,8 @@
         "title": "Design Group",
         "visionMission": "Mission and Vision",
         "awards": "Awards and Achievements",
-        "qualityPolicy": "letter of commitment"
+        "qualityPolicy": "letter of commitment",
+        "about": "Institutional"
       },
       "products": {
         "title": "Products",
@@ -556,6 +557,12 @@
     "mission": "Our Mission"
   },
   "Breadcrumb": {
-    "products": "Products"
+    "products": "Products",
+    "home": "Home Page",
+    "productLink": "/en/urunler/bina-ici-boru-sistemleri",
+    "productsLink": "en/urunler/",
+    "productNotFound": "Product not found.",
+    "superStructureProductLink": "/en/urunler/bina-ici-boru-sistemleri",
+    "infrastructureProductLink": "/en/urunler/bina-ici-boru-sistemleri"
   }
 }

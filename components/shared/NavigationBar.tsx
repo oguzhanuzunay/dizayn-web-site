@@ -1,7 +1,5 @@
 'use client';
 import { languageTexts } from '@/constants';
-import { usePathname } from 'next/navigation';
-
 import dizaynLogo from '@/public/dizayn-logo.png';
 import { ChevronDown } from '@/public/icons/icons';
 import {
@@ -21,11 +19,13 @@ import {
 } from '@nextui-org/react';
 import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
-import React, { useState } from 'react';
+import { usePathname } from 'next/navigation';
+import React, { useEffect, useState } from 'react';
 
 const NavigationBar = () => {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const t = useTranslations('NavigationBar');
   const locale = useLocale();
   const icons = {
@@ -38,6 +38,15 @@ const NavigationBar = () => {
       />
     ),
   };
+  const [isHomePage, setIsHomePage] = useState(false);
+  useEffect(() => {
+    // pathname /tr veya /en ise isHomePage'i true olarak ayarla
+    if (pathname === '/tr' || pathname === '/en') {
+      setIsHomePage(true);
+    } else {
+      setIsHomePage(false); // diğer tüm sayfalar için false
+    }
+  }, [pathname]);
 
   const menuList = [
     {
@@ -67,13 +76,13 @@ const NavigationBar = () => {
   ];
 
   const listMenu = (firstIndex: number, lastIndex: number): React.ReactNode =>
-    menuList.slice(firstIndex, lastIndex).map((page: any) => {
+    menuList.slice(firstIndex, lastIndex).map((page: any, index) => {
       if (!page.submenu) {
         return (
-          <NavbarItem key={page}>
+          <NavbarItem key={`${page}-${index}`}>
             <Link
               href={`/${locale}/${page.name.toLowerCase().replace(' ', '-')}`}
-              className="font-spaceGrotesk text-medium text-gray-900 transition-all duration-300 ease-in-out hover:text-accent-blue"
+              className=" font-spaceGrotesk text-gray-900 transition-all duration-300 ease-in-out hover:text-accent-blue"
             >
               {page.name}
             </Link>
@@ -97,7 +106,7 @@ const NavigationBar = () => {
             </NavbarItem>
             <DropdownMenu
               aria-label="ACME features"
-              className="w-[340px]"
+              className="w-[340px] shadow-light-200"
               itemClasses={{
                 base: 'gap-4',
               }}
@@ -128,7 +137,7 @@ const NavigationBar = () => {
 
   return (
     <Navbar
-      className={`bg-transparent pt-3 ${pathname === '/' ? 'fixed top-0' : 'static'}`}
+      className={`bg-transparent pt-3 ${isHomePage ? 'fixed top-0' : 'static'}`}
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
       height={'50px'}
@@ -149,7 +158,7 @@ const NavigationBar = () => {
       >
         <NavbarItem key={'Katalog'}>
           <Link
-            className="rounded-lg bg-blue-500 px-2 py-1 text-medium font-normal text-white transition-all duration-300 ease-in-out "
+            className="rounded-lg bg-blue-500 px-2 py-1  font-semibold text-white transition-all duration-300 ease-in-out "
             target="_blank"
             href="/dizayn-fiyat-listesi.pdf"
           >
@@ -182,11 +191,11 @@ const NavigationBar = () => {
       </NavbarContent>
 
       {/* Mobile Content */}
-      <NavbarMenu className={`${pathname === '/' ? '!bg-transparent' : 'bg-white'}`}>
+      <NavbarMenu className={`${isHomePage ? '!bg-transparent' : 'bg-white'}`}>
         {/* Fiyat Listesi */}
         <NavbarMenuItem>
           <Link
-            className="mt-3 flex w-full items-center justify-center rounded-lg bg-blue-500 px-2 py-1 text-medium font-semibold text-white transition-all duration-300 ease-in-out hover:bg-blue-600"
+            className="mt-3 flex w-full items-center justify-center rounded-lg bg-blue-500 px-2 py-1 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:bg-blue-600"
             href="/dizayn-fiyat-listesi.pdf"
             target="blank"
             size="lg"
@@ -207,7 +216,7 @@ const NavigationBar = () => {
             {item.submenu &&
               item.submenu.map((subItem: any, subIndex: number) => (
                 <Link
-                  key={`${subItem}-${subIndex}`}
+                  key={`${subItem}-${subIndex}-1`}
                   className="w-full pl-4 text-gray-900"
                   href={`${subItem.link}`}
                   size="lg"

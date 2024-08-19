@@ -1,14 +1,16 @@
+'use client';
 import FAQs from '@/components/FAQs';
 import Header from '@/components/Header';
 import ProductDetailCard from '@/components/ProductDetail/ProductDetailCard';
 import FeaturesCard from '@/components/cards/FeaturesCard';
 import { productList } from '@/constants';
 import { BreadcrumbItem, Breadcrumbs } from '@nextui-org/react';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 const Page = ({ params }: { params: { product: string } }) => {
   const language = useLocale();
+  const t = useTranslations('Breadcrumb');
 
   const product = productList[language]?.infrastructureProducts.find(
     (item) => item.link.split('/')[item.link.split('/').length - 1] === params.product,
@@ -17,7 +19,7 @@ const Page = ({ params }: { params: { product: string } }) => {
   console.log(product);
 
   if (product === undefined) {
-    return <div>Ürün bulunamadı.</div>;
+    return <div>{t('productNotFound')}</div>;
   }
 
   const productDetail = product?.productDetails;
@@ -28,8 +30,8 @@ const Page = ({ params }: { params: { product: string } }) => {
 
       <div className="ml-5 mt-3">
         <Breadcrumbs>
-          <BreadcrumbItem href="/">Anasayfa</BreadcrumbItem>
-          <BreadcrumbItem href="/urunler/bina-ici-boru-sistemleri">Ürünler</BreadcrumbItem>
+          <BreadcrumbItem href="/">{t('home')}</BreadcrumbItem>
+          <BreadcrumbItem href={t('infrastructureProductLink')}>{t('products')}</BreadcrumbItem>
           <BreadcrumbItem href={`/urunler/${params.product}`}>
             {params.product.replace('-', ' ').toUpperCase()}
           </BreadcrumbItem>

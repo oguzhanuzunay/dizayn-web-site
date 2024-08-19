@@ -64,12 +64,10 @@ const config: Config = {
         'dark-100': '0px 2px 10px 0px rgba(46, 52, 56, 0.10)',
         'dark-200': '2px 0px 20px 0px rgba(39, 36, 36, 0.04)',
       },
-
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-
       screens: {
         xs: '420px',
       },
@@ -87,16 +85,24 @@ const config: Config = {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
+      navbar: {
+        'navbar-fixed': {
+          position: 'fixed',
+          top: '0',
+          width: '100%',
+          zIndex: '1000',
+        },
+      },
     },
-  },
 
-  darkMode: 'class',
-  plugins: [
-    require('tailwindcss-animate'),
-    require('@tailwindcss/typography'),
-    addVariablesForColors,
-    nextui(),
-  ],
+    darkMode: 'class',
+    plugins: [
+      require('tailwindcss-animate'),
+      require('@tailwindcss/typography'),
+      addVariablesForColors,
+      nextui(),
+    ],
+  },
 };
 // This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).
 function addVariablesForColors({ addBase, theme }: any) {

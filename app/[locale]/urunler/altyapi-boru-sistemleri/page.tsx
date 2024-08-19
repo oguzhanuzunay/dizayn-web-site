@@ -1,3 +1,4 @@
+'use client';
 import Header from '@/components/Header';
 import MatrixCard from '@/components/cards/MatrixCard';
 import ProductCard from '@/components/cards/ProductCard';

@@ -9,6 +9,8 @@ import 'swiper/css/pagination';
 import { Autoplay, Keyboard, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Link from 'next/link';
+import React, { useEffect, useState } from 'react';
+
 
 interface HeroSliderParams {
   [key: string]: {
@@ -112,7 +114,20 @@ const heroSlider: HeroSliderParams = {
 };
 
 const Carousel = () => {
-  const isMobile = window.matchMedia('(max-width: 600px)').matches;
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Tarayıcıda mevcut olduğunda çalışır
+    const checkIsMobile = () => {
+      setIsMobile(window.matchMedia('(max-width: 600px)').matches);
+    };
+
+    checkIsMobile(); // İlk kontrol
+    window.addEventListener('resize', checkIsMobile);
+
+    return () => window.removeEventListener('resize', checkIsMobile);
+  }, []);
+  window.addEventListener('resize', checkIsMobile);
 
   const language = useLocale() ?? ('en' as keyof HeroSliderParams);
 
@@ -187,3 +202,7 @@ const Carousel = () => {
 };
 
 export default Carousel;
+function checkIsMobile(this: Window, ev: UIEvent) {
+  throw new Error('Function not implemented.');
+}
+
