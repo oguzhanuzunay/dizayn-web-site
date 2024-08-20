@@ -168,8 +168,8 @@ export const productList: productListParams = {
             },
             {
               title: 'Daha Az Malzeme, Daha Çok Tasarruf',
-              icon: '/icons/money-bag.png',
-              alt: 'money-bag.',
+              icon: '/icons/economical.png',
+              alt: 'economical.',
               description:
                 'Montaj kolaylığı ve daha az ek parça ihtiyacı ile maliyet ve zaman tasarrufu sağlar.',
             },
@@ -199,9 +199,6 @@ export const productList: productListParams = {
               title: '<b>ElitePipe</b> ve Ek Parçaları',
               description:
                 'PPR, PEX ve PERT borularının en iyi özelliklerini birleştirerek yüksek sıcaklık ve basınç dayanımı, esneklik ve kırılma direnci sunar. Ek Parçalar, sistemin güvenli ve verimli çalışmasını sağlayarak montaj kolaylığı ve düşük basınç kaybı sunar. Esnek ve kolay şekil alan yapıları, zaman ve maliyet tasarrufu sağlar. ElitePipe ve Ek Parçaları, sıcak-soğuk su tesisatları, ısıtma sistemleri ve güneş enerjisi sistemlerinde üstün performans gösterir. Yüksek teknoloji ve mühendislik birikimi ile geliştirilmiş bu sistem, kullanıcılarına üstün kalite ve güven sunar.',
-              image:
-                '/productImages/üst yapı borular/elite-pipe-ve-ek/ELİTE PİPE COMPOZİT BORU GRUP.png',
-              alt: 'ElitePipe',
             },
             {
               title: 'ElitePipe <b>Avantajları</b>',
@@ -600,212 +597,6 @@ export const productList: productListParams = {
           ],
           fittings: [],
         },
-      },
-
-      {
-        title: 'SoftPower Boru',
-        description:
-          'SoftPower Boru, yüksek oksidasyon dayanımı, esneklik ve kolay montaj imkanı sunan, PE63 hammaddesinden üretilmiş dayanıklı ve uzun ömürlü bir boru sistemidir.',
-        featuredProduct: false,
-        logo: '/productImages/üst yapı borular/soft-power-ek/logo.png',
-        isNewTech: true,
-        banner: {
-          vertical: '/productImages/üst yapı borular/soft-power-ek/banner/vertical.jpg',
-          horizontal: '/productImages/üst yapı borular/soft-power-ek/banner/tr/horizontal.png',
-          PLP: '/productImages/üst yapı borular/soft-power-ek/banner/tr/PLP.png',
-          bgImage: '',
-        },
-        image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
-        link: '/tr/urunler/bina-ici-boru-sistemleri/softpower-boru',
-        highlights: [
-          { title: 'Darbeye Dayanıklı', icon: '/icons/durable.png' },
-          { title: 'Esnek', icon: '/icons/flexible.png' },
-          { title: 'Maliyet Tasarrufu', icon: '/icons/save-time.png' },
-        ],
-        productDetails: {
-          title: 'SoftPower Boru',
-          description:
-            'SoftPower Pipe, yüksek oksidasyon dayanımı, esnekliği ve kolay montaj imkanı ile öne çıkan bir boru sistemidir. PE63 hammaddeden üretilen SoftPower Pipe, yüksek bükülme direnci, UV ışınlarına karşı dayanıklılık ve uzun ömürlü kullanım performansı sunar. İçme suyu ve sulama sistemlerinde güvenle kullanılır.',
-          features: [
-            {
-              title: 'İleri Üretim Teknolojisi',
-              icon: '/icons/high-tech (1).png',
-              alt: 'High Technology',
-              description:
-                'Dizayn Grup, Soft Power borularını üretim sürecinin başından sonuna kadar ileri teknoloji altyapısı ile üretmektedir.',
-            },
-            {
-              title: 'Dayanıklı ve Güvenilir',
-              icon: '/icons/reliability.png',
-              alt: 'Reliability',
-              description:
-                'Soft Power boruları, üstün dayanıklılığı ve uzun ömürlü yapısıyla projelerinizde güvenle kullanabileceğiniz bir üründür.',
-            },
-            {
-              title: 'Üstün Özellikli Hammadde ',
-              icon: '/icons/purity.png',
-              alt: 'Purity',
-              description:
-                'Soft Power boruları, %100 saf ve orijinal hammadde kullanılarak üretilir, bu da en yüksek kaliteyi garanti eder.',
-            },
-            {
-              title: 'Akredite Test Laboratuvarı',
-              icon: '/icons/test.png',
-              alt: 'test',
-              description:
-                'Dizayn Grup’un akredite test laboratuvarı, deneyimli mühendis kadrosu ile tarafsız ve güvenilir test hizmeti sunar.',
-            },
-            {
-              title: 'Projeye Özel Çözümler',
-              icon: '/icons/solution.png',
-              alt: 'Solution',
-              description:
-                'Soft Power borular, projelerinize özel çözümler sunarak üretim sürecinin her aşamasında yanınızda olur.',
-            },
-            {
-              title: 'Yüksek Kalite ve Ekonomik Fiyat',
-              icon: '/icons/reward.png',
-              alt: 'reward',
-              description:
-                'Soft Power boruları, yüksek kalite ve uygun fiyat avantajı ile projelerinizin vazgeçilmezi olacaktır. Detaylı bilgi için bizimle iletişime geçin.',
-            },
-          ],
-          images: [
-            {
-              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
-              alt: 'SoftPower Boru',
-              description: 'SoftPower Boru',
-            },
-            {
-              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
-              alt: 'SoftPower Boru',
-              description: 'SoftPower Boru',
-            },
-            {
-              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
-              alt: 'SoftPower Boru',
-              description: 'SoftPower Boru',
-            },
-          ],
-          headers: [
-            {
-              title: '<b>Soft Power Boru</b> ve Ek Parçaları',
-              description:
-                'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
-              alt: 'SoftPower Boru',
-            },
-            {
-              title: 'Soft Power Boru <b>Avantajları</b>',
-              description:
-                'Dizayn Grup Soft Power boruları, pürüzsüz iç ve dış yüzeyi ile hafif, esnek ve sağlam bir yapıya sahiptir. Taşıma ve kurulum sırasında minimum ağır ekipman gerektirir ve tüm saha koşullarında, zorlu çevre koşullarında bile kolayca uygulanabilir.\nSoft Power boruları, UV ışınlarına karşı yüksek direnç gösterir ve kimyasallara karşı mükemmel dayanıklılık sağlar. Tuzlu su, sıhhi kanalizasyon atık suyu, korozif asitler, bazlar ve tuzlar gibi maddelere karşı üstün koruma sunar. Bu <b>Özellikleri</b> ile Soft Power boruları, uzun ömürlü ve güvenilir performans sağlar, projelerinizde sizi asla yarı yolda bırakmaz.',
-            },
-            {
-              title: 'Soft Power Boru <b>Nerelerde Kullanılır?</b>',
-              description:
-                'Dizayn Grup Soft Power boruları, üstün performansı ve kalitesi ile prestijli projelerde tercih edilen bir üründür. Su şebekeleri, tarımsal sulama sistemleri, atık su sistemleri, endüstriyel uygulamalarda güvenle kullanılabilir. Soft Power boruları, projelerinizde güvenilir ve uzun ömürlü çözümler sunar. Soft Power Boru <b>Fiyat Listesi</b> için bizimle iletişime geçiniz.',
-            },
-            {
-              title: 'Soft Power Boru <b>Ağırlık Tablosu</b>',
-              description:
-                'SoftPower Boru, üstün dayanıklılığı ve esnekliği ile bilinir. Her proje için özel olarak üretilen boruların ağırlıkları, çap ve et kalınlıklarına göre değişiklik göstermektedir. Detaylı ağırlık bilgileri için lütfen Dizayn Grup ile iletişime geçiniz.',
-            },
-            {
-              title: 'Soft Power Boru Teknik <b>Özellikleri</b>',
-              description:
-                'SoftPower Boru, yüksek oksidasyon dayanımı, esneklik ve kolay montaj imkanı sunan yenilikçi bir boru sistemidir. PE63 hammaddesinden üretilen bu borular, yüksek basınç dayanımı ile uzun ömürlü kullanım sağlar. Güneşin UV ışınlarına karşı dayanıklı olan SoftPower Boru, içme suyu ve sulama sistemleri gibi çeşitli uygulamalarda mükemmel performans gösterir. Çevresel çatlak direnci yüksektir ve bükülme anında çatlama yapmaz, böylece ilave ek parçalar kullanılmasına gerek kalmaz. 20°C’de 50 yıl boyunca güvenle kullanılabilir.',
-            },
-            {
-              title: 'Soft Power <b>Ek Parçaları</b>',
-              description: `SoftPower Boru, çeşitli ek parçalarla birlikte sunulur, bu parçalar sayesinde montaj ve bağlantı işlemleri kolayca gerçekleştirilir. Yüksek kalitede üretilen bu ek parçalar, borunun dayanıklılığını ve performansını artırır. Aşağıda SoftPower Boru için mevcut ek parçalar listelenmiştir:
-
-<b>Eşit Te:</b> Boruların üç yöne ayrılmasını sağlar, aynı çaplarda bağlantı yapar.
-<b>Redüksiyon:</b> Farklı çaplarda boruların bağlanmasını sağlar, çap küçültme işlevi görür.
-<b>Semer:</b> Boruların üzerine oturarak sabitlenmesini ve yön değiştirmesini sağlar.
-<b>Dirsekler:</b> Boruların belirli açılarla yön değiştirmesini sağlar, 90° ve 45° açılarında bulunur.
-<b>İnegal Te:</b> Farklı çaplarda boruların üç yöne ayrılmasını sağlar.
-<b>Manşon:</b> İki borunun uç uca bağlanmasını sağlar, sızdırmazlık sağlar.
-<b>Körtapa:</b> Boru uçlarını kapatarak sistemin sonlandırılmasını sağlar.
-<b>Flanş Adaptörü:</b> Boruların flanşlarla bağlantısını sağlar, güçlü ve sızdırmaz bir bağlantı oluşturur.
-Bu ek parçalar, SoftPower Boru sisteminin esnekliğini ve dayanıklılığını artırırken, montaj ve bakım işlemlerini kolaylaştırır.`,
-            },
-            {
-              title: 'Soft Power Boru <b>Birleştirme Yöntemleri</b>',
-              description: `SoftPower Boru, çeşitli birleştirme yöntemleri ile kolay ve güvenli montaj imkanı sunar. Aşağıda, SoftPower Boru sisteminde kullanılan başlıca birleştirme yöntemleri belirtilmiştir:\n
-
-<b>Kaplin Ek Parçaları ile Kolay Montaj:</b> SoftPower Boru, kaplin tarzı mekanik ek parçaları ile montaj edilmeye uygundur. Bu yöntem, boruların hızlı ve güvenli bir şekilde birleştirilmesini sağlar ve özellikle esnek ve kolay şekil alabilen borular için idealdir.
-
-\n<b>Bükülme Direnci:</b> SoftPower Boru, büküldüğünde çatlama göstermez ve basınç dayanımı özelliklerini korur. Bu özellik, ilave ek parça kullanımını gereksiz kılar ve montaj sürecini kolaylaştırır.
-
-SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da montaj sürecini hızlandırır ve işçilik maliyetlerini düşürür. Yüksek bükülme direnci ve kaplin ek parçaları ile kullanımı, borunun sağlam ve uzun ömürlü olmasını garanti eder.`,
-            },
-            {
-              title: 'Soft Power Kaynak Yöntemi: <b>Alın Kaynak</b>',
-              description:
-                '<b>Alın Kaynak</b>, Soft Power boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. <b>Alın Kaynak</b> makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, Soft Power boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 1600 mm çapa kadar olan Soft Power borular kaynatılabilir.',
-            },
-            {
-              title: 'Soft Power Boru <b>Fiyat Listesi</b>',
-              description:
-                'SoftPower Boru, yüksek kalite ve dayanıklılığı ile öne çıkan bir boru sistemidir. Fiyat listesi, boru çapı, et kalınlığı ve uzunluğu gibi özelliklere bağlı olarak değişiklik göstermektedir. SoftPower Borunun rekabetçi fiyatları, uzun ömürlü performansı ve yüksek dayanıklılığı ile maliyet-fayda açısından kullanıcılarına büyük avantaj sağlar. Detaylı fiyat bilgisi ve projeye özel fiyat teklifleri için Dizayn Grup ile iletişime geçebilirsiniz. SoftPower Boru, yüksek performansı ve uygun fiyatları ile projelerinizde güvenle kullanabileceğiniz bir üründür.',
-            },
-          ],
-
-          faqs: [
-            {
-              question: 'Soft Power borular hangi malzemeden üretilir?',
-              answer:
-                'Soft Power Borular, Dizayn Teknik Boru ve Elemanları San. Tic. AŞ AR-GE ekibi tarafından geliştirilen PE63 hammaddeden üretilmektedir. Bu malzeme, yüksek basınç dayanımı ve uzun ömürlü kullanım sunar. Piyasadaki yumuşak PE borularda yaygın olarak kullanılan LDPE hammaddeye göre çok daha dayanıklıdır.',
-            },
-            {
-              question: 'Soft Power boruların kullanım alanları nelerdir?',
-              answer:
-                'Soft Power Borular, içme suyu tesisatlarında, içme suyu hatlarında, tarımsal sulama sistemlerinde, sera sulama sistemlerinde, park ve bahçe peyzaj sulama sistemlerinde ve diğer uygun içme suyu uygulamalarında kullanılır.',
-            },
-            {
-              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
-              answer:
-                'Soft Power Borular, çeşitli çap ve basınç sınıflarında mevcuttur. Ürünler, projeye özel olarak farklı çap ve basınç sınıflarında üretilebilir.',
-            },
-            {
-              question: 'Soft Power boruların Birleştirme Yöntemleri nelerdir?',
-              answer:
-                'Soft Power Borular, kaplin tarzı mekanik birleştirme parçaları ile montaj edilir. Bu yöntem, boruların hızlı ve güvenli bir şekilde birleştirilmesini sağlar.',
-            },
-            {
-              question: 'Soft Power boruları kimyasallara karşı dayanıklı mı?',
-              answer:
-                'Evet, Soft Power Borular kimyasallara karşı yüksek dayanıklılığa sahiptir. Çevresel çatlak direnci ve oksidasyon dayanımı ile uzun ömürlü ve güvenli kullanım sunar.',
-            },
-            {
-              question: 'Soft Power boruların Avantajları nelerdir?',
-              answer:
-                'Soft Power Borular, yüksek oksidasyon dayanımı, esneklik, kolay montaj, yüksek bükülme direnci, uzun ömürlü kullanım ve güneşin UV ışınlarına karşı dayanıklılık gibi avantajlar sunar.',
-            },
-            {
-              question: 'Soft Power boruların ömrü ne kadar?',
-              answer:
-                'Soft Power Borular, 20°C’de 50 yıl boyunca tasarlanan basınç değerinde güvenle kullanılabilir. 50 yıllık ömür dayanımı, 80°C’de 1000 saatlik basınç testi ile ölçülmüştür.',
-            },
-            {
-              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
-              answer:
-                'Soft Power Boruların detaylı fiyat listesi ve projeye özel fiyat teklifleri için Dizayn Grup ile iletişime geçebilirsiniz.',
-            },
-            {
-              question: 'Soft Power boruların teknik Özellikleri nelerdir?',
-              answer:
-                'Soft Power Borular, yüksek oksidasyon dayanımı, esneklik, kolay montaj, yüksek bükülme direnci, UV ışınlarına karşı dayanıklılık ve çevresel çatlak direnci gibi teknik özelliklere sahiptir.',
-            },
-            {
-              question: 'Soft Power boruları nasıl temin edebilirim?',
-              answer:
-                'Soft Power Boruları, Dizayn Grup yetkili satıcılarından veya doğrudan Dizayn Grup ile iletişime geçerek temin edebilirsiniz.',
-            },
-          ],
-          fittings: [],
-        },
-        background: '',
       },
 
       {
@@ -1246,9 +1037,9 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
       },
 
       {
-        title: 'Triplex Atık Su Boruları',
+        title: 'Triplex Yanmaz Sessiz Boru Sistemleri',
         description:
-          'Triplex Atık Su Boruları, bina içi ve dışı kullanılmış suyun tahliyesi için döşenen, yüksek dayanıklılığa sahip ve uzun ömürlü bir boru sistemidir.',
+          'Triplex Atık <b>Yanmaz Sessiz Boru Sistemleri </b> bina içi ve dışı kullanılmış suyun tahliyesi için döşenen, yüksek dayanıklılığa sahip ve uzun ömürlü bir boru sistemidir.',
         featuredProduct: false,
         logo: '/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/logo.png',
         isNewTech: true,
@@ -1339,9 +1130,6 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Triplex Atık Su Borusu</b> ve Ek Parçaları',
               description:
                 'Dizayn Grup Triplex Atık Su Boruları, performansı ve yüksek kalitesi ile 50 mm - 200 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Triplex Atık Su Boruları, bina içi ve dışı atık su tahliyesi için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Triplex Atık Su Boruları <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
-              image:
-                '/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/triplex-pipe.png',
-              alt: 'Triplex Atık Su Borusu',
             },
             {
               title: 'Triplex Atık Su Borusu <b>Avantajları</b>',
@@ -1644,12 +1432,12 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
 
     infrastructureProducts: [
       {
-        title: 'SoftPower Pipe',
+        title: 'SoftPower Boru',
         description:
-          'SoftPower Pipe is an innovative piping system known for its durability, flexibility, easy transportation, and cost savings.',
+          'SoftPower Boru, yüksek oksidasyon dayanımı, esneklik ve kolay montaj imkanı sunan, PE63 hammaddesinden üretilmiş dayanıklı ve uzun ömürlü bir boru sistemidir.',
         featuredProduct: false,
         logo: '/productImages/üst yapı borular/soft-power-ek/logo.png',
-        isNewTech: false,
+        isNewTech: true,
         banner: {
           vertical: '/productImages/üst yapı borular/soft-power-ek/banner/vertical.jpg',
           horizontal: '/productImages/üst yapı borular/soft-power-ek/banner/tr/horizontal.png',
@@ -1657,190 +1445,191 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           bgImage: '',
         },
         image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
-        link: '/tr/urunler/bina-ici-boru-sistemleri/softpower-boru',
+        link: '/tr/urunler/alt yapı boruları/softpower-boru',
         highlights: [
-          {
-            title: 'Impact Resistant',
-            icon: '/icons/durable.png',
-          },
-          {
-            title: 'Flexible',
-            icon: '/icons/flexible.png',
-          },
-          {
-            title: 'Cost Saving',
-            icon: '/icons/save-time.png',
-          },
+          { title: 'Darbeye Dayanıklı', icon: '/icons/durable.png' },
+          { title: 'Esnek', icon: '/icons/flexible.png' },
+          { title: 'Maliyet Tasarrufu', icon: '/icons/save-time.png' },
         ],
         productDetails: {
-          title: 'SoftPower Pipe',
+          title: 'SoftPower Boru',
           description:
-            'Design Group pipes are manufactured according to TS EN 13476-3 international standards, available in nominal diameters from 100 mm to 1000 mm with socketed or steel reinforced up to diameters from 800-2400 mm. Northpipe Corrugated pipes with special molds and high quality will be indispensable for your projects.',
+            'SoftPower Pipe, yüksek oksidasyon dayanımı, esnekliği ve kolay montaj imkanı ile öne çıkan bir boru sistemidir. PE63 hammaddeden üretilen SoftPower Pipe, yüksek bükülme direnci, UV ışınlarına karşı dayanıklılık ve uzun ömürlü kullanım performansı sunar. İçme suyu ve sulama sistemlerinde güvenle kullanılır.',
           features: [
             {
-              title: 'Advanced Manufacturing Technology',
+              title: 'İleri Üretim Teknolojisi',
               icon: '/icons/high-tech (1).png',
               alt: 'High Technology',
               description:
-                'Design Group manufactures Soft Power pipes from start to finish with advanced technology infrastructure.',
+                'Dizayn Grup, Soft Power borularını üretim sürecinin başından sonuna kadar ileri teknoloji altyapısı ile üretmektedir.',
             },
             {
-              title: 'Durable and Reliable',
+              title: 'Dayanıklı ve Güvenilir',
               icon: '/icons/reliability.png',
               alt: 'Reliability',
               description:
-                'Soft Power pipes, with their superior durability and long-lasting structure, are safe to use in your projects.',
+                'Soft Power boruları, üstün dayanıklılığı ve uzun ömürlü yapısıyla projelerinizde güvenle kullanabileceğiniz bir üründür.',
             },
             {
-              title: 'Superior Quality Raw Material',
+              title: 'Üstün Özellikli Hammadde ',
               icon: '/icons/purity.png',
               alt: 'Purity',
               description:
-                'Soft Power pipes are made from 100% pure and original raw material, ensuring the highest quality.',
+                'Soft Power boruları, %100 saf ve orijinal hammadde kullanılarak üretilir, bu da en yüksek kaliteyi garanti eder.',
             },
             {
-              title: 'Accredited Test Laboratory',
+              title: 'Akredite Test Laboratuvarı',
               icon: '/icons/test.png',
-              alt: 'Test',
+              alt: 'test',
               description:
-                "Design Group's accredited test laboratory offers impartial and reliable testing services with its experienced engineering staff.",
+                'Dizayn Grup’un akredite test laboratuvarı, deneyimli mühendis kadrosu ile tarafsız ve güvenilir test hizmeti sunar.',
             },
             {
-              title: 'Custom Solutions for Projects',
+              title: 'Projeye Özel Çözümler',
               icon: '/icons/solution.png',
               alt: 'Solution',
               description:
-                'Soft Power pipes offer custom solutions tailored to your projects, supporting you at every stage of production.',
+                'Soft Power borular, projelerinize özel çözümler sunarak üretim sürecinin her aşamasında yanınızda olur.',
             },
             {
-              title: 'High Quality and Economical Price',
+              title: 'Yüksek Kalite ve Ekonomik Fiyat',
               icon: '/icons/reward.png',
-              alt: 'Reward',
+              alt: 'reward',
               description:
-                'Soft Power pipes, with their high quality and affordable pricing, will become indispensable in your projects. Contact us for more information.',
+                'Soft Power boruları, yüksek kalite ve uygun fiyat avantajı ile projelerinizin vazgeçilmezi olacaktır. Detaylı bilgi için bizimle iletişime geçin.',
             },
           ],
           images: [
             {
               image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
-              alt: 'SoftPower Pipe',
-              description: 'SoftPower Pipe',
+              alt: 'SoftPower Boru',
+              description: 'SoftPower Boru',
             },
             {
               image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
-              alt: 'SoftPower Pipe',
-              description: 'SoftPower Pipe',
+              alt: 'SoftPower Boru',
+              description: 'SoftPower Boru',
             },
             {
               image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
-              alt: 'SoftPower Pipe',
-              description: 'SoftPower Pipe',
+              alt: 'SoftPower Boru',
+              description: 'SoftPower Boru',
             },
           ],
           headers: [
             {
-              title: '<b>Soft Power Pipe</b> and Accessories',
+              title: '<b>Soft Power Boru</b> ve Ek Parçaları',
               description:
-                'Design Group Soft Power pipes, with their performance and high quality, are manufactured in diameters ranging from 20 mm to 1600 mm and various pressure classes. Soft Power pipes offer ideal solutions for agricultural irrigation, water networks, wastewater lines, and industrial applications. Their long-lasting and durable structure will make them indispensable in your projects. For the Soft Power Pipe <b>Price List</b>, you can obtain information by calling our line at <b>0212 886 57 41</b>.',
+                'Dizayn Grup Soft Power boruları, performansı ve yüksek kalitesi ile 20 mm - 1600 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Soft Power boruları, tarımsal sulama, su şebekeleri, atık su hatları ve endüstriyel uygulamalar için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Soft Power Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
               image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
-              alt: 'SoftPower Pipe',
+              alt: 'SoftPower Boru',
             },
             {
-              title: 'Advantages of Soft Power Pipe',
+              title: 'Soft Power Boru <b>Avantajları</b>',
               description:
-                'Design Group Soft Power pipes, with their smooth internal and external surfaces, are lightweight, flexible, and sturdy. They require minimal heavy equipment during transportation and installation and can be easily applied in all field conditions, even in challenging environmental conditions. Soft Power pipes offer high resistance against rusting and provide excellent durability against chemicals. They offer superior protection against salty water, sanitary sewage wastewater, corrosive acids, bases, and salts. With these <b>features</b>, Soft Power pipes provide long-lasting and reliable performance, never letting you down in your projects.',
+                'Dizayn Grup Soft Power boruları, pürüzsüz iç ve dış yüzeyi ile hafif, esnek ve sağlam bir yapıya sahiptir. Taşıma ve kurulum sırasında minimum ağır ekipman gerektirir ve tüm saha koşullarında, zorlu çevre koşullarında bile kolayca uygulanabilir.\nSoft Power boruları, UV ışınlarına karşı yüksek direnç gösterir ve kimyasallara karşı mükemmel dayanıklılık sağlar. Tuzlu su, sıhhi kanalizasyon atık suyu, korozif asitler, bazlar ve tuzlar gibi maddelere karşı üstün koruma sunar. Bu <b>Özellikleri</b> ile Soft Power boruları, uzun ömürlü ve güvenilir performans sağlar, projelerinizde sizi asla yarı yolda bırakmaz.',
             },
             {
-              title: 'Where is Soft Power Pipe Used?',
+              title: 'Soft Power Boru <b>Nerelerde Kullanılır?</b>',
               description:
-                'Design Group Soft Power pipes, with their superior performance and quality, are the preferred product in prestigious projects. They can be safely used in water networks, agricultural irrigation systems, wastewater and drainage systems, industrial applications, and underground water drainage systems. Soft Power pipes offer reliable and long-lasting solutions in your projects. For the Soft Power Pipe <b>Price List</b>, please contact us.',
+                'Dizayn Grup Soft Power boruları, üstün performansı ve kalitesi ile prestijli projelerde tercih edilen bir üründür. Su şebekeleri, tarımsal sulama sistemleri, atık su sistemleri, endüstriyel uygulamalarda güvenle kullanılabilir. Soft Power boruları, projelerinizde güvenilir ve uzun ömürlü çözümler sunar. Soft Power Boru <b>Fiyat Listesi</b> için bizimle iletişime geçiniz.',
             },
             {
-              title: 'Weight Table for Soft Power Pipe',
+              title: 'Soft Power Boru <b>Ağırlık Tablosu</b>',
               description:
-                'The weight calculation for Design Group Soft Power pipes is done by multiplying the hollow cylinder volume by the density of the pipe. Since Soft Power pipes undergo thermal treatment during production, they exhibit expansion properties. Therefore, when preparing the measurement table for Soft Power pipes, tolerance values must be considered.\n\n<b>Weight Table</b> Example\n20 mm: 0.15 kg/m\n25 mm: 0.24 kg/m\n32 mm: 0.39 kg/m\n40 mm: 0.61 kg/m\n50 mm: 0.96 kg/m\n63 mm: 1.51 kg/m',
+                'SoftPower Boru, üstün dayanıklılığı ve esnekliği ile bilinir. Her proje için özel olarak üretilen boruların ağırlıkları, çap ve et kalınlıklarına göre değişiklik göstermektedir. Detaylı ağırlık bilgileri için lütfen Dizayn Grup ile iletişime geçiniz.',
             },
             {
-              title: 'Technical Features of Soft Power Pipe',
+              title: 'Soft Power Boru Teknik <b>Özellikleri</b>',
               description:
-                'At Design Group, we continuously monitor and research developments in our quality laboratories. Our Soft Power pipes are manufactured with high technology in diameters ranging from 20 mm to 1600 mm. Thanks to the <b>properties</b> of polyethylene, they are one of the most suitable alternatives for pressurized water systems. They are used in various areas including underground and above-ground pressurized water network lines, sea discharge projects, and industrial applications.\n\nSoft Power pipes are easier to process, install, and save costs compared to hard concrete pipes. Structurally, they are designed to withstand impacts and cold weather conditions. In sea applications, long pipes can be assembled on the shore and then placed into position.',
+                'SoftPower Boru, yüksek oksidasyon dayanımı, esneklik ve kolay montaj imkanı sunan yenilikçi bir boru sistemidir. PE63 hammaddesinden üretilen bu borular, yüksek basınç dayanımı ile uzun ömürlü kullanım sağlar. Güneşin UV ışınlarına karşı dayanıklı olan SoftPower Boru, içme suyu ve sulama sistemleri gibi çeşitli uygulamalarda mükemmel performans gösterir. Çevresel çatlak direnci yüksektir ve bükülme anında çatlama yapmaz, böylece ilave ek parçalar kullanılmasına gerek kalmaz. 20°C’de 50 yıl boyunca güvenle kullanılabilir.',
             },
             {
-              title: 'Soft Power <b>Fittings</b>',
-              description:
-                'Design Group Soft Power <b>Fittings</b> are manufactured with high quality and individually checked before shipment. Our fittings, designed for ease of use and ergonomic design, are available at high quality and affordable prices. Soft Power <b>Fittings</b> can be safely used in pressurized water systems and other industrial applications.\n\n- Soft Power <b>Fittings</b>\n- Soft Power Equal Tee\n- Soft Power Reduction\n- Soft Power Saddle\n- Soft Power Elbows\n- Soft Power Unequal Tee\n- Soft Power Sleeve\n- Soft Power End Cap\n- Soft Power Flange Adapter\nThese <b>fittings</b> ensure that your Soft Power pipe systems are joined safely and durably.',
+              title: 'Soft Power <b>Ek Parçaları</b>',
+              description: `SoftPower Boru, çeşitli ek parçalarla birlikte sunulur, bu parçalar sayesinde montaj ve bağlantı işlemleri kolayca gerçekleştirilir. Yüksek kalitede üretilen bu ek parçalar, borunun dayanıklılığını ve performansını artırır. Aşağıda SoftPower Boru için mevcut ek parçalar listelenmiştir:
+
+<b>Eşit Te:</b> Boruların üç yöne ayrılmasını sağlar, aynı çaplarda bağlantı yapar.
+<b>Redüksiyon:</b> Farklı çaplarda boruların bağlanmasını sağlar, çap küçültme işlevi görür.
+<b>Semer:</b> Boruların üzerine oturarak sabitlenmesini ve yön değiştirmesini sağlar.
+<b>Dirsekler:</b> Boruların belirli açılarla yön değiştirmesini sağlar, 90° ve 45° açılarında bulunur.
+<b>İnegal Te:</b> Farklı çaplarda boruların üç yöne ayrılmasını sağlar.
+<b>Manşon:</b> İki borunun uç uca bağlanmasını sağlar, sızdırmazlık sağlar.
+<b>Körtapa:</b> Boru uçlarını kapatarak sistemin sonlandırılmasını sağlar.
+<b>Flanş Adaptörü:</b> Boruların flanşlarla bağlantısını sağlar, güçlü ve sızdırmaz bir bağlantı oluşturur.
+Bu ek parçalar, SoftPower Boru sisteminin esnekliğini ve dayanıklılığını artırırken, montaj ve bakım işlemlerini kolaylaştırır.`,
             },
             {
-              title: 'Joining Methods for Soft Power Pipe',
-              description:
-                'Design Group Soft Power pipes and fittings are joined either by fusion or with mechanical fittings. Pipes made from materials other than polyethylene can be connected with external compression fittings, flanges, or other suitable transition adapters. Connection fittings provide convenience depending on the location of use.\n\n<b>Joining Methods</b>\n- Electrofusion (EF) Welding: Electric energy is used to melt and join the ends of the pipe and fittings.\n- Butt Welding: The ends of the pipes are melted under high heat and pressed together to join.\n- Coupling Joining: Mechanical couplings are used to join the ends of the pipes.',
+              title: 'Soft Power Boru <b>Birleştirme Yöntemleri</b>',
+              description: `SoftPower Boru, çeşitli birleştirme yöntemleri ile kolay ve güvenli montaj imkanı sunar. Aşağıda, SoftPower Boru sisteminde kullanılan başlıca birleştirme yöntemleri belirtilmiştir:\n
+
+<b>Kaplin Ek Parçaları ile Kolay Montaj:</b> SoftPower Boru, kaplin tarzı mekanik ek parçaları ile montaj edilmeye uygundur. Bu yöntem, boruların hızlı ve güvenli bir şekilde birleştirilmesini sağlar ve özellikle esnek ve kolay şekil alabilen borular için idealdir.
+
+\n<b>Bükülme Direnci:</b> SoftPower Boru, büküldüğünde çatlama göstermez ve basınç dayanımı özelliklerini korur. Bu özellik, ilave ek parça kullanımını gereksiz kılar ve montaj sürecini kolaylaştırır.
+
+SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da montaj sürecini hızlandırır ve işçilik maliyetlerini düşürür. Yüksek bükülme direnci ve kaplin ek parçaları ile kullanımı, borunun sağlam ve uzun ömürlü olmasını garanti eder.`,
             },
             {
-              title: 'Welding Method for Soft Power: <b>Electrofusion Welding</b>',
+              title: 'Soft Power Kaynak Yöntemi: <b>Alın Kaynak</b>',
               description:
-                '<b>Electrofusion Welding</b> is conducted by heating the inner heating coils of the fusion fittings. Soft Power pipes are placed inside the electrofusion fittings and the ends of the welding machine are connected to the sockets on the fitting, heating with electric current.\n\nThis method ensures that Soft Power pipes are joined safely and robustly. <b>Electrofusion Welding</b> can be used to weld Soft Power pipes from a diameter of 20 mm up to 1600 mm.',
+                '<b>Alın Kaynak</b>, Soft Power boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. <b>Alın Kaynak</b> makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, Soft Power boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 1600 mm çapa kadar olan Soft Power borular kaynatılabilir.',
             },
             {
-              title: 'Welding Method for Soft Power: <b>Butt Welding</b>',
+              title: 'Soft Power Boru <b>Fiyat Listesi</b>',
               description:
-                '<b>Butt Welding</b> is one of the most common methods used for joining Soft Power Pipe and fittings. Using a butt welding machine, the ends of the pipes to be welded are shaved and then pushed towards each other under a certain heat and pressure. This method ensures that Soft Power Pipes are joined safely and robustly. Butt welding can be performed on Soft Power Pipes up to a diameter of 1600 mm.',
-            },
-            {
-              title: 'Soft Power Pipe <b>Price List</b>',
-              description:
-                'Design Group Soft Power Pipes reach you with high quality and at an affordable price. Soft Power Pipes, with a wide range of diameters, low cost, ease of transport, and teamwork during the production process, offer you the most suitable product. Take advantage of the benefits of Soft Power Pipes and access the 2024 Soft Power Pipe Price List by contacting us.\n\nFor detailed information about our Soft Power Pipes, you can call our line at 0212 886 57 41.',
+                'SoftPower Boru, yüksek kalite ve dayanıklılığı ile öne çıkan bir boru sistemidir. Fiyat listesi, boru çapı, et kalınlığı ve uzunluğu gibi özelliklere bağlı olarak değişiklik göstermektedir. SoftPower Borunun rekabetçi fiyatları, uzun ömürlü performansı ve yüksek dayanıklılığı ile maliyet-fayda açısından kullanıcılarına büyük avantaj sağlar. Detaylı fiyat bilgisi ve projeye özel fiyat teklifleri için Dizayn Grup ile iletişime geçebilirsiniz. SoftPower Boru, yüksek performansı ve uygun fiyatları ile projelerinizde güvenle kullanabileceğiniz bir üründür.',
             },
           ],
+
           faqs: [
             {
-              question: 'What material are Soft Power Pipes made from?',
+              question: 'Soft Power borular hangi malzemeden üretilir?',
               answer:
-                'Soft Power Pipes are manufactured from high-quality polyethylene. They are made from 100% pure and original raw material.',
+                'Soft Power Borular, Dizayn Teknik Boru ve Elemanları San. Tic. AŞ AR-GE ekibi tarafından geliştirilen PE63 hammaddeden üretilmektedir. Bu malzeme, yüksek basınç dayanımı ve uzun ömürlü kullanım sunar. Piyasadaki yumuşak PE borularda yaygın olarak kullanılan LDPE hammaddeye göre çok daha dayanıklıdır.',
             },
             {
-              question: 'What are the uses of Soft Power Pipes?',
+              question: 'Soft Power boruların kullanım alanları nelerdir?',
               answer:
-                'Soft Power Pipes can be used in water networks, agricultural irrigation systems, wastewater and drainage systems, industrial applications, and underground water drainage systems.',
+                'Soft Power Borular, içme suyu tesisatlarında, içme suyu hatlarında, tarımsal sulama sistemlerinde, sera sulama sistemlerinde, park ve bahçe peyzaj sulama sistemlerinde ve diğer uygun içme suyu uygulamalarında kullanılır.',
             },
             {
-              question: 'What diameters and pressure classes are Soft Power Pipes available in?',
+              question: 'Soft Power borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
-                'Soft Power Pipes are available in various diameters from 20 mm to 1600 mm and in different pressure classes.',
+                'Soft Power Borular, çeşitli çap ve basınç sınıflarında mevcuttur. Ürünler, projeye özel olarak farklı çap ve basınç sınıflarında üretilebilir.',
             },
             {
-              question: 'What are the Joining Methods for Soft Power Pipes?',
+              question: 'Soft Power boruların Birleştirme Yöntemleri nelerdir?',
               answer:
-                'Soft Power Pipes can be joined using electrofusion (EF) welding, butt welding, and coupling joining methods.',
+                'Soft Power Borular, kaplin tarzı mekanik birleştirme parçaları ile montaj edilir. Bu yöntem, boruların hızlı ve güvenli bir şekilde birleştirilmesini sağlar.',
             },
             {
-              question: 'Are Soft Power Pipes chemically resistant?',
+              question: 'Soft Power boruları kimyasallara karşı dayanıklı mı?',
               answer:
-                'Yes, Soft Power Pipes provide high resistance against salty water, corrosive acids, bases, and other chemicals.',
+                'Evet, Soft Power Borular kimyasallara karşı yüksek dayanıklılığa sahiptir. Çevresel çatlak direnci ve oksidasyon dayanımı ile uzun ömürlü ve güvenli kullanım sunar.',
             },
             {
-              question: 'What are the advantages of Soft Power Pipes?',
+              question: 'Soft Power boruların Avantajları nelerdir?',
               answer:
-                'Soft Power Pipes are lightweight, flexible, and durable. They show high resistance against rusting and are long-lasting. Moreover, they require minimal heavy equipment during transport and installation.',
+                'Soft Power Borular, yüksek oksidasyon dayanımı, esneklik, kolay montaj, yüksek bükülme direnci, uzun ömürlü kullanım ve güneşin UV ışınlarına karşı dayanıklılık gibi avantajlar sunar.',
             },
             {
-              question: 'What is the lifespan of Soft Power Pipes?',
+              question: 'Soft Power boruların ömrü ne kadar?',
               answer:
-                'Soft Power Pipes, due to high-quality materials and manufacturing techniques, are long-lasting and can be reliably used in your projects.',
+                'Soft Power Borular, 20°C’de 50 yıl boyunca tasarlanan basınç değerinde güvenle kullanılabilir. 50 yıllık ömür dayanımı, 80°C’de 1000 saatlik basınç testi ile ölçülmüştür.',
             },
             {
-              question: 'How can I access the price list for Soft Power Pipes?',
+              question: 'Soft Power boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
-                'You can obtain information about the 2024 Price List for Soft Power Pipes by calling our line at 0212 886 57 41.',
+                'Soft Power Boruların detaylı fiyat listesi ve projeye özel fiyat teklifleri için Dizayn Grup ile iletişime geçebilirsiniz.',
             },
             {
-              question: 'What are the technical features of Soft Power Pipes?',
+              question: 'Soft Power boruların teknik Özellikleri nelerdir?',
               answer:
-                'Soft Power Pipes are produced with a wide diameter range, high pressure resistance, and smooth internal and external surface features. For more information, you can refer to our product catalog.',
+                'Soft Power Borular, yüksek oksidasyon dayanımı, esneklik, kolay montaj, yüksek bükülme direnci, UV ışınlarına karşı dayanıklılık ve çevresel çatlak direnci gibi teknik özelliklere sahiptir.',
             },
             {
-              question: 'How can I obtain Soft Power Pipes?',
+              question: 'Soft Power boruları nasıl temin edebilirim?',
               answer:
-                'You can obtain Soft Power Pipes from authorized sellers of Design Group or by contacting Design Group directly.',
+                'Soft Power Boruları, Dizayn Grup yetkili satıcılarından veya doğrudan Dizayn Grup ile iletişime geçerek temin edebilirsiniz.',
             },
           ],
           fittings: [],
@@ -1937,7 +1726,6 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>RTP Boru</b> ve Ek Parçaları',
               description:
                 'RTP Boruları, yüksek basınç dayanımı ve üstün kompozit yapısı ile 90 mm - 1200 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. RTP Boruları, su, gaz, petrol gibi farklı akışkanların taşınmasında güvenilir çözümler sunar. RTP Boru <b>Fiyat Listesi</b> için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
-              image: '/productImages/altyapi/rtp-boru/rtp-boru.png',
               alt: 'RTP Boru',
             },
             {
@@ -3160,14 +2948,14 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
             },
             {
               title: 'Uzun Ömür',
-              icon: '/icons/long-lifetime.png',
+              icon: '/icons/long-lasting.png',
               alt: 'Long Lifetime',
               description:
                 'Bu borular, minimum 50 yıl servis ömrü ile uzun süreli ve güvenilir kullanım sunar.',
             },
             {
               title: 'Hidrolik Pürüzsüzlük',
-              icon: '/icons/hydraulic-smooth.png',
+              icon: '/icons/hydraulic.png',
               alt: 'Hydraulic Smoothness',
               description:
                 'Hidrolik pürüzsüz yapısı sayesinde akışkanların daha yüksek debilerle taşınmasını sağlar ve proje maliyetlerini düşürür.',
@@ -3649,7 +3437,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
             },
             {
               title: 'Less Material, More Savings',
-              icon: '/icons/money-bag.png',
+              icon: '/icons/economical.png',
               alt: 'Money bag.',
               description:
                 'Ease of assembly and fewer additional parts needed lead to cost and time savings.',
@@ -3679,9 +3467,6 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>ElitePipe</b> and Fittings',
               description:
                 'Combining the best features of PPR, PEX, and PERT pipes, it offers high temperature and pressure resistance, flexibility, and breakage resistance. Fittings ensure the system works safely and efficiently, providing ease of installation and low pressure loss. Their flexible and easy-to-shape structures save time and costs. ElitePipe and fittings perform excellently in hot-cold water plumbing, heating systems, and solar energy systems. Developed with high technology and engineering expertise, this system offers users superior quality and reliability.',
-              image:
-                '/productImages/üst yapı borular/elite-pipe-ve-ek/ELİTE PİPE COMPOZİT BORU GRUP.png',
-              alt: 'ElitePipe',
             },
             {
               title: 'ElitePipe <b>Advantages</b>',
@@ -4047,197 +3832,6 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           ],
           fittings: [],
         },
-      },
-
-      {
-        title: 'SoftPower Pipe',
-        description:
-          'SoftPower Pipe, made from PE63 raw material, offers durability and long life with high oxidation resistance, flexibility, and easy installation.',
-        featuredProduct: false,
-        logo: '/productImages/üst yapı borular/soft-power-ek/logo.png',
-        isNewTech: true,
-        banner: {
-          vertical: '/productImages/üst yapı borular/soft-power-ek/banner/vertical.jpg',
-          horizontal: '/productImages/üst yapı borular/soft-power-ek/banner/en/horizontal.png',
-          PLP: '/productImages/üst yapı borular/soft-power-ek/banner/en/PLP.png',
-          bgImage: '',
-        },
-        image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
-        link: '/en/urunler/bina-ici-boru-sistemleri/softpower-boru',
-        highlights: [
-          { title: 'Impact Resistant', icon: '/icons/durable.png' },
-          { title: 'Flexible', icon: '/icons/flexible.png' },
-          { title: 'Cost Saving', icon: '/icons/save-time.png' },
-        ],
-        productDetails: {
-          title: 'SoftPower Pipe',
-          description:
-            'SoftPower Pipe stands out with its high oxidation resistance, flexibility, and easy installation. Made from PE63 raw material, it offers high bending resistance, UV resistance, and long-lasting performance. It is safely used in drinking water and irrigation systems.',
-          features: [
-            {
-              title: 'Advanced Production Technology',
-              icon: '/icons/high-tech (1).png',
-              alt: 'High Technology',
-              description:
-                'Design Group manufactures Soft Power pipes from start to finish with advanced technology infrastructure.',
-            },
-            {
-              title: 'Durable and Reliable',
-              icon: '/icons/reliability.png',
-              alt: 'Reliability',
-              description:
-                'Soft Power pipes are highly durable and long-lasting, making them reliable for your projects.',
-            },
-            {
-              title: 'High-Quality Raw Material',
-              icon: '/icons/purity.png',
-              alt: 'Purity',
-              description:
-                'Soft Power pipes are manufactured using 100% pure and original raw materials, ensuring the highest quality.',
-            },
-            {
-              title: 'Accredited Test Laboratory',
-              icon: '/icons/test.png',
-              alt: 'test',
-              description:
-                "Design Group's accredited test laboratory offers impartial and reliable testing services with its experienced engineering staff.",
-            },
-            {
-              title: 'Custom Solutions for Projects',
-              icon: '/icons/solution.png',
-              alt: 'Solution',
-              description:
-                'Soft Power pipes provide custom solutions for your projects, supporting you at every stage of the production process.',
-            },
-            {
-              title: 'High Quality at an Economical Price',
-              icon: '/icons/reward.png',
-              alt: 'reward',
-              description:
-                'Soft Power pipes will become indispensable for your projects with their high quality and affordable price. Contact us for more information.',
-            },
-          ],
-          images: [
-            {
-              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
-              alt: 'SoftPower Pipe',
-              description: 'SoftPower Pipe',
-            },
-            {
-              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 3.png',
-              alt: 'SoftPower Pipe',
-              description: 'SoftPower Pipe',
-            },
-            {
-              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 4.png',
-              alt: 'SoftPower Pipe',
-              description: 'SoftPower Pipe',
-            },
-          ],
-          headers: [
-            {
-              title: '<b>Soft Power Pipe</b> and Fittings',
-              description:
-                'Design Group Soft Power pipes are produced in diameters ranging from 20 mm to 1600 mm and various pressure classes, offering ideal solutions for agricultural irrigation, water networks, wastewater lines, and industrial applications. Their long-lasting and durable structure will make them essential for your projects. For the Soft Power Pipe <b>Price List</b>, you can obtain information by calling our line at <b>0212 886 57 41</b>.',
-              image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
-              alt: 'SoftPower Pipe',
-            },
-            {
-              title: 'Advantages of Soft Power Pipe',
-              description:
-                'Design Group Soft Power pipes have a smooth inner and outer surface, are lightweight, flexible, and sturdy. They require minimal heavy equipment during transportation and installation and can be easily applied in all field conditions, even in harsh environments. Soft Power pipes show high resistance to UV rays and provide excellent durability against chemicals. They offer superior protection against salty water, sanitary sewage wastewater, corrosive acids, bases, and salts. These <b>features</b> ensure long-lasting and reliable performance, never letting you down in your projects.',
-            },
-            {
-              title: 'Where is Soft Power Pipe Used?',
-              description:
-                'Design Group Soft Power pipes, with their superior performance and quality, are the preferred product in prestigious projects. They can be safely used in water networks, agricultural irrigation systems, wastewater systems, and industrial applications. Soft Power pipes offer reliable and long-lasting solutions in your projects. For the Soft Power Pipe <b>Price List</b>, please contact us.',
-            },
-            {
-              title: 'Soft Power Pipe <b>Weight Table</b>',
-              description:
-                'SoftPower Pipe is known for its superior durability and flexibility. The weights of the pipes produced specifically for each project vary according to their diameter and wall thickness. For detailed weight information, please contact Design Group.',
-            },
-            {
-              title: 'Technical Features of Soft Power Pipe',
-              description:
-                "SoftPower Pipe is an innovative piping system that offers high oxidation resistance, flexibility, and easy installation. Made from PE63 raw material, these pipes provide high pressure resistance and long-lasting use. Resistant to the sun's UV rays, SoftPower Pipe performs excellently in various applications such as drinking water and irrigation systems. It has high environmental crack resistance and does not crack when bent, eliminating the need for additional fittings. It can be safely used at 20°C for 50 years.",
-            },
-            {
-              title: 'Soft Power <b>Fittings</b>',
-              description:
-                'SoftPower Pipe comes with various fittings, making assembly and connection processes easy. These high-quality fittings enhance the durability and performance of the pipe. Below is a list of available fittings for SoftPower Pipe: <b>Equal Tee:</b> Allows pipes to split into three directions, connects same diameters. <b>Reduction:</b> Connects pipes of different diameters, serves as a reduction function. <b>Saddle:</b> Sits on top of pipes to secure and change direction. <b>Elbows:</b> Allows pipes to change direction at specific angles, available in 90° and 45° angles. <b>Inegal Tee:</b> Allows pipes of different diameters to split into three directions. <b>Sleeve:</b> Connects two pipes end-to-end, ensures leak-proofing. <b>Blind Plug:</b> Caps pipe ends, terminating the system. <b>Flange Adapter:</b> Facilitates the connection of pipes to flanges, creating a strong and leak-proof connection. These fittings enhance the flexibility and durability of the SoftPower Pipe system while simplifying assembly and maintenance.',
-            },
-            {
-              title: 'Soft Power Pipe <b>Joining Methods</b>',
-              description:
-                "SoftPower Pipe offers easy and secure installation with various joining methods. Below are the main joining methods used in the SoftPower Pipe system: <b>Easy Installation with Coupling Fittings:</b> SoftPower Pipe is suitable for installation with coupling-style mechanical fittings. This method ensures quick and secure joining of pipes and is especially ideal for flexible and easily shaped pipes. <b>Bending Resistance:</b> SoftPower Pipe does not crack when bent and maintains its pressure resistance features. This feature eliminates the need for additional fittings and simplifies the installation process. SoftPower Pipe facilitates installation and joining processes, speeding up the assembly process and reducing labor costs. Its high bending resistance and use of coupling fittings guarantee the pipe's robustness and longevity.",
-            },
-            {
-              title: 'Soft Power Welding Method: <b>Butt Welding</b>',
-              description:
-                '<b>Butt Welding</b>, one of the most common methods used in joining Soft Power pipes and fittings. Using a butt welding machine, the ends of the pipes to be welded are shaved and then pushed towards each other under a certain heat with pressure. This method ensures that Soft Power pipes are joined securely and robustly. The butt welding method can weld Soft Power pipes up to 1600 mm in diameter.',
-            },
-            {
-              title: 'Soft Power Pipe <b>Price List</b>',
-              description:
-                "SoftPower Pipe stands out for its high quality and durability. The price list varies based on factors such as pipe diameter, wall thickness, and length. SoftPower Pipe's competitive prices provide a cost-benefit advantage to its users with its long-lasting performance and high durability. For detailed pricing information and project-specific quotes, please contact Design Group. SoftPower Pipe, with its high performance and affordable prices, is a reliable product for your projects.",
-            },
-          ],
-          faqs: [
-            {
-              question: 'What material are Soft Power pipes made from?',
-              answer:
-                'Soft Power Pipes are manufactured from PE63 raw material developed by the Design Technical Pipe and Components Inc. R&D team. This material offers high pressure resistance and long-lasting use. It is much more durable than the commonly used LDPE raw material in soft PE pipes on the market.',
-            },
-            {
-              question: 'What are the uses of Soft Power pipes?',
-              answer:
-                'Soft Power Pipes are used in drinking water installations, drinking water lines, agricultural irrigation systems, greenhouse irrigation systems, park and garden landscape irrigation systems, and other suitable drinking water applications.',
-            },
-            {
-              question: 'What diameters and pressure classes are Soft Power pipes available in?',
-              answer:
-                'Soft Power Pipes are available in various diameters and pressure classes. Products can be produced in different diameters and pressure classes specific to the project.',
-            },
-            {
-              question: 'What are the Joining Methods for Soft Power pipes?',
-              answer:
-                'Soft Power Pipes are installed using coupling-style mechanical joining parts. This method ensures quick and secure joining of pipes.',
-            },
-            {
-              question: 'Are Soft Power pipes chemically resistant?',
-              answer:
-                'Yes, Soft Power Pipes have high chemical resistance. They offer long-lasting and safe use with environmental crack resistance and oxidation resistance.',
-            },
-            {
-              question: 'What are the advantages of Soft Power pipes?',
-              answer:
-                "Soft Power Pipes offer advantages such as high oxidation resistance, flexibility, easy installation, high bending resistance, long-lasting use, and resistance to the sun's UV rays.",
-            },
-            {
-              question: 'What is the lifespan of Soft Power pipes?',
-              answer:
-                'Soft Power Pipes can be used safely at designed pressure values at 20°C for 50 years. The 50-year lifespan resistance is measured with an 80°C 1000-hour pressure test.',
-            },
-            {
-              question: 'How can I access the price list for Soft Power pipes?',
-              answer:
-                'For a detailed price list and project-specific price quotes for Soft Power Pipes, please contact Design Group.',
-            },
-            {
-              question: 'What are the technical features of Soft Power pipes?',
-              answer:
-                'Soft Power Pipes have technical features such as high oxidation resistance, flexibility, easy installation, high bending resistance, resistance to UV rays, and environmental crack resistance.',
-            },
-            {
-              question: 'How can I obtain Soft Power pipes?',
-              answer:
-                'You can obtain Soft Power Pipes from authorized sellers of Design Group or by contacting Design Group directly.',
-            },
-          ],
-          fittings: [],
-        },
-        background: '',
       },
 
       {
@@ -4657,9 +4251,9 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
       },
 
       {
-        title: 'Triplex Wastewater Pipes',
+        title: 'Triplextra Fireproof Silent Pipe Systems',
         description:
-          'Triplex Wastewater Pipes are highly durable and long-lasting pipe systems installed for the disposal of used water both indoors and outdoors.',
+          'Triplextra Fireproof Silent Pipe Systems are highly durable and long-lasting pipe systems installed for the disposal of used water both indoors and outdoors.',
         featuredProduct: false,
         logo: '/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/logo.png',
         isNewTech: true,
@@ -4758,9 +4352,6 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: '<b>Triplex Wastewater Pipe</b> and Accessories',
               description:
                 'Design Group Triplex Wastewater Pipes are manufactured in diameters ranging from 50 mm to 200 mm and various pressure classes, offering ideal solutions for indoor and outdoor wastewater disposal. Their long-lasting and durable structure will make them indispensable for your projects. For the Triplex Wastewater Pipes <b>Price List</b>, you can obtain information by calling our line at <b>0212 886 57 41</b>.',
-              image:
-                '/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/triplex-pipe.png',
-              alt: 'Triplex Wastewater Pipe',
             },
             {
               title: 'Advantages of Triplex Wastewater Pipe',

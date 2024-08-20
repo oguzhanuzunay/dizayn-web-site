@@ -1,6 +1,6 @@
-'use client'
+'use client';
 import { Card, CardBody, CardFooter, Image, Link } from '@nextui-org/react';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 
 interface countryCertificateParams {
   name: string;
@@ -22,8 +22,9 @@ interface countryCertificateParams {
 
 const Certificates = () => {
   const t = useTranslations('Certificates');
+  const language = useLocale();
 
-  const countryCertificate: countryCertificateParams[]  = [
+  const countryCertificate: countryCertificateParams[] = [
     {
       name: t('germany.name'),
       code: 'de',
@@ -41,20 +42,20 @@ const Certificates = () => {
             {
               name: t('turkey.elitePipe.certificate-1'),
               image:
-                '/certificates/files/tr/imgs/RE_elite-sertifikaları/PEX BORU TSE  HIJYEN TEST RAPORU_00001.jpg',
-              link: '/certificates/files/tr/pdfs/RE_elite-sertifikaları/PEX BORU TSE  HIJYEN TEST RAPORU.pdf',
+                '/certificates/files/tr/imgs/elite-sertifikaları/PEX BORU TSE  HIJYEN TEST RAPORU_00001.jpg',
+              link: '/certificates/files/tr/pdfs/elite-sertifikaları/PEX BORU TSE  HIJYEN TEST RAPORU.pdf',
             },
             {
               name: t('turkey.elitePipe.certificate-2'),
               image:
-                '/certificates/files/tr/imgs/RE_elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/RE_elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI.pdf',
+                '/certificates/files/tr/imgs/elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI_00001.jpg',
+              link: '/certificates/files/tr/pdfs/elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI.pdf',
             },
             {
               name: t('turkey.elitePipe.certificate-3'),
               image:
-                '/certificates/files/tr/imgs/RE_elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce)_00001.jpg',
-              link: '/certificates/files/tr/pdfs/RE_elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce).pdf',
+                '/certificates/files/tr/imgs/elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce)_00001.jpg',
+              link: '/certificates/files/tr/pdfs/elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce).pdf',
             },
           ],
         },
@@ -268,13 +269,13 @@ const Certificates = () => {
         {Array.isArray(countryCertificate) &&
           countryCertificate.map((item: countryCertificateParams, index: number) => (
             <Link
-              href={`/sertifikalar/${item.code}`}
+              {...(item.certificates.length === 0 ? { isDisabled: true } : {})}
+              href={`/${language}/sertifikalar/${item.code}`}
               key={index}
             >
               <Card
                 shadow="sm"
                 isPressable
-                onPress={() => console.log('item pressed')}
                 className={`flex size-[200px] flex-col items-center justify-between p-0 transition-all duration-300 hover:scale-105 hover:shadow-lg  `}
               >
                 <CardBody className="overflow-visible p-0">
@@ -307,4 +308,4 @@ const Certificates = () => {
   );
 };
 
-export default Certificates
+export default Certificates;

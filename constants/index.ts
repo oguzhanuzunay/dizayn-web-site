@@ -1,8 +1,4 @@
-import {
-  dealerListParams,
-  matrixCardParams,
-  sliderParams,
-} from '@/types';
+import { dealerListParams, matrixCardParams, sliderParams } from '@/types';
 import { languageParams } from '@/types/languageParams';
 
 import { productList } from './productList';
@@ -242,7 +238,7 @@ const languageTexts: languageParams = {
       { name: 'Bayilerimiz' },
       { name: 'Hesaplamalar' },
       { name: 'Kurumsal' },
-      { name: 'Projelerimiz' },
+      { name: 'Referanslar' },
       { name: 'Sertifikalar' },
       { name: 'iletisim' },
       { name: 'AR-GE' },
@@ -391,8 +387,8 @@ const languageTexts: languageParams = {
                 link: '/bayilerimiz',
               },
               {
-                title: 'Projelerimiz',
-                link: '/projelerimiz',
+                title: 'Referanslar',
+                link: '/Referanslar',
               },
               {
                 title: 'Sertifikalar',
@@ -1275,11 +1271,4 @@ const kurumsalLinks: {
   ],
 };
 
-export {
-  dealerList,
-  kurumsalLinks,
-  languageTexts,
-  productList,
-  showroomProduct,
-  sliderItems,
-};
+export { dealerList, kurumsalLinks, languageTexts, productList, showroomProduct, sliderItems };

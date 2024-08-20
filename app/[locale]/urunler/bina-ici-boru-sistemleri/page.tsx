@@ -118,8 +118,7 @@ const Products = () => {
       isNewTech: true,
       banner: {
         vertical: '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/banner/vertical.jpg',
-        horizontal:
-          t('nanotechPipe.banner.horizontal'),
+        horizontal: t('nanotechPipe.banner.horizontal'),
         PLP: t('nanotechPipe.banner.PLP'),
         bgImage: '',
       },
@@ -143,8 +142,7 @@ const Products = () => {
       banner: {
         vertical:
           '/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/banner/vertical.jpg',
-        horizontal:
-          t('triplexPipe.banner.horizontal'),
+        horizontal: t('triplexPipe.banner.horizontal'),
         PLP: t('triplexPipe.banner.PLP'),
         bgImage: '',
       },
@@ -211,7 +209,10 @@ const Products = () => {
       </div>
 
       <div className="px-2 py-4">
-        <p className="text-center font-sans text-lg">{t('description2')}</p>
+        <p
+          className="text-center font-sans text-lg"
+          dangerouslySetInnerHTML={{ __html: t('description2') }}
+        ></p>
       </div>
 
       <div
@@ -230,7 +231,7 @@ const Products = () => {
                 <ProductCard
                   item={{
                     ...item,
-                    customCSS: '',
+                    customCSS: ' rounded-2xl',
                   }}
                   isPLP={true}
                 />

@@ -37,7 +37,7 @@ const MatrixCard = ({
             alt={title}
             width={1920}
             height={720}
-            className=" size-full rounded-xl object-contain"
+            className=" size-full rounded-xl object-cover"
           />
         }
         {/* logo ? (
@@ -71,7 +71,7 @@ const MatrixCard = ({
                 width={64}
                 height={64}
               />
-              <p className="text-center text-tiny font-semibold text-black">{highlight.title}</p>
+              <p className="text-center text-xs font-semibold text-black">{highlight.title}</p>
             </div>
           ))}
           <div />

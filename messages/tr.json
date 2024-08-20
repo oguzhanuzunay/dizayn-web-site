@@ -25,7 +25,7 @@
       "dealers": "Bayilerimiz",
       "calculations": "Hesaplamalar",
       "institutional": "Kurumsal",
-      "ourProject": "Projelerimiz",
+      "ourProject": "Referanslarımız",
       "certificates": "Sertifikalar",
       "contact": "iletisim",
       "arge": "AR-GE"
@@ -45,9 +45,10 @@
         "0": {
           "name": "PEX BORU TSE  HIJYEN TEST RAPORU"
         },
-        "certificate-1": "PEX BORU TSE  HIJYEN TEST RAPORU",
-        "certificate-2": "TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI",
-        "certificate-3": "TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ENG)"
+        "certificate-1": "ELİT BORU VE FITTINGS İÇME KULLANMA SUYUNA ETKİ DENEY RAPORU",
+        "certificate-2": "ELITE NİPEL DD. TSE DENEY SERTİFİKASI (TS EN ISO 1167)",
+        "certificate-3": "ELİT BORU TSE DENEY SERTİFİKASI  (TS EN ISO 9854)",
+        "certificate-4": "ELİT NİPEL İD. TSE DENEY SERTİFİKASI (TS EN ISO 1167)"
       },
       "ima": {
         "title": "IMA Test Raporları",
@@ -66,10 +67,10 @@
       },
       "domestic": {
         "title": "Yerli Malı",
-        "certificate-1": "Yerli Malı Bel.PPRC Metalli Fittings"
+        "certificate-1": "Yerli Malı Belgesi"
       },
       "ppr": {
-        "title": "PPR Sert",
+        "title": "PPR Boru",
         "certificate-1": "PPR BORU VE FITTINGS TSE HIJYEN TEST RAPORU",
         "certificate-2": "TS 13715 CAM ELYAF TAKVİYELİ KOMPOZİT BORU",
         "certificate-3": "TS EN ISO 15874-2 PPR BORU TSE  SERTİFİKASI(ingilizce)",
@@ -78,17 +79,23 @@
         "certificate-6": "TS EN ISO 15874-3 PPR FIT. TSE  SERTİFİKASI(turkçe)"
       },
       "rtp-soft": {
-        "title": "RTP VE SOFT",
+        "title": "RTP (Takviyeli Termoplastik Boru) VE SOFT Pipe",
         "certificate-1": "RTP BORU DENEY SERTİFİKASI",
         "certificate-2": "SOFT POWER PIPE DENEY SERTİFİKASI"
       },
       "spiral-corrugated": {
-        "title": "Sarmal ve Koruge",
+        "title": "Su ve Kanalizasyon Boru Sertifikaları",
         "certificate-1": "DIN 16961 SARMAL BELGELENDİRME",
         "certificate-2": "ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093",
         "certificate-3": "İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG_",
         "certificate-4": "TS 12132 SARMAL BORU TSE  SERTİFİKASI",
         "certificate-5": "TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI"
+      },
+      "pex": {
+        "title": "PEX BORU",
+        "certificate-1": "PEX BORU TSE  HIJYEN TEST RAPORU",
+        "certificate-2": "TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI",
+        "certificate-3": "TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce)"
       }
     },
     "romania": {
@@ -114,7 +121,9 @@
     "noCertificate": "Sertifikalar Güncelleniyor.",
     "title": "Sertifikalarımız",
     "buttonText": "Tüm Sertifikaları Görüntüle",
-    "header": "Sertifikalarımız"
+    "header": "Sertifikalarımız",
+    "Anasayfa": "Anasayfa",
+    "Sertifikalar": "Sertifikalar"
   },
   "BayimizOl": {
     "title": "Bayimiz Ol",
@@ -134,7 +143,7 @@
       }
     }
   },
-  "Projelerimiz": {
+  "Referanslar": {
     "istanbulHavaAlani": {
       "title": "İstanbul Hava Limanı",
       "alt": "İstanbul Hava Limanı"
@@ -194,7 +203,7 @@
       "title": "Tanjung Barat Endonezya Projesi",
       "alt": "tanjung-barat-endonezya-projesi"
     },
-    "Header": "Projelerimiz",
+    "Header": "Referanslarımız",
     "allReferances": "Tüm Referanslarımız"
   },
   "DealerCard": {
@@ -430,14 +439,15 @@
     "corrugatedPipeCalculation": "Koruge Boru Hesabı",
     "corrugatedPipeCalculationDescription": "Koruge Boru Hesabı yapmak için tıklayınız",
     "title": "Mühendislik Hesaplamaları",
-    "description": "Doğru hesaplama yapabilmek için aşağıdaki seçeneklerden uygun seçeneği seçiniz."
+    "description": "Doğru hesaplama yapabilmek için aşağıdaki seçeneklerden uygun seçeneği seçiniz.",
+    "comingSoon": "Çok Yakında"
   },
   "Footer": {
     "link": {
       "company": {
         "title": "Dizayn Grup",
         "aboutUs": "Hakkımızda",
-        "ourProject": "Projelerimiz",
+        "ourProject": "Referanslar",
         "certificates": "Sertifikalar",
         "contact": "İletişim",
         "arge": "AR-GE",
@@ -455,7 +465,7 @@
         "title": "Hizmetler",
         "calculations": "Hesaplamalar",
         "dealers": "Bayilerimiz",
-        "projects": "Projelerimiz",
+        "projects": "Referanslar",
         "certificates": "Sertifikalar"
       },
       "communication": {

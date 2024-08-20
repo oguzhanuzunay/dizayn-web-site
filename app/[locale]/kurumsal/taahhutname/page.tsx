@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import Header from '@/components/Header';
 import LinkedButton from '@/components/LinkedButton';
 import { useTranslations } from 'next-intl';
@@ -69,8 +69,7 @@ const Tahhutname = () => {
         </div>
 
         <div className="ml-4 flex w-1/2 flex-col items-start justify-center gap-3 max-md:ml-0 max-md:w-full max-md:pt-3">
-          <h3 className="text-large font-bold">{t('taahhutname.title')}</h3>
-          <p className="text-large font-semibold ">{t('taahhutname.content.0')}</p>
+          <p className="text-lg font-semibold ">{t('taahhutname.content.0')}</p>
 
           <p>{t.rich('taahhutname.content.1')}</p>
 

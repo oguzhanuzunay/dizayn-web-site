@@ -1,9 +1,9 @@
 import { BreadcrumbItem, Breadcrumbs } from '@nextui-org/react';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
 
-export interface countryCertificateParams {
+interface countryCertificateParams {
   name: string;
   code: string;
   title: string;
@@ -16,11 +16,11 @@ export interface countryCertificateParams {
     }[];
   }[];
 }
-
+[];
 const Locale = ({ params }: { params: { locale: string } }) => {
   const t = useTranslations('Certificates');
 
-  const countryCertificate: countryCertificateParams[]  = [
+  const countryCertificate: countryCertificateParams[] = [
     {
       name: t('germany.name'),
       code: 'de',
@@ -38,20 +38,48 @@ const Locale = ({ params }: { params: { locale: string } }) => {
             {
               name: t('turkey.elitePipe.certificate-1'),
               image:
-                '/certificates/files/tr/imgs/RE_elite-sertifikaları/PEX BORU TSE  HIJYEN TEST RAPORU_00001.jpg',
-              link: '/certificates/files/tr/pdfs/RE_elite-sertifikaları/PEX BORU TSE  HIJYEN TEST RAPORU.pdf',
+                '/certificates/files/tr/imgs/elite-sertifikaları/ELİT BORU VE FITTINGS İÇME KULLANMA SUYUNA ETKİ DENEY RAPORU-1.png',
+              link: '/certificates/files/tr/pdfs/elite-sertifikaları/ELİT BORU VE FITTINGS İÇME KULLANMA SUYUNA ETKİ DENEY RAPORU.pdf',
             },
             {
               name: t('turkey.elitePipe.certificate-2'),
               image:
-                '/certificates/files/tr/imgs/RE_elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/RE_elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI.pdf',
+                '/certificates/files/tr/imgs/elite-sertifikaları/ELITE NİPEL DD. TSE DENEY SERTİFİKASI (TS EN ISO 1167)-1.png',
+              link: '/certificates/files/tr/pdfs/elite-sertifikaları/ELITE NİPEL DD. TSE DENEY SERTİFİKASI (TS EN ISO 1167).pdf',
             },
             {
               name: t('turkey.elitePipe.certificate-3'),
               image:
-                '/certificates/files/tr/imgs/RE_elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce)_00001.jpg',
-              link: '/certificates/files/tr/pdfs/RE_elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce).pdf',
+                '/certificates/files/tr/imgs/elite-sertifikaları/ELİT BORU TSE DENEY SERTİFİKASI  (TS EN ISO 9854)-1.png',
+              link: '/certificates/files/tr/pdfs/elite-sertifikaları/ELİT BORU TSE DENEY SERTİFİKASI  (TS EN ISO 9854).pdf',
+            },
+            {
+              name: t('turkey.elitePipe.certificate-4'),
+              image:
+                '/certificates/files/tr/imgs/elite-sertifikaları/ELİT NİPEL İD. TSE DENEY SERTİFİKASI (TS EN ISO 1167)-1.png',
+              link: '/certificates/files/tr/pdfs/elite-sertifikaları/ELİT NİPEL İD. TSE DENEY SERTİFİKASI (TS EN ISO 1167).pdf',
+            },
+          ],
+        },
+        {
+          product: t('turkey.pex.title'),
+          allPDFs: [
+            {
+              name: t('turkey.pex.certificate-1'),
+              image: '/certificates/files/tr/imgs/PEX/PEX BORU TSE  HIJYEN TEST RAPORU_00001.jpg',
+              link: '/certificates/files/tr/pdfs/elite-sertifikaları/PEX BORU TSE  HIJYEN TEST RAPORU.pdf',
+            },
+            {
+              name: t('turkey.pex.certificate-2'),
+              image:
+                '/certificates/files/tr/imgs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI_00001.jpg',
+              link: '/certificates/files/tr/pdfs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI.pdf',
+            },
+            {
+              name: t('turkey.pex.certificate-3'),
+              image:
+                '/certificates/files/tr/imgs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce)_00001.jpg',
+              link: '/certificates/files/tr/pdfs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce).pdf',
             },
           ],
         },
@@ -261,18 +289,20 @@ const Locale = ({ params }: { params: { locale: string } }) => {
   return (
     <div className="">
       <div className="mb-0 flex size-full items-center bg-gray-500 p-5">
-        <p className="font-spaceGrotesk text-2xl font-semibold text-white">{list.title}</p>
+        <p className="font-spaceGrotesk text-2xl font-semibold text-white">{list?.title}</p>
       </div>
       <div className="ml-5 mt-3">
         <Breadcrumbs>
-          <BreadcrumbItem href="/">Anasayfa</BreadcrumbItem>
-          <BreadcrumbItem href="/sertifikalar">Sertifikalar</BreadcrumbItem>
-          <BreadcrumbItem href={`/sertifikalar/${params.locale}`}>{list?.title}</BreadcrumbItem>
+          <BreadcrumbItem href="/">{t('Anasayfa')}</BreadcrumbItem>
+          <BreadcrumbItem href="/sertifikalar">{t('Sertifikalar')}</BreadcrumbItem>
+          <BreadcrumbItem href={`/sertifikalar/${params.locale}`}>
+            {list?.title ?? ''}
+          </BreadcrumbItem>
         </Breadcrumbs>
       </div>
 
       <div className="m-5 flex w-full flex-col flex-wrap items-start justify-start">
-        {list.certificates.map((certificate, index) => (
+        {list?.certificates.map((certificate, index) => (
           <>
             <h3 className="w-[200px] text-start font-semibold text-gray-500">
               {certificate.product}
@@ -286,7 +316,7 @@ const Locale = ({ params }: { params: { locale: string } }) => {
                   className="m-3 rounded-md bg-slate-100 p-3 transition-all duration-300 hover:scale-105 hover:bg-slate-200 hover:shadow-lg"
                 >
                   <div className=" bg-white p-3 ">
-                    <p className="w-[200px] text-start font-quicksand text-tiny font-normal text-gray-500">
+                    <p className="text-tiny w-[200px] text-start font-quicksand font-normal text-gray-500">
                       {pdf.name.toUpperCase()}
                     </p>
                     <Image

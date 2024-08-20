@@ -13,7 +13,7 @@ interface kurumsalLinksParam {
 const Kurumsal = () => {
   const pathname = usePathname();
   const t = useTranslations('Kurumsal');
-  const kurumsalLinks:kurumsalLinksParam[] = [
+  const kurumsalLinks: kurumsalLinksParam[] = [
     {
       title: t('kurumsal.title'),
       link: t('kurumsal.link'),
@@ -70,7 +70,6 @@ const Kurumsal = () => {
           </div>
 
           <div className="ml-4 flex w-1/2 flex-col items-start justify-center gap-3 max-md:ml-0 max-md:w-full max-md:pt-3">
-            <h3 className="text-lg font-semibold text-gray-900">{t('kurumsal.title')}</h3>
             <p className="font-quicksand">{t('kurumsal.content.0')}</p>
 
             <p>{t.rich('kurumsal.content.1')}</p>

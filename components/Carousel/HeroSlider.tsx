@@ -1,16 +1,16 @@
 'use client';
 import Image from 'next/image';
 // Import Swiper React components
+import { scrollToHash } from '@/lib/utils';
 import { motion } from 'framer-motion';
 import { useLocale } from 'next-intl';
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Autoplay, Keyboard, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Link from 'next/link';
-import React, { useEffect, useState } from 'react';
-
 
 interface HeroSliderParams {
   [key: string]: {
@@ -49,10 +49,10 @@ const heroSlider: HeroSliderParams = {
       link: '/en/urunler/bina-ici-boru-sistemleri/elastica-boru',
     },
     {
-      desktopImage: '/sliderImages/desktop/en/projelerimiz.jpg',
-      mobileImage: '/sliderImages/mobile/en/projelerimiz.jpg',
-      alt: 'projelerimiz',
-      link: '/en/projelerimiz',
+      desktopImage: '/sliderImages/desktop/en/Referanslar.jpg',
+      mobileImage: '/sliderImages/mobile/en/Referanslar.jpg',
+      alt: 'Referanslar',
+      link: '/en/Referanslar',
     },
     {
       desktopImage: '/sliderImages/desktop/en/nanotek-premium.jpg',
@@ -72,43 +72,43 @@ const heroSlider: HeroSliderParams = {
       desktopImage: '/sliderImages/desktop/tr/elite-pipe.jpg',
       mobileImage: '/sliderImages/mobile/tr/eliteelite-pipe.jpg',
       alt: 'ElitePipe',
-      link: '/en/urunler/bina-ici-boru-sistemleri/elitepipe',
+      link: '/tr/urunler/bina-ici-boru-sistemleri/elitepipe',
     },
     {
       desktopImage: '/sliderImages/desktop/tr/sterilepipe.jpg',
       mobileImage: '/sliderImages/mobile/tr/sterilepipe.jpg',
       alt: 'Sterile Pipe',
-      link: '/en/urunler/bina-ici-boru-sistemleri/sterilepipe',
+      link: '/tr/urunler/bina-ici-boru-sistemleri/sterilepipe',
     },
     {
       desktopImage: '/sliderImages/desktop/tr/alt-yapı.jpg',
       mobileImage: '/sliderImages/mobile/tr/alt-yapı.jpg',
       alt: 'Altyapı Boru Sistemleri',
-      link: '/en/urunler/altyapi-boru-sistemleri',
+      link: '/tr/urunler/altyapi-boru-sistemleri',
     },
     {
       desktopImage: '/sliderImages/desktop/tr/elastica.jpg',
       mobileImage: '/sliderImages/mobile/tr/elastica.jpg',
       alt: 'ElitePipe Hero Image',
-      link: '/en/urunler/bina-ici-boru-sistemleri/elastica-boru',
+      link: '/tr/urunler/bina-ici-boru-sistemleri/elastica-boru',
     },
     {
-      desktopImage: '/sliderImages/desktop/tr/projelerimiz.jpg',
-      mobileImage: '/sliderImages/mobile/tr/projelerimiz.jpg',
-      alt: 'projelerimiz',
-      link: '/en/projelerimiz',
+      desktopImage: '/sliderImages/desktop/tr/Referanslar.jpg',
+      mobileImage: '/sliderImages/mobile/tr/Referanslar.jpg',
+      alt: 'Referanslar',
+      link: '/tr/Referanslar',
     },
     {
       desktopImage: '/sliderImages/desktop/tr/nanotek-premium.jpg',
       mobileImage: '/sliderImages/mobile/tr/nanotek-premium.jpg',
       alt: 'nanotek',
-      link: '/en/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium',
+      link: '/tr/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium',
     },
     {
       desktopImage: '/sliderImages/desktop/tr/koruge.jpg',
       mobileImage: '/sliderImages/mobile/tr/koruge.jpg',
       alt: 'Koruge',
-      link: '/en/urunler/altyapi-boru-sistemleri/koruge-boru',
+      link: '/tr/urunler/altyapi-boru-sistemleri/koruge-boru',
     },
   ],
 };
@@ -176,12 +176,11 @@ const Carousel = () => {
               />
             </Link>
           </SwiperSlide>
-          
         ))}
       </Swiper>
 
       <div className="absolute bottom-12 z-10 flex w-full items-center justify-center xs:bottom-10">
-        <a href="#newTechPipe">
+        <div onClick={scrollToHash.bind(null, 'newTechPipe')}>
           <div className="flex h-[64px] w-[35px] items-start justify-center rounded-3xl border-4 p-2">
             <motion.div
               animate={{
@@ -195,7 +194,7 @@ const Carousel = () => {
               className="mb-1 size-3 rounded-full bg-slate-50 "
             ></motion.div>
           </div>
-        </a>
+        </div>
       </div>
     </div>
   );
@@ -205,4 +204,3 @@ export default Carousel;
 function checkIsMobile(this: Window, ev: UIEvent) {
   throw new Error('Function not implemented.');
 }
-

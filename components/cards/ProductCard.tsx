@@ -47,10 +47,10 @@ const ProductCard = ({
             >
               <div
                 className=" flex
-            flex-col items-center justify-center py-4
-            text-center text-black"
+            flex-col items-center justify-center rounded-lg
+            py-4 text-center  text-black"
               >
-                <div className="mb-3 flex w-full flex-row items-center justify-center bg-white ">
+                <div className="mb-3 flex w-full flex-row items-center justify-center bg-white">
                   {logo !== '' ? (
                     <Image
                       src={logo}
@@ -64,7 +64,10 @@ const ProductCard = ({
                   )}
                 </div>
 
-                <p className="font-quicksand text-xs font-semibold text-gray-800">{description}</p>
+                <p
+                  className="font-quicksand text-xs font-normal text-gray-800"
+                  dangerouslySetInnerHTML={{ __html: description }}
+                />
               </div>
             </div>
           )}

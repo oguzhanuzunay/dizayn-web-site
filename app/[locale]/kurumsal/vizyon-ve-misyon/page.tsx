@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import Header from '@/components/Header';
 import LinkedButton from '@/components/LinkedButton';
 
@@ -70,23 +70,16 @@ const VizyonVeMisyon = () => {
         </div>
 
         <div className="ml-4 flex w-1/2 flex-col items-start justify-center gap-3 max-md:ml-0 max-md:w-full max-md:pt-3">
-          <h3 className="text-large font-semibold">{t('vizyon-ve-misyon.title')}</h3>
           <p className="font-semibold">{t('vision')}</p>
 
-          <p>
-            {t('vizyon-ve-misyon.content.0')}
-          </p>
+          <p>{t('vizyon-ve-misyon.content.0')}</p>
 
           <p className="font-semibold">{t('mission')}</p>
-          <p>
-            {t('vizyon-ve-misyon.content.1')}
-          </p>
+          <p>{t('vizyon-ve-misyon.content.1')}</p>
 
           <p className="font-semibold">{t('vizyon-ve-misyon.content.2')}</p>
 
-          <div>
-            - {t('vizyon-ve-misyon.content.3')}
-          </div>
+          <div>- {t('vizyon-ve-misyon.content.3')}</div>
         </div>
       </div>
     </div>

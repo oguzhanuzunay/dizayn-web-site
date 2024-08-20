@@ -25,7 +25,7 @@
       "dealers": "Our Dealers",
       "calculations": "Calculations",
       "institutional": "Institutional",
-      "ourProject": "Our Projects",
+      "ourProject": "Our References",
       "certificates": "Certificates",
       "contact": "Contact",
       "arge": "R&D"
@@ -45,9 +45,10 @@
         "0": {
           "name": "PEX PIPE TSE HYGIENE TEST REPORT"
         },
-        "certificate-1": "PEX PIPE TSE HYGIENE TEST REPORT",
+        "certificate-1": "ELİT PIPE AND FITTINGS EFFECT ON DRINKING WATER TEST REPORT",
         "certificate-2": "TS 10762-2 PEX-B EN ISO 15875-2 PEX-A PIPE TSE CERTIFICATE",
-        "certificate-3": "TS 10762-2 PEX-B EN ISO 15875-2 PEX-A PIPE TSE CERTIFICATE (ENG)"
+        "certificate-3": "ELİT BORU TSE TEST CERTIFICATE (TS EN ISO 9854)",
+        "certificate-4": "ELITE NIPPLE ID. \nTSE TEST CERTIFICATE (TS EN ISO 1167)"
       },
       "ima": {
         "title": "IMA Test Reports",
@@ -66,10 +67,10 @@
       },
       "domestic": {
         "title": "Domestic Goods",
-        "certificate-1": "Locally Made Bel.PPRC Metal Fittings"
+        "certificate-1": "Domestic Goods Certificate"
       },
       "ppr": {
-        "title": "PPR Hard",
+        "title": "PPR Pipe",
         "certificate-1": "PPR PIPE AND FITTINGS TSE HYGIENE TEST REPORT",
         "certificate-2": "TS 13715 GLASS FIBER REINFORCED COMPOSITE PIPE",
         "certificate-3": "TS EN ISO 15874-2 PPR PIPE TSE CERTIFICATE (English)",
@@ -78,17 +79,23 @@
         "certificate-6": "TS EN ISO 15874-3 PPR FIT. \nTSE CERTIFICATE (turkish)"
       },
       "rtp-soft": {
-        "title": "RTP AND SOFT",
+        "title": "RTP (Reinforced Thermoplastic Pipe) AND SOFT Pipe",
         "certificate-1": "RTP PIPE TEST CERTIFICATE",
         "certificate-2": "SOFT POWER PIPE TEST CERTIFICATE"
       },
       "spiral-corrugated": {
-        "title": "Spiral and Corrugated",
+        "title": "Water and Sewer Pipe Certificates",
         "certificate-1": "DIN 16961 SPIRAL CERTIFICATION",
         "certificate-2": "ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093",
         "certificate-3": "ISRAEL QUALITY INSTITUTE SPIRAL WOUND PIPE CERTIFICATE -112093-ENG_",
         "certificate-4": "TS 12132 COILED PIPE TSE CERTIFICATE",
         "certificate-5": "TS EN 13476-3 CORRUGATED PIPE TSE CERTIFICATE"
+      },
+      "pex": {
+        "title": "PEX PIPE",
+        "certificate-1": "PEX PIPE TSE HYGIENE TEST REPORT",
+        "certificate-2": "TS 10762-2 PEX-B EN ISO 15875-2 PEX-A PIPE TSE CERTIFICATE",
+        "certificate-3": "TS 10762-2 PEX-B EN ISO 15875-2 PEX-A PIPE TSE CERTIFICATE (English)"
       }
     },
     "romania": {
@@ -114,7 +121,9 @@
     "noCertificate": "Certificates Updating.",
     "title": "Our Certificates",
     "buttonText": "View All Certificates",
-    "header": "Our Certificates"
+    "header": "Our Certificates",
+    "Anasayfa": "homepage",
+    "Sertifikalar": "Certificates"
   },
   "BayimizOl": {
     "title": "Become Our Dealer",
@@ -134,7 +143,7 @@
       }
     }
   },
-  "Projelerimiz": {
+  "Referanslar": {
     "istanbulHavaAlani": {
       "title": "Istanbul Airport",
       "alt": "Istanbul Airport"
@@ -195,7 +204,7 @@
       "title": "Tanjung Barat Indonesia Project",
       "alt": "tanjung-barat-indonesia-project"
     },
-    "Header": "Our projects",
+    "Header": "Our references",
     "allReferances": "All Our References"
   },
   "DealerCard": {
@@ -430,7 +439,8 @@
     "corrugatedPipeCalculation": "Corrugated Pipe Calculation",
     "corrugatedPipeCalculationDescription": "Click to make Corrugated Pipe Calculation",
     "title": "Engineering Calculations",
-    "description": "To make the correct calculation, select the appropriate option from the options below."
+    "description": "To make the correct calculation, select the appropriate option from the options below.",
+    "comingSoon": "Very soon"
   },
   "Footer": {
     "link": {
@@ -559,10 +569,6 @@
   "Breadcrumb": {
     "products": "Products",
     "home": "Home Page",
-    "productLink": "/en/urunler/bina-ici-boru-sistemleri",
-    "productsLink": "en/urunler/",
-    "productNotFound": "Product not found.",
-    "superStructureProductLink": "/en/urunler/bina-ici-boru-sistemleri",
-    "infrastructureProductLink": "/en/urunler/bina-ici-boru-sistemleri"
+    "productNotFound": "Product not found."
   }
 }

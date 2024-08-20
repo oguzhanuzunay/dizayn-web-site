@@ -93,7 +93,7 @@ const Footer = () => {
         },
         {
           title: t('link.services.projects'),
-          link: '/projelerimiz',
+          link: '/Referanslar',
         },
         {
           title: t('link.services.certificates'),
@@ -189,9 +189,9 @@ const Footer = () => {
                 className="max-h-[60px] max-w-fit max-md:max-h-10 max-md:max-w-fit"
               />
               <p
-                className="font-quicksand
-              text-lg font-bold text-white
-              max-md:font-quicksand max-md:text-medium
+                className="max-md:text-medium
+              font-quicksand text-lg font-bold
+              text-white max-md:font-quicksand
               max-sm:font-quicksand max-sm:text-sm
                             "
               >
@@ -251,7 +251,7 @@ const Footer = () => {
                   <div
                     className={`${
                       link.highlight ? 'font-bold text-yellow-400' : 'text-gray-100'
-                    } cursor-pointer font-quicksand text-tiny transition-all duration-100 hover:underline`}
+                    } text-tiny cursor-pointer font-quicksand transition-all duration-100 hover:underline`}
                   >
                     {link.title}
                   </div>

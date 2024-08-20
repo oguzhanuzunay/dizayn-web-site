@@ -1,3 +1,4 @@
+'use client';
 import { Accordion, AccordionItem } from '@nextui-org/accordion';
 import { useTranslations } from 'next-intl';
 
@@ -29,7 +30,7 @@ const FAQs = ({ faqs = [], textColor, bgColor }: faqsParams) => {
               className={`text-lg font-semibold ${textColor}`}
             >
               <p
-                className="text-medium font-normal"
+                className="text-base font-normal"
                 dangerouslySetInnerHTML={{ __html: faq.answer }}
               ></p>
             </AccordionItem>

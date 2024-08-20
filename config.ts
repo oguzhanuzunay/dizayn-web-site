@@ -52,9 +52,9 @@ export const pathnames = {
     en: '/institutional/commitment',
     tr: '/kurumsal/taahhutname',
   },
-  '/projelerimiz': {
-    en: '/our-projects',
-    tr: '/projelerimiz',
+  '/referanslarimiz': {
+    en: '/our-references',
+    tr: '/referanslarımız ',
   },
   '/urunler/altyapi-boru-sistemleri': {
     en: '/products/infrastructure-pipe-systems',
@@ -68,8 +68,8 @@ export const pathnames = {
     en: '/products/indoor-pipe-systems',
     tr: '/urunler/bina-ici-boru-sistemleri',
   },
-  '/urunler/bina-ici-boru-sistemleri/[product]': {
+  '/urunler/bina-ici-boru-sistemleri/elitepipe/[product]': {
     en: '/products/indoor-pipe-systems/[product]',
-    tr: '/urunler/bina-ici-boru-sistemleri/[product]',
+    tr: '/tr/urunler/bina-ici-boru-sistemleri/[product]',
   },
 } satisfies Pathnames<typeof locales>;

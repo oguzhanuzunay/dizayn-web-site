@@ -1,3 +1,4 @@
+'use client';
 import FAQs from '@/components/FAQs';
 import Header from '@/components/Header';
 import ProductDetailCard from '@/components/ProductDetail/ProductDetailCard';
@@ -17,20 +18,22 @@ const Page = ({ params }: { params: { product: string } }) => {
   );
 
   if (product === undefined) {
-    return <div>{t('productNotFound')}</div>;
+    return <>{t('productNotFound')}</>;
   }
 
   const productDetail = product?.productDetails;
 
   return (
-    <div>
+    <>
       <Header text={productDetail.title} />
 
       <div className="ml-5 mt-3">
         <Breadcrumbs>
           <BreadcrumbItem href="/">{t('home')}</BreadcrumbItem>
-          <BreadcrumbItem href={t('superStructureProductLink')}>{t('products')}</BreadcrumbItem>
-          <BreadcrumbItem href={`${t('productsLink')}${params.product}`}>
+          <BreadcrumbItem href="/tr/urunler/bina-ici-boru-sistemleri	">
+            {t('products')}
+          </BreadcrumbItem>
+          <BreadcrumbItem href={`tr/ürünler/${params.product}`}>
             {params.product.replace('-', ' ').toUpperCase()}
           </BreadcrumbItem>
         </Breadcrumbs>
@@ -87,8 +90,8 @@ const Page = ({ params }: { params: { product: string } }) => {
         ))}
       </div>
 
-      <FAQs faqs={productDetail?.faqs} />
-    </div>
+      <FAQs faqs={productDetail.faqs} />
+    </>
   );
 };
 

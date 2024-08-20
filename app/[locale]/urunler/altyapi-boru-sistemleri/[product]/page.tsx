@@ -16,7 +16,6 @@ const Page = ({ params }: { params: { product: string } }) => {
     (item) => item.link.split('/')[item.link.split('/').length - 1] === params.product,
   );
 
-  console.log(product);
 
   if (product === undefined) {
     return <div>{t('productNotFound')}</div>;
