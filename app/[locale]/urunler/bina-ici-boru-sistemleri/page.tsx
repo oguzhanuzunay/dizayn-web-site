@@ -47,7 +47,7 @@ const Products = () => {
       banner: {
         vertical: '/productImages/üst yapı borular/sterile-pipe/banner/vertical.jpg',
         horizontal: t('sterilePipe.banner.horizontal'),
-        bgImage: '/productImages/üst yapı borular/sterile-pipe/banner/tr/bg-image.png',
+        bgImage: t('sterilePipe.banner.bgImage'),
         PLP: t('sterilePipe.banner.PLP'),
       },
       image: '/productImages/üst yapı borular/sterile-pipe/sterilePipeBanner.png',

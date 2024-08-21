@@ -250,7 +250,7 @@ export const productList: productListParams = {
     <li><b>Flanş (Flange)</b>: Büyük çaplı boruların bağlantısında kullanılan flanşlar, demontaj ve montaj kolaylığı sağlar. ElitePipe flanşları, yüksek mukavemet ve güvenilir bağlantılar sunar.</li>
     <li><b>Adaptör (Adapter)</b>: Farklı tip boruların veya ek parçaların bağlantısını sağlamak için kullanılan adaptörler, sistemin esnekliğini artırır. ElitePipe adaptörleri, montaj kolaylığı ve güvenilirlik sunar.</li>
   </ul>
-<p>ElitePipe ve ek parçaları, su tesisatlarında, ısıtma sistemlerinde, temiz su ve mobil dağıtım hatlarında, güneş enerjisi sistemlerinde ve soğutma ve havalandırma sistemlerinde üstün performans gösterir. Bu parçalar, ElitePipe sisteminin verimli ve güvenli çalışmasını sağlayarak montaj kolaylığı ve düşük basınç kaybı sunar. Ayrıca, esnek ve kolay şekil alan yapıları sayesinde zaman ve maliyet tasarrufu sağlarlar.</p><p><b>Daha fazla detay ve bilgi için, ürün sayfasının en üst kısmında yer alan ürün kataloğuna bakabilirsiniz.</b></p>`,
+<p>ElitePipe ve ek parçaları, su tesisatlarında, ısıtma sistemlerinde, temiz su ve mobil dağıtım hatlarında, güneş enerjisi sistemlerinde ve soğutma ve havalandırma sistemlerinde üstün performans gösterir. Bu parçalar, ElitePipe sisteminin verimli ve güvenli çalışmasını sağlayarak montaj kolaylığı ve düşük basınç kaybı sunar. Ayrıca, esnek ve kolay şekil alan yapıları sayesinde zaman ve maliyet tasarrufu sağlarlar.</p><p><b>Daha fazla detay ve bilgi için, ürün sayfasının en üst kısmında yer alan Fiyat Listesine bakabilirsiniz.</b></p>`,
             },
             {
               title: 'ElitePipe Boru <b>Birleştirme Yöntemleri</b>',
@@ -262,7 +262,7 @@ export const productList: productListParams = {
     <li><b>Mekanik Birleştirme Yöntemi</b>: Metal alaşımlı veya PPSU gibi polimerlerden üretilen ek parçalar kullanılarak boruların birleştirilmesi sağlanır. Bu yöntem, maliyetli bir birleştirme yöntemidir.</li>
   </ul>
   <p>ElitePipe boru birleştirme yöntemleri, boruların uzun ömürlü ve güvenli bir şekilde montajını sağlar. Tesisat maliyetlerini azaltan ve iş kolaylığı sunan bu yöntemler, patentle korunmaktadır.</p>
-  <p><b>Daha fazla detay ve bilgi için, ürün sayfasının en üst kısmında yer alan ürün kataloğuna bakabilirsiniz.</b></p>`,
+  <p><b>Daha fazla detay ve bilgi için, ürün sayfasının en üst kısmında yer alan Fiyat Listesine bakabilirsiniz.</b></p>`,
             },
             {
               title: 'ElitePipe Kaynak Yöntemi: <b>Alın Kaynak</b>',
@@ -292,7 +292,7 @@ export const productList: productListParams = {
     <li><b>Soğutma ve havalandırma sistemleri</b>: ElitePipe, soğutma ve havalandırma tesisatlarında etkin bir çözüm sunar.</li>
     <li><b>Kar ve buz eritme sistemleri</b>: ElitePipe boruları, kış aylarında kar ve buz eritme sistemlerinde kullanıma uygundur ve yüksek performans gösterir.</li>
   </ul>
-  <p>ElitePipe boruları, geniş kullanım alanları ve üstün performans özellikleri ile tesisat projelerinizde güvenilir bir tercihtir. Daha fazla bilgi ve detay için, ürün kataloğumuzu inceleyebilirsiniz.</p>`,
+  <p>ElitePipe boruları, geniş kullanım alanları ve üstün performans özellikleri ile tesisat projelerinizde güvenilir bir tercihtir. Daha fazla bilgi ve detay için, Fiyat Listesini inceleyebilirsiniz.</p>`,
             },
             {
               question: 'ElitePipe borular hangi çap ve basınç sınıflarında mevcuttur?',
@@ -304,7 +304,7 @@ export const productList: productListParams = {
     <li><b>Boy Boru Çapları</b>: Ø 20mm'den Ø63mm'ye kadar boy borular.</li>
     <li><b>Basınç Sınıfları</b>: 11 bar (70°C'de 50 yıl ömür).</li>
   </ul>
-  <p>ElitePipe borular, yüksek sıcaklık ve basınç dayanımı ile çeşitli çaplarda sunularak her türlü tesisat ihtiyacınıza cevap verir. Güncel çap ve basınç sınıfları bilgileri için ürün kataloğumuzu inceleyebilirsiniz.</p>`,
+  <p>ElitePipe borular, yüksek sıcaklık ve basınç dayanımı ile çeşitli çaplarda sunularak her türlü tesisat ihtiyacınıza cevap verir. Güncel çap ve basınç sınıfları bilgileri için Fiyat Listesini inceleyebilirsiniz.</p>`,
             },
             {
               question: 'ElitePipe boruların Birleştirme Yöntemleri nelerdir?',
@@ -316,7 +316,7 @@ export const productList: productListParams = {
     <li><b>Mekanik Birleştirme Yöntemi</b>: Metal alaşımlı veya PPSU gibi polimerlerden üretilen ek parçalar ile boruların birleştirilmesi sağlanır. Bu yöntem, yüksek maliyetli bir birleştirme yöntemidir.</li>
   </ul>
   <p>ElitePipe boru birleştirme yöntemleri, tesisat maliyetlerini azaltan ve montaj kolaylığı sunan ekonomik çözümler sağlar. Bu yöntemler, yüksek kalite standartlarına uygun olarak üretilmiş ve patentle korunmaktadır.</p>
-  <p><b>Güncel bilgiler ve detaylar için, ürün sayfasının en üst kısmında yer alan ürün kataloğunu inceleyebilirsiniz.</b></p>`,
+  <p><b>Güncel bilgiler ve detaylar için, ürün sayfasının en üst kısmında yer alan Fiyat Listesini inceleyebilirsiniz.</b></p>`,
             },
             {
               question: 'ElitePipe boruları kimyasallara karşı dayanıklı mı?',
@@ -324,7 +324,7 @@ export const productList: productListParams = {
   <p>ElitePipe boruları, çeşitli kimyasallara karşı yüksek dayanıklılık sunar. Bu özellik, boruların uzun ömürlü olmasını ve zorlu çevre koşullarında bile güvenli bir şekilde kullanılmasını sağlar.</p>
   <p>ElitePipe boruları, yüzey aktif maddeler, alkoller, sabunlar ve boyalar gibi kimyasallara karşı mükemmel direnç gösterir. Bu kimyasal direnç, boruların iç ve dış gerilmelere maruz kaldığında bile deformasyona uğramasını engeller ve çatlama riskini minimize eder.</p>
   <p>ElitePipe'ın kimyasal dayanıklılığı, tesisat sistemlerinde güvenilir bir çözüm sunar ve çeşitli uygulamalarda üstün performans sağlar.</p>
-  <p><b>Daha fazla bilgi ve detay için, ürün sayfasının en üst kısmında yer alan ürün kataloğunu inceleyebilirsiniz.</b></p>`,
+  <p><b>Daha fazla bilgi ve detay için, ürün sayfasının en üst kısmında yer alan Fiyat Listesini inceleyebilirsiniz.</b></p>`,
             },
             {
               question: 'ElitePipe boruların avantajları nelerdir?',
@@ -339,14 +339,14 @@ export const productList: productListParams = {
     <li><b>Fireleri Önler</b>: Kangal halinde sevk edilmesi, boru firelerini sıfıra indirir ve malzeme kaybını önler.</li>
     <li><b>Döşendikten Sonra Oluşan Riskleri Ortadan Kaldırır</b>: Sıva sırasında oluşabilecek darbelere karşı daha dayanıklıdır, bu da ek maliyetleri ve riskleri azaltır.</li>
   </ul>
-  <p>ElitePipe boruları, geniş kullanım alanları ve üstün performans özellikleri ile tesisat projelerinizde güvenilir bir tercihtir. Daha fazla bilgi ve detay için, ürün sayfasının en üst kısmında yer alan ürün kataloğunu inceleyebilirsiniz.</p>`,
+  <p>ElitePipe boruları, geniş kullanım alanları ve üstün performans özellikleri ile tesisat projelerinizde güvenilir bir tercihtir. Daha fazla bilgi ve detay için, ürün sayfasının en üst kısmında yer alan Fiyat Listesini inceleyebilirsiniz.</p>`,
             },
             {
               question: 'ElitePipe boruların ömrü ne kadar?',
               answer: `  <h2>ElitePipe Boruların Ömrü Ne Kadar?</h2>
   <p>ElitePipe boruları, üstün malzeme kalitesi ve ileri teknoloji ile üretilmiştir. Bu nedenle, yüksek sıcaklık ve basınca karşı uzun ömürlü bir performans sergiler. ElitePipe boruları, 70°C'de 50 yıl ömür ve 11 bar basınç dayanımı ile sektörde öne çıkmaktadır.</p>
   <p>ElitePipe borularının uzun ömrü, su tesisatları, ısıtma sistemleri, temiz su hatları ve diğer uygulamalarda güvenilir bir çözüm sunar. Bu dayanıklılık, kullanıcıların uzun yıllar boyunca sorunsuz bir kullanım deneyimi yaşamasını sağlar.</p>
-  <p><b>Daha fazla bilgi ve detay için, ürün sayfasının en üst kısmında yer alan ürün kataloğunu inceleyebilirsiniz.</b></p>
+  <p><b>Daha fazla bilgi ve detay için, ürün sayfasının en üst kısmında yer alan Fiyat Listesini inceleyebilirsiniz.</b></p>
         `,
             },
             {
@@ -369,7 +369,7 @@ export const productList: productListParams = {
     <li><b>50 yıl 70°C Basınç Dayanımı</b>: 11 Bar</li>
     <li><b>Önerilen Kaynak Metodu</b>: Soket Füzyon Kaynağı</li>
   </ul>
-  <p>ElitePipe boruları, üstün malzeme kalitesi ve teknik özellikleri ile tesisat projelerinizde güvenilir ve uzun ömürlü çözümler sunar. Güncel teknik özellikler ve daha fazla bilgi için, ürün kataloğumuzu inceleyebilirsiniz.</p>`,
+  <p>ElitePipe boruları, üstün malzeme kalitesi ve teknik özellikleri ile tesisat projelerinizde güvenilir ve uzun ömürlü çözümler sunar. Güncel teknik özellikler ve daha fazla bilgi için, Fiyat Listesini inceleyebilirsiniz.</p>`,
             },
             {
               question: 'ElitePipe boruları nasıl temin edebilirim?',
@@ -587,7 +587,7 @@ export const productList: productListParams = {
             {
               question: 'Sterile Pipe boruların teknik özellikleri nelerdir?',
               answer:
-                'Sterile Pipe boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için ürün kataloğumuza bakabilirsiniz.',
+                'Sterile Pipe boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için Fiyat Listesini bakabilirsiniz.',
             },
             {
               question: 'Sterile Pipe boruları nasıl temin edebilirim?',
@@ -820,7 +820,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
             {
               question: 'Elastica Boruların teknik özellikleri nelerdir?',
               answer:
-                'Elastica Boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için ürün kataloğumuza bakabilirsiniz.',
+                'Elastica Boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için Fiyat Listesini bakabilirsiniz.',
             },
             {
               question: 'Elastica Boruları nasıl temin edebilirim?',
@@ -1023,7 +1023,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
             {
               question: 'NanoTech Atık Su Borularının teknik özellikleri nelerdir?',
               answer:
-                'NanoTech Atık Su Boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için ürün kataloğumuza bakabilirsiniz.',
+                'NanoTech Atık Su Boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için Fiyat Listesini bakabilirsiniz.',
             },
             {
               question: 'NanoTech Atık Su Borularını nasıl temin edebilirim?',
@@ -1222,7 +1222,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
             {
               question: 'Triplex Atık Su Borularının teknik özellikleri nelerdir?',
               answer:
-                'Triplex Atık Su Boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için ürün kataloğumuza bakabilirsiniz.',
+                'Triplex Atık Su Boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için Fiyat Listesini bakabilirsiniz.',
             },
             {
               question: 'Triplex Atık Su Borularını nasıl temin edebilirim?',
@@ -1416,7 +1416,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
             {
               question: 'PPR Borularının teknik özellikleri nelerdir?',
               answer:
-                'PPR Boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için ürün kataloğumuza bakabilirsiniz.',
+                'PPR Boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için Fiyat Listesini bakabilirsiniz.',
             },
             {
               question: 'PPR Borularını nasıl temin edebilirim?',
@@ -1725,7 +1725,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               title: '<b>RTP Boru</b> ve Ek Parçaları',
               description:
-                'RTP Boruları, yüksek basınç dayanımı ve üstün kompozit yapısı ile 90 mm - 1200 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. RTP Boruları, su, gaz, petrol gibi farklı akışkanların taşınmasında güvenilir çözümler sunar. RTP Boru <b>Fiyat Listesi</b> için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
+                'RTP Boruları, yüksek basınç dayanımı ve üstün kompozit yapısı ile 90 mm - 1200 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. RTP Boruları, su, gaz, petrol gibi farklı akışkanların taşınmasında güvenilir çözümler sunar. RTP Boru <b>Fiyat Listesi</b> için internet sitemizde yer alan Fiyat Listesini inceleyebilirsiniz.',
               alt: 'RTP Boru',
             },
             {
@@ -1736,7 +1736,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               title: 'RTP Boru <b>Nerelerde Kullanılır?</b>',
               description:
-                'RTP Boruları, yüksek performansı ve kalitesi ile su, gaz, petrol taşımacılığı, jeotermal su taşıma hatları ve offshore uygulamalar gibi birçok alanda güvenle kullanılabilir. RTP Boruları, projelerinizde güvenilir ve uzun ömürlü çözümler sunar. RTP Boru <b>Fiyat Listesi</b> için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
+                'RTP Boruları, yüksek performansı ve kalitesi ile su, gaz, petrol taşımacılığı, jeotermal su taşıma hatları ve offshore uygulamalar gibi birçok alanda güvenle kullanılabilir. RTP Boruları, projelerinizde güvenilir ve uzun ömürlü çözümler sunar. RTP Boru <b>Fiyat Listesi</b> için internet sitemizde yer alan Fiyat Listesini inceleyebilirsiniz.',
             },
             {
               title: 'RTP Boru <b>Ağırlık Tablosu</b>',
@@ -1771,7 +1771,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               title: 'RTP Boru <b>Fiyat Listesi</b>',
               description:
-                'RTP Boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. RTP Borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. RTP Boru avantajlarından yararlanmak ve 2024 RTP Boru Fiyat Listesine ulaşmak için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
+                'RTP Boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. RTP Borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. RTP Boru avantajlarından yararlanmak ve 2024 RTP Boru Fiyat Listesine ulaşmak için internet sitemizde yer alan Fiyat Listesini inceleyebilirsiniz.',
             },
           ],
           faqs: [
@@ -1818,7 +1818,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               question: 'RTP Borularının teknik özellikleri nelerdir?',
               answer:
-                'RTP Boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için ürün kataloğumuza bakabilirsiniz.',
+                'RTP Boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için Fiyat Listesini bakabilirsiniz.',
             },
             {
               question: 'RTP Borularını nasıl temin edebilirim?',
@@ -1969,7 +1969,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               title: '<b>Telekom Boru</b> ve Ek Parçaları',
               description:
-                'Telekom Boruları, yüksek dayanıklılık ve uzun ömür sunan, çeşitli çap ve renk seçenekleriyle üretilen kablo muhafaza borularıdır. Telekom Boru <b>Fiyat Listesi</b> için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz. Bu borular, polietilen ve polipropilen hammaddelerden üretilmiştir ve her türlü çevresel koşullara dayanıklıdır.',
+                'Telekom Boruları, yüksek dayanıklılık ve uzun ömür sunan, çeşitli çap ve renk seçenekleriyle üretilen kablo muhafaza borularıdır. Telekom Boru <b>Fiyat Listesi</b> için internet sitemizde yer alan Fiyat Listesini inceleyebilirsiniz. Bu borular, polietilen ve polipropilen hammaddelerden üretilmiştir ve her türlü çevresel koşullara dayanıklıdır.',
               image: '/productImages/alt yapı boruları/TELEKOM/telekom-boru-1.png',
               alt: 'Telekom Boru',
             },
@@ -1986,7 +1986,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               title: 'Telekom Boru Teknik <b>Özellikleri</b>',
               description:
-                'Telekom Boruları, yüksek dayanıklılık, esneklik, kimyasal dayanıklılık ve uzun ömür gibi teknik özelliklere sahiptir. Detaylı bilgi için ürün kataloğumuzu inceleyebilirsiniz. Bu borular, çeşitli çap ve basınç sınıflarında üretilmektedir ve her türlü zorlu koşulda üstün performans sunar.',
+                'Telekom Boruları, yüksek dayanıklılık, esneklik, kimyasal dayanıklılık ve uzun ömür gibi teknik özelliklere sahiptir. Detaylı bilgi için Fiyat Listesini inceleyebilirsiniz. Bu borular, çeşitli çap ve basınç sınıflarında üretilmektedir ve her türlü zorlu koşulda üstün performans sunar.',
             },
             {
               title: 'Telekom Boru <b>Ek Parçaları</b>',
@@ -2006,7 +2006,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               title: 'Telekom Boru <b>Fiyat Listesi</b>',
               description:
-                'Telekom Boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Telekom Borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Telekom Boru avantajlarından yararlanmak ve 2024 Telekom Boru Fiyat Listesine ulaşmak için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
+                'Telekom Boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Telekom Borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Telekom Boru avantajlarından yararlanmak ve 2024 Telekom Boru Fiyat Listesine ulaşmak için internet sitemizde yer alan Fiyat Listesini inceleyebilirsiniz.',
             },
           ],
           faqs: [
@@ -2058,7 +2058,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               question: 'Telekom Boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
-                'Telekom Boruların 2024 Fiyat Listesi için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz. Detaylı bilgi ve diğer çaplar için firmamızla iletişime geçebilirsiniz.',
+                'Telekom Boruların 2024 Fiyat Listesi için internet sitemizde yer alan Fiyat Listesini inceleyebilirsiniz. Detaylı bilgi ve diğer çaplar için firmamızla iletişime geçebilirsiniz.',
             },
           ],
           fittings: [
@@ -2604,7 +2604,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               title: 'Dizayn PE 80 Doğalgaz Boru <b>Fiyat Listesi</b>',
               description:
-                'Dizayn PE 80 doğalgaz boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Dizayn PE 80 doğalgaz boruları, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Dizayn PE 80 doğalgaz boru avantajlarından yararlanmak ve 2024 Dizayn PE 80 Doğalgaz Boru Fiyat Listesine ulaşmak için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
+                'Dizayn PE 80 doğalgaz boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Dizayn PE 80 doğalgaz boruları, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Dizayn PE 80 doğalgaz boru avantajlarından yararlanmak ve 2024 Dizayn PE 80 Doğalgaz Boru Fiyat Listesine ulaşmak için internet sitemizde yer alan Fiyat Listesini inceleyebilirsiniz.',
             },
           ],
           faqs: [
@@ -2641,7 +2641,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               question: 'PE 80 doğalgaz borularının fiyat listesine nasıl ulaşabilirim?',
               answer:
-                'PE 80 doğalgaz borularının 2024 Fiyat Listesi için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
+                'PE 80 doğalgaz borularının 2024 Fiyat Listesi için internet sitemizde yer alan Fiyat Listesini inceleyebilirsiniz.',
             },
             {
               question: 'PE 80 doğalgaz boruları kimyasallara karşı dayanıklı mıdır?',
@@ -2651,7 +2651,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               question: 'PE 80 doğalgaz borularının teknik özellikleri nelerdir?',
               answer:
-                'PE 80 doğalgaz boruları, yüksek basınç dayanımı, esneklik, kimyasal direnç ve uzun ömür gibi teknik özelliklere sahiptir. Detaylı teknik özellikler için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz.',
+                'PE 80 doğalgaz boruları, yüksek basınç dayanımı, esneklik, kimyasal direnç ve uzun ömür gibi teknik özelliklere sahiptir. Detaylı teknik özellikler için internet sitemizde yer alan Fiyat Listesini inceleyebilirsiniz.',
             },
             {
               question: 'PE 80 doğalgaz boruları nasıl temin edebilirim?',
@@ -2822,7 +2822,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               title: 'Jeotermal Boru <b>Fiyat Listesi</b>',
               description:
-                'Jeotermal boruların 2024 Fiyat Listesi için internet sitemizde yer alan ürün kataloğumuzu inceleyebilirsiniz. Geniş çap seçenekleri ve uygun fiyatları ile projelerinizde ekonomik çözümler sunar.',
+                'Jeotermal boruların 2024 Fiyat Listesi için internet sitemizde yer alan Fiyat Listesini inceleyebilirsiniz. Geniş çap seçenekleri ve uygun fiyatları ile projelerinizde ekonomik çözümler sunar.',
             },
           ],
           faqs: [
@@ -5547,7 +5547,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               question: 'Soft Power boruların teknik Özellikleri nelerdir?',
               answer:
-                'Soft Power boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey Özellikleri ile üretilmektedir. Daha fazla bilgi için ürün kataloğumuza bakabilirsiniz.',
+                'Soft Power boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey Özellikleri ile üretilmektedir. Daha fazla bilgi için Fiyat Listesini bakabilirsiniz.',
             },
             {
               question: 'Soft Power boruları nasıl temin edebilirim?',

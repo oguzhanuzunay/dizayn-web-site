@@ -33,23 +33,23 @@ export const pathnames = {
     tr: '/sertifikalar',
   },
   '/kurumsal': {
-    en: '/institutional',
+    en: '/corporate',
     tr: '/kurumsal',
   },
   '/kurumsal/vizyon-ve-misyon': {
-    en: '/institutional/vision-and-mission',
+    en: '/corporate/vision-and-mission',
     tr: '/kurumsal/vizyon-ve-misyon',
   },
   '/kurumsal/oduller-ve-basarilar': {
-    en: '/institutional/awards-and-achievements',
+    en: '/corporate/awards-and-achievements',
     tr: '/kurumsal/oduller-ve-basarilar',
   },
   '/kurumsal/tarihce': {
-    en: '/institutional/history',
+    en: '/corporate/history',
     tr: '/kurumsal/tarihce',
   },
   '/kurumsal/taahhutname': {
-    en: '/institutional/commitment',
+    en: '/corporate/commitment',
     tr: '/kurumsal/taahhutname',
   },
   '/referanslarimiz': {

@@ -31,7 +31,7 @@ const languageTexts: languageParams = {
       { name: 'Dealers' },
       { name: 'Calculations' },
       { name: 'Communication' },
-      { name: 'Institutional' },
+      { name: 'corporate' },
       { name: 'Our projects' },
       { name: 'Certificates' },
       { name: 'R&D' },
@@ -125,7 +125,7 @@ const languageTexts: languageParams = {
             title: 'Design Group',
             content: [
               {
-                title: 'Institutional',
+                title: 'corporate',
                 link: '/kurumsal',
               },
               {

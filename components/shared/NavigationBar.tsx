@@ -3,6 +3,8 @@ import { languageTexts } from '@/constants';
 import dizaynLogo from '@/public/dizayn-logo.png';
 import { ChevronDown } from '@/public/icons/icons';
 import {
+  Accordion,
+  AccordionItem,
   Button,
   Dropdown,
   DropdownItem,
@@ -19,12 +21,15 @@ import {
 } from '@nextui-org/react';
 import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
+import { FaChevronDown } from 'react-icons/fa';
+import LangChanger from './LangChanger';
 
 const NavigationBar = () => {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [openAccordion, setOpenAccordion] = useState<string | null>(null);
 
   const t = useTranslations('NavigationBar');
   const locale = useLocale();
@@ -68,12 +73,22 @@ const NavigationBar = () => {
     },
     { name: t('menuList.dealers') },
     { name: t('menuList.calculations') },
-    { name: t('menuList.institutional') },
+    { name: t('menuList.corporate') },
     { name: t('menuList.ourProject') },
     { name: t('menuList.certificates') },
     { name: t('menuList.contact') },
     { name: t('menuList.arge') },
   ];
+
+  const router = useRouter(); // Add this line to import the 'router' object
+  const changeLanguage = (newLocale: string) => {
+    const pathWithoutLocale = pathname.replace(/^\/[a-z]{2}/, '');
+    const searchParams = new URLSearchParams();
+    const newUrl = `/${newLocale}${pathWithoutLocale}${
+      searchParams.toString() ? `?${searchParams.toString()}` : ''
+    }`;
+    router.push(newUrl);
+  };
 
   const listMenu = (firstIndex: number, lastIndex: number): React.ReactNode =>
     menuList.slice(firstIndex, lastIndex).map((page: any, index) => {
@@ -177,6 +192,7 @@ const NavigationBar = () => {
           <Image
             src={dizaynLogo}
             alt="logo"
+            className="cursor-pointer min-w-32"
             width={150}
             height={120}
           />
@@ -188,6 +204,13 @@ const NavigationBar = () => {
         justify="end"
       >
         {languageTexts[locale]?.menuList && listMenu(3, languageTexts[locale].menuList.length - 1)}
+      </NavbarContent>
+
+      <NavbarContent>
+        <LangChanger
+          locale={locale}
+          changeLanguage={changeLanguage}
+        />
       </NavbarContent>
 
       {/* Mobile Content */}
@@ -232,6 +255,32 @@ const NavigationBar = () => {
               ))}
           </NavbarMenuItem>
         ))}
+
+        <NavbarMenuItem>
+          <Accordion>
+            <AccordionItem
+              title={
+                <div className="flex items-center justify-between">
+                  <span className="text-2xl">{locale === 'tr' ? 'Türkçe' : 'English'}</span>
+                  <FaChevronDown
+                    className={`transition-transform duration-300 max-w-4 " ${
+                      openAccordion === 'language' ? 'rotate-180' : ''
+                    }`}
+                  />
+                </div>
+              }
+              indicator=" "
+              onClick={() => setOpenAccordion(openAccordion === 'language' ? null : 'language')}
+              className="text-2xl text-center"
+            >
+              <LangChanger
+                locale={locale}
+                changeLanguage={changeLanguage}
+                isMobile={true}
+              />
+            </AccordionItem>
+          </Accordion>
+        </NavbarMenuItem>
       </NavbarMenu>
     </Navbar>
   );

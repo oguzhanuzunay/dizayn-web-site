@@ -24,14 +24,14 @@
       },
       "dealers": "Bayilerimiz",
       "calculations": "Hesaplamalar",
-      "institutional": "Kurumsal",
+      "corporate": "Kurumsal",
       "ourProject": "Referanslarımız",
       "certificates": "Sertifikalar",
       "contact": "iletisim",
       "arge": "AR-GE"
     },
     "priceList": "Fiyat Listesi",
-    "priceCatalog": " Ürün Kataloğu"
+    "priceCatalog": " Fiyat Listesi"
   },
   "Certificates": {
     "germany": {
@@ -245,7 +245,8 @@
         },
         "banner": {
           "PLP": "/productImages/üst yapı borular/sterile-pipe/banner/tr/PLP.png",
-          "horizontal": "/productImages/üst yapı borular/sterile-pipe/banner/tr/horizontal.png"
+          "horizontal": "/productImages/üst yapı borular/sterile-pipe/banner/tr/horizontal.png",
+          "bgImage": "/productImages/üst yapı borular/sterile-pipe/banner/tr/bg-image.png"
         },
         "link": "/tr/urunler/bina-ici-boru-sistemleri/sterilepipe"
       },

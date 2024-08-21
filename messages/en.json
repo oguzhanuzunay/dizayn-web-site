@@ -24,7 +24,7 @@
       },
       "dealers": "Our Dealers",
       "calculations": "Calculations",
-      "institutional": "Institutional",
+      "corporate": "Corporate",
       "ourProject": "Our References",
       "certificates": "Certificates",
       "contact": "Contact",
@@ -246,7 +246,8 @@
         },
         "banner": {
           "PLP": "/productImages/üst yapı borular/sterile-pipe/banner/en/PLP.png",
-          "horizontal": "/productImages/üst yapı borular/sterile-pipe/banner/en/horizontal.png"
+          "horizontal": "/productImages/üst yapı borular/sterile-pipe/banner/en/horizontal.png",
+          "bgImage": "/productImages/üst yapı borular/sterile-pipe/banner/en/bg-image.png"
         },
         "link": "/en/urunler/bina-ici-boru-sistemleri/sterilepipe"
       },
@@ -418,7 +419,7 @@
     "description": "Meet our new generation, high-tech pipes."
   },
   "oduller-ve-basarilar": {
-    "kurumsal": "Institutional",
+    "kurumsal": "corporate",
     "tarihce": "history"
   },
   "CountUpComp": {
@@ -449,7 +450,7 @@
         "visionMission": "Mission and Vision",
         "awards": "Awards and Achievements",
         "qualityPolicy": "letter of commitment",
-        "about": "Institutional"
+        "about": "corporate"
       },
       "products": {
         "title": "Products",
@@ -517,8 +518,8 @@
         "11": "We achieved this success together with all our stakeholders. \nI express my deep gratitude to them.",
         "12": "İbrahim Mirmahmutoğulları Chairman of the Board of Directors of Mir Holding"
       },
-      "title": "Institutional",
-      "link": "/en/institutional"
+      "title": "corporate",
+      "link": "/en/corporate"
     },
     "tarihce": {
       "title": "History",
@@ -528,7 +529,7 @@
         "2": "Dizayn Group, which has produced firsts for Turkey in 37 years, broken world records, and become a leading company in technology in its sector with dozens of patents it has turned into industry, has exported to more than 85 countries and become a world brand with its experience and high production power. \nWith the factory it opened in Russia in 2015 and the investment it made in Europe in 2016, it set the milestones to become a local brand in the important markets in which it carries its name.",
         "3": "Adopting continuous development for the development of Turkey and the welfare of its stakeholders, Dizayn Group expresses its gratitude to all its stakeholders with whom it has \"designed\" 37 years together, and continues to take steps to increase the benefits it offers to the whole world in order to \"design\" the coming years together."
       },
-      "link": "/en/institutional/history"
+      "link": "/en/corporate/history"
     },
     "vizyon-ve-misyon": {
       "title": "Vision and Mission",
@@ -538,7 +539,7 @@
         "2": "Our New Product Development Strategies",
         "3": "Staying away from products that everyone produces or can produce. \n- To produce products that are competitive in terms of quality and price. \n- Being able to think of differences that create value that competitors have not thought of yet. \n- Focusing on products as much as possible. \n- To achieve a sense of completeness in everything we work on. \n- Never imitate the product of a national or international competitor. \n- To create privileges in all developed products and to achieve legal protection with patents."
       },
-      "link": "/en/institutional/vision-and-mission"
+      "link": "/en/corporate/vision-and-mission"
     },
     "taahhutname": {
       "title": "Letter of Commitment",
@@ -551,7 +552,7 @@
         "5": "We know our responsibilities. \nThe world needs Design.",
         "6": "İbrahim MİRMAHMUTOĞULLARI Chairman of the Board of Directors"
       },
-      "link": "/en/institutional/commitment"
+      "link": "/en/corporate/commitment"
     },
     "oduller-ve-basarilar": {
       "title": "Awards and Achievements",
@@ -561,7 +562,7 @@
         "2": "Dizayn Group, which has produced firsts for Turkey in 37 years, broken world records, and become a leading company in technology in its sector with dozens of patents it has turned into industry, has exported to more than 85 countries and become a world brand with its experience and high production power. \nWith the factory it opened in Russia in 2015 and the investment it made in Europe in 2016, it set the milestones to become a local brand in the important markets in which it carries its name.",
         "3": "Adopting continuous development for the development of Turkey and the welfare of its stakeholders, Dizayn Group expresses its gratitude to all its stakeholders with whom it has \"designed\" 37 years together, and continues to take steps to increase the benefits it offers to the whole world in order to \"design\" the coming years together."
       },
-      "link": "/en/institutional/awards-and-achievements"
+      "link": "/en/corporate/awards-and-achievements"
     },
     "vision": "our vision",
     "mission": "Our Mission"
