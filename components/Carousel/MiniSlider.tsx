@@ -37,10 +37,7 @@ const MiniSlider = () => {
   const [language] = useLanguageContext();
 
   return (
-    <div
-      id="mini-slider"
-      className=""
-    >
+    <div id="mini-slider">
       <Swiper
         slidesPerView={3}
         spaceBetween={30}
@@ -49,7 +46,6 @@ const MiniSlider = () => {
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className=""
       >
         {sliderItems[language].map(
           (item) =>

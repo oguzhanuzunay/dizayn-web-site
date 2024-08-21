@@ -21,10 +21,7 @@ const FAQs = ({ faqs = [], textColor, bgColor }: faqsParams) => {
       </h3>
       {faqs.map((faq, index) => {
         return (
-          <Accordion
-            key={index}
-            className=""
-          >
+          <Accordion key={index}>
             <AccordionItem
               title={faq.question}
               className={`text-lg font-semibold ${textColor}`}

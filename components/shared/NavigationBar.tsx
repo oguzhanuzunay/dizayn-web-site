@@ -128,7 +128,7 @@ const NavigationBar = () => {
             >
               {page.submenu.map((item: any) => (
                 <DropdownItem
-                className='flex hover:bg-gray-300 p-0 rounded-md'
+                  className="flex hover:bg-gray-300 p-0 rounded-md"
                   key={item.name}
                   description={item.description}
                   startContent={
@@ -164,11 +164,7 @@ const NavigationBar = () => {
         className="lg:hidden"
         justify="start"
       >
-        <NavbarMenuToggle
-          aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
-          className=""
-
-        />
+        <NavbarMenuToggle aria-label={isMenuOpen ? 'Close menu' : 'Open menu'} />
       </NavbarContent>
 
       <NavbarContent
@@ -189,10 +185,7 @@ const NavigationBar = () => {
       </NavbarContent>
 
       <NavbarBrand className="flex flex-1 items-center justify-center w-full">
-        <Link
-          href="/"
-          className=""
-        >
+        <Link href="/">
           <Image
             src={dizaynLogo}
             alt="logo"

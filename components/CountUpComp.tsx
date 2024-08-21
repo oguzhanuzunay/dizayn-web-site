@@ -75,7 +75,7 @@ const CountUpComp = () => {
               end={item.counterNumber}
               enableScrollSpy
             />
-            <p className="text-center font-quicksand text-xl font-semibold text-slate-100 max-md:text-lg max-sm:text-medium ">
+            <p className="text-center font-quicksand text-xl font-semibold text-slate-100 max-md:text-lg max-sm:text-base ">
               +
             </p>
           </div>

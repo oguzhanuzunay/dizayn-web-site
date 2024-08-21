@@ -60,7 +60,7 @@ const Page = ({ params }: { params: { product: string } }) => {
 
         <div className="flex h-full flex-col items-start justify-start ">
           <b className="mb-2">{productDetail.title}</b>
-          <p className="">{productDetail.description}</p>
+          <p >{productDetail.description}</p>
         </div>
       </div>
 

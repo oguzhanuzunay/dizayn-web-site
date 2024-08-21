@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 
-interface countryCertificateParams {
+export interface countryCertificateParams {
   name: string;
   code: string;
   title: string;
@@ -16,7 +16,7 @@ interface countryCertificateParams {
     }[];
   }[];
 }
-[];
+
 const Locale = ({ params }: { params: { locale: string } }) => {
   const t = useTranslations('Certificates');
 
@@ -287,7 +287,7 @@ const Locale = ({ params }: { params: { locale: string } }) => {
   const list = countryCertificate.filter((item) => item.code === params.locale)[0];
 
   return (
-    <div className="">
+    <>
       <div className="mb-0 flex size-full items-center bg-gray-500 p-5">
         <p className="font-spaceGrotesk text-2xl font-semibold text-white">{list?.title}</p>
       </div>
@@ -302,7 +302,7 @@ const Locale = ({ params }: { params: { locale: string } }) => {
       </div>
 
       <div className="m-5 flex w-full flex-col flex-wrap items-start justify-start">
-        {list?.certificates.map((certificate, index) => (
+        {list?.certificates.map((certificate) => (
           <>
             <h3 className="w-[200px] text-start font-semibold text-gray-500">
               {certificate.product}
@@ -316,7 +316,7 @@ const Locale = ({ params }: { params: { locale: string } }) => {
                   className="m-3 rounded-md bg-slate-100 p-3 transition-all duration-300 hover:scale-105 hover:bg-slate-200 hover:shadow-lg"
                 >
                   <div className=" bg-white p-3 ">
-                    <p className="text-tiny w-[200px] text-start font-quicksand font-normal text-gray-500">
+                    <p className="text-sm w-[200px] text-start font-quicksand font-normal text-gray-500">
                       {pdf.name.toUpperCase()}
                     </p>
                     <Image
@@ -332,7 +332,7 @@ const Locale = ({ params }: { params: { locale: string } }) => {
           </>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 

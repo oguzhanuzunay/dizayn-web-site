@@ -10,7 +10,7 @@ import './MapComponent.css';
 
 const MapComponent = ({ show }: { show: boolean }) => {
   const language = useLocale();
-  const dealers = languageTexts[language]?.pages.dealers ?? {};
+  const dealers: { text?: string; alt?: string; imgLink?: string; subPageLink?: string } = languageTexts[language]?.pages.dealers ?? {};
   const [selectedCity, setSelectedCity] = useState(0);
 
   const handleCityClick = (cityId: number) => {
@@ -43,7 +43,7 @@ const MapComponent = ({ show }: { show: boolean }) => {
 
   return (
     <div>
-      <div className="">
+      <div>
         <TurkeyMap
           onClick={({ plateNumber, name }) => handleCityClick(plateNumber)}
           hoverable
@@ -54,15 +54,15 @@ const MapComponent = ({ show }: { show: boolean }) => {
           className={`absolute bottom-[50px] right-0 z-10 max-xl:max-w-36 max-lg:max-w-32 max-md:max-w-40 max-sm:max-w-24
           ${show ? '' : 'hidden'}`}
         >
-          <a href={dealers.subPageLink}>
+          <a href={dealers?.subPageLink}>
             <Image
-              src={dealers.imgLink}
-              alt={dealers.alt}
+              src={dealers.imgLink ?? ''}
+              alt={dealers.alt || ''}
               width={150}
               height={150}
             />
             <p
-              className={`font-quicksand text-lg max-md:text-tiny ${show ? ' max-lg:hidden ' : ''}`}
+              className={`font-quicksand text-lg max-md:text-sm ${show ? ' max-lg:hidden ' : ''}`}
             >
               {dealers.text}
             </p>
