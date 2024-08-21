@@ -1,10 +1,10 @@
 'use client';
-
 import Image from 'next/image';
 // Import Swiper React components
-import { useLanguageContext } from '@/context/language';
+import { scrollToHash } from '@/lib/utils';
 import { motion } from 'framer-motion';
-import { useRouter } from 'next/navigation';
+import { useLocale } from 'next-intl';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -21,94 +21,115 @@ interface HeroSliderParams {
     link?: string;
   }[];
 }
+
 const heroSlider: HeroSliderParams = {
   en: [
     {
-      desktopImage: '/sliderImages/1.jpg',
-      mobileImage: '/sliderImages/mobile/1.jpg',
+      desktopImage: '/sliderImages/desktop/en/elite-pipe.jpg',
+      mobileImage: '/sliderImages/mobile/en/eliteelite-pipe.jpg',
       alt: 'ElitePipe',
-      title: 'ElitePipe',
-      link: '/product/elitepipe',
+      link: '/en/urunler/bina-ici-boru-sistemleri/elitepipe',
     },
     {
-      desktopImage: '/sliderImages/2.jpg',
-      mobileImage: '/sliderImages/2.jpg',
-      alt: 'SterilePipe',
-      title: 'SterilePipe',
-      link: '/product/sterilepipe',
+      desktopImage: '/sliderImages/desktop/en/sterilepipe.jpg',
+      mobileImage: '/sliderImages/mobile/en/sterilepipe.jpg',
+      alt: 'Sterile Pipe',
+      link: '/en/urunler/bina-ici-boru-sistemleri/sterilepipe',
     },
     {
-      desktopImage: '/sliderImages/3.jpg',
-      mobileImage: '/sliderImages/3.jpg',
-      alt: 'SterilePipe',
-      title: 'SterilePipe',
-      link: '/product/sterilepipe',
+      desktopImage: '/sliderImages/desktop/en/alt-yapı.jpg',
+      mobileImage: '/sliderImages/mobile/en/alt-yapı.jpg',
+      alt: 'Altyapı Boru Sistemleri',
+      link: '/en/urunler/altyapi-boru-sistemleri',
     },
     {
-      desktopImage: '/sliderImages/4.jpg',
-      mobileImage: '/sliderImages/4.jpg',
-      alt: 'SterilePipe',
-      title: 'SterilePipe',
-      link: '/product/sterilepipe',
+      desktopImage: '/sliderImages/desktop/en/elastica.jpg',
+      mobileImage: '/sliderImages/mobile/en/elastica.jpg',
+      alt: 'ElitePipe Hero Image',
+      link: '/en/urunler/bina-ici-boru-sistemleri/elastica-boru',
+    },
+    {
+      desktopImage: '/sliderImages/desktop/en/Referanslar.jpg',
+      mobileImage: '/sliderImages/mobile/en/Referanslar.jpg',
+      alt: 'Referanslar',
+      link: '/en/Referanslar',
+    },
+    {
+      desktopImage: '/sliderImages/desktop/en/nanotek-premium.jpg',
+      mobileImage: '/sliderImages/mobile/en/nanotek-premium.jpg',
+      alt: 'nanotek',
+      link: '/en/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium',
+    },
+    {
+      desktopImage: '/sliderImages/desktop/en/koruge.jpg',
+      mobileImage: '/sliderImages/mobile/en/koruge.jpg',
+      alt: 'Koruge',
+      link: '/en/urunler/altyapi-boru-sistemleri/koruge-boru',
     },
   ],
   tr: [
     {
-      desktopImage: '/sliderImages/desktop/elite-pipe.jpg',
-      mobileImage: '/sliderImages/mobile/elite-pipe.jpg',
+      desktopImage: '/sliderImages/desktop/tr/elite-pipe.jpg',
+      mobileImage: '/sliderImages/mobile/tr/eliteelite-pipe.jpg',
       alt: 'ElitePipe',
-      link: '/urunler/bina-ici-boru-sistemleri/elitepipe',
+      link: '/tr/urunler/bina-ici-boru-sistemleri/elitepipe',
     },
     {
-      desktopImage: '/sliderImages/desktop/sterilepipe.jpg',
-      mobileImage: '/sliderImages/mobile/sterilepipe.jpg',
+      desktopImage: '/sliderImages/desktop/tr/sterilepipe.jpg',
+      mobileImage: '/sliderImages/mobile/tr/sterilepipe.jpg',
       alt: 'Sterile Pipe',
-      link: '/urunler/bina-ici-boru-sistemleri/sterilepipe',
+      link: '/tr/urunler/bina-ici-boru-sistemleri/sterilepipe',
     },
     {
-      desktopImage: '/sliderImages/desktop/alt-yapı.jpg',
-      mobileImage: '/sliderImages/mobile/alt-yapı.jpg',
+      desktopImage: '/sliderImages/desktop/tr/alt-yapı.jpg',
+      mobileImage: '/sliderImages/mobile/tr/alt-yapı.jpg',
       alt: 'Altyapı Boru Sistemleri',
-      link: '/urunler/altyapi-boru-sistemleri',
+      link: '/tr/urunler/altyapi-boru-sistemleri',
     },
     {
-      desktopImage: '/sliderImages/desktop/elastica.jpg',
-      mobileImage: '/sliderImages/mobile/elastica.jpg',
+      desktopImage: '/sliderImages/desktop/tr/elastica.jpg',
+      mobileImage: '/sliderImages/mobile/tr/elastica.jpg',
       alt: 'ElitePipe Hero Image',
-      link: '/urunler/bina-ici-boru-sistemleri/elastica-boru',
+      link: '/tr/urunler/bina-ici-boru-sistemleri/elastica-boru',
     },
     {
-      desktopImage: '/sliderImages/desktop/projelerimiz.jpg',
-      mobileImage: '/sliderImages/mobile/projelerimiz.jpg',
-      alt: 'projelerimiz',
-      link: '/projelerimiz',
+      desktopImage: '/sliderImages/desktop/tr/Referanslar.jpg',
+      mobileImage: '/sliderImages/mobile/tr/Referanslar.jpg',
+      alt: 'Referanslar',
+      link: '/tr/Referanslar',
     },
     {
-      desktopImage: '/sliderImages/desktop/nanotek-premium.jpg',
-      mobileImage: '/sliderImages/mobile/nanotek-premium.jpg',
+      desktopImage: '/sliderImages/desktop/tr/nanotek-premium.jpg',
+      mobileImage: '/sliderImages/mobile/tr/nanotek-premium.jpg',
       alt: 'nanotek',
-      link: '/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium',
+      link: '/tr/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium',
     },
     {
-      desktopImage: '/sliderImages/desktop/koruge.jpg',
-      mobileImage: '/sliderImages/mobile/koruge.jpg',
+      desktopImage: '/sliderImages/desktop/tr/koruge.jpg',
+      mobileImage: '/sliderImages/mobile/tr/koruge.jpg',
       alt: 'Koruge',
-      link: '/urunler/altyapi-boru-sistemleri/koruge-boru',
+      link: '/tr/urunler/altyapi-boru-sistemleri/koruge-boru',
     },
   ],
 };
 
 const Carousel = () => {
-  const router = useRouter();
-
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    setIsMobile(window.innerWidth <= 768);
-    console.log(isMobile);
-  }, [isMobile]);
+    // Tarayıcıda mevcut olduğunda çalışır
+    const checkIsMobile = () => {
+      setIsMobile(window.matchMedia('(max-width: 600px)').matches);
+    };
 
-  const [language] = useLanguageContext();
+    checkIsMobile(); // İlk kontrol
+    window.addEventListener('resize', checkIsMobile);
+
+    return () => window.removeEventListener('resize', checkIsMobile);
+  }, []);
+  window.addEventListener('resize', checkIsMobile);
+
+  const language = useLocale() ?? ('en' as keyof HeroSliderParams);
 
   return (
     <div className="top-0 flex w-full items-center justify-center">
@@ -124,30 +145,42 @@ const Carousel = () => {
         }}
         navigation={true}
         keyboard={true}
+        breakpoints={{
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+          // when window width is >= 1200px
+          1200: {
+            slidesPerView: 1,
+            spaceBetween: 50,
+          },
+        }}
         modules={[Pagination, Navigation, Keyboard, Autoplay]}
       >
-        {heroSlider[language].map((slide) => (
-          <SwiperSlide
-            key={slide.link || ''}
-            onClick={() => {
-              if (slide.link) {
-                router.push(slide.link);
-              }
-            }}
-          >
-            <Image
-              layout="fill"
-              objectFit="cover"
-              loading="lazy"
-              alt={slide.alt}
-              src={isMobile ? slide.mobileImage : slide.desktopImage}
-            />
+        {heroSlider[language]?.map((slide) => (
+          <SwiperSlide key={slide.link || ''}>
+            <Link href={slide.link || ''}>
+              <Image
+                layout="fill"
+                objectFit="cover"
+                loading="lazy"
+                alt={slide.alt}
+                src={isMobile ? slide.mobileImage : slide.desktopImage}
+              />
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>
 
       <div className="absolute bottom-12 z-10 flex w-full items-center justify-center xs:bottom-10">
-        <a href="#newTechPipe">
+        <div onClick={scrollToHash.bind(null, 'newTechPipe')}>
           <div className="flex h-[64px] w-[35px] items-start justify-center rounded-3xl border-4 p-2">
             <motion.div
               animate={{
@@ -161,10 +194,13 @@ const Carousel = () => {
               className="mb-1 size-3 rounded-full bg-slate-50 "
             ></motion.div>
           </div>
-        </a>
+        </div>
       </div>
     </div>
   );
 };
 
 export default Carousel;
+function checkIsMobile(this: Window, ev: UIEvent) {
+  throw new Error('Function not implemented.');
+}

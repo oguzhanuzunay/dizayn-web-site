@@ -30,7 +30,7 @@ const ProductDetailCard = ({
           dangerouslySetInnerHTML={{ __html: title }}
         />
         <p
-          className="text-medium"
+          className="text-base"
           dangerouslySetInnerHTML={{ __html: productDetail }}
         />
       </div>

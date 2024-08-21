@@ -1,17 +1,17 @@
-'use client';
 import '@/app/globals.css';
 
 import { productList } from '@/constants';
-import { useLanguageContext } from '@/context/language';
-import { SectionWrapper } from '@/hoc';
+import { useLocale, useTranslations } from 'next-intl';
 import ProductCard from './cards/ProductCard';
 
 const NewTechPipe = () => {
-  const [language] = useLanguageContext();
+  const language = useLocale();
   const combinedProducts = [
-    ...productList[language].superStructureProducts,
-    ...productList[language].infrastructureProducts
-];
+    ...(productList[language]?.superStructureProducts ?? []),
+    ...(productList[language]?.infrastructureProducts ?? []),
+  ];
+
+  const t = useTranslations('NewTechPipe');
 
   return (
     <div
@@ -19,12 +19,8 @@ const NewTechPipe = () => {
       id="newTechPipe"
     >
       <div className="mb-3 flex flex-1 flex-col items-center justify-center ">
-        <h1 className="text-center text-4xl font-bold text-gray-900 max-sm:text-2xl ">
-          Üstün Teknoloji Ürünlerimiz
-        </h1>
-        <p className="font-quicksand text-gray-900">
-          Yeni nesil, üstün teknolojili borularımız ile tanışın.
-        </p>
+        <h1 className="text-center text-4xl font-bold text-gray-900 max-sm:text-2xl "></h1>
+        <p className="font-quicksand text-gray-900">{t('description')}</p>
       </div>
 
       <div
@@ -34,13 +30,17 @@ const NewTechPipe = () => {
       >
         {combinedProducts.map(
           (item) =>
-            item.banner && item.isNewTech && (
+            item.banner &&
+            item.isNewTech && (
               <div
                 className="m-4 mx-6  flex size-full flex-col
                 items-center justify-center gap-0"
                 key={item.title}
               >
-                <ProductCard item={{ ...item, customCSS: '' }} isPLP={false} />
+                <ProductCard
+                  item={{ ...item, customCSS: '' }}
+                  isPLP={false}
+                />
               </div>
             ),
         )}
@@ -49,4 +49,4 @@ const NewTechPipe = () => {
   );
 };
 
-export default SectionWrapper(NewTechPipe, 'NewTechPipe');
+export default NewTechPipe;

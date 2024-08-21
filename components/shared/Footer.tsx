@@ -1,33 +1,138 @@
 'use client';
-import { languageTexts } from '@/constants';
-import { useLanguageContext } from '@/context/language';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Footer = () => {
-  const [language] = useLanguageContext();
+interface socialMediaParams {
+  name: string;
+  link: string;
+  image: string;
+  alt: string;
+}
 
-  const imageContent = [
+interface linksParams {
+  title: string;
+  image: string;
+  alt: string;
+  content: {
+    title: string;
+    link: string;
+    highlight?: boolean;
+  }[];
+}
+
+interface imageContentParams {
+  title: string;
+  image: string;
+  alt: string;
+}
+
+const Footer = () => {
+  const t = useTranslations('Footer');
+
+  const links: linksParams[] = [
     {
-      title: 'Sektör Lideri',
-      image: '/icons/market-positioning.png',
-      alt: 'Yerli Üretim',
+      title: t('link.company.title'),
+      image: '/icons/company.png',
+      alt: 'company icon',
+      content: [
+        {
+          title: t('link.company.about'),
+          link: '/kurumsal',
+        },
+        {
+          title: t('link.company.visionMission'),
+          link: '/kurumsal/vizyon-ve-misyon',
+        },
+        {
+          title: t('link.company.awards'),
+          link: '/kurumsal/oduller-ve-basarilar',
+          highlight: true,
+        },
+        {
+          title: t('link.company.qualityPolicy'),
+          link: '/kurumsal/taahhutname',
+        },
+      ],
     },
     {
-      title: '1. Sınıf Hammadde',
-      image: '/icons/raw.png',
-      alt: 'ElitePipe',
+      title: t('link.products.title'),
+      image: '/icons/product.png',
+      alt: 'product icon',
+      content: [
+        {
+          title: 'ElitePipe',
+          link: 'urunler/bina-ici-boru-sistemleri/elitepipe',
+        },
+        {
+          title: 'SterilePipe',
+          link: '/urunler/bina-ici-boru-sistemleri/sterilepipe',
+        },
+        {
+          title: t('link.products.indoorPipeSystems'),
+          link: '/urunler/bina-ici-boru-sistemleri',
+        },
+        {
+          title: t('link.products.outdoorPipeSystems'),
+          link: '/urunler/altyapi-boru-sistemleri',
+        },
+      ],
     },
     {
-      title: 'Yüksek Teknoloji',
-      image: '/icons/high-tech.png',
-      alt: 'SterilePipe',
+      title: t('link.services.title'),
+      image: '/icons/service.png',
+      alt: 'service icon',
+      content: [
+        {
+          title: t('link.services.calculations'),
+          link: '/hesaplamalar',
+        },
+        {
+          title: t('link.services.dealers'),
+          link: '/bayilerimiz',
+        },
+        {
+          title: t('link.services.projects'),
+          link: '/Referanslar',
+        },
+        {
+          title: t('link.services.certificates'),
+          link: '/sertifikalar',
+        },
+      ],
+    },
+    {
+      title: t('link.communication.title'),
+      image: '/icons/communication.png',
+      alt: 'communication icon',
+      content: [
+        {
+          title: t('link.communication.contact'),
+          link: '/iletisim',
+        },
+      ],
     },
   ];
 
-  const footerContent = languageTexts[language].footer.footerContent;
+  const imageContent: imageContentParams[] = [
+    {
+      title: t('imageContent.domesticProduction'),
+      image: '/icons/market-positioning.png',
+      alt: t('imageContent.domesticProduction').toString().toLowerCase().replace(' ', '-'),
+    },
+    {
+      title: t('imageContent.highTechnology'),
+      image: '/icons/raw.png',
+      alt: t('imageContent.highTechnology').toString().toLowerCase().replace(' ', '-'),
+    },
+    {
+      title: t('imageContent.highQuality'),
+      image: '/icons/high-tech.png',
+      alt: t('imageContent.highQuality').toString().toLowerCase().replace(' ', '-'),
+    },
+  ];
 
-  const socialMedia = [
+  const socialMedia: socialMediaParams[] = [
     {
       name: 'Facebook',
       link: 'https://www.facebook.com/dizayngroup',
@@ -84,9 +189,9 @@ const Footer = () => {
                 className="max-h-[60px] max-w-fit max-md:max-h-10 max-md:max-w-fit"
               />
               <p
-                className="font-quicksand
-              text-lg font-bold text-white
-              max-md:font-quicksand max-md:text-medium
+                className="max-md:text-medium
+              font-quicksand text-lg font-bold
+              text-white max-md:font-quicksand
               max-sm:font-quicksand max-sm:text-sm
                             "
               >
@@ -120,35 +225,9 @@ const Footer = () => {
           ))}
         </div>
 
-        {/* Address part 
-        <div
-          className={`grid grid-cols-5 gap-2 border-b-1 border-black pb-3 max-md:grid-cols-3 max-sm:grid-cols-1`}
-        >
-          {footerContent.companyInformation.map((item, index) => (
-            <div
-              key={item.text}
-              className={`flex flex-row items-center justify-start gap-3 ${
-                index === 0 ? 'col-span-2 max-md:col-span-3' : 'max-sm:col-span-3'
-              }`}
-            >
-              <Image
-                src={item.image}
-                alt={item.alt}
-                width={100}
-                height={60}
-                className="max-h-9 max-w-fit invert max-md:max-h-8 max-md:max-w-fit max-sm:max-h-7 max-sm:max-w-fit"
-              />
-              <div className={`flex flex-col`}>
-                <p className="text-sm font-bold text-gray-900">{item.title}</p>
-                <p className="font-quicksand text-tiny text-gray-800">{item.text}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-*/}
         {/* Links part */}
         <div className="flex flex-row flex-wrap justify-between gap-8 pt-8 max-md:gap-6 max-md:pt-6 max-sm:gap-4 max-sm:pt-4">
-          {footerContent.links.map((item) => (
+          {links.map((item) => (
             <div
               key={item.title}
               className="flex flex-col gap-1"
@@ -172,7 +251,7 @@ const Footer = () => {
                   <div
                     className={`${
                       link.highlight ? 'font-bold text-yellow-400' : 'text-gray-100'
-                    } cursor-pointer font-quicksand text-tiny transition-all duration-100 hover:underline`}
+                    } text-tiny cursor-pointer font-quicksand transition-all duration-100 hover:underline`}
                   >
                     {link.title}
                   </div>

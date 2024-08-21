@@ -7,7 +7,7 @@ export function cn(...inputs: ClassValue[]) {
 
 export const scrollToHash = (elementId: string) => {
   const element = document.getElementById(elementId);
-  element?.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
+  element?.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
 };
 
 export const scrollToTop = () => {

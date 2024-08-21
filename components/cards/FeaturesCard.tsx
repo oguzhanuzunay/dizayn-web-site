@@ -24,7 +24,7 @@ const FeaturesCard = ({
 
       <div className="flex flex-col gap-2">
         <p className="text-center text-lg font-semibold">{title}</p>
-        <p className="text-center text-tiny">{description}</p>
+        <p className="text-center text-xs">{description}</p>
       </div>
     </div>
   );

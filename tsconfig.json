@@ -1,16 +1,20 @@
 {
   "compilerOptions": {
+    "target": "ESNext",
+
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
+    "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "esnext",
+    "module": "ESNext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "noUncheckedIndexedAccess": true,
     "incremental": true,
     "plugins": [
       {
@@ -21,6 +25,15 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "constants/texts.ts", "components/shared/Navbar.tsx", "public/icons/icons.jsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "components/constants/texts.ts",
+    "components/shared/Navbar.tsx",
+    "public/icons/icons.jsx",
+    "global.d.ts"
+  ],
   "exclude": ["node_modules"]
 }

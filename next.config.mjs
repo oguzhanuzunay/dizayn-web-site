@@ -1,15 +1,8 @@
+import createNextIntlPlugin from 'next-intl/plugin';
+ 
+const withNextIntl = createNextIntlPlugin();
+ 
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'picsum.photos.com',
-        port: '',
-        pathname: '/seed/picsum/800/600',
-      },
-    ],
-  },
-};
-
-export default nextConfig;
+const nextConfig = {};
+ 
+export default withNextIntl(nextConfig);

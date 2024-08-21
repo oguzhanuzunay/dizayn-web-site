@@ -1,11 +1,4 @@
-import {
-  certificateListParams,
-  contactInfosParams,
-  countryCertificateParams,
-  dealerListParams,
-  matrixCardParams,
-  sliderParams,
-} from '@/types';
+import { dealerListParams, matrixCardParams, sliderParams } from '@/types';
 import { languageParams } from '@/types/languageParams';
 
 import { productList } from './productList';
@@ -38,15 +31,11 @@ const languageTexts: languageParams = {
       { name: 'Dealers' },
       { name: 'Calculations' },
       { name: 'Communication' },
-      { name: 'Institutional' },
+      { name: 'corporate' },
       { name: 'Our projects' },
       { name: 'Certificates' },
       { name: 'R&D' },
     ],
-    certificates: {
-      title: 'Our Certificates',
-      buttonText: 'View All Certificates',
-    },
     pages: {
       dealers: {
         h1: 'franchisee',
@@ -55,21 +44,7 @@ const languageTexts: languageParams = {
         alt: '',
         subPageLink: '/bayimiz-ol',
       },
-      becomeDealer: {
-        companyName: 'Company Name*',
-        fullName: 'Full Name*',
-        phone: 'Phone',
-        eMail: 'E-mail*',
-        city: 'City*',
-        annualRevenue: 'Annual Revenue Estimate',
-        numberOfSubDealers: 'Number of Sub-Dealers:',
-        numberOfProjectsWorkedOn: 'Number of Projects Worked On*',
-        subject: 'Subject*',
-        explanation: 'Explanation*',
-        buttonText: 'Send',
-      },
     },
-
     footer: {
       imageContent: [
         {
@@ -150,7 +125,7 @@ const languageTexts: languageParams = {
             title: 'Design Group',
             content: [
               {
-                title: 'Institutional',
+                title: 'corporate',
                 link: '/kurumsal',
               },
               {
@@ -263,15 +238,11 @@ const languageTexts: languageParams = {
       { name: 'Bayilerimiz' },
       { name: 'Hesaplamalar' },
       { name: 'Kurumsal' },
-      { name: 'Projelerimiz' },
+      { name: 'Referanslar' },
       { name: 'Sertifikalar' },
       { name: 'Iletisim' },
       { name: 'AR-GE' },
     ],
-    certificates: {
-      title: 'Sertifikalarımız',
-      buttonText: 'Tüm Sertifikaları Görüntüle',
-    },
     pages: {
       dealers: {
         h1: 'Bayilerimiz',
@@ -279,19 +250,6 @@ const languageTexts: languageParams = {
         imgLink: '/images/bayim_olurmusunK.jpg',
         alt: 'bayimiz ol',
         subPageLink: '/bayimiz-ol',
-      },
-      becomeDealer: {
-        companyName: 'Firma Adı*',
-        fullName: 'Ad Soyad*',
-        phone: 'Tel',
-        eMail: 'E-mail*',
-        city: 'Şehir*',
-        annualRevenue: 'Yıllık Tahmini Cironuz',
-        numberOfSubDealers: 'Alt Bayi Sayınız:',
-        numberOfProjectsWorkedOn: 'Çalışılan Proje Sayısı',
-        subject: 'Konu',
-        explanation: 'Açıkla',
-        buttonText: 'Gönder',
       },
     },
     footer: {
@@ -429,8 +387,8 @@ const languageTexts: languageParams = {
                 link: '/bayilerimiz',
               },
               {
-                title: 'Projelerimiz',
-                link: '/projelerimiz',
+                title: 'Referanslar',
+                link: '/Referanslar',
               },
               {
                 title: 'Sertifikalar',
@@ -551,7 +509,6 @@ const sliderItems: sliderParams = {
         'Nano Tech, gelişmiş teknolojisi ile yüksek performans ve dayanıklılık sunan yenilikçi bir boru sistemidir.',
       link: 'urunler/bina-ici-boru-sistemleri/nano-tech',
     },
-
     {
       title: 'Triplex Atık Su Boruları',
       image: '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
@@ -1195,390 +1152,6 @@ const dealerList: dealerListParams = [
   },
 ];
 
-const certificateList: certificateListParams = [
-  {
-    id: 1,
-    title: 'ISO 9001:2015',
-    image: '/certificates/iso-9001.png',
-  },
-  {
-    id: 2,
-    title: 'ISO 14001:2004',
-    image: '/certificates/iso-14001-2004.png',
-  },
-  {
-    id: 3,
-    title: 'TSE',
-    image: '/certificates/TSE.png',
-  },
-  {
-    id: 4,
-    title: 'ISO 50001',
-    image: '/certificates/iso-50001.png',
-  },
-  {
-    id: 5,
-    title: 'OHSAS 18001',
-    image: '/certificates/ohsas-18001.png',
-  },
-  {
-    id: 6,
-    title: 'ISO 10002',
-    image: '/certificates/iso-10002.png',
-  },
-];
-
-const countryCertificate: countryCertificateParams = {
-  en: [
-    {
-      name: 'Germany',
-      code: 'de',
-      title: 'Germany Certificates',
-      certificates: [],
-    },
-    {
-      name: 'Russia',
-      code: 'ru',
-      title: 'Russia Certificates',
-      certificates: [],
-    },
-    {
-      name: 'Romania',
-      code: 'ro',
-      title: 'Romania Certificates',
-      certificates: [],
-    },
-    {
-      name: 'Turkey',
-      code: 'tr',
-      title: 'Turkey TSE Certificates and Test Reports',
-      certificates: [],
-    },
-    {
-      name: 'Belarus',
-      code: 'by',
-      title: 'Belarus Certificates',
-      certificates: [],
-    },
-    {
-      name: 'Ukraine',
-      code: 'ua',
-      title: 'Ukraine Certificates',
-      certificates: [],
-    },
-    {
-      name: 'Poland',
-      code: 'pl',
-      title: 'Poland Certificates',
-      certificates: [],
-    },
-  ],
-  tr: [
-    {
-      name: 'Almanya',
-      code: 'de',
-      title: 'Almanya Sertifikaları',
-      certificates: [],
-    },
-    {
-      name: 'Türkiye',
-      code: 'tr',
-      title: 'Türkiye TSE Sertifikaları ve Test Raporları',
-      certificates: [
-        {
-          product: 'ElitePipe',
-          allPDFs: [
-            {
-              name: 'PEX BORU TSE  HIJYEN TEST RAPORU',
-              image:
-                '/certificates/files/tr/imgs/RE_elite-sertifikaları/PEX BORU TSE  HIJYEN TEST RAPORU_00001.jpg',
-              link: '/certificates/files/tr/pdfs/RE_elite-sertifikaları/PEX BORU TSE  HIJYEN TEST RAPORU.pdf',
-            },
-            {
-              name: 'TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI',
-              image:
-                '/certificates/files/tr/imgs/RE_elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/RE_elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI.pdf',
-            },
-            {
-              name: 'TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ENG)',
-              image:
-                '/certificates/files/tr/imgs/RE_elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce)_00001.jpg',
-              link: '/certificates/files/tr/pdfs/RE_elite-sertifikaları/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce).pdf',
-            },
-          ],
-        },
-        {
-          product: 'Yerli Malı',
-          allPDFs: [
-            {
-              name: 'Yerli Malı Bel.PPRC Metalli Fittings',
-              image:
-                '/certificates/files/tr/imgs/Yerli-Malı/Yerli Malı Bel.PPRC Metalli Fittings.jpg',
-              link: '/certificates/files/tr/pdfs/Yerli-Malı/Yerli Malı Bel.PPRC Metalli Fittings.pdf',
-            },
-          ],
-        },
-        {
-          product: 'Atıksu Boru ve Ekleme Parça Sertifikaları',
-          allPDFs: [
-            {
-              name: 'ATIKSU NANOTEK SESSİZLİK TEST RAPOR FRAUNHOFER',
-              image:
-                '/certificates/files/tr/imgs/atıksu-boru-ve-ekleme-parca-sertifikaları/ATIKSU NANOTEK SESSİZLİK TEST RAPORU FRAUNHOFER_00001.jpg',
-              link: '/certificates/files/tr/pdfs/atıksu-boru-ve-ekleme-parca-sertifikaları/ATIKSU NANOTEK SESSİZLİK TEST RAPORU FRAUNHOFER.pdf',
-            },
-            {
-              name: 'ATIKSU TRIPLEX SESSİZLİK TEST RAPORU FRAUNHOFER',
-              image:
-                '/certificates/files/tr/imgs/atıksu-boru-ve-ekleme-parca-sertifikaları/ATIKSU TRIPLEX SESSİZLİK TEST RAPORU FRAUNHOFER_00001.jpg',
-              link: '/certificates/files/tr/pdfs/atıksu-boru-ve-ekleme-parca-sertifikaları/ATIKSU TRIPLEX SESSİZLİK TEST RAPORU FRAUNHOFER.pdf',
-            },
-            {
-              name: 'triplextra yanmazlık belgesi',
-              image:
-                '/certificates/files/tr/imgs/atıksu-boru-ve-ekleme-parca-sertifikaları/triplextra_yanmazlık_belgesi_00001.jpg',
-              link: '/certificates/files/tr/pdfs/atıksu-boru-ve-ekleme-parca-sertifikaları/triplextra_yanmazlık_belgesi.pdf',
-            },
-            {
-              name: 'TS EN 1451-1 ATIKSU BORU VE EK PARÇALARI TSE  SERTİFİKASI',
-              image:
-                '/certificates/files/tr/imgs/atıksu-boru-ve-ekleme-parca-sertifikaları/TS EN 1451-1 ATIKSU BORU VE EK PARÇALARI TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/atıksu-boru-ve-ekleme-parca-sertifikaları/TS EN 1451-1 ATIKSU BORU VE EK PARÇALARI TSE  SERTİFİKASI.pdf',
-            },
-            {
-              name: 'yanmaz boru sessizlik belgesi ingilizce',
-              image:
-                '/certificates/files/tr/imgs/atıksu-boru-ve-ekleme-parca-sertifikaları/yanmaz_boru_sessizlik_belgesi_ingilizce_00001.jpg',
-              link: '/certificates/files/tr/pdfs/atıksu-boru-ve-ekleme-parca-sertifikaları/yanmaz_boru_sessizlik_belgesi_ingilizce.pdf',
-            },
-          ],
-        },
-        {
-          product: 'IMA Serterifikaları',
-          allPDFs: [
-            {
-              name: 'IMA Test Report V241-20-1  HDPE100 BORU',
-              image:
-                '/certificates/files/tr/imgs/ima-sertifikaları/IMA Test Report V241-20-1  HDPE100 BORU_00001.jpg',
-              link: '/certificates/files/tr/pdfs/ima-sertifikaları/IMA Test Report V241-20-1  HDPE100 BORU.pdf',
-            },
-            {
-              name: 'IMA Test Report V241-20-2 PE80 D.GAZ BORU',
-              image:
-                '/certificates/files/tr/imgs/ima-sertifikaları/IMA Test Report V241-20-2 PE80 D.GAZ BORU_00001.jpg',
-              link: '/certificates/files/tr/pdfs/ima-sertifikaları/IMA Test Report V241-20-2 PE80 D.GAZ BORU.pdf',
-            },
-            {
-              name: 'IMA Test Report V241-20-3  PPR BORU',
-              image:
-                '/certificates/files/tr/imgs/ima-sertifikaları/IMA Test Report V241-20-3  PPR BORU_00001.jpg',
-              link: '/certificates/files/tr/pdfs/ima-sertifikaları/IMA Test Report V241-20-3  PPR BORU.pdf',
-            },
-            {
-              name: 'IMA Test Report V241-20-4 PPR FITTINGS',
-              image:
-                '/certificates/files/tr/imgs/ima-sertifikaları/IMA Test Report V241-20-4 PPR FITTINGS_00001.jpg',
-              link: '/certificates/files/tr/pdfs/ima-sertifikaları/IMA Test Report V241-20-4 PPR FITTINGS.pdf',
-            },
-          ],
-        },
-        {
-          product: 'PPR Sert',
-          allPDFs: [
-            {
-              name: 'PPR BORU VE FITTINGS TSE HIJYEN TEST RAPORU',
-              image:
-                '/certificates/files/tr/imgs/PPR-Sert/PPR BORU VE FITTINGS TSE HIJYEN TEST RAPORU_00001.jpg',
-              link: '/certificates/files/tr/pdfs/PPR-Sert/PPR BORU VE FITTINGS TSE HIJYEN TEST RAPORU.pdf',
-            },
-            {
-              name: 'TS 13715 CAM ELYAF TAKVİYELİ KOMPOZİT BORU',
-              image:
-                '/certificates/files/tr/imgs/PPR-Sert/TS 13715 CAM ELYAF TAKVİYELİ KOMPOZİT BORU_00001.jpg',
-              link: '/certificates/files/tr/pdfs/PPR-Sert/TS 13715 CAM ELYAF TAKVİYELİ KOMPOZİT BORU.pdf',
-            },
-            {
-              name: 'TS EN ISO 15874-2 PPR BORU TSE  SERTİFİKASI(ingilizce)',
-              image:
-                '/certificates/files/tr/imgs/PPR-Sert/TS EN ISO 15874-2 PPR BORU TSE  SERTİFİKASI(ingilizce)_00001.jpg',
-              link: '/certificates/files/tr/pdfs/PPR-Sert/TS EN ISO 15874-2 PPR BORU TSE  SERTİFİKASI(ingilizce).pdf',
-            },
-            {
-              name: 'TS EN ISO 15874-2 PPR BORU TSE  SERTİFİKASI(türkçe)',
-              image:
-                '/certificates/files/tr/imgs/PPR-Sert/TS EN ISO 15874-2 PPR BORU TSE  SERTİFİKASI(türkçe)_00001.jpg',
-              link: '/certificates/files/tr/pdfs/PPR-Sert/TS EN ISO 15874-2 PPR BORU TSE  SERTİFİKASI(türkçe).pdf',
-            },
-            {
-              name: 'TS EN ISO 15874-3 PPR FIT. TSE  SERTİFİKASI(ingilizce)',
-              image:
-                '/certificates/files/tr/imgs/PPR-Sert/TS EN ISO 15874-3 PPR FIT. TSE  SERTİFİKASI(ingilizce)_00001.jpg',
-              link: '/certificates/files/tr/pdfs/PPR-Sert/TS EN ISO 15874-3 PPR FIT. TSE  SERTİFİKASI(ingilizce).pdf',
-            },
-            {
-              name: 'TS EN ISO 15874-3 PPR FIT. TSE  SERTİFİKASI(turkçe)',
-              image:
-                '/certificates/files/tr/imgs/PPR-Sert/TS EN ISO 15874-3 PPR FIT. TSE  SERTİFİKASI(turkçe)_00001.jpg',
-              link: '/certificates/files/tr/pdfs/PPR-Sert/TS EN ISO 15874-3 PPR FIT. TSE  SERTİFİKASI(turkçe).pdf',
-            },
-          ],
-        },
-        {
-          product: 'RTP VE SOFT',
-          allPDFs: [
-            {
-              name: 'RTP BORU DENEY SERTİFİKASI',
-              image: '/certificates/files/tr/imgs/RE_RTP-VE-SOFT/RTP BORU DENEY SERTİFİKASI.jpg',
-              link: '/certificates/files/tr/pdfs/RE_RTP-VE-SOFT/RTP BORU DENEY SERTİFİKASI.pdf',
-            },
-            {
-              name: 'SOFT POWER PIPE DENEY SERTİFİKASI',
-              image:
-                '/certificates/files/tr/imgs/RE_RTP-VE-SOFT/SOFT POWER PIPE DENEY SERTİFİKASI.jpg',
-              link: '/certificates/files/tr/pdfs/RE_RTP-VE-SOFT/SOFT POWER PIPE DENEY SERTİFİKASI.pdf',
-            },
-          ],
-        },
-        {
-          product: 'Sarmal ve Koruge',
-          allPDFs: [
-            {
-              name: 'DIN 16961 SARMAL BELGELENDİRME',
-              image:
-                '/certificates/files/tr/imgs/sarmal-ve-Koruge/DIN 16961 SARMAL BELGELENDİRME.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/DIN 16961 SARMAL BELGELENDİRME.pdf',
-            },
-            {
-              name: 'ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093',
-              image:
-                '/certificates/files/tr/imgs/sarmal-ve-Koruge/ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093.pdf',
-            },
-            {
-              name: 'İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG_',
-              image:
-                '/certificates/files/tr/imgs/sarmal-ve-Koruge/İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG__00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG_.pdf',
-            },
-            {
-              name: 'TS 12132 SARMAL BORU TSE  SERTİFİKASI',
-              image:
-                '/certificates/files/tr/imgs/sarmal-ve-Koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI.pdf',
-            },
-            {
-              name: 'TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI',
-              image:
-                '/certificates/files/tr/imgs/sarmal-ve-Koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI.pdf',
-            },
-          ],
-        },
-      ],
-    },
-    {
-      name: 'Romanya',
-      code: 'ro',
-      title: 'Romanya Sertifikaları',
-      certificates: [],
-    },
-    {
-      name: 'Rusya',
-      code: 'ru',
-      title: 'Rusya Sertifikaları',
-      certificates: [],
-    },
-    {
-      name: 'Beyaz Rusya',
-      code: 'by',
-      title: 'Beyaz Rusya Sertifikaları',
-      certificates: [],
-    },
-    {
-      name: 'Ukrayna',
-      code: 'ua',
-      title: 'Ukrayna Sertifikaları',
-      certificates: [],
-    },
-    {
-      name: 'Polonya',
-      code: 'pl',
-      title: 'Polonya Sertifikaları',
-      certificates: [],
-    },
-  ],
-};
-
-const contactInfo: contactInfosParams = {
-  en: [
-    {
-      id: 1,
-      position: { lat: 41.015137, lng: 28.671112 },
-      contact: {
-        title: 'Çorlu Factory',
-        address: `Velimeşe Mahallesi Hacı Şeremet Caddesi
-              No : 6/1 Ergene/Tekirdağ
-              Adress Code : 2623043037`,
-        phone: '+90 (282) 676 46 40',
-        fax: '+90 (282) 676 46 45',
-        email: 'info@dizayngrup.com',
-      },
-    },
-    {
-      id: 2,
-      position: { lat: 41.015137, lng: 28.671112 },
-      contact: {
-        title: 'Istanbul Office',
-        address: `Atatürk Mahallesi Adnan Menderes Caddesi
-              No : 6 Kıraç/Esenyurt/İstanbul
-              Adress Code : 34522`,
-        phone: '+90 (212) 886 57 41',
-        fax: '+90 (212) 886 57 42',
-        email: 'info@dizayngrup.com',
-      },
-    },
-    {
-      id: 3,
-      position: { lat: 55.8293362, lng: 52.0819124 },
-      contact: {
-        title: 'Russia Factory',
-        address: `Russian Federation, 423600, Republic of Tatarstan, Elabuga region, Elabuga city, “Alabuga” SEZ (Special Economic Zone) area, Sk. Sh-2, block 5/12 Block 3E`,
-        phone: '+7 (855) 575 29 08/09',
-        email: 'info@dizaynrussia.com',
-      },
-    },
-  ],
-  tr: [
-    {
-      id: 1,
-      position: { lat: 41.015137, lng: 28.671112 },
-      contact: {
-        title: 'İstanbul Ofis',
-        address: `Atatürk Mahallesi Adnan Menderes Caddesi
-        No : 6 Kıraç/Esenyurt/İstanbul
-        Adres Kodu : 34522`,
-        phone: '+90 (212) 886 57 41',
-        fax: '+90 (0212) 886 51 93',
-        email: 'info@dizayngrup.com',
-      },
-    },
-    {
-      id: 2,
-      position: { lat: 41.193067, lng: 27.858991 },
-      contact: {
-        title: 'Çorlu Fabrika',
-        address: `Velimeşe Mahallesi Hacı Şeremet Caddesi
-                  No : 6/1 Ergene/Tekirdağ
-                  Adres Kodu : 2623043037`,
-        phone: '+90 (282) 676 46 40',
-        fax: '+90 (282) 676 46 45',
-        email: 'info@dizayngrup.com',
-      },
-    },
-  ],
-};
-
 const showroomProduct: matrixCardParams = {
   en: [
     {
@@ -1698,14 +1271,4 @@ const kurumsalLinks: {
   ],
 };
 
-export {
-  certificateList,
-  contactInfo,
-  countryCertificate,
-  dealerList,
-  kurumsalLinks,
-  languageTexts,
-  productList,
-  showroomProduct,
-  sliderItems,
-};
+export { dealerList, kurumsalLinks, languageTexts, productList, showroomProduct, sliderItems };

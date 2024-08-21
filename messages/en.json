@@ -1,0 +1,575 @@
+{
+  "HomePage": {
+    "title": "Hello world!"
+  },
+  "Bayilerimiz": {
+    "header": "Our Dealers"
+  },
+  "NavigationBar": {
+    "menuList": {
+      "products": {
+        "name": "Products",
+        "subMenu": {
+          "indoor": {
+            "name": "Indoor Piping Systems",
+            "description": "Superstructure Systems",
+            "link": "/en/products/indoor-pipe-systems"
+          }
+        }
+      },
+      "indoor": {
+        "name": "Infrastructure Piping Systems",
+        "description": "Infrastructure",
+        "link": "/en/products/infrastructure-pipe-systems"
+      },
+      "dealers": "Dealers",
+      "calculations": "Calculations",
+      "corporate": "Corporate",
+      "ourProject": "References",
+      "certificates": "Certificates",
+      "contact": "Contact",
+      "arge": "R&D"
+    },
+    "priceList": "Price list",
+    "priceCatalog": "Product Catalogue"
+  },
+  "Certificates": {
+    "germany": {
+      "name": "Germany",
+      "title": "Germany Certificates"
+    },
+    "turkey": {
+      "name": "Türkiye",
+      "title": "Türkiye TSE Certificates and Test Reports",
+      "elitePipe": {
+        "0": {
+          "name": "PEX PIPE TSE HYGIENE TEST REPORT"
+        },
+        "certificate-1": "ELİT PIPE AND FITTINGS EFFECT ON DRINKING WATER TEST REPORT",
+        "certificate-2": "TS 10762-2 PEX-B EN ISO 15875-2 PEX-A PIPE TSE CERTIFICATE",
+        "certificate-3": "ELİT BORU TSE TEST CERTIFICATE (TS EN ISO 9854)",
+        "certificate-4": "ELITE NIPPLE ID. \nTSE TEST CERTIFICATE (TS EN ISO 1167)"
+      },
+      "ima": {
+        "title": "IMA Test Reports",
+        "certificate-1": "IMA Test Report V241-20-1 HDPE100 PIPE",
+        "certificate-2": "IMA Test Report V241-20-2 PE80 DIGITAL GAS PIPE",
+        "certificate-3": "IMA Test Report V241-20-3 PPR PIPE",
+        "certificate-4": "IMA Test Report V241-20-4 PPR FITTINGS"
+      },
+      "watewater-pipe": {
+        "title": "Wastewater Pipe and Fitting Certificates",
+        "certificate-1": "WASTEWATER NANOTEK SILENCE TEST REPORT FRAUNHOFER",
+        "certificate-2": "WASTEWATER TRIPLEX SILENCE TEST REPORT FRAUNHOFER",
+        "certificate-3": "Triplextra Fireproof Certificate",
+        "certificate-4": "TS EN 1451-1 WASTEWATER PIPE AND FITTINGS TSE CERTIFICATE",
+        "certificate-5": "Fireproof Pipe Silence Certificate English"
+      },
+      "domestic": {
+        "title": "Domestic Goods",
+        "certificate-1": "Domestic Goods Certificate"
+      },
+      "ppr": {
+        "title": "PPR Pipe",
+        "certificate-1": "PPR PIPE AND FITTINGS TSE HYGIENE TEST REPORT",
+        "certificate-2": "TS 13715 GLASS FIBER REINFORCED COMPOSITE PIPE",
+        "certificate-3": "TS EN ISO 15874-2 PPR PIPE TSE CERTIFICATE (English)",
+        "certificate-4": "TS EN ISO 15874-2 PPR PIPE TSE CERTIFICATE (Turkish)",
+        "certificate-5": "TS EN ISO 15874-3 PPR FIT. \nTSE CERTIFICATE (English)",
+        "certificate-6": "TS EN ISO 15874-3 PPR FIT. \nTSE CERTIFICATE (turkish)"
+      },
+      "rtp-soft": {
+        "title": "RTP (Reinforced Thermoplastic Pipe) AND SOFT Pipe",
+        "certificate-1": "RTP PIPE TEST CERTIFICATE",
+        "certificate-2": "SOFT POWER PIPE TEST CERTIFICATE"
+      },
+      "spiral-corrugated": {
+        "title": "Water and Sewer Pipe Certificates",
+        "certificate-1": "DIN 16961 SPIRAL CERTIFICATION",
+        "certificate-2": "ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093",
+        "certificate-3": "ISRAEL QUALITY INSTITUTE SPIRAL WOUND PIPE CERTIFICATE -112093-ENG_",
+        "certificate-4": "TS 12132 COILED PIPE TSE CERTIFICATE",
+        "certificate-5": "TS EN 13476-3 CORRUGATED PIPE TSE CERTIFICATE"
+      },
+      "pex": {
+        "title": "PEX PIPE",
+        "certificate-1": "PEX PIPE TSE HYGIENE TEST REPORT",
+        "certificate-2": "TS 10762-2 PEX-B EN ISO 15875-2 PEX-A PIPE TSE CERTIFICATE",
+        "certificate-3": "TS 10762-2 PEX-B EN ISO 15875-2 PEX-A PIPE TSE CERTIFICATE (English)"
+      }
+    },
+    "romania": {
+      "name": "Romania",
+      "title": "Romania Certificates"
+    },
+    "russia": {
+      "name": "Russia",
+      "title": "Russia Certificates"
+    },
+    "belarus": {
+      "name": "Belarus",
+      "title": "Belarus Certificates"
+    },
+    "ukraine": {
+      "name": "Ukraine",
+      "title": "Ukrainian Certificates"
+    },
+    "poland": {
+      "name": "Poland",
+      "title": "Polish Certificates"
+    },
+    "noCertificate": "Certificates Updating.",
+    "title": "Our Certificates",
+    "buttonText": "View All Certificates",
+    "header": "Our Certificates",
+    "Anasayfa": "homepage",
+    "Sertifikalar": "Certificates"
+  },
+  "BayimizOl": {
+    "title": "Become Our Dealer",
+    "notFound": "City not found.",
+    "messagePlaceholder": "Enter the description section here."
+  },
+  "Iletisim": {
+    "header": "Communication",
+    "contactInfo": {
+      "istanbul": {
+        "title": "Istanbul Office",
+        "address": "Atatürk Mahallesi Adnan Menderes Caddesi No: 6 Kıraç/Esenyurt/İstanbul Address Code: 34522"
+      },
+      "tekirdag": {
+        "title": "Çorlu Factory",
+        "address": "Velimeşe Mahallesi Hacı Şeremet Caddesi No: 6/1 Ergene/Tekirdağ Address Code: 2623043037"
+      }
+    }
+  },
+  "Referanslar": {
+    "istanbulHavaAlani": {
+      "title": "Istanbul Airport",
+      "alt": "Istanbul Airport"
+    },
+    "hongKongAdalarProjesi": {
+      "title": "Hong Kong Islands Project",
+      "alt": "Hong Kong Islands Project"
+    },
+    "dubaiPalmiyeAdalari": {
+      "title": "Dubai Palm Islands",
+      "alt": "Dubai Palm Islands"
+    },
+    "sicilyaAdasiKanalizasyonProjesi": {
+      "title": "Sicily Islands Sewage Project",
+      "alt": "Sicily Islands Sewage Project"
+    },
+    "antalyahurmaatiksuaritmatesisleri": {
+      "title": "Antalya Hurma Wastewater Treatment Plant",
+      "alt": "Antalya Hurma Wastewater Treatment Plant"
+    },
+    "buyukcekmeceDenizDesarjProjesi": {
+      "title": "Büyükçekmece Sea Outfall Project",
+      "alt": "Büyükçekmece Sea Outfall Project"
+    },
+    "HollandaBechtelEnkaElektrikSantraliProjesi": {
+      "title": "Netherlands Bechtel Enka Power Plant Project",
+      "alt": "Netherlands Bechtel Enka Power Plant Project"
+    },
+    "JakartaSelatanEndonezyaProjesi": {
+      "title": "Jakarta Selatan Indonesia Project",
+      "alt": "Jakarta Selatan Indonesia Project"
+    },
+    "PortoArabiaPearlIslandProjesi": {
+      "title": "Porto Arabia Pearl Island Project",
+      "alt": "Porto Arabia Pearl Island Project"
+    },
+    "RizeHidroelektrikSantralProjesi": {
+      "title": "Rize Hydroelectric Power Plant Project",
+      "alt": "Rize Hydroelectric Power Plant Project"
+    },
+    "SalihliSehirIsitmaProjesi": {
+      "title": "Salihli City Heating Project",
+      "alt": "Salihli City Heating Project"
+    },
+    "SicilyaAdasiKanalizasyonProjesi": {
+      "title": "Sicily Islands Sewage Project",
+      "alt": "Sicily Islands Sewage Project"
+    },
+    "SinopErfelekHidroelektrikSantralProjesi": {
+      "alt": "sinop-erfelek-hydroelectric-power-plant-project",
+      "title": "Sinop Erfelek Hydroelectric Power Plant Project"
+    },
+    "SouthgateEndonezyaProjesi": {
+      "title": "Southgate Indonesia Project",
+      "alt": "southgate-indonesia-project"
+    },
+    "TanjungBaratEndonezyaProjesi": {
+      "title": "Tanjung Barat Indonesia Project",
+      "alt": "tanjung-barat-indonesia-project"
+    },
+    "Header": "Our references",
+    "allReferances": "All Our References"
+  },
+  "DealerCard": {
+    "seeOnMap": "See on Map"
+  },
+  "LocationCard": {
+    "contactInfo": "Our Contact Information",
+    "Address": "Address:",
+    "phone": "Telephone",
+    "mail": "Email"
+  },
+  "Products": {
+    "SuperStructureProducts": {
+      "header": "INDOOR PIPING SYSTEMS",
+      "description": "As Dizayn Group, we offer durable and long-lasting solutions with superior quality pipe systems developed with our 37 years of experience and R&D studies. \nWith their energy efficiency, environmentally friendly and hygienic features, our products are ideal for reliable and sustainable projects.",
+      "description2": "Take your projects a step further with Dizayn Group's superior solutions in indoor pipe systems. It offers energy efficiency, hygiene, and long-lasting use.",
+      "elitePipe": {
+        "title": "Elite Pipe",
+        "description": "ElitePipe is a safe and long-lasting pipe system with high temperature and pressure resistance. \nBy combining the advantages of PPR, PEX and PERT pipes, it provides superior performance and durability.",
+        "highlights": {
+          "highPressure": "High Compressive Strength at High Temp.",
+          "kangal": "Ease of Shipment in Coil",
+          "durable": "Break Resistance Even at -40 Degrees"
+        },
+        "banner": {
+          "horizontal": "/productImages/üst yapı borular/elite-pipe-ve-ek/banner/en/horizontal.png",
+          "PLP": "productImages/üst yapı borular/elite-pipe-ve-ek/banner/en/PLP.png",
+          "bgImage": "/productImages/üst yapı borular/elite-pipe-ve-ek/banner/en/bg-image.png"
+        },
+        "link": "/tr/products/interior-building-pipe-systems/elitepipe"
+      },
+      "sterilePipe": {
+        "title": "Sterile Pipe",
+        "description": "Sterile Pipe is an innovative pipe system that sterilizes up to 99.9% of the water passing through it by destroying bacteria, mold, fungi and other microbial creatures.",
+        "highlights": {
+          "antimicrobial": "Antimicrobial Feature",
+          "longLasting": "Long life",
+          "drinkWater": "Healthy Water"
+        },
+        "banner": {
+          "PLP": "/productImages/üst yapı borular/sterile-pipe/banner/en/PLP.png",
+          "horizontal": "/productImages/üst yapı borular/sterile-pipe/banner/en/horizontal.png",
+          "bgImage": "/productImages/üst yapı borular/sterile-pipe/banner/en/bg-image.png"
+        },
+        "link": "/en/urunler/bina-ici-boru-sistemleri/sterilepipe"
+      },
+      "softPowerPipe": {
+        "title": "SoftPower Pipe",
+        "description": "SoftPower Pipe is a durable and long-lasting pipe system made of PE63 raw material, offering high oxidation resistance, flexibility and easy installation.",
+        "highlights": {
+          "durable": "Shockproof",
+          "flexible": "Flexible",
+          "saveTime": "Cost Savings"
+        },
+        "banner": {
+          "horizontal": "/productImages/üst yapı borular/soft-power-ek/banner/en/horizontal.png"
+        },
+        "link": "/en/urunler/bina-ici-boru-sistemleri/softpower-boru"
+      },
+      "elasticaPipe": {
+        "title": "Elastica Pipe",
+        "description": "Elastica Pipe is an innovative pipe system that stands out with its resistance to high temperature and pressure, flexible structure and ease of installation. \nIt can be used safely in both underfloor heating systems and radiator installations.",
+        "highlights": {
+          "highTemperature": "High Temperature and Pressure Resistance",
+          "flexible": "Flexibility and Durability",
+          "easyInstall": "Easy assembling"
+        },
+        "banner": {
+          "horizontal": "/productImages/üst yapı borular/mobil-boru-ve-ek/banner/en/horizontal.png",
+          "PLP": "/productImages/üst yapı borular/mobil-boru-ve-ek/banner/en/PLP.png"
+        },
+        "link": "/en/urunler/bina-ici-boru-sistemleri/elastica-boru"
+      },
+      "nanotechPipe": {
+        "title": "NanoTech Waste Water Pipe",
+        "description": "NanoTech Waste Water Pipe is a sound-insulating, highly durable and long-lasting pipe system. \nIt is an ideal solution for indoor and outdoor wastewater discharge.",
+        "highlights": {
+          "soundProof": "Sound insulation",
+          "durable": "Unbreakable Structure",
+          "longLasting": "Long life"
+        },
+        "banner": {
+          "horizontal": "/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/banner/en/horizontal.png",
+          "PLP": "/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/banner/en/PLP.png"
+        },
+        "link": "/en/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium"
+      },
+      "triplexPipe": {
+        "title": "Triplex Waste Water Pipes",
+        "description": "Triplex Waste Water Pipes are a high-durability and long-lasting pipe system laid for the discharge of used water inside and outside the building.",
+        "highlights": {
+          "durable": "Unbreakable Structure",
+          "seal": "High Tightness",
+          "easyInstall": "Easy assembling"
+        },
+        "banner": {
+          "horizontal": "/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/banner/en/horizontal.png",
+          "PLP": "/productImages/üst yapı borular/atık-su-sessiz-triblex-boru-ve-ek/banner/en/PLP.png"
+        },
+        "link": "/en/urunler/bina-ici-boru-sistemleri/triplex-pipe"
+      },
+      "pprPipe": {
+        "title": "PPR Pipe",
+        "description": "PPR Pipe and fittings are produced from Polypropylene Random Copolymer raw material, which has low melt flow index, high molecular weight and high flexibility.",
+        "highlights": {
+          "highDurability": "High Strength",
+          "easyWelding": "Easy Source",
+          "longLasting": "Long life"
+        },
+        "banner": {
+          "horizontal": "/productImages/üst yapı borular/ppr-boru-ve-ek/banner/en/horizontal.png",
+          "PLP": "/productImages/üst yapı borular/ppr-boru-ve-ek/banner/en/PLP.png"
+        },
+        "link": "/en/urunler/bina-ici-boru-sistemleri/ppr-boru"
+      }
+    },
+    "InfrastructureProducts": {
+      "telecomPipe": {
+        "highlights": {
+          "durable": "High Durability",
+          "easyInstall": "Easy setup"
+        },
+        "title": "Telecom Pipes",
+        "description": "Cable Casing Pipes are used in rapidly developing communication and data transmission piping systems. \nIt is offered with different options, from single to triple, in accordance with the demand and specification. \nIt offers a whole system with additional parts that are eye multipliers and complementary elements.",
+        "link": "/en/urunler/altyapi-boru-sistemleri/telekom-boru"
+      },
+      "korugePipe": {
+        "title": "Corrugated Pipe",
+        "description": "Corrugated Pipes offer high durability and long life in sewer systems.",
+        "highlights": {
+          "durable": "High Durability",
+          "longLasting": "Long life",
+          "easyInstall": "Easy setup"
+        },
+        "link": "/en/urunler/altyapi-boru-sistemleri/koruge-boru"
+      },
+      "korugeSpiralPipe": {
+        "title": "Dizayn Corrugated Spiral Pipe",
+        "description": "Corrugated spiral pipes have a double-layer structure consisting of inner and outer layers. \nThe inner layer is a flat surface pipe that carries the fluid. \nThe outer layer has a ribbed structure. \nIt is produced from Polyethylene and Polypropylene raw materials.",
+        "highlights": {
+          "longLasting": "Long life",
+          "easyInstallation": "Easy setup",
+          "durable": "High Durability"
+        },
+        "link": "/en/urunler/altyapi-boru-sistemleri/koruge-sarmal-boru"
+      },
+      "pe80Pipe": {
+        "title": "Dizayn PE 80 Natural Gas Pipe",
+        "description": "Dizayn PE 80 Natural Gas Pipes and Fittings offer reliable and durable solutions in natural gas lines. \nThese pipes, which are light, flexible and impact resistant thanks to the use of polyethylene material, can be used safely in natural gas lines.",
+        "highlights": {
+          "highPressure": "High Compressive Strength",
+          "flexible": "Flexible",
+          "chemicalResistant": "Chemical Resistance"
+        },
+        "link": "/en/urunler/altyapi-boru-sistemleri/pe-80-dogalgaz-boru"
+      },
+      "jeotermalPipe": {
+        "title": "Dizayn Geothermal Pipe",
+        "highlights": {
+          "highPressure": "High Heat Resistance",
+          "longLasting": "High Heat Resistance",
+          "corrosionResistant": "Corrosion Resistant"
+        },
+        "description": "Dizayn Geothermal Pipes are composite pipes that prevent the heat transfer of hot and cold fluids."
+      },
+      "denizDesarjPipe": {
+        "title": "Dizayn Marine Discharge Pipes",
+        "description": "Dizayn Marine Discharge Pipes are designed for the safe and efficient discharge of wastewater in seas, lakes and rivers.",
+        "highlights": {
+          "durable": "High Durability",
+          "corrosion": "Corrosion Resistance",
+          "longLasting": "Long life"
+        },
+        "link": "/en/urunler/altyapi-boru-sistemleri/deniz-desarj-boru"
+      },
+      "chemicalTank": {
+        "title": "Design Chemical Tanks",
+        "description": "Dizayn Chemical Tanks are designed for the safe and efficient storage of corrosive chemicals.",
+        "highlights": {
+          "lightWeight": "Lightweight and Durable",
+          "recyclable": "Recycled",
+          "chemicalResistant": "High Chemical Resistance"
+        },
+        "link": "/en/urunler/altyapi-boru-sistemleri/kimyasal-tanklar"
+      },
+      "softPowerPipe": {
+        "title": "SoftPower Pipe",
+        "description": "SoftPower Pipe is a durable and long-lasting pipe system made of PE63 raw material, offering high oxidation resistance, flexibility and easy installation.",
+        "highlights": {
+          "durable": "Shockproof",
+          "flexible": "Flexible",
+          "saveTime": "Cost Savings"
+        },
+        "banner": {
+          "vertical": "/productImages/üst yapı borular/soft-power-ek/banner/en/vertical.jpg"
+        },
+        "link": "/en/urunler/bina-ici-boru-sistemleri/softpower-boru"
+      },
+      "rtpPipe": {
+        "title": "RTP Pipe",
+        "description": "RTP (Reinforced Thermoplastic Pipe) Pipes are suitable for all kinds of water, gas, oil, etc. with high pressure resistance. \nis used for transportation. \nWhile it resists high pressures like steel pipes with its strong composite structure, it offers all the advantages of plastic pipes to its users with its thermoplastic raw material.",
+        "highlights": {
+          "highPressure": "High Compressive Strength",
+          "flexible": "Flexibility",
+          "longLasting": "Long life"
+        },
+        "link": "/en/urunler/altyapi-boru-sistemleri/rtp-boru"
+      },
+      "header": "Infrastructure Piping Systems"
+    },
+    "title": "Our Superior Technology Products",
+    "description": "Meet our new generation, high-tech pipes."
+  },
+  "oduller-ve-basarilar": {
+    "kurumsal": "corporate",
+    "tarihce": "history"
+  },
+  "CountUpComp": {
+    "yearsInBusiness": "Year in Industry",
+    "awardsWon": "First in the industry",
+    "certificates": "Patent",
+    "uniqueProducts": "Unique Products"
+  },
+  "Hesaplamalar": {
+    "waterHammerCalculation": "Water Hammer Calculation",
+    "waterHammerCalculationDescription": "Click to calculate water hammer",
+    "compensatorCalculation": "Compensator Calculation",
+    "compensatorCalculationDescription": "Click to make compensator calculation.",
+    "charmingHatCalculation": "Charm Line Account",
+    "charmingHatCalculationDescription": "Click to make a charm line calculation.",
+    "pressureLossCalculation": "Pressure Loss Calculation",
+    "pressureLossCalculationDescription": "Click to calculate pressure loss",
+    "corrugatedPipeCalculation": "Corrugated Pipe Calculation",
+    "corrugatedPipeCalculationDescription": "Click to make Corrugated Pipe Calculation",
+    "title": "Engineering Calculations",
+    "description": "To make the correct calculation, select the appropriate option from the options below.",
+    "comingSoon": "Very soon"
+  },
+  "Footer": {
+    "link": {
+      "company": {
+        "title": "Design Group",
+        "visionMission": "Mission and Vision",
+        "awards": "Awards and Achievements",
+        "qualityPolicy": "letter of commitment",
+        "about": "corporate"
+      },
+      "products": {
+        "title": "Products",
+        "indoorPipeSystems": "Indoor Piping Systems",
+        "outdoorPipeSystems": "Infrastructure Piping Systems"
+      },
+      "services": {
+        "title": "Services",
+        "calculations": "Calculations",
+        "dealers": "Our dealers",
+        "projects": "Our projects",
+        "certificates": "Certificates"
+      },
+      "communication": {
+        "title": "Communication",
+        "contact": "Communication"
+      }
+    },
+    "imageContent": {
+      "domesticProduction": "Industry Leader",
+      "highTechnology": "1st Class Raw Material",
+      "highQuality": "High technology"
+    }
+  },
+  "NewTechPipe": {
+    "description": "Meet our new generation, high-tech pipes."
+  },
+  "FAQs": {
+    "header": "Frequently Asked Questions"
+  },
+  "HeroSlider": {
+    "sliderImages": {
+      "elitepipe": {
+        "desktop": "/sliderImages/desktop/en/elite-pipe.jpg",
+        "mobile": "/sliderImages/mobile/en/elite-pipe.jpg",
+        "alt": "ElitePipe"
+      },
+      "sterilepipe": {
+        "desktop": "/sliderImages/desktop/en/sterilepipe.jpg",
+        "mobile": "/sliderImages/mobile/en/sterilepipe.jpg"
+      },
+      "nanotek": {
+        "desktop": "/sliderImages/desktop/en/alt-yapı.jpg",
+        "mobile": "/sliderImages/mobile/en/alt-yapı.jpg",
+        "alt": "Infrastructure Piping Systems"
+      },
+      "elastica": {
+        "desktop": "/sliderImages/desktop/en/elastica.jpg"
+      }
+    }
+  },
+  "Kurumsal": {
+    "kurumsal": {
+      "content": {
+        "0": "Mir Holding was established 37 years ago. \nThe philosophy of our first established company was shaped on R&D (research and development). \nOur first R&D output was \"on the subject of pipes\" and from there Dizayn Group was born. \nAs of today, Dizayn Group, our first industrial company, produces pipes for various sectors with diameters from 20 mm to 8 m and pressures from 0.5 Bar to 200 Bar.",
+        "1": "Mir Holding",
+        "2": "It has factories in Türkiye, Germany, Azerbaijan and the Russian Federation.               \nGermany",
+        "3": "He is also a partner and Board Member of Mir Holding Istanbul University Technopark.",
+        "4": "Mir Holding",
+        "5": "- 50 in R&D field only",
+        "6": "It has more than 100 patents, 70% of which have been converted into production.",
+        "7": "- It has the largest private research laboratory in Turkey.",
+        "8": "It has successfully completed the defense industry's largest budget (10.2 million USD) project (a material ten times stronger than steel and five times lighter). \nIt is the third company worldwide to have this technology, after America and Canada.",
+        "10": "The 2 billion USD SERAKENT project investment in Eskişehir is progressing rapidly.",
+        "11": "We achieved this success together with all our stakeholders. \nI express my deep gratitude to them.",
+        "12": "İbrahim Mirmahmutoğulları Chairman of the Board of Directors of Mir Holding"
+      },
+      "title": "corporate",
+      "link": "/en/corporate"
+    },
+    "tarihce": {
+      "title": "History",
+      "content": {
+        "0": "QUALITY REACHING THE CONTINENTS FOR 37 YEARS",
+        "1": "Dizayn Group, which was established in 1987 to carry out research and development activities, took the first steps towards its current structure in 1991 by producing PPR pipes and fittings with specially designed molecular structure, which was its first R&D output. \nAs Dizayn brand became identified with the production and sales of pipes and their elements over time, it was positioned as a pipe brand and our R&D company was given an independent structure under the name Mir AR&GE.             \nDizayn Group, together with our Mir R&D company and other subsidiaries, was gathered under the umbrella of Mir Holding as of 2010.",
+        "2": "Dizayn Group, which has produced firsts for Turkey in 37 years, broken world records, and become a leading company in technology in its sector with dozens of patents it has turned into industry, has exported to more than 85 countries and become a world brand with its experience and high production power. \nWith the factory it opened in Russia in 2015 and the investment it made in Europe in 2016, it set the milestones to become a local brand in the important markets in which it carries its name.",
+        "3": "Adopting continuous development for the development of Turkey and the welfare of its stakeholders, Dizayn Group expresses its gratitude to all its stakeholders with whom it has \"designed\" 37 years together, and continues to take steps to increase the benefits it offers to the whole world in order to \"design\" the coming years together."
+      },
+      "link": "/en/corporate/history"
+    },
+    "vizyon-ve-misyon": {
+      "title": "Vision and Mission",
+      "content": {
+        "0": "To become a world brand by producing new technologies that will make a difference in the transportation of fluids.",
+        "1": "In order to transport fluids with the most optimal method; \nTo achieve being a reliable and efficient company by developing problem-specific projects, products and systems with the right technology.",
+        "2": "Our New Product Development Strategies",
+        "3": "Staying away from products that everyone produces or can produce. \n- To produce products that are competitive in terms of quality and price. \n- Being able to think of differences that create value that competitors have not thought of yet. \n- Focusing on products as much as possible. \n- To achieve a sense of completeness in everything we work on. \n- Never imitate the product of a national or international competitor. \n- To create privileges in all developed products and to achieve legal protection with patents."
+      },
+      "link": "/en/corporate/vision-and-mission"
+    },
+    "taahhutname": {
+      "title": "Letter of Commitment",
+      "content": {
+        "0": "OUR VALUE CYCLE",
+        "1": "Just as people have ideals, institutions should also have ideals. \nIt is inevitable that a system based solely on material expectations will get out of control.             \nThe trouble the world is in today",
+        "2": "Just as individuals must be moral, institutions and products must also be moral.",
+        "3": "He is sensitive to the environment while producing, he is responsible for owning his own waste, he is motivated by the existence of the people he employs, he feels the excitement of what he brings to his country while exporting, and most importantly, he feels at peace with the feeling that the product he produces will be a solution to the basic needs of humanity, and finally he spends a reasonable portion of his earnings in his country, which will not hinder his own growth. Using it as a cure for a problem of people living anywhere in the world or the nature that gives life to those people constitutes the definition of the morality of the institution and the product it produces.",
+        "4": "In our opinion, individuals should also be moral, products should also be moral, institutions should also be moral. \nNo private or legal entity that bases its life on this philosophy can create problems for the world. \nThe happiest family, the best citizen, the most successful manager and the individuals who enlighten those around them with their presence can only come from people who have internalized this kind of approach.",
+        "5": "We know our responsibilities. \nThe world needs Design.",
+        "6": "İbrahim MİRMAHMUTOĞULLARI Chairman of the Board of Directors"
+      },
+      "link": "/en/corporate/commitment"
+    },
+    "oduller-ve-basarilar": {
+      "title": "Awards and Achievements",
+      "content": {
+        "0": "QUALITY REACHING THE CONTINENTS FOR 37 YEARS",
+        "1": "Dizayn Group, which was established in 1987 to carry out research and development activities, took the first steps towards its current structure in 1991 by producing PPR pipes and fittings with specially designed molecular structure, which was its first R&D output. \nAs Dizayn brand became identified with the production and sales of pipes and their elements over time, it was positioned as a pipe brand and our R&D company was given an independent structure under the name Mir AR&GE.             \nDizayn Group, together with our Mir R&D company and other subsidiaries, was gathered under the umbrella of Mir Holding as of 2010.",
+        "2": "Dizayn Group, which has produced firsts for Turkey in 37 years, broken world records, and become a leading company in technology in its sector with dozens of patents it has turned into industry, has exported to more than 85 countries and become a world brand with its experience and high production power. \nWith the factory it opened in Russia in 2015 and the investment it made in Europe in 2016, it set the milestones to become a local brand in the important markets in which it carries its name.",
+        "3": "Adopting continuous development for the development of Turkey and the welfare of its stakeholders, Dizayn Group expresses its gratitude to all its stakeholders with whom it has \"designed\" 37 years together, and continues to take steps to increase the benefits it offers to the whole world in order to \"design\" the coming years together."
+      },
+      "link": "/en/corporate/awards-and-achievements"
+    },
+    "vision": "our vision",
+    "mission": "Our Mission"
+  },
+  "Breadcrumb": {
+    "products": "Products",
+    "home": "Home Page",
+    "productNotFound": "Product not found."
+  }
+}

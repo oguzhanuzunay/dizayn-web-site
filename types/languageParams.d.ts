@@ -15,11 +15,6 @@ export interface languageParams {
       }[];
     }[];
 
-    certificates: {
-      title: string;
-      buttonText: string;
-    };
-
     pages: {
       dealers: {
         h1: string;
@@ -27,19 +22,6 @@ export interface languageParams {
         imgLink: string;
         subPageLink: string;
         alt: string;
-      };
-      becomeDealer: {
-        companyName: string;
-        fullName: string;
-        phone: string;
-        eMail: string;
-        city: string;
-        annualRevenue: string;
-        numberOfSubDealers: string;
-        numberOfProjectsWorkedOn: string;
-        subject: string;
-        explanation: string;
-        buttonText: string;
       };
     };
 

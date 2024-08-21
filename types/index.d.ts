@@ -93,11 +93,6 @@ export interface dealerListParam {
 
 export interface dealerListParams extends Array<dealerListParam> {}
 
-export interface certificateListParam {
-  id?: number;
-  title: string;
-  image: string;
-}
 
 export interface sliderParams {
   [key: string]: {
@@ -124,40 +119,8 @@ interface CityData {
   plateNumber: number;
 }
 
-
 export type citiesDataParams = CityData[];
 
-export interface certificateListParams extends Array<certificateListParam> {}
-
-export interface countryCertificateParams {
-  [key: string]: {
-    name: string;
-    code: string;
-    title: string;
-    certificates: {
-      product: string;
-      allPDFs: {
-        name: string;
-        image: string;
-        link: string;
-      }[];
-    }[];
-  }[];
-}
-export interface contactInfoParams {
-  id: number;
-  position: {
-    lat: number;
-    lng: number;
-  };
-  contact: {
-    title: string;
-    address: string;
-    phone: string;
-    email: string;
-    fax?: string;
-  };
-}
 
 export interface productDetailParams {
   index?: number;
@@ -166,10 +129,6 @@ export interface productDetailParams {
   textColor?: string;
   image?: string;
   alt?: string;
-}
-
-export interface contactInfosParams {
-  [key: string]: contactInfoParams[];
 }
 
 export interface matrixCardParams {
@@ -184,14 +143,5 @@ export interface matrixCardParams {
       title: string;
       icon: string;
     }[];
-  }[];
-}
-
-export interface faqsParams {
-  [key: string]: {
-    question: string;
-    answer: string;
-    textColor?: string;
-    bgColor?: string;
   }[];
 }
