@@ -240,7 +240,7 @@ const languageTexts: languageParams = {
       { name: 'Kurumsal' },
       { name: 'Referanslar' },
       { name: 'Sertifikalar' },
-      { name: 'iletisim' },
+      { name: 'Iletisim' },
       { name: 'AR-GE' },
     ],
     pages: {
