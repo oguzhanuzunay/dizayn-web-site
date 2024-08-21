@@ -1,5 +1,4 @@
 'use client';
-import { languageTexts } from '@/constants';
 import dizaynLogo from '@/public/dizayn-logo.png';
 import { ChevronDown } from '@/public/icons/icons';
 import {
@@ -200,7 +199,7 @@ const NavigationBar = () => {
         className="hidden gap-4 lg:flex"
         justify="end"
       >
-        {languageTexts[locale]?.menuList && listMenu(3, languageTexts[locale].menuList.length - 1)}
+        {menuList && listMenu(3, menuList.length - 1)}
 
         <LangChanger
           locale={locale}
@@ -222,7 +221,7 @@ const NavigationBar = () => {
           </Link>
         </NavbarMenuItem>
 
-        {languageTexts[locale]?.menuList?.map((item, index) => (
+        {menuList?.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
               className="w-full text-gray-900"

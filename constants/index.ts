@@ -1,8 +1,6 @@
 import { dealerListParams, matrixCardParams, sliderParams } from '@/types';
 import { languageParams } from '@/types/languageParams';
 
-import { productList } from './productList';
-
 const languageTexts: languageParams = {
   en: {
     meta: {
@@ -1271,4 +1269,4 @@ const kurumsalLinks: {
   ],
 };
 
-export { dealerList, kurumsalLinks, languageTexts, productList, showroomProduct, sliderItems };
+export { dealerList, kurumsalLinks, languageTexts, showroomProduct, sliderItems };
