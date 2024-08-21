@@ -70,7 +70,7 @@ const Tarihce = () => {
         </div>
 
         <div className="ml-4 flex w-1/2 flex-col items-start justify-center gap-3 max-md:ml-0 max-md:w-full max-md:pt-3">
-          <h3 className="text-large font-semibold">{t('tarihce.content.0')}</h3>
+          <h3 className="text-lg font-semibold">{t('tarihce.content.0')}</h3>
           <p>{t('tarihce.content.1')}</p>
 
           <p>{t('tarihce.content.2')}</p>
