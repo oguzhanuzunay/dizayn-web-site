@@ -3350,11 +3350,11 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             icon: '/icons/high-pressure.png',
           },
           {
-            title: 'Ease of Shipment in Coils',
+            title: 'Ease of Shipment',
             icon: '/icons/worker-pushing-a-cart.png',
           },
           {
-            title: 'Breakage Resistance Even at Minus 40 Degrees',
+            title: 'Breakage Resistance Even at -40 Degrees',
             icon: '/icons/durable.png',
           },
         ],
@@ -3371,13 +3371,13 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
                 'PPRC PN25: 50 Year Lifespan at 70°C 8.8 Bar / ElitePipe PN25: 50 Year Lifespan at 70°C 11 Bar.',
             },
             {
-              title: 'Ease of Shipment in Coils',
+              title: 'Ease of Shipment',
               icon: '/icons/worker-pushing-a-cart.png',
               alt: 'Easy Installation',
               description: 'Can be transported by small vehicles, easily movable by one person.',
             },
             {
-              title: 'Breakage Resistance Even at Minus 40 Degrees',
+              title: 'Breakage Resistance Even at -40 Degrees',
               icon: '/icons/durable.png',
               alt: 'Reliability',
               description:

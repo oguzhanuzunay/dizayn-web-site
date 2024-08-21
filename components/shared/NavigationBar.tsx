@@ -121,13 +121,14 @@ const NavigationBar = () => {
             </NavbarItem>
             <DropdownMenu
               aria-label="ACME features"
-              className="w-[340px] shadow-light-200"
+              className="w-[340px] shadow-light-200 bg-gray-100 rounded-md"
               itemClasses={{
                 base: 'gap-4',
               }}
             >
               {page.submenu.map((item: any) => (
                 <DropdownItem
+                className='flex hover:bg-gray-300 p-0 rounded-md'
                   key={item.name}
                   description={item.description}
                   startContent={
@@ -152,28 +153,31 @@ const NavigationBar = () => {
 
   return (
     <Navbar
-      className={`bg-transparent pt-3 ${isHomePage ? 'fixed top-0' : 'static'}`}
+      className={`bg-transparent pt-3 ${isHomePage ? 'fixed top-0' : 'static'}
+        md:text-sm
+      `}
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
       height={'50px'}
     >
       <NavbarContent
-        className="md:hidden"
+        className="lg:hidden"
         justify="start"
       >
         <NavbarMenuToggle
           aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
           className=""
+
         />
       </NavbarContent>
 
       <NavbarContent
-        className="hidden gap-4 md:flex"
+        className="hidden gap-4 lg:flex"
         justify="center"
       >
         <NavbarItem key={'Katalog'}>
           <Link
-            className="rounded-lg bg-blue-500 px-2 py-1  font-semibold text-white transition-all duration-300 ease-in-out "
+            className="rounded-md bg-blue-500 px-2 py-1  font-semibold text-white transition-all duration-300 ease-in-out "
             target="_blank"
             href="/dizayn-fiyat-listesi.pdf"
           >
@@ -184,7 +188,7 @@ const NavigationBar = () => {
         {listMenu(0, 3)}
       </NavbarContent>
 
-      <NavbarBrand className="flex flex-1 items-center justify-center ">
+      <NavbarBrand className="flex flex-1 items-center justify-center w-full">
         <Link
           href="/"
           className=""
@@ -200,13 +204,11 @@ const NavigationBar = () => {
       </NavbarBrand>
 
       <NavbarContent
-        className="hidden gap-4 md:flex"
+        className="hidden gap-4 lg:flex"
         justify="end"
       >
         {languageTexts[locale]?.menuList && listMenu(3, languageTexts[locale].menuList.length - 1)}
-      </NavbarContent>
 
-      <NavbarContent>
         <LangChanger
           locale={locale}
           changeLanguage={changeLanguage}
@@ -218,10 +220,10 @@ const NavigationBar = () => {
         {/* Fiyat Listesi */}
         <NavbarMenuItem>
           <Link
-            className="mt-3 flex w-full items-center justify-center rounded-lg bg-blue-500 px-2 py-1 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:bg-blue-600"
+            className="mt-3 flex w-full items-center justify-center rounded-md bg-blue-500 px-2 py-1 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:bg-blue-600"
             href="/dizayn-fiyat-listesi.pdf"
             target="blank"
-            size="lg"
+            size="md"
           >
             {t('priceList')}
           </Link>
@@ -232,7 +234,7 @@ const NavigationBar = () => {
             <Link
               className="w-full text-gray-900"
               href={`/${item.name.toLowerCase()}`}
-              size="lg"
+              size="md"
             >
               {item.name}
             </Link>
@@ -242,7 +244,7 @@ const NavigationBar = () => {
                   key={`${subItem}-${subIndex}-1`}
                   className="w-full pl-4 text-gray-900"
                   href={`${subItem.link}`}
-                  size="lg"
+                  size="md"
                 >
                   <Image
                     src={subItem.icons}

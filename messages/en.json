@@ -8,7 +8,7 @@
   "NavigationBar": {
     "menuList": {
       "products": {
-        "name": "Our Products",
+        "name": "Products",
         "subMenu": {
           "indoor": {
             "name": "Indoor Piping Systems",
@@ -22,10 +22,10 @@
         "description": "Infrastructure",
         "link": "/en/products/infrastructure-pipe-systems"
       },
-      "dealers": "Our Dealers",
+      "dealers": "Dealers",
       "calculations": "Calculations",
       "corporate": "Corporate",
-      "ourProject": "Our References",
+      "ourProject": "References",
       "certificates": "Certificates",
       "contact": "Contact",
       "arge": "R&D"
@@ -225,9 +225,9 @@
         "title": "Elite Pipe",
         "description": "ElitePipe is a safe and long-lasting pipe system with high temperature and pressure resistance. \nBy combining the advantages of PPR, PEX and PERT pipes, it provides superior performance and durability.",
         "highlights": {
-          "highPressure": "High Compressive Strength at High Temperature",
-          "kangal": "Ease of Shipment in Kangal Form",
-          "durable": "Break Resistance Even at Minus 40 Degrees"
+          "highPressure": "High Compressive Strength at High Temp.",
+          "kangal": "Ease of Shipment in Coil",
+          "durable": "Break Resistance Even at -40 Degrees"
         },
         "banner": {
           "horizontal": "/productImages/üst yapı borular/elite-pipe-ve-ek/banner/en/horizontal.png",

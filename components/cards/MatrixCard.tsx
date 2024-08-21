@@ -23,12 +23,12 @@ const MatrixCard = ({
 
   return (
     <Link
-      className=" z-10 flex w-full flex-col items-center justify-between rounded-xl bg-transparent"
+      className=" z-10 flex w-full flex-col items-center justify-between rounded-lg bg-transparent hover:z-20"
       href={link}
     >
       <div
         className={`flex w-fit flex-col items-center justify-end 
-      ${dynamicClass} h-64 w-full rounded-lg border-2 border-gray-200 bg-transparent shadow-lg transition-all duration-1000 hover:scale-95 hover:shadow-xl 
+      ${dynamicClass} w-full rounded-lg border-2 border-gray-200 bg-transparent shadow-lg transition-all duration-1000 hover:scale-105 hover:shadow-xl 
       `}
       >
         {
@@ -37,33 +37,15 @@ const MatrixCard = ({
             alt={title}
             width={1920}
             height={720}
-            className=" size-full rounded-xl object-cover"
+            className=" size-full rounded-lg object-cover"
           />
         }
-        {/* logo ? (
-          <Image
-            src={logo}
-            alt={title}
-            width={180}
-            height={180}
-          />
-        ) : (
-          <h3 className="mb-3 text-2xl font-bold text-black">{title}</h3>
-        ) */}
-        {/*
-        <Image
-          src={image}
-          alt={title}
-          width={180}
-          height={180}
-        />
-*/}
-        <div className="absolute flex w-fit-available flex-row items-center justify-between">
-          <div className="absolute z-0 size-full bg-white opacity-45 " />
+        <div className="absolute flex w-fit-available flex-row items-center justify-around !max-w-full">
+          <div className="absolute flex z-0 size-full bg-white opacity-45 w-full" />
           {highlights.map((highlight: { title: string; icon: string }) => (
             <div
               key={highlight.title}
-              className="z-10 flex w-full flex-col items-center justify-center gap-1 p-2 opacity-100 transition-all duration-500 hover:scale-110"
+              className="z-10 flex w-fit-available flex-col items-center justify-center gap-0 py-2 opacity-100 transition-all duration-500 hover:scale-110 hover:z-30"
             >
               <Image
                 src={highlight.icon}

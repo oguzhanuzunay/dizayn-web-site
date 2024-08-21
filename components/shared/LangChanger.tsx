@@ -61,9 +61,10 @@ const LangChanger: React.FC<LangChangerProps> = ({
           alt={locale}
           width={20}
           height={20}
+          className='max-xl:min-w-7'
         />
-        <span className="ml-2">{locale === 'tr' ? 'Türkçe' : 'English'}</span>
-        <FaChevronDown className="ml-1" />
+        <span className="ml-2 hidden xl:flex">{locale === 'tr' ? 'Türkçe' : 'English'}</span>
+        <FaChevronDown className="ml-1 text-gray-900" />
       </button>
       {dropdown && (
         <ul className="absolute top-full left-0 mt-0 bg-gray-100 rounded shadow-lg">
@@ -77,7 +78,7 @@ const LangChanger: React.FC<LangChangerProps> = ({
               width={20}
               height={20}
             />
-            <span className="w-full mr-5">English</span>
+            <span className="w-full mr-5 hidden lg:block">English</span>
           </li>
           <li
             className="px-4 py-4 cursor-pointer hover:bg-gray-200 flex items-center rounded-b-lg"
@@ -89,7 +90,7 @@ const LangChanger: React.FC<LangChangerProps> = ({
               width={20}
               height={20}
             />
-            <span className="w-full">Türkçe</span>
+            <span className="w-full hidden lg:block">Türkçe</span>
           </li>
         </ul>
       )}

@@ -188,8 +188,8 @@ const Products = () => {
         <p className="text-center font-sans text-lg">{t('description')}</p>
       </div>
 
-      <div className="relative my-3 flex w-full flex-row px-2 max-md:flex-col">
-        <div className="absolute left-0 top-0 z-0 size-full gap-3 bg-contain opacity-45" />
+      <div className="relative my-3 flex w-full flex-row px-2 max-md:flex-col gap-4">
+        <div className="absolute left-0 top-0 z-0 size-full bg-contain opacity-45 " />
         {superStructureProducts
           .filter((item) => item.featuredProduct === true)
           .map((item, index) => (
@@ -218,14 +218,14 @@ const Products = () => {
       <div
         className="my-5 grid
        grid-cols-5 items-center justify-items-center 
-       gap-0 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
+       gap-0 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 "
       >
         {superStructureProducts.map(
           (item) =>
             item &&
             !item.featuredProduct === true && (
               <div
-                className="flex size-full flex-col items-center justify-center gap-0"
+                className="flex size-full flex-col items-center justify-center gap-0 mb-5"
                 key={item.title}
               >
                 <ProductCard
