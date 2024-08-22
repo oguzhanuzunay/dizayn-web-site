@@ -316,7 +316,7 @@ const Locale = ({ params }: { params: { locale: string } }) => {
                   className="m-3 rounded-md bg-slate-100 p-3 transition-all duration-300 hover:scale-105 hover:bg-slate-200 hover:shadow-lg"
                 >
                   <div className=" bg-white p-3 ">
-                    <p className="text-sm w-[200px] text-start font-quicksand font-normal text-gray-500">
+                    <p className="w-[200px] text-start font-quicksand text-sm font-normal text-gray-500">
                       {pdf.name.toUpperCase()}
                     </p>
                     <Image
