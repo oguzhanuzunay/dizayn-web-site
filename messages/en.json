@@ -447,26 +447,94 @@
     "link": {
       "company": {
         "title": "Design Group",
-        "visionMission": "Mission and Vision",
-        "awards": "Awards and Achievements",
-        "qualityPolicy": "letter of commitment",
-        "about": "corporate"
+        "corporate": {
+          "name": "Corporate",
+          "link": "/en/corporate"
+        },
+        "ourProject": {
+          "name": "Projelerimiz",
+          "link": "/en/references"
+        },
+        "certificates": {
+          "name": "Sertifikalar",
+          "link": "/en/certificates"
+        },
+        "visionMission": {
+          "name": "Vision and Mission",
+          "link": "/en/corporate/vision-and-mission"
+        },
+        "awards": {
+          "name": "Awards and Achievements",
+          "link": "/en/corporate/awards-and-achievements"
+        },
+        "qualityPolicy": {
+          "name": "Commitment",
+          "link": "/en/corporate/commitment"
+        },
+        "aboutUs": {
+          "name": "Corporate",
+          "link": "/en/corporate"
+        },
+        "contact": {
+          "name": "Contact",
+          "link": "/en/contact"
+        },
+        "arge": {
+          "name": "R&D",
+          "link": "/en/corporate/rd"
+        },
+        "about": {
+          "name": "Corporate",
+          "link": "/en/corporate"
+        }
       },
       "products": {
         "title": "Products",
-        "indoorPipeSystems": "Indoor Piping Systems",
-        "outdoorPipeSystems": "Infrastructure Piping Systems"
+        "indoorPipeSystems": {
+          "name": "Indoor Piping Systems",
+          "link": "/en/products/indoor-pipe-systems"
+        },
+        "outdoorPipeSystems": {
+          "name": "Infrastructure Piping Systems",
+          "link": "/en/products/infrastructure-pipe-systems"
+        },
+        "elitePipe": {
+          "name": "Elite Pipe",
+          "link": "/en/products/indoor-pipe-systems/elitepipe"
+        },
+        "sterilePipe": {
+          "name": "Sterile Pipe",
+          "link": "/en/products/indoor-pipe-systems/sterilepipe"
+        }
       },
       "services": {
-        "title": "Services",
-        "calculations": "Calculations",
-        "dealers": "Our dealers",
-        "projects": "Our projects",
-        "certificates": "Certificates"
+        "title": {
+          "name": "Services",
+          "link": "/en/services"
+        },
+        "calculations": {
+          "name": "Calculations",
+          "link": "/en/calculations"
+        },
+        "dealers": {
+          "name": "Dealers",
+          "link": "/en/our-dealers"
+        },
+        "projects": {
+          "name": "References",
+          "link": "/en/our-references"
+        },
+        "certificates": {
+          "name": "Certificates",
+          "link": "/en/certificates"
+        }
       },
       "communication": {
-        "title": "Communication",
-        "contact": "Communication"
+        "title": "contact",
+        "contact": {
+          "name": "Contact",
+          "link": "/en/contact"
+        }
       }
     },
     "imageContent": {

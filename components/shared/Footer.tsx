@@ -37,21 +37,21 @@ const Footer = () => {
       alt: 'company icon',
       content: [
         {
-          title: t('link.company.about'),
-          link: '/kurumsal',
+          title: t('link.company.about.name'),
+          link: t('link.company.about.link'),
         },
         {
-          title: t('link.company.visionMission'),
-          link: '/kurumsal/vizyon-ve-misyon',
+          title: t('link.company.visionMission.name'),
+          link: t('link.company.visionMission.link'),
         },
         {
-          title: t('link.company.awards'),
-          link: '/kurumsal/oduller-ve-basarilar',
+          title: t('link.company.awards.name'),
+          link: t('link.company.awards.link'),
           highlight: true,
         },
         {
-          title: t('link.company.qualityPolicy'),
-          link: '/kurumsal/taahhutname',
+          title: t('link.company.qualityPolicy.name'),
+          link: t('link.company.qualityPolicy.link'),
         },
       ],
     },
@@ -62,42 +62,42 @@ const Footer = () => {
       content: [
         {
           title: 'ElitePipe',
-          link: 'urunler/bina-ici-boru-sistemleri/elitepipe',
+          link: t('link.products.elitePipe.link'),
         },
         {
           title: 'SterilePipe',
-          link: '/urunler/bina-ici-boru-sistemleri/sterilepipe',
+          link: t('link.products.sterilePipe.link'),
         },
         {
-          title: t('link.products.indoorPipeSystems'),
-          link: '/urunler/bina-ici-boru-sistemleri',
+          title: t('link.products.indoorPipeSystems.name'),
+          link: t('link.products.indoorPipeSystems.link'),
         },
         {
           title: t('link.products.outdoorPipeSystems'),
-          link: '/urunler/altyapi-boru-sistemleri',
+          link: t('link.products.outdoorPipeSystems.link'),
         },
       ],
     },
     {
-      title: t('link.services.title'),
+      title: t('link.services.title.name'),
       image: '/icons/service.png',
       alt: 'service icon',
       content: [
         {
-          title: t('link.services.calculations'),
-          link: '/hesaplamalar',
+          title: t('link.services.calculations.name'),
+          link: t('link.services.calculations.link'),
         },
         {
-          title: t('link.services.dealers'),
-          link: '/bayilerimiz',
+          title: t('link.services.dealers.name'),
+          link: t('link.services.dealers.link'),
         },
         {
-          title: t('link.services.projects'),
-          link: '/Referanslar',
+          title: t('link.services.projects.name'),
+          link: t('link.services.projects.link'),
         },
         {
-          title: t('link.services.certificates'),
-          link: '/sertifikalar',
+          title: t('link.services.certificates.name'),
+          link: t('link.services.certificates.link'),
         },
       ],
     },
@@ -107,8 +107,8 @@ const Footer = () => {
       alt: 'communication icon',
       content: [
         {
-          title: t('link.communication.contact'),
-          link: '/iletisim',
+          title: t('link.communication.contact.name'),
+          link: t('link.communication.contact.link'),
         },
       ],
     },
@@ -189,9 +189,9 @@ const Footer = () => {
                 className="max-h-[60px] max-w-fit max-md:max-h-10 max-md:max-w-fit"
               />
               <p
-                className="max-md:text-base
-              font-quicksand text-lg font-bold
-              text-white max-md:font-quicksand
+                className="font-quicksand
+              text-lg font-bold text-white
+              max-md:font-quicksand max-md:text-base
               max-sm:font-quicksand max-sm:text-sm
                             "
               >
@@ -251,7 +251,7 @@ const Footer = () => {
                   <div
                     className={`${
                       link.highlight ? 'font-bold text-yellow-400' : 'text-gray-100'
-                    } text-sm cursor-pointer font-quicksand transition-all duration-100 hover:underline`}
+                    } cursor-pointer font-quicksand text-sm transition-all duration-100 hover:underline`}
                   >
                     {link.title}
                   </div>

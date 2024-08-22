@@ -447,31 +447,92 @@
     "link": {
       "company": {
         "title": "Dizayn Grup",
-        "aboutUs": "Hakkımızda",
-        "ourProject": "Referanslar",
-        "certificates": "Sertifikalar",
-        "contact": "İletişim",
-        "arge": "AR-GE",
-        "about": "Kurumsal",
-        "visionMission": "Misyon ve Vizyon",
-        "awards": "Ödüller ve Başarılar",
-        "qualityPolicy": "Taahhütname"
+        "corporate": {
+          "name": "Kurumsal",
+          "link": "/tr/kurumsal"
+        },
+        "aboutUs": {
+          "name": "Hakkımızda",
+          "link": "/tr/kurumsal"
+        },
+        "ourProject": {
+          "name": "Projelerimiz",
+          "link": "/tr/referanslar"
+        },
+        "certificates": {
+          "name": "Sertifikalar",
+          "link": "/tr/sertifikalar"
+        },
+        "contact": {
+          "name": "İletişim",
+          "link": "/tr/iletisim"
+        },
+        "arge": {
+          "name": "Ar-Ge",
+          "link": "/tr/arge"
+        },
+        "about": {
+          "name": "Hakkımızda",
+          "link": "/tr/kurumsal"
+        },
+        "visionMission": {
+          "name": "Vizyon ve Misyon",
+          "link": "/tr/kurumsal/vizyon-ve-misyon"
+        },
+        "awards": {
+          "name": "Ödüller ve Başarılar",
+          "link": "/tr/kurumsal/oduller-ve-basarilar"
+        },
+        "qualityPolicy": {
+          "name": "Kalite Politikası",
+          "link": "/tr/kurumsal/kalite-politikasi"
+        }
       },
       "products": {
         "title": "Ürünler",
-        "indoorPipeSystems": "Bina İçi  Boru Sistemleri",
-        "outdoorPipeSystems": "Altyapı Boru Sistemleri"
+        "indoorPipeSystems": {
+          "name": "Bina İçi Boru Sistemleri",
+          "link": "/tr/urunler/bina-ici-boru-sistemleri"
+        },
+        "outdoorPipeSystems": {
+          "name": "Altyapı Boru Sistemleri",
+          "link": "/tr/urunler/altyapi-boru-sistemleri"
+        },
+        "elitePipe": {
+          "link": "/tr/urunler/bina-ici-boru-sistemleri/elitepipe"
+        },
+        "sterilePipe": {
+          "link": "/tr/urunler/bina-ici-boru-sistemleri/sterilepipe"
+        }
       },
       "services": {
-        "title": "Hizmetler",
-        "calculations": "Hesaplamalar",
-        "dealers": "Bayilerimiz",
-        "projects": "Referanslar",
-        "certificates": "Sertifikalar"
+        "title": {
+          "name": "Hizmetler",
+          "link": "/tr/hizmetler"
+        },
+        "calculations": {
+          "name": "Mühendislik Hesaplamaları",
+          "link": "/tr/hesaplamalar"
+        },
+        "dealers": {
+          "name": "Bayimiz Ol",
+          "link": "/tr/bayimiz-ol"
+        },
+        "projects": {
+          "name": "Projeler",
+          "link": "/tr/referanslar"
+        },
+        "certificates": {
+          "name": "Sertifikalar",
+          "link": "/tr/sertifikalar"
+        }
       },
       "communication": {
         "title": "İletişim",
-        "contact": "İletişim"
+        "contact": {
+          "name": "İletişim",
+          "link": "/tr/iletisim"
+        }
       }
     },
     "imageContent": {
