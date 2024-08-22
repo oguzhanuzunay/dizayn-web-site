@@ -22,13 +22,34 @@
         "description": "Altyapı",
         "link": "/tr/urunler/altyapi-boru-sistemleri"
       },
-      "dealers": "Bayilerimiz",
-      "calculations": "Hesaplamalar",
-      "corporate": "Kurumsal",
-      "ourProject": "Referanslarımız",
-      "certificates": "Sertifikalar",
-      "contact": "iletisim",
-      "arge": "AR-GE"
+      "dealers": {
+        "name": "Bayilerimiz",
+        "link": "/tr/bayilerimiz"
+      },
+      "calculations": {
+        "name": "Hesaplamalar",
+        "link": "/tr/hesaplamalar"
+      },
+      "corporate": {
+        "name": "Kurumsal",
+        "link": "/tr/kurumsal"
+      },
+      "ourProject": {
+        "name": "Referanslar",
+        "link": "/tr/referanslar"
+      },
+      "certificates": {
+        "name": "Sertifikalar",
+        "link": "/tr/sertifikalar"
+      },
+      "contact": {
+        "name": "İletişim",
+        "link": "/tr/iletisim"
+      },
+      "arge": {
+        "name": "Ar-Ge",
+        "link": "/tr/arge"
+      }
     },
     "priceList": "Fiyat Listesi",
     "priceCatalog": " Fiyat Listesi"
@@ -219,12 +240,12 @@
     "SuperStructureProducts": {
       "header": "BİNA İÇİ BORU SİSTEMLERİ",
       "description": " Dizayn Grup olarak, 37 yıllık tecrübemiz ve Ar-Ge çalışmalarımızla geliştirdiğimiz üstün           kaliteli boru sistemleriyle dayanıklı ve uzun ömürlü çözümler sunuyoruz. Enerji           verimliliği, çevre dostu ve hijyenik özellikleriyle ürünlerimiz, güvenilir ve           sürdürülebilir projeler için idealdir.",
-      "description2": "Bina içi boru sistemlerinde Dizayn Grup&apos;un üstün çözümleriyle projelerinizi bir adım öne taşıyın. Enerji verimliliği, hijyen ve uzun ömürlü kullanım sunar.",
+      "description2": "Bina içi boru sistemlerinde Dizayn Grup'un üstün çözümleriyle projelerinizi bir adım öne taşıyın. Enerji verimliliği, hijyen ve uzun ömürlü kullanım sunar.",
       "elitePipe": {
         "title": "Elite Pipe",
         "description": "ElitePipe, yüksek sıcaklık ve basınç dayanımı ile güvenli ve uzun ömürlü bir boru sistemidir. PPR, PEX ve PERT boruların avantajlarını bir araya getirerek, üstün performans ve dayanıklılık sağlar.",
         "highlights": {
-          "highPressure": "Yüksek Sıcaklıkta Yüksek Basınç Dayanımı",
+          "highPressure": "Yüksek Sıcaklık ve Basınç Dayanımı",
           "kangal": "Kangal Halinde Sevkiyat Kolaylığı",
           "durable": "Eksi 40 Derecede Dahi Kırılma Direnci"
         },
@@ -333,7 +354,7 @@
         "banner": {
           "vertical": "/productImages/üst yapı borular/soft-power-ek/banner/tr/vertical.jpg"
         },
-        "link": "/tr/urunler/bina-ici-boru-sistemleri/softpower-boru"
+        "link": "/tr/urunler/altyapi-boru-sistemleri/softpower-boru"
       },
       "rtpPipe": {
         "title": "RTP Boru",
@@ -426,7 +447,7 @@
     "yearsInBusiness": "Sektörde Yıl",
     "awardsWon": "Sektörde ilk",
     "certificates": "Patent",
-    "uniqueProducts": "Unique Products"
+    "uniqueProducts": "Essiz Ürün"
   },
   "Hesaplamalar": {
     "waterHammerCalculation": "Su Darbesi Hesabı",
@@ -573,11 +594,11 @@
       "title": "Kurumsal",
       "content": {
         "0": "Mir Holding 37 yıl önce kurulmuştur. İlk kurulan şirketimizin felsefesi ARGE               (araştırma-geliştirme) üzerine şekillendirilmiştir. İlk ARGE çıktımız “boru konusunda”               olmuştur ve buradan Dizayn Grup doğmuştur. İlk endüstriyel şirketimiz olan Dizayn Grup               bugün itibariyle, 20 mm’den 8 m çapa kadar ve 0,5 Bar basınçtan, 200 Bar basınca kadar               türlü sektörler için boru üretmektedir.",
-        "1": "Mir Holding &apos;boru, tarım, enerji, yapı, savunma sanayi alanlarında&apos; faaliyet               gösteren 15 şirketi bünyesinde barındırmaktadır.",
-        "2": "Türkiye, Almanya, Azerbaycan, Rusya Federasyonu’nda fabrikaları vardır.               Almanya&apos;da kurulan yeni tesisin açılış törenine Sayın Angela Merkel katılmıştır.",
+        "1": "Mir Holding 'boru, tarım, enerji, yapı, savunma sanayi alanlarında' faaliyet               gösteren 15 şirketi bünyesinde barındırmaktadır.",
+        "2": "Türkiye, Almanya, Azerbaycan, Rusya Federasyonu’nda fabrikaları vardır.               Almanya'da kurulan yeni tesisin açılış törenine Sayın Angela Merkel katılmıştır.",
         "3": "Ayrıca Mir Holding İstanbul Üniversitesi Teknoparkının ortağı ve Yönetim Kurulu               Üyesidir.",
         "4": "Mir Holding",
-        "5": "- Sadece Ar-Ge alanında 50&apos;den fazla doktora derecesine sahip Ar-Ge mühendisi, 25               profesör, toplamda 150 araştırmacıyı istihdam etmektedir. Üretime dönüşen patent               sayısı açısından Türkiye&apos;de lider konumdadır.",
+        "5": "- Sadece Ar-Ge alanında 50'den fazla doktora derecesine sahip Ar-Ge mühendisi, 25               profesör, toplamda 150 araştırmacıyı istihdam etmektedir. Üretime dönüşen patent               sayısı açısından Türkiye'de lider konumdadır.",
         "6": "%70'i üretime dönüştürülen 100'den fazla patente sahiptir.",
         "7": "- Türkiye'nin en büyük özel araştırma laboratuvarına sahiptir.",
         "8": " Savunma sanayinin en büyük bütçeli (10.2 milyon USD) projeyi (çelikten on kat daha               güçlü, beş kat hafif malzemeyi) başarıyla gerçekleştirmiştir. Amerika ve               Kanada'dan sonra dünya çapında bu teknolojiye sahip 3. şirkettir.",

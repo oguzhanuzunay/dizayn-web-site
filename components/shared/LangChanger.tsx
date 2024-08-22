@@ -19,7 +19,7 @@ const LangChanger: React.FC<LangChangerProps> = ({
     return (
       <ul className="flex flex-col">
         <li
-          className="px-4 py-2 cursor-pointer hover:text-blue-500 flex items-center"
+          className="flex cursor-pointer items-center px-4 py-2 hover:text-blue-500"
           onClick={() => changeLanguage('en')}
         >
           <Image
@@ -31,7 +31,7 @@ const LangChanger: React.FC<LangChangerProps> = ({
           <span className="ml-2">English</span>
         </li>
         <li
-          className="px-4 py-2 cursor-pointer hover:text-blue-500 flex items-center"
+          className="flex cursor-pointer items-center px-4 py-2 hover:text-blue-500"
           onClick={() => changeLanguage('tr')}
         >
           <Image
@@ -53,7 +53,7 @@ const LangChanger: React.FC<LangChangerProps> = ({
       onMouseLeave={() => setDropdown(false)}
     >
       <button
-        className="flex items-center text-gray-800 hover:text-blue-500 hover:font-semibold duration-150"
+        className="flex items-center text-gray-800 duration-150 hover:font-semibold hover:text-blue-500"
         onClick={() => setDropdown(!dropdown)}
       >
         <Image
@@ -67,9 +67,9 @@ const LangChanger: React.FC<LangChangerProps> = ({
         <FaChevronDown className="ml-1 text-gray-900" />
       </button>
       {dropdown && (
-        <ul className="absolute top-full left-0 mt-0 bg-gray-100 rounded shadow-lg">
+        <ul className="absolute left-0 top-full mt-0 rounded bg-gray-100 shadow-lg">
           <li
-            className="size-4 w-fit cursor-pointer hover:bg-gray-200 flex items-center rounded-t-lg"
+            className="flex size-4 w-fit cursor-pointer items-center rounded-t-lg hover:bg-gray-200"
             onClick={() => changeLanguage('en')}
           >
             <Image
@@ -78,10 +78,10 @@ const LangChanger: React.FC<LangChangerProps> = ({
               width={20}
               height={20}
             />
-            <span className="w-full mr-5 hidden lg:block">English</span>
+            <span className="mr-5 hidden w-full lg:block">English</span>
           </li>
           <li
-            className="size-4 cursor-pointer hover:bg-gray-200 flex items-center rounded-b-lg"
+            className="flex size-4 cursor-pointer items-center rounded-b-lg hover:bg-gray-200"
             onClick={() => changeLanguage('tr')}
           >
             <Image
@@ -90,7 +90,7 @@ const LangChanger: React.FC<LangChangerProps> = ({
               width={20}
               height={20}
             />
-            <span className="w-full hidden lg:block">Türkçe</span>
+            <span className="hidden w-full lg:block">Türkçe</span>
           </li>
         </ul>
       )}

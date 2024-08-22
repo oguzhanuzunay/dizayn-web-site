@@ -74,34 +74,21 @@ const Certificates = () => {
           product: t('turkey.watewater-pipe.title'),
           allPDFs: [
             {
-              name: t('turkey.watewater-pipe.certificate-1'),
-              image:
-                '/certificates/files/tr/imgs/atıksu-boru-ve-ekleme-parca-sertifikaları/ATIKSU NANOTEK SESSİZLİK TEST RAPORU FRAUNHOFER_00001.jpg',
-              link: '/certificates/files/tr/pdfs/atıksu-boru-ve-ekleme-parca-sertifikaları/ATIKSU NANOTEK SESSİZLİK TEST RAPORU FRAUNHOFER.pdf',
+              name: t('turkey.pex.certificate-1'),
+              image: '/certificates/files/tr/imgs/PEX/PEX BORU TSE  HIJYEN TEST RAPORU_00001.jpg',
+              link: '/certificates/files/tr/pdfs/PEX/PEX BORU TSE  HIJYEN TEST RAPORU.pdf',
             },
             {
-              name: t('turkey.watewater-pipe.certificate-2'),
+              name: t('turkey.pex.certificate-2'),
               image:
-                '/certificates/files/tr/imgs/atıksu-boru-ve-ekleme-parca-sertifikaları/ATIKSU TRIPLEX SESSİZLİK TEST RAPORU FRAUNHOFER_00001.jpg',
-              link: '/certificates/files/tr/pdfs/atıksu-boru-ve-ekleme-parca-sertifikaları/ATIKSU TRIPLEX SESSİZLİK TEST RAPORU FRAUNHOFER.pdf',
+                '/certificates/files/tr/imgs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI_00001.jpg',
+              link: '/certificates/files/tr/pdfs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI.pdf',
             },
             {
-              name: t('turkey.watewater-pipe.certificate-3'),
+              name: t('turkey.pex.certificate-3'),
               image:
-                '/certificates/files/tr/imgs/atıksu-boru-ve-ekleme-parca-sertifikaları/triplextra_yanmazlık_belgesi_00001.jpg',
-              link: '/certificates/files/tr/pdfs/atıksu-boru-ve-ekleme-parca-sertifikaları/triplextra_yanmazlık_belgesi.pdf',
-            },
-            {
-              name: t('turkey.watewater-pipe.certificate-4'),
-              image:
-                '/certificates/files/tr/imgs/atıksu-boru-ve-ekleme-parca-sertifikaları/TS EN 1451-1 ATIKSU BORU VE EK PARÇALARI TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/atıksu-boru-ve-ekleme-parca-sertifikaları/TS EN 1451-1 ATIKSU BORU VE EK PARÇALARI TSE  SERTİFİKASI.pdf',
-            },
-            {
-              name: t('turkey.watewater-pipe.certificate-5'),
-              image:
-                '/certificates/files/tr/imgs/atıksu-boru-ve-ekleme-parca-sertifikaları/yanmaz_boru_sessizlik_belgesi_ingilizce_00001.jpg',
-              link: '/certificates/files/tr/pdfs/atıksu-boru-ve-ekleme-parca-sertifikaları/yanmaz_boru_sessizlik_belgesi_ingilizce.pdf',
+                '/certificates/files/tr/imgs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce)_00001.jpg',
+              link: '/certificates/files/tr/pdfs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce).pdf',
             },
           ],
         },

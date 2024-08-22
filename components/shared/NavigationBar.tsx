@@ -70,13 +70,13 @@ const NavigationBar = () => {
         },
       ],
     },
-    { name: t('menuList.dealers') },
-    { name: t('menuList.calculations') },
-    { name: t('menuList.corporate') },
-    { name: t('menuList.ourProject') },
-    { name: t('menuList.certificates') },
-    { name: t('menuList.contact') },
-    { name: t('menuList.arge') },
+    { name: t('menuList.dealers.name'), link: t('menuList.dealers.link') },
+    { name: t('menuList.calculations.name'), link: t('menuList.calculations.link') },
+    { name: t('menuList.corporate.name'), link: t('menuList.corporate.link') },
+    { name: t('menuList.ourProject.name'), link: t('menuList.ourProject.link') },
+    { name: t('menuList.certificates.name'), link: t('menuList.certificates.link') },
+    { name: t('menuList.contact.name'), link: t('menuList.contact.link') },
+    { name: t('menuList.arge.name'), link: t('menuList.arge.link') },
   ];
 
   const router = useRouter(); // Add this line to import the 'router' object
@@ -95,7 +95,7 @@ const NavigationBar = () => {
         return (
           <NavbarItem key={`${page}-${index}`}>
             <Link
-              href={`/${locale}/${page.name.toLowerCase().replace(' ', '-')}`}
+              href={page.link}
               className=" font-spaceGrotesk text-gray-900 transition-all duration-300 ease-in-out hover:text-accent-blue"
             >
               {page.name}
@@ -120,14 +120,14 @@ const NavigationBar = () => {
             </NavbarItem>
             <DropdownMenu
               aria-label="ACME features"
-              className="w-[340px] shadow-light-200 bg-gray-100 rounded-md"
+              className="w-[340px] rounded-md bg-gray-100 shadow-light-200"
               itemClasses={{
                 base: 'gap-4',
               }}
             >
               {page.submenu.map((item: any) => (
                 <DropdownItem
-                  className="flex hover:bg-gray-300 p-0 rounded-md"
+                  className="flex rounded-md p-0 hover:bg-gray-300"
                   key={item.name}
                   description={item.description}
                   startContent={
@@ -183,12 +183,12 @@ const NavigationBar = () => {
         {listMenu(0, 3)}
       </NavbarContent>
 
-      <NavbarBrand className="flex flex-1 items-center justify-center w-full">
+      <NavbarBrand className="flex w-full flex-1 items-center justify-center">
         <Link href="/">
           <Image
             src={dizaynLogo}
             alt="logo"
-            className="cursor-pointer min-w-32"
+            className="min-w-32 cursor-pointer"
             width={150}
             height={120}
           />
@@ -257,7 +257,7 @@ const NavigationBar = () => {
                 <div className="flex items-center justify-between">
                   <span className="text-2xl">{locale === 'tr' ? 'Türkçe' : 'English'}</span>
                   <FaChevronDown
-                    className={`transition-transform duration-300 max-w-4 " ${
+                    className={`" max-w-4 transition-transform duration-300 ${
                       openAccordion === 'language' ? 'rotate-180' : ''
                     }`}
                   />
@@ -265,7 +265,7 @@ const NavigationBar = () => {
               }
               indicator=" "
               onClick={() => setOpenAccordion(openAccordion === 'language' ? null : 'language')}
-              className="text-2xl text-center"
+              className="text-center text-2xl"
             >
               <LangChanger
                 locale={locale}

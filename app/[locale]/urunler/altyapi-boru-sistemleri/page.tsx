@@ -40,7 +40,7 @@ const AltYapı = () => {
         PLP: '/productImages/üst yapı borular/soft-power-ek/banner/tr/PLP.png',
         bgImage: '',
       },
-      image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
+      image: '/productImages/alt yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
       link: t('softPowerPipe.link'),
       highlights: [
         { title: t('softPowerPipe.highlights.durable'), icon: '/icons/durable.png' },

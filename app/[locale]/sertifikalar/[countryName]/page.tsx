@@ -62,12 +62,23 @@ const Locale = ({ params }: { params: { locale: string } }) => {
           ],
         },
         {
+          product: t('turkey.domestic.title'),
+          allPDFs: [
+            {
+              name: t('turkey.domestic.certificate-1'),
+              image:
+                '/certificates/files/tr/imgs/Yerli-Malı/Yerli Malı Bel.PPRC Metalli Fittings.jpg',
+              link: '/certificates/files/tr/pdfs/Yerli-Malı/Yerli Malı Bel.PPRC Metalli Fittings.pdf',
+            },
+          ],
+        },
+        {
           product: t('turkey.pex.title'),
           allPDFs: [
             {
               name: t('turkey.pex.certificate-1'),
               image: '/certificates/files/tr/imgs/PEX/PEX BORU TSE  HIJYEN TEST RAPORU_00001.jpg',
-              link: '/certificates/files/tr/pdfs/elite-sertifikaları/PEX BORU TSE  HIJYEN TEST RAPORU.pdf',
+              link: '/certificates/files/tr/pdfs/PEX/PEX BORU TSE  HIJYEN TEST RAPORU.pdf',
             },
             {
               name: t('turkey.pex.certificate-2'),
@@ -80,17 +91,6 @@ const Locale = ({ params }: { params: { locale: string } }) => {
               image:
                 '/certificates/files/tr/imgs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce)_00001.jpg',
               link: '/certificates/files/tr/pdfs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce).pdf',
-            },
-          ],
-        },
-        {
-          product: t('turkey.domestic.title'),
-          allPDFs: [
-            {
-              name: t('turkey.domestic.certificate-1'),
-              image:
-                '/certificates/files/tr/imgs/Yerli-Malı/Yerli Malı Bel.PPRC Metalli Fittings.jpg',
-              link: '/certificates/files/tr/pdfs/Yerli-Malı/Yerli Malı Bel.PPRC Metalli Fittings.pdf',
             },
           ],
         },
@@ -221,32 +221,20 @@ const Locale = ({ params }: { params: { locale: string } }) => {
             {
               name: t('turkey.spiral-corrugated.certificate-1'),
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-Koruge/DIN 16961 SARMAL BELGELENDİRME.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/DIN 16961 SARMAL BELGELENDİRME.pdf',
-            },
-            {
-              name: t('turkey.spiral-corrugated.certificate-2'),
-              image:
-                '/certificates/files/tr/imgs/sarmal-ve-Koruge/ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093.pdf',
-            },
-            {
-              name: t('turkey.spiral-corrugated.certificate-3'),
-              image:
-                '/certificates/files/tr/imgs/sarmal-ve-Koruge/İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG__00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG_.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-koruge/DIN 16961 SARMAL BELGELENDİRME.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-koruge/DIN 16961 SARMAL BELGELENDİRME.pdf',
             },
             {
               name: t('turkey.spiral-corrugated.certificate-4'),
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-Koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI_00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI.pdf',
             },
             {
               name: t('turkey.spiral-corrugated.certificate-5'),
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-Koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI_00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI.pdf',
             },
           ],
         },
@@ -287,7 +275,7 @@ const Locale = ({ params }: { params: { locale: string } }) => {
   const list = countryCertificate.filter((item) => item.code === params.locale)[0];
 
   return (
-    <>
+    <div className="w-screen">
       <div className="mb-0 flex size-full items-center bg-gray-500 p-5">
         <p className="font-spaceGrotesk text-2xl font-semibold text-white">{list?.title}</p>
       </div>
@@ -301,7 +289,7 @@ const Locale = ({ params }: { params: { locale: string } }) => {
         </Breadcrumbs>
       </div>
 
-      <div className="m-5 flex w-full flex-col flex-wrap items-start justify-start">
+      <div className="flex w-fit flex-col flex-wrap items-start justify-start">
         {list?.certificates.map((certificate) => (
           <>
             <h3 className="w-[200px] text-start font-semibold text-gray-500">
@@ -332,7 +320,7 @@ const Locale = ({ params }: { params: { locale: string } }) => {
           </>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

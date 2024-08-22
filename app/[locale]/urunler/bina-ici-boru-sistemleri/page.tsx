@@ -61,28 +61,6 @@ const Products = () => {
     },
 
     {
-      title: t('softPowerPipe.title'),
-      description: t('softPowerPipe.description'),
-      featuredProduct: false,
-      logo: '/productImages/üst yapı borular/soft-power-ek/logo.png',
-      isNewTech: true,
-      banner: {
-        vertical: '/productImages/üst yapı borular/soft-power-ek/banner/vertical.jpg',
-        horizontal: t('softPowerPipe.banner.horizontal'),
-        PLP: '/productImages/üst yapı borular/soft-power-ek/banner/tr/PLP.png',
-        bgImage: '',
-      },
-      image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
-      link: t('softPowerPipe.link'),
-      highlights: [
-        { title: t('softPowerPipe.highlights.durable'), icon: '/icons/durable.png' },
-        { title: t('softPowerPipe.highlights.flexible'), icon: '/icons/flexible.png' },
-        { title: t('softPowerPipe.highlights.saveTime'), icon: '/icons/save-time.png' },
-      ],
-      background: '',
-    },
-
-    {
       title: t('elasticaPipe.title'),
       description: t('elasticaPipe.description'),
       featuredProduct: false,
@@ -188,7 +166,7 @@ const Products = () => {
         <p className="text-center font-sans text-lg">{t('description')}</p>
       </div>
 
-      <div className="relative my-3 flex w-full flex-row px-2 max-md:flex-col gap-4">
+      <div className="relative my-3 flex w-full flex-row gap-4 px-2 max-md:flex-col">
         <div className="absolute left-0 top-0 z-0 size-full bg-contain opacity-45 " />
         {superStructureProducts
           .filter((item) => item.featuredProduct === true)
@@ -225,7 +203,7 @@ const Products = () => {
             item &&
             !item.featuredProduct === true && (
               <div
-                className="flex size-full flex-col items-center justify-center gap-0 mb-5"
+                className="mb-5 flex size-full flex-col items-center justify-center gap-0"
                 key={item.title}
               >
                 <ProductCard

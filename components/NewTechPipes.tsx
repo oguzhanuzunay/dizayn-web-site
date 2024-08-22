@@ -18,23 +18,18 @@ const NewTechPipe = () => {
       className="bg-white py-5"
       id="newTechPipe"
     >
-      <div className="mb-3 flex flex-1 flex-col items-center justify-center ">
-        <h1 className="text-center text-4xl font-bold text-gray-900 max-sm:text-2xl "></h1>
+      <div className="mb-3 flex flex-1 flex-col items-center justify-center text-center">
+        <h1 className="text-4xl font-bold text-gray-900 max-sm:text-2xl">{t('title')}</h1>
         <p className="font-quicksand text-gray-900">{t('description')}</p>
       </div>
 
-      <div
-        className="grid grid-cols-4
-       items-center justify-items-stretch gap-0 
-       max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1"
-      >
+      <div className="grid grid-cols-1 gap-6 px-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {combinedProducts.map(
           (item) =>
             item.banner &&
             item.isNewTech && (
               <div
-                className="m-4 mx-6  flex size-full flex-col
-                items-center justify-center gap-0"
+                className="flex w-full flex-col items-center justify-center"
                 key={item.title}
               >
                 <ProductCard

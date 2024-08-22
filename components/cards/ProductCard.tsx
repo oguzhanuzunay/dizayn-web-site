@@ -37,7 +37,7 @@ const ProductCard = ({
             src={isPLP ? banner.PLP : banner.vertical}
             width={240}
             height={330}
-            className={`${customCSS || ''}`}
+            className={`${customCSS || ''} z-10 rounded-lg`}
           />
           {!isPLP && (
             <div
@@ -57,7 +57,7 @@ const ProductCard = ({
                       alt={`${title} logo`}
                       width={100}
                       height={100}
-                      className="w-fit"
+                      className="z-0 w-fit rounded-lg"
                     />
                   ) : (
                     <h3 className="text-lg font-bold">{title}</h3>

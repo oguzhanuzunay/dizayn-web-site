@@ -77,7 +77,7 @@ export const productList: productListParams = {
         link: '/tr/urunler/bina-ici-boru-sistemleri/elitepipe',
         highlights: [
           {
-            title: 'Yüksek Sıcaklıkta Yüksek Basınç Dayanımı',
+            title: 'Yüksek Sıcaklık ve Basınç Dayanımı',
             icon: '/icons/high-pressure.png',
           },
           {
@@ -95,7 +95,7 @@ export const productList: productListParams = {
             'ElitePipe, Mir Ar-Ge Şirketimizin 7 yıllık Ar-Ge çalışmaları sonucunda geliştirilmiştir. PPR’ın kaynak kabiliyetini, PEX’in yüksek sıcaklık dayanım performansını ve PERT’in elastikiyetini optimize ederek, yeni ve benzersiz bir hibrit ürün oluşturduk. ElitePipe, hem iç hem de dış mekan tesisat uygulamalarında güvenle kullanılabilir.',
           features: [
             {
-              title: 'Yüksek Sıcaklıkta Yüksek Basınç Dayanımı',
+              title: 'Yüksek Sıcaklık ve Basınç Dayanımı',
               icon: '/icons/high-pressure.png',
               alt: 'High Pressure',
               description:

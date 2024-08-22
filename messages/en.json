@@ -22,13 +22,34 @@
         "description": "Infrastructure",
         "link": "/en/products/infrastructure-pipe-systems"
       },
-      "dealers": "Dealers",
-      "calculations": "Calculations",
-      "corporate": "Corporate",
-      "ourProject": "References",
-      "certificates": "Certificates",
-      "contact": "Contact",
-      "arge": "R&D"
+      "dealers": {
+        "name": "Dealers",
+        "link": "/en/our-dealers"
+      },
+      "calculations": {
+        "name": "Calculations",
+        "link": "/en/calculations"
+      },
+      "corporate": {
+        "name": "Corporate",
+        "link": "/en/corporate"
+      },
+      "ourProject": {
+        "name": "References",
+        "link": "/en/our-references"
+      },
+      "certificates": {
+        "name": "Certificates",
+        "link": "/en/certificates"
+      },
+      "contact": {
+        "name": "Contact",
+        "link": "/en/contact"
+      },
+      "arge": {
+        "name": "R&D",
+        "link": "/en/corporate/rd"
+      }
     },
     "priceList": "Price list",
     "priceCatalog": "Product Catalogue"
@@ -401,7 +422,7 @@
         "banner": {
           "vertical": "/productImages/üst yapı borular/soft-power-ek/banner/en/vertical.jpg"
         },
-        "link": "/en/urunler/bina-ici-boru-sistemleri/softpower-boru"
+        "link": "/en/urunler/altyapi-boru-sistemleri/softpower-boru"
       },
       "rtpPipe": {
         "title": "RTP Pipe",
@@ -453,7 +474,7 @@
         },
         "ourProject": {
           "name": "Projelerimiz",
-          "link": "/en/references"
+          "link": "/en/our-references"
         },
         "certificates": {
           "name": "Sertifikalar",
