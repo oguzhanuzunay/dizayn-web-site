@@ -44,24 +44,26 @@ const Contact = () => {
   ];
 
   return (
-    <div className={'relative z-0 mx-auto max-w-7xl px-6 sm:px-16'}>
-      <Header text={t('header')} />
+    <section className="container mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      <div className={'relative z-0 mx-auto max-w-7xl px-6 sm:px-16'}>
+        <Header text={t('header')} />
 
-      <div
-        className="flex flex-col
+        <div
+          className="flex flex-col
         items-center justify-center
         "
-      >
-        {contactInfo.map((item: contactInfoParams, index: any) => (
-          <LocationCard
-            key={index}
-            contact={item.contact}
-            position={item.position}
-            id={item.id}
-          />
-        ))}
+        >
+          {contactInfo.map((item: contactInfoParams, index: any) => (
+            <LocationCard
+              key={index}
+              contact={item.contact}
+              position={item.position}
+              id={item.id}
+            />
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Contact;

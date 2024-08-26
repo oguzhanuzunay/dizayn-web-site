@@ -159,65 +159,67 @@ const Products = () => {
   ];
 
   return (
-    <div>
-      <Header text={t('header')} />
+    <section className="container mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      <div>
+        <Header text={t('header')} />
 
-      <div className="px-2 py-4">
-        <p className="text-center font-sans text-lg">{t('description')}</p>
-      </div>
+        <div className="px-2 py-4">
+          <p className="text-center font-sans text-lg">{t('description')}</p>
+        </div>
 
-      <div className="relative my-3 flex w-full flex-row gap-4 px-2 max-md:flex-col">
-        <div className="absolute left-0 top-0 z-0 size-full bg-contain opacity-45 " />
-        {superStructureProducts
-          .filter((item) => item.featuredProduct === true)
-          .map((item, index) => (
-            <MatrixCard
-              link={item.link}
-              key={item.title}
-              id={index}
-              title={item.title}
-              image={item.image}
-              highlights={item.highlights}
-              logo={item.logo}
-              bgImage={item.banner.bgImage || ''}
-            />
-          ))}
-
-        <div />
-      </div>
-
-      <div className="px-2 py-4">
-        <p
-          className="text-center font-sans text-lg"
-          dangerouslySetInnerHTML={{ __html: t('description2') }}
-        ></p>
-      </div>
-
-      <div
-        className="my-5 grid
-       grid-cols-5 items-center justify-items-center 
-       gap-0 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 "
-      >
-        {superStructureProducts.map(
-          (item) =>
-            item &&
-            !item.featuredProduct === true && (
-              <div
-                className="mb-5 flex size-full flex-col items-center justify-center gap-0"
+        <div className="relative my-3 flex w-full flex-row gap-4 px-2 max-md:flex-col">
+          <div className="absolute left-0 top-0 z-0 size-full bg-contain opacity-45 " />
+          {superStructureProducts
+            .filter((item) => item.featuredProduct === true)
+            .map((item, index) => (
+              <MatrixCard
+                link={item.link}
                 key={item.title}
-              >
-                <ProductCard
-                  item={{
-                    ...item,
-                    customCSS: ' rounded-2xl',
-                  }}
-                  isPLP={true}
-                />
-              </div>
-            ),
-        )}
+                id={index}
+                title={item.title}
+                image={item.image}
+                highlights={item.highlights}
+                logo={item.logo}
+                bgImage={item.banner.bgImage || ''}
+              />
+            ))}
+
+          <div />
+        </div>
+
+        <div className="px-2 py-4">
+          <p
+            className="text-center font-sans text-lg"
+            dangerouslySetInnerHTML={{ __html: t('description2') }}
+          ></p>
+        </div>
+
+        <div
+          className="my-5 grid
+       grid-cols-4 items-center justify-items-center 
+       gap-0 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 "
+        >
+          {superStructureProducts.map(
+            (item) =>
+              item &&
+              !item.featuredProduct === true && (
+                <div
+                  className="mb-5 flex size-full flex-col items-center justify-center gap-0"
+                  key={item.title}
+                >
+                  <ProductCard
+                    item={{
+                      ...item,
+                      customCSS: ' rounded-2xl',
+                    }}
+                    isPLP={true}
+                  />
+                </div>
+              ),
+          )}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

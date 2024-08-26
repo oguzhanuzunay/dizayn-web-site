@@ -6,12 +6,14 @@ const Bayilerimiz = () => {
   const t = useTranslations('Bayilerimiz');
 
   return (
-    <div>
-      <Header text={t('header')} />
+    <section className="container mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
       <div>
-        <MapComponent show={false} />
+        <Header text={t('header')} />
+        <div>
+          <MapComponent show={false} />
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,9 +1,9 @@
-import React from 'react'
-
 const Page = () => {
   return (
-    <div>Page</div>
-  )
-}
+    <section className="container mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      <div>Page</div>
+    </section>
+  );
+};
 
-export default Page
+export default Page;

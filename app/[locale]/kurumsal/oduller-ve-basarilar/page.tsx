@@ -37,6 +37,7 @@ const OdullerVeBasarılar = () => {
   ];
 
   return (
+    <section className="container mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div className="relative z-0 mx-auto max-w-7xl px-6 sm:px-16">
       <Header text={t('oduller-ve-basarilar.title')} />
 
@@ -78,6 +79,7 @@ const OdullerVeBasarılar = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

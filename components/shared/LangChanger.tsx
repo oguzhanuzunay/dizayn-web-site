@@ -17,7 +17,7 @@ const LangChanger: React.FC<LangChangerProps> = ({
 
   if (isMobile) {
     return (
-      <ul className="flex flex-col">
+      <ul className="flex flex-col ">
         <li
           className="flex cursor-pointer items-center px-4 py-2 hover:text-blue-500"
           onClick={() => changeLanguage('en')}
@@ -48,7 +48,7 @@ const LangChanger: React.FC<LangChangerProps> = ({
 
   return (
     <li
-      className="relative"
+      className="relative px-4 py-2"
       onMouseEnter={() => setDropdown(true)}
       onMouseLeave={() => setDropdown(false)}
     >
@@ -67,9 +67,9 @@ const LangChanger: React.FC<LangChangerProps> = ({
         <FaChevronDown className="ml-1 text-gray-900" />
       </button>
       {dropdown && (
-        <ul className="absolute left-0 top-full mt-0 rounded bg-gray-100 shadow-lg">
+        <ul className="absolute left-0 top-full mt-0 rounded bg-gray-100 shadow-lg ">
           <li
-            className="flex size-4 w-fit cursor-pointer items-center rounded-t-lg hover:bg-gray-200"
+            className="flex w-fit cursor-pointer items-center rounded-t-lg px-4 py-2 hover:bg-gray-200"
             onClick={() => changeLanguage('en')}
           >
             <Image
@@ -78,10 +78,10 @@ const LangChanger: React.FC<LangChangerProps> = ({
               width={20}
               height={20}
             />
-            <span className="mr-5 hidden w-full lg:block">English</span>
+            <span className="mx-2 hidden w-full lg:block">English</span>
           </li>
           <li
-            className="flex size-4 cursor-pointer items-center rounded-b-lg hover:bg-gray-200"
+            className="flex cursor-pointer items-center rounded-b-lg px-4 py-2 hover:bg-gray-200"
             onClick={() => changeLanguage('tr')}
           >
             <Image
@@ -90,7 +90,7 @@ const LangChanger: React.FC<LangChangerProps> = ({
               width={20}
               height={20}
             />
-            <span className="hidden w-full lg:block">Türkçe</span>
+            <span className="mx-2 hidden w-full lg:block">Türkçe</span>
           </li>
         </ul>
       )}

@@ -24,7 +24,7 @@ const Page = ({ params }: { params: { product: string } }) => {
   const productDetail = product?.productDetails;
 
   return (
-    <>
+    <section className="container mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
       <Header text={productDetail.title} />
 
       <div className="ml-5 mt-3">
@@ -60,7 +60,7 @@ const Page = ({ params }: { params: { product: string } }) => {
 
         <div className="flex h-full flex-col items-start justify-start ">
           <b className="mb-2">{productDetail.title}</b>
-          <p >{productDetail.description}</p>
+          <p>{productDetail.description}</p>
         </div>
       </div>
 
@@ -91,7 +91,7 @@ const Page = ({ params }: { params: { product: string } }) => {
       </div>
 
       <FAQs faqs={productDetail.faqs} />
-    </>
+    </section>
   );
 };
 

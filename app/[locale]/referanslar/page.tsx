@@ -98,42 +98,44 @@ const Referanslar = () => {
   ];
 
   return (
-    <div>
-      <Header text={t('Header')} />
-      <div className="mx-2 my-3 flex items-center justify-center">
-        <Swiper
-          effect={'cards'}
-          grabCursor={true}
-          modules={[EffectCards]}
-          className="h-fit w-3/5 max-lg:w-5/6 max-sm:w-full"
-        >
-          {referenceList.map((item, index) => (
-            <SwiperSlide
-              key={index}
-              className="flex h-auto w-full flex-col items-center justify-start gap-1 rounded-xl bg-sky-600 pb-4 transition duration-500 ease-in-out hover:bg-sky-400 "
-            >
-              <Image
-                src={item.image}
-                alt={item.alt ?? ''}
-                width={450}
-                height={450}
-                className="mb-6 size-full rounded-xl"
-              />
-              <p className="text-center text-lg font-semibold text-white">{item.title}</p>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
-
-      <Link
-        href="/referanslar.pdf"
-        target="_blank"
-      >
-        <div className="mx-2 mb-4 flex items-center justify-center rounded-lg bg-red-600 p-2">
-          <p className=" text-lg font-bold text-white">{t('allReferances')}</p>
+    <section className="container mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      <div>
+        <Header text={t('Header')} />
+        <div className="mx-2 my-3 flex items-center justify-center">
+          <Swiper
+            effect={'cards'}
+            grabCursor={true}
+            modules={[EffectCards]}
+            className="h-fit w-3/5 max-lg:w-5/6 max-sm:w-full"
+          >
+            {referenceList.map((item, index) => (
+              <SwiperSlide
+                key={index}
+                className="flex h-auto w-full flex-col items-center justify-start gap-1 rounded-xl bg-sky-600 pb-4 transition duration-500 ease-in-out hover:bg-sky-400 "
+              >
+                <Image
+                  src={item.image}
+                  alt={item.alt ?? ''}
+                  width={450}
+                  height={450}
+                  className="mb-6 size-full rounded-xl"
+                />
+                <p className="text-center text-lg font-semibold text-white">{item.title}</p>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
-      </Link>
-    </div>
+
+        <Link
+          href="/referanslar.pdf"
+          target="_blank"
+        >
+          <div className="mx-2 mb-4 flex items-center justify-center rounded-lg bg-red-600 p-2">
+            <p className=" text-lg font-bold text-white">{t('allReferances')}</p>
+          </div>
+        </Link>
+      </div>
+    </section>
   );
 };
 
