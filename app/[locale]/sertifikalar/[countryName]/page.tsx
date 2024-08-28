@@ -17,7 +17,7 @@ export interface countryCertificateParams {
   }[];
 }
 
-const Locale = ({ params }: { params: { locale: string,countryName:string } }) => {
+const Locale = ({ params }: { params: { locale: string; countryName: string } }) => {
   const t = useTranslations('Certificates');
 
   const countryCertificate: countryCertificateParams[] = [
@@ -67,7 +67,7 @@ const Locale = ({ params }: { params: { locale: string,countryName:string } }) =
             {
               name: t('turkey.pex.certificate-1'),
               image: '/certificates/files/tr/imgs/PEX/PEX BORU TSE  HIJYEN TEST RAPORU_00001.jpg',
-              link: '/certificates/files/tr/pdfs/elite-sertifikaları/PEX BORU TSE  HIJYEN TEST RAPORU.pdf',
+              link: '/certificates/files/tr/pdfs/PEX/PEX BORU TSE  HIJYEN TEST RAPORU.pdf',
             },
             {
               name: t('turkey.pex.certificate-2'),
@@ -288,7 +288,7 @@ const Locale = ({ params }: { params: { locale: string,countryName:string } }) =
   const list = countryCertificate.filter((item) => item.code === params.countryName)[0];
 
   return (
-    <>
+    <div className="container mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
       <div className="mb-0 flex size-full items-center bg-gray-500 p-5">
         <p className="font-spaceGrotesk text-2xl font-semibold text-white">{list?.title}</p>
       </div>
@@ -302,12 +302,10 @@ const Locale = ({ params }: { params: { locale: string,countryName:string } }) =
         </Breadcrumbs>
       </div>
 
-      <div className="m-5 flex w-full flex-col flex-wrap items-start justify-start">
+      <div className="flex w-full flex-col flex-wrap items-start justify-start">
         {list?.certificates.map((certificate) => (
-          <div
-          key={certificate.product}
-          >
-            <h3 className="w-[200px] text-start font-semibold text-gray-500">
+          <div key={certificate.product}>
+            <h3 className="w-[200px] max-lg:w-full text-start font-semibold text-gray-500">
               {certificate.product}
             </h3>
             <div className="my-5 flex w-full flex-wrap items-center justify-start gap-3 max-md:flex max-sm:flex-col">
@@ -335,7 +333,7 @@ const Locale = ({ params }: { params: { locale: string,countryName:string } }) =
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

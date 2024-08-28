@@ -279,13 +279,13 @@ const Certificates = () => {
                       radius="lg"
                       width="100%"
                       alt={item.name.toString()}
-                      className={`h-[140px] max-w-[200px] object-cover ${item.certificates.length === 0 ? 'grayscale ' : ''}`}
+                      className={`h-[140px] max-w-[200px] object-contain ${item.certificates.length === 0 ? 'grayscale ' : ''}`}
                       src={`
                 https://flagcdn.com/${item.code}.svg
                `}
                     />
                   </CardBody>
-                  <CardFooter className="w-[200px] justify-between text-xs">
+                  <CardFooter className="w-[200px] max-lg:w-full justify-between text-xs">
                     <b>{item.title.toString()}</b>
                   </CardFooter>
                 </Card>

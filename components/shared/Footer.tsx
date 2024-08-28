@@ -73,7 +73,7 @@ const Footer = () => {
           link: t('link.products.indoorPipeSystems.link'),
         },
         {
-          title: t('link.products.outdoorPipeSystems'),
+          title: t('link.products.outdoorPipeSystems.name'),
           link: t('link.products.outdoorPipeSystems.link'),
         },
       ],
