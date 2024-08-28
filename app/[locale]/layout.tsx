@@ -49,7 +49,6 @@ export default async function LocaleLayout({
         className={`${roboto.className} ${spaceGrotesk.className} ${redHatDisplay.className} ${quicksand.className}`}
       >
         <SpeedInsights />
-
         <NextIntlClientProvider messages={messages}>
           <NavigationBar />
           {children}

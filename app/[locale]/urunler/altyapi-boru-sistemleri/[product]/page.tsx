@@ -33,7 +33,7 @@ const Page = ({ params }: { params: { product: string } }) => {
             {t('products')}
           </BreadcrumbItem>
           <BreadcrumbItem href={`/${language}/urunler/${params.product}`}>
-            {params.product.replace('-', ' ').toUpperCase()}
+          {params.product.replace('-', ' ').replace('boru', '').toUpperCase()}
           </BreadcrumbItem>
         </Breadcrumbs>
       </div>

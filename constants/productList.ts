@@ -5783,9 +5783,9 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
       },
 
       {
-        title: 'Dizayn Corrugated Spiral Pipe',
+        title: 'Dizayn Helical Pipe',
         description:
-          'Corrugated spiral pipes have a double-layer structure consisting of inner and outer layers. The inner layer is a smooth-surfaced pipe that carries the fluid, while the outer layer is ribbed. They are made from polyethylene and polypropylene materials.',
+          'Helical pipes have a double-layer structure consisting of inner and outer layers. The inner layer is a smooth-surfaced pipe that carries the fluid, while the outer layer is ribbed. They are made from polyethylene and polypropylene materials.',
         featuredProduct: false,
         logo: '/productImages/alt yapı boruları/KorugeSarmal/logo.png',
         banner: {
@@ -5811,16 +5811,16 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
           },
         ],
         productDetails: {
-          title: 'Corrugated Spiral Pipe',
+          title: 'Helical Pipe',
           description:
-            'Sewer pipes are produced from polypropylene and polyethylene raw materials within the polyolefin group. Extruded corrugated pipes up to Ø450 mm in diameter can be made from polyethylene and polypropylene raw materials, while spiral corrugated pipes are made from polyethylene. Spiral method is used for pipes with diameters of Ø500 mm and above. Dizayn Group has the technology to produce corrugated spiral pipes up to 8,000 mm in diameter.',
+            'Sewer pipes are produced from polypropylene and polyethylene raw materials within the polyolefin group. Extruded corrugated pipes up to Ø450 mm in diameter can be made from polyethylene and polypropylene raw materials, while spiral corrugated pipes are made from polyethylene. Spiral method is used for pipes with diameters of Ø500 mm and above. Dizayn Group has the technology to produce Helical pipes up to 8,000 mm in diameter.',
           features: [
             {
               title: 'High Durability',
               icon: '/icons/durability.png',
               alt: 'Durability',
               description:
-                'Corrugated spiral pipes have high corrosion resistance due to being made from polyethylene and polypropylene.',
+                'Helical pipes have high corrosion resistance due to being made from polyethylene and polypropylene.',
             },
             {
               title: 'Easy Installation',
@@ -5833,118 +5833,116 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
               icon: '/icons/chemical-resistant.png',
               alt: 'Chemical Resistance',
               description:
-                'Corrugated spiral pipes show high resistance to chemical substances and provide protection against corrosion.',
+                'Helical pipes show high resistance to chemical substances and provide protection against corrosion.',
             },
             {
               title: 'Wide Application Range',
               icon: '/icons/application.png',
               alt: 'Application',
               description:
-                'Corrugated spiral pipes can be used in sewer, stormwater, drainage, and many other infrastructure applications.',
+                'Helical pipes can be used in sewer, stormwater, drainage, and many other infrastructure applications.',
             },
             {
               title: 'Economic and Reliable',
               icon: '/icons/economical.png',
               alt: 'Economical',
               description:
-                'Corrugated spiral pipes offer cost savings in your projects with their economical price and long-lasting structure.',
+                'Helical pipes offer cost savings in your projects with their economical price and long-lasting structure.',
             },
             {
               title: 'Eco-Friendly',
               icon: '/icons/eco-friendly.png',
               alt: 'Eco-Friendly',
-              description: 'Corrugated spiral pipes are eco-friendly products with recyclability.',
+              description: 'Helical pipes are eco-friendly products with recyclability.',
             },
           ],
           images: [
             {
               image: '/productImages/alt yapı boruları/KorugeSarmal/koruge-sarmal-2.png',
-              alt: 'Dizayn Corrugated Spiral Pipe',
-              description: 'Dizayn Corrugated Spiral Pipe',
+              alt: 'Dizayn Helical Pipe',
+              description: 'Dizayn Helical Pipe',
             },
             {
               image: '/productImages/alt yapı boruları/KorugeSarmal/KorugeSarmal BORU 3.png',
-              alt: 'Dizayn Corrugated Spiral Pipe',
-              description: 'Dizayn Corrugated Spiral Pipe',
+              alt: 'Dizayn Helical Pipe',
+              description: 'Dizayn Helical Pipe',
             },
             {
               image: '/productImages/alt yapı boruları/KorugeSarmal/KorugeSarmal BORU 4.png',
-              alt: 'Dizayn Corrugated Spiral Pipe',
-              description: 'Dizayn Corrugated Spiral Pipe',
+              alt: 'Dizayn Helical Pipe',
+              description: 'Dizayn Helical Pipe',
             },
           ],
           headers: [
             {
-              title: '<b>Corrugated Spiral Pipe</b> and Fittings',
+              title: '<b>Helical Pipe</b> and Fittings',
               description:
-                'Corrugated spiral pipes are safely used in infrastructure projects with high corrosion resistance and long-lasting structure. Extruded corrugated pipes produced up to Ø450 mm in diameter are joined with fittings, while spiral corrugated pipes with diameters of Ø500 mm and above have socket and spigot ends. Corrugated spiral pipes produced in different diameters and pressure classes have a wide range of applications.',
+                'Helical pipes are safely used in infrastructure projects with high corrosion resistance and long-lasting structure. Extruded corrugated pipes produced up to Ø450 mm in diameter are joined with fittings, while spiral corrugated pipes with diameters of Ø500 mm and above have socket and spigot ends. Helical pipes produced in different diameters and pressure classes have a wide range of applications.',
             },
             {
-              title: 'Corrugated Spiral Pipe <b>Advantages</b>',
+              title: 'Helical Pipe <b>Advantages</b>',
               description:
-                'Corrugated spiral pipes provide a reliable solution in infrastructure projects with high corrosion resistance, chemical resistance, and long-lasting structure. Their flexible structure is not affected by ground movements and offers easy installation. Their lightweight structure reduces transportation and labor costs.',
+                'Helical pipes provide a reliable solution in infrastructure projects with high corrosion resistance, chemical resistance, and long-lasting structure. Their flexible structure is not affected by ground movements and offers easy installation. Their lightweight structure reduces transportation and labor costs.',
             },
             {
-              title: 'Corrugated Spiral Pipe <b>Usage Areas</b>',
+              title: 'Helical Pipe <b>Usage Areas</b>',
               description:
-                'Corrugated spiral pipes can be used in many infrastructure projects such as sewer, stormwater, drainage, wastewater, and industrial applications. Corrugated spiral pipes produced in different diameters and pressure classes provide flexible and durable solutions that can be used safely in your projects.',
+                'Helical pipes can be used in many infrastructure projects such as sewer, stormwater, drainage, wastewater, and industrial applications. Helical pipes produced in different diameters and pressure classes provide flexible and durable solutions that can be used safely in your projects.',
             },
             {
-              title: 'Corrugated Spiral Pipe <b>Technical Specifications</b>',
+              title: 'Helical Pipe <b>Technical Specifications</b>',
               description:
-                'Corrugated spiral pipes provide high strength and flexibility thanks to their double-layer structure. The inner and outer layers made of thermoplastic materials are resistant to chemical and mechanical effects. Technical specifications are as follows:\n<ul><li><b>Diameter Range:</b> 450 mm - 8000 mm</li><li><b>Ring Stiffness:</b> High</li><li><b>Material:</b> Polyethylene (PE) and Polypropylene (PP)</li><li><b>Easy Installation:</b> Gasketed, electrofusion, and extruder welding methods</li><li><b>Durability:</b> High chemical and mechanical resistance</li></ul>',
+                'Helical pipes provide high strength and flexibility thanks to their double-layer structure. The inner and outer layers made of thermoplastic materials are resistant to chemical and mechanical effects. Technical specifications are as follows:\n<ul><li><b>Diameter Range:</b> 450 mm - 8000 mm</li><li><b>Ring Stiffness:</b> High</li><li><b>Material:</b> Polyethylene (PE) and Polypropylene (PP)</li><li><b>Easy Installation:</b> Gasketed, electrofusion, and extruder welding methods</li><li><b>Durability:</b> High chemical and mechanical resistance</li></ul>',
             },
             {
-              title: 'Corrugated Spiral Pipe <b>Joining Methods</b>',
+              title: 'Helical Pipe <b>Joining Methods</b>',
               description:
-                'Different methods are used for joining corrugated spiral pipes:\n<ul><li><b>Gasketed Joint:</b> Used for pipes up to Ø450 mm in diameter</li><li><b>Extruder Welding:</b> Provides high strength and leak-tightness</li><li><b>Electrofusion Welding:</b> Resistant up to 4 bar pressure and provides high leak-tightness</li></ul>',
+                'Different methods are used for joining Helical pipes:\n<ul><li><b>Gasketed Joint:</b> Used for pipes up to Ø450 mm in diameter</li><li><b>Extruder Welding:</b> Provides high strength and leak-tightness</li><li><b>Electrofusion Welding:</b> Resistant up to 4 bar pressure and provides high leak-tightness</li></ul>',
             },
             {
-              title: 'Corrugated Spiral Pipe <b>Price List</b>',
+              title: 'Helical Pipe <b>Price List</b>',
               description:
-                'Corrugated spiral pipes offer cost advantages in your projects with their high quality and reasonable prices. To access the price list and get detailed information about pipes produced in different diameters and pressure classes, please visit our website.',
+                'Helical pipes offer cost advantages in your projects with their high quality and reasonable prices. To access the price list and get detailed information about pipes produced in different diameters and pressure classes, please visit our website.',
             },
           ],
           faqs: [
             {
-              question: 'What is the raw material of corrugated spiral pipes?',
+              question: 'What is the raw material of Helical pipes?',
               answer:
-                'Corrugated spiral pipes are made from polyethylene (PE) and polypropylene (PP) raw materials. These materials offer high corrosion resistance and long life.',
+                'Helical pipes are made from polyethylene (PE) and polypropylene (PP) raw materials. These materials offer high corrosion resistance and long life.',
             },
             {
-              question: 'What are the advantages of corrugated spiral pipes?',
+              question: 'What are the advantages of Helical pipes?',
               answer:
-                'Corrugated spiral pipes offer a reliable solution in infrastructure projects with high corrosion resistance, chemical resistance, long-lasting structure, and flexibility. Their lightweight structure provides easy installation and transportation.',
+                'Helical pipes offer a reliable solution in infrastructure projects with high corrosion resistance, chemical resistance, long-lasting structure, and flexibility. Their lightweight structure provides easy installation and transportation.',
             },
             {
-              question: 'What are the usage areas of corrugated spiral pipes?',
+              question: 'What are the usage areas of Helical pipes?',
               answer:
-                'Corrugated spiral pipes can be used in many infrastructure projects such as sewer, stormwater, drainage, wastewater, and industrial applications.',
+                'Helical pipes can be used in many infrastructure projects such as sewer, stormwater, drainage, wastewater, and industrial applications.',
             },
             {
-              question: 'How are corrugated spiral pipes joined?',
+              question: 'How are Helical pipes joined?',
               answer:
-                'Corrugated spiral pipes are joined by gasketed methods up to Ø450 mm in diameter. Extruder welding and electrofusion welding methods are used for larger diameters.',
+                'Helical pipes are joined by gasketed methods up to Ø450 mm in diameter. Extruder welding and electrofusion welding methods are used for larger diameters.',
             },
             {
-              question: 'What is the lifespan of corrugated spiral pipes?',
+              question: 'What is the lifespan of Helical pipes?',
               answer:
-                'Corrugated spiral pipes are sold with a 50-year lifespan guarantee and can be used for 100 years against external effects.',
+                'Helical pipes are sold with a 50-year lifespan guarantee and can be used for 100 years against external effects.',
             },
             {
-              question: 'What are the technical specifications of corrugated spiral pipes?',
+              question: 'What are the technical specifications of Helical pipes?',
               answer:
-                'Corrugated spiral pipes offer high strength and flexibility thanks to their double-layer structure. Technical features include high chemical and mechanical resistance, easy installation, and low weight.',
+                'Helical pipes offer high strength and flexibility thanks to their double-layer structure. Technical features include high chemical and mechanical resistance, easy installation, and low weight.',
             },
             {
-              question: 'What is the production diameter range of corrugated spiral pipes?',
-              answer:
-                'Corrugated spiral pipes are produced in diameters ranging from 450 mm to 8000 mm.',
+              question: 'What is the production diameter range of Helical pipes?',
+              answer: 'Helical pipes are produced in diameters ranging from 450 mm to 8000 mm.',
             },
             {
-              question: 'Are corrugated spiral pipes environmentally friendly?',
-              answer:
-                'Yes, corrugated spiral pipes are eco-friendly products due to their recyclability.',
+              question: 'Are Helical pipes environmentally friendly?',
+              answer: 'Yes, Helical pipes are eco-friendly products due to their recyclability.',
             },
           ],
           fittings: [],

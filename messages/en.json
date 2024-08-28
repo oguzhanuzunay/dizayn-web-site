@@ -255,7 +255,7 @@
           "PLP": "productImages/üst yapı borular/elite-pipe-ve-ek/banner/en/PLP.png",
           "bgImage": "/productImages/üst yapı borular/elite-pipe-ve-ek/banner/en/bg-image.png"
         },
-        "link": "/tr/products/interior-building-pipe-systems/elitepipe"
+        "link": "/en/urunler/bina-ici-boru-sistemleri/elitepipe"
       },
       "sterilePipe": {
         "title": "Sterile Pipe",
@@ -371,8 +371,8 @@
         }
       },
       "korugeSpiralPipe": {
-        "title": "Dizayn Corrugated Spiral Pipe",
-        "description": "Corrugated spiral pipes have a double-layer structure consisting of inner and outer layers. \nThe inner layer is a flat surface pipe that carries the fluid. \nThe outer layer has a ribbed structure. \nIt is produced from Polyethylene and Polypropylene raw materials.",
+        "title": "Dizayn Helical Pipe",
+        "description": "Helical pipes have a double-layer structure consisting of inner and outer layers. \nThe inner layer is a flat surface pipe that carries the fluid. \nThe outer layer has a ribbed structure. \nIt is produced from Polyethylene and Polypropylene raw materials.",
         "highlights": {
           "longLasting": "Long life",
           "easyInstallation": "Easy setup",
