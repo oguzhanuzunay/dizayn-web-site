@@ -52,7 +52,7 @@
       }
     },
     "priceList": "Price list",
-    "priceCatalog": "Product Catalogue"
+    "priceCatalog": "Price List"
   },
   "Certificates": {
     "germany": {
@@ -350,7 +350,11 @@
         },
         "title": "Telecom Pipes",
         "description": "Cable Casing Pipes are used in rapidly developing communication and data transmission piping systems. \nIt is offered with different options, from single to triple, in accordance with the demand and specification. \nIt offers a whole system with additional parts that are eye multipliers and complementary elements.",
-        "link": "/en/urunler/altyapi-boru-sistemleri/telekom-boru"
+        "link": "/en/urunler/altyapi-boru-sistemleri/telekom-boru",
+        "banner": {
+          "horizontal": "/productImages/alt yapı boruları/TELEKOM/banner/en/horizontal.png",
+          "PLP": "/productImages/alt yapı boruları/TELEKOM/banner/en/PLP.png"
+        }
       },
       "korugePipe": {
         "title": "Corrugated Pipe",
@@ -360,7 +364,11 @@
           "longLasting": "Long life",
           "easyInstall": "Easy setup"
         },
-        "link": "/en/urunler/altyapi-boru-sistemleri/koruge-boru"
+        "link": "/en/urunler/altyapi-boru-sistemleri/koruge-boru",
+        "banner": {
+          "horizontal": "/productImages/alt yapı boruları/Koruge/banner/en/horizontal.jpg",
+          "PLP": "/productImages/alt yapı boruları/Koruge/banner/en/PLP.png"
+        }
       },
       "korugeSpiralPipe": {
         "title": "Dizayn Corrugated Spiral Pipe",
@@ -370,7 +378,11 @@
           "easyInstallation": "Easy setup",
           "durable": "High Durability"
         },
-        "link": "/en/urunler/altyapi-boru-sistemleri/koruge-sarmal-boru"
+        "link": "/en/urunler/altyapi-boru-sistemleri/koruge-sarmal-boru",
+        "banner": {
+          "horizontal": "/productImages/alt yapı boruları/KorugeSarmal/banner/en/horizontal.png",
+          "PLP": "/productImages/alt yapı boruları/KorugeSarmal/banner/en/PLP.png"
+        }
       },
       "pe80Pipe": {
         "title": "Dizayn PE 80 Natural Gas Pipe",
@@ -380,7 +392,11 @@
           "flexible": "Flexible",
           "chemicalResistant": "Chemical Resistance"
         },
-        "link": "/en/urunler/altyapi-boru-sistemleri/pe-80-dogalgaz-boru"
+        "link": "/en/urunler/altyapi-boru-sistemleri/pe-80-dogalgaz-boru",
+        "banner": {
+          "horizontal": "/productImages/alt yapı boruları/PE 80/banner/en/horizontal.png",
+          "PLP": "/productImages/alt yapı boruları/PE 80/banner/en/PLP.png"
+        }
       },
       "jeotermalPipe": {
         "title": "Dizayn Geothermal Pipe",
@@ -389,7 +405,11 @@
           "longLasting": "High Heat Resistance",
           "corrosionResistant": "Corrosion Resistant"
         },
-        "description": "Dizayn Geothermal Pipes are composite pipes that prevent the heat transfer of hot and cold fluids."
+        "description": "Dizayn Geothermal Pipes are composite pipes that prevent the heat transfer of hot and cold fluids.",
+        "banner": {
+          "horizontal": "/productImages/alt yapı boruları/Jeotermal/banner/en/horizontal.png",
+          "PLP": "/productImages/alt yapı boruları/Jeotermal/banner/en/PLP.png"
+        }
       },
       "denizDesarjPipe": {
         "title": "Dizayn Marine Discharge Pipes",
@@ -399,7 +419,11 @@
           "corrosion": "Corrosion Resistance",
           "longLasting": "Long life"
         },
-        "link": "/en/urunler/altyapi-boru-sistemleri/deniz-desarj-boru"
+        "link": "/en/urunler/altyapi-boru-sistemleri/deniz-desarj-boru",
+        "banner": {
+          "horizontal": "/productImages/alt yapı boruları/Deniz Desarj/banner/en/horizontal.png",
+          "PLP": "/productImages/alt yapı boruları/Deniz Desarj/banner/en/PLP.png"
+        }
       },
       "chemicalTank": {
         "title": "Design Chemical Tanks",
@@ -409,7 +433,11 @@
           "recyclable": "Recycled",
           "chemicalResistant": "High Chemical Resistance"
         },
-        "link": "/en/urunler/altyapi-boru-sistemleri/kimyasal-tanklar"
+        "link": "/en/urunler/altyapi-boru-sistemleri/kimyasal-tanklar",
+        "banner": {
+          "horizontal": "/productImages/alt yapı boruları/kimyasal-tanklar/banner/en/horizontal.png",
+          "PLP": "/productImages/alt yapı boruları/kimyasal-tanklar/banner/en/PLP.png"
+        }
       },
       "softPowerPipe": {
         "title": "SoftPower Pipe",
@@ -420,7 +448,8 @@
           "saveTime": "Cost Savings"
         },
         "banner": {
-          "vertical": "/productImages/üst yapı borular/soft-power-ek/banner/en/vertical.jpg"
+          "vertical": "/productImages/üst yapı borular/soft-power-ek/banner/en/vertical.jpg",
+          "PLP": "/productImages/üst yapı borular/soft-power-ek/banner/en/PLP.png"
         },
         "link": "/en/urunler/altyapi-boru-sistemleri/softpower-boru"
       },
@@ -432,7 +461,10 @@
           "flexible": "Flexibility",
           "longLasting": "Long life"
         },
-        "link": "/en/urunler/altyapi-boru-sistemleri/rtp-boru"
+        "link": "/en/urunler/altyapi-boru-sistemleri/rtp-boru",
+        "banner": {
+          "PLP": "/productImages/alt yapı boruları/RTP BORU/banner/en/PLP.png'"
+        }
       },
       "header": "Infrastructure Piping Systems"
     },
@@ -565,7 +597,8 @@
     }
   },
   "NewTechPipe": {
-    "description": "Meet our new generation, high-tech pipes."
+    "description": "Meet our new generation, high-tech pipes.",
+    "title": "Meet Our Innovative Products"
   },
   "FAQs": {
     "header": "Frequently Asked Questions"
@@ -659,6 +692,7 @@
   "Breadcrumb": {
     "products": "Products",
     "home": "Home Page",
-    "productNotFound": "Product not found."
+    "productNotFound": "Product not found.",
+    "infrastructureProductLink": "/en/urunler/bina-ici-boru-sistemleri"
   }
 }

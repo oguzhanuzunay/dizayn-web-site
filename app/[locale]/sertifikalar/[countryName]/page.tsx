@@ -17,7 +17,7 @@ export interface countryCertificateParams {
   }[];
 }
 
-const Locale = ({ params }: { params: { locale: string } }) => {
+const Locale = ({ params }: { params: { locale: string,countryName:string } }) => {
   const t = useTranslations('Certificates');
 
   const countryCertificate: countryCertificateParams[] = [
@@ -62,23 +62,12 @@ const Locale = ({ params }: { params: { locale: string } }) => {
           ],
         },
         {
-          product: t('turkey.domestic.title'),
-          allPDFs: [
-            {
-              name: t('turkey.domestic.certificate-1'),
-              image:
-                '/certificates/files/tr/imgs/Yerli-Malı/Yerli Malı Bel.PPRC Metalli Fittings.jpg',
-              link: '/certificates/files/tr/pdfs/Yerli-Malı/Yerli Malı Bel.PPRC Metalli Fittings.pdf',
-            },
-          ],
-        },
-        {
           product: t('turkey.pex.title'),
           allPDFs: [
             {
               name: t('turkey.pex.certificate-1'),
               image: '/certificates/files/tr/imgs/PEX/PEX BORU TSE  HIJYEN TEST RAPORU_00001.jpg',
-              link: '/certificates/files/tr/pdfs/PEX/PEX BORU TSE  HIJYEN TEST RAPORU.pdf',
+              link: '/certificates/files/tr/pdfs/elite-sertifikaları/PEX BORU TSE  HIJYEN TEST RAPORU.pdf',
             },
             {
               name: t('turkey.pex.certificate-2'),
@@ -91,6 +80,17 @@ const Locale = ({ params }: { params: { locale: string } }) => {
               image:
                 '/certificates/files/tr/imgs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce)_00001.jpg',
               link: '/certificates/files/tr/pdfs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce).pdf',
+            },
+          ],
+        },
+        {
+          product: t('turkey.domestic.title'),
+          allPDFs: [
+            {
+              name: t('turkey.domestic.certificate-1'),
+              image:
+                '/certificates/files/tr/imgs/Yerli-Malı/Yerli Malı Bel.PPRC Metalli Fittings.jpg',
+              link: '/certificates/files/tr/pdfs/Yerli-Malı/Yerli Malı Bel.PPRC Metalli Fittings.pdf',
             },
           ],
         },
@@ -221,20 +221,32 @@ const Locale = ({ params }: { params: { locale: string } }) => {
             {
               name: t('turkey.spiral-corrugated.certificate-1'),
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-koruge/DIN 16961 SARMAL BELGELENDİRME.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-koruge/DIN 16961 SARMAL BELGELENDİRME.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-Koruge/DIN 16961 SARMAL BELGELENDİRME.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/DIN 16961 SARMAL BELGELENDİRME.pdf',
+            },
+            {
+              name: t('turkey.spiral-corrugated.certificate-2'),
+              image:
+                '/certificates/files/tr/imgs/sarmal-ve-Koruge/ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093_00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093.pdf',
+            },
+            {
+              name: t('turkey.spiral-corrugated.certificate-3'),
+              image:
+                '/certificates/files/tr/imgs/sarmal-ve-Koruge/İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG__00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG_.pdf',
             },
             {
               name: t('turkey.spiral-corrugated.certificate-4'),
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-Koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI_00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI.pdf',
             },
             {
               name: t('turkey.spiral-corrugated.certificate-5'),
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-Koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI_00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI.pdf',
             },
           ],
         },
@@ -272,57 +284,58 @@ const Locale = ({ params }: { params: { locale: string } }) => {
     },
   ];
 
-  const list = countryCertificate.filter((item) => item.code === params.locale)[0];
+  console.log(params.countryName);
+  const list = countryCertificate.filter((item) => item.code === params.countryName)[0];
 
   return (
-    <section className="container mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-      <div className="w-screen">
-        <div className="mb-0 flex size-full items-center bg-gray-500 p-5">
-          <p className="font-spaceGrotesk text-2xl font-semibold text-white">{list?.title}</p>
-        </div>
-        <div className="ml-5 mt-3">
-          <Breadcrumbs>
-            <BreadcrumbItem href="/">{t('Anasayfa')}</BreadcrumbItem>
-            <BreadcrumbItem href="/sertifikalar">{t('Sertifikalar')}</BreadcrumbItem>
-            <BreadcrumbItem href={`/sertifikalar/${params.locale}`}>
-              {list?.title ?? ''}
-            </BreadcrumbItem>
-          </Breadcrumbs>
-        </div>
-
-        <div className="flex w-fit flex-col flex-wrap items-start justify-start">
-          {list?.certificates.map((certificate) => (
-            <>
-              <h3 className="w-[200px] text-start font-semibold text-gray-500">
-                {certificate.product}
-              </h3>
-              <div className="my-5 flex w-full flex-wrap items-center justify-start gap-3 max-md:flex max-sm:flex-col">
-                {certificate.allPDFs.map((pdf, index) => (
-                  <Link
-                    href={pdf.link}
-                    target="_blank"
-                    key={index}
-                    className="m-3 rounded-md bg-slate-100 p-3 transition-all duration-300 hover:scale-105 hover:bg-slate-200 hover:shadow-lg"
-                  >
-                    <div className=" bg-white p-3 ">
-                      <p className="w-[200px] text-start font-quicksand text-sm font-normal text-gray-500">
-                        {pdf.name.toUpperCase()}
-                      </p>
-                      <Image
-                        src={pdf.image}
-                        alt={pdf.name}
-                        width={200}
-                        height={200}
-                      />
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </>
-          ))}
-        </div>
+    <>
+      <div className="mb-0 flex size-full items-center bg-gray-500 p-5">
+        <p className="font-spaceGrotesk text-2xl font-semibold text-white">{list?.title}</p>
       </div>
-    </section>
+      <div className="ml-5 mt-3">
+        <Breadcrumbs>
+          <BreadcrumbItem href="/">{t('Anasayfa')}</BreadcrumbItem>
+          <BreadcrumbItem href="/sertifikalar">{t('Sertifikalar')}</BreadcrumbItem>
+          <BreadcrumbItem href={`/sertifikalar/${params.locale}`}>
+            {list?.title ?? ''}
+          </BreadcrumbItem>
+        </Breadcrumbs>
+      </div>
+
+      <div className="m-5 flex w-full flex-col flex-wrap items-start justify-start">
+        {list?.certificates.map((certificate) => (
+          <div
+          key={certificate.product}
+          >
+            <h3 className="w-[200px] text-start font-semibold text-gray-500">
+              {certificate.product}
+            </h3>
+            <div className="my-5 flex w-full flex-wrap items-center justify-start gap-3 max-md:flex max-sm:flex-col">
+              {certificate.allPDFs.map((pdf, index) => (
+                <Link
+                  href={pdf.link}
+                  target="_blank"
+                  key={index}
+                  className="m-3 rounded-md bg-slate-100 p-3 transition-all duration-300 hover:scale-105 hover:bg-slate-200 hover:shadow-lg"
+                >
+                  <div className=" bg-white p-3 ">
+                    <p className="text-sm w-[200px] text-start font-quicksand font-normal text-gray-500">
+                      {pdf.name.toUpperCase()}
+                    </p>
+                    <Image
+                      src={pdf.image}
+                      alt={pdf.name}
+                      width={200}
+                      height={200}
+                    />
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </>
   );
 };
 

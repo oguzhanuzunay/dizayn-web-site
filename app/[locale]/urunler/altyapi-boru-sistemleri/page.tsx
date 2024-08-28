@@ -2,7 +2,7 @@
 import Header from '@/components/Header';
 import MatrixCard from '@/components/cards/MatrixCard';
 import ProductCard from '@/components/cards/ProductCard';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 
 interface productParams {
   title: string;
@@ -27,6 +27,7 @@ interface productParams {
 
 const AltYapı = () => {
   const t = useTranslations('Products.InfrastructureProducts');
+  const locale = useLocale();
 
   const infrastructureProducts: productParams[] = [
     {
@@ -36,8 +37,8 @@ const AltYapı = () => {
       logo: '/productImages/üst yapı borular/soft-power-ek/logo.png',
       banner: {
         vertical: t('softPowerPipe.banner.vertical'),
-        horizontal: '/productImages/üst yapı borular/soft-power-ek/banner/tr/horizontal.png',
-        PLP: '/productImages/üst yapı borular/soft-power-ek/banner/tr/PLP.png',
+        horizontal: `/productImages/üst yapı borular/soft-power-ek/banner/${locale}/horizontal.png`,
+        PLP: `/productImages/üst yapı borular/soft-power-ek/banner/${locale}/PLP.png`,
         bgImage: '',
       },
       image: '/productImages/alt yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
@@ -58,8 +59,8 @@ const AltYapı = () => {
       isNewTech: true,
       banner: {
         vertical: '/productImages/alt yapı boruları/RTP BORU/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/RTP BORU/banner/tr/horizontal.png',
-        PLP: '/productImages/alt yapı boruları/RTP BORU/banner/tr/PLP.png',
+        horizontal: `/productImages/alt yapı boruları/RTP BORU/banner/${locale}/horizontal.png`,
+        PLP: `/productImages/alt yapı boruları/RTP BORU/banner/${locale}/PLP.png`,
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/RTP BORU/RTP1.png',
@@ -80,8 +81,8 @@ const AltYapı = () => {
       isNewTech: true,
       banner: {
         vertical: '/productImages/alt yapı boruları/TELEKOM/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/TELEKOM/banner/tr/horizontal.png',
-        PLP: '/productImages/alt yapı boruları/TELEKOM/banner/tr/PLP.png',
+        horizontal: `/productImages/alt yapı boruları/TELEKOM/banner/${locale}/horizontal.png`,
+        PLP: `/productImages/alt yapı boruları/TELEKOM/banner/${locale}/PLP.png`,
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/TELEKOM/TELEKOM BORU 1.png',
@@ -101,8 +102,8 @@ const AltYapı = () => {
       logo: '/productImages/alt yapı boruları/Koruge/logo.png',
       banner: {
         vertical: '/productImages/alt yapı boruları/Koruge/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/Koruge/banner/tr/horizontal.jpg',
-        PLP: '/productImages/alt yapı boruları/Koruge/banner/tr/PLP.png',
+        horizontal: `/productImages/alt yapı boruları/Koruge/banner/${locale}/horizontal.jpg`,
+        PLP: `/productImages/alt yapı boruları/Koruge/banner/${locale}/PLP.png`,
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/Koruge/Koruge BORU.png',
@@ -122,8 +123,8 @@ const AltYapı = () => {
       logo: '/productImages/alt yapı boruları/KorugeSarmal/logo.png',
       banner: {
         vertical: '/productImages/alt yapı boruları/KorugeSarmal/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/KorugeSarmal/banner/tr/horizontal.png',
-        PLP: '/productImages/alt yapı boruları/KorugeSarmal/banner/tr/PLP.png',
+        horizontal: `/productImages/alt yapı boruları/KorugeSarmal/banner/${locale}/horizontal.png`,
+        PLP: `/productImages/alt yapı boruları/KorugeSarmal/banner/${locale}/PLP.png`,
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/KorugeSarmal/koruge-sarmal-2.png',
@@ -146,8 +147,8 @@ const AltYapı = () => {
       logo: '/productImages/alt yapı boruları/PE 80/logo.png',
       banner: {
         vertical: '/productImages/alt yapı boruları/PE 80/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/PE 80/banner/tr/horizontal.png',
-        PLP: '/productImages/alt yapı boruları/PE 80/banner/tr/PLP.png',
+        horizontal: `/productImages/alt yapı boruları/PE 80/banner/${locale}/horizontal.png`,
+        PLP: `/productImages/alt yapı boruları/PE 80/banner/${locale}/PLP.png`,
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/PE 80/PE 80 BORU.png',
@@ -170,8 +171,8 @@ const AltYapı = () => {
       logo: '/productImages/alt yapı boruları/Jeotermal/logo.png',
       banner: {
         vertical: '/productImages/alt yapı boruları/Jeotermal/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/Jeotermal/banner/tr/horizontal.png',
-        PLP: '/productImages/alt yapı boruları/Jeotermal/banner/tr/PLP.png',
+        horizontal: `/productImages/alt yapı boruları/Jeotermal/banner/${locale}/horizontal.png`,
+        PLP: `/productImages/alt yapı boruları/Jeotermal/banner/${locale}/PLP.png`,
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU.png',
@@ -194,8 +195,8 @@ const AltYapı = () => {
       logo: '/productImages/alt yapı boruları/Deniz Desarj/logo.png',
       banner: {
         vertical: '/productImages/alt yapı boruları/Deniz Desarj/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/Deniz Desarj/banner/tr/horizontal.png',
-        PLP: '/productImages/alt yapı boruları/Deniz Desarj/banner/tr/PLP.png',
+        horizontal: `/productImages/alt yapı boruları/Deniz Desarj/banner/${locale}/horizontal.png`,
+        PLP: `/productImages/alt yapı boruları/Deniz Desarj/banner/${locale}/PLP.png`,
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/Deniz Desarj/Deniz Desarj BORU.png',
@@ -215,8 +216,8 @@ const AltYapı = () => {
       logo: '/productImages/alt yapı boruları/kimyasal-tanklar/logo.png',
       banner: {
         vertical: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/vertical.jpg',
-        horizontal: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/tr/horizontal.png',
-        PLP: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/tr/PLP.png',
+        horizontal: `/productImages/alt yapı boruları/kimyasal-tanklar/banner/${locale}/horizontal.png`,
+        PLP: `/productImages/alt yapı boruları/kimyasal-tanklar/banner/${locale}/PLP.png`,
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/kimyasal-tanklar/kimyasal-tanklar.png',

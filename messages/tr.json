@@ -352,7 +352,8 @@
           "saveTime": "Maliyet Tasarrufu"
         },
         "banner": {
-          "vertical": "/productImages/üst yapı borular/soft-power-ek/banner/tr/vertical.jpg"
+          "vertical": "/productImages/üst yapı borular/soft-power-ek/banner/tr/vertical.jpg",
+          "PLP": "/productImages/üst yapı borular/soft-power-ek/banner/tr/PLP.png"
         },
         "link": "/tr/urunler/altyapi-boru-sistemleri/softpower-boru"
       },
@@ -364,7 +365,11 @@
           "flexible": "Esneklik",
           "longLasting": "Uzun Ömür"
         },
-        "link": "/tr/urunler/altyapi-boru-sistemleri/rtp-boru"
+        "link": "/tr/urunler/altyapi-boru-sistemleri/rtp-boru",
+        "banner": {
+          "horizontal": "/productImages/alt yapı boruları/RTP BORU/banner/tr/horizontal.jpg",
+          "PLP": "/productImages/alt yapı boruları/RTP BORU/banner/tr/PLP.png"
+        }
       },
       "telecomPipe": {
         "title": "Telekom Boruları",
@@ -373,7 +378,11 @@
           "durable": "Yüksek Dayanıklılık",
           "easyInstall": "Kolay Kurulum"
         },
-        "link": "/tr/urunler/altyapi-boru-sistemleri/telekom-boru"
+        "link": "/tr/urunler/altyapi-boru-sistemleri/telekom-boru",
+        "banner": {
+          "horizontal": "/productImages/alt yapı boruları/TELEKOM/banner/tr/horizontal.png",
+          "PLP": "/productImages/alt yapı boruları/TELEKOM/banner/tr/PLP.png"
+        }
       },
       "korugePipe": {
         "title": "Koruge Boru",
@@ -383,7 +392,11 @@
           "longLasting": "Uzun Ömür",
           "easyInstall": "Kolay Kurulum"
         },
-        "link": "/tr/urunler/altyapi-boru-sistemleri/koruge-boru"
+        "link": "/tr/urunler/altyapi-boru-sistemleri/koruge-boru",
+        "banner": {
+          "horizontal": "/productImages/alt yapı boruları/Koruge/banner/tr/horizontal.jpg",
+          "PLP": "/productImages/alt yapı boruları/Koruge/banner/tr/PLP.png"
+        }
       },
       "korugeSpiralPipe": {
         "title": "Dizayn Koruge Sarmal Boru",
@@ -393,7 +406,11 @@
           "longLasting": "Uzun Ömür",
           "easyInstallation": "Kolay Kurulum"
         },
-        "link": "/tr/urunler/altyapi-boru-sistemleri/koruge-sarmal-boru"
+        "link": "/tr/urunler/altyapi-boru-sistemleri/koruge-sarmal-boru",
+        "banner": {
+          "horizontal": "/productImages/alt yapı boruları/KorugeSarmal/banner/tr/horizontal.png",
+          "PLP": "/productImages/alt yapı boruları/KorugeSarmal/banner/tr/PLP.png"
+        }
       },
       "pe80Pipe": {
         "title": "Dizayn PE 80 Doğalgaz Boru",
@@ -403,7 +420,11 @@
           "flexible": "Esnek",
           "chemicalResistant": "Kimyasal Dayanım"
         },
-        "link": "/tr/urunler/altyapi-boru-sistemleri/pe-80-dogalgaz-boru"
+        "link": "/tr/urunler/altyapi-boru-sistemleri/pe-80-dogalgaz-boru",
+        "banner": {
+          "horizontal": "/productImages/alt yapı boruları/PE 80/banner/tr/horizontal.png",
+          "PLP": "/productImages/alt yapı boruları/PE 80/banner/tr/PLP.png"
+        }
       },
       "jeotermalPipe": {
         "title": "Dizayn Jeotermal Boru",
@@ -412,6 +433,10 @@
           "highPressure": "Yüksek Isı Dayanımı",
           "longLasting": "Yüksek Isı Dayanımı",
           "corrosionResistant": "Korozyona Dayanıklı"
+        },
+        "banner": {
+          "horizontal": "/productImages/alt yapı boruları/Jeotermal/banner/tr/horizontal.png",
+          "PLP": "/productImages/alt yapı boruları/Jeotermal/banner/tr/PLP.png"
         }
       },
       "denizDesarjPipe": {
@@ -422,7 +447,11 @@
           "corrosion": "Korozyon Direnci",
           "longLasting": "Uzun Ömür"
         },
-        "link": "/tr/urunler/altyapi-boru-sistemleri/deniz-desarj-boru"
+        "link": "/tr/urunler/altyapi-boru-sistemleri/deniz-desarj-boru",
+        "banner": {
+          "horizontal": "/productImages/alt yapı boruları/Deniz Desarj/banner/tr/horizontal.png",
+          "PLP": "/productImages/alt yapı boruları/Deniz Desarj/banner/tr/PLP.png"
+        }
       },
       "chemicalTank": {
         "title": "Dizayn Kimyasal Tanklar",
@@ -432,7 +461,11 @@
           "recyclable": "Geri Dönüşümlü",
           "chemicalResistant": "Yüksek Kimyasal Dayanım"
         },
-        "link": "/tr/urunler/altyapi-boru-sistemleri/kimyasal-tanklar"
+        "link": "/tr/urunler/altyapi-boru-sistemleri/kimyasal-tanklar",
+        "banner": {
+          "horizontal": "/productImages/alt yapı boruları/kimyasal-tanklar/banner/tr/horizontal.png",
+          "PLP": "/productImages/alt yapı boruları/kimyasal-tanklar/banner/tr/PLP.png"
+        }
       },
       "header": "Altyapı Boru Sistemleri"
     },
@@ -563,7 +596,8 @@
     }
   },
   "NewTechPipe": {
-    "description": "Yeni nesil, üstün teknolojili borularımız ile tanışın."
+    "description": "Yeni nesil, üstün teknolojili borularımız ile tanışın.",
+    "title": "Yenilikçi Ürünlerimiz ile Tanışın"
   },
   "FAQs": {
     "header": "Sıkça Sorulan Sorular"
@@ -659,7 +693,17 @@
     "productLink": "/tr/urunler/bina-ici-boru-sistemleri",
     "productsLink": "/tr/urunler/",
     "productNotFound": "Ürün bulunamadı.",
-    "superStructureProductLink": "/tr/urunler/bina-ici-boru-sistemleri",
-    "infrastructureProductLink": "/tr/urunler/bina-ici-boru-sistemleri"
+    "infrastructureProducts": {
+      "home": "Ürünler",
+      "products": "Ürünler",
+      "productLink": "/tr/urunler/altyapi-boru-sistemleri",
+      "productNotFound": "Ürün bulunamadı."
+    },
+    "superStructureProduct": {
+      "home": "Ürünler",
+      "products": "Ürünler",
+      "productLink": "/tr/urunler/bina-ici-boru-sistemleri",
+      "productNotFound": "Ürün bulunamadı."
+    }
   }
 }

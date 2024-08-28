@@ -16,7 +16,6 @@ const Page = ({ params }: { params: { product: string } }) => {
     (item) => item.link.split('/')[item.link.split('/').length - 1] === params.product,
   );
 
-
   if (product === undefined) {
     return <div>{t('productNotFound')}</div>;
   }
@@ -29,9 +28,11 @@ const Page = ({ params }: { params: { product: string } }) => {
 
       <div className="ml-5 mt-3">
         <Breadcrumbs>
-          <BreadcrumbItem href="/">{t('home')}</BreadcrumbItem>
-          <BreadcrumbItem href={t('infrastructureProductLink')}>{t('products')}</BreadcrumbItem>
-          <BreadcrumbItem href={`/urunler/${params.product}`}>
+          <BreadcrumbItem href={`/${language}`}>{t('home')}</BreadcrumbItem>
+          <BreadcrumbItem href={`/${language}/urunler/altyapi-boru-sistemleri`}>
+            {t('products')}
+          </BreadcrumbItem>
+          <BreadcrumbItem href={`/${language}/urunler/${params.product}`}>
             {params.product.replace('-', ' ').toUpperCase()}
           </BreadcrumbItem>
         </Breadcrumbs>
@@ -90,7 +91,6 @@ const Page = ({ params }: { params: { product: string } }) => {
 
       <FAQs faqs={productDetail?.faqs} />
     </section>
-
   );
 };
 

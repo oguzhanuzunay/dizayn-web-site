@@ -167,7 +167,7 @@ const Products = () => {
           <p className="text-center font-sans text-lg">{t('description')}</p>
         </div>
 
-        <div className="relative my-3 flex w-full flex-row gap-4 px-2 max-md:flex-col">
+        <div className="relative my-3 flex w-full flex-row gap-4 px-2 max-lg:flex-col">
           <div className="absolute left-0 top-0 z-0 size-full bg-contain opacity-45 " />
           {superStructureProducts
             .filter((item) => item.featuredProduct === true)

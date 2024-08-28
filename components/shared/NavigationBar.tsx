@@ -212,7 +212,7 @@ const NavigationBar = () => {
         {/* Fiyat Listesi */}
         <NavbarMenuItem>
           <Link
-            className="mt-3 flex w-full items-center justify-center rounded-md bg-blue-500 px-2 py-1 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:bg-blue-600"
+            className="mt-3 flex w-full items-center justify-center rounded-md bg-blue-500 px-2 py-1 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:bg-blue-600 "
             href="/dizayn-fiyat-listesi.pdf"
             target="blank"
             size="md"
@@ -225,7 +225,7 @@ const NavigationBar = () => {
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
               className="w-full text-gray-900"
-              href={`/${item.name.toLowerCase()}`}
+              href={item.link}
               size="md"
             >
               {item.name}
@@ -255,9 +255,17 @@ const NavigationBar = () => {
             <AccordionItem
               title={
                 <div className="flex items-center justify-between">
-                  <span className="text-2xl">{locale === 'tr' ? 'Türkçe' : 'English'}</span>
+                  <div className="flex items-center gap-2">
+                    <Image
+                      src={`/language/${locale}.png`}
+                      alt={locale}
+                      width={32}
+                      height={32}
+                    />
+                    <span className="text-2xl">{locale === 'tr' ? 'Türkçe' : 'English'}</span>
+                  </div>
                   <FaChevronDown
-                    className={`" max-w-4 transition-transform duration-300 ${
+                    className={`max-w-4 transition-transform duration-300 ${
                       openAccordion === 'language' ? 'rotate-180' : ''
                     }`}
                   />

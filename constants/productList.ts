@@ -70,7 +70,7 @@ export const productList: productListParams = {
           vertical: '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/vertical.jpg',
           horizontal: '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/tr/horizontal.png',
           bgImage: '/productImages/üst yapı borular/elite-pipe-ve-ek/banner/tr/bg-image.png',
-          PLP: 'productImages/üst yapı borular/elite-pipe-ve-ek/banner/tr/PLP.png',
+          PLP: `/productImages/üst yapı borular/soft-power-ek/banner/tr/PLP.png`,
         },
         image: '/productImages/üst yapı borular/elite-pipe-ve-ek/elitePipeBanner.png',
         background: 'bg-background-1',
@@ -4674,8 +4674,8 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         isNewTech: true,
         banner: {
           vertical: '/productImages/üst yapı borular/soft-power-ek/banner/vertical.jpg',
-          horizontal: '/productImages/üst yapı borular/soft-power-ek/banner/tr/horizontal.png',
-          PLP: '/productImages/üst yapı borular/soft-power-ek/banner/tr/PLP.png',
+          horizontal: '/productImages/üst yapı borular/soft-power-ek/banner/en/horizontal.png',
+          PLP: '/productImages/üst yapı borular/soft-power-ek/banner/en/PLP.png',
           bgImage: '',
         },
         image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
@@ -4865,8 +4865,8 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         isNewTech: true,
         banner: {
           vertical: '/productImages/alt yapı boruları/RTP BORU/banner/vertical.jpg',
-          horizontal: '/productImages/alt yapı boruları/RTP BORU/banner/tr/horizontal.png',
-          PLP: '/productImages/alt yapı boruları/RTP BORU/banner/tr/PLP.png',
+          horizontal: '/productImages/alt yapı boruları/RTP BORU/banner/en/horizontal.png',
+          PLP: '/productImages/alt yapı boruları/RTP BORU/banner/en/PLP.png',
           bgImage: '',
         },
         image: '/productImages/alt yapı boruları/RTP BORU/RTP1.png',
@@ -5118,8 +5118,8 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         isNewTech: true,
         banner: {
           vertical: '/productImages/alt yapı boruları/TELEKOM/banner/vertical.jpg',
-          horizontal: '/productImages/alt yapı boruları/TELEKOM/banner/tr/horizontal.png',
-          PLP: '/productImages/alt yapı boruları/TELEKOM/banner/tr/PLP.png',
+          horizontal: '/productImages/alt yapı boruları/TELEKOM/banner/en/horizontal.png',
+          PLP: '/productImages/alt yapı boruları/TELEKOM/banner/en/PLP.png',
           bgImage: '',
         },
         image: '/productImages/alt yapı boruları/TELEKOM/TELEKOM BORU 1.png',
@@ -5574,11 +5574,11 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         logo: '/productImages/alt yapı boruları/Koruge/logo.png',
         banner: {
           vertical: '/productImages/alt yapı boruları/Koruge/banner/vertical.jpg',
-          horizontal: '/productImages/alt yapı boruları/Koruge/banner/tr/horizontal.jpg',
-          PLP: '/productImages/alt yapı boruları/Koruge/banner/tr/PLP.png',
+          horizontal: '/productImages/alt yapı boruları/Koruge/banner/en/horizontal.png',
+          PLP: '/productImages/alt yapı boruları/Koruge/banner/en/PLP.png',
           bgImage: '',
         },
-        image: '/productImages/alt yapı boruları/Koruge/Koruge BORU.png',
+        image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 2.png',
         link: '/en/urunler/altyapi-boru-sistemleri/koruge-boru',
         highlights: [
           {
@@ -5642,7 +5642,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
               description: 'Dizayn Corrugated Pipe',
             },
             {
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 3.png',
+              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 1.png',
               alt: 'Dizayn Corrugated Pipe',
               description: 'Dizayn Corrugated Pipe',
             },
@@ -5790,8 +5790,8 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         logo: '/productImages/alt yapı boruları/KorugeSarmal/logo.png',
         banner: {
           vertical: '/productImages/alt yapı boruları/KorugeSarmal/banner/vertical.jpg',
-          horizontal: '/productImages/alt yapı boruları/KorugeSarmal/banner/tr/horizontal.png',
-          PLP: '/productImages/alt yapı boruları/KorugeSarmal/banner/tr/PLP.png',
+          horizontal: '/productImages/alt yapı boruları/KorugeSarmal/banner/en/horizontal.png',
+          PLP: '/productImages/alt yapı boruları/KorugeSarmal/banner/en/PLP.png',
           bgImage: '',
         },
         image: '/productImages/alt yapı boruları/KorugeSarmal/koruge-sarmal-2.png',
@@ -5960,8 +5960,8 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         logo: '/productImages/alt yapı boruları/PE 80/logo.png',
         banner: {
           vertical: '/productImages/alt yapı boruları/PE 80/banner/vertical.jpg',
-          horizontal: '/productImages/alt yapı boruları/PE 80/banner/tr/horizontal.png',
-          PLP: '/productImages/alt yapı boruları/PE 80/banner/tr/PLP.png',
+          horizontal: '/productImages/alt yapı boruları/PE 80/banner/en/horizontal.png',
+          PLP: '/productImages/alt yapı boruları/PE 80/banner/en/PLP.png',
           bgImage: '',
         },
         image: '/productImages/alt yapı boruları/PE 80/PE 80 BORU.png',
@@ -6200,8 +6200,8 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         logo: '/productImages/alt yapı boruları/Jeotermal/logo.png',
         banner: {
           vertical: '/productImages/alt yapı boruları/Jeotermal/banner/vertical.jpg',
-          horizontal: '/productImages/alt yapı boruları/Jeotermal/banner/tr/horizontal.png',
-          PLP: '/productImages/alt yapı boruları/Jeotermal/banner/tr/PLP.png',
+          horizontal: '/productImages/alt yapı boruları/Jeotermal/banner/en/horizontal.png',
+          PLP: '/productImages/alt yapı boruları/Jeotermal/banner/en/PLP.png',
           bgImage: '',
         },
         image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU.png',
@@ -6407,8 +6407,8 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         logo: '/productImages/alt yapı boruları/Deniz Desarj/logo.png',
         banner: {
           vertical: '/productImages/alt yapı boruları/Deniz Desarj/banner/vertical.jpg',
-          horizontal: '/productImages/alt yapı boruları/Deniz Desarj/banner/tr/horizontal.png',
-          PLP: '/productImages/alt yapı boruları/Deniz Desarj/banner/tr/PLP.png',
+          horizontal: '/productImages/alt yapı boruları/Deniz Desarj/banner/en/horizontal.png',
+          PLP: '/productImages/alt yapı boruları/Deniz Desarj/banner/en/PLP.png',
           bgImage: '',
         },
         image: '/productImages/alt yapı boruları/Deniz Desarj/Deniz Desarj BORU.png',
@@ -6441,14 +6441,14 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             },
             {
               title: 'Long Lifetime',
-              icon: '/icons/long-lifetime.png',
+              icon: '/icons/long-lasting.png',
               alt: 'Long Lifetime',
               description:
                 'These pipes offer long-lasting and reliable use with a minimum service life of 50 years.',
             },
             {
               title: 'Hydraulic Smoothness',
-              icon: '/icons/hydraulic-smooth.png',
+              icon: '/icons/hydraulic.png',
               alt: 'Hydraulic Smoothness',
               description:
                 'Thanks to its hydraulic smoothness, it allows fluids to be transported at higher flow rates and reduces project costs.',
@@ -6587,8 +6587,8 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         logo: '/productImages/alt yapı boruları/kimyasal-tanklar/logo.png',
         banner: {
           vertical: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/vertical.jpg',
-          horizontal: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/tr/horizontal.png',
-          PLP: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/tr/PLP.png',
+          horizontal: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/en/horizontal.png',
+          PLP: '/productImages/alt yapı boruları/kimyasal-tanklar/banner/en/PLP.png',
           bgImage: '',
         },
         image: '/productImages/alt yapı boruları/kimyasal-tanklar/kimyasal-tanklar.png',
