@@ -35,7 +35,7 @@ const NavigationBar = () => {
   const icons = {
     chevron: (
       <ChevronDown
-        fill="currentColor"
+        fill="black"
         size={16}
         height={16}
         width={16}
@@ -64,7 +64,9 @@ const NavigationBar = () => {
         },
         {
           name: t('menuList.indoor.name'),
-          description: t('menuList.indoor.description'),
+          description: t('menuList.indoor.description'
+
+          ),
           icons: '/icons/pipe.png',
           link: t('menuList.indoor.link'),
         },
@@ -76,7 +78,6 @@ const NavigationBar = () => {
     { name: t('menuList.ourProject.name'), link: t('menuList.ourProject.link') },
     { name: t('menuList.certificates.name'), link: t('menuList.certificates.link') },
     { name: t('menuList.contact.name'), link: t('menuList.contact.link') },
-    { name: t('menuList.arge.name'), link: t('menuList.arge.link') },
   ];
 
   const router = useRouter(); // Add this line to import the 'router' object

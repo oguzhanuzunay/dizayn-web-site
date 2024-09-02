@@ -909,18 +909,6 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               alt: 'NanoTech Atık Su Borusu',
               description: 'NanoTech Atık Su Borusu',
             },
-            {
-              image:
-                '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/NANOTEK ATIK SU BORU.png',
-              alt: 'NanoTech Atık Su Borusu',
-              description: 'NanoTech Atık Su Borusu',
-            },
-            {
-              image:
-                '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/atık-su-nanotek-boru-ve-ek-3.png',
-              alt: 'NanoTech Atık Su Borusu',
-              description: 'NanoTech Atık Su Borusu',
-            },
           ],
 
           headers: [
@@ -929,7 +917,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               description:
                 'Dizayn Grup NanoTech Atık Su Boruları, performansı ve yüksek kalitesi ile 50 mm - 200 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. NanoTech Atık Su Boruları, bina içi ve dışı atık su tahliyesi için ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. NanoTech Atık Su Boruları <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
               image:
-                '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/NANOTEK S SİFON DİRSEKLİ 45.png',
+                '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/NANOTEK S SİFON DİRSEKLİ 90.png',
               alt: 'NanoTech Atık Su Borusu',
             },
             {
@@ -1248,7 +1236,8 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           PLP: '/productImages/üst yapı borular/ppr-boru-ve-ek/banner/tr/PLP.png',
           bgImage: '',
         },
-        image: '/productImages/üst yapı borular/ppr-boru-ve-ek/üst yapı borular/ppr-boru-ve-ek.png',
+        image:
+          '/productImages/üst yapı borular/ppr-boru-ve-ek/BEYAZ BORULAR/BEYAZ PPR BORU TOPLU.png',
         link: '/tr/urunler/bina-ici-boru-sistemleri/ppr-boru',
         highlights: [
           { title: 'Yüksek Dayanım', icon: '/icons/high-durability.png' },
@@ -1300,19 +1289,13 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           images: [
             {
               image:
-                '/productImages/üst yapı borular/ppr-boru-ve-ek/üst yapı borular/ppr-boru-ve-ek.png',
+                '/productImages/üst yapı borular/ppr-boru-ve-ek/BEYAZ BORULAR/BEYAZ PPR BORU TOPLU.png',
               alt: 'PPR Boru',
               description: 'PPR Boru',
             },
             {
               image:
-                '/productImages/üst yapı borular/ppr-boru-ve-ek/üst yapı borular/ppr-boru-ve-ek-2.png',
-              alt: 'PPR Boru',
-              description: 'PPR Boru',
-            },
-            {
-              image:
-                '/productImages/üst yapı borular/ppr-boru-ve-ek/üst yapı borular/ppr-boru-ve-ek-3.png',
+                '/productImages/üst yapı borular/ppr-boru-ve-ek/BEYAZ BORULAR/BEYAZ HI-TECH PPR BORU TOPLU.png',
               alt: 'PPR Boru',
               description: 'PPR Boru',
             },
@@ -1323,7 +1306,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               description:
                 'Dizayn Grup PPR Boruları, performansı ve yüksek kalitesi ile 20 mm - 125 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. PPR Boruları, sıcak ve soğuk su tesisatlarında ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. PPR Boruları <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
               image:
-                '/productImages/üst yapı borular/ppr-boru-ve-ek/üst yapı borular/ppr-boru-ve-ek.png',
+                '/productImages/üst yapı borular/ppr-boru-ve-ek/BEYAZ BORULAR/UV KATKILI OKSİ PLUS BORU (ALÜMİNYUM FOLYOLU) TOPLU.png',
               alt: 'PPR Boru',
             },
             {
@@ -2720,12 +2703,12 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         featuredProduct: false,
         logo: '/productImages/alt yapı boruları/Jeotermal/logo.png',
         banner: {
-          vertical: '/productImages/alt yapı boruları/Jeotermal/banner/vertical.jpg',
-          horizontal: '/productImages/alt yapı boruları/Jeotermal/banner/tr/horizontal.png',
-          PLP: '/productImages/alt yapı boruları/Jeotermal/banner/tr/PLP.png',
+          vertical: '/productImages/alt yapı boruları/JEOTERMAL/banner/vertical.jpg',
+          horizontal: '/productImages/alt yapı boruları/JEOTERMAL/banner/tr/horizontal.png',
+          PLP: '/productImages/alt yapı boruları/JEOTERMAL/banner/tr/PLP.png',
           bgImage: '',
         },
-        image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU.png',
+        image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU.png',
         link: '/tr/urunler/altyapi-boru-sistemleri/jeotermal-boru',
         highlights: [
           { title: 'Yüksek Isı Dayanımı', icon: '/icons/high-temperature.png' },
@@ -3938,7 +3921,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
               description:
                 'Design Group NanoTech Wastewater Pipes are produced in diameters ranging from 50 mm to 200 mm and various pressure classes, offering ideal solutions for indoor and outdoor wastewater discharge. Their long-lasting and durable structure will make them essential for your projects. For the NanoTech Wastewater Pipes <b>Price List</b>, you can obtain information by calling our line at <b>0212 886 57 41</b>.',
               image:
-                '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/NANOTEK S SIFON DİRSEKLİ 45.png',
+                '/productImages/üst yapı borular/atık-su-nanotek-boru-ve-ek/NANOTEK S SİFON DİRSEKLİ 45.png',
               alt: 'NanoTech Wastewater Pipe',
             },
             {
@@ -4534,21 +4517,15 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
           images: [
             {
               image:
-                '/productImages/üst yapı borular/ppr-boru-ve-ek/üst yapı borular/ppr-boru-ve-ek.png',
-              alt: 'PPR Pipe',
-              description: 'PPR Pipe',
+                '/productImages/üst yapı borular/ppr-boru-ve-ek/BEYAZ BORULAR/BEYAZ PPR BORU TOPLU.png',
+              alt: 'PPR Boru',
+              description: 'PPR Boru',
             },
             {
               image:
-                '/productImages/üst yapı borular/ppr-boru-ve-ek/üst yapı borular/ppr-boru-ve-ek-2.png',
-              alt: 'PPR Pipe',
-              description: 'PPR Pipe',
-            },
-            {
-              image:
-                '/productImages/üst yapı borular/ppr-boru-ve-ek/üst yapı borular/ppr-boru-ve-ek-3.png',
-              alt: 'PPR Pipe',
-              description: 'PPR Pipe',
+                '/productImages/üst yapı borular/ppr-boru-ve-ek/BEYAZ BORULAR/BEYAZ HI-TECH PPR BORU TOPLU.png',
+              alt: 'PPR Boru',
+              description: 'PPR Boru',
             },
           ],
           headers: [
@@ -4556,9 +4533,9 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
               title: '<b>PPR Pipe</b> and Accessories',
               description:
                 'Design Group PPR Pipes are manufactured in diameters ranging from 20 mm to 125 mm and various pressure classes, offering ideal solutions for hot and cold water installations. Their long-lasting and durable structure will make them indispensable for your projects. For the PPR Pipes <b>Price List</b>, you can obtain information by calling our line at <b>0212 886 57 41</b>.',
-              image:
-                '/productImages/üst yapı borular/ppr-boru-ve-ek/üst yapı borular/ppr-boru-ve-ek.png',
-              alt: 'PPR Pipe',
+                image:
+                '/productImages/üst yapı borular/ppr-boru-ve-ek/BEYAZ BORULAR/UV KATKILI OKSİ PLUS BORU (ALÜMİNYUM FOLYOLU) TOPLU.png',
+              alt: 'PPR Boru',
             },
             {
               title: 'Advantages of PPR Pipe',

@@ -24,10 +24,6 @@ const VizyonVeMisyon = () => {
       link: t('tarihce.link'),
     },
     {
-      title: t('vizyon-ve-misyon.title'),
-      link: t('vizyon-ve-misyon.link'),
-    },
-    {
       title: t('taahhutname.title'),
       link: t('taahhutname.link'),
     },
@@ -71,13 +67,13 @@ const VizyonVeMisyon = () => {
           </div>
 
           <div className="ml-4 flex w-1/2 flex-col items-start justify-center gap-3 max-md:ml-0 max-md:w-full max-md:pt-3">
-          {t.rich('vizyon-ve-misyon.content', {
-                h2: (chunks) => <h2 className="font-semibold text-2xl mb-2">{chunks}</h2>,
-                h3: (chunks) => <h3 className="font-semibold text-xl mb-2">{chunks}</h3>,
-                p: (chunks) => <p className="pb-2">{chunks}</p>,
-                b: (chunks) => <b className="font-semibold">{chunks}</b>,
-                li: (chunks) => <li className="list-disc">{chunks}</li>,
-              })}
+            {t.rich('vizyon-ve-misyon.content', {
+              h2: (chunks) => <h2 className="mb-2 text-2xl font-semibold">{chunks}</h2>,
+              h3: (chunks) => <h3 className="mb-2 text-xl font-semibold">{chunks}</h3>,
+              p: (chunks) => <p className="pb-2">{chunks}</p>,
+              b: (chunks) => <b className="font-semibold">{chunks}</b>,
+              li: (chunks) => <li className="list-disc">{chunks}</li>,
+            })}
           </div>
         </div>
       </div>

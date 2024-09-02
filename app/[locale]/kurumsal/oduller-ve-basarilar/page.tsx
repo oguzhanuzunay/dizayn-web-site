@@ -30,10 +30,6 @@ const OdullerVeBasarılar = () => {
       title: t('taahhutname.title'),
       link: t('taahhutname.link'),
     },
-    {
-      title: t('oduller-ve-basarilar.title'),
-      link: t('oduller-ve-basarilar.link'),
-    },
   ];
 
   return (
@@ -72,8 +68,8 @@ const OdullerVeBasarılar = () => {
           <div className="ml-4 flex w-1/2 flex-col items-start justify-center gap-3 max-md:ml-0 max-md:w-full max-md:pt-3">
             <div>
               {t.rich('oduller-ve-basarilar.content', {
-                h2: (chunks) => <h2 className="font-semibold text-2xl mb-2">{chunks}</h2>,
-                h3: (chunks) => <h3 className="font-semibold text-xl mb-2">{chunks}</h3>,
+                h2: (chunks) => <h2 className="mb-2 text-2xl font-semibold">{chunks}</h2>,
+                h3: (chunks) => <h3 className="mb-2 text-xl font-semibold">{chunks}</h3>,
                 p: (chunks) => <p className="pb-2">{chunks}</p>,
                 b: (chunks) => <b className="font-semibold">{chunks}</b>,
                 li: (chunks) => <li className="list-disc">{chunks}</li>,
