@@ -42,8 +42,8 @@ const Tarihce = () => {
       <div className="relative z-0 mx-auto max-w-7xl px-6 sm:px-16">
         <Header text={t('tarihce.title')} />
 
-        <div className="flex w-full items-start justify-center py-3 max-md:flex-col ">
-          <div className="flex w-1/2 flex-col items-center justify-start max-md:w-full">
+        <div className="flex flex-col w-full items-start justify-center py-3 max-md:flex-col ">
+          <div className="flex w-full flex-col items-center justify-start max-md:w-full">
             <div className="m-1 flex flex-row flex-wrap gap-3 p-3">
               {kurumsalLinks
                 .filter(
@@ -62,7 +62,7 @@ const Tarihce = () => {
                 ))}
             </div>
             <Image
-              src="/images/tarih.png"
+              src="/images/timeline3.pdf"
               alt="tarihce"
               width={600}
               height={600}
@@ -70,13 +70,13 @@ const Tarihce = () => {
             />
           </div>
 
-          <div className="ml-4 flex w-1/2 flex-col items-start justify-center gap-3 max-md:ml-0 max-md:w-full max-md:pt-3">
-            <h3 className="text-lg font-semibold">{t('tarihce.content.0')}</h3>
-            <p>{t('tarihce.content.1')}</p>
-
-            <p>{t('tarihce.content.2')}</p>
-
-            <p>{t('tarihce.content.3')}</p>
+          <div className="ml-4 flex w-full flex-col items-start justify-center gap-3 max-md:ml-0 max-md:w-full max-md:pt-3">
+            <div>
+              {t.rich('tarihce.content', {
+                p: (chunks) => <p className='pb-2'>{chunks}</p>,
+                h2: (chunks) => <h2 className="font-semibold text-2xl mb-2">{chunks}</h2>,
+              })}
+            </div>
           </div>
         </div>
       </div>

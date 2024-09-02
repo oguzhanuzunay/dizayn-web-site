@@ -73,28 +73,10 @@ const Kurumsal = () => {
             </div>
 
             <div className="ml-4 flex w-1/2 flex-col items-start justify-center gap-3 max-md:ml-0 max-md:w-full max-md:pt-3">
-              <p className="font-quicksand">{t('kurumsal.content.0')}</p>
-
-              <p>{t.rich('kurumsal.content.1')}</p>
-
-              <p>{t.rich('kurumsal.content.2')}</p>
-
-              <p>{t.rich('kurumsal.content.3')}</p>
-
-              <p>{t.rich('kurumsal.content.4')}</p>
-              <p>{t.rich('kurumsal.content.5')}</p>
-
-              <p>{t.rich('kurumsal.content.6')}</p>
-
-              <p>{t.rich('kurumsal.content.7')}</p>
-
-              <p>- {t.rich('kurumsal.content.8')}</p>
-              <p>- {t.rich('kurumsal.content.9')}</p>
-
-              <p>- t({t.rich('kurumsal.content.10')})</p>
-
-              <p>{t.rich('kurumsal.content.11')}</p>
-              <p>{t.rich('kurumsal.content.12')}</p>
+              {t.rich('kurumsal.content', {
+                p: (chunks) => <p>{chunks}</p>,
+                b: (chunks) => <b>{chunks}</b>,
+              })}
             </div>
           </div>
         </div>

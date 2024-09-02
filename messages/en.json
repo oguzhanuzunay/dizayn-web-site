@@ -472,8 +472,11 @@
     "description": "Meet our new generation, high-tech pipes."
   },
   "oduller-ve-basarilar": {
-    "kurumsal": "corporate",
-    "tarihce": "history"
+    "title": "Awards and Achievements",
+    "content": "",
+    "link": "/en/corporate/awards-and-achievements",
+    "vision": "our vision",
+    "mission": "Our Mission"
   },
   "CountUpComp": {
     "yearsInBusiness": "Year in Industry",
@@ -626,68 +629,31 @@
   },
   "Kurumsal": {
     "kurumsal": {
-      "content": {
-        "0": "Mir Holding was established 37 years ago. \nThe philosophy of our first established company was shaped on R&D (research and development). \nOur first R&D output was \"on the subject of pipes\" and from there Dizayn Group was born. \nAs of today, Dizayn Group, our first industrial company, produces pipes for various sectors with diameters from 20 mm to 8 m and pressures from 0.5 Bar to 200 Bar.",
-        "1": "Mir Holding",
-        "2": "It has factories in Türkiye, Germany, Azerbaijan and the Russian Federation.               \nGermany",
-        "3": "He is also a partner and Board Member of Mir Holding Istanbul University Technopark.",
-        "4": "Mir Holding",
-        "5": "- 50 in R&D field only",
-        "6": "It has more than 100 patents, 70% of which have been converted into production.",
-        "7": "- It has the largest private research laboratory in Turkey.",
-        "8": "It has successfully completed the defense industry's largest budget (10.2 million USD) project (a material ten times stronger than steel and five times lighter). \nIt is the third company worldwide to have this technology, after America and Canada.",
-        "10": "The 2 billion USD SERAKENT project investment in Eskişehir is progressing rapidly.",
-        "11": "We achieved this success together with all our stakeholders. \nI express my deep gratitude to them.",
-        "12": "İbrahim Mirmahmutoğulları Chairman of the Board of Directors of Mir Holding"
-      },
+      "content": "<p>MESSAGE FROM OUR CHAIRMAN OF THE BOARD</p><p><b>Mir Holding</b> was established in 1987 to make breakthroughs in the fields in which it operates today. \nThe first output of the activities carried out for<b>R&D (research and development)</b>in the field of expertise of its founder was<b>\"pipe field\"</b>and from here Dizayn Group was born. \nOur first industrial company,<b>Dizayn Group</b>today, produces pipes from 20 mm to 8 m in diameter and from 0.5 Bar pressure to 200 Bar pressure in order to meet different needs from all sectors.</p>< p>Mir Holding<b>includes 17 companies that \"operate in the fields of pipe, agriculture, energy, construction, defense industry and continue R&D studies in a wide range of fields.\"</p><p>Turkey factory It has been serving in Çorlu for many years and is expanding and growing. \nLater, Ms. Angela Merkel was also present at the opening ceremony of the facility, which was established in Germany, the heart of engineering, to carry its know-how to Europe and other nearby geographies, and expressed her satisfaction for the value our institution will add to her country.</p><p>Also< b>Mir Holding</b>He is a partner and Board Member of Istanbul University Technopark.</p><p><b>Mir Holding;</b></p><p>- 50 companies in the field of R&D alone. It employs more than 100 R&D engineers with doctoral degrees, 25 professors and a total of 150 researchers. \nIt is the leader in Turkey in terms of the number of patents converted into production.</p><p>- It has more than 100 patents, 70% of which have been converted into production.</p><p>- It has the largest private research laboratory in Turkey. </p><p>- It has successfully completed the largest budget project of the defense industry in our country. \nIt is the third company in the world to have this technology, after America and Canada.</p><p><b>(Production of a material ten times stronger and five times lighter than steel with a budget of 10.2 million USD)</b></p>< p>- It has successfully completed the project with the largest budget in the European Union and transformed it into an industry.</p><p><b>(Smart and green city project with a budget of 49 million Euros)</b></p><p>- The<b>SERAKENT project</b>investment, which started with 2 billion USD and was completed in Eskişehir, was completed quickly.</p><p>We achieved this success together with all our stakeholders. \nI express my deep gratitude to them.</p><p><b>İbrahim Mirmahmutoğulları</b></p><p><b>Mir Holding Chairman of the Board of Directors</b></p>",
       "title": "Corporate",
       "link": "/en/corporate"
     },
     "tarihce": {
       "title": "History",
-      "content": {
-        "0": "QUALITY REACHING THE CONTINENTS FOR 37 YEARS",
-        "1": "Dizayn Group, which was established in 1987 to carry out research and development activities, took the first steps towards its current structure in 1991 by producing PPR pipes and fittings with specially designed molecular structure, which was its first R&D output. \nAs Dizayn brand became identified with the production and sales of pipes and their elements over time, it was positioned as a pipe brand and our R&D company was given an independent structure under the name Mir AR&GE.             \nDizayn Group, together with our Mir R&D company and other subsidiaries, was gathered under the umbrella of Mir Holding as of 2010.",
-        "2": "Dizayn Group, which has produced firsts for Turkey in 37 years, broken world records, and become a leading company in technology in its sector with dozens of patents it has turned into industry, has exported to more than 85 countries and become a world brand with its experience and high production power. \nWith the factory it opened in Russia in 2015 and the investment it made in Europe in 2016, it set the milestones to become a local brand in the important markets in which it carries its name.",
-        "3": "Adopting continuous development for the development of Turkey and the welfare of its stakeholders, Dizayn Group expresses its gratitude to all its stakeholders with whom it has \"designed\" 37 years together, and continues to take steps to increase the benefits it offers to the whole world in order to \"design\" the coming years together."
-      },
+      "content": "<h2>From 1987 to the Present</h2><p>Dizayn Group, which was established in 1987 to carry out research and development activities, produced 'PPR pipes and fittings with specially designed molecular structure', which was its first R&D output in 1991, and continued its current structuring. has taken its first steps. \nSince our company has become synonymous with the production and sales of pipes and pipe elements over time, the Dizayn brand has been positioned as a pipe brand. \nAs a result of Dizayn's identification with pipes and the importance we attach to specialization, our R&D company was given an independent structure under the name Mir AR-GE. \nDizayn Group, together with our Mir R&D company and other subsidiaries, was gathered under the umbrella of Mir Holding as of 2010.</p><p>With dozens of patents that have produced firsts in Turkey since its establishment, broken world records, and turned it into an industry, since the year it was founded. Dizayn Group, the technology pioneer of the sector, has become a world brand by exporting to more than 100 countries with its experience and high production power. \nWith the investments it has made in various parts of the world, it has set milestones in becoming the local brand of the important markets to which it brings its know-how, quality and principles.</p><p>In order to develop its country, the welfare of its stakeholders and to help those in need all over the world. Dizayn Group, which aims at continuous development, expresses its gratitude to all its friends with whom it has walked short or long distances, and continues to take steps that will benefit humanity and the environment in order to \"design\" the coming years together.</p>",
       "link": "/en/corporate/history"
     },
     "vizyon-ve-misyon": {
       "title": "Vision and Mission",
-      "content": {
-        "0": "To become a world brand by producing new technologies that will make a difference in the transportation of fluids.",
-        "1": "In order to transport fluids with the most optimal method; \nTo achieve being a reliable and efficient company by developing problem-specific projects, products and systems with the right technology.",
-        "2": "Our New Product Development Strategies",
-        "3": "Staying away from products that everyone produces or can produce. \n- To produce products that are competitive in terms of quality and price. \n- Being able to think of differences that create value that competitors have not thought of yet. \n- Focusing on products as much as possible. \n- To achieve a sense of completeness in everything we work on. \n- Never imitate the product of a national or international competitor. \n- To create privileges in all developed products and to achieve legal protection with patents."
-      },
-      "link": "/en/corporate/vision-and-mission"
+      "content": "<h3>Our Vision</h3><p>To become a permanent global brand by producing new technologies that will create added value in the transportation of fluids.</p><h3>Our Mission</h3><p>In order to transport fluids with the most optimal method; \nTo achieve being a company that develops reliable and efficient solutions to the right technology, problem-specific projects, product and system development stages.</p><h3>Our New Product Development Strategies</h3><li>Instead of products that can only be produced by meeting minimum conditions, research- To produce products with advanced output and know-how. \n</li><li>Producing products that are competitive in both quality and price. </li><li>Contemplating the problems that the sector does not make an effort to solve or uses primitive methods. </li><li>As much as possible, it is the product, not the market. To progress with focus.</li><li>To be persistent in the issues we work on and to address the problems.</li><li>Never to imitate the product of a national or international competitor.</li>"
     },
+    "link": "/en/corporate/vision-and-mission",
     "taahhutname": {
-      "title": "Letter of Commitment",
-      "content": {
-        "0": "OUR VALUE CYCLE",
-        "1": "Just as people have ideals, institutions should also have ideals. \nIt is inevitable that a system based solely on material expectations will get out of control.             \nThe trouble the world is in today",
-        "2": "Just as individuals must be moral, institutions and products must also be moral.",
-        "3": "He is sensitive to the environment while producing, he is responsible for owning his own waste, he is motivated by the existence of the people he employs, he feels the excitement of what he brings to his country while exporting, and most importantly, he feels at peace with the feeling that the product he produces will be a solution to the basic needs of humanity, and finally he spends a reasonable portion of his earnings in his country, which will not hinder his own growth. Using it as a cure for a problem of people living anywhere in the world or the nature that gives life to those people constitutes the definition of the morality of the institution and the product it produces.",
-        "4": "In our opinion, individuals should also be moral, products should also be moral, institutions should also be moral. \nNo private or legal entity that bases its life on this philosophy can create problems for the world. \nThe happiest family, the best citizen, the most successful manager and the individuals who enlighten those around them with their presence can only come from people who have internalized this kind of approach.",
-        "5": "We know our responsibilities. \nThe world needs Design.",
-        "6": "İbrahim MİRMAHMUTOĞULLARI Chairman of the Board of Directors"
-      },
-      "link": "/en/corporate/commitment"
+      "content": "<h2>OUR VALUE CYCLE</h2><p>Institutions should have ideals just like individuals. \nHowever, it is inevitable that a system built on ideals that only have a counterpart in the bank will get out of control. \nMany processes have been disrupted by the understanding of winning at all costs, and unfortunately this has become one of the biggest problems of the period we live in.</p><p>Institutions should have ideals, just like individuals. \nHowever, it is inevitable that a system built on ideals that only have a counterpart in the bank will get out of control. \nMany processes have been disrupted by the understanding of winning at all costs, and unfortunately this has become one of the biggest problems of the time we live in.</p> <p><b>While producing;</b> being environmentally conscious, taking responsibility for one's own waste, Our main values ​​are to ensure the motivation of the people we employ, to be excited about making profit for our country while exporting, and most importantly, to rest our heads comfortably with the feeling that the product we produce will be a solution to the basic needs of humanity.</p><p>Finally, we spend a reasonable portion of our earnings in our country or abroad, which will not hinder our own growth. Using it as a cure for a problem of people living anywhere in the world or of the nature that gives life to those people, crowns the dedication shown while producing.</p><p>Private or legal entities that base their lives on this philosophy are not the ones creating problems in the world, but the ones solving the problems. They take their place. \nThe happiest family, the best citizen, the most successful manager and the individuals who enlighten those around them with their presence will only emerge from people who have digested this approach.</p><p>İbrahim MİRMAHMUTOĞULLARI Chairman of the Board</p>"
     },
     "oduller-ve-basarilar": {
-      "title": "Awards and Achievements",
-      "content": {
-        "0": "QUALITY REACHING THE CONTINENTS FOR 37 YEARS",
-        "1": "Dizayn Group, which was established in 1987 to carry out research and development activities, took the first steps towards its current structure in 1991 by producing PPR pipes and fittings with specially designed molecular structure, which was its first R&D output. \nAs Dizayn brand became identified with the production and sales of pipes and their elements over time, it was positioned as a pipe brand and our R&D company was given an independent structure under the name Mir AR&GE.             \nDizayn Group, together with our Mir R&D company and other subsidiaries, was gathered under the umbrella of Mir Holding as of 2010.",
-        "2": "Dizayn Group, which has produced firsts for Turkey in 37 years, broken world records, and become a leading company in technology in its sector with dozens of patents it has turned into industry, has exported to more than 85 countries and become a world brand with its experience and high production power. \nWith the factory it opened in Russia in 2015 and the investment it made in Europe in 2016, it set the milestones to become a local brand in the important markets in which it carries its name.",
-        "3": "Adopting continuous development for the development of Turkey and the welfare of its stakeholders, Dizayn Group expresses its gratitude to all its stakeholders with whom it has \"designed\" 37 years together, and continues to take steps to increase the benefits it offers to the whole world in order to \"design\" the coming years together."
-      },
-      "link": "/en/corporate/awards-and-achievements"
-    },
-    "vision": "our vision",
-    "mission": "Our Mission"
+      "content": "<h2>Awards</h2>"
+    }
+  },
+  "taahhutname": {
+    "title": "Letter of Commitment",
+    "content": "",
+    "link": "/en/corporate/commitment"
   },
   "Breadcrumb": {
     "products": "Products",

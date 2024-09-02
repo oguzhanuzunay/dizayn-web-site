@@ -71,16 +71,13 @@ const VizyonVeMisyon = () => {
           </div>
 
           <div className="ml-4 flex w-1/2 flex-col items-start justify-center gap-3 max-md:ml-0 max-md:w-full max-md:pt-3">
-            <p className="font-semibold">{t('vision')}</p>
-
-            <p>{t('vizyon-ve-misyon.content.0')}</p>
-
-            <p className="font-semibold">{t('mission')}</p>
-            <p>{t('vizyon-ve-misyon.content.1')}</p>
-
-            <p className="font-semibold">{t('vizyon-ve-misyon.content.2')}</p>
-
-            <div>- {t('vizyon-ve-misyon.content.3')}</div>
+          {t.rich('vizyon-ve-misyon.content', {
+                h2: (chunks) => <h2 className="font-semibold text-2xl mb-2">{chunks}</h2>,
+                h3: (chunks) => <h3 className="font-semibold text-xl mb-2">{chunks}</h3>,
+                p: (chunks) => <p className="pb-2">{chunks}</p>,
+                b: (chunks) => <b className="font-semibold">{chunks}</b>,
+                li: (chunks) => <li className="list-disc">{chunks}</li>,
+              })}
           </div>
         </div>
       </div>

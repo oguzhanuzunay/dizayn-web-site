@@ -6,6 +6,7 @@ import { getMessages } from 'next-intl/server';
 import Footer from '@/components/shared/Footer';
 import { Metadata } from 'next';
 // eslint-disable-next-line camelcase
+import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 // eslint-disable-next-line camelcase
 import { Quicksand, Red_Hat_Display, Roboto, Space_Grotesk } from 'next/font/google';
@@ -48,6 +49,7 @@ export default async function LocaleLayout({
       <body
         className={`${roboto.className} ${spaceGrotesk.className} ${redHatDisplay.className} ${quicksand.className}`}
       >
+        <Analytics />
         <SpeedInsights />
         <NextIntlClientProvider messages={messages}>
           <NavigationBar />
