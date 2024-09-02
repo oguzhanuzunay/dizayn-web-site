@@ -3,6 +3,7 @@ import { languageTexts } from '@/constants';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 
+
 import Footer from '@/components/shared/Footer';
 import { Metadata } from 'next';
 // eslint-disable-next-line camelcase
