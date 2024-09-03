@@ -1,6 +1,5 @@
 'use client';
 import dizaynLogo from '@/public/dizayn-logo.png';
-import { ChevronDown } from '@/public/icons/icons';
 import {
   Accordion,
   AccordionItem,
