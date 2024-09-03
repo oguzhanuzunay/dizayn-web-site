@@ -64,7 +64,8 @@ const LangChanger: React.FC<LangChangerProps> = ({
           className="max-xl:min-w-7"
         />
         <span className="ml-2 hidden xl:flex">{locale === 'tr' ? 'Türkçe' : 'English'}</span>
-        <FaChevronDown />
+                 <FaChevronDown
+                    className={`min-w-4 transition-transform duration-300 ${dropdown === true ? 'rotate-180' : '' }`} />
       </button>
       {dropdown && (
         <ul className="absolute left-0 top-full mt-0 rounded bg-gray-100 shadow-lg ">

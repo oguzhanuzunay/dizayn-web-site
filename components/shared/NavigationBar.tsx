@@ -34,13 +34,14 @@ const NavigationBar = () => {
   const locale = useLocale();
   const icons = {
     chevron: (
-      <ChevronDown
+      <FaChevronDown
         fill="black"
         size={16}
         height={16}
         width={16}
       />
     ),
+    
   };
   const [isHomePage, setIsHomePage] = useState(false);
   useEffect(() => {
@@ -205,6 +206,7 @@ const NavigationBar = () => {
         <LangChanger
           locale={locale}
           changeLanguage={changeLanguage}
+
         />
       </NavbarContent>
 
