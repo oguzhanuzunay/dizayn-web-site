@@ -273,7 +273,7 @@ const Certificates = () => {
                `}
                     />
                   </CardBody>
-                  <CardFooter className="w-[200px] max-lg:w-full justify-between text-xs">
+                  <CardFooter className="w-[200px] justify-between text-xs max-lg:w-full">
                     <b>{item.title.toString()}</b>
                   </CardFooter>
                 </Card>
