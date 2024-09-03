@@ -437,7 +437,8 @@
         "banner": {
           "horizontal": "/productImages/alt yapı boruları/JEOTERMAL/banner/tr/horizontal.png",
           "PLP": "/productImages/alt yapı boruları/JEOTERMAL/banner/tr/PLP.png"
-        }
+        },
+        "link": "/tr/urunler/altyapi-boru-sistemleri/jeotermal-boru"
       },
       "denizDesarjPipe": {
         "title": "Dizayn Deniz Deşarj Boruları",

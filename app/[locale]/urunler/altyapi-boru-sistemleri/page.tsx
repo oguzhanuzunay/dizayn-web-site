@@ -176,7 +176,7 @@ const AltYapı = () => {
         bgImage: '',
       },
       image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU.png',
-      link: '/tr/urunler/altyapi-boru-sistemleri/jeotermal-boru',
+      link: t('jeotermalPipe.link'),
       highlights: [
         { title: t('jeotermalPipe.highlights.highPressure'), icon: '/icons/high-temperature.png' },
         {

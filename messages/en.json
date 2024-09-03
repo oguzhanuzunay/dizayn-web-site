@@ -409,7 +409,8 @@
         "banner": {
           "horizontal": "/productImages/alt yapı boruları/JEOTERMAL/banner/en/horizontal.png",
           "PLP": "/productImages/alt yapı boruları/JEOTERMAL/banner/en/PLP.png"
-        }
+        },
+        "link": "/en/urunler/altyapi-boru-sistemleri/jeotermal-boru"
       },
       "denizDesarjPipe": {
         "title": "Dizayn Marine Discharge Pipes",
