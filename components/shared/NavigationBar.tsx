@@ -40,7 +40,6 @@ const NavigationBar = () => {
         width={16}
       />
     ),
-    
   };
   const [isHomePage, setIsHomePage] = useState(false);
   useEffect(() => {
@@ -64,9 +63,7 @@ const NavigationBar = () => {
         },
         {
           name: t('menuList.indoor.name'),
-          description: t('menuList.indoor.description'
-
-          ),
+          description: t('menuList.indoor.description'),
           icons: '/icons/pipe.png',
           link: t('menuList.indoor.link'),
         },
@@ -129,8 +126,9 @@ const NavigationBar = () => {
               {page.submenu.map((item: any) => (
                 <DropdownItem
                   className="flex rounded-md p-0 hover:bg-gray-300"
-                  key={item.name}
                   description={item.description}
+                  key={item.name}
+                  href={item.link}
                   startContent={
                     item.icons ? (
                       <Image
@@ -142,7 +140,7 @@ const NavigationBar = () => {
                     ) : null
                   }
                 >
-                  <Link href={item.link}>{item.name}</Link>
+                  {item.name}
                 </DropdownItem>
               ))}
             </DropdownMenu>
@@ -205,7 +203,6 @@ const NavigationBar = () => {
         <LangChanger
           locale={locale}
           changeLanguage={changeLanguage}
-
         />
       </NavbarContent>
 
