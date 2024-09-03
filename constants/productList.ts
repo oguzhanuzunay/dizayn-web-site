@@ -2701,7 +2701,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         description:
           'Dizayn Jeotermal Boruları, sıcak ve soğuk akışkanların ısı transferini engelleyen kompozit borulardır.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/Jeotermal/logo.png',
+        logo: '/productImages/alt yapı boruları/JEOTERMAL/logo.png',
         banner: {
           vertical: '/productImages/alt yapı boruları/JEOTERMAL/banner/vertical.jpg',
           horizontal: '/productImages/alt yapı boruları/JEOTERMAL/banner/tr/horizontal.png',
@@ -2766,12 +2766,12 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
               description: 'Dizayn Jeotermal Boru',
             },
             {
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 3.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 3.png',
               alt: 'Dizayn Jeotermal Boru',
               description: 'Dizayn Jeotermal Boru',
             },
             {
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 4.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 4.png',
               alt: 'Dizayn Jeotermal Boru',
               description: 'Dizayn Jeotermal Boru',
             },
@@ -2847,49 +2847,49 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
           fittings: [
             {
               title: 'Jeotermal Eşit Te',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 2.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 2.png',
               alt: 'Jeotermal Eşit Te',
               category: 'Fittings',
             },
             {
               title: 'Jeotermal Redüksiyon',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 3.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 3.png',
               alt: 'Jeotermal Redüksiyon',
               category: 'Fittings',
             },
             {
               title: 'Jeotermal Semer',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 4.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 4.png',
               alt: 'Jeotermal Semer',
               category: 'Fittings',
             },
             {
               title: 'Jeotermal Dirsekler',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 2.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 2.png',
               alt: 'Jeotermal Dirsekler',
               category: 'Fittings',
             },
             {
               title: 'Jeotermal İnegal Te',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 3.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 3.png',
               alt: 'Jeotermal İnegal Te',
               category: 'Fittings',
             },
             {
               title: 'Jeotermal Manşon',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 4.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 4.png',
               alt: 'Jeotermal Manşon',
               category: 'Fittings',
             },
             {
               title: 'Jeotermal Körtapa',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 2.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 2.png',
               alt: 'Jeotermal Körtapa',
               category: 'Fittings',
             },
             {
               title: 'Jeotermal Flanş Adaptörü',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 3.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 3.png',
               alt: 'Jeotermal Flanş Adaptörü',
               category: 'Fittings',
             },
@@ -4533,7 +4533,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
               title: '<b>PPR Pipe</b> and Accessories',
               description:
                 'Design Group PPR Pipes are manufactured in diameters ranging from 20 mm to 125 mm and various pressure classes, offering ideal solutions for hot and cold water installations. Their long-lasting and durable structure will make them indispensable for your projects. For the PPR Pipes <b>Price List</b>, you can obtain information by calling our line at <b>0212 886 57 41</b>.',
-                image:
+              image:
                 '/productImages/üst yapı borular/ppr-boru-ve-ek/BEYAZ BORULAR/UV KATKILI OKSİ PLUS BORU (ALÜMİNYUM FOLYOLU) TOPLU.png',
               alt: 'PPR Boru',
             },
@@ -6172,14 +6172,14 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         description:
           'Dizayn Geothermal Pipes are composite pipes that prevent heat transfer of hot and cold fluids.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/Jeotermal/logo.png',
+        logo: '/productImages/alt yapı boruları/JEOTERMAL/logo.png',
         banner: {
-          vertical: '/productImages/alt yapı boruları/Jeotermal/banner/vertical.jpg',
-          horizontal: '/productImages/alt yapı boruları/Jeotermal/banner/en/horizontal.png',
-          PLP: '/productImages/alt yapı boruları/Jeotermal/banner/en/PLP.png',
+          vertical: '/productImages/alt yapı boruları/JEOTERMAL/banner/vertical.jpg',
+          horizontal: '/productImages/alt yapı boruları/JEOTERMAL/banner/en/horizontal.png',
+          PLP: '/productImages/alt yapı boruları/JEOTERMAL/banner/en/PLP.png',
           bgImage: '',
         },
-        image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU.png',
+        image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU.png',
         link: '/en/urunler/altyapi-boru-sistemleri/jeotermal-boru',
         highlights: [
           {
@@ -6243,12 +6243,12 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
               description: 'Dizayn Geothermal Pipe',
             },
             {
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 3.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 3.png',
               alt: 'Dizayn Geothermal Pipe',
               description: 'Dizayn Geothermal Pipe',
             },
             {
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 4.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 4.png',
               alt: 'Dizayn Geothermal Pipe',
               description: 'Dizayn Geothermal Pipe',
             },
@@ -6323,49 +6323,49 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
           fittings: [
             {
               title: 'Geothermal Equal Tee',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 2.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 2.png',
               alt: 'Geothermal Equal Tee',
               category: 'Fittings',
             },
             {
               title: 'Geothermal Reducer',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 3.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 3.png',
               alt: 'Geothermal Reducer',
               category: 'Fittings',
             },
             {
               title: 'Geothermal Saddle',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 4.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 4.png',
               alt: 'Geothermal Saddle',
               category: 'Fittings',
             },
             {
               title: 'Geothermal Elbows',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 2.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 2.png',
               alt: 'Geothermal Elbows',
               category: 'Fittings',
             },
             {
               title: 'Geothermal Reducing Tee',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 3.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 3.png',
               alt: 'Geothermal Reducing Tee',
               category: 'Fittings',
             },
             {
               title: 'Geothermal Coupler',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 4.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 4.png',
               alt: 'Geothermal Coupler',
               category: 'Fittings',
             },
             {
               title: 'Geothermal End Cap',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 2.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 2.png',
               alt: 'Geothermal End Cap',
               category: 'Fittings',
             },
             {
               title: 'Geothermal Flange Adapter',
-              image: '/productImages/alt yapı boruları/Jeotermal/Jeotermal BORU 3.png',
+              image: '/productImages/alt yapı boruları/JEOTERMAL/Jeotermal BORU 3.png',
               alt: 'Geothermal Flange Adapter',
               category: 'Fittings',
             },
