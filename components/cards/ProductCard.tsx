@@ -50,7 +50,7 @@ const ProductCard = ({
             flex-col items-center justify-center rounded-lg
             py-4 text-center  text-black"
               >
-                <div className="mb-3 flex w-full flex-row items-center justify-center bg-white">
+                <div className="mb-3 flex h-10 w-full flex-row items-center justify-center bg-white">
                   {logo !== '' ? (
                     <Image
                       src={logo}

@@ -117,7 +117,7 @@ const Footer = () => {
   const imageContent: imageContentParams[] = [
     {
       title: t('imageContent.domesticProduction'),
-      image: '/icons/market-positioning.png',
+      image: '/icons/atom.png',
       alt: t('imageContent.domesticProduction').toString().toLowerCase().replace(' ', '-'),
     },
     {
@@ -162,17 +162,6 @@ const Footer = () => {
   return (
     <div className="flex flex-col">
       <div className="flex flex-row items-end justify-around gap-5 bg-slate-800 px-5 max-lg:flex-wrap max-md:gap-3 max-sm:gap-0">
-        {/* Logo part */}
-        <div className="flex justify-center py-8 max-sm:py-6 ">
-          <Image
-            src={'/dizayn_logo_white.png'}
-            alt="Dizayn Logo"
-            width={200}
-            height={120}
-            className="
-            max-h-[120px] max-w-fit max-md:max-h-20 max-md:max-w-fit max-sm:max-h-16 max-sm:max-w-fit"
-          />
-        </div>
 
         {/* highlighted part */}
         <div className="flex h-full flex-row items-center justify-between gap-8 py-10 max-lg:gap-4 max-lg:pt-2 max-md:flex-wrap max-md:justify-center max-md:gap-6 max-md:pt-1 max-sm:gap-4 max-sm:pb-2 max-sm:pt-0">

@@ -221,32 +221,32 @@ const Locale = ({ params }: { params: { locale: string; countryName: string } })
             {
               name: t('turkey.spiral-corrugated.certificate-1'),
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-Koruge/DIN 16961 SARMAL BELGELENDİRME.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/DIN 16961 SARMAL BELGELENDİRME.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-koruge/DIN 16961 SARMAL BELGELENDİRME.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-koruge/DIN 16961 SARMAL BELGELENDİRME.pdf',
             },
             {
               name: t('turkey.spiral-corrugated.certificate-2'),
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-Koruge/ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-koruge/ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093_00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-koruge/ISRAEL INSTITUTE OF QUALITY CORRUGATED PIPE CERTIFICATE 112093.pdf',
             },
             {
               name: t('turkey.spiral-corrugated.certificate-3'),
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-Koruge/İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG__00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG_.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-koruge/İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG__00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-koruge/İSRAİL KALİTE ENSTİTÜSÜ SPİRAL SARIMLI BORU SERTİFİKASI -112093-ENG_.pdf',
             },
             {
               name: t('turkey.spiral-corrugated.certificate-4'),
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-Koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI_00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI.pdf',
             },
             {
               name: t('turkey.spiral-corrugated.certificate-5'),
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-Koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-Koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI_00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI.pdf',
             },
           ],
         },
