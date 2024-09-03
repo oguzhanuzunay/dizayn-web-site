@@ -305,7 +305,7 @@ const Locale = ({ params }: { params: { locale: string; countryName: string } })
       <div className="flex w-full flex-col flex-wrap items-start justify-start">
         {list?.certificates.map((certificate) => (
           <div key={certificate.product}>
-            <h3 className="w-[200px] max-lg:w-full text-start font-semibold text-gray-500">
+            <h3 className="w-[200px] text-start font-semibold text-gray-500 max-lg:w-full">
               {certificate.product}
             </h3>
             <div className="my-5 flex w-full flex-wrap items-center justify-start gap-3 max-md:flex max-sm:flex-col">
@@ -317,7 +317,7 @@ const Locale = ({ params }: { params: { locale: string; countryName: string } })
                   className="m-3 rounded-md bg-slate-100 p-3 transition-all duration-300 hover:scale-105 hover:bg-slate-200 hover:shadow-lg"
                 >
                   <div className=" bg-white p-3 ">
-                    <p className="text-sm w-[200px] text-start font-quicksand font-normal text-gray-500">
+                    <p className="w-[200px] text-start font-quicksand text-sm font-normal text-gray-500">
                       {pdf.name.toUpperCase()}
                     </p>
                     <Image
