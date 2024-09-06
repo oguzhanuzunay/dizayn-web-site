@@ -586,7 +586,7 @@ const dealerList: dealerListParams = [
     id: 102231,
     cityId: 42,
     name: 'YAKARER NAKLİYAT VE PAZARLAMA LTD.Ş',
-    phone: '0 533 686 95 65',
+    phone: '444 7 957',
     address: 'KARATAY/KONYA',
     email: '',
     mapsLink: '',
