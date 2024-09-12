@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build postbuild",
+    "build": "next build ",
     "start": "next start",
     "lint": "next lint",
-    "postbuild": "next-sitemap"
+    "prepublish": "next-sitemap"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.4.2",
