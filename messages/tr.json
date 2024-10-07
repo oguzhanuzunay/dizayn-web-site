@@ -1,4 +1,9 @@
 {
+  "404": {
+    "notFoundTitle": "404 - Sayfa Bulunamadı",
+    "notFoundMessage": "Aradığınız sayfa mevcut değil.",
+    "goHome": "Ana sayfaya dön"
+  },
   "HomePage": {
     "title": "Hoş geldin Dünya"
   },
@@ -671,5 +676,8 @@
       "productLink": "/tr/urunler/bina-ici-boru-sistemleri",
       "productNotFound": "Ürün bulunamadı."
     }
+  },
+  "NotFoundPage": {
+    "title": "Sayfa Bulunamadı"
   }
 }

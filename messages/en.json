@@ -1,4 +1,9 @@
 {
+  "404": {
+    "notFoundTitle": "404 - Page Not Found",
+    "notFoundMessage": "The page you are looking for does not exist.",
+    "goHome": "Go back to the homepage"
+  },
   "HomePage": {
     "title": "Hello world!"
   },
@@ -666,5 +671,8 @@
     "home": "Home Page",
     "productNotFound": "Product not found.",
     "infrastructureProductLink": "/en/urunler/bina-ici-boru-sistemleri"
+  },
+  "NotFoundPage": {
+    "title": "Page Not Found"
   }
 }
