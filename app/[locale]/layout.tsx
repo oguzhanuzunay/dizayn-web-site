@@ -29,8 +29,10 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: languageTexts.tr?.meta.title ?? '',
-  description: languageTexts.tr?.meta.description ?? '',
+  title: languageTexts.tr?.meta.title ?? 'Design Group - Pipe Systems and PP-R Pipe Prices',
+  description:
+    languageTexts.tr?.meta.description ??
+    'Pipe, Plastic Pipe, ElitePipe, PPR pipe, PPRC pipe, PPRC Pipe, PPRC Pipe Prices, PPRC Pipe Prices',
   icons: '/favicon.ico',
 };
 
