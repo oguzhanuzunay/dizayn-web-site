@@ -141,13 +141,13 @@ const Footer = () => {
     },
     {
       name: 'Instagram',
-      link: 'https://www.instagram.com/dizayngrup',
+      link: 'https://www.instagram.com/dizayngroup',
       image: '/icons/socialMedia/instagram.png',
       alt: 'instagram',
     },
     {
       name: 'Linkedin',
-      link: 'https://www.linkedin.com/company/dizayngrup',
+      link: 'https://www.linkedin.com/company/dizayn-grup',
       image: '/icons/socialMedia/linkedin.png',
       alt: 'linkedin',
     },

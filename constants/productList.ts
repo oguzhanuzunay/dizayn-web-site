@@ -1428,7 +1428,7 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
           bgImage: '',
         },
         image: '/productImages/üst yapı borular/soft-power-ek/SOFT POWER BORU 2.png',
-        link: '/tr/urunler/alt yapı boruları/softpower-boru',
+        link: '/tr/urunler/altyapi-boru-sistemleri/softpower-boru',
         highlights: [
           { title: 'Darbeye Dayanıklı', icon: '/icons/durable.png' },
           { title: 'Esnek', icon: '/icons/flexible.png' },

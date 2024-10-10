@@ -30,7 +30,7 @@ const Page = ({ params }: { params: { product: string } }) => {
       <div className="ml-5 mt-3">
         <Breadcrumbs>
           <BreadcrumbItem href="/">{t('home')}</BreadcrumbItem>
-          <BreadcrumbItem href="/tr/urunler/bina-ici-boru-sistemleri	">
+          <BreadcrumbItem href="/tr/urunler/bina-ici-boru-sistemleri">
             {t('products')}
           </BreadcrumbItem>
           <BreadcrumbItem href={`tr/ürünler/${params.product}`}>
