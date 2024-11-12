@@ -3,6 +3,7 @@ import Hero from '@/components/Carousel/HeroSlider';
 import CountUpComp from '@/components/CountUpComp';
 import MapComponent from '@/components/MapComponent/MapComponent';
 import NewTechPipes from '@/components/NewTechPipes';
+import Popup from '@/components/PopUp/PopUp';
 import { useEffect, useState } from 'react';
 
 export default function Home() {
@@ -33,14 +34,14 @@ export default function Home() {
       <section className="container mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <MapComponent show={false} />
       </section>
-      
-      {/* isPopupVisible && (
+
+      {false && isPopupVisible && (
         <Popup
           src="/pop-ups/popup-image.jpg" // Görsel URL'sini dışarıdan veriyoruz
           altText="Açıklayıcı Metin" // İsteğe bağlı
           onClose={handleClosePopup}
         />
-      ) */}
+      )}
     </main>
   );
 }
