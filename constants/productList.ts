@@ -727,7 +727,7 @@ export const productList: productListParams = {
         <li><b>Düşük Sürtünme Direnci</b>: Verimli tesisat performansı için düşük sürtünme direnci.</li>
         <li><b>Oksijen Bariyeri</b>: Oksijen bariyerli model, korozyonu %100 önler.</li>
         <li><b>Kendi Kendini Tamir Etme</b>: Montaj esnasında genişletmelerden sonra eski haline hızla dönme özelliği.</li>
-        <li><b>Ekonomiklik</b>: Muadili PEX-A borulara göre daha ekonomik ve uzun ömürlü.</li>
+        <li><b>Ekonomiklik</b>: Muadili borulara göre daha ekonomik ve uzun ömürlü.</li>
     </ul>
 
     ElasticA Boruları, yerden ısıtma ve radyatörlü sistemlerde güvenle kullanılabilir. Bu üstün teknik özellikler sayesinde, ElasticA Boruları en iyi çözüm olarak öne çıkmaktadır. Dizayn ElasticA Boruları ile tesisatlarınızda maksimum güvenlik ve verimlilik sağlayın.
@@ -3344,7 +3344,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         productDetails: {
           title: 'ElitePipe',
           description:
-            'ElitePipe has been developed as a result of 7 years of R&D work by our Mir R&D Company. We have created a new and unique hybrid product by optimizing the welding ability of PPR, the high temperature performance of PEX, and the elasticity of PERT. ElitePipe can be safely used in both indoor and outdoor plumbing applications.',
+            'ElitePipe has been developed as a result of 7 years of R&D work by our Mir R&D Company. We have created a new and unique hybrid product by optimizing the welding ability of PPR, the high temperature performance, and the elasticity of PERT. ElitePipe can be safely used in both indoor and outdoor plumbing applications.',
           features: [
             {
               title: 'High Temperature High Pressure Resistance',
@@ -4148,7 +4148,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               title: 'Technical Features of Elastica Pipe',
               description:
-                'Design Group Elastica Pipes stand out with their high temperature and pressure resistance. Here are the technical features of Elastica Pipes: <ul> <li><b>Operating Temperature</b>: Continuous 95°C, momentary 120°C temperature resistance.</li> <li><b>Operating Pressure</b>: 11 bar pressure resistance.</li> <li><b>Material</b>: Specially formulated PE-RT (Polyethylene of Raised Temperature Resistance) material.</li> <li><b>Easy Installation</b>: Easy installation even in cold weather without heating.</li> <li><b>Durability</b>: High temperature and pressure resistance, superior resistance against breaking and cracking in cold weather.</li> <li><b>Low Friction Resistance</b>: Efficient system performance due to low friction resistance.</li> <li><b>Oxygen Barrier</b>: Oxygen-barrier model completely prevents corrosion.</li> <li><b>Self-Repairing</b>: Quickly returns to its original state after expansions during installation.</li> <li><b>Economic</b>: More economical and long-lasting compared to equivalent PEX-A pipes.</li> </ul> Elastica Pipes can be safely used in underfloor and radiator systems. With these superior technical features, Elastica Pipes stand out as the best solution. Achieve maximum safety and efficiency in your installations with Design Group Elastica Pipes.',
+                'Design Group Elastica Pipes stand out with their high temperature and pressure resistance. Here are the technical features of Elastica Pipes: <ul> <li><b>Operating Temperature</b>: Continuous 95°C, momentary 120°C temperature resistance.</li> <li><b>Operating Pressure</b>: 11 bar pressure resistance.</li> <li><b>Material</b>: Specially formulated PE-RT (Polyethylene of Raised Temperature Resistance) material.</li> <li><b>Easy Installation</b>: Easy installation even in cold weather without heating.</li> <li><b>Durability</b>: High temperature and pressure resistance, superior resistance against breaking and cracking in cold weather.</li> <li><b>Low Friction Resistance</b>: Efficient system performance due to low friction resistance.</li> <li><b>Oxygen Barrier</b>: Oxygen-barrier model completely prevents corrosion.</li> <li><b>Self-Repairing</b>: Quickly returns to its original state after expansions during installation.</li> <li><b>Economic</b>: More economical and long-lasting compared to equivalent pipes.</li> </ul> Elastica Pipes can be safely used in underfloor and radiator systems. With these superior technical features, Elastica Pipes stand out as the best solution. Achieve maximum safety and efficiency in your installations with Design Group Elastica Pipes.',
             },
             {
               title: 'Elastica Pipe <b>Fittings</b>',
