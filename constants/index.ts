@@ -1149,6 +1149,15 @@ const dealerList: dealerListParams = [
     email: '',
     mapsLink: '',
   },
+  {
+    id: 102053,
+    cityId: 35,
+    name: 'TAYHAN ÖMÜR YAPI MALZ.İNŞ.TAAH.',
+    phone: '+90 541 585 87 90',
+    address: 'URLA/İZMİR',
+    email: '',
+    mapsLink: '',
+  },
 ];
 
 const showroomProduct: matrixCardParams = {
@@ -1270,11 +1279,4 @@ const kurumsalLinks: {
   ],
 };
 
-export {
-  dealerList,
-  kurumsalLinks,
-  languageTexts,
-  productList,
-  showroomProduct,
-  sliderItems,
-};
+export { dealerList, kurumsalLinks, languageTexts, productList, showroomProduct, sliderItems };
