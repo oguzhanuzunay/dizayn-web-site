@@ -1152,7 +1152,7 @@ const dealerList: dealerListParams = [
   {
     id: 102053,
     cityId: 35,
-    name: 'TAYHAN ÖMÜR YAPI MALZ.İNŞ.TAAH.',
+    name: 'TTürkmenoğlu Yapı',
     phone: '+90 541 585 87 90',
     address: 'URLA/İZMİR',
     email: '',
