@@ -1153,7 +1153,7 @@ const dealerList: dealerListParams = [
     id: 102053,
     cityId: 35,
     name: 'Türkmenoğlu Yapı',
-    phone: '+90 541 585 87 90',
+    phone: '0541 585 87 90',
     address: 'URLA/İZMİR',
     email: '',
     mapsLink: '',
