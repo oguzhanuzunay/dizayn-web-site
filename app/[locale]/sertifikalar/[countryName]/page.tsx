@@ -17,6 +17,7 @@ export interface countryCertificateParams {
   }[];
 }
 
+
 const Locale = ({ params }: { params: { locale: string; countryName: string } }) => {
   const t = useTranslations('Certificates');
 
