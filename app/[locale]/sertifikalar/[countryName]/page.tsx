@@ -17,7 +17,6 @@ export interface countryCertificateParams {
   }[];
 }
 
-
 const Locale = ({ params }: { params: { locale: string; countryName: string } }) => {
   const t = useTranslations('Certificates');
 
@@ -74,13 +73,13 @@ const Locale = ({ params }: { params: { locale: string; countryName: string } })
               name: t('turkey.pex.certificate-2'),
               image:
                 '/certificates/files/tr/imgs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI.pdf',
+              link: '/certificates/files/tr/pdfs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI.PDF',
             },
             {
               name: t('turkey.pex.certificate-3'),
               image:
                 '/certificates/files/tr/imgs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce)_00001.jpg',
-              link: '/certificates/files/tr/pdfs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce).pdf',
+              link: '/certificates/files/tr/pdfs/PEX/TS 10762-2 PEX-B EN ISO 15875-2 PEX-A BORU TSE  SERTİFİKASI(ingilizce).PDF',
             },
           ],
         },
@@ -172,31 +171,31 @@ const Locale = ({ params }: { params: { locale: string; countryName: string } })
               name: t('turkey.ppr.certificate-2'),
               image:
                 '/certificates/files/tr/imgs/PPR-Sert/TS 13715 CAM ELYAF TAKVİYELİ KOMPOZİT BORU_00001.jpg',
-              link: '/certificates/files/tr/pdfs/PPR-Sert/TS 13715 CAM ELYAF TAKVİYELİ KOMPOZİT BORU.pdf',
+              link: '/certificates/files/tr/pdfs/PPR-Sert/TS 13715 CAM ELYAF TAKVİYELİ KOMPOZİT BORU.PDF',
             },
             {
               name: t('turkey.ppr.certificate-3'),
               image:
                 '/certificates/files/tr/imgs/PPR-Sert/TS EN ISO 15874-2 PPR BORU TSE  SERTİFİKASI(ingilizce)_00001.jpg',
-              link: '/certificates/files/tr/pdfs/PPR-Sert/TS EN ISO 15874-2 PPR BORU TSE  SERTİFİKASI(ingilizce).pdf',
+              link: '/certificates/files/tr/pdfs/PPR-Sert/TS EN ISO 15874-2 PPR BORU TSE  SERTİFİKASI(ingilizce).PDF',
             },
             {
               name: t('turkey.ppr.certificate-4'),
               image:
                 '/certificates/files/tr/imgs/PPR-Sert/TS EN ISO 15874-2 PPR BORU TSE  SERTİFİKASI(türkçe)_00001.jpg',
-              link: '/certificates/files/tr/pdfs/PPR-Sert/TS EN ISO 15874-2 PPR BORU TSE  SERTİFİKASI(türkçe).pdf',
+              link: '/certificates/files/tr/pdfs/PPR-Sert/TS EN ISO 15874-2 PPR BORU TSE  SERTİFİKASI(türkçe).PDF',
             },
             {
               name: t('turkey.ppr.certificate-5'),
               image:
                 '/certificates/files/tr/imgs/PPR-Sert/TS EN ISO 15874-3 PPR FIT. TSE  SERTİFİKASI(ingilizce)_00001.jpg',
-              link: '/certificates/files/tr/pdfs/PPR-Sert/TS EN ISO 15874-3 PPR FIT. TSE  SERTİFİKASI(ingilizce).pdf',
+              link: '/certificates/files/tr/pdfs/PPR-Sert/TS EN ISO 15874-3 PPR FIT. TSE  SERTİFİKASI(ingilizce).PDF',
             },
             {
               name: t('turkey.ppr.certificate-6'),
               image:
                 '/certificates/files/tr/imgs/PPR-Sert/TS EN ISO 15874-3 PPR FIT. TSE  SERTİFİKASI(turkçe)_00001.jpg',
-              link: '/certificates/files/tr/pdfs/PPR-Sert/TS EN ISO 15874-3 PPR FIT. TSE  SERTİFİKASI(turkçe).pdf',
+              link: '/certificates/files/tr/pdfs/PPR-Sert/TS EN ISO 15874-3 PPR FIT. TSE  SERTİFİKASI(turkçe).PDF',
             },
           ],
         },
