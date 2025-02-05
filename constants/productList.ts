@@ -62,7 +62,7 @@ export const productList: productListParams = {
       {
         title: 'ElitePipe',
         description:
-          'ElitePipe, yüksek sıcaklık ve basınç dayanımı ile güvenli ve uzun ömürlü bir boru sistemidir. PPR, PEX ve PERT boruların avantajlarını bir araya getirerek, üstün performans ve dayanıklılık sağlar.',
+          'ElitePipe, yüksek sıcaklık ve basınç dayanımı ile güvenli ve uzun ömürlü bir boru sistemidir. PPR ve PERT boruların avantajlarını bir araya getirerek, üstün performans ve dayanıklılık sağlar.',
         featuredProduct: true,
         logo: '/productImages/üst yapı borular/elite-pipe-ve-ek/logo.png',
         isNewTech: true,
@@ -280,7 +280,7 @@ export const productList: productListParams = {
             {
               question: 'ElitePipe borular hangi malzemeden üretilir?',
               answer:
-                'ElitePipe borular, PPR (Polipropilen Random Kopolimer), PEX (Çapraz Bağlantılı Polietilen) ve PERT (Yüksek Sıcaklık Dayanımlı Polietilen) malzemelerinin en iyi özelliklerini birleştiren hibrit bir yapıya sahiptir. Bu malzemelerin kombinasyonu, borulara yüksek sıcaklık ve basınca dayanıklılık, esneklik ve uzun ömür sağlar.',
+                'ElitePipe borular, PPR (Polipropilen Random Kopolimer) ve PERT (Yüksek Sıcaklık Dayanımlı Polietilen) malzemelerinin en iyi özelliklerini birleştiren hibrit bir yapıya sahiptir. Bu malzemelerin kombinasyonu, borulara yüksek sıcaklık ve basınca dayanıklılık, esneklik ve uzun ömür sağlar.',
             },
             {
               question: 'ElitePipe boruların kullanım alanları nelerdir?',
@@ -3314,7 +3314,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
       {
         title: 'ElitePipe',
         description:
-          'ElitePipe is a safe and long-lasting pipe system with high temperature and pressure resistance. It combines the advantages of PPR, PEX, and PERT pipes to provide superior performance and durability.',
+          'ElitePipe is a safe and long-lasting pipe system with high temperature and pressure resistance. It combines the advantages of PPR, and PERT pipes to provide superior performance and durability.',
         featuredProduct: true,
         logo: '/productImages/üst yapı borular/elite-pipe-ve-ek/logo.png',
         isNewTech: true,
@@ -3449,7 +3449,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               title: '<b>ElitePipe</b> and Fittings',
               description:
-                'Combining the best features of PPR, PEX, and PERT pipes, it offers high temperature and pressure resistance, flexibility, and breakage resistance. Fittings ensure the system works safely and efficiently, providing ease of installation and low pressure loss. Their flexible and easy-to-shape structures save time and costs. ElitePipe and fittings perform excellently in hot-cold water plumbing, heating systems, and solar energy systems. Developed with high technology and engineering expertise, this system offers users superior quality and reliability.',
+                'Combining the best features of PPR, and PERT pipes, it offers high temperature and pressure resistance, flexibility, and breakage resistance. Fittings ensure the system works safely and efficiently, providing ease of installation and low pressure loss. Their flexible and easy-to-shape structures save time and costs. ElitePipe and fittings perform excellently in hot-cold water plumbing, heating systems, and solar energy systems. Developed with high technology and engineering expertise, this system offers users superior quality and reliability.',
             },
             {
               title: 'ElitePipe <b>Advantages</b>',
@@ -3531,7 +3531,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               question: 'What material are ElitePipe pipes made from?',
               answer:
-                'ElitePipe pipes are a hybrid structure that combines the best features of PPR (Polypropylene Random Copolymer), PEX (Cross-Linked Polyethylene), and PERT (High Temperature Resistant Polyethylene). This combination of materials provides the pipes with high temperature and pressure resistance, flexibility, and longevity.',
+                'ElitePipe pipes are a hybrid structure that combines the best features of PPR (Polypropylene Random Copolymer), and PERT (High Temperature Resistant Polyethylene). This combination of materials provides the pipes with high temperature and pressure resistance, flexibility, and longevity.',
             },
             {
               question: 'What are the applications for ElitePipe pipes?',
