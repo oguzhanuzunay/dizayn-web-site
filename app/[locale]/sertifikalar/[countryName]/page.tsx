@@ -119,7 +119,7 @@ const Locale = ({ params }: { params: { locale: string; countryName: string } })
               name: t('turkey.watewater-pipe.certificate-4'),
               image:
                 '/certificates/files/tr/imgs/atıksu-boru-ve-ekleme-parca-sertifikaları/TS EN 1451-1 ATIKSU BORU VE EK PARÇALARI TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/atıksu-boru-ve-ekleme-parca-sertifikaları/TS EN 1451-1 ATIKSU BORU VE EK PARÇALARI TSE  SERTİFİKASI.pdf',
+              link: '/certificates/files/tr/pdfs/atıksu-boru-ve-ekleme-parca-sertifikaları/TS EN 1451-1 ATIKSU BORU VE EK PARÇALARI TSE  SERTİFİKASI.PDF',
             },
             {
               name: t('turkey.watewater-pipe.certificate-5'),
