@@ -10,6 +10,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 // eslint-disable-next-line camelcase
 import { Quicksand, Red_Hat_Display, Roboto, Space_Grotesk } from 'next/font/google';
+import Image from 'next/image';
 import Script from 'next/script';
 import React from 'react';
 import './globals.css';
@@ -63,6 +64,34 @@ export default async function LocaleLayout({
           }}
         />
         {/* End Google Tag Manager */}
+        {/* Facebook Pixel Kodunuz */}
+        <Script
+          id="facebook-pixel"
+          strategy="afterInteractive" // Sayfa interaktif olduktan sonra yüklenir.
+          dangerouslySetInnerHTML={{
+            __html: `
+              !function(f,b,e,v,n,t,s)
+              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+              n.queue=[];t=b.createElement(e);t.async=!0;
+              t.src=v;s=b.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t,s)}(window, document,'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+              fbq('init', '1009168214401004');
+              fbq('track', 'PageView');
+            `,
+          }}
+        />
+        <noscript>
+          <Image
+            height="1"
+            width="1"
+            style={{ display: 'none' }}
+            src="https://www.facebook.com/tr?id=1009168214401004&ev=PageView&noscript=1"
+            alt="Facebook Pixel"
+          />
+        </noscript>
       </head>
       <body
         className={`${roboto.className} ${spaceGrotesk.className} ${redHatDisplay.className} ${quicksand.className}`}
@@ -77,6 +106,7 @@ export default async function LocaleLayout({
           ></iframe>
         </noscript>
         {/* End Google Tag Manager (noscript) */}
+
         <Analytics />
         <SpeedInsights />
         <NextIntlClientProvider messages={messages}>
