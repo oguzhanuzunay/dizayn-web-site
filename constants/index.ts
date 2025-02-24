@@ -1284,6 +1284,15 @@ const dealerList: dealerListParams = [
     email: '',
     mapsLink: '',
   },
+  {
+    id: 102295,
+    cityId: 81,
+    name: 'PARDA YAPI MARKET',
+    phone: '0530 170 85 08',
+    address: 'Battalgazi/Malatya',
+    email: '',
+    mapsLink: '',
+  },
 ];
 
 const showroomProduct: matrixCardParams = {
