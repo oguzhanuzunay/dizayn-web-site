@@ -81,6 +81,12 @@ const heroSlider: HeroSliderParams = {
       link: '/tr/urunler/bina-ici-boru-sistemleri/elitepipe',
     },
     {
+      desktopImage: '/sliderImages/desktop/tr/kaynak_makinesi.jpg',
+      mobileImage: '/sliderImages/mobile/tr/kaynak_makinesi_mobil.jpg',
+      alt: 'Kaynak Makinesi',
+      link: '',
+    },
+    {
       desktopImage: '/sliderImages/desktop/tr/sterilepipe.jpg',
       mobileImage: '/sliderImages/mobile/tr/sterilepipe.jpg',
       alt: 'Sterile Pipe',
