@@ -69,6 +69,12 @@ const heroSlider: HeroSliderParams = {
   ],
   tr: [
     {
+      desktopImage: '/sliderImages/desktop/tr/kaynak_makinesi_slider.jpg',
+      mobileImage: '/sliderImages/mobile/tr/kaynak_makinesi_slider.jpg',
+      alt: 'Kaynak Makinesi',
+      link: '/tr/urunler/kaynak-makinesi',
+    },
+    {
       desktopImage: '/sliderImages/desktop/tr/elite-pipe.jpg',
       mobileImage: '/sliderImages/mobile/tr/elite-pipe.jpg',
       alt: 'ElitePipe',
