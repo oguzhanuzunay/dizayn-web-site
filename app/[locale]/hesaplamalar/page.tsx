@@ -67,7 +67,7 @@ const Hesaplamalar = () => {
     {
       title: t('corrugatedPipeCalculation'),
       description: t('corrugatedPipeCalculationDescription'),
-      img: '/images/Koruge-boru-hesabi.jpeg',
+      img: '/images/Korige-boru-hesabi.jpeg',
       isComingSoon: true,
     },
   ];

@@ -24,7 +24,7 @@
       },
       "indoor": {
         "name": "Altyapı Boru Sistemleri",
-        "description": "RTP, Koruge, PE80 vb.",
+        "description": "RTP, Korige, PE80 vb.",
         "link": "/tr/urunler/altyapi-boru-sistemleri"
       },
       "dealers": {
@@ -389,32 +389,32 @@
           "PLP": "/productImages/alt yapı boruları/TELEKOM/banner/tr/PLP.png"
         }
       },
-      "korugePipe": {
-        "title": "Koruge Boru",
-        "description": "Koruge Boruları, kanalizasyon sistemlerinde yüksek dayanıklılık ve uzun ömür sunar.",
+      "korigePipe": {
+        "title": "Korige Boru",
+        "description": "Korige Boruları, kanalizasyon sistemlerinde yüksek dayanıklılık ve uzun ömür sunar.",
         "highlights": {
           "durable": "Yüksek Dayanıklılık",
           "longLasting": "Uzun Ömür",
           "easyInstall": "Kolay Kurulum"
         },
-        "link": "/tr/urunler/altyapi-boru-sistemleri/koruge-boru",
+        "link": "/tr/urunler/altyapi-boru-sistemleri/korige-boru",
         "banner": {
-          "horizontal": "/productImages/alt yapı boruları/Koruge/banner/tr/horizontal.jpg",
-          "PLP": "/productImages/alt yapı boruları/Koruge/banner/tr/PLP.png"
+          "horizontal": "/productImages/alt yapı boruları/Korige/banner/tr/horizontal.jpg",
+          "PLP": "/productImages/alt yapı boruları/Korige/banner/tr/PLP.png"
         }
       },
-      "korugeSpiralPipe": {
-        "title": "Dizayn Koruge Sarmal Boru",
+      "korigeSpiralPipe": {
+        "title": "Dizayn Korige Sarmal Boru",
         "description": "Korige sarmal borular, iç ve dış katmanlardan oluşan çift katmanlı bir yapıya sahiptir. İç katman akışkanı taşıyan düz satıhlı borudur. Dış katman ise kaburgalı yapıdadır. Polietilen ve Polipropilen hammaddelerinden üretilmektedir.",
         "highlights": {
           "durable": "Yüksek Dayanıklılık",
           "longLasting": "Uzun Ömür",
           "easyInstallation": "Kolay Kurulum"
         },
-        "link": "/tr/urunler/altyapi-boru-sistemleri/koruge-sarmal-boru",
+        "link": "/tr/urunler/altyapi-boru-sistemleri/korige-sarmal-boru",
         "banner": {
-          "horizontal": "/productImages/alt yapı boruları/KorugeSarmal/banner/tr/horizontal.png",
-          "PLP": "/productImages/alt yapı boruları/KorugeSarmal/banner/tr/PLP.png"
+          "horizontal": "/productImages/alt yapı boruları/KorigeSarmal/banner/tr/horizontal.png",
+          "PLP": "/productImages/alt yapı boruları/KorigeSarmal/banner/tr/PLP.png"
         }
       },
       "pe80Pipe": {
@@ -497,8 +497,8 @@
     "charmingHatCalculationDescription": "Cazibeli hat hesabı yapmak için tıklayınız.",
     "pressureLossCalculation": "Basınç Kaybı Hesabı",
     "pressureLossCalculationDescription": "Basınç kaybı hesabı yapmak için tıklayınız",
-    "corrugatedPipeCalculation": "Koruge Boru Hesabı",
-    "corrugatedPipeCalculationDescription": "Koruge Boru Hesabı yapmak için tıklayınız",
+    "corrugatedPipeCalculation": "Korige Boru Hesabı",
+    "corrugatedPipeCalculationDescription": "Korige Boru Hesabı yapmak için tıklayınız",
     "title": "Mühendislik Hesaplamaları",
     "description": "Doğru hesaplama yapabilmek için aşağıdaki seçeneklerden uygun seçeneği seçiniz.",
     "comingSoon": "Çok Yakında"

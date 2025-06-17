@@ -61,10 +61,10 @@ const heroSlider: HeroSliderParams = {
       link: '/en/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium',
     },
     {
-      desktopImage: '/sliderImages/desktop/en/koruge.jpg',
-      mobileImage: '/sliderImages/mobile/en/koruge.jpg',
-      alt: 'Koruge',
-      link: '/en/urunler/altyapi-boru-sistemleri/koruge-boru',
+      desktopImage: '/sliderImages/desktop/en/korige.jpg',
+      mobileImage: '/sliderImages/mobile/en/korige.jpg',
+      alt: 'Korige',
+      link: '/en/urunler/altyapi-boru-sistemleri/korige-boru',
     },
   ],
   tr: [
@@ -117,10 +117,10 @@ const heroSlider: HeroSliderParams = {
       link: '/tr/urunler/bina-ici-boru-sistemleri/nanotek-ve-nanotek-premium',
     },
     {
-      desktopImage: '/sliderImages/desktop/tr/koruge.jpg',
-      mobileImage: '/sliderImages/mobile/tr/koruge.jpg',
-      alt: 'Koruge',
-      link: '/tr/urunler/altyapi-boru-sistemleri/koruge-boru',
+      desktopImage: '/sliderImages/desktop/tr/korige.jpg',
+      mobileImage: '/sliderImages/mobile/tr/korige.jpg',
+      alt: 'Korige',
+      link: '/tr/urunler/altyapi-boru-sistemleri/korige-boru',
     },
   ],
 };

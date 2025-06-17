@@ -221,20 +221,20 @@ const Locale = ({ params }: { params: { locale: string; countryName: string } })
             {
               name: t('turkey.spiral-corrugated.certificate-1'),
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-koruge/DIN 16961 SARMAL BELGELENDİRME.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-koruge/DIN 16961 SARMAL BELGELENDİRME.pdf',
+                '/certificates/files/tr/imgs/sarmal-ve-korige/DIN 16961 SARMAL BELGELENDİRME.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-korige/DIN 16961 SARMAL BELGELENDİRME.pdf',
             },
             {
               name: t('turkey.spiral-corrugated.certificate-4'),
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-koruge/TS 12132 SARMAL BORU TSE  SERTİFİKASI.PDF',
+                '/certificates/files/tr/imgs/sarmal-ve-korige/TS 12132 SARMAL BORU TSE  SERTİFİKASI_00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-korige/TS 12132 SARMAL BORU TSE  SERTİFİKASI.PDF',
             },
             {
               name: t('turkey.spiral-corrugated.certificate-5'),
               image:
-                '/certificates/files/tr/imgs/sarmal-ve-koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI_00001.jpg',
-              link: '/certificates/files/tr/pdfs/sarmal-ve-koruge/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI.PDF',
+                '/certificates/files/tr/imgs/sarmal-ve-korige/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI_00001.jpg',
+              link: '/certificates/files/tr/pdfs/sarmal-ve-korige/TS EN 13476-3 KORİGE BORU TSE  SERTİFİKASI.PDF',
             },
           ],
         },

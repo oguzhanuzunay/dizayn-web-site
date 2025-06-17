@@ -2099,56 +2099,56 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
       },
 
       {
-        title: 'Koruge Boru',
+        title: 'Korige Boru',
         description:
-          'Koruge Boruları, kanalizasyon sistemlerinde yüksek dayanıklılık ve uzun ömür sunar.',
+          'Korige Boruları, kanalizasyon sistemlerinde yüksek dayanıklılık ve uzun ömür sunar.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/Koruge/logo.png',
+        logo: '/productImages/alt yapı boruları/Korige/logo.png',
         banner: {
-          vertical: '/productImages/alt yapı boruları/Koruge/banner/vertical.jpg',
-          horizontal: '/productImages/alt yapı boruları/Koruge/banner/tr/horizontal.jpg',
-          PLP: '/productImages/alt yapı boruları/Koruge/banner/tr/PLP.png',
+          vertical: '/productImages/alt yapı boruları/Korige/banner/vertical.jpg',
+          horizontal: '/productImages/alt yapı boruları/Korige/banner/tr/horizontal.jpg',
+          PLP: '/productImages/alt yapı boruları/Korige/banner/tr/PLP.png',
           bgImage: '',
         },
-        image: '/productImages/alt yapı boruları/Koruge/Koruge BORU.png',
-        link: '/tr/urunler/altyapi-boru-sistemleri/koruge-boru',
+        image: '/productImages/alt yapı boruları/Korige/Korige BORU.png',
+        link: '/tr/urunler/altyapi-boru-sistemleri/korige-boru',
         highlights: [
           { title: 'Yüksek Dayanıklılık', icon: '/icons/durable.png' },
           { title: 'Uzun Ömür', icon: '/icons/long-lasting.png' },
           { title: 'Kolay Kurulum', icon: '/icons/easy-installation.png' },
         ],
         productDetails: {
-          title: 'Dizayn Koruge Boru',
+          title: 'Dizayn Korige Boru',
           description:
-            'Koruge Borular, iki farklı üretim yöntemi ile üretilmektedir: Ekstrüde ve sarmal metod. Bu boruların iç ve dış katmanı polietilen ve polipropilen malzemeden oluşmaktadır. İç katman akışkanı taşıyan düz bir yapıya sahipken, dış katman kaburgalı yapısıyla mukavemeti artırmaktadır.',
+            'Korige Borular, iki farklı üretim yöntemi ile üretilmektedir: Ekstrüde ve sarmal metod. Bu boruların iç ve dış katmanı polietilen ve polipropilen malzemeden oluşmaktadır. İç katman akışkanı taşıyan düz bir yapıya sahipken, dış katman kaburgalı yapısıyla mukavemeti artırmaktadır.',
           features: [
             {
               title: 'Yüksek Korozyon Dayanımı',
               icon: '/icons/corrosion.png',
               alt: 'Corrosion Resistance',
               description:
-                'Koruge Borular, korozyona karşı yüksek dayanıklılık gösterir, bu sayede uzun ömürlü kullanım sunar.',
+                'Korige Borular, korozyona karşı yüksek dayanıklılık gösterir, bu sayede uzun ömürlü kullanım sunar.',
             },
             {
               title: 'Kimyasal Dayanıklılık',
               icon: '/icons/chemical-resistant.png',
               alt: 'Chemical Resistance',
               description:
-                'Koruge Borular, çeşitli kimyasallara karşı dirençli olup, aşınma ve kimyasal etkilerden etkilenmez.',
+                'Korige Borular, çeşitli kimyasallara karşı dirençli olup, aşınma ve kimyasal etkilerden etkilenmez.',
             },
             {
               title: 'Hafif ve Esnek Yapı',
               icon: '/icons/lightweight.png',
               alt: 'Lightweight',
               description:
-                'Hafif ve esnek yapısıyla Koruge Borular, kolayca taşınabilir ve monte edilebilir.',
+                'Hafif ve esnek yapısıyla Korige Borular, kolayca taşınabilir ve monte edilebilir.',
             },
             {
               title: 'Sızdırmazlık Garantisi',
               icon: '/icons/seal.png',
               alt: 'Leak Proof',
               description:
-                'Koruge Borular, sızdırmaz yapısıyla yer altı sularının ve toprağın kirlenmesini önler.',
+                'Korige Borular, sızdırmaz yapısıyla yer altı sularının ve toprağın kirlenmesini önler.',
             },
             {
               title: 'Yüksek Halka Mukavemeti',
@@ -2160,142 +2160,142 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
           ],
           images: [
             {
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 1.png',
-              alt: 'Dizayn Koruge Boru',
-              description: 'Dizayn Koruge Boru',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 1.png',
+              alt: 'Dizayn Korige Boru',
+              description: 'Dizayn Korige Boru',
             },
             {
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 3.png',
-              alt: 'Dizayn Koruge Boru',
-              description: 'Dizayn Koruge Boru',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 3.png',
+              alt: 'Dizayn Korige Boru',
+              description: 'Dizayn Korige Boru',
             },
             {
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 4.png',
-              alt: 'Dizayn Koruge Boru',
-              description: 'Dizayn Koruge Boru',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 4.png',
+              alt: 'Dizayn Korige Boru',
+              description: 'Dizayn Korige Boru',
             },
           ],
           headers: [
             {
-              title: '<b>Koruge Boru</b> ve Ek Parçaları',
+              title: '<b>Korige Boru</b> ve Ek Parçaları',
               description:
-                'Koruge Boruları, yüksek dayanıklılık ve uzun ömür özellikleri ile 450 mm çapa kadar olan ekstrüde borular ve 500 mm üzeri sarmal borular olarak üretilmektedir. Kanalizasyon, yağmur suyu ve drenaj sistemlerinde güvenilir çözümler sunar. Detaylı bilgi ve fiyat listesi için internet sitemizi ziyaret edebilirsiniz.',
+                'Korige Boruları, yüksek dayanıklılık ve uzun ömür özellikleri ile 450 mm çapa kadar olan ekstrüde borular ve 500 mm üzeri sarmal borular olarak üretilmektedir. Kanalizasyon, yağmur suyu ve drenaj sistemlerinde güvenilir çözümler sunar. Detaylı bilgi ve fiyat listesi için internet sitemizi ziyaret edebilirsiniz.',
             },
             {
-              title: 'Koruge Boru <b>Avantajları</b>',
+              title: 'Korige Boru <b>Avantajları</b>',
               description:
-                'Koruge Borular, yüksek korozyon dayanımı, kimyasal direnç, hafiflik ve esneklik gibi özellikleri ile öne çıkar. Bu borular, uzun ömürlü kullanım sunar ve çeşitli uygulama alanlarında güvenle kullanılabilir.',
+                'Korige Borular, yüksek korozyon dayanımı, kimyasal direnç, hafiflik ve esneklik gibi özellikleri ile öne çıkar. Bu borular, uzun ömürlü kullanım sunar ve çeşitli uygulama alanlarında güvenle kullanılabilir.',
             },
             {
-              title: 'Koruge Boru <b>Kullanım Alanları</b>',
+              title: 'Korige Boru <b>Kullanım Alanları</b>',
               description:
-                'Koruge Borular, kanalizasyon, yağmur suyu ve drenaj sistemlerinde, endüstriyel atık su hatlarında, tarımsal sulama sistemlerinde ve altyapı projelerinde yaygın olarak kullanılmaktadır.',
+                'Korige Borular, kanalizasyon, yağmur suyu ve drenaj sistemlerinde, endüstriyel atık su hatlarında, tarımsal sulama sistemlerinde ve altyapı projelerinde yaygın olarak kullanılmaktadır.',
             },
             {
-              title: 'Koruge Boru <b>Teknik Özellikler</b>',
+              title: 'Korige Boru <b>Teknik Özellikler</b>',
               description:
-                'Koruge Borular, iki katmanlı yapısı ile yüksek mukavemet ve dayanıklılık sağlar. Ekstrüde borular Ø450 mm çapa kadar, sarmal borular ise Ø500 mm ve üzeri çaplarda üretilmektedir. Her iki tip boru da yüksek halka mukavemetine sahiptir ve çeşitli kimyasallara karşı dirençlidir.',
+                'Korige Borular, iki katmanlı yapısı ile yüksek mukavemet ve dayanıklılık sağlar. Ekstrüde borular Ø450 mm çapa kadar, sarmal borular ise Ø500 mm ve üzeri çaplarda üretilmektedir. Her iki tip boru da yüksek halka mukavemetine sahiptir ve çeşitli kimyasallara karşı dirençlidir.',
             },
           ],
           faqs: [
             {
-              question: 'Koruge Borular hangi malzemeden üretilir?',
+              question: 'Korige Borular hangi malzemeden üretilir?',
               answer:
-                'Koruge Borular, Polietilen (PE) ve Polipropilen (PP) malzemelerinden üretilmektedir. Aynı et kalınlığında PP, daha yüksek halka mukavemeti sağlar.',
+                'Korige Borular, Polietilen (PE) ve Polipropilen (PP) malzemelerinden üretilmektedir. Aynı et kalınlığında PP, daha yüksek halka mukavemeti sağlar.',
             },
             {
-              question: 'Koruge Boruların kullanım alanları nelerdir?',
+              question: 'Korige Boruların kullanım alanları nelerdir?',
               answer:
-                'Koruge Borular, kanalizasyon sistemleri, yağmur suyu ve drenaj hatları, endüstriyel atık su hatları ve tarımsal sulama sistemlerinde kullanılmaktadır.',
+                'Korige Borular, kanalizasyon sistemleri, yağmur suyu ve drenaj hatları, endüstriyel atık su hatları ve tarımsal sulama sistemlerinde kullanılmaktadır.',
             },
             {
-              question: 'Koruge Boruların ömrü ne kadardır?',
+              question: 'Korige Boruların ömrü ne kadardır?',
               answer:
-                'Koruge Borular, korozyon ve kimyasal dayanımı ile 50 yıl ömür garantisi sunmaktadır.',
+                'Korige Borular, korozyon ve kimyasal dayanımı ile 50 yıl ömür garantisi sunmaktadır.',
             },
             {
-              question: 'Koruge Borular nasıl birleştirilir?',
+              question: 'Korige Borular nasıl birleştirilir?',
               answer:
-                'Koruge Borular, fitingler ile birleştirilmektedir. Ekstrüde borular enjeksiyon fitingleri ile, sarmal borular ise muflu ve spigot uçları ile birleştirilir. Elektrofüzyon yöntemi de kullanılabilir.',
+                'Korige Borular, fitingler ile birleştirilmektedir. Ekstrüde borular enjeksiyon fitingleri ile, sarmal borular ise muflu ve spigot uçları ile birleştirilir. Elektrofüzyon yöntemi de kullanılabilir.',
             },
             {
-              question: 'Koruge Boruların avantajları nelerdir?',
+              question: 'Korige Boruların avantajları nelerdir?',
               answer:
-                'Koruge Borular, yüksek dayanıklılık, kimyasal direnç, hafiflik, esneklik ve kolay montaj gibi avantajlara sahiptir. Ayrıca, çevresel etkilere karşı dirençli ve uzun ömürlüdür.',
+                'Korige Borular, yüksek dayanıklılık, kimyasal direnç, hafiflik, esneklik ve kolay montaj gibi avantajlara sahiptir. Ayrıca, çevresel etkilere karşı dirençli ve uzun ömürlüdür.',
             },
             {
-              question: 'Koruge Borular hangi standartlara uygundur?',
+              question: 'Korige Borular hangi standartlara uygundur?',
               answer:
-                'Koruge Borular, TS EN 13476, TS 12132, DIN 16961, EN155 standartlarına uygun olarak üretilmektedir.',
+                'Korige Borular, TS EN 13476, TS 12132, DIN 16961, EN155 standartlarına uygun olarak üretilmektedir.',
             },
             {
-              question: 'Koruge Boruların rengi nedir?',
+              question: 'Korige Boruların rengi nedir?',
               answer:
-                'Koruge Borular genellikle siyah renkte üretilmektedir. İç katman ise projeye göre farklı renklerde olabilir.',
+                'Korige Borular genellikle siyah renkte üretilmektedir. İç katman ise projeye göre farklı renklerde olabilir.',
             },
             {
-              question: 'Koruge Boruların basınç dayanımı nedir?',
+              question: 'Korige Boruların basınç dayanımı nedir?',
               answer:
-                'Koruge Borular, normalde 0,5 bar basınç altında kullanılırken, elektrofüzyon yöntemi ile birleştirildiğinde 4 bar basınca kadar dayanıklıdır.',
+                'Korige Borular, normalde 0,5 bar basınç altında kullanılırken, elektrofüzyon yöntemi ile birleştirildiğinde 4 bar basınca kadar dayanıklıdır.',
             },
             {
-              question: 'Koruge Boruların çap aralığı nedir?',
+              question: 'Korige Boruların çap aralığı nedir?',
               answer:
-                'Koruge Borular, Ø50 mm ile Ø8000 mm arasında değişen çaplarda üretilebilmektedir.',
+                'Korige Borular, Ø50 mm ile Ø8000 mm arasında değişen çaplarda üretilebilmektedir.',
             },
             {
-              question: 'Koruge Borular nasıl temin edilebilir?',
+              question: 'Korige Borular nasıl temin edilebilir?',
               answer:
-                "Koruge Borular, Dizayn Grup'un yetkili satıcılarından veya doğrudan firmamız ile iletişime geçilerek temin edilebilir.",
+                "Korige Borular, Dizayn Grup'un yetkili satıcılarından veya doğrudan firmamız ile iletişime geçilerek temin edilebilir.",
             },
           ],
           fittings: [
             {
-              title: 'Koruge Eşit Te',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 1.png',
-              alt: 'Koruge Eşit Te',
+              title: 'Korige Eşit Te',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 1.png',
+              alt: 'Korige Eşit Te',
               category: 'Fittings',
             },
             {
-              title: 'Koruge Redüksiyon',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 2.png',
-              alt: 'Koruge Redüksiyon',
+              title: 'Korige Redüksiyon',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 2.png',
+              alt: 'Korige Redüksiyon',
               category: 'Fittings',
             },
             {
-              title: 'Koruge Semer',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 3.png',
-              alt: 'Koruge Semer',
+              title: 'Korige Semer',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 3.png',
+              alt: 'Korige Semer',
               category: 'Fittings',
             },
             {
-              title: 'Koruge Dirsekler',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 1.png',
-              alt: 'Koruge Dirsekler',
+              title: 'Korige Dirsekler',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 1.png',
+              alt: 'Korige Dirsekler',
               category: 'Fittings',
             },
             {
-              title: 'Koruge İnegal Te',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 2.png',
-              alt: 'Koruge İnegal Te',
+              title: 'Korige İnegal Te',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 2.png',
+              alt: 'Korige İnegal Te',
               category: 'Fittings',
             },
             {
-              title: 'Koruge Manşon',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 3.png',
-              alt: 'Koruge Manşon',
+              title: 'Korige Manşon',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 3.png',
+              alt: 'Korige Manşon',
               category: 'Fittings',
             },
             {
-              title: 'Koruge Körtapa',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 1.png',
-              alt: 'Koruge Körtapa',
+              title: 'Korige Körtapa',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 1.png',
+              alt: 'Korige Körtapa',
               category: 'Fittings',
             },
             {
-              title: 'Koruge Flanş Adaptörü',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 2.png',
-              alt: 'Koruge Flanş Adaptörü',
+              title: 'Korige Flanş Adaptörü',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 2.png',
+              alt: 'Korige Flanş Adaptörü',
               category: 'Fittings',
             },
           ],
@@ -2304,26 +2304,26 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
       },
 
       {
-        title: 'Dizayn Koruge Sarmal Boru',
+        title: 'Dizayn Korige Sarmal Boru',
         description:
           'Korige sarmal borular, iç ve dış katmanlardan oluşan çift katmanlı bir yapıya sahiptir. İç katman akışkanı taşıyan düz satıhlı borudur. Dış katman ise kaburgalı yapıdadır. Polietilen ve Polipropilen hammaddelerinden üretilmektedir.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/KorugeSarmal/logo.png',
+        logo: '/productImages/alt yapı boruları/KorigeSarmal/logo.png',
         banner: {
-          vertical: '/productImages/alt yapı boruları/KorugeSarmal/banner/vertical.jpg',
-          horizontal: '/productImages/alt yapı boruları/KorugeSarmal/banner/tr/horizontal.png',
-          PLP: '/productImages/alt yapı boruları/KorugeSarmal/banner/tr/PLP.png',
+          vertical: '/productImages/alt yapı boruları/KorigeSarmal/banner/vertical.jpg',
+          horizontal: '/productImages/alt yapı boruları/KorigeSarmal/banner/tr/horizontal.png',
+          PLP: '/productImages/alt yapı boruları/KorigeSarmal/banner/tr/PLP.png',
           bgImage: '',
         },
-        image: '/productImages/alt yapı boruları/KorugeSarmal/koruge-sarmal-2.png',
-        link: '/tr/urunler/altyapi-boru-sistemleri/koruge-sarmal-boru',
+        image: '/productImages/alt yapı boruları/KorigeSarmal/korige-sarmal-2.png',
+        link: '/tr/urunler/altyapi-boru-sistemleri/korige-sarmal-boru',
         highlights: [
           { title: 'Yüksek Dayanıklılık', icon: '/icons/durable.png' },
           { title: 'Uzun Ömür', icon: '/icons/long-lasting.png' },
           { title: 'Kolay Kurulum', icon: '/icons/easy-installation.png' },
         ],
         productDetails: {
-          title: 'Koruge Sarmal Boru',
+          title: 'Korige Sarmal Boru',
           description:
             'Kanalizasyon boruları Poliolefin grubu içerisindeki Polipropilen ve Polietilen hammaddelerinden üretilen bir üründür. Ø450 mm çapa kadar üretilen ekstrüdekorige boru polietilen ve polipropilen hammaddeden üretilebilirken, sarmal korige borular polietilenden üretilmektedir. Aynı et kalınlığında halka mukavemet değeri polipropilende daha yüksek çıktığından daha fazla tercih edilmektedir. Sarmal yöntemle ise Ø500 mm çap ve üzerindeki borular üretilmektedir. Dizayn Grup 8.000 mm çapa kadar korige sarmal boru üretme teknolojisine sahiptir.',
           features: [
@@ -2371,19 +2371,19 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
           ],
           images: [
             {
-              image: '/productImages/alt yapı boruları/KorugeSarmal/koruge-sarmal-2.png',
-              alt: 'Dizayn Koruge Sarmal Boru',
-              description: 'Dizayn Koruge Sarmal Boru',
+              image: '/productImages/alt yapı boruları/KorigeSarmal/korige-sarmal-2.png',
+              alt: 'Dizayn Korige Sarmal Boru',
+              description: 'Dizayn Korige Sarmal Boru',
             },
             {
-              image: '/productImages/alt yapı boruları/KorugeSarmal/KorugeSarmal BORU 3.png',
-              alt: 'Dizayn Koruge Sarmal Boru',
-              description: 'Dizayn Koruge Sarmal Boru',
+              image: '/productImages/alt yapı boruları/KorigeSarmal/KorigeSarmal BORU 3.png',
+              alt: 'Dizayn Korige Sarmal Boru',
+              description: 'Dizayn Korige Sarmal Boru',
             },
             {
-              image: '/productImages/alt yapı boruları/KorugeSarmal/KorugeSarmal BORU 4.png',
-              alt: 'Dizayn Koruge Sarmal Boru',
-              description: 'Dizayn Koruge Sarmal Boru',
+              image: '/productImages/alt yapı boruları/KorigeSarmal/KorigeSarmal BORU 4.png',
+              alt: 'Dizayn Korige Sarmal Boru',
+              description: 'Dizayn Korige Sarmal Boru',
             },
           ],
           headers: [
@@ -4127,7 +4127,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
               title: '<b>Elastica Pipe</b> and Fittings',
               description:
                 'Design Group Elastica Pipes are produced in diameters ranging from 16 mm to 110 mm and various pressure classes, offering ideal solutions for underfloor heating, radiator heating systems, and industrial applications. Their long-lasting and durable structure will make them essential for your projects. For the Elastica Pipe <b>Price List</b>, you can obtain information by calling our line at <b>0212 886 57 41</b>.',
-              image: '/productImages/üst yapı borular/mobil-boru-ve-ek/pe-x-elastica.png',
+              image: '/productImages/üst yapı borular/mobil-boru-ve-ek/elastica.png',
               alt: 'Elastica Pipe',
             },
             {
@@ -5548,15 +5548,15 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         title: 'Corrugated Pipe',
         description: 'Corrugated Pipes offer high durability and long life in sewage systems.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/Koruge/logo.png',
+        logo: '/productImages/alt yapı boruları/Korige/logo.png',
         banner: {
-          vertical: '/productImages/alt yapı boruları/Koruge/banner/vertical.jpg',
-          horizontal: '/productImages/alt yapı boruları/Koruge/banner/en/horizontal.png',
-          PLP: '/productImages/alt yapı boruları/Koruge/banner/en/PLP.png',
+          vertical: '/productImages/alt yapı boruları/Korige/banner/vertical.jpg',
+          horizontal: '/productImages/alt yapı boruları/Korige/banner/en/horizontal.png',
+          PLP: '/productImages/alt yapı boruları/Korige/banner/en/PLP.png',
           bgImage: '',
         },
-        image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 2.png',
-        link: '/en/urunler/altyapi-boru-sistemleri/koruge-boru',
+        image: '/productImages/alt yapı boruları/Korige/Korige BORU 2.png',
+        link: '/en/urunler/altyapi-boru-sistemleri/korige-boru',
         highlights: [
           {
             title: 'High Durability',
@@ -5614,17 +5614,17 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
           ],
           images: [
             {
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 1.png',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 1.png',
               alt: 'Dizayn Corrugated Pipe',
               description: 'Dizayn Corrugated Pipe',
             },
             {
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 1.png',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 1.png',
               alt: 'Dizayn Corrugated Pipe',
               description: 'Dizayn Corrugated Pipe',
             },
             {
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 4.png',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 4.png',
               alt: 'Dizayn Corrugated Pipe',
               description: 'Dizayn Corrugated Pipe',
             },
@@ -5634,7 +5634,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
               title: '<b>Corrugated Pipe</b> and Fittings',
               description:
                 'Corrugated Pipes are produced as extruded pipes up to 450 mm diameter and spiral pipes over 500 mm with high durability and long-life features. They offer reliable solutions in sewerage, rainwater, and drainage systems. For detailed information and price list, please visit our website.',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU.png',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU.png',
               alt: 'Corrugated Pipe',
             },
             {
@@ -5708,49 +5708,49 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
           fittings: [
             {
               title: 'Corrugated Equal Tee',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 1.png',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 1.png',
               alt: 'Corrugated Equal Tee',
               category: 'Fittings',
             },
             {
               title: 'Corrugated Reduction',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 2.png',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 2.png',
               alt: 'Corrugated Reduction',
               category: 'Fittings',
             },
             {
               title: 'Corrugated Saddle',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 3.png',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 3.png',
               alt: 'Corrugated Saddle',
               category: 'Fittings',
             },
             {
               title: 'Corrugated Elbows',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 1.png',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 1.png',
               alt: 'Corrugated Elbows',
               category: 'Fittings',
             },
             {
               title: 'Corrugated Unequal Tee',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 2.png',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 2.png',
               alt: 'Corrugated Unequal Tee',
               category: 'Fittings',
             },
             {
               title: 'Corrugated Coupling',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 3.png',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 3.png',
               alt: 'Corrugated Coupling',
               category: 'Fittings',
             },
             {
               title: 'Corrugated End Cap',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 1.png',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 1.png',
               alt: 'Corrugated End Cap',
               category: 'Fittings',
             },
             {
               title: 'Corrugated Flange Adapter',
-              image: '/productImages/alt yapı boruları/Koruge/Koruge BORU 2.png',
+              image: '/productImages/alt yapı boruları/Korige/Korige BORU 2.png',
               alt: 'Corrugated Flange Adapter',
               category: 'Fittings',
             },
@@ -5764,15 +5764,15 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         description:
           'Helical pipes have a double-layer structure consisting of inner and outer layers. The inner layer is a smooth-surfaced pipe that carries the fluid, while the outer layer is ribbed. They are made from polyethylene and polypropylene materials.',
         featuredProduct: false,
-        logo: '/productImages/alt yapı boruları/KorugeSarmal/logo.png',
+        logo: '/productImages/alt yapı boruları/KorigeSarmal/logo.png',
         banner: {
-          vertical: '/productImages/alt yapı boruları/KorugeSarmal/banner/vertical.jpg',
-          horizontal: '/productImages/alt yapı boruları/KorugeSarmal/banner/en/horizontal.png',
-          PLP: '/productImages/alt yapı boruları/KorugeSarmal/banner/en/PLP.png',
+          vertical: '/productImages/alt yapı boruları/KorigeSarmal/banner/vertical.jpg',
+          horizontal: '/productImages/alt yapı boruları/KorigeSarmal/banner/en/horizontal.png',
+          PLP: '/productImages/alt yapı boruları/KorigeSarmal/banner/en/PLP.png',
           bgImage: '',
         },
-        image: '/productImages/alt yapı boruları/KorugeSarmal/koruge-sarmal-2.png',
-        link: '/en/urunler/altyapi-boru-sistemleri/koruge-sarmal-boru',
+        image: '/productImages/alt yapı boruları/KorigeSarmal/korige-sarmal-2.png',
+        link: '/en/urunler/altyapi-boru-sistemleri/korige-sarmal-boru',
         highlights: [
           {
             title: 'High Durability',
@@ -5835,17 +5835,17 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
           ],
           images: [
             {
-              image: '/productImages/alt yapı boruları/KorugeSarmal/koruge-sarmal-2.png',
+              image: '/productImages/alt yapı boruları/KorigeSarmal/korige-sarmal-2.png',
               alt: 'Dizayn Helical Pipe',
               description: 'Dizayn Helical Pipe',
             },
             {
-              image: '/productImages/alt yapı boruları/KorugeSarmal/KorugeSarmal BORU 3.png',
+              image: '/productImages/alt yapı boruları/KorigeSarmal/KorigeSarmal BORU 3.png',
               alt: 'Dizayn Helical Pipe',
               description: 'Dizayn Helical Pipe',
             },
             {
-              image: '/productImages/alt yapı boruları/KorugeSarmal/KorugeSarmal BORU 4.png',
+              image: '/productImages/alt yapı boruları/KorigeSarmal/KorigeSarmal BORU 4.png',
               alt: 'Dizayn Helical Pipe',
               description: 'Dizayn Helical Pipe',
             },
