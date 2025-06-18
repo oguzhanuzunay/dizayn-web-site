@@ -208,7 +208,7 @@ const NavigationBar = () => {
 
       {/* Mobile Content */}
       <NavbarMenu className={`${isHomePage ? '!bg-transparent' : 'bg-white'}`}>
-        {/* Fiyat Listesi */}
+        {/* Fiyat Listesi 
         <NavbarMenuItem>
           <Link
             className="mt-3 flex w-full items-center justify-center rounded-md bg-blue-500 px-2 py-1 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:bg-blue-600 "
@@ -219,7 +219,7 @@ const NavigationBar = () => {
             {t('priceList')}
           </Link>
         </NavbarMenuItem>
-
+*/}
         {menuList?.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link

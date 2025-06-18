@@ -693,7 +693,7 @@ export const productList: productListParams = {
             {
               title: '<b>Elastica Boru</b> ve Ek Parçaları',
               description:
-                'Dizayn Grup Elastica Boruları, performansı ve yüksek kalitesi ile 16 mm - 110 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Elastica Boruları, yerden ısıtma, radyatör ısıtma sistemleri ve endüstriyel uygulamalar gibi birçok alanda ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Elastica Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
+                'Dizayn Grup Elastica Boruları, performansı ve yüksek kalitesi ile 16 mm - 63 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Elastica Boruları, yerden ısıtma, radyatör ısıtma sistemleri ve endüstriyel uygulamalar gibi birçok alanda ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Elastica Boru <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
               image: '/productImages/üst yapı borular/mobil-boru-ve-ek/pe-x-elastica.png',
               alt: 'Elastica Boru',
             },
@@ -719,14 +719,13 @@ export const productList: productListParams = {
 
 
                  <ul>
-        <li><b>Çalışma Sıcaklığı</b>: Sürekli 95°C, anlık 120°C sıcaklık dayanımı.</li>
-        <li><b>Çalışma Basıncı</b>: 11 bar basınç dayanımı.</li>
+        <li><b>Çalışma Sıcaklığı</b>: Sürekli 95°C, anlık 110°C sıcaklık dayanımı.</li>
+        <li><b>Çalışma Basıncı</b>: 10 bar basınç dayanımı.</li>
         <li><b>Malzeme</b>: Özel formüllü PE-RT (Polyethylene of Raised Temperature Resistance) malzemesi.</li>
         <li><b>Montaj Kolaylığı</b>: Soğuk havalarda bile ısıtılmadan kolay montaj imkanı.</li>
         <li><b>Dayanıklılık</b>: Yüksek sıcaklık ve basınç dayanımı, soğuk havalarda kırılma ve çatlamaya karşı üstün direnç.</li>
         <li><b>Düşük Sürtünme Direnci</b>: Verimli tesisat performansı için düşük sürtünme direnci.</li>
         <li><b>Oksijen Bariyeri</b>: Oksijen bariyerli model, korozyonu %100 önler.</li>
-        <li><b>Kendi Kendini Tamir Etme</b>: Montaj esnasında genişletmelerden sonra eski haline hızla dönme özelliği.</li>
         <li><b>Ekonomiklik</b>: Muadili borulara göre daha ekonomik ve uzun ömürlü.</li>
     </ul>
 
@@ -742,9 +741,7 @@ export const productList: productListParams = {
         <li><b>Te Parçaları</b>: Boru hatlarının dallanmasını sağlar ve çeşitli yönlere su akışını yönlendirir.</li>
         <li><b>Manşonlar</b>: İki boru parçasını birleştirir ve sızdırmaz bir bağlantı sağlar.</li>
         <li><b>Flanşlar</b>: Metal boru bağlantıları ve diğer sistem bileşenleri ile güvenli bağlantılar oluşturur.</li>
-        <li><b>Körtapa</b>: Boru uçlarını kapatarak su akışını durdurur ve hattın güvenliğini sağlar.</li>
-        <li><b>Redüksiyonlar</b>: Farklı çaplarda boruların birleştirilmesini sağlar.</li>
-        <li><b>Semer</b>: Boru hattının çeşitli noktalarda desteklenmesini ve sabitlenmesini sağlar.</li>
+        <li><b>Rakorlar</b>: Tesisat sistemlerinde boruları, vanaları, cihazları veya diğer ekipmanları birbirine bağlamak ve gerektiğinde kolayca söküp takmak için kullanılan bir bağlantı parçasıdır.</li>
     </ul>
 Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kolaylaştırır ve uzun ömürlü, güvenli bir tesisat sağlar.
                 `,
@@ -753,10 +750,8 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: 'Elastica Boru <b>Birleştirme Yöntemleri</b>',
               description: `<p>Dizayn ElasticA Boruları, çeşitli birleştirme yöntemleri ile güvenli ve sağlam bağlantılar sunar. İşte ElasticA Boruları için kullanılan birleştirme yöntemleri:</p>
     <ul>
-        <li><b>Kaplin ile Birleştirme</b>: Mekanik kaplin parçaları kullanılarak boruların kolayca birleştirilmesini sağlar. Bu yöntem, hızlı ve güvenilir bir montaj imkanı sunar.</li>
-        <li><b>Manşon ile Birleştirme</b>: İki boru parçasını birleştirirken manşon kullanılır. Bu yöntem, sızdırmaz ve sağlam bir bağlantı oluşturur.</li>
-        <li><b>Flanş Bağlantısı</b>: Metal borular veya diğer sistem bileşenleri ile bağlantı için flanşlar kullanılır. Flanş bağlantıları, yüksek basınca dayanıklı ve güvenli bir bağlantı sağlar.</li>
-        <li><b>Kaynak Yöntemleri</b>: PE-RT boruların birleştirilmesinde, alın kaynağı ve elektrofüzyon kaynağı gibi yöntemler kullanılır. Bu yöntemler, yüksek basınç ve sıcaklık dayanımı sunar.</li>
+        <li><b>Sıkmalı Fitting (Vida ile Sıkılan Bağlantı)</b>: Ucu genişletilmiş fittinge boru geçirilir, ardından dişli bir somun ile sıkılır. PE-RT borular esnek yapıda olduğu için bu yöntemle kolay monte edilebilir. Tekrar sökülebilir ve yeniden takılabilir.</li>
+        <li><b>Kaynak Yöntemleri</b>: PE-RT boruların birleştirilmesinde elektrofüzyon kaynağı kullanılır. Bu yöntem, Ø32mm ve üstü borulara uygulanır ve yüksek basınç ve sıcaklık dayanımı sunar.</li>
     </ul>
     <p>Bu birleştirme yöntemleri, Dizayn ElasticA Borularının çeşitli uygulamalarda güvenli ve uzun ömürlü kullanılmasını sağlar. Tesisatınızın ihtiyacına göre en uygun birleştirme yöntemini seçerek maksimum verimlilik elde edebilirsiniz.</p>`,
             },
@@ -764,11 +759,6 @@ Bu ek parçalar, Dizayn ElasticA Borularının sistemlerinize entegrasyonunu kol
               title: 'Elastica Boru Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
               description:
                 '<b>Elektrofüzyon kaynak</b> yöntemi, Dizayn ElasticA Borularının birleştirilmesinde güvenilir ve sağlam bir yöntem sunar. Elektrofüzyon kaynak, boru ve ek parçaların iç kısmında bulunan rezistans tellerinin elektrik enerjisi ile ısıtılmasıyla gerçekleştirilir. Bu işlem, boru yüzeylerinin erimesini ve birleşmesini sağlar. <b>Kolay montaj</b> imkanı sunan elektrofüzyon ek parçaları, boru uçlarına yerleştirilir ve kaynak makinesi ile kolayca birleştirilir. Sağlam ve sızdırmaz bağlantı oluşturur, bu da tesisatın uzun ömürlü ve güvenilir olmasını sağlar. Elektrofüzyon ile birleştirilmiş borular, <b>yüksek basınç ve deprem</b> gibi dış etkilere karşı dayanıklıdır. Bu, özellikle kritik altyapı projelerinde önemli bir avantaj sağlar. Elektrofüzyon kaynak yöntemi, Dizayn ElasticA Borularının kullanımında yüksek güvenlik ve verimlilik sunar ve özellikle uzun ömür ve güvenilirlik gerektiren projelerde tercih edilir.',
-            },
-            {
-              title: 'Elastica Boru Kaynak Yöntemi: <b>Alın Kaynak</b>',
-              description:
-                '<b>Alın Kaynak</b>, Elastica Boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. <b>Alın Kaynak</b> makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, Elastica Boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 110 mm çapa kadar olan Elastica Boruları kaynatılabilir.',
             },
             {
               title: 'Elastica Boru <b>Fiyat Listesi</b>',
@@ -4126,7 +4116,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               title: '<b>Elastica Pipe</b> and Fittings',
               description:
-                'Design Group Elastica Pipes are produced in diameters ranging from 16 mm to 110 mm and various pressure classes, offering ideal solutions for underfloor heating, radiator heating systems, and industrial applications. Their long-lasting and durable structure will make them essential for your projects. For the Elastica Pipe <b>Price List</b>, you can obtain information by calling our line at <b>0212 886 57 41</b>.',
+                'Design Group Elastica Pipes are produced in diameters ranging from 16 mm to 63 mm and various pressure classes, offering ideal solutions for underfloor heating, radiator heating systems, and industrial applications. Their long-lasting and durable structure will make them essential for your projects. For the Elastica Pipe <b>Price List</b>, you can obtain information by calling our line at <b>0212 886 57 41</b>.',
               image: '/productImages/üst yapı borular/mobil-boru-ve-ek/elastica.png',
               alt: 'Elastica Pipe',
             },
@@ -4148,28 +4138,24 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
             {
               title: 'Technical Features of Elastica Pipe',
               description:
-                'Design Group Elastica Pipes stand out with their high temperature and pressure resistance. Here are the technical features of Elastica Pipes: <ul> <li><b>Operating Temperature</b>: Continuous 95°C, momentary 120°C temperature resistance.</li> <li><b>Operating Pressure</b>: 11 bar pressure resistance.</li> <li><b>Material</b>: Specially formulated PE-RT (Polyethylene of Raised Temperature Resistance) material.</li> <li><b>Easy Installation</b>: Easy installation even in cold weather without heating.</li> <li><b>Durability</b>: High temperature and pressure resistance, superior resistance against breaking and cracking in cold weather.</li> <li><b>Low Friction Resistance</b>: Efficient system performance due to low friction resistance.</li> <li><b>Oxygen Barrier</b>: Oxygen-barrier model completely prevents corrosion.</li> <li><b>Self-Repairing</b>: Quickly returns to its original state after expansions during installation.</li> <li><b>Economic</b>: More economical and long-lasting compared to equivalent pipes.</li> </ul> Elastica Pipes can be safely used in underfloor and radiator systems. With these superior technical features, Elastica Pipes stand out as the best solution. Achieve maximum safety and efficiency in your installations with Design Group Elastica Pipes.',
+                'Design Group Elastica Pipes stand out with their high temperature and pressure resistance. Here are the technical features of Elastica Pipes: <ul> <li><b>Operating Temperature</b>: Continuous 95°C, momentary 110°C temperature resistance.</li> <li><b>Operating Pressure</b>: 10 bar pressure resistance.</li> <li><b>Material</b>: Specially formulated PE-RT (Polyethylene of Raised Temperature Resistance) material.</li> <li><b>Easy Installation</b>: Easy installation even in cold weather without heating.</li> <li><b>Durability</b>: High temperature and pressure resistance, superior resistance against breaking and cracking in cold weather.</li> <li><b>Low Friction Resistance</b>: Efficient system performance due to low friction resistance.</li> <li><b>Oxygen Barrier</b>: Oxygen-barrier model completely prevents corrosion.</li> <li><b>Economic</b>: More economical and long-lasting compared to equivalent pipes.</li> </ul> Elastica Pipes can be safely used in underfloor and radiator systems. With these superior technical features, Elastica Pipes stand out as the best solution. Achieve maximum safety and efficiency in your installations with Design Group Elastica Pipes.',
             },
             {
               title: 'Elastica Pipe <b>Fittings</b>',
               description:
-                'Various fittings are available for Design Group Elastica Pipes. These fittings facilitate the installation of the pipes and enhance the efficiency of the systems. Here are some of the fittings used for Elastica Pipes: <ul> <li><b>Elbows</b>: Used for direction changes in the pipeline and provide flexibility during installation.</li> <li><b>Tee Pieces</b>: Allow the branching of pipe lines and direct the flow of water in various directions.</li> <li><b>Sleeves</b>: Connect two pieces of pipe and provide a leak-proof connection.</li> <li><b>Flanges</b>: Create secure connections with metal pipe connections and other system components.</li> <li><b>Blind Plug</b>: Caps pipe ends to stop the flow of water and secure the line.</li> <li><b>Reducers</b>: Enable the connection of pipes of different diameters.</li> <li><b>Saddle</b>: Supports and secures the pipeline at various points.</li> </ul> These fittings facilitate the integration of Design Group Elastica Pipes into your systems and ensure long-lasting, secure plumbing.',
+                'Various fittings are available for Design Group Elastica Pipes. These fittings facilitate the installation of the pipes and enhance the efficiency of the systems. Here are some of the fittings used for Elastica Pipes: <ul> <li><b>Elbows</b>: Used for direction changes in the pipeline and provide flexibility during installation.</li> <li><b>Tee Pieces</b>: Allow the branching of pipe lines and direct the flow of water in various directions.</li> <li><b>Sleeves</b>: Connect two pieces of pipe and provide a leak-proof connection.</li> <li><b>Flanges</b>: Create secure connections with metal pipe connections and other system components.</li> <li><b>Unions</b>: A connection piece used to connect pipes, valves, devices, or other equipment in plumbing systems, which can be easily disassembled and reassembled when needed.</li> </ul> These fittings facilitate the integration of Design Group Elastica Pipes into your systems and ensure long-lasting, secure plumbing.',
             },
             {
               title: 'Elastica Pipe <b>Joining Methods</b>',
               description:
-                'Design Group Elastica Pipes offer secure and robust connections with various joining methods. Here are the main joining methods used for Elastica Pipes: <ul> <li><b>Coupling Joining</b>: Mechanical coupling parts are used to easily join pipes. This method provides a quick and reliable installation option.</li> <li><b>Sleeve Joining</b>: A sleeve is used when joining two pipe pieces. This method creates a leak-proof and robust connection.</li> <li><b>Flange Connection</b>: Flanges are used for connecting with metal pipes or other system components. Flange connections offer high-pressure resistance and security.</li> <li><b>Welding Methods</b>: For joining PE-RT pipes, methods like butt welding and electrofusion welding are used. These methods provide high pressure and temperature resistance.</li> </ul> These joining methods ensure the safe and long-lasting use of Design Group Elastica Pipes in various applications. Choose the most suitable joining method for your installation needs to achieve maximum efficiency.',
+                'Design Group Elastica Pipes offer secure and robust connections with various joining methods. Here are the main joining methods used for Elastica Pipes: <ul> <li><b>Compression Fitting (Screw-Tightened Connection)</b>: The pipe is inserted into an expanded fitting, then tightened with a threaded nut. PE-RT pipes can be easily installed with this method due to their flexible structure. Can be disassembled and reassembled.</li> <li><b>Welding Methods</b>: Electrofusion welding is used for joining PE-RT pipes. This method is applied to pipes Ø32mm and above, providing high pressure and temperature resistance.</li> </ul> These joining methods ensure the safe and long-lasting use of Design Group Elastica Pipes in various applications. Choose the most suitable joining method for your installation needs to achieve maximum efficiency.',
             },
             {
               title: 'Elastica Pipe Welding Method: <b>Electrofusion Welding</b>',
               description:
                 'The <b>electrofusion welding</b> method provides a reliable and robust method for joining Design Group Elastica Pipes. Electrofusion welding is performed by heating the resistance wires inside the pipe and fitting components with electrical energy. This process causes the surfaces of the pipes to melt and join together. <b>Easy installation</b> is facilitated by placing electrofusion fittings on the ends of the pipes and easily joining them with a welding machine. It creates a robust and leak-proof connection, ensuring the plumbing is long-lasting and reliable. Pipes joined by electrofusion are resistant to high pressures and external impacts like earthquakes. This is especially important in critical infrastructure projects. Electrofusion welding offers high safety and efficiency in the use of Design Group Elastica Pipes and is particularly preferred in projects requiring long life and reliability.',
             },
-            {
-              title: 'Elastica Pipe Welding Method: <b>Butt Welding</b>',
-              description:
-                '<b>Butt Welding</b> is one of the most common methods used for joining Elastica Pipe and fittings. Using a butt welding machine, the ends of the pipes to be welded are shaved and then pushed towards each other under a certain heat and pressure. This method ensures that Elastica Pipes are joined safely and robustly. Butt welding can be performed on Elastica Pipes up to a diameter of 110 mm.',
-            },
+
             {
               title: 'Elastica Pipe <b>Price List</b>',
               description:
