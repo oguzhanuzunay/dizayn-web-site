@@ -169,6 +169,7 @@ const NavigationBar = () => {
         className="hidden gap-4 lg:flex"
         justify="center"
       >
+        {/* 
         <NavbarItem key={'Katalog'}>
           <Link
             className="rounded-md bg-blue-500 px-2 py-1  font-semibold text-white transition-all duration-300 ease-in-out "
@@ -178,6 +179,7 @@ const NavigationBar = () => {
             {t('priceCatalog')}
           </Link>
         </NavbarItem>
+        */}
 
         {listMenu(0, 3)}
       </NavbarContent>
