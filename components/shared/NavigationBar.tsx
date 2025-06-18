@@ -169,7 +169,6 @@ const NavigationBar = () => {
         className="hidden gap-4 lg:flex"
         justify="center"
       >
-        {/* 
         <NavbarItem key={'Katalog'}>
           <Link
             className="rounded-md bg-blue-500 px-2 py-1  font-semibold text-white transition-all duration-300 ease-in-out "
@@ -179,7 +178,6 @@ const NavigationBar = () => {
             {t('priceCatalog')}
           </Link>
         </NavbarItem>
-        */}
 
         {listMenu(0, 3)}
       </NavbarContent>
@@ -210,7 +208,7 @@ const NavigationBar = () => {
 
       {/* Mobile Content */}
       <NavbarMenu className={`${isHomePage ? '!bg-transparent' : 'bg-white'}`}>
-        {/* Fiyat Listesi 
+        {/* Fiyat Listesi */}
         <NavbarMenuItem>
           <Link
             className="mt-3 flex w-full items-center justify-center rounded-md bg-blue-500 px-2 py-1 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:bg-blue-600 "
@@ -221,7 +219,7 @@ const NavigationBar = () => {
             {t('priceList')}
           </Link>
         </NavbarMenuItem>
-*/}
+
         {menuList?.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
