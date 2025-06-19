@@ -1042,15 +1042,6 @@ const dealerList: dealerListParams = [
     mapsLink: '',
   },
   {
-    id: 102297,
-    cityId: 21,
-    name: 'DETAY YAPI MÜH. MAK.',
-    phone: '0 412 252 10 52',
-    address: 'KAYAPINAR / DİYARBAKIR',
-    email: '',
-    mapsLink: '',
-  },
-  {
     id: 102298,
     cityId: 72,
     name: 'MEHMET ŞERİF EKİNCİ',
