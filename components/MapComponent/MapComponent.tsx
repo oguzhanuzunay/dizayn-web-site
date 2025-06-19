@@ -8,7 +8,7 @@ import TurkeyMap from 'turkey-map-react';
 import DealerCard from '../cards/DealerCard';
 import './MapComponent.css';
 
-const MapComponent = ({ show }: { show: boolean }) => {
+const  MapComponent = ({ show }: { show: boolean }) => {
   const language = useLocale();
   const dealers: { text?: string; alt?: string; imgLink?: string; subPageLink?: string } = languageTexts[language]?.pages.dealers ?? {};
   const [selectedCity, setSelectedCity] = useState(0);
