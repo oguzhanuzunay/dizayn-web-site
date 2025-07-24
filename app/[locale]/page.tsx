@@ -33,7 +33,7 @@ export default function Home() {
       </section>
       <CountUpComp />
       <section className="container mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-      {/* <MapComponent show={false} /> */}
+      <MapComponent show={false} />
       </section>
 
       {false && isPopupVisible && (
