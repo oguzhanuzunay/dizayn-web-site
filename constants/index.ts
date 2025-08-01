@@ -528,6 +528,7 @@ const dealerList: dealerListParams = [
     email: '',
     mapsLink: '',
   },
+
   {
     id: 100439,
     cityId: 21,
@@ -1535,6 +1536,15 @@ const dealerList: dealerListParams = [
     name: 'ARS SULAMA SİSTEMLERİ VE YAPI MALZEMELER A.Ş.',
     phone: '0534 642 30 59',
     address: 'BÜYÜKÇEKMECE/İSTANBUL',
+    email: '',
+    mapsLink: '',
+  },
+  {
+    id: 102387,
+    cityId: 26,
+    name: 'YENEN SOLAR ENERJİ',
+    phone: '0(222) 240 50 65',
+    address: 'TEPEBAŞI/ESKİŞEHİR',
     email: '',
     mapsLink: '',
   },
