@@ -64,6 +64,26 @@ export default async function LocaleLayout({
           }}
         />
         {/* End Google Tag Manager */}
+
+        {/* Google Ads Conversion Tracking (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17493610190"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-ads-gtag"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-17493610190');
+            `,
+          }}
+        />
+        {/* End Google Ads Conversion Tracking */}
+
         {/* Facebook Pixel Kodunuz */}
         <Script
           id="facebook-pixel"
