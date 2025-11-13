@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 
 import Footer from '@/components/shared/Footer';
+import CondolencePopup from '@/components/PopUp/CondolencePopup';
 import { Metadata } from 'next';
 // eslint-disable-next-line camelcase
 import { Analytics } from '@vercel/analytics/react';
@@ -130,6 +131,7 @@ export default async function LocaleLayout({
         <Analytics />
         <SpeedInsights />
         <NextIntlClientProvider messages={messages}>
+          <CondolencePopup />
           <NavigationBar />
           {children}
           <Footer />
