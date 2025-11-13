@@ -43,21 +43,21 @@ const ProductCard = ({
             <div
               className="absolute inset-0 z-10 flex
           flex-col
-          items-center justify-start rounded-lg"
+          items-center justify-start overflow-visible"
             >
               <div
                 className=" flex
-            flex-col items-center justify-center rounded-lg
-            py-4 text-center  text-black"
+            flex-col items-center justify-center
+            py-4 text-center  text-black overflow-visible"
               >
-                <div className="mb-3 flex h-10 w-full flex-row items-center justify-center bg-white">
+                <div className="mb-3 flex h-auto w-full flex-row items-center justify-center overflow-visible bg-white px-2 py-2">
                   {logo !== '' ? (
                     <Image
                       src={logo}
                       alt={`${title} logo`}
                       width={100}
                       height={100}
-                      className="z-0 w-fit rounded-lg"
+                      className="z-0 w-fit object-contain"
                     />
                   ) : (
                     <h3 className="text-lg font-bold">{title}</h3>

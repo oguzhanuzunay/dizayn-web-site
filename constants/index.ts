@@ -59,7 +59,7 @@ const languageTexts: languageParams = {
         {
           title: 'High Technology',
           image: '/icons/high-tech.png',
-          alt: 'SterilePipe',
+          alt: 'Frigolene Sterile Pipe',
         },
       ],
 
@@ -150,7 +150,7 @@ const languageTexts: languageParams = {
                 link: '/elitepipe',
               },
               {
-                title: 'SterilePipe',
+                title: 'Frigolene Sterile Pipe',
                 link: '/sterilepipe',
               },
               {
@@ -266,7 +266,7 @@ const languageTexts: languageParams = {
         {
           title: 'Yüksek Teknoloji',
           image: '/icons/high-tech.png',
-          alt: 'SterilePipe',
+          alt: 'Frigolene Sterile Pipe',
         },
       ],
 
@@ -359,7 +359,7 @@ const languageTexts: languageParams = {
                 link: 'urunler/bina-ici-boru-sistemleri/elitepipe',
               },
               {
-                title: 'SterilePipe',
+                title: 'Frigolene Sterile Pipe',
                 link: '/urunler/bina-ici-boru-sistemleri/sterilepipe',
               },
               {
@@ -422,10 +422,10 @@ const sliderItems: sliderParams = {
       link: '/elitepipe',
     },
     {
-      title: 'SterilePipe',
+      title: 'Frigolene Sterile Pipe',
       image: '/productImages/product-2.png',
       description:
-        'SterilePipe is a pipe system that is resistant to high temperatures and is used in many areas.',
+        'Frigolene Sterile Pipe is a pipe system that is resistant to high temperatures and is used in many areas.',
       link: '/sterilepipe',
       customCSS: 'scale-175;',
     },
@@ -481,10 +481,10 @@ const sliderItems: sliderParams = {
       link: 'urunler/bina-ici-boru-sistemleri/elitepipe',
     },
     {
-      title: 'Sterile Pipe',
+      title: 'Frigolene Sterile Pipe',
       image: '/productImages/üst yapı borular/ATIK SU SESSİZ- TRİBPLEX BORU VE EK PARÇALAR/0.jpg',
       description:
-        'Sterile Pipe, hijyenik ve güvenli su taşıma çözümleri sunan yenilikçi bir boru sistemidir.',
+        'Frigolene Sterile Pipe, hijyenik ve güvenli su taşıma çözümleri sunan yenilikçi bir boru sistemidir.',
       link: 'urunler/bina-ici-boru-sistemleri/sterile-pipe',
     },
     {
@@ -1568,10 +1568,10 @@ const showroomProduct: matrixCardParams = {
     },
     {
       id: 2,
-      title: 'SterilePipe',
+      title: 'Frigolene Sterile Pipe',
       color: 'red',
       description:
-        'Sterile Pipe is a pipe system that is resistant microorganisms and high temperatures.',
+        'Frigolene Sterile Pipe is a pipe system that is resistant microorganisms and high temperatures.',
       image: '/productImages/product-2.png',
       link: '/sterilepipe',
       highlights: [
@@ -1603,10 +1603,10 @@ const showroomProduct: matrixCardParams = {
     },
     {
       id: 2,
-      title: 'SterilePipe',
+      title: 'Frigolene Sterile Pipe',
       color: 'red',
       description:
-        'SterilePipe, mikroorganizmalara karşı dirençli, yüksek sıcaklıklara dayanıklı ve birçok alanda kullanılmaktadır',
+        'Frigolene Sterile Pipe, mikroorganizmalara karşı dirençli, yüksek sıcaklıklara dayanıklı ve birçok alanda kullanılmaktadır',
       image: '/productImages/sterilepipe-1.png',
       link: '/sterilepipe',
       highlights: [

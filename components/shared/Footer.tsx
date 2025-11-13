@@ -65,7 +65,7 @@ const Footer = () => {
           link: t('link.products.elitePipe.link'),
         },
         {
-          title: 'SterilePipe',
+          title: 'Frigolene Sterile Pipe',
           link: t('link.products.sterilePipe.link'),
         },
         {

@@ -17,7 +17,7 @@
         "subMenu": {
           "indoor": {
             "name": "Bina İçi Boru Sistemleri",
-            "description": "Elite Pipe, Sterile Pipe vb.",
+            "description": "Elite Pipe, Frigolene Sterile Pipe vb.",
             "link": "/tr/urunler/bina-ici-boru-sistemleri"
           }
         }
@@ -262,8 +262,8 @@
         "link": "/tr/urunler/bina-ici-boru-sistemleri/elitepipe"
       },
       "sterilePipe": {
-        "title": "Sterile Pipe",
-        "description": "Sterile Pipe, bakteri, küf, mantar ve diğer mikrobiyal canlıları yok ederek içerisinden geçen suyu %99,9'a kadar sterilize eden yenilikçi bir boru sistemidir.",
+        "title": "Frigolene Sterile Pipe",
+        "description": "Frigolene Sterile Pipe, bakteri, küf, mantar ve diğer mikrobiyal canlıları yok ederek içerisinden geçen suyu %99,9'a kadar sterilize eden yenilikçi bir boru sistemidir.",
         "highlights": {
           "antimicrobial": "Antimikrobiyal Özellik",
           "longLasting": "Uzun Ömür",

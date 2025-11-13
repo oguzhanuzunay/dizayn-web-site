@@ -33,7 +33,7 @@ const heroSlider: HeroSliderParams = {
     {
       desktopImage: '/sliderImages/desktop/en/sterilepipe.jpg',
       mobileImage: '/sliderImages/mobile/en/sterilepipe.jpg',
-      alt: 'Sterile Pipe',
+      alt: 'Frigolene Sterile Pipe',
       link: '/en/urunler/bina-ici-boru-sistemleri/sterilepipe',
     },
     {
@@ -89,7 +89,7 @@ const heroSlider: HeroSliderParams = {
     {
       desktopImage: '/sliderImages/desktop/tr/sterilepipe.jpg',
       mobileImage: '/sliderImages/mobile/tr/sterilepipe.jpg',
-      alt: 'Sterile Pipe',
+      alt: 'Frigolene Sterile Pipe',
       link: '/tr/urunler/bina-ici-boru-sistemleri/sterilepipe',
     },
     {

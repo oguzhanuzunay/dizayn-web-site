@@ -415,9 +415,9 @@ export const productList: productListParams = {
       },
 
       {
-        title: 'Sterile Pipe',
+        title: 'Frigolene Sterile Pipe',
         description:
-          "Sterile Pipe, bakteri, küf, mantar ve diğer mikrobiyal canlıları yok ederek içerisinden geçen suyu %99,9'a kadar sterilize eden yenilikçi bir boru sistemidir.",
+          "Frigolene Sterile Pipe, bakteri, küf, mantar ve diğer mikrobiyal canlıları yok ederek içerisinden geçen suyu %99,9'a kadar sterilize eden yenilikçi bir boru sistemidir.",
         featuredProduct: true,
         logo: '/productImages/üst yapı borular/sterile-pipe/logo.png',
         isNewTech: true,
@@ -436,9 +436,9 @@ export const productList: productListParams = {
           { title: 'Sağlıklı Su', icon: '/icons/drink-water.png' },
         ],
         productDetails: {
-          title: 'Sterile Pipe',
+          title: 'Frigolene Sterile Pipe',
           description:
-            'SterilePipe, içme ve kullanma sularının mikrobiyolojik açıdan temiz kalmasını sağlamak için geliştirilmiş, üst segment anti-mikrobiyal PP-RC boru ve ek parçalarından oluşan bir ürün grubudur. Bu yenilikçi ürün, bakteriler, küf, mantar ve diğer mikrobiyal canlıları %99,9 oranında yok ederek suyun tadını, kokusunu ve rengini değiştirmeden sağlıklı hale getirir. SterilePipe, boru iç yüzeylerinde biyofilm oluşumunu engelleyerek içme suyu tesisatlarında maksimum hijyen sağlar. Hafif yapısı, kolay montaj imkanı ve yüksek basınç dayanımı ile kullanıcı dostu ve çevre dostu bir çözümdür. 4°C ile 95°C arasındaki ideal kullanım sıcaklığı sayesinde geniş bir kullanım yelpazesi sunar.',
+            'Frigolene Sterile Pipe, içme ve kullanma sularının mikrobiyolojik açıdan temiz kalmasını sağlamak için geliştirilmiş, üst segment anti-mikrobiyal PP-RC boru ve ek parçalarından oluşan bir ürün grubudur. Bu yenilikçi ürün, bakteriler, küf, mantar ve diğer mikrobiyal canlıları %99,9 oranında yok ederek suyun tadını, kokusunu ve rengini değiştirmeden sağlıklı hale getirir. Frigolene Sterile Pipe, boru iç yüzeylerinde biyofilm oluşumunu engelleyerek içme suyu tesisatlarında maksimum hijyen sağlar. Hafif yapısı, kolay montaj imkanı ve yüksek basınç dayanımı ile kullanıcı dostu ve çevre dostu bir çözümdür. 4°C ile 95°C arasındaki ideal kullanım sıcaklığı sayesinde geniş bir kullanım yelpazesi sunar.',
           features: [
             {
               title: 'Mikrobiyolojik Temizlik',
@@ -459,140 +459,140 @@ export const productList: productListParams = {
               icon: '/icons/application.png',
               alt: 'Application',
               description:
-                'Sterile Pipe, temiz su tesisatları, sıcak ve soğuk su hatları, radyatör ısıtma sistemleri gibi birçok alanda kullanılabilir.',
+                'Frigolene Sterile Pipe, temiz su tesisatları, sıcak ve soğuk su hatları, radyatör ısıtma sistemleri gibi birçok alanda kullanılabilir.',
             },
             {
               title: 'Ekonomik ve Güvenilir',
               icon: '/icons/economical.png',
               alt: 'Economical',
               description:
-                'Sterile Pipe, ekonomik fiyatı ve uzun ömürlü yapısıyla projelerinizde maliyet tasarrufu sağlar.',
+                'Frigolene Sterile Pipe, ekonomik fiyatı ve uzun ömürlü yapısıyla projelerinizde maliyet tasarrufu sağlar.',
             },
           ],
 
           images: [
             {
               image: '/productImages/üst yapı borular/sterile-pipe/sterile-pipe.png',
-              alt: 'Sterile Pipe',
-              description: 'Sterile Pipe',
+              alt: 'Frigolene Sterile Pipe',
+              description: 'Frigolene Sterile Pipe',
             },
             {
               image: '/productImages/üst yapı borular/sterile-pipe/sterile-pipe-2.png',
-              alt: 'Sterile Pipe',
-              description: 'Sterile Pipe',
+              alt: 'Frigolene Sterile Pipe',
+              description: 'Frigolene Sterile Pipe',
             },
             {
               image: '/productImages/üst yapı borular/sterile-pipe/sterile-pipe-3.png',
-              alt: 'Sterile Pipe',
-              description: 'Sterile Pipe',
+              alt: 'Frigolene Sterile Pipe',
+              description: 'Frigolene Sterile Pipe',
             },
           ],
 
           headers: [
             {
-              title: '<b>Sterile Pipe</b> ve Ek Parçaları',
+              title: '<b>Frigolene Sterile Pipe</b> ve Ek Parçaları',
               description:
-                'Dizayn Grup Sterile Pipe boruları, performansı ve yüksek kalitesi ile 20 mm - 32 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Sterile Pipe boruları, su şebekeleri, sıcak ve soğuk su hatları, kimyasal sanayi hatları gibi birçok alanda ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Sterile Pipe <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
+                'Dizayn Grup Frigolene Sterile Pipe boruları, performansı ve yüksek kalitesi ile 20 mm - 32 mm arası çaplarda ve çeşitli basınç sınıflarında üretilmektedir. Frigolene Sterile Pipe boruları, su şebekeleri, sıcak ve soğuk su hatları, kimyasal sanayi hatları gibi birçok alanda ideal çözümler sunar. Uzun ömürlü ve dayanıklı yapısıyla projelerinizin vazgeçilmezi olacak. Frigolene Sterile Pipe <b>Fiyat Listesi</b> için <b>0212 886 57 41</b> numaralı hattımızı arayarak bilgi sahibi olabilirsiniz.',
               image: '/productImages/üst yapı borular/sterile-pipe/sterile-pipe-2.png',
-              alt: 'Sterile Pipe',
+              alt: 'Frigolene Sterile Pipe',
             },
             {
-              title: 'Sterile Pipe <b>Avantajları</b>',
+              title: 'Frigolene Sterile Pipe <b>Avantajları</b>',
               description:
-                'Dizayn Grup Sterile Pipe boruları, sudaki mikroorganizmaları %99.9 u öldürerek suyu temizler. Yüksek sıcaklık ve basınca dayanımına sahiptir. Kimyasallara karşı yüksek direnç gösterir. Tuzlu su, sıhhi kanalizasyon atık suyu, korozif asitler, bazlar ve tuzlar gibi maddelere karşı üstün koruma sunar. Bu <b>özellikleri</b> ile Sterile Pipe boruları, uzun ömürlü, güvenilir ve yüksek performans sağlar.',
+                'Dizayn Grup Frigolene Sterile Pipe boruları, sudaki mikroorganizmaları %99.9 u öldürerek suyu temizler. Yüksek sıcaklık ve basınca dayanımına sahiptir. Kimyasallara karşı yüksek direnç gösterir. Tuzlu su, sıhhi kanalizasyon atık suyu, korozif asitler, bazlar ve tuzlar gibi maddelere karşı üstün koruma sunar. Bu <b>özellikleri</b> ile Frigolene Sterile Pipe boruları, uzun ömürlü, güvenilir ve yüksek performans sağlar.',
             },
             {
-              title: 'Sterile Pipe <b>Nerelerde Kullanılır?</b>',
+              title: 'Frigolene Sterile Pipe <b>Nerelerde Kullanılır?</b>',
               description:
-                'Dizayn Grup Sterile Pipe boruları, üstün hijyen standartları ve kalitesi ile hastaneler, oteller, belediye ve devlet daireleri, üniversiteler gibi prestijli projelerde tercih edilen bir üründür. Su şebekeleri, sıcak ve soğuk su hatları, kimyasal sanayi hatlarında güvenle kullanılabilir. Sterile Pipe boruları, projelerinizde güvenilir ve uzun ömürlü çözümler sunar. Sterile Pipe <b>Fiyat Listesi</b> için bizimle iletişime geçiniz.',
+                'Dizayn Grup Frigolene Sterile Pipe boruları, üstün hijyen standartları ve kalitesi ile hastaneler, oteller, belediye ve devlet daireleri, üniversiteler gibi prestijli projelerde tercih edilen bir üründür. Su şebekeleri, sıcak ve soğuk su hatları, kimyasal sanayi hatlarında güvenle kullanılabilir. Frigolene Sterile Pipe boruları, projelerinizde güvenilir ve uzun ömürlü çözümler sunar. Frigolene Sterile Pipe <b>Fiyat Listesi</b> için bizimle iletişime geçiniz.',
             },
             {
-              title: 'Sterile Pipe <b>Ağırlık Tablosu</b>',
+              title: 'Frigolene Sterile Pipe <b>Ağırlık Tablosu</b>',
               description:
-                'Dizayn Grup Sterile Pipe borularının ağırlık hesaplaması, içi boş silindir hacmi ve borunun yoğunluğu çarpılarak yapılır.  Bu boruların ağırlıkları, kullanılan malzeme ve üretim teknikleri ile doğru orantılıdır. ElitePipe boruları, iç ve dış çaplarına göre değişen ağırlıklara sahiptir.',
+                'Dizayn Grup Frigolene Sterile Pipe borularının ağırlık hesaplaması, içi boş silindir hacmi ve borunun yoğunluğu çarpılarak yapılır.  Bu boruların ağırlıkları, kullanılan malzeme ve üretim teknikleri ile doğru orantılıdır. ElitePipe boruları, iç ve dış çaplarına göre değişen ağırlıklara sahiptir.',
             },
             {
-              title: 'Sterile Pipe Teknik <b>Özellikleri</b>',
+              title: 'Frigolene Sterile Pipe Teknik <b>Özellikleri</b>',
               description:
-                'Dizayn Grup olarak kalite laboratuvarlarımızda sürekli gelişmeleri izleyip araştırmalar yapmaktayız. Sterile Pipe borularımız, 20 mm - 32 mm çap aralığında ve yüksek teknoloji ile üretilmektedir. Polietilenin <b>özellikleri</b> sayesinde, basınçlı su sistemlerinde kullanıma en uygun alternatiflerden biridir. Yeraltı ve yerüstü basınçlı su şebeke hatları, deniz deşarj projeleri ve endüstriyel uygulamalar gibi birçok alanda kullanılmaktadır.\n\nSterile Pipe boruları, sert beton borulara göre daha kolay işlenir, monte edilir ve maliyet tasarrufu sağlar. Yapısal olarak darbelere ve soğuk hava koşullarına dayanacak şekilde tasarlanmıştır. Deniz uygulamalarında uzun boylarda borular kıyıda monte edilip daha sonra yerine oturtulabilir.',
+                'Dizayn Grup olarak kalite laboratuvarlarımızda sürekli gelişmeleri izleyip araştırmalar yapmaktayız. Frigolene Sterile Pipe borularımız, 20 mm - 32 mm çap aralığında ve yüksek teknoloji ile üretilmektedir. Polietilenin <b>özellikleri</b> sayesinde, basınçlı su sistemlerinde kullanıma en uygun alternatiflerden biridir. Yeraltı ve yerüstü basınçlı su şebeke hatları, deniz deşarj projeleri ve endüstriyel uygulamalar gibi birçok alanda kullanılmaktadır.\n\nFrigolene Sterile Pipe boruları, sert beton borulara göre daha kolay işlenir, monte edilir ve maliyet tasarrufu sağlar. Yapısal olarak darbelere ve soğuk hava koşullarına dayanacak şekilde tasarlanmıştır. Deniz uygulamalarında uzun boylarda borular kıyıda monte edilip daha sonra yerine oturtulabilir.',
             },
             {
-              title: 'Sterile Pipe <b>Ek Parçaları</b>',
+              title: 'Frigolene Sterile Pipe <b>Ek Parçaları</b>',
               description:
-                'Dizayn Grup Sterile Pipe <b>ek parçaları</b> üstün kalitede üretilip tek tek kontrol edilerek sevk edilmektedir. Uygulama kolaylığı ve ergonomik tasarıma sahip ek parçalarımız, yüksek kalite ve uygun fiyat ekseninde siz değerli müşterilerimizin hizmetindedir. Sterile Pipe <b>ek parçaları</b>, basınçlı su sistemleri ve diğer endüstriyel uygulamalarda güvenle kullanılabilir.\n\n- Sterile Pipe <b>ek parçaları</b>\n- Sterile Pipe Eşit Te\n- Sterile Pipe Redüksiyon\n- Sterile Pipe Semer\n- Sterile Pipe Dirsekler\n- Sterile Pipe İnegal Te\n- Sterile Pipe Manşon\n- Sterile Pipe Körtapa\n- Sterile Pipe Flanş Adaptörü\nBu <b>ek parçaları</b>, Sterile Pipe boru sistemlerinizin güvenli ve dayanıklı bir şekilde birleştirilmesini sağlar.',
+                'Dizayn Grup Frigolene Sterile Pipe <b>ek parçaları</b> üstün kalitede üretilip tek tek kontrol edilerek sevk edilmektedir. Uygulama kolaylığı ve ergonomik tasarıma sahip ek parçalarımız, yüksek kalite ve uygun fiyat ekseninde siz değerli müşterilerimizin hizmetindedir. Frigolene Sterile Pipe <b>ek parçaları</b>, basınçlı su sistemleri ve diğer endüstriyel uygulamalarda güvenle kullanılabilir.\n\n- Frigolene Sterile Pipe <b>ek parçaları</b>\n- Frigolene Sterile Pipe Eşit Te\n- Frigolene Sterile Pipe Redüksiyon\n- Frigolene Sterile Pipe Semer\n- Frigolene Sterile Pipe Dirsekler\n- Frigolene Sterile Pipe İnegal Te\n- Frigolene Sterile Pipe Manşon\n- Frigolene Sterile Pipe Körtapa\n- Frigolene Sterile Pipe Flanş Adaptörü\nBu <b>ek parçaları</b>, Frigolene Sterile Pipe boru sistemlerinizin güvenli ve dayanıklı bir şekilde birleştirilmesini sağlar.',
             },
             {
-              title: 'Sterile Pipe Boru <b>Birleştirme Yöntemleri</b>',
+              title: 'Frigolene Sterile Pipe Boru <b>Birleştirme Yöntemleri</b>',
               description:
-                'Dizayn Grup Sterile Pipe boruları ve ek parçaları birbirlerine eritilerek veya mekanik ek parçalar ile bağlanırlar. Polietilen dışında diğer malzemelerden yapılan borulara dıştan sıkmalı ek parçalar, flanşlar veya amaca uygun yapılmış diğer geçiş adaptörleri ile bağlanabilirler. Bağlantı ek parçaları kullanılacak yerlere göre kolaylık sağlamaktadır.\n\n<b>Birleştirme Yöntemleri</b>\n- Elektrofüzyon (EF) Kaynağı: Elektrik enerjisi ile boru ve ek parça uçları eritilerek birleştirilir.\n- Alın Kaynağı: Boru uçlarının yüksek sıcaklıkta eritilerek birleştirilmesi.\n- Kaplin ile Birleştirme: Mekanik kaplin kullanılarak boru uçlarının birleştirilmesi.',
+                'Dizayn Grup Frigolene Sterile Pipe boruları ve ek parçaları birbirlerine eritilerek veya mekanik ek parçalar ile bağlanırlar. Polietilen dışında diğer malzemelerden yapılan borulara dıştan sıkmalı ek parçalar, flanşlar veya amaca uygun yapılmış diğer geçiş adaptörleri ile bağlanabilirler. Bağlantı ek parçaları kullanılacak yerlere göre kolaylık sağlamaktadır.\n\n<b>Birleştirme Yöntemleri</b>\n- Elektrofüzyon (EF) Kaynağı: Elektrik enerjisi ile boru ve ek parça uçları eritilerek birleştirilir.\n- Alın Kaynağı: Boru uçlarının yüksek sıcaklıkta eritilerek birleştirilmesi.\n- Kaplin ile Birleştirme: Mekanik kaplin kullanılarak boru uçlarının birleştirilmesi.',
             },
             {
-              title: 'Sterile Pipe Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
+              title: 'Frigolene Sterile Pipe Kaynak Yöntemi: <b>Elektrofüzyon Kaynak</b>',
               description:
-                '<b>Elektrofüzyon Kaynak</b> yönteminde, kaynak işlemi füzyon ek parçanın iç kısmındaki ısıtma rezistansları ile gerçekleştirilir. Sterile Pipe borular, elektrofüzyon ek parçalarının içine yerleştirilir ve kaynak makinesinin uçları ek parçanın üzerindeki soketlere bağlanarak elektrik akımı ile ısıtılır.\n\nBu yöntemle, Sterile Pipe borular güvenli ve sağlam bir şekilde birleştirilmiş olur. <b>Elektrofüzyon Kaynak</b> metodu ile 16 mm çaptan 63 mm çapa kadar olan Sterile Pipe borular kaynatılabilir.',
+                '<b>Elektrofüzyon Kaynak</b> yönteminde, kaynak işlemi füzyon ek parçanın iç kısmındaki ısıtma rezistansları ile gerçekleştirilir. Frigolene Sterile Pipe borular, elektrofüzyon ek parçalarının içine yerleştirilir ve kaynak makinesinin uçları ek parçanın üzerindeki soketlere bağlanarak elektrik akımı ile ısıtılır.\n\nBu yöntemle, Frigolene Sterile Pipe borular güvenli ve sağlam bir şekilde birleştirilmiş olur. <b>Elektrofüzyon Kaynak</b> metodu ile 16 mm çaptan 63 mm çapa kadar olan Frigolene Sterile Pipe borular kaynatılabilir.',
             },
             {
-              title: 'Sterile Pipe Kaynak Yöntemi: <b>Alın Kaynak</b>',
+              title: 'Frigolene Sterile Pipe Kaynak Yöntemi: <b>Alın Kaynak</b>',
               description:
-                '<b>Alın Kaynak</b>, Sterile Pipe boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. <b>Alın Kaynak</b> makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, Sterile Pipe boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 63 mm çapa kadar olan Sterile Pipe borular kaynatılabilir.',
+                '<b>Alın Kaynak</b>, Frigolene Sterile Pipe boru ve ek parçalarının birleştirilmesinde kullanılan en yaygın yöntemlerden biridir. <b>Alın Kaynak</b> makinesi kullanılarak, kaynatılacak olan boruların uçları traşlanır ve her iki uç belirli bir ısı altında baskı ile birbirlerine doğru itilerek birleştirilir. Bu yöntem, Frigolene Sterile Pipe boruların güvenli ve sağlam bir şekilde birleştirilmesini sağlar. Alın kaynağı yöntemi ile 63 mm çapa kadar olan Frigolene Sterile Pipe borular kaynatılabilir.',
             },
             {
-              title: 'Sterile Pipe Boru <b>Fiyat Listesi</b>',
+              title: 'Frigolene Sterile Pipe Boru <b>Fiyat Listesi</b>',
               description:
-                'Dizayn Grup Sterile Pipe boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Sterile Pipe borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Sterile Pipe boru avantajlarından yararlanmak ve 2024 Sterile Pipe Boru Fiyat Listesine ulaşmak için bizimle iletişime geçiniz.\n\nSterile Pipe borularımız hakkında detaylı bilgi almak için 0212 886 57 41 numaralı hattımızı arayabilirsiniz.',
+                'Dizayn Grup Frigolene Sterile Pipe boruları, yüksek kalitesi ve uygun fiyatı ile sizlere ulaşıyor. Frigolene Sterile Pipe borular, geniş çap seçenekleri, düşük maliyeti, taşıma kolaylığı ve üretim sürecindeki ekip çalışması ile size en uygun ürünü sunar. Frigolene Sterile Pipe boru avantajlarından yararlanmak ve 2024 Frigolene Sterile Pipe Boru Fiyat Listesine ulaşmak için bizimle iletişime geçiniz.\n\nFrigolene Sterile Pipe borularımız hakkında detaylı bilgi almak için 0212 886 57 41 numaralı hattımızı arayabilirsiniz.',
             },
           ],
 
           faqs: [
             {
-              question: 'Sterile Pipe borular hangi malzemeden üretilir?',
+              question: 'Frigolene Sterile Pipe borular hangi malzemeden üretilir?',
               answer:
-                'Sterile Pipe boruları, yüksek kaliteli polietilen malzemeden üretilmektedir. %100 saf ve orijinal hammadde kullanılarak üretilir.',
+                'Frigolene Sterile Pipe boruları, yüksek kaliteli polietilen malzemeden üretilmektedir. %100 saf ve orijinal hammadde kullanılarak üretilir.',
             },
             {
-              question: 'Sterile Pipe boruların kullanım alanları nelerdir?',
+              question: 'Frigolene Sterile Pipe boruların kullanım alanları nelerdir?',
               answer:
-                'Sterile Pipe boruları, su şebekeleri, sıcak ve soğuk su hatları, kimyasal sanayi hatları, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
+                'Frigolene Sterile Pipe boruları, su şebekeleri, sıcak ve soğuk su hatları, kimyasal sanayi hatları, atık su ve drenaj sistemleri, endüstriyel uygulamalar ve yeraltı su drenaj sistemlerinde kullanılabilir.',
             },
             {
-              question: 'Sterile Pipe borular hangi çap ve basınç sınıflarında mevcuttur?',
+              question: 'Frigolene Sterile Pipe borular hangi çap ve basınç sınıflarında mevcuttur?',
               answer:
-                "Sterile Pipe boruları, 16 mm'den 63 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
+                "Frigolene Sterile Pipe boruları, 16 mm'den 63 mm'ye kadar çeşitli çaplarda ve farklı basınç sınıflarında üretilmektedir.",
             },
             {
-              question: 'Sterile Pipe boruların birleştirme yöntemleri nelerdir?',
+              question: 'Frigolene Sterile Pipe boruların birleştirme yöntemleri nelerdir?',
               answer:
-                'Sterile Pipe boruları elektrofüzyon (EF) kaynağı, alın kaynağı ve kaplin ile birleştirme yöntemleri ile birleştirilebilir.',
+                'Frigolene Sterile Pipe boruları elektrofüzyon (EF) kaynağı, alın kaynağı ve kaplin ile birleştirme yöntemleri ile birleştirilebilir.',
             },
             {
-              question: 'Sterile Pipe boruları kimyasallara karşı dayanıklı mı?',
+              question: 'Frigolene Sterile Pipe boruları kimyasallara karşı dayanıklı mı?',
               answer:
-                'Evet, Sterile Pipe boruları tuzlu su, korozif asitler, bazlar ve diğer kimyasallara karşı yüksek direnç sağlar.',
+                'Evet, Frigolene Sterile Pipe boruları tuzlu su, korozif asitler, bazlar ve diğer kimyasallara karşı yüksek direnç sağlar.',
             },
             {
-              question: 'Sterile Pipe boruların avantajları nelerdir?',
+              question: 'Frigolene Sterile Pipe boruların avantajları nelerdir?',
               answer:
-                'Sterile Pipe boruları hafif, esnek ve dayanıklıdır. Paslanmaya karşı yüksek direnç gösterir ve uzun ömürlüdür. Ayrıca, taşıma ve kurulum sırasında minimum ağır ekipman gerektirir.',
+                'Frigolene Sterile Pipe boruları hafif, esnek ve dayanıklıdır. Paslanmaya karşı yüksek direnç gösterir ve uzun ömürlüdür. Ayrıca, taşıma ve kurulum sırasında minimum ağır ekipman gerektirir.',
             },
             {
-              question: 'Sterile Pipe boruların ömrü ne kadar?',
+              question: 'Frigolene Sterile Pipe boruların ömrü ne kadar?',
               answer:
-                'Sterile Pipe boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
+                'Frigolene Sterile Pipe boruları, yüksek kaliteli malzemeler ve üretim teknikleri sayesinde uzun ömürlüdür ve projelerinizde güvenle kullanılabilir.',
             },
             {
-              question: 'Sterile Pipe boruların fiyat listesine nasıl ulaşabilirim?',
+              question: 'Frigolene Sterile Pipe boruların fiyat listesine nasıl ulaşabilirim?',
               answer:
-                'Sterile Pipe boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
+                'Frigolene Sterile Pipe boruların 2024 Fiyat Listesi için 0212 886 57 41 numaralı hattımızı arayarak bilgi alabilirsiniz.',
             },
             {
-              question: 'Sterile Pipe boruların teknik özellikleri nelerdir?',
+              question: 'Frigolene Sterile Pipe boruların teknik özellikleri nelerdir?',
               answer:
-                'Sterile Pipe boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için Fiyat Listesini bakabilirsiniz.',
+                'Frigolene Sterile Pipe boruları geniş çap aralığı, yüksek basınç dayanımı ve pürüzsüz iç ve dış yüzey özellikleri ile üretilmektedir. Daha fazla bilgi için Fiyat Listesini bakabilirsiniz.',
             },
             {
-              question: 'Sterile Pipe boruları nasıl temin edebilirim?',
+              question: 'Frigolene Sterile Pipe boruları nasıl temin edebilirim?',
               answer:
-                "Sterile Pipe borularını Dizayn Grup'un yetkili satıcılarından veya doğrudan bizimle iletişime geçerek temin edebilirsiniz.",
+                "Frigolene Sterile Pipe borularını Dizayn Grup'un yetkili satıcılarından veya doğrudan bizimle iletişime geçerek temin edebilirsiniz.",
             },
           ],
           fittings: [],
@@ -3623,9 +3623,9 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         },
       },
       {
-        title: 'Sterile Pipe',
+        title: 'Frigolene Sterile Pipe',
         description:
-          'Sterile Pipe is an innovative pipe system that sterilizes the water passing through it up to 99.9% by eliminating bacteria, mold, fungi, and other microbial organisms.',
+          'Frigolene Sterile Pipe is an innovative pipe system that sterilizes the water passing through it up to 99.9% by eliminating bacteria, mold, fungi, and other microbial organisms.',
         featuredProduct: true,
         logo: '/productImages/üst yapı borular/sterile-pipe/logo.png',
         isNewTech: true,
@@ -3644,9 +3644,9 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
           { title: 'Healthy Water', icon: '/icons/drink-water.png' },
         ],
         productDetails: {
-          title: 'Sterile Pipe',
+          title: 'Frigolene Sterile Pipe',
           description:
-            'SterilePipe is a product group consisting of upper segment anti-microbial PP-RC pipes and fittings, developed to keep drinking and utility waters microbiologically clean. This innovative product eliminates bacteria, mold, fungi, and other microbial organisms by 99.9%, making the water healthy without altering its taste, odor, or color. SterilePipe prevents the formation of biofilm on the inner surfaces of pipes, ensuring maximum hygiene in drinking water plumbing. Its lightweight structure, easy installation capability, and high pressure resistance make it a user-friendly and environmentally friendly solution. It offers a wide range of uses with an ideal operating temperature range from 4°C to 95°C.',
+            'Frigolene Sterile Pipe is a product group consisting of upper segment anti-microbial PP-RC pipes and fittings, developed to keep drinking and utility waters microbiologically clean. This innovative product eliminates bacteria, mold, fungi, and other microbial organisms by 99.9%, making the water healthy without altering its taste, odor, or color. Frigolene Sterile Pipe prevents the formation of biofilm on the inner surfaces of pipes, ensuring maximum hygiene in drinking water plumbing. Its lightweight structure, easy installation capability, and high pressure resistance make it a user-friendly and environmentally friendly solution. It offers a wide range of uses with an ideal operating temperature range from 4°C to 95°C.',
           features: [
             {
               title: 'Microbiological Cleanliness',
@@ -3667,140 +3667,140 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
               icon: '/icons/application.png',
               alt: 'Application',
               description:
-                'Sterile Pipe can be used in clean water plumbing, hot and cold water lines, radiator heating systems, and many other areas.',
+                'Frigolene Sterile Pipe can be used in clean water plumbing, hot and cold water lines, radiator heating systems, and many other areas.',
             },
             {
               title: 'Economical and Reliable',
               icon: '/icons/economical.png',
               alt: 'Economical',
               description:
-                'Sterile Pipe offers cost savings in your projects with its economical price and long-lasting structure.',
+                'Frigolene Sterile Pipe offers cost savings in your projects with its economical price and long-lasting structure.',
             },
           ],
 
           images: [
             {
               image: '/productImages/üst yapı borular/sterile-pipe/sterile-pipe.png',
-              alt: 'Sterile Pipe',
-              description: 'Sterile Pipe',
+              alt: 'Frigolene Sterile Pipe',
+              description: 'Frigolene Sterile Pipe',
             },
             {
               image: '/productImages/üst yapı borular/sterile-pipe/sterile-pipe-2.png',
-              alt: 'Sterile Pipe',
-              description: 'Sterile Pipe',
+              alt: 'Frigolene Sterile Pipe',
+              description: 'Frigolene Sterile Pipe',
             },
             {
               image: '/productImages/üst yapı borular/sterile-pipe/sterile-pipe-3.png',
-              alt: 'Sterile Pipe',
-              description: 'Sterile Pipe',
+              alt: 'Frigolene Sterile Pipe',
+              description: 'Frigolene Sterile Pipe',
             },
           ],
 
           headers: [
             {
-              title: '<b>Sterile Pipe</b> and Fittings',
+              title: '<b>Frigolene Sterile Pipe</b> and Fittings',
               description:
-                'Design Group Sterile Pipe pipes are produced in diameters between 20 mm and 32 mm and various pressure classes, providing ideal solutions in areas like water networks, hot and cold water lines, and chemical industry lines. Its long-lasting and durable structure will make it an essential part of your projects. For the Sterile Pipe <b>Price List</b>, you can obtain information by calling our line at <b>0212 886 57 41</b>.',
+                'Design Group Frigolene Sterile Pipe pipes are produced in diameters between 20 mm and 32 mm and various pressure classes, providing ideal solutions in areas like water networks, hot and cold water lines, and chemical industry lines. Its long-lasting and durable structure will make it an essential part of your projects. For the Frigolene Sterile Pipe <b>Price List</b>, you can obtain information by calling our line at <b>0212 886 57 41</b>.',
               image: '/productImages/üst yapı borular/sterile-pipe/sterile-pipe-2.png',
-              alt: 'Sterile Pipe',
+              alt: 'Frigolene Sterile Pipe',
             },
             {
-              title: 'Advantages of Sterile Pipe',
+              title: 'Advantages of Frigolene Sterile Pipe',
               description:
-                'Design Group Sterile Pipe pipes clean the water by killing 99.9% of microorganisms in the water. It is resistant to high temperatures and pressures. It shows high resistance against chemicals. It offers superior protection against salty water, sanitary sewage wastewater, corrosive acids, bases, and salts. These <b>features</b> make Sterile Pipe pipes long-lasting, reliable, and high-performing.',
+                'Design Group Frigolene Sterile Pipe pipes clean the water by killing 99.9% of microorganisms in the water. It is resistant to high temperatures and pressures. It shows high resistance against chemicals. It offers superior protection against salty water, sanitary sewage wastewater, corrosive acids, bases, and salts. These <b>features</b> make Frigolene Sterile Pipe pipes long-lasting, reliable, and high-performing.',
             },
             {
-              title: 'Where is Sterile Pipe Used?',
+              title: 'Where is Frigolene Sterile Pipe Used?',
               description:
-                'Design Group Sterile Pipe pipes, with their superior hygiene standards and quality, are the preferred product in prestigious projects such as hospitals, hotels, municipal and government buildings, and universities. They can be safely used in water networks, hot and cold water lines, and chemical industry lines. Sterile Pipe pipes offer reliable and long-lasting solutions in your projects. For the Sterile Pipe <b>Price List</b>, please contact us.',
+                'Design Group Frigolene Sterile Pipe pipes, with their superior hygiene standards and quality, are the preferred product in prestigious projects such as hospitals, hotels, municipal and government buildings, and universities. They can be safely used in water networks, hot and cold water lines, and chemical industry lines. Frigolene Sterile Pipe pipes offer reliable and long-lasting solutions in your projects. For the Frigolene Sterile Pipe <b>Price List</b>, please contact us.',
             },
             {
-              title: 'Sterile Pipe Weight Table',
+              title: 'Frigolene Sterile Pipe Weight Table',
               description:
-                'The weight calculation of Design Group Sterile Pipe pipes is made by multiplying the volume of the hollow cylinder by the density of the pipe. The weights of these pipes are proportional to the materials and production techniques used. ElitePipe pipes have varying weights according to their internal and external diameters.',
+                'The weight calculation of Design Group Frigolene Sterile Pipe pipes is made by multiplying the volume of the hollow cylinder by the density of the pipe. The weights of these pipes are proportional to the materials and production techniques used. ElitePipe pipes have varying weights according to their internal and external diameters.',
             },
             {
-              title: 'Technical Features of Sterile Pipe',
+              title: 'Technical Features of Frigolene Sterile Pipe',
               description:
-                'As Design Group, we continuously monitor developments and conduct research in our quality laboratories. Our Sterile Pipe pipes are produced in the diameter range of 20 mm to 32 mm with high technology. Thanks to the <b>features</b> of polyethylene, it is one of the most suitable alternatives for use in pressurized water systems. It can be used in underground and above-ground pressurized water network lines, sea discharge projects, and industrial applications.\n\nSterile Pipe pipes are easier to process, install, and save costs compared to rigid concrete pipes. Structurally, they are designed to withstand impacts and cold weather conditions. In marine applications, long lengths of pipes can be assembled onshore and then placed in position.',
+                'As Design Group, we continuously monitor developments and conduct research in our quality laboratories. Our Frigolene Sterile Pipe pipes are produced in the diameter range of 20 mm to 32 mm with high technology. Thanks to the <b>features</b> of polyethylene, it is one of the most suitable alternatives for use in pressurized water systems. It can be used in underground and above-ground pressurized water network lines, sea discharge projects, and industrial applications.\n\nFrigolene Sterile Pipe pipes are easier to process, install, and save costs compared to rigid concrete pipes. Structurally, they are designed to withstand impacts and cold weather conditions. In marine applications, long lengths of pipes can be assembled onshore and then placed in position.',
             },
             {
-              title: 'Sterile Pipe Fittings',
+              title: 'Frigolene Sterile Pipe Fittings',
               description:
-                'Design Group Sterile Pipe <b>fittings</b> are produced with high quality and individually checked before shipment. Our fittings, which offer ease of application and ergonomic design, are at your service with high quality and reasonable prices. Sterile Pipe <b>fittings</b> can be safely used in pressurized water systems and other industrial applications.\n\n- Sterile Pipe <b>fittings</b>\n- Sterile Pipe Equal Tee\n- Sterile Pipe Reduction\n- Sterile Pipe Saddle\n- Sterile Pipe Elbows\n- Sterile Pipe Inegal Tee\n- Sterile Pipe Sleeve\n- Sterile Pipe Blind Plug\n- Sterile Pipe Flange Adapter\nThese <b>fittings</b> ensure the safe and durable connection of your Sterile Pipe piping systems.',
+                'Design Group Frigolene Sterile Pipe <b>fittings</b> are produced with high quality and individually checked before shipment. Our fittings, which offer ease of application and ergonomic design, are at your service with high quality and reasonable prices. Frigolene Sterile Pipe <b>fittings</b> can be safely used in pressurized water systems and other industrial applications.\n\n- Frigolene Sterile Pipe <b>fittings</b>\n- Frigolene Sterile Pipe Equal Tee\n- Frigolene Sterile Pipe Reduction\n- Frigolene Sterile Pipe Saddle\n- Frigolene Sterile Pipe Elbows\n- Frigolene Sterile Pipe Inegal Tee\n- Frigolene Sterile Pipe Sleeve\n- Frigolene Sterile Pipe Blind Plug\n- Frigolene Sterile Pipe Flange Adapter\nThese <b>fittings</b> ensure the safe and durable connection of your Frigolene Sterile Pipe piping systems.',
             },
             {
-              title: 'Sterile Pipe Joining Methods',
+              title: 'Frigolene Sterile Pipe Joining Methods',
               description:
-                'Design Group Sterile Pipe pipes and fittings are joined by melting them together or by mechanical fittings. Pipes made from materials other than polyethylene can be connected using external clamp fittings, flanges, or other suitable transition adapters. Connection fittings provide convenience depending on the place of use.\n\n<b>Joining Methods</b>\n- Electrofusion (EF) Welding: The ends of the pipe and fitting are melted using electrical energy for joining.\n- Butt Welding: The ends of the pipe are melted at high temperatures for joining.\n- Coupling Joining: The ends of the pipes are joined using a mechanical coupling.',
+                'Design Group Frigolene Sterile Pipe pipes and fittings are joined by melting them together or by mechanical fittings. Pipes made from materials other than polyethylene can be connected using external clamp fittings, flanges, or other suitable transition adapters. Connection fittings provide convenience depending on the place of use.\n\n<b>Joining Methods</b>\n- Electrofusion (EF) Welding: The ends of the pipe and fitting are melted using electrical energy for joining.\n- Butt Welding: The ends of the pipe are melted at high temperatures for joining.\n- Coupling Joining: The ends of the pipes are joined using a mechanical coupling.',
             },
             {
-              title: 'Sterile Pipe Welding Method: Electrofusion Welding',
+              title: 'Frigolene Sterile Pipe Welding Method: Electrofusion Welding',
               description:
-                '<b>Electrofusion Welding</b> method involves the welding process being carried out with heating resistors inside the fusion fitting. Sterile Pipe pipes are placed inside the electrofusion fittings, and the ends of the welding machine are connected to the sockets on the fitting and heated with electric current.\n\nThis method ensures that Sterile Pipe pipes are joined securely and robustly. <b>Electrofusion Welding</b> method can weld Sterile Pipe pipes from 16 mm to 63 mm in diameter.',
+                '<b>Electrofusion Welding</b> method involves the welding process being carried out with heating resistors inside the fusion fitting. Frigolene Sterile Pipe pipes are placed inside the electrofusion fittings, and the ends of the welding machine are connected to the sockets on the fitting and heated with electric current.\n\nThis method ensures that Frigolene Sterile Pipe pipes are joined securely and robustly. <b>Electrofusion Welding</b> method can weld Frigolene Sterile Pipe pipes from 16 mm to 63 mm in diameter.',
             },
             {
-              title: 'Sterile Pipe Welding Method: Butt Welding',
+              title: 'Frigolene Sterile Pipe Welding Method: Butt Welding',
               description:
-                '<b>Butt Welding</b>, one of the most common methods used in joining Sterile Pipe pipes and fittings. Using a butt welding machine, the ends of the pipes to be welded are shaved and then pushed towards each other under a certain heat with pressure. This method ensures that Sterile Pipe pipes are joined securely and robustly. The butt welding method can weld Sterile Pipe pipes up to 63 mm in diameter.',
+                '<b>Butt Welding</b>, one of the most common methods used in joining Frigolene Sterile Pipe pipes and fittings. Using a butt welding machine, the ends of the pipes to be welded are shaved and then pushed towards each other under a certain heat with pressure. This method ensures that Frigolene Sterile Pipe pipes are joined securely and robustly. The butt welding method can weld Frigolene Sterile Pipe pipes up to 63 mm in diameter.',
             },
             {
-              title: 'Sterile Pipe Price List',
+              title: 'Frigolene Sterile Pipe Price List',
               description:
-                'Design Group Sterile Pipe pipes reach you with high quality and competitive pricing. Sterile Pipe pipes, with a wide range of diameter options, low cost, ease of transport, and teamwork during the production process, offer the most suitable product for you. To benefit from the advantages of Sterile Pipe pipes and access the 2024 Sterile Pipe Pipe Price List, please contact us.\n\nFor detailed information about our Sterile Pipe pipes, please call our line at 0212 886 57 41.',
+                'Design Group Frigolene Sterile Pipe pipes reach you with high quality and competitive pricing. Frigolene Sterile Pipe pipes, with a wide range of diameter options, low cost, ease of transport, and teamwork during the production process, offer the most suitable product for you. To benefit from the advantages of Frigolene Sterile Pipe pipes and access the 2024 Frigolene Sterile Pipe Pipe Price List, please contact us.\n\nFor detailed information about our Frigolene Sterile Pipe pipes, please call our line at 0212 886 57 41.',
             },
           ],
 
           faqs: [
             {
-              question: 'What material are Sterile Pipe pipes made from?',
+              question: 'What material are Frigolene Sterile Pipe pipes made from?',
               answer:
-                'Sterile Pipe pipes are made from high-quality polyethylene. They are produced using 100% pure and original raw materials.',
+                'Frigolene Sterile Pipe pipes are made from high-quality polyethylene. They are produced using 100% pure and original raw materials.',
             },
             {
-              question: 'What are the applications for Sterile Pipe pipes?',
+              question: 'What are the applications for Frigolene Sterile Pipe pipes?',
               answer:
-                'Sterile Pipe pipes can be used in water networks, hot and cold water lines, chemical industry lines, wastewater and drainage systems, industrial applications, and underground water drainage systems.',
+                'Frigolene Sterile Pipe pipes can be used in water networks, hot and cold water lines, chemical industry lines, wastewater and drainage systems, industrial applications, and underground water drainage systems.',
             },
             {
-              question: 'What diameters and pressure classes are Sterile Pipe pipes available in?',
+              question: 'What diameters and pressure classes are Frigolene Sterile Pipe pipes available in?',
               answer:
-                'Sterile Pipe pipes are available in various diameters from 16 mm to 63 mm and in different pressure classes.',
+                'Frigolene Sterile Pipe pipes are available in various diameters from 16 mm to 63 mm and in different pressure classes.',
             },
             {
-              question: 'What are the joining methods for Sterile Pipe pipes?',
+              question: 'What are the joining methods for Frigolene Sterile Pipe pipes?',
               answer:
-                'Sterile Pipe pipes can be joined using electrofusion (EF) welding, butt welding, and coupling joining methods.',
+                'Frigolene Sterile Pipe pipes can be joined using electrofusion (EF) welding, butt welding, and coupling joining methods.',
             },
             {
-              question: 'Are Sterile Pipe pipes resistant to chemicals?',
+              question: 'Are Frigolene Sterile Pipe pipes resistant to chemicals?',
               answer:
-                'Yes, Sterile Pipe pipes offer high resistance against salty water, corrosive acids, bases, and other chemicals.',
+                'Yes, Frigolene Sterile Pipe pipes offer high resistance against salty water, corrosive acids, bases, and other chemicals.',
             },
             {
-              question: 'What are the advantages of Sterile Pipe pipes?',
+              question: 'What are the advantages of Frigolene Sterile Pipe pipes?',
               answer:
-                'Sterile Pipe pipes are light, flexible, and durable. They show high resistance to rusting and are long-lasting. Additionally, they require minimal heavy equipment during transportation and installation.',
+                'Frigolene Sterile Pipe pipes are light, flexible, and durable. They show high resistance to rusting and are long-lasting. Additionally, they require minimal heavy equipment during transportation and installation.',
             },
             {
-              question: 'How long do Sterile Pipe pipes last?',
+              question: 'How long do Frigolene Sterile Pipe pipes last?',
               answer:
-                'Sterile Pipe pipes, thanks to their high-quality materials and production techniques, are long-lasting and can be reliably used in your projects.',
+                'Frigolene Sterile Pipe pipes, thanks to their high-quality materials and production techniques, are long-lasting and can be reliably used in your projects.',
             },
             {
-              question: 'How can I access the price list for Sterile Pipe pipes?',
+              question: 'How can I access the price list for Frigolene Sterile Pipe pipes?',
               answer:
-                'You can obtain information about the 2024 Price List for Sterile Pipe pipes by calling our line at 0212 886 57 41.',
+                'You can obtain information about the 2024 Price List for Frigolene Sterile Pipe pipes by calling our line at 0212 886 57 41.',
             },
             {
-              question: 'What are the technical specifications of Sterile Pipe pipes?',
+              question: 'What are the technical specifications of Frigolene Sterile Pipe pipes?',
               answer:
-                'Sterile Pipe pipes are produced with a wide diameter range, high pressure resistance, and smooth internal and external surfaces. For more information, please refer to our product catalog.',
+                'Frigolene Sterile Pipe pipes are produced with a wide diameter range, high pressure resistance, and smooth internal and external surfaces. For more information, please refer to our product catalog.',
             },
             {
-              question: 'How can I obtain Sterile Pipe pipes?',
+              question: 'How can I obtain Frigolene Sterile Pipe pipes?',
               answer:
-                'You can obtain Sterile Pipe pipes from authorized sellers of the Design Group or by contacting us directly.',
+                'You can obtain Frigolene Sterile Pipe pipes from authorized sellers of the Design Group or by contacting us directly.',
             },
           ],
           fittings: [],
@@ -5320,7 +5320,7 @@ SoftPower Boru, montaj ve birleştirme işlemlerinde kolaylık sağlar, bu da mo
         title: 'Dizayn Pe 100',
         description:
           'RTP Boru, dayanıklı, esnek, kolay taşınan ve maliyet tasarrufu sağlayan yenilikçi bir boru sistemidir.',
-        image: '/productImages/üst yapı borular/SterilePipe/Untitled 3 v15.png',
+        image: '/productImages/üst yapı borular/Frigolene Sterile Pipe/Untitled 3 v15.png',
         link: '/en/urunler/bina-ici-boru-sistemleri/elitepipe',
         highlights: [
           { title: 'Darbeye Dayanıklı', icon: '/icons/durable.png' },

@@ -17,7 +17,7 @@
         "subMenu": {
           "indoor": {
             "name": "Indoor Piping Systems",
-            "description": "Elite Pipe, Sterile Pipe etc.",
+            "description": "Elite Pipe, Frigolene Sterile Pipe etc.",
             "link": "/en/products/indoor-pipe-systems"
           }
         }
@@ -263,8 +263,8 @@
         "link": "/en/urunler/bina-ici-boru-sistemleri/elitepipe"
       },
       "sterilePipe": {
-        "title": "Sterile Pipe",
-        "description": "Sterile Pipe is an innovative pipe system that sterilizes up to 99.9% of the water passing through it by destroying bacteria, mold, fungi and other microbial creatures.",
+        "title": "Frigolene Sterile Pipe",
+        "description": "Frigolene Sterile Pipe is an innovative pipe system that sterilizes up to 99.9% of the water passing through it by destroying bacteria, mold, fungi and other microbial creatures.",
         "highlights": {
           "antimicrobial": "Antimicrobial Feature",
           "longLasting": "Long life",
@@ -565,7 +565,7 @@
           "link": "/en/products/indoor-pipe-systems/elitepipe"
         },
         "sterilePipe": {
-          "name": "Sterile Pipe",
+          "name": "Frigolene Sterile Pipe",
           "link": "/en/products/indoor-pipe-systems/sterilepipe"
         }
       },
