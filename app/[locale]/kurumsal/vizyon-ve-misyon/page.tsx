@@ -31,6 +31,10 @@ const VizyonVeMisyon = () => {
       title: t('oduller-ve-basarilar.title'),
       link: t('oduller-ve-basarilar.link'),
     },
+    {
+      title: t('entegre-yonetim-sistemleri-politikasi.title'),
+      link: t('entegre-yonetim-sistemleri-politikasi.link'),
+    },
   ];
 
   return (

@@ -2,7 +2,6 @@
 import Header from '@/components/Header';
 import LinkedButton from '@/components/LinkedButton';
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 interface kurumsalLinksParam {
@@ -34,6 +33,10 @@ const Kurumsal = () => {
       title: t('oduller-ve-basarilar.title'),
       link: 'kurumsal/oduller-ve-basarilar',
     },
+    {
+      title: t('entegre-yonetim-sistemleri-politikasi.title'),
+      link: t('entegre-yonetim-sistemleri-politikasi.link'),
+    },
   ];
 
   return (
@@ -63,13 +66,6 @@ const Kurumsal = () => {
                     />
                   ))}
               </div>
-              <Image
-                src="/images/kurumsal.png"
-                alt="kurumsal"
-                width={600}
-                height={600}
-                className="w-full rounded-lg"
-              />
             </div>
 
             <div className="ml-4 flex w-1/2 flex-col items-start justify-center gap-3 max-md:ml-0 max-md:w-full max-md:pt-3">

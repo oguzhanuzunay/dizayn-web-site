@@ -1,8 +1,8 @@
 'use client';
 import Header from '@/components/Header';
+import ImageEffect from '@/components/ImageEffect';
 import LinkedButton from '@/components/LinkedButton';
 import { useLocale, useTranslations } from 'next-intl';
-import ImageEffect from '@/components/ImageEffect'
 import { usePathname } from 'next/navigation';
 
 const Tarihce = () => {
@@ -35,6 +35,10 @@ const Tarihce = () => {
     {
       title: t('oduller-ve-basarilar.title'),
       link: t('oduller-ve-basarilar.link'),
+    },
+    {
+      title: t('entegre-yonetim-sistemleri-politikasi.title'),
+      link: t('entegre-yonetim-sistemleri-politikasi.link'),
     },
   ];
 
