@@ -1061,24 +1061,8 @@ const dealerList: dealerListParams = [
     email: '',
     mapsLink: '',
   },
-  {
-    id: 102301,
-    cityId: 34,
-    name: 'YAFA PLASTİK İNŞ.GIDA NAK.GÜB.',
-    phone: '0 414 552 69 60',
-    address: 'SİVEREK/ŞANLIURFA',
-    email: '',
-    mapsLink: '',
-  },
-  {
-    id: 102303,
-    cityId: 34,
-    name: 'MEHMET ŞİRİN ESEN',
-    phone: '0 532 702 21 77',
-    address: 'İSTANBUL / KAĞITHANE',
-    email: '',
-    mapsLink: '',
-  },
+
+
   {
     id: 102304,
     cityId: 67,
